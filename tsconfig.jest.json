@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["src/lib/__tests__/**/*.ts", "src/lib/**/*.ts", "src/data/**/*.ts"],
+  "exclude": ["node_modules", ".next", "src/app", "src/components", "src/i18n"]
+}
