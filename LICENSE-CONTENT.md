@@ -1,35 +1,36 @@
-# 内容许可声明 (Content License)
+# Content License
 
-## 历史数据、时间线与事件描述
+## Historical Data, Timelines, and Event Descriptions
 
-本项目中的所有原创历史数据、时间线编排和事件描述文本，除非另有标注，均采用
-**知识共享 署名-相同方式共享 4.0 国际 (CC BY-SA 4.0)** 许可协议。
+All original historical data, timeline curation, and event description texts in this project are licensed under the
+**Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)** license, unless otherwise noted.
 
-### 你可以：
+### You are free to:
 
-- **分享** — 在任何媒介以任何形式复制、发行本作品
-- **改编** — 修改、转换或以本作品为基础进行创作
+- **Share** — copy and redistribute the material in any medium or format
+- **Adapt** — remix, transform, and build upon the material
 
-### 需要遵守：
+### Under the following terms:
 
-- **署名** — 你必须给出适当的署名，提供指向本许可协议的链接，
-  同时标明是否对原始作品作了修改。
-- **相同方式共享** — 如果你修改、转换或以本作品为基础进行创作，
-  你必须使用与原先许可协议相同的许可协议分发你的贡献作品。
-- **没有附加限制** — 你不得适用法律术语或技术措施限制其他人做许可协议允许的事情。
+- **Attribution** — You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made.
+- **ShareAlike** — If you remix, transform, or build upon the material,
+  you must distribute your contributions under the same license as the original.
+- **No additional restrictions** — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license permits.
 
-### 完整协议文本
+### Full License Text
 
-https://creativecommons.org/licenses/by-sa/4.0/legalcode.zh-Hans
+https://creativecommons.org/licenses/by-sa/4.0/legalcode
 
-## 补充说明
+## Additional Notes
 
-本项目中的历史事实本身不受版权保护。CC BY-SA 4.0 许可适用于：
+Historical facts themselves are not subject to copyright. The CC BY-SA 4.0 license applies to:
 
-1. 时间线的编排逻辑和选择
-2. 原创的事件描述和摘要文本
-3. 人物简介和背景说明
-4. 数据之间的关系映射
+1. The curation and selection logic of timelines
+2. Original event descriptions and summary texts
+3. Biographical profiles and contextual notes
+4. Relationship mappings between data entities
 
-引用的公共领域历史文献（如《宋史》、《资治通鉴》、Anglo-Saxon Chronicle 等）
-仍属于公共领域，不受此许可限制。
+Public domain historical sources (e.g., *History of Song*, *Zizhi Tongjian*, Anglo-Saxon Chronicle, etc.)
+remain in the public domain and are not restricted by this license.

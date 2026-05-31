@@ -1,35 +1,36 @@
 # NOTICE
 
-历史平行线 (History Parallel)
-Copyright 2026 历史平行线 Contributors
+History Parallel
+Copyright 2026 History Parallel Contributors
 
-This product includes software developed by the 历史平行线 Contributors.
+This product includes software developed by the History Parallel Contributors.
 
-## 代码许可
+## Source Code License
 
-本项目代码部分（包括但不限于所有 `.ts`、`.tsx`、`.css`、`.json` 文件中的源代码）
-采用 Apache License 2.0 许可。详见 LICENSE 文件。
+The source code in this project (including but not limited to all `.ts`, `.tsx`, `.css`,
+and `.json` files) is licensed under the Apache License 2.0. See the LICENSE file for details.
 
-## 内容许可
+## Content License
 
-本项目中的原创历史数据、时间线编排和事件描述文本
-采用 CC BY-SA 4.0 许可。详见 LICENSE-CONTENT.md 文件。
+Original historical data, timeline curation, and event description texts in this project
+are licensed under CC BY-SA 4.0. See the LICENSE-CONTENT.md file for details.
 
-## 品牌与商标
+## Brand and Trademark
 
-以下内容**不**包含在上述开源许可中，所有权利保留：
+The following are **not** covered by the above open-source licenses and all rights are reserved:
 
-- 项目名称「历史平行线」
-- 项目 Logo（如有）
-- 项目视觉识别系统（包括但不限于配色方案、排版规范、界面设计语言）
-- 项目品牌形象
+- The project name "History Parallel"
+- The project logo (if any)
+- The project visual identity system (including but not limited to color schemes,
+  typography specifications, and interface design language)
+- The project brand image
 
-未经明确书面授权，任何人不得将以上品牌资产用于衍生项目、
-商业用途或其他可能造成混淆的场景。
+These brand assets may not be used for derivative projects, commercial purposes, or in any context
+that may cause confusion without explicit written permission.
 
-## 第三方依赖
+## Third-Party Dependencies
 
-本项目使用了以下开源库：
+This project uses the following open-source libraries:
 
 - Next.js (MIT)
 - React (MIT)
@@ -37,4 +38,4 @@ This product includes software developed by the 历史平行线 Contributors.
 - lucide-react (ISC)
 - TypeScript (Apache-2.0)
 
-各第三方库的完整许可条款详见其各自的许可文件。
+See each library's respective license file for full terms.
