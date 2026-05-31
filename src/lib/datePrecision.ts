@@ -100,19 +100,23 @@ export function normalizeHistoricalYear(input: string | number | undefined): num
 
   const s = input.trim();
 
+  // "11世纪" -> 1001 (century start) — check BEFORE plain parseInt
+  const centuryMatch = s.match(/^[-]?\d+\s*世[纪紀]/);
+  if (centuryMatch) {
+    const century = parseInt(centuryMatch[0], 10);
+    return century < 0 ? (century + 1) * 100 : (century - 1) * 100 + 1;
+  }
+
   // Try direct number parse
   const n = parseInt(s, 10);
   if (!isNaN(n)) return n;
 
   // "约1048年" -> 1048 (approximate)
-  const approxMatch = s.match(/^约?\s*(-?\d+)/);
-  if (approxMatch) return parseInt(approxMatch[1], 10);
-
-  // "11世纪" -> 1001 (century start)
-  const centuryMatch = s.match(/^(-?\d+)\s*世[纪紀]/);
-  if (centuryMatch) {
-    const century = parseInt(centuryMatch[1], 10);
-    return century < 0 ? (century + 1) * 100 : (century - 1) * 100 + 1;
+  const approxMatch = s.match(/约?\s*(公元前\s*)?\s*(-?\d+)/);
+  if (approxMatch) {
+    const num = parseInt(approxMatch[2] ?? approxMatch[1], 10);
+    const isBC = (approxMatch[1] ?? '').includes('公元前');
+    return isBC ? -num : num;
   }
 
   // BC years: "公元前221年" -> -221

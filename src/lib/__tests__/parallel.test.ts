@@ -121,6 +121,22 @@ describe('getParallelEvents — focusEventId boost', () => {
   });
 });
 
+describe('getParallelEvents — data status filtering', () => {
+  test('only published events appear in parallel results', () => {
+    const result = getParallelEvents({ year: 1080, range: 20 });
+    const allIds = result.flatMap((g) => g.events.map((s) => s.event.id));
+    // All results should be published
+    const allEvents = result.flatMap((g) => g.events.map((s) => s.event));
+    expect(allEvents.every((e) => e.dataStatus === 'published')).toBe(true);
+  });
+
+  test('needs_review events do not appear in parallel results', () => {
+    const result = getParallelEvents({ year: 1080, range: 20 });
+    const allEvents = result.flatMap((g) => g.events.map((s) => s.event));
+    expect(allEvents.some((e) => e.dataStatus !== 'published')).toBe(false);
+  });
+});
+
 describe('getParallelEvents — focusPersonId boost', () => {
   test('focusPersonId boosts events associated with that person', () => {
     const result = getParallelEvents({

@@ -141,3 +141,16 @@ describe('search — tag matching', () => {
     expect(result.people.some((p) => p.name === '王安石')).toBe(true);
   });
 });
+
+describe('search — data status filtering', () => {
+  test('published data appears in search results', () => {
+    const result = search('苏轼');
+    expect(result.people.length).toBeGreaterThan(0);
+    expect(result.people.every((p) => p.dataStatus === 'published')).toBe(true);
+  });
+
+  test('all returned events are published', () => {
+    const result = search('war');
+    expect(result.events.every((e) => e.dataStatus === 'published')).toBe(true);
+  });
+});
