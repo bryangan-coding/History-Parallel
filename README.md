@@ -1,18 +1,10 @@
-# History Parallel &middot; 历史平行线
+# History Parallel
 
 > See what was happening around the world at the same moment in history.
->
-> 在同一时间，看见世界不同角落的历史现场。
 
 **History Parallel** is a web app for comparing historical timelines across civilizations. Pick a point in time, a historical figure, a region, or an event — and see what was unfolding simultaneously across different parts of the globe.
 
----
-
-**历史平行线** 是一个历史时空对照 WebApp。选择一个历史时间点、人物、地区或事件，即可看到同一时段内，全球不同文明、不同地区正在发生什么事。
-
----
-
-## Quick Start / 快速开始
+## Quick Start
 
 ```bash
 npm install
@@ -20,7 +12,7 @@ npm run dev
 # Open http://localhost:3000
 ```
 
-## Tech Stack / 技术栈
+## Tech Stack
 
 | Layer | Choice |
 |-------|--------|
@@ -31,7 +23,7 @@ npm run dev
 | State | React state (MVP) |
 | Database | Mock data → Supabase (planned) |
 
-## Project Structure / 项目结构
+## Project Structure
 
 ```
 src/
@@ -61,7 +53,7 @@ src/
     LocaleProvider.tsx    # i18n context
 ```
 
-## Core Features / 核心功能
+## Core Features
 
 - **Home**: Search entry + example prompts + browse by person / year / region
 - **Search**: Find people, events, regions, and years with grouped results
@@ -71,12 +63,12 @@ src/
 - **Data Notes**: Data structure, sourcing principles, licensing
 - **i18n**: Full Chinese / English language switch, with manually verified translations for all historical names and facts
 
-## Data Coverage / 当前数据覆盖
+## Data Coverage
 
 MVP covers the **11th century** (~960–1127 CE), including:
 
-| Region / 地区 | Content / 内容 |
-|---------------|----------------|
+| Region | Content |
+|--------|---------|
 | Northern Song China | Su Shi, Wang Anshi, Sima Guang, Ouyang Xiu; Crow Terrace Poetry Trial, Xining Reforms |
 | Europe | Norman Conquest, Road to Canossa, Gregorian Reform, Domesday Book |
 | Byzantium | Battle of Manzikert, Komnenos Dynasty |
@@ -84,7 +76,7 @@ MVP covers the **11th century** (~960–1127 CE), including:
 | Japan | Murasaki Shikibu, Fujiwara no Michinaga, The Tale of Genji |
 | India | Chola Dynasty, Ghaznavid invasions |
 
-## License / 授权
+## License
 
 | Type | License |
 |------|---------|
@@ -94,7 +86,7 @@ MVP covers the **11th century** (~960–1127 CE), including:
 
 See [NOTICE](NOTICE.md) for details.
 
-## Roadmap / 路线图
+## Roadmap
 
 1. Supabase / PostgreSQL backend
 2. Expanded time coverage (more historical periods)
@@ -103,7 +95,7 @@ See [NOTICE](NOTICE.md) for details.
 5. Community contribution and curation tools
 6. Additional language support
 
-## Development / 开发
+## Development
 
 ```bash
 npm run dev          # Start dev server
@@ -114,7 +106,7 @@ npm test             # Run tests (63 unit tests)
 npm run test:coverage # Test coverage report
 ```
 
-## Contributing / 贡献
+## Contributing
 
 Issues and pull requests are welcome. Before submitting a PR:
 
