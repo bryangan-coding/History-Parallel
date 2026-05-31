@@ -10,7 +10,7 @@ import ExamplePromptCard, {
 import { people } from '@/data/mockData';
 
 export default function HomePage() {
-  const { t } = useLocale();
+  const { locale, t } = useLocale();
   const publishedPeople = people.filter((p) => p.dataStatus === 'published');
 
   return (
@@ -45,7 +45,7 @@ export default function HomePage() {
       {/* Entry cards */}
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 w-full max-w-3xl mx-auto">
         <Link
-          href="/search?q=人物"
+          href="/people"
           className="group flex flex-col items-center p-6 rounded-xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-sm transition-all text-center"
         >
           <div className="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center mb-3 group-hover:bg-stone-200 transition-colors">
@@ -64,11 +64,11 @@ export default function HomePage() {
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByPerson}</h3>
-          <p className="mt-1 text-xs text-stone-400">{t.home.exploreByPersonDesc}</p>
+          <p className="mt-1 text-xs text-stone-400">{publishedPeople.length} {locale === 'en' ? 'figures' : '位人物'}</p>
         </Link>
 
         <Link
-          href="/search?q=1080"
+          href="/parallel?year=1400&range=2000"
           className="group flex flex-col items-center p-6 rounded-xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-sm transition-all text-center"
         >
           <div className="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center mb-3 group-hover:bg-stone-200 transition-colors">
@@ -87,11 +87,11 @@ export default function HomePage() {
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByYear}</h3>
-          <p className="mt-1 text-xs text-stone-400">{t.home.exploreByYearDesc}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '221 BCE – 1840 CE' : '公元前 221 年 – 公元 1840 年'}</p>
         </Link>
 
         <Link
-          href="/parallel?year=1080"
+          href="/parallel?year=1080&range=2000"
           className="group flex flex-col items-center p-6 rounded-xl border border-stone-200 bg-white hover:border-stone-400 hover:shadow-sm transition-all text-center"
         >
           <div className="w-10 h-10 rounded-lg bg-stone-100 flex items-center justify-center mb-3 group-hover:bg-stone-200 transition-colors">
@@ -110,7 +110,7 @@ export default function HomePage() {
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByRegion}</h3>
-          <p className="mt-1 text-xs text-stone-400">{t.home.exploreByRegionDesc}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '14 regions' : '14 个地区'}</p>
         </Link>
       </div>
 
