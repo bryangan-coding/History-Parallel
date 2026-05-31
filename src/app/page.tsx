@@ -3,12 +3,15 @@
 import Link from 'next/link';
 import { useLocale } from '@/i18n/LocaleProvider';
 import SearchBox from '@/components/common/SearchBox';
+import PersonCard from '@/components/cards/PersonCard';
 import ExamplePromptCard, {
   MOCK_PROMPTS,
 } from '@/components/cards/ExamplePromptCard';
+import { people } from '@/data/mockData';
 
 export default function HomePage() {
   const { t } = useLocale();
+  const publishedPeople = people.filter((p) => p.dataStatus === 'published');
 
   return (
     <div className="min-h-[calc(100vh-10rem)] flex flex-col items-center justify-center">
@@ -109,6 +112,20 @@ export default function HomePage() {
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByRegion}</h3>
           <p className="mt-1 text-xs text-stone-400">{t.home.exploreByRegionDesc}</p>
         </Link>
+      </div>
+
+      {/* Browse all people */}
+      <div className="mt-16 w-full max-w-3xl mx-auto">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
+            {t.home.exploreByPerson} ({publishedPeople.length})
+          </h2>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+          {publishedPeople.map((p) => (
+            <PersonCard key={p.id} person={p} />
+          ))}
+        </div>
       </div>
     </div>
   );
