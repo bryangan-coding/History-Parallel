@@ -18,7 +18,7 @@ interface Props {
 export default function EventPreviewPanel({ scored, regionName, onClose, locale }: Props) {
   const evt = scored.event;
   const persons = getPersonsForEvent(evt.id);
-  const region = getRegionById(evt.regionId);
+  const region = getRegionById(evt.regionId ?? '');
 
   return (
     <div className="mt-4 border border-stone-200 rounded-xl bg-white p-5 animate-in fade-in slide-in-from-bottom-2 duration-200">

@@ -16,7 +16,7 @@ export default function Timeline({
     );
   }
 
-  const sorted = [...events].sort((a, b) => a.startYear - b.startYear);
+  const sorted = [...events].sort((a, b) => (a.startYear ?? 0) - (b.startYear ?? 0));
 
   return (
     <div className="relative">

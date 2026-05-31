@@ -1,9 +1,10 @@
-import type { SearchResult, YearMatch } from '@/lib/types';
+import type { SearchResult, YearMatch, Person, HistoricalEvent } from '@/lib/types';
 import { people, events, regions } from '@/data/mockData';
 
 /**
  * Search across all entities: people, events, regions, years.
  * Supports Chinese names, English names, aliases, tags, and year numbers.
+ * Only returns published data for public-facing search.
  */
 export function search(query: string): SearchResult {
   const q = query.trim();
@@ -30,8 +31,10 @@ function matchScore(text: string, query: string): number {
   return 0;
 }
 
-function searchPeople(q: string) {
-  const results = people
+function searchPeople(q: string): Person[] {
+  const publishedPeople = people.filter((p) => p.dataStatus === 'published');
+
+  const results = publishedPeople
     .map((p) => {
       let score = 0;
       score += matchScore(p.name, q) * 3;
@@ -42,7 +45,7 @@ function searchPeople(q: string) {
       for (const tag of p.tags) {
         score += matchScore(tag, q);
       }
-      score += matchScore(p.summary, q) * 0.5;
+      score += matchScore(p.summary ?? '', q) * 0.5;
       score += matchScore(p.summaryEn ?? '', q) * 0.5;
       return { person: p, score };
     })
@@ -53,13 +56,15 @@ function searchPeople(q: string) {
   return results;
 }
 
-function searchEvents(q: string) {
-  const results = events
+function searchEvents(q: string): HistoricalEvent[] {
+  const publishedEvents = events.filter((e) => e.dataStatus === 'published');
+
+  const results = publishedEvents
     .map((e) => {
       let score = 0;
       score += matchScore(e.title, q) * 3;
       score += matchScore(e.titleEn ?? '', q) * 3;
-      score += matchScore(e.summary, q) * 2;
+      score += matchScore(e.summary ?? '', q) * 2;
       score += matchScore(e.summaryEn ?? '', q) * 2;
       for (const tag of e.tags) {
         score += matchScore(tag, q);
@@ -95,14 +100,16 @@ function searchRegions(q: string) {
 }
 
 function searchYears(q: string): YearMatch[] {
+  const publishedEvents = events.filter((e) => e.dataStatus === 'published');
+
   // Try to parse as a year number
   const yearNum = parseInt(q, 10);
   if (isNaN(yearNum)) return [];
 
   const range = 20; // Look at ±20 years
-  const inRange = events.filter((e) => {
-    const eventStart = e.startYear;
-    const eventEnd = e.endYear ?? e.startYear;
+  const inRange = publishedEvents.filter((e) => {
+    const eventStart = e.startYear ?? 0;
+    const eventEnd = e.endYear ?? eventStart;
     return (
       Math.abs(eventStart - yearNum) <= range ||
       Math.abs(eventEnd - yearNum) <= range ||
@@ -112,7 +119,7 @@ function searchYears(q: string): YearMatch[] {
 
   if (inRange.length === 0) {
     // Only show if the year exists in our data range
-    const allYears = events.map((e) => e.startYear);
+    const allYears = publishedEvents.map((e) => e.startYear ?? 0);
     const minYear = Math.min(...allYears);
     const maxYear = Math.max(...allYears);
     if (yearNum < minYear || yearNum > maxYear) return [];

@@ -117,7 +117,8 @@ class MockDataProvider implements DataProvider {
 
   async getEventsByYearRange(startYear: number, endYear: number): Promise<HistoricalEvent[]> {
     return mockEvents.filter((e) => {
-      const s = e.startYear;
+      if (e.dataStatus !== 'published') return false;
+      const s = e.startYear ?? 0;
       const en = e.endYear ?? s;
       return (s >= startYear && s <= endYear) || (en >= startYear && en <= endYear) || (s <= startYear && en >= endYear);
     });

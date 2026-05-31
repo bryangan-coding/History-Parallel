@@ -44,7 +44,7 @@ export default function ParallelTimelineView({ groups, centerYear, range }: Prop
         items.push({ scored: e, regionName: rn });
       }
     }
-    items.sort((a, b) => a.scored.event.startYear - b.scored.event.startYear);
+    items.sort((a, b) => (a.scored.event.startYear ?? 0) - (b.scored.event.startYear ?? 0));
     return items;
   }, [groups, locale]);
 

@@ -14,7 +14,7 @@ export default function TimelineItem({
   isLast: boolean;
 }) {
   const { locale } = useLocale();
-  const region = getRegionById(event.regionId);
+  const region = getRegionById(event.regionId ?? '');
 
   return (
     <div className={`relative pl-12 ${isLast ? 'pb-0' : 'pb-8'}`}>

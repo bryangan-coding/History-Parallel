@@ -5,6 +5,51 @@
 /** Supported locale */
 export type Locale = 'zh' | 'en';
 
+// ==================== Data Pipeline Types ====================
+
+export type DatePrecision =
+  | 'day'
+  | 'month'
+  | 'year'
+  | 'decade'
+  | 'century'
+  | 'range'
+  | 'unknown';
+
+export type DataStatus =
+  | 'imported'
+  | 'needs_review'
+  | 'verified'
+  | 'published'
+  | 'rejected';
+
+export type SourceType =
+  | 'wikidata'
+  | 'wikipedia'
+  | 'manual'
+  | 'book'
+  | 'article'
+  | 'encyclopedia'
+  | 'museum'
+  | 'archive'
+  | 'other';
+
+export interface ExternalReference {
+  id: string;
+  sourceType: SourceType;
+  externalId?: string;
+  url?: string;
+  title?: string;
+  author?: string;
+  publisher?: string;
+  year?: number;
+  license?: string;
+  retrievedAt?: string;
+  note?: string;
+}
+
+// ==================== Core Entity Types ====================
+
 /** A geographic or civilizational region */
 export interface Region {
   id: string;
@@ -22,14 +67,30 @@ export interface Person {
   name: string;
   nameEn?: string;
   alternativeNames: string[];
-  birthYear: number;
-  deathYear: number;
-  regionId: string;
+  birthYear?: number;
+  deathYear?: number;
+  birthDatePrecision?: DatePrecision;
+  deathDatePrecision?: DatePrecision;
+  regionId?: string;
+  civilizationId?: string;
+  occupations: string[];
   tags: string[];
   tagsEn?: string[];
-  summary: string;
+  summary?: string;
   summaryEn?: string;
   sourceIds: string[];
+
+  // Wikidata integration
+  wikidataQid?: string;
+  wikipediaPageId?: string;
+  wikipediaSlug?: string;
+
+  // Data pipeline
+  dataStatus: DataStatus;
+  confidenceScore: number;
+  externalReferences: ExternalReference[];
+  lastReviewedAt?: string;
+  reviewedBy?: string;
 }
 
 /** A historical event */
@@ -37,22 +98,46 @@ export interface HistoricalEvent {
   id: string;
   title: string;
   titleEn?: string;
-  startYear: number;
+  startYear?: number;
   endYear?: number;
+  startDateText?: string;
+  endDateText?: string;
   approximateDateText?: string;
-  regionId: string;
+  datePrecision: DatePrecision;
+  isApproximate: boolean;
+
+  regionId?: string;
+  civilizationId?: string;
   placeName?: string;
   placeNameEn?: string;
+  coordinates?: {
+    lat: number;
+    lng: number;
+  };
+
   personIds: string[];
   tags: string[];
   tagsEn?: string[];
   importance: 1 | 2 | 3 | 4 | 5;
-  summary: string;
+
+  summary?: string;
   summaryEn?: string;
-  description: string;
+  description?: string;
   descriptionEn?: string;
   sourceIds: string[];
   relatedEventIds: string[];
+
+  // Wikidata integration
+  wikidataQid?: string;
+  wikipediaPageId?: string;
+  wikipediaSlug?: string;
+
+  // Data pipeline
+  dataStatus: DataStatus;
+  confidenceScore: number;
+  externalReferences: ExternalReference[];
+  lastReviewedAt?: string;
+  reviewedBy?: string;
 }
 
 /** A source citation */
@@ -67,6 +152,8 @@ export interface Source {
   note?: string;
   license?: string;
 }
+
+// ==================== Search & Parallel Types ====================
 
 /** Search result types for grouping */
 export interface SearchResult {
@@ -110,6 +197,18 @@ export interface ParallelPageParams {
   range?: TimeRange;
 }
 
+// ==================== Data Pipeline Helpers ====================
+
+/** Check if an entity has published status */
+export function isPublished(entity: { dataStatus: DataStatus }): boolean {
+  return entity.dataStatus === 'published';
+}
+
+/** Filter a list to only published items */
+export function filterPublished<T extends { dataStatus: DataStatus }>(items: T[]): T[] {
+  return items.filter(isPublished);
+}
+
 // ==================== i18n accessors ====================
 
 /** Get localized name for a person */
@@ -119,7 +218,7 @@ export function personName(p: Person, locale: Locale): string {
 
 /** Get localized summary for a person */
 export function personSummary(p: Person, locale: Locale): string {
-  return (locale === 'en' && p.summaryEn) ? p.summaryEn : p.summary;
+  return (locale === 'en' && p.summaryEn) ? p.summaryEn : p.summary ?? '';
 }
 
 /** Get localized tags for a person */
@@ -144,12 +243,12 @@ export function eventTitle(e: HistoricalEvent, locale: Locale): string {
 
 /** Get localized summary for an event */
 export function eventSummary(e: HistoricalEvent, locale: Locale): string {
-  return (locale === 'en' && e.summaryEn) ? e.summaryEn : e.summary;
+  return (locale === 'en' && e.summaryEn) ? e.summaryEn : e.summary ?? '';
 }
 
 /** Get localized description for an event */
 export function eventDescription(e: HistoricalEvent, locale: Locale): string {
-  return (locale === 'en' && e.descriptionEn) ? e.descriptionEn : e.description;
+  return (locale === 'en' && e.descriptionEn) ? e.descriptionEn : e.description ?? '';
 }
 
 /** Get localized place name for an event */

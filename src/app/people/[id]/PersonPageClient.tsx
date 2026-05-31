@@ -18,7 +18,7 @@ export function PersonPageClient({ id }: { id: string }) {
     notFound();
   }
 
-  const region = getRegionById(person.regionId);
+  const region = getRegionById(person.regionId ?? '');
   const personEvents = getEventsForPerson(person.id);
   const tags = personTags(person, locale);
 
@@ -44,7 +44,7 @@ export function PersonPageClient({ id }: { id: string }) {
               </p>
             )}
             <p className="text-sm text-stone-500 mt-3">
-              {formatLifespan(person.birthYear, person.deathYear)}
+              {formatLifespan(person.birthYear ?? 0, person.deathYear ?? 0)}
             </p>
             <div className="flex flex-wrap gap-1.5 mt-3">
               {tags.map((tag) => (

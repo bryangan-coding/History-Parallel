@@ -21,7 +21,7 @@ export default function EventCard({
   showParallelButton?: boolean;
 }) {
   const { locale } = useLocale();
-  const region = getRegionById(event.regionId);
+  const region = event.regionId ? getRegionById(event.regionId) : undefined;
   const persons = getPersonsForEvent(event.id);
   const tags = eventTags(event, locale);
   const displayPlaceName = eventPlaceName(event, locale);
@@ -50,7 +50,7 @@ export default function EventCard({
             </span>
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-stone-500">
-            <span>{formatYearRange(event.startYear, event.endYear)}</span>
+            <span>{formatYearRange(event.startYear ?? 0, event.endYear)}</span>
             {displayPlaceName && (
               <>
                 <span className="text-stone-300">·</span>
@@ -94,7 +94,7 @@ export default function EventCard({
 
         {showParallelButton && (
           <Link
-            href={`/parallel?year=${event.startYear}&focusEvent=${event.id}`}
+            href={`/parallel?year=${event.startYear ?? 0}&focusEvent=${event.id}`}
             className="ml-auto text-xs font-medium text-stone-500 hover:text-stone-800 transition-colors border border-stone-200 rounded-md px-2 py-0.5 hover:border-stone-400"
           >
             {locale === 'en' ? 'Parallel World →' : '同时期世界 →'}

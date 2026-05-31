@@ -106,6 +106,51 @@ npm test             # Run tests (63 unit tests)
 npm run test:coverage # Test coverage report
 ```
 
+## Historical Data Pipeline
+
+The project's data pipeline has these stages:
+
+1. **Import** — External data (e.g., Wikidata) is imported into `src/data/imported/`
+2. **Normalize** — Data is standardized (names, dates, tags)
+3. **Validate** — Quality rules are checked
+4. **Dedupe** — Potential duplicates are detected for human review
+5. **Review** — Administrators review data in /admin/review/
+6. **Publish** — Only `dataStatus = "published"` data appears in public pages
+
+Automatically imported data is never directly shown to regular users. Only entities with `dataStatus = "published"` appear in public pages, search results, and the parallel timeline view.
+
+### Data Status
+
+| Status | Meaning |
+|--------|---------|
+| `imported` | Externally imported, not yet reviewed |
+| `needs_review` | Awaiting human review |
+| `verified` | Verified but not yet published |
+| `published` | Published — visible to regular users |
+| `rejected` | Rejected |
+
+### Importing from Wikidata
+
+```bash
+# Dry-run (no data saved)
+npm run import:wikidata:people -- --birthYearStart 960 --birthYearEnd 1279 --limit 50 --dry-run
+npm run import:wikidata:events -- --startYear 1000 --endYear 1100 --limit 100 --dry-run
+
+# Real import (saves to src/data/imported/)
+npm run import:wikidata:people -- --birthYearStart 960 --birthYearEnd 1279 --limit 50
+```
+
+### Data Validation & Deduplication
+
+```bash
+npm run validate:data    # Run validation checks
+npm run dedupe:data      # Detect potential duplicates
+```
+
+## Editorial Principle
+
+AI and automated import tools may assist in organizing historical data, but must never generate historical facts without sources. All `published` data requires human review and recorded sources.
+
 ## Contributing
 
 Issues and pull requests are welcome. Before submitting a PR:

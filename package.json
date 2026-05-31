@@ -10,7 +10,11 @@
     "test": "jest --config jest.config.js",
     "test:watch": "jest --config jest.config.js --watch",
     "test:coverage": "jest --config jest.config.js --coverage",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "import:wikidata:people": "tsx scripts/import-wikidata-people.ts",
+    "import:wikidata:events": "tsx scripts/import-wikidata-events.ts",
+    "validate:data": "tsx scripts/validate-data.ts",
+    "dedupe:data": "tsx scripts/dedupe-data.ts"
   },
   "dependencies": {
     "lucide-react": "^1.17.0",
@@ -33,6 +37,7 @@
     "jest-environment-jsdom": "^30.4.1",
     "tailwindcss": "^4",
     "ts-jest": "^29.4.11",
+    "tsx": "^4.22.3",
     "typescript": "^5"
   }
 }

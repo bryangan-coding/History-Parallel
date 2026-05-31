@@ -14,8 +14,9 @@ interface GetParallelEventsOptions {
 }
 
 /**
- * Get all events in parallel across regions for a given year and time range.
+ * Get all PUBLISHED events in parallel across regions for a given year and time range.
  * Returns events grouped by region, sorted by relevance.
+ * Only dataStatus = 'published' events are included.
  */
 export function getParallelEvents({
   year,
@@ -26,10 +27,12 @@ export function getParallelEvents({
   const minYear = year - range;
   const maxYear = year + range;
 
-  // Find events within the time window
-  const eventsInRange = events.filter((e) => {
-    const eventStart = e.startYear;
-    const eventEnd = e.endYear ?? e.startYear;
+  // Find published events within the time window
+  const publishedEvents = events.filter((e) => e.dataStatus === 'published');
+
+  const eventsInRange = publishedEvents.filter((e) => {
+    const eventStart = e.startYear ?? 0;
+    const eventEnd = e.endYear ?? eventStart;
     return (
       (eventStart >= minYear && eventStart <= maxYear) ||
       (eventEnd >= minYear && eventEnd <= maxYear) ||
@@ -43,9 +46,10 @@ export function getParallelEvents({
     let distanceFromFocus = 0;
 
     // Distance from focus year
+    const eventStart = event.startYear ?? 0;
     const eventMid = event.endYear
-      ? (event.startYear + event.endYear) / 2
-      : event.startYear;
+      ? (eventStart + event.endYear) / 2
+      : eventStart;
     distanceFromFocus = Math.abs(eventMid - year);
     score -= distanceFromFocus * 3;
 
@@ -75,7 +79,7 @@ export function getParallelEvents({
   const grouped = new Map<string, ScoredEvent[]>();
 
   for (const s of scored) {
-    const regionId = s.event.regionId;
+    const regionId = s.event.regionId ?? 'unknown';
     if (!grouped.has(regionId)) {
       grouped.set(regionId, []);
     }
@@ -95,9 +99,8 @@ export function getParallelEvents({
     result.push({ region, events: evts });
   }
 
-  // Sort regions: China first if focus is Chinese, then by event count
+  // Sort regions: prioritize regions with highest-scored events
   result.sort((a, b) => {
-    // Prioritize regions that have highest-scored events
     const aTop = a.events[0]?.score ?? 0;
     const bTop = b.events[0]?.score ?? 0;
     return bTop - aTop;

@@ -83,7 +83,7 @@ describe('search — year number', () => {
     const near = result.yearMatches[0]?.nearEvents ?? [];
     // All returned events should be within ±20 years of 1080
     for (const evt of near) {
-      const start = evt.startYear;
+      const start = evt.startYear ?? 0;
       const end = evt.endYear ?? start;
       const overlaps =
         Math.abs(start - 1080) <= 20 ||

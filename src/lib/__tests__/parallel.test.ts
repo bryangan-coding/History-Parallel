@@ -11,7 +11,7 @@ describe('getParallelEvents — range logic', () => {
     const result = getParallelEvents({ year: 1080, range: 0 });
     const allEvents = result.flatMap((g) => g.events.map((s) => s.event));
     for (const evt of allEvents) {
-      const start = evt.startYear;
+      const start = evt.startYear ?? 0;
       const end = evt.endYear ?? start;
       const includes1080 =
         (start <= 1080 && end >= 1080) ||
@@ -25,7 +25,7 @@ describe('getParallelEvents — range logic', () => {
     const result = getParallelEvents({ year: 1080, range: 5 });
     const allEvents = result.flatMap((g) => g.events.map((s) => s.event));
     for (const evt of allEvents) {
-      const start = evt.startYear;
+      const start = evt.startYear ?? 0;
       const end = evt.endYear ?? start;
       const inRange =
         Math.abs(start - 1080) <= 5 ||
@@ -39,7 +39,7 @@ describe('getParallelEvents — range logic', () => {
     const result = getParallelEvents({ year: 1080, range: 20 });
     const allEvents = result.flatMap((g) => g.events.map((s) => s.event));
     for (const evt of allEvents) {
-      const start = evt.startYear;
+      const start = evt.startYear ?? 0;
       const end = evt.endYear ?? start;
       const inRange =
         Math.abs(start - 1080) <= 20 ||
@@ -55,7 +55,7 @@ describe('getParallelEvents — range logic', () => {
     // With range=100, we should get many events from ~980 to ~1180
     expect(allEvents.length).toBeGreaterThan(5);
     for (const evt of allEvents) {
-      const start = evt.startYear;
+      const start = evt.startYear ?? 0;
       const end = evt.endYear ?? start;
       const inRange =
         Math.abs(start - 1080) <= 100 ||
@@ -72,7 +72,7 @@ describe('getParallelEvents — cross-year (multi-year) events', () => {
     const multiYearEvent = events.find(
       (e) =>
         e.endYear !== undefined &&
-        e.startYear <= 1080 &&
+        (e.startYear ?? 0) <= 1080 &&
         e.endYear >= 1080
     );
     // If such an event exists in mock data, it should appear in range=0

@@ -8,7 +8,7 @@ import Tag from '@/components/common/Tag';
 
 export default function PersonCard({ person }: { person: Person }) {
   const { locale } = useLocale();
-  const region = getRegionById(person.regionId);
+  const region = person.regionId ? getRegionById(person.regionId) : undefined;
   const tags = personTags(person, locale);
 
   return (
@@ -34,7 +34,7 @@ export default function PersonCard({ person }: { person: Person }) {
         )}
       </div>
       <p className="mt-1 text-sm text-stone-500">
-        {formatLifespan(person.birthYear, person.deathYear)}
+        {formatLifespan(person.birthYear ?? 0, person.deathYear ?? 0)}
       </p>
       <p className="mt-2 text-sm text-stone-600 leading-relaxed line-clamp-2">
         {personSummary(person, locale)}

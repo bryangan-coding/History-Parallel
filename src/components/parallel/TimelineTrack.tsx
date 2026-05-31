@@ -65,7 +65,7 @@ const TimelineTrack = memo(function TimelineTrack({
       {/* Event nodes */}
       {events.map((scored) => {
         const evt = scored.event;
-        const x = getXPercent(evt.startYear);
+        const x = getXPercent(evt.startYear ?? 0);
         const size = nodeSize(evt.importance);
         const color = nodeColor(evt.importance);
         const isHovered = hoveredId === evt.id;

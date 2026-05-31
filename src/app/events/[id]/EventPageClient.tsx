@@ -31,7 +31,7 @@ export function EventPageClient({ id }: { id: string }) {
   }
 
   const persons = getPersonsForEvent(event.id);
-  const region = getRegionById(event.regionId);
+  const region = event.regionId ? getRegionById(event.regionId) : undefined;
   const tags = eventTags(event, locale);
   const displayPlaceName = eventPlaceName(event, locale);
 
@@ -40,7 +40,7 @@ export function EventPageClient({ id }: { id: string }) {
       (e) =>
         e.id !== event.id &&
         e.regionId === event.regionId &&
-        Math.abs(e.startYear - event.startYear) <= 50,
+        Math.abs((e.startYear ?? 0) - (event.startYear ?? 0)) <= 50,
     )
     .slice(0, 5);
 
@@ -123,7 +123,7 @@ export function EventPageClient({ id }: { id: string }) {
           )}
 
           <Link
-            href={`/parallel?year=${event.startYear}&focusEvent=${event.id}`}
+            href={`/parallel?year=${event.startYear ?? 0}&focusEvent=${event.id}`}
             className="block p-4 rounded-xl border border-stone-300 bg-stone-50 hover:bg-stone-100 hover:border-stone-400 transition-colors text-center"
           >
             <p className="text-sm font-medium text-stone-700">

@@ -1,0 +1,871 @@
+{
+  "timestamp": "2026-05-31T09:37:46.480Z",
+  "summary": {
+    "personDuplicates": 4,
+    "eventDuplicates": 24
+  },
+  "personDuplicates": [
+    {
+      "personId": "wang-anshi",
+      "personName": "王安石",
+      "candidates": [
+        {
+          "id": "sima-guang",
+          "name": "司马光",
+          "score": 0.55,
+          "reasons": [
+            "Birth years within 2 years",
+            "Death years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "william-conqueror",
+          "name": "威廉一世（征服者）",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        },
+        {
+          "id": "gregory-vii",
+          "name": "格里高利七世",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "personId": "sima-guang",
+      "personName": "司马光",
+      "candidates": [
+        {
+          "id": "wang-anshi",
+          "name": "王安石",
+          "score": 0.55,
+          "reasons": [
+            "Birth years within 2 years",
+            "Death years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "william-conqueror",
+          "name": "威廉一世（征服者）",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        },
+        {
+          "id": "gregory-vii",
+          "name": "格里高利七世",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "personId": "william-conqueror",
+      "personName": "威廉一世（征服者）",
+      "candidates": [
+        {
+          "id": "wang-anshi",
+          "name": "王安石",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        },
+        {
+          "id": "sima-guang",
+          "name": "司马光",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "personId": "gregory-vii",
+      "personName": "格里高利七世",
+      "candidates": [
+        {
+          "id": "wang-anshi",
+          "name": "王安石",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        },
+        {
+          "id": "sima-guang",
+          "name": "司马光",
+          "score": 0.3,
+          "reasons": [
+            "Birth years within 10 years",
+            "Death years within 2 years"
+          ]
+        }
+      ]
+    }
+  ],
+  "eventDuplicates": [
+    {
+      "eventId": "evt-wutai",
+      "eventTitle": "乌台诗案",
+      "candidates": [
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.6,
+          "reasons": [
+            "Start years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-lingnan",
+          "title": "苏轼被贬岭南",
+          "score": 0.35,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-sushi-huangzhou",
+      "eventTitle": "苏轼被贬黄州",
+      "candidates": [
+        {
+          "id": "evt-wutai",
+          "title": "乌台诗案",
+          "score": 0.6,
+          "reasons": [
+            "Start years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 0.5,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-lingnan",
+          "title": "苏轼被贬岭南",
+          "score": 0.4,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sima-zztj",
+          "title": "司马光编纂《资治通鉴》",
+          "score": 0.35,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-domesday-book",
+          "title": "编撰《末日审判书》",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        },
+        {
+          "id": "evt-gregorian-reform",
+          "title": "格列高利教会改革",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-wang-anshi-reform",
+      "eventTitle": "王安石变法（熙宁变法）",
+      "candidates": [
+        {
+          "id": "evt-sima-zztj",
+          "title": "司马光编纂《资治通鉴》",
+          "score": 0.6,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wutai",
+          "title": "乌台诗案",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.5,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-lingnan",
+          "title": "苏轼被贬岭南",
+          "score": 0.35,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-gregorian-reform",
+          "title": "格列高利教会改革",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-sima-zztj",
+      "eventTitle": "司马光编纂《资治通鉴》",
+      "candidates": [
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 0.6,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.35,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-ouyang-xiu-xintangshu",
+          "title": "欧阳修主持编修《新唐书》",
+          "score": 0.3,
+          "reasons": [
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-gregorian-reform",
+          "title": "格列高利教会改革",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-ouyang-xiu-xintangshu",
+      "eventTitle": "欧阳修主持编修《新唐书》",
+      "candidates": [
+        {
+          "id": "evt-song-science",
+          "title": "北宋科技发明高峰",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sima-zztj",
+          "title": "司马光编纂《资治通鉴》",
+          "score": 0.3,
+          "reasons": [
+            "Same region",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-sushi-lingnan",
+      "eventTitle": "苏轼被贬岭南",
+      "candidates": [
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.4,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wutai",
+          "title": "乌台诗案",
+          "score": 0.35,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 0.35,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-norman-conquest",
+      "eventTitle": "诺曼征服英格兰",
+      "candidates": [
+        {
+          "id": "evt-harrying-north",
+          "title": "北方劫掠（Harrying of the North）",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-harrying-north",
+      "eventTitle": "北方劫掠（Harrying of the North）",
+      "candidates": [
+        {
+          "id": "evt-norman-conquest",
+          "title": "诺曼征服英格兰",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-manzikert",
+          "title": "曼齐刻尔特战役",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-domesday-book",
+          "title": "编撰《末日审判书》",
+          "score": 0.3,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-domesday-book",
+      "eventTitle": "编撰《末日审判书》",
+      "candidates": [
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        },
+        {
+          "id": "evt-harrying-north",
+          "title": "北方劫掠（Harrying of the North）",
+          "score": 0.3,
+          "reasons": [
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-anselm-canterbury",
+          "title": "安瑟伦出任坎特伯雷大主教",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-canossa",
+      "eventTitle": "卡诺莎之辱",
+      "candidates": [
+        {
+          "id": "evt-gregorian-reform",
+          "title": "格列高利教会改革",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-venice-rise",
+          "title": "威尼斯共和国崛起",
+          "score": 0.4,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-anselm-canterbury",
+      "eventTitle": "安瑟伦出任坎特伯雷大主教",
+      "candidates": [
+        {
+          "id": "evt-domesday-book",
+          "title": "编撰《末日审判书》",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "evt-first-crusade-call",
+          "title": "克莱芒会议——第一次十字军东征的号召",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-manzikert",
+      "eventTitle": "曼齐刻尔特战役",
+      "candidates": [
+        {
+          "id": "evt-alexios-coronation",
+          "title": "阿历克塞一世登基与拜占庭中兴",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-harrying-north",
+          "title": "北方劫掠（Harrying of the North）",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-alexios-coronation",
+      "eventTitle": "阿历克塞一世登基与拜占庭中兴",
+      "candidates": [
+        {
+          "id": "evt-manzikert",
+          "title": "曼齐刻尔特战役",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-venice-rise",
+          "title": "威尼斯共和国崛起",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-gregorian-reform",
+      "eventTitle": "格列高利教会改革",
+      "candidates": [
+        {
+          "id": "evt-canossa",
+          "title": "卡诺莎之辱",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-venice-rise",
+          "title": "威尼斯共和国崛起",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        },
+        {
+          "id": "evt-sima-zztj",
+          "title": "司马光编纂《资治通鉴》",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-baghdad-1055",
+      "eventTitle": "塞尔柱人进入巴格达",
+      "candidates": [
+        {
+          "id": "evt-nizamiyya",
+          "title": "建立尼扎米亚经学院",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Similar place names",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-nizamiyya",
+      "eventTitle": "建立尼扎米亚经学院",
+      "candidates": [
+        {
+          "id": "evt-baghdad-1055",
+          "title": "塞尔柱人进入巴格达",
+          "score": 0.5,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Similar place names",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-michinaga-peak",
+      "eventTitle": "藤原道长全盛期",
+      "candidates": [
+        {
+          "id": "evt-tale-of-flourishing-fortune",
+          "title": "《荣花物语》编纂",
+          "score": 0.45,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-ghaznavid-invasion",
+          "title": "加兹尼王朝入侵北印度",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-tale-of-flourishing-fortune",
+      "eventTitle": "《荣花物语》编纂",
+      "candidates": [
+        {
+          "id": "evt-michinaga-peak",
+          "title": "藤原道长全盛期",
+          "score": 0.45,
+          "reasons": [
+            "End years within 2 years",
+            "Same region",
+            "Shared related persons",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-chola-temple",
+      "eventTitle": "朱罗王朝大庙建造",
+      "candidates": [
+        {
+          "id": "evt-ghaznavid-invasion",
+          "title": "加兹尼王朝入侵北印度",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "evt-pala-university",
+          "title": "波罗王朝佛教大学繁荣",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-pala-university",
+      "eventTitle": "波罗王朝佛教大学繁荣",
+      "candidates": [
+        {
+          "id": "evt-ghaznavid-invasion",
+          "title": "加兹尼王朝入侵北印度",
+          "score": 0.4,
+          "reasons": [
+            "Start years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "evt-chola-temple",
+          "title": "朱罗王朝大庙建造",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-ghaznavid-invasion",
+      "eventTitle": "加兹尼王朝入侵北印度",
+      "candidates": [
+        {
+          "id": "evt-chola-temple",
+          "title": "朱罗王朝大庙建造",
+          "score": 0.45,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "evt-pala-university",
+          "title": "波罗王朝佛教大学繁荣",
+          "score": 0.4,
+          "reasons": [
+            "Start years within 2 years",
+            "Same region"
+          ]
+        },
+        {
+          "id": "evt-michinaga-peak",
+          "title": "藤原道长全盛期",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 10 years",
+            "End years within 2 years"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-venice-rise",
+      "eventTitle": "威尼斯共和国崛起",
+      "candidates": [
+        {
+          "id": "evt-canossa",
+          "title": "卡诺莎之辱",
+          "score": 0.4,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-gregorian-reform",
+          "title": "格列高利教会改革",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        },
+        {
+          "id": "evt-alexios-coronation",
+          "title": "阿历克塞一世登基与拜占庭中兴",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-first-crusade-call",
+      "eventTitle": "克莱芒会议——第一次十字军东征的号召",
+      "candidates": [
+        {
+          "id": "evt-anselm-canterbury",
+          "title": "安瑟伦出任坎特伯雷大主教",
+          "score": 0.3,
+          "reasons": [
+            "Start years within 2 years",
+            "Shared tags"
+          ]
+        }
+      ]
+    },
+    {
+      "eventId": "evt-song-science",
+      "eventTitle": "北宋科技发明高峰",
+      "candidates": [
+        {
+          "id": "evt-ouyang-xiu-xintangshu",
+          "title": "欧阳修主持编修《新唐书》",
+          "score": 0.35,
+          "reasons": [
+            "Start years within 10 years",
+            "Same region",
+            "Shared tags"
+          ]
+        }
+      ]
+    }
+  ]
+}

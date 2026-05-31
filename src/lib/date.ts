@@ -15,21 +15,24 @@ export function formatYear(year: number): string {
 /**
  * Format a year range for display.
  */
-export function formatYearRange(startYear: number, endYear?: number): string {
-  if (!endYear || startYear === endYear) {
-    return formatYear(startYear);
+export function formatYearRange(startYear: number | undefined, endYear?: number): string {
+  const start = startYear ?? 0;
+  if (!endYear || start === endYear) {
+    return formatYear(start);
   }
-  return `${formatYear(startYear)} — ${formatYear(endYear)}`;
+  return `${formatYear(start)} — ${formatYear(endYear)}`;
 }
 
 /**
  * Format a person's birth/death years as a string like "1037年 — 1101年" or "1037年 — 1101年（北宋）"
  */
 export function formatLifespan(
-  birthYear: number,
-  deathYear: number,
+  birthYear: number | undefined,
+  deathYear: number | undefined,
 ): string {
-  return `${formatYear(birthYear)} — ${formatYear(deathYear)}`;
+  const birth = birthYear ?? 0;
+  const death = deathYear ?? 0;
+  return `${formatYear(birth)} — ${formatYear(death)}`;
 }
 
 /**
