@@ -12,6 +12,8 @@ export interface Dictionary {
     home: string;
     aboutData: string;
     backToHome: string;
+    relationships: string;
+    civilizations: string;
   };
 
   // Home page
@@ -26,6 +28,10 @@ export interface Dictionary {
     exploreByYearDesc: string;
     exploreByRegion: string;
     exploreByRegionDesc: string;
+    exploreRelationships: string;
+    exploreRelationshipsDesc: string;
+    exploreCivilizations: string;
+    exploreCivilizationsDesc: string;
   };
 
   // Search page
@@ -123,6 +129,8 @@ export const zh: Dictionary = {
     home: '历史平行线',
     aboutData: '数据说明',
     backToHome: '首页',
+    relationships: '人物关系',
+    civilizations: '文明时间轴',
   },
   home: {
     heroTitle: '历史平行线',
@@ -135,6 +143,10 @@ export const zh: Dictionary = {
     exploreByYearDesc: '选择一个时间点看世界',
     exploreByRegion: '按地区探索',
     exploreByRegionDesc: '浏览全球各文明的时间线',
+    exploreRelationships: '人物关系图',
+    exploreRelationshipsDesc: '探索历史人物之间的关联',
+    exploreCivilizations: '文明时间轴',
+    exploreCivilizationsDesc: '各大文明的横向时间对比',
   },
   search: {
     title: '搜索',

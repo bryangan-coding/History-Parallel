@@ -10,6 +10,8 @@ export const en: Dictionary = {
     home: 'History Parallel',
     aboutData: 'About the Data',
     backToHome: 'Home',
+    relationships: 'Relationships',
+    civilizations: 'Civilizations',
   },
   home: {
     heroTitle: 'History Parallel',
@@ -22,6 +24,10 @@ export const en: Dictionary = {
     exploreByYearDesc: 'Choose a moment in time',
     exploreByRegion: 'By Region',
     exploreByRegionDesc: 'Browse timelines across civilizations',
+    exploreRelationships: 'Relationships',
+    exploreRelationshipsDesc: 'Explore connections between historical figures',
+    exploreCivilizations: 'Civilization Timeline',
+    exploreCivilizationsDesc: 'Compare civilizations side by side',
   },
   search: {
     title: 'Search',

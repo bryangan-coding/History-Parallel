@@ -1,14 +1,14 @@
 import Link from 'next/link';
-import type { Person } from '@/lib/types';
+import type { Person, Region } from '@/lib/types';
 import { formatLifespan } from '@/lib/date';
-import { getRegionById } from '@/data/mockData';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, personSummary, personTags, regionName } from '@/lib/types';
+import { getRegionById } from '@/data/utils';
 import Tag from '@/components/common/Tag';
 
-export default function PersonCard({ person }: { person: Person }) {
+export default function PersonCard({ person, regions }: { person: Person; regions?: Region[] }) {
   const { locale } = useLocale();
-  const region = person.regionId ? getRegionById(person.regionId) : undefined;
+  const region = (regions && person.regionId) ? getRegionById(regions, person.regionId) : undefined;
   const tags = personTags(person, locale);
 
   return (

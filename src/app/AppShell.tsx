@@ -18,6 +18,18 @@ function Header() {
         <div className="flex items-center gap-4">
           <nav className="flex items-center gap-4 text-sm text-stone-500">
             <Link
+              href="/relationships"
+              className="hover:text-stone-800 transition-colors"
+            >
+              {t.nav.relationships}
+            </Link>
+            <Link
+              href="/civilizations"
+              className="hover:text-stone-800 transition-colors"
+            >
+              {t.nav.civilizations}
+            </Link>
+            <Link
               href="/about-data"
               className="hover:text-stone-800 transition-colors"
             >

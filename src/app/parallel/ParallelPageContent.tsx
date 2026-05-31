@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useLocale } from '@/i18n/LocaleProvider';
 import PageHeader from '@/components/common/PageHeader';
@@ -9,12 +9,13 @@ import ParallelWorldView from '@/components/parallel/ParallelWorldView';
 import ParallelTimelineView from '@/components/parallel/ParallelTimelineView';
 import EmptyState from '@/components/common/EmptyState';
 import { getParallelEvents } from '@/lib/parallel';
-import { getEventById, getPersonById } from '@/data/mockData';
+import { getEventById, getPersonById, events } from '@/data/mockData';
 import { formatYearRange } from '@/lib/date';
 import { eventTitle, personName } from '@/lib/types';
 import type { TimeRange } from '@/lib/types';
 import { LayoutGrid, GitCommitHorizontal, Map } from 'lucide-react';
 import EventMapView from '@/components/parallel/EventMapView';
+import TimeRangeSlider from '@/components/parallel/TimeRangeSlider';
 
 type ViewMode = 'card' | 'timeline' | 'map';
 
@@ -41,6 +42,40 @@ export default function ParallelPageContent() {
     focusPersonId: personId,
   });
 
+  // Compute full year range from all published events
+  const { allMinYear, allMaxYear } = useMemo(() => {
+    const publishedEvents = events.filter((e) => e.dataStatus === 'published');
+    let min = Infinity;
+    let max = -Infinity;
+    for (const e of publishedEvents) {
+      if (e.startYear !== undefined) {
+        const end = e.endYear ?? e.startYear;
+        if (e.startYear < min) min = e.startYear;
+        if (end > max) max = end;
+      }
+    }
+    return { allMinYear: min === Infinity ? 0 : min, allMaxYear: max === -Infinity ? 2000 : max };
+  }, []);
+
+  const [yearRange, setYearRange] = useState<[number, number]>([allMinYear, allMaxYear]);
+
+  // Filter groups by yearRange
+  const filteredGroups = useMemo(() => {
+    return groups.map((g) => ({
+      ...g,
+      events: g.events.filter((s) => {
+        const ey = s.event.startYear ?? 0;
+        const end = s.event.endYear ?? ey;
+        return ey <= yearRange[1] && end >= yearRange[0];
+      }),
+    })).filter((g) => g.events.length > 0);
+  }, [groups, yearRange]);
+
+  const allEventsForSlider = useMemo(
+    () => groups.flatMap((g) => g.events.map((s) => s.event)),
+    [groups],
+  );
+
   let title: string;
   if (focusEvent) {
     title = `${formatYearRange(focusEvent.startYear, focusEvent.endYear)}, ${eventTitle(focusEvent, locale)}`;
@@ -54,7 +89,7 @@ export default function ParallelPageContent() {
     ? (locale === 'en' ? `Time range: ${year - range} — ${year + range}` : `时间范围：${year - range} — ${year + range}年`)
     : undefined;
 
-  const totalEvents = groups.reduce((sum, g) => sum + g.events.length, 0);
+  const totalEvents = filteredGroups.reduce((sum, g) => sum + g.events.length, 0);
 
   return (
     <div>
@@ -116,29 +151,43 @@ export default function ParallelPageContent() {
         <p className="text-xs text-stone-400">
           {t.parallel.eventsCount
             .replace('{events}', String(totalEvents))
-            .replace('{regions}', String(groups.length))}
+            .replace('{regions}', String(filteredGroups.length))}
         </p>
       </div>
 
-      {groups.length === 0 ? (
+      {/* Time Range Slider */}
+      {allEventsForSlider.length > 0 && (
+        <div className="mb-6 p-4 bg-white rounded-lg border border-stone-200">
+          <TimeRangeSlider
+            events={allEventsForSlider}
+            value={yearRange}
+            onChange={setYearRange}
+            minYear={allMinYear}
+            maxYear={allMaxYear}
+          />
+        </div>
+      )}
+
+      {filteredGroups.length === 0 ? (
         <EmptyState
           title={t.parallel.noData}
           description={t.parallel.noDataDesc}
         />
       ) : viewMode === 'timeline' ? (
         <ParallelTimelineView
-          groups={groups}
+          groups={filteredGroups}
           centerYear={year}
           range={range}
         />
       ) : viewMode === 'map' ? (
         <EventMapView
-          events={groups.flatMap((g) => g.events.map((s) => s.event))}
+          events={filteredGroups.flatMap((g) => g.events.map((s) => s.event))}
           focusYear={year}
           range={range}
+          yearRange={yearRange}
         />
       ) : (
-        <ParallelWorldView groups={groups} />
+        <ParallelWorldView groups={filteredGroups} />
       )}
     </div>
   );
