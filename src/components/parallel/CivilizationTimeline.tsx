@@ -275,7 +275,7 @@ export default function CivilizationTimeline() {
                               )}
 
                               {/* SVG title for native tooltip */}
-                              <title>
+                              <title suppressHydrationWarning>
                                 {locale === 'en' ? period.nameEn : period.name}: {fmtYear(period.startYear)} – {fmtYear(period.endYear)}
                               </title>
                             </g>
@@ -294,7 +294,7 @@ export default function CivilizationTimeline() {
                         <line x1={ex} y1={civY + 4} x2={ex} y2={civY + height - 4} stroke="#292524" strokeWidth={0.5} opacity={0.12} />
                         <circle cx={ex} cy={ey} r={3.5} fill="#292524" stroke="#fff" strokeWidth={1.5}
                           className="cursor-pointer" onClick={() => setSelectedEvent(event)} />
-                        <title>{fmtYear(event.year)}: {locale === 'en' ? event.titleEn : event.title}</title>
+                        <title suppressHydrationWarning>{fmtYear(event.year)}: {locale === 'en' ? event.titleEn : event.title}</title>
                       </g>
                     );
                   })}
