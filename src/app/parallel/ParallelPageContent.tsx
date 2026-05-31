@@ -13,9 +13,10 @@ import { getEventById, getPersonById } from '@/data/mockData';
 import { formatYearRange } from '@/lib/date';
 import { eventTitle, personName } from '@/lib/types';
 import type { TimeRange } from '@/lib/types';
-import { LayoutGrid, GitCommitHorizontal } from 'lucide-react';
+import { LayoutGrid, GitCommitHorizontal, Map } from 'lucide-react';
+import EventMapView from '@/components/parallel/EventMapView';
 
-type ViewMode = 'card' | 'timeline';
+type ViewMode = 'card' | 'timeline' | 'map';
 
 export default function ParallelPageContent() {
   const { locale, t } = useLocale();
@@ -96,6 +97,19 @@ export default function ParallelPageContent() {
               <GitCommitHorizontal className="w-3.5 h-3.5" />
               {t.parallel.viewModeTimeline}
             </button>
+            <button
+              onClick={() => setViewMode('map')}
+              className={`flex items-center gap-1.5 px-3 py-1.5 text-xs font-medium transition-colors
+                ${viewMode === 'map'
+                  ? 'bg-stone-800 text-white'
+                  : 'text-stone-500 hover:text-stone-700 hover:bg-stone-50'
+                }
+              `}
+              aria-pressed={viewMode === 'map'}
+            >
+              <Map className="w-3.5 h-3.5" />
+              {locale === 'en' ? 'Map' : '地图'}
+            </button>
           </div>
         </div>
 
@@ -115,6 +129,12 @@ export default function ParallelPageContent() {
         <ParallelTimelineView
           groups={groups}
           centerYear={year}
+          range={range}
+        />
+      ) : viewMode === 'map' ? (
+        <EventMapView
+          events={groups.flatMap((g) => g.events.map((s) => s.event))}
+          focusYear={year}
           range={range}
         />
       ) : (
