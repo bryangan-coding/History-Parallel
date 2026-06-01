@@ -18,7 +18,7 @@ export default function RootLayout({
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="min-h-full flex flex-col bg-stone-50 text-stone-900">
+      <body className="min-h-full flex flex-col bg-stone-50 text-stone-900" suppressHydrationWarning>
         <AppShell>{children}</AppShell>
       </body>
     </html>
