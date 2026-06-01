@@ -78,6 +78,8 @@ export interface Person {
   tagsEn?: string[];
   summary?: string;
   summaryEn?: string;
+  description?: string;
+  descriptionEn?: string;
   sourceIds: string[];
 
   // Wikidata integration
