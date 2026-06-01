@@ -1,11 +1,9 @@
 'use client';
 
-import { use } from 'react';
 import { useState, useMemo, useCallback, useRef, useEffect } from 'react';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, personSummary, regionName } from '@/lib/types';
-import { getAllPeople } from '@/data/server-actions';
-import { getRegionById } from '@/data/mockData';
+import { people, getRegionById } from '@/data/mockData';
 import { relationships, getAllRelatedPersonIds, getRelationshipsForPerson } from '@/data/relationships';
 import type { Relationship } from '@/data/relationships';
 import type { Person } from '@/lib/types';
@@ -142,7 +140,6 @@ export default function RelationshipsPage() {
   }>({ nodes: [], edges: [] });
 
   // Build the person map
-  const people = use(getAllPeople());
   const personMap = useMemo(() => {
     const map = new Map<string, Person>();
     const relatedIds = getAllRelatedPersonIds();
