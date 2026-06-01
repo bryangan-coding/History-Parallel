@@ -72,6 +72,24 @@ export interface Dictionary {
     relatedEventsTitle: string;
   };
 
+  // Compare page
+  compare: {
+    title: string;
+    subtitle: string;
+    selectPeople: string;
+    selectPlaceholder: string;
+    addPerson: string;
+    removePerson: string;
+    noPeople: string;
+    noPeopleDesc: string;
+    lifeTimeline: string;
+    eventBirth: string;
+    eventDeath: string;
+    eventAchievement: string;
+    yearsOld: string;
+    empty: string;
+  };
+
   // Parallel page
   parallel: {
     timeRange: string;
@@ -179,6 +197,22 @@ export const zh: Dictionary = {
     relatedPeople: '相关人物',
     viewParallel: '查看同一时期的世界 →',
     relatedEventsTitle: '同一地区同时期事件',
+  },
+  compare: {
+    title: '人物对比',
+    subtitle: '选择历史人物，对比他们的人生轨迹与时代交叠',
+    selectPeople: '选择人物',
+    selectPlaceholder: '搜索人物…',
+    addPerson: '添加',
+    removePerson: '移除',
+    noPeople: '请选择要对比的人物',
+    noPeopleDesc: '在上方搜索框中输入人物姓名，选择 2 位以上人物开始对比',
+    lifeTimeline: '人生轨迹',
+    eventBirth: '出生',
+    eventDeath: '逝世',
+    eventAchievement: '成就',
+    yearsOld: '{age}岁',
+    empty: '暂无生平事件',
   },
   parallel: {
     timeRange: '时间范围',

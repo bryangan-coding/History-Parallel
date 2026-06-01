@@ -19,6 +19,12 @@ function Header() {
         <div className="flex items-center gap-4">
           <nav className="flex items-center gap-4 text-sm text-stone-500">
             <Link
+              href="/compare"
+              className="hover:text-stone-800 transition-colors"
+            >
+              {locale === 'en' ? 'Compare' : '人物对比'}
+            </Link>
+            <Link
               href="/relationships"
               className="hover:text-stone-800 transition-colors"
             >

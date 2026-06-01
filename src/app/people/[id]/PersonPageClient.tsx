@@ -1,6 +1,7 @@
 'use client';
 
 import { notFound } from 'next/navigation';
+import Link from 'next/link';
 import { useLocale } from '@/i18n/LocaleProvider';
 import PageHeader from '@/components/common/PageHeader';
 import Tag from '@/components/common/Tag';
@@ -58,8 +59,14 @@ export function PersonPageClient({ id }: { id: string }) {
         </div>
 
         <div className="lg:col-span-2">
-          <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide mb-4">
-            {t.person.timeline} ({personEvents.length})
+          <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide mb-4 flex items-center justify-between">
+            <span>{t.person.timeline} ({personEvents.length})</span>
+            <Link
+              href={`/compare?preselect=${person.id}`}
+              className="text-xs font-medium text-stone-400 hover:text-stone-600 transition-colors border border-stone-200 rounded-md px-2 py-0.5 hover:border-stone-300"
+            >
+              {locale === 'en' ? 'Compare →' : '对比他人 →'}
+            </Link>
           </h2>
           {personEvents.length === 0 ? (
             <EmptyState
