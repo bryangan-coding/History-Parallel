@@ -17,31 +17,39 @@ events_hdr = content.find('// ==================== EVENTS', start)
 end = content.rfind('];', start, events_hdr)
 text = content[start:end]
 
-# Split by person entry boundaries
-blocks = re.split(r'\n  \},\n', text)
+# Extract fields by position - find all id: then extract surrounding fields
+ids = [(m.start(), m.group(1)) for m in re.finditer(r"id:\s*'([^']+)'", text)]
 people = []
 
-for block in blocks:
-    p = {}
-    m = re.search(r"id:\s*'([^']+)'", block)
-    if not m: continue
-    p['id'] = m.group(1)
-    m = re.search(r"name:\s*'([^']*)'", block)
+for i, (pos, pid) in enumerate(ids):
+    # Determine window: from this id to just before next id (or end)
+    end_pos = ids[i+1][0] if i+1 < len(ids) else len(text)
+    window = text[pos:end_pos]
+    
+    p = {'id': pid}
+    m = re.search(r"name:\s*'([^']*)'", window)
     p['name'] = m.group(1) if m else "Unknown"
-    m = re.search(r"nameEn:\s*'([^']*)'", block)
+    m = re.search(r"nameEn:\s*'([^']*)'", window)
     p['nameEn'] = m.group(1) if m else "Unknown"
-    m = re.search(r"birthYear:\s*(-?\d+)", block)
+    m = re.search(r"birthYear:\s*(-?\d+)", window)
     p['birthYear'] = int(m.group(1)) if m else 0
-    m = re.search(r"deathYear:\s*(-?\d+)", block)
-    p['deathYear'] = int(m.group(1)) if m else 0
-    m = re.search(r"regionId:\s*'([^']+)'", block)
+    m = re.search(r"deathYear:\s*(-?\d+|undefined)", window)
+    dy_val = m.group(1) if m else '0'
+    p['deathYear'] = int(dy_val) if dy_val != 'undefined' and dy_val else 0
+    m = re.search(r"regionId:\s*'([^']+)'", window)
     p['regionId'] = m.group(1) if m else "europe"
-    m = re.search(r"summary:\s*'([^']*)'", block)
+    m = re.search(r"summary:\s*'([^']*)'", window)
     p['summary'] = m.group(1) if m else ""
-    m = re.search(r"summaryEn:\s*'([^']*)'", block)
+    m = re.search(r"summaryEn:\s*'([^']*)'", window)
     p['summaryEn'] = m.group(1) if m else ""
-    m = re.search(r"description:\s*'([^']*)'", block)
-    p['description'] = m.group(1) if m else ""
+    m = re.search(r"description:\s*'([^']*)'", window)
+    p['description'] = m.group(1) if m else p.get('summary', '')
+    
+    # Skip non-person entries (regions, sources have specific id patterns)
+    if pid.startswith('src-') or pid in ('asia','africa','americas','europe','china','japan','india',
+        'middle-east','mongol-empire','england','byzantine','roman-empire','song-dynasty',
+        'tang-dynasty','ming-dynasty','seljuk','renaissance-europe'):
+        continue
     people.append(p)
 
 print(f"Parsed {len(people)} people", file=sys.stderr)

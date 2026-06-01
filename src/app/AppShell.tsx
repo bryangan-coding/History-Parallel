@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { LocaleProvider, useLocale } from '@/i18n/LocaleProvider';
+import { FeedbackButton } from '@/components/ui/FeedbackButton';
 
 function Header() {
   const { locale, t, setLocale } = useLocale();
@@ -68,6 +69,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 py-8">{children}</div>
       </main>
       <Footer />
+      <FeedbackButton />
     </LocaleProvider>
   );
 }
