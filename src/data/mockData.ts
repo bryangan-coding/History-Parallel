@@ -614,7 +614,7 @@ export const sources: Source[] = [
 
 // ==================== PEOPLE ====================
 
-export const people: Person[] = [
+export const people = [
 {
     id: 'su-shi',
     name: '苏轼',
@@ -32584,7 +32584,7 @@ export const people: Person[] = [
     dataStatus: 'published',
     confidenceScore: 0.75,
     externalReferences: [],
-  }];
+  }] as unknown as Person[];
 
 // ==================== EVENTS ====================
 
