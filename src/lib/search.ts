@@ -47,6 +47,8 @@ function searchPeople(q: string): Person[] {
       }
       score += matchScore(p.summary ?? '', q) * 0.5;
       score += matchScore(p.summaryEn ?? '', q) * 0.5;
+      score += matchScore(p.description ?? '', q) * 0.3;
+      score += matchScore(p.descriptionEn ?? '', q) * 0.3;
       return { person: p, score };
     })
     .filter((r) => r.score > 0)
@@ -66,6 +68,8 @@ function searchEvents(q: string): HistoricalEvent[] {
       score += matchScore(e.titleEn ?? '', q) * 3;
       score += matchScore(e.summary ?? '', q) * 2;
       score += matchScore(e.summaryEn ?? '', q) * 2;
+      score += matchScore(e.description ?? '', q) * 0.5;
+      score += matchScore(e.descriptionEn ?? '', q) * 0.5;
       for (const tag of e.tags) {
         score += matchScore(tag, q);
       }
