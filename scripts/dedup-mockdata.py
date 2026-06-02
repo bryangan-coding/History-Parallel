@@ -24,7 +24,7 @@ def deduplicate_file(filepath):
             array_starts['people'] = i
         elif line.strip().startswith('export const events:'):
             array_starts['events'] = i
-        elif line.strip() == '];':
+        elif (line.strip() == '];' or line.strip().endswith('as Person[];')):
             # Assign to the most recent array start
             if array_starts and 'events' in array_starts and 'events' not in array_ends:
                 array_ends['events'] = i

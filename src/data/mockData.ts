@@ -1,4 +1,4 @@
-import type { Region, Person, HistoricalEvent, Source } from '@/lib/types';
+import type { Region, Person, HistoricalEvent, Source, ExternalReference } from '@/lib/types';
 
 // ==================== REGIONS ====================
 
@@ -614,7 +614,8 @@ export const sources: Source[] = [
 
 // ==================== PEOPLE ====================
 
-export const people = [
+export const _peoplePart1: Person[] = [
+] = [
 {
     id: 'su-shi',
     name: '苏轼',
@@ -635,7 +636,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-anshi',
     name: '王安石',
     nameEn: 'Wang Anshi',
@@ -655,7 +656,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sima-guang',
     name: '司马光',
     nameEn: 'Sima Guang',
@@ -675,7 +676,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ouyang-xiu',
     name: '欧阳修',
     nameEn: 'Ouyang Xiu',
@@ -695,7 +696,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'william-conqueror',
     name: '威廉一世（征服者）',
     nameEn: 'William I (the Conqueror)',
@@ -715,7 +716,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gregory-vii',
     name: '格里高利七世',
     nameEn: 'Pope Gregory VII',
@@ -735,7 +736,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'anselm',
     name: '安瑟伦',
     nameEn: 'Anselm of Canterbury',
@@ -755,7 +756,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'murasaki-shikibu',
     name: '紫式部',
     nameEn: 'Murasaki Shikibu',
@@ -775,7 +776,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fujiwara-michinaga',
     name: '藤原道长',
     nameEn: 'Fujiwara no Michinaga',
@@ -795,7 +796,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'alexios-komnenos',
     name: '阿历克塞一世',
     nameEn: 'Alexios I Komnenos',
@@ -815,7 +816,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qin-shi-huang',
     name: '秦始皇',
     nameEn: 'Qin Shi Huang',
@@ -835,7 +836,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'julius-caesar',
     name: '凯撒',
     nameEn: 'Julius Caesar',
@@ -855,7 +856,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'li-bai',
     name: '李白',
     nameEn: 'Li Bai',
@@ -875,7 +876,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'charlemagne',
     name: '查理大帝',
     nameEn: 'Charlemagne',
@@ -895,9 +896,9 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [
       { id: 'ref-charlemagne-wiki', sourceType: 'encyclopedia', title: 'Charlemagne', url: 'https://www.britannica.com/biography/Charlemagne', license: 'Copyright' }
-    ],
+    ] as ExternalReference[],
   },
-  {
+{
     id: 'genghis-khan',
     name: '成吉思汗',
     nameEn: 'Genghis Khan',
@@ -917,7 +918,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zheng-he',
     name: '郑和',
     nameEn: 'Zheng He',
@@ -937,7 +938,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'leonardo-da-vinci',
     name: '列奥纳多·达·芬奇',
     nameEn: 'Leonardo da Vinci',
@@ -957,9 +958,9 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [
       { id: 'ref-davinci-brit', sourceType: 'encyclopedia', title: 'Leonardo da Vinci', url: 'https://www.britannica.com/biography/Leonardo-da-Vinci', license: 'Copyright' }
-    ],
+    ] as ExternalReference[],
   },
-  {
+{
     id: 'napoleon',
     name: '拿破仑·波拿巴',
     nameEn: 'Napoleon Bonaparte',
@@ -979,9 +980,9 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [
       { id: 'ref-napoleon-brit', sourceType: 'encyclopedia', title: 'Napoleon I', url: 'https://www.britannica.com/biography/Napoleon-I', license: 'Copyright' }
-    ],
+    ] as ExternalReference[],
   },
-  {
+{
     id: 'confucius',
     name: '孔子',
     nameEn: 'Confucius',
@@ -1001,7 +1002,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'laozi',
     name: '老子',
     nameEn: 'Laozi',
@@ -1021,7 +1022,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'han-wudi',
     name: '汉武帝',
     nameEn: 'Emperor Wu of Han',
@@ -1041,7 +1042,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sima-qian',
     name: '司马迁',
     nameEn: 'Sima Qian',
@@ -1061,7 +1062,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhugeliang',
     name: '诸葛亮',
     nameEn: 'Zhuge Liang',
@@ -1081,7 +1082,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'socrates',
     name: '苏格拉底',
     nameEn: 'Socrates',
@@ -1101,7 +1102,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'plato',
     name: '柏拉图',
     nameEn: 'Plato',
@@ -1121,7 +1122,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'aristotle',
     name: '亚里士多德',
     nameEn: 'Aristotle',
@@ -1141,7 +1142,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'alexander-great',
     name: '亚历山大大帝',
     nameEn: 'Alexander the Great',
@@ -1161,7 +1162,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'archimedes',
     name: '阿基米德',
     nameEn: 'Archimedes',
@@ -1181,7 +1182,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'augustus',
     name: '奥古斯都',
     nameEn: 'Augustus',
@@ -1201,7 +1202,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hammurabi',
     name: '汉谟拉比',
     nameEn: 'Hammurabi',
@@ -1221,7 +1222,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cyrus-great',
     name: '居鲁士大帝',
     nameEn: 'Cyrus the Great',
@@ -1241,7 +1242,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hatshepsut',
     name: '哈特谢普苏特',
     nameEn: 'Hatshepsut',
@@ -1261,7 +1262,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ramesses-ii',
     name: '拉美西斯二世',
     nameEn: 'Ramesses II',
@@ -1281,7 +1282,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ashoka',
     name: '阿育王',
     nameEn: 'Ashoka',
@@ -1301,7 +1302,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'al-khwarizmi',
     name: '花剌子密',
     nameEn: 'Al-Khwarizmi',
@@ -1321,7 +1322,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'avicenna',
     name: '阿维森纳',
     nameEn: 'Avicenna',
@@ -1341,7 +1342,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'al-biruni',
     name: '比鲁尼',
     nameEn: 'Al-Biruni',
@@ -1361,7 +1362,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ibn-battuta',
     name: '伊本·白图泰',
     nameEn: 'Ibn Battuta',
@@ -1381,7 +1382,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'saladin',
     name: '萨拉丁',
     nameEn: 'Saladin',
@@ -1401,7 +1402,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'aquinas',
     name: '托马斯·阿奎那',
     nameEn: 'Thomas Aquinas',
@@ -1421,7 +1422,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'joan-of-arc',
     name: '贞德',
     nameEn: 'Joan of Arc',
@@ -1441,7 +1442,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gutenberg',
     name: '古腾堡',
     nameEn: 'Johannes Gutenberg',
@@ -1461,7 +1462,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'henry-v',
     name: '亨利五世',
     nameEn: 'Henry V',
@@ -1481,7 +1482,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'medici-lorenzo',
     name: '洛伦佐·德·美第奇',
     nameEn: 'Lorenzo de Medici',
@@ -1501,7 +1502,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'emperor-taizong',
     name: '唐太宗',
     nameEn: 'Emperor Taizong of Tang',
@@ -1521,7 +1522,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wu-zetian',
     name: '武则天',
     nameEn: 'Wu Zetian',
@@ -1541,7 +1542,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'du-fu',
     name: '杜甫',
     nameEn: 'Du Fu',
@@ -1561,7 +1562,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sejong',
     name: '世宗大王',
     nameEn: 'King Sejong the Great',
@@ -1581,7 +1582,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhu-xi',
     name: '朱熹',
     nameEn: 'Zhu Xi',
@@ -1601,7 +1602,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'minamoto-yoritomo',
     name: '源赖朝',
     nameEn: 'Minamoto no Yoritomo',
@@ -1621,7 +1622,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shakespeare',
     name: '莎士比亚',
     nameEn: 'William Shakespeare',
@@ -1641,7 +1642,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'galileo',
     name: '伽利略',
     nameEn: 'Galileo Galilei',
@@ -1661,7 +1662,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'newton',
     name: '牛顿',
     nameEn: 'Isaac Newton',
@@ -1681,7 +1682,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'elizabeth-i',
     name: '伊丽莎白一世',
     nameEn: 'Elizabeth I',
@@ -1701,7 +1702,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'louis-xiv',
     name: '路易十四',
     nameEn: 'Louis XIV',
@@ -1721,7 +1722,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhu-yuanzhang',
     name: '朱元璋',
     nameEn: 'Zhu Yuanzhang',
@@ -1741,7 +1742,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kangxi',
     name: '康熙帝',
     nameEn: 'Kangxi Emperor',
@@ -1761,7 +1762,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qianlong',
     name: '乾隆帝',
     nameEn: 'Qianlong Emperor',
@@ -1781,7 +1782,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cao-xueqin',
     name: '曹雪芹',
     nameEn: 'Cao Xueqin',
@@ -1801,7 +1802,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'li-shizhen',
     name: '李时珍',
     nameEn: 'Li Shizhen',
@@ -1821,7 +1822,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pachacuti',
     name: '帕查库蒂',
     nameEn: 'Pachacuti',
@@ -1841,7 +1842,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'montezuma-ii',
     name: '蒙特祖玛二世',
     nameEn: 'Montezuma II',
@@ -1861,7 +1862,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'atahualpa',
     name: '阿塔瓦尔帕',
     nameEn: 'Atahualpa',
@@ -1881,7 +1882,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sitting-bull',
     name: '坐牛',
     nameEn: 'Sitting Bull',
@@ -1901,7 +1902,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'peter-great',
     name: '彼得大帝',
     nameEn: 'Peter the Great',
@@ -1921,7 +1922,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'washington',
     name: '乔治·华盛顿',
     nameEn: 'George Washington',
@@ -1941,7 +1942,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'darwin',
     name: '达尔文',
     nameEn: 'Charles Darwin',
@@ -1961,7 +1962,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'marx',
     name: '马克思',
     nameEn: 'Karl Marx',
@@ -1981,7 +1982,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lincoln',
     name: '林肯',
     nameEn: 'Abraham Lincoln',
@@ -2001,7 +2002,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bismarck',
     name: '俾斯麦',
     nameEn: 'Otto von Bismarck',
@@ -2021,7 +2022,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'meiji',
     name: '明治天皇',
     nameEn: 'Emperor Meiji',
@@ -2041,7 +2042,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sun-yat-sen',
     name: '孙中山',
     nameEn: 'Sun Yat-sen',
@@ -2061,7 +2062,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gandhi',
     name: '圣雄甘地',
     nameEn: 'Mahatma Gandhi',
@@ -2081,7 +2082,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'einstein',
     name: '爱因斯坦',
     nameEn: 'Albert Einstein',
@@ -2101,7 +2102,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'churchill',
     name: '丘吉尔',
     nameEn: 'Winston Churchill',
@@ -2121,7 +2122,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'curie',
     name: '居里夫人',
     nameEn: 'Marie Curie',
@@ -2141,7 +2142,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mandela',
     name: '曼德拉',
     nameEn: 'Nelson Mandela',
@@ -2161,7 +2162,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'michelangelo',
     name: '米开朗基罗',
     nameEn: 'Michelangelo',
@@ -2181,7 +2182,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mozart',
     name: '莫扎特',
     nameEn: 'Wolfgang Amadeus Mozart',
@@ -2201,7 +2202,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'beethoven',
     name: '贝多芬',
     nameEn: 'Ludwig van Beethoven',
@@ -2221,7 +2222,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'victoria',
     name: '维多利亚女王',
     nameEn: 'Queen Victoria',
@@ -2241,7 +2242,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'voltaire',
     name: '伏尔泰',
     nameEn: 'Voltaire',
@@ -2261,7 +2262,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'marco-polo',
     name: '马可·波罗',
     nameEn: 'Marco Polo',
@@ -2281,7 +2282,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'xuanzang',
     name: '玄奘',
     nameEn: 'Xuanzang',
@@ -2301,7 +2302,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'king-arthur',
     name: '亚瑟王',
     nameEn: 'King Arthur',
@@ -2321,7 +2322,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'vlad-impaler',
     name: '弗拉德三世',
     nameEn: 'Vlad the Impaler',
@@ -2341,7 +2342,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'akbar-great',
     name: '阿克巴大帝',
     nameEn: 'Akbar the Great',
@@ -2361,7 +2362,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'khubilai-khan',
     name: '忽必烈',
     nameEn: 'Kublai Khan',
@@ -2381,7 +2382,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'vasco-da-gama',
     name: '瓦斯科·达·伽马',
     nameEn: 'Vasco da Gama',
@@ -2401,7 +2402,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'magellan',
     name: '麦哲伦',
     nameEn: 'Ferdinand Magellan',
@@ -2421,7 +2422,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tokugawa-ieyasu',
     name: '德川家康',
     nameEn: 'Tokugawa Ieyasu',
@@ -2441,7 +2442,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ivan-terrible',
     name: '伊凡雷帝',
     nameEn: 'Ivan the Terrible',
@@ -2461,7 +2462,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'suleiman',
     name: '苏莱曼大帝',
     nameEn: 'Suleiman the Magnificent',
@@ -2481,7 +2482,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'catherine-great',
     name: '叶卡捷琳娜大帝',
     nameEn: 'Catherine the Great',
@@ -2501,7 +2502,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'frederick-great',
     name: '腓特烈大帝',
     nameEn: 'Frederick the Great',
@@ -2521,7 +2522,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'robespierre',
     name: '罗伯斯庇尔',
     nameEn: 'Maximilien Robespierre',
@@ -2541,7 +2542,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'simon-bolivar',
     name: '西蒙·玻利瓦尔',
     nameEn: 'Simon Bolivar',
@@ -2561,7 +2562,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'li-hongzhang',
     name: '李鸿章',
     nameEn: 'Li Hongzhang',
@@ -2581,7 +2582,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rasputin',
     name: '拉斯普京',
     nameEn: 'Grigori Rasputin',
@@ -2601,7 +2602,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lenin',
     name: '列宁',
     nameEn: 'Vladimir Lenin',
@@ -2621,7 +2622,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cleopatra-vii',
     name: '克利奥帕特拉七世',
     nameEn: 'Cleopatra VII',
@@ -2642,7 +2643,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'O56',
   },
-  {
+{
     id: 'cicero',
     name: '西塞罗',
     nameEn: 'Cicero',
@@ -2663,7 +2664,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'O1541',
   },
-  {
+{
     id: 'liu-bang',
     name: '刘邦',
     nameEn: 'Liu Bang (Emperor Gaozu of Han)',
@@ -2683,7 +2684,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-qian',
     name: '张骞',
     nameEn: 'Zhang Qian',
@@ -2703,7 +2704,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhuangzi',
     name: '庄子',
     nameEn: 'Zhuangzi',
@@ -2723,7 +2724,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'homer',
     name: '荷马',
     nameEn: 'Homer',
@@ -2744,7 +2745,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'O6691',
   },
-  {
+{
     id: 'pericles',
     name: '伯里克利',
     nameEn: 'Pericles',
@@ -2764,7 +2765,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'darius-i',
     name: '大流士一世',
     nameEn: 'Darius I',
@@ -2784,7 +2785,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'vedic-seers',
     name: '吠陀仙人',
     nameEn: 'Vedic Rishis',
@@ -2804,7 +2805,7 @@ export const people = [
     confidenceScore: 0.6,
     externalReferences: [],
   },
-  {
+{
     id: 'justinian',
     name: '查士丁尼一世',
     nameEn: 'Justinian I',
@@ -2824,7 +2825,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gregory-great',
     name: '教宗额我略一世',
     nameEn: 'Pope Gregory I (Gregory the Great)',
@@ -2844,7 +2845,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'harun-al-rashid',
     name: '哈伦·拉希德',
     nameEn: 'Harun al-Rashid',
@@ -2864,7 +2865,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'columbus',
     name: '哥伦布',
     nameEn: 'Christopher Columbus',
@@ -2885,7 +2886,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'O7322',
   },
-  {
+{
     id: 'marie-curie',
     name: '居里夫人',
     nameEn: 'Marie Curie',
@@ -2906,7 +2907,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q7186',
   },
-  {
+{
     id: 'fdr',
     name: '富兰克林·罗斯福',
     nameEn: 'Franklin D. Roosevelt',
@@ -2927,7 +2928,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q8007',
   },
-  {
+{
     id: 'bolivar',
     name: '西蒙·玻利瓦尔',
     nameEn: 'Simón Bolívar',
@@ -2948,7 +2949,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q8605',
   },
-  {
+{
     id: 'ataturk',
     name: '凯末尔·阿塔图尔克',
     nameEn: 'Mustafa Kemal Atatürk',
@@ -2969,7 +2970,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q5152',
   },
-  {
+{
     id: 'mansas-musa',
     name: '曼萨·穆萨',
     nameEn: 'Mansa Musa',
@@ -2989,7 +2990,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'nefertiti',
     name: '纳芙蒂蒂',
     nameEn: 'Nefertiti',
@@ -3009,7 +3010,7 @@ export const people = [
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'marcus-aurelius',
     name: '马可·奥勒留',
     nameEn: 'Marcus Aurelius',
@@ -3030,7 +3031,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q1430',
   },
-  {
+{
     id: 'constantine',
     name: '君士坦丁大帝',
     nameEn: 'Constantine the Great',
@@ -3051,7 +3052,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q8413',
   },
-  {
+{
     id: 'sun-tzu',
     name: '孙子（孙武）',
     nameEn: 'Sun Tzu',
@@ -3072,7 +3073,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q37151',
   },
-  {
+{
     id: 'mencius',
     name: '孟子',
     nameEn: 'Mencius',
@@ -3093,7 +3094,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q188977',
   },
-  {
+{
     id: 'han-fei',
     name: '韩非',
     nameEn: 'Han Feizi',
@@ -3114,7 +3115,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q28987',
   },
-  {
+{
     id: 'virgil',
     name: '维吉尔',
     nameEn: 'Virgil',
@@ -3135,7 +3136,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q1398',
   },
-  {
+{
     id: 'copernicus',
     name: '哥白尼',
     nameEn: 'Nicolaus Copernicus',
@@ -3156,7 +3157,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q619',
   },
-  {
+{
     id: 'kepler',
     name: '开普勒',
     nameEn: 'Johannes Kepler',
@@ -3177,7 +3178,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q8964',
   },
-  {
+{
     id: 'machiavelli',
     name: '马基雅维利',
     nameEn: 'Niccolò Machiavelli',
@@ -3198,7 +3199,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q1399',
   },
-  {
+{
     id: 'pasteur',
     name: '巴斯德',
     nameEn: 'Louis Pasteur',
@@ -3219,7 +3220,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q529',
   },
-  {
+{
     id: 'tesla',
     name: '特斯拉',
     nameEn: 'Nikola Tesla',
@@ -3240,7 +3241,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q9036',
   },
-  {
+{
     id: 'tolstoy',
     name: '托尔斯泰',
     nameEn: 'Leo Tolstoy',
@@ -3261,7 +3262,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q7243',
   },
-  {
+{
     id: 'dostoevsky',
     name: '陀思妥耶夫斯基',
     nameEn: 'Fyodor Dostoevsky',
@@ -3282,7 +3283,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q991',
   },
-  {
+{
     id: 'edison',
     name: '爱迪生',
     nameEn: 'Thomas Edison',
@@ -3303,7 +3304,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q8743',
   },
-  {
+{
     id: 'mozi',
     name: '墨子',
     nameEn: 'Mozi',
@@ -3323,7 +3324,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'xunzi',
     name: '荀子',
     nameEn: 'Xunzi',
@@ -3343,7 +3344,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'li-si',
     name: '李斯',
     nameEn: 'Li Si',
@@ -3363,7 +3364,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'seneca',
     name: '塞内卡',
     nameEn: 'Seneca',
@@ -3383,7 +3384,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tacitus',
     name: '塔西佗',
     nameEn: 'Tacitus',
@@ -3403,7 +3404,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hippocrates',
     name: '希波克拉底',
     nameEn: 'Hippocrates',
@@ -3423,7 +3424,7 @@ export const people = [
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'euclid',
     name: '欧几里得',
     nameEn: 'Euclid',
@@ -3443,7 +3444,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sappho',
     name: '萨福',
     nameEn: 'Sappho',
@@ -3463,7 +3464,7 @@ export const people = [
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'ptolemy',
     name: '托勒密',
     nameEn: 'Claudius Ptolemy',
@@ -3483,7 +3484,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shang-yang',
     name: '商鞅',
     nameEn: 'Shang Yang',
@@ -3503,7 +3504,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'bai-juyi',
     name: '白居易',
     nameEn: 'Bai Juyi',
@@ -3523,7 +3524,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'al-razi',
     name: '拉齐',
     nameEn: 'Al-Razi',
@@ -3543,7 +3544,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'kalidasa',
     name: '迦梨陀娑',
     nameEn: 'Kalidasa',
@@ -3563,7 +3564,7 @@ export const people = [
     confidenceScore: 0.7,
     externalReferences: [],
   },
-  {
+{
     id: 'aryabhata',
     name: '阿耶波多',
     nameEn: 'Aryabhata',
@@ -3583,7 +3584,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'al-ghazali',
     name: '安萨里',
     nameEn: 'Al-Ghazali',
@@ -3603,7 +3604,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sui-wendi',
     name: '隋文帝',
     nameEn: 'Emperor Wen of Sui',
@@ -3623,7 +3624,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-wei',
     name: '王维',
     nameEn: 'Wang Wei',
@@ -3643,7 +3644,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'al-farabi',
     name: '法拉比',
     nameEn: 'Al-Farabi',
@@ -3663,7 +3664,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'augustine',
     name: '奥古斯丁',
     nameEn: 'Augustine of Hippo',
@@ -3683,7 +3684,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wei-zheng',
     name: '魏征',
     nameEn: 'Wei Zheng',
@@ -3703,7 +3704,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'raphael',
     name: '拉斐尔',
     nameEn: 'Raphael',
@@ -3723,7 +3724,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'donatello',
     name: '多纳泰罗',
     nameEn: 'Donatello',
@@ -3743,7 +3744,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'thomas-more',
     name: '托马斯·莫尔',
     nameEn: 'Thomas More',
@@ -3763,7 +3764,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'francis-bacon',
     name: '弗朗西斯·培根',
     nameEn: 'Francis Bacon',
@@ -3783,7 +3784,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'montaigne',
     name: '蒙田',
     nameEn: 'Michel de Montaigne',
@@ -3803,7 +3804,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cervantes',
     name: '塞万提斯',
     nameEn: 'Miguel de Cervantes',
@@ -3823,7 +3824,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'descartes',
     name: '笛卡尔',
     nameEn: 'René Descartes',
@@ -3843,7 +3844,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'brunelleschi',
     name: '布鲁内莱斯基',
     nameEn: 'Filippo Brunelleschi',
@@ -3863,7 +3864,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'spinoza',
     name: '斯宾诺莎',
     nameEn: 'Baruch Spinoza',
@@ -3883,7 +3884,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'locke',
     name: '约翰·洛克',
     nameEn: 'John Locke',
@@ -3903,7 +3904,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'bach',
     name: '巴赫',
     nameEn: 'Johann Sebastian Bach',
@@ -3923,7 +3924,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'dickens',
     name: '狄更斯',
     nameEn: 'Charles Dickens',
@@ -3943,7 +3944,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'hugo',
     name: '雨果',
     nameEn: 'Victor Hugo',
@@ -3963,7 +3964,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'kant',
     name: '康德',
     nameEn: 'Immanuel Kant',
@@ -3983,7 +3984,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'adam-smith',
     name: '亚当·斯密',
     nameEn: 'Adam Smith',
@@ -4003,7 +4004,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'hegel',
     name: '黑格尔',
     nameEn: 'G.W.F. Hegel',
@@ -4023,7 +4024,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'goethe',
     name: '歌德',
     nameEn: 'Johann Wolfgang von Goethe',
@@ -4043,7 +4044,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'marie-antoinette',
     name: '玛丽·安托瓦内特',
     nameEn: 'Marie Antoinette',
@@ -4063,7 +4064,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'chopin',
     name: '肖邦',
     nameEn: 'Frédéric Chopin',
@@ -4083,7 +4084,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'jane-austen',
     name: '简·奥斯汀',
     nameEn: 'Jane Austen',
@@ -4103,7 +4104,7 @@ export const people = [
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'pythagoras',
     name: '毕达哥拉斯',
     nameEn: 'Pythagoras',
@@ -4125,7 +4126,7 @@ export const people = [
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'herodotus',
     name: '希罗多德',
     nameEn: 'Herodotus',
@@ -4147,7 +4148,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'thucydides',
     name: '修昔底德',
     nameEn: 'Thucydides',
@@ -4169,7 +4170,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sophocles',
     name: '索福克勒斯',
     nameEn: 'Sophocles',
@@ -4191,7 +4192,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'aeschylus',
     name: '埃斯库罗斯',
     nameEn: 'Aeschylus',
@@ -4213,7 +4214,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'trajan',
     name: '图拉真',
     nameEn: 'Trajan',
@@ -4235,7 +4236,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hadrian',
     name: '哈德良',
     nameEn: 'Hadrian',
@@ -4257,7 +4258,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ovid',
     name: '奥维德',
     nameEn: 'Ovid',
@@ -4279,7 +4280,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'thomas-aquinas',
     name: '托马斯·阿奎那',
     nameEn: 'Thomas Aquinas',
@@ -4301,7 +4302,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'francis-assisi',
     name: '圣方济各·亚西西',
     nameEn: 'Francis of Assisi',
@@ -4323,7 +4324,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'eleanor-aquitaine',
     name: '阿基坦的埃莉诺',
     nameEn: 'Eleanor of Aquitaine',
@@ -4345,7 +4346,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'holy-roman-frederick-ii',
     name: '腓特烈二世',
     nameEn: 'Frederick II',
@@ -4367,7 +4368,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'hildegard-bingen',
     name: '希尔德加德·冯·宾根',
     nameEn: 'Hildegard of Bingen',
@@ -4389,7 +4390,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'erasmus',
     name: '伊拉斯谟',
     nameEn: 'Erasmus of Rotterdam',
@@ -4411,7 +4412,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'martin-luther',
     name: '马丁·路德',
     nameEn: 'Martin Luther',
@@ -4434,7 +4435,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q9554',
   },
-  {
+{
     id: 'john-calvin',
     name: '约翰·加尔文',
     nameEn: 'John Calvin',
@@ -4456,7 +4457,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lavoisier',
     name: '安托万·拉瓦锡',
     nameEn: 'Antoine Lavoisier',
@@ -4478,7 +4479,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'faraday',
     name: '迈克尔·法拉第',
     nameEn: 'Michael Faraday',
@@ -4500,7 +4501,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'maxwell',
     name: '詹姆斯·克拉克·麦克斯韦',
     nameEn: 'James Clerk Maxwell',
@@ -4522,7 +4523,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'stalin',
     name: '约瑟夫·斯大林',
     nameEn: 'Joseph Stalin',
@@ -4545,7 +4546,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q855',
   },
-  {
+{
     id: 'gorbachev',
     name: '米哈伊尔·戈尔巴乔夫',
     nameEn: 'Mikhail Gorbachev',
@@ -4568,7 +4569,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q30487',
   },
-  {
+{
     id: 'turing',
     name: '艾伦·图灵',
     nameEn: 'Alan Turing',
@@ -4591,7 +4592,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q7251',
   },
-  {
+{
     id: 'orwell',
     name: '乔治·奥威尔',
     nameEn: 'George Orwell',
@@ -4614,7 +4615,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q3335',
   },
-  {
+{
     id: 'wittgenstein',
     name: '维特根斯坦',
     nameEn: 'Ludwig Wittgenstein',
@@ -4637,7 +4638,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q9391',
   },
-  {
+{
     id: 'zhuge-liang',
     name: '诸葛亮',
     nameEn: 'Zhuge Liang',
@@ -4659,7 +4660,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'cao-cao',
     name: '曹操',
     nameEn: 'Cao Cao',
@@ -4681,7 +4682,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yue-fei',
     name: '岳飞',
     nameEn: 'Yue Fei',
@@ -4703,7 +4704,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cixi',
     name: '慈禧太后',
     nameEn: 'Empress Dowager Cixi',
@@ -4725,7 +4726,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lu-xun',
     name: '鲁迅',
     nameEn: 'Lu Xun',
@@ -4748,7 +4749,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q23114',
   },
-  {
+{
     id: 'mao-zedong',
     name: '毛泽东',
     nameEn: 'Mao Zedong',
@@ -4771,7 +4772,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q5816',
   },
-  {
+{
     id: 'deng-xiaoping',
     name: '邓小平',
     nameEn: 'Deng Xiaoping',
@@ -4794,7 +4795,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q16977',
   },
-  {
+{
     id: 'li-qingzhao',
     name: '李清照',
     nameEn: 'Li Qingzhao',
@@ -4816,7 +4817,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-yangming',
     name: '王阳明',
     nameEn: 'Wang Yangming',
@@ -4838,7 +4839,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shotoku-taishi',
     name: '圣德太子',
     nameEn: 'Prince Shotoku',
@@ -4860,7 +4861,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'oda-nobunaga',
     name: '织田信长',
     nameEn: 'Oda Nobunaga',
@@ -4882,7 +4883,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'toyotomi-hideyoshi',
     name: '丰臣秀吉',
     nameEn: 'Toyotomi Hideyoshi',
@@ -4904,7 +4905,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'murasaki-shikibu2',
     name: '清少纳言',
     nameEn: 'Sei Shonagon',
@@ -4926,7 +4927,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'gwangaeto',
     name: '广开土大王',
     nameEn: 'Gwanggaeto the Great',
@@ -4948,7 +4949,7 @@ export const people = [
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'jeong-yakyong',
     name: '丁若镛',
     nameEn: 'Jeong Yak-yong (Dasan)',
@@ -4970,7 +4971,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'guru-nanak',
     name: '古鲁那纳克',
     nameEn: 'Guru Nanak',
@@ -4992,7 +4993,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'akbar',
     name: '阿克巴大帝',
     nameEn: 'Akbar the Great',
@@ -5014,7 +5015,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ramanujan',
     name: '拉马努金',
     nameEn: 'Srinivasa Ramanujan',
@@ -5037,7 +5038,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q83163',
   },
-  {
+{
     id: 'ibn-khaldun',
     name: '伊本·赫勒敦',
     nameEn: 'Ibn Khaldun',
@@ -5059,7 +5060,7 @@ export const people = [
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'democritus',
     name: '德谟克利特',
     nameEn: 'Democritus',
@@ -5081,7 +5082,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nero',
     name: '尼禄',
     nameEn: 'Nero',
@@ -5103,7 +5104,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mendel',
     name: '孟德尔',
     nameEn: 'Gregor Mendel',
@@ -5125,7 +5126,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'dante',
     name: '但丁',
     nameEn: 'Dante Alighieri',
@@ -5148,7 +5149,7 @@ export const people = [
     externalReferences: [],
     wikidataQid: 'Q1067',
   },
-  {
+{
     id: 'diogenes',
     name: '第欧根尼',
     nameEn: 'Diogenes',
@@ -5170,7 +5171,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'alexander',
     name: '亚历山大大帝',
     nameEn: 'Alexander the Great',
@@ -5192,7 +5193,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pliny-elder',
     name: '老普林尼',
     nameEn: 'Pliny the Elder',
@@ -5214,7 +5215,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'alfred-great',
     name: '阿尔弗雷德大帝',
     nameEn: 'Alfred the Great',
@@ -5236,7 +5237,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ansegius',
     name: '坎特伯雷的安瑟伦',
     nameEn: 'Anselm of Canterbury',
@@ -5258,7 +5259,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'peter-abelard',
     name: '彼得·阿伯拉尔',
     nameEn: 'Peter Abelard',
@@ -5280,7 +5281,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'el-cid',
     name: '熙德',
     nameEn: 'El Cid',
@@ -5302,7 +5303,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hobbes',
     name: '霍布斯',
     nameEn: 'Thomas Hobbes',
@@ -5324,7 +5325,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hume',
     name: '大卫·休谟',
     nameEn: 'David Hume',
@@ -5346,7 +5347,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'smith',
     name: '亚当·斯密',
     nameEn: 'Adam Smith',
@@ -5368,7 +5369,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wollstonecraft',
     name: '玛丽·沃斯通克拉夫特',
     nameEn: 'Mary Wollstonecraft',
@@ -5390,7 +5391,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'grande',
     name: '西蒙·玻利瓦尔',
     nameEn: 'Simon Bolivar',
@@ -5412,7 +5413,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wilde',
     name: '奥斯卡·王尔德',
     nameEn: 'Oscar Wilde',
@@ -5434,7 +5435,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nietzsche',
     name: '尼采',
     nameEn: 'Friedrich Nietzsche',
@@ -5456,7 +5457,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'freud',
     name: '弗洛伊德',
     nameEn: 'Sigmund Freud',
@@ -5478,7 +5479,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jung',
     name: '荣格',
     nameEn: 'Carl Jung',
@@ -5500,7 +5501,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'edison-new',
     name: '托马斯·爱迪生',
     nameEn: 'Thomas Edison',
@@ -5522,7 +5523,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'graham-bell',
     name: '亚历山大·贝尔',
     nameEn: 'Alexander Graham Bell',
@@ -5544,7 +5545,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wright',
     name: '莱特兄弟',
     nameEn: 'Wright Brothers (Wilbur & Orville)',
@@ -5566,7 +5567,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'marconi',
     name: '马可尼',
     nameEn: 'Guglielmo Marconi',
@@ -5588,7 +5589,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ford',
     name: '亨利·福特',
     nameEn: 'Henry Ford',
@@ -5610,7 +5611,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nobel',
     name: '阿尔弗雷德·诺贝尔',
     nameEn: 'Alfred Nobel',
@@ -5632,7 +5633,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'roosevelt',
     name: '罗斯福',
     nameEn: 'Franklin D. Roosevelt',
@@ -5654,7 +5655,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'truman',
     name: '杜鲁门',
     nameEn: 'Harry S. Truman',
@@ -5676,7 +5677,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kennedy',
     name: '肯尼迪',
     nameEn: 'John F. Kennedy',
@@ -5698,7 +5699,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'king-mlk',
     name: '马丁·路德·金',
     nameEn: 'Martin Luther King Jr.',
@@ -5720,7 +5721,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gandhi-new',
     name: '莫罕达斯·甘地',
     nameEn: 'Mahatma Gandhi',
@@ -5742,7 +5743,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'thatcher',
     name: '撒切尔夫人',
     nameEn: 'Margaret Thatcher',
@@ -5764,7 +5765,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'de-gaulle',
     name: '戴高乐',
     nameEn: 'Charles de Gaulle',
@@ -5786,7 +5787,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'adenauer',
     name: '阿登纳',
     nameEn: 'Konrad Adenauer',
@@ -5808,7 +5809,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hobsbawm',
     name: '霍布斯鲍姆',
     nameEn: 'Eric Hobsbawm',
@@ -5830,7 +5831,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'foucault',
     name: '福柯',
     nameEn: 'Michel Foucault',
@@ -5852,7 +5853,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'arendt',
     name: '汉娜·阿伦特',
     nameEn: 'Hannah Arendt',
@@ -5874,7 +5875,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'da-vinci',
     name: '达芬奇',
     nameEn: 'Leonardo da Vinci',
@@ -5896,7 +5897,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'brahms',
     name: '勃拉姆斯',
     nameEn: 'Johannes Brahms',
@@ -5918,7 +5919,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tchaikovsky',
     name: '柴可夫斯基',
     nameEn: 'Pyotr Tchaikovsky',
@@ -5940,7 +5941,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'van-gogh',
     name: '梵高',
     nameEn: 'Vincent van Gogh',
@@ -5962,7 +5963,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'monet',
     name: '莫奈',
     nameEn: 'Claude Monet',
@@ -5984,7 +5985,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'daqian',
     name: '张大千',
     nameEn: 'Zhang Daqian',
@@ -6006,7 +6007,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'baishi',
     name: '齐白石',
     nameEn: 'Qi Baishi',
@@ -6028,7 +6029,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'xubeihong',
     name: '徐悲鸿',
     nameEn: 'Xu Beihong',
@@ -6050,7 +6051,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lando',
     name: '郎世宁',
     nameEn: 'Giuseppe Castiglione (Lang Shining)',
@@ -6072,7 +6073,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'odaenobu',
     name: '鉴真',
     nameEn: 'Jianzhen (Ganjin)',
@@ -6094,7 +6095,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ichigen',
     name: '一休宗纯',
     nameEn: 'Ikkyu Sojun',
@@ -6116,7 +6117,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bassyo',
     name: '松尾芭蕉',
     nameEn: 'Matsuo Basho',
@@ -6138,7 +6139,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'higuchi',
     name: '樋口一叶',
     nameEn: 'Higuchi Ichiyo',
@@ -6160,7 +6161,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sommerset',
     name: '毛姆',
     nameEn: 'W. Somerset Maugham',
@@ -6182,7 +6183,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shah-jahan',
     name: '沙贾汗',
     nameEn: 'Shah Jahan',
@@ -6204,7 +6205,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'aurangzeb',
     name: '奥朗则布',
     nameEn: 'Aurangzeb',
@@ -6226,7 +6227,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mehmed-ii',
     name: '穆罕默德二世',
     nameEn: 'Mehmed II (the Conqueror)',
@@ -6248,7 +6249,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nasser',
     name: '纳赛尔',
     nameEn: 'Gamal Abdel Nasser',
@@ -6270,7 +6271,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kenyatta-new',
     name: '肯雅塔',
     nameEn: 'Jomo Kenyatta',
@@ -6292,7 +6293,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'senghor',
     name: '桑戈尔',
     nameEn: 'Leopold Sedar Senghor',
@@ -6314,7 +6315,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hannibal',
     name: '汉尼拔',
     nameEn: 'Hannibal Barca',
@@ -6336,7 +6337,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rutherford',
     name: '欧内斯特·卢瑟福',
     nameEn: 'Ernest Rutherford',
@@ -6358,7 +6359,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kamehameha',
     name: '卡美哈梅哈一世',
     nameEn: 'Kamehameha I',
@@ -6380,7 +6381,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chiang-kai-shek',
     name: '蒋介石',
     nameEn: 'Chiang Kai-shek',
@@ -6402,7 +6403,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhou-enlai',
     name: '周恩来',
     nameEn: 'Zhou Enlai',
@@ -6424,7 +6425,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lee-kuan-yew-new',
     name: '李光耀',
     nameEn: 'Lee Kuan Yew',
@@ -6446,7 +6447,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'park-chung-hee',
     name: '朴正熙',
     nameEn: 'Park Chung-hee',
@@ -6468,7 +6469,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kim-dae-jung',
     name: '金大中',
     nameEn: 'Kim Dae-jung',
@@ -6490,7 +6491,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'aung-suu-kyi',
     name: '昂山素季',
     nameEn: 'Aung San Suu Kyi',
@@ -6512,7 +6513,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rizal',
     name: '黎萨尔',
     nameEn: 'Jose Rizal',
@@ -6534,7 +6535,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'frei-kahlo',
     name: '弗里达',
     nameEn: 'Frida Kahlo',
@@ -6556,7 +6557,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'che-guevara-new',
     name: '切·格瓦拉',
     nameEn: 'Che Guevara',
@@ -6578,7 +6579,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'salvador-allende',
     name: '萨尔瓦多·阿连德',
     nameEn: 'Salvador Allende',
@@ -6600,7 +6601,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'darwin-new',
     name: '达尔文',
     nameEn: 'Charles Darwin',
@@ -6622,7 +6623,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'crick',
     name: '克里克',
     nameEn: 'Francis Crick',
@@ -6644,7 +6645,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'watson',
     name: '沃森',
     nameEn: 'James Watson',
@@ -6666,7 +6667,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'feynman',
     name: '费曼',
     nameEn: 'Richard Feynman',
@@ -6688,7 +6689,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hawking',
     name: '霍金',
     nameEn: 'Stephen Hawking',
@@ -6710,7 +6711,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jobs',
     name: '乔布斯',
     nameEn: 'Steve Jobs',
@@ -6732,7 +6733,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gates',
     name: '比尔·盖茨',
     nameEn: 'Bill Gates',
@@ -6754,7 +6755,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'curie-marie',
     name: '居里夫人',
     nameEn: 'Marie Curie',
@@ -6776,7 +6777,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nightingale',
     name: '南丁格尔',
     nameEn: 'Florence Nightingale',
@@ -6798,7 +6799,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'austen',
     name: '简·奥斯汀',
     nameEn: 'Jane Austen',
@@ -6820,7 +6821,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mao-emperor',
     name: '秦始皇',
     nameEn: 'Qin Shi Huang',
@@ -6842,7 +6843,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lumumba',
     name: '卢蒙巴',
     nameEn: 'Patrice Lumumba',
@@ -6864,7 +6865,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ahmed-ben-bella',
     name: '本·贝拉',
     nameEn: 'Ahmed Ben Bella',
@@ -6886,7 +6887,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hannibal-ancient',
     name: '汉尼拔',
     nameEn: 'Hannibal Barca',
@@ -6908,7 +6909,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zaynab-al-ghazali',
     name: '宰纳卜·加扎利',
     nameEn: 'Zaynab al-Ghazali',
@@ -6930,7 +6931,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ellen-sirleaf',
     name: '瑟利夫',
     nameEn: 'Ellen Johnson Sirleaf',
@@ -6952,7 +6953,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wangari-maathai',
     name: '马塔伊',
     nameEn: 'Wangari Maathai',
@@ -6974,7 +6975,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kofi-annan',
     name: '安南',
     nameEn: 'Kofi Annan',
@@ -6996,7 +6997,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chipko-movement',
     name: '桑德拉尔·巴胡古纳',
     nameEn: 'Sunderlal Bahuguna',
@@ -7018,7 +7019,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fela-kuti',
     name: '费拉·库蒂',
     nameEn: 'Fela Kuti',
@@ -7040,7 +7041,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'achebe',
     name: '阿契贝',
     nameEn: 'Chinua Achebe',
@@ -7062,7 +7063,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'allende',
     name: '阿连德',
     nameEn: 'Salvador Allende',
@@ -7084,7 +7085,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'peron-juan',
     name: '胡安·庇隆',
     nameEn: 'Juan Peron',
@@ -7106,7 +7107,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fidel-castro',
     name: '菲德尔·卡斯特罗',
     nameEn: 'Fidel Castro',
@@ -7128,7 +7129,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'neruda-pablo',
     name: '巴勃罗·聂鲁达',
     nameEn: 'Pablo Neruda',
@@ -7150,7 +7151,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'marquez-gabriel',
     name: '马尔克斯',
     nameEn: 'Gabriel Garcia Marquez',
@@ -7172,7 +7173,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kahlo-frida',
     name: '弗里达·卡洛',
     nameEn: 'Frida Kahlo',
@@ -7194,7 +7195,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'getulio-vargas',
     name: '瓦加斯',
     nameEn: 'Getulio Vargas',
@@ -7216,7 +7217,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'oscar-niemeyer',
     name: '尼迈耶',
     nameEn: 'Oscar Niemeyer',
@@ -7238,7 +7239,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'violeta-parra',
     name: '维奥莱塔·帕拉',
     nameEn: 'Violeta Parra',
@@ -7260,7 +7261,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chavez-hugo',
     name: '查韦斯',
     nameEn: 'Hugo Chavez',
@@ -7282,7 +7283,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rigoberta-menchu',
     name: '门楚',
     nameEn: 'Rigoberta Menchu',
@@ -7304,7 +7305,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'borges-jorge',
     name: '博尔赫斯',
     nameEn: 'Jorge Luis Borges',
@@ -7326,7 +7327,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cortazar',
     name: '科塔萨尔',
     nameEn: 'Julio Cortazar',
@@ -7348,7 +7349,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'diego-rivera',
     name: '迭戈·里维拉',
     nameEn: 'Diego Rivera',
@@ -7370,7 +7371,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pele',
     name: '贝利',
     nameEn: 'Pele',
@@ -7392,7 +7393,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kublai-khan-new',
     name: '忽必烈',
     nameEn: 'Kublai Khan',
@@ -7414,7 +7415,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nurhaci',
     name: '努尔哈赤',
     nameEn: 'Nurhaci',
@@ -7436,7 +7437,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-heng',
     name: '张衡',
     nameEn: 'Zhang Heng',
@@ -7458,7 +7459,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'duoyuan',
     name: '道元',
     nameEn: 'Dogen',
@@ -7480,7 +7481,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'sen-no-rikyu',
     name: '千利休',
     nameEn: 'Sen no Rikyu',
@@ -7502,7 +7503,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hiroshige',
     name: '歌川广重',
     nameEn: 'Utagawa Hiroshige',
@@ -7524,7 +7525,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kurosawa',
     name: '黑泽明',
     nameEn: 'Akira Kurosawa',
@@ -7546,7 +7547,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'miyazaki',
     name: '宫崎骏',
     nameEn: 'Hayao Miyazaki',
@@ -7568,7 +7569,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'king-sejong-new',
     name: '世宗大王',
     nameEn: 'King Sejong',
@@ -7590,7 +7591,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shin-saimdang',
     name: '申师任堂',
     nameEn: 'Shin Saimdang',
@@ -7612,7 +7613,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yu-gwan-sun',
     name: '柳宽顺',
     nameEn: 'Yu Gwan-sun',
@@ -7634,7 +7635,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rabindranath-tagore',
     name: '泰戈尔',
     nameEn: 'Rabindranath Tagore',
@@ -7656,7 +7657,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'swami-vivekananda',
     name: '辨喜',
     nameEn: 'Swami Vivekananda',
@@ -7678,7 +7679,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'apj-abdul-kalam',
     name: '卡拉姆',
     nameEn: 'A.P.J. Abdul Kalam',
@@ -7700,7 +7701,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cv-raman',
     name: '拉曼',
     nameEn: 'C.V. Raman',
@@ -7722,7 +7723,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pol-pot',
     name: '波尔布特',
     nameEn: 'Pol Pot',
@@ -7744,7 +7745,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'thant-u',
     name: '吴丹',
     nameEn: 'U Thant',
@@ -7766,7 +7767,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mahatir',
     name: '马哈蒂尔',
     nameEn: 'Mahathir Mohamad',
@@ -7788,7 +7789,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'aquino',
     name: '阿基诺夫人',
     nameEn: 'Corazon Aquino',
@@ -7810,7 +7811,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rumi',
     name: '鲁米',
     nameEn: 'Rumi (Jalal ad-Din)',
@@ -7832,7 +7833,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ibn-al-haytham',
     name: '伊本·海赛姆',
     nameEn: 'Ibn al-Haytham (Alhazen)',
@@ -7854,7 +7855,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mimar-sinan',
     name: '锡南',
     nameEn: 'Mimar Sinan',
@@ -7876,7 +7877,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'khomeini',
     name: '霍梅尼',
     nameEn: 'Ruhollah Khomeini',
@@ -7898,7 +7899,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pushkin',
     name: '普希金',
     nameEn: 'Alexander Pushkin',
@@ -7920,7 +7921,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chekhov',
     name: '契诃夫',
     nameEn: 'Anton Chekhov',
@@ -7942,7 +7943,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tesla-nikola',
     name: '尼古拉·特斯拉',
     nameEn: 'Nikola Tesla',
@@ -7964,7 +7965,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pascal',
     name: '帕斯卡',
     nameEn: 'Blaise Pascal',
@@ -7986,7 +7987,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'leibniz',
     name: '莱布尼茨',
     nameEn: 'Gottfried Wilhelm Leibniz',
@@ -8008,7 +8009,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'caravaggio',
     name: '卡拉瓦乔',
     nameEn: 'Caravaggio',
@@ -8030,7 +8031,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hokusai',
     name: '葛饰北斋',
     nameEn: 'Katsushika Hokusai',
@@ -8052,7 +8053,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'verdi',
     name: '威尔第',
     nameEn: 'Giuseppe Verdi',
@@ -8074,7 +8075,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wagner',
     name: '瓦格纳',
     nameEn: 'Richard Wagner',
@@ -8096,7 +8097,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'schopenhauer',
     name: '叔本华',
     nameEn: 'Arthur Schopenhauer',
@@ -8118,7 +8119,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mendeleev',
     name: '门捷列夫',
     nameEn: 'Dmitri Mendeleev',
@@ -8140,7 +8141,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'linnaeus',
     name: '林奈',
     nameEn: 'Carl Linnaeus',
@@ -8162,7 +8163,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'boyle',
     name: '波义耳',
     nameEn: 'Robert Boyle',
@@ -8184,7 +8185,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'crick-and-watson',
     name: '沃森和克里克',
     nameEn: 'Watson and Crick',
@@ -8206,7 +8207,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'feynman-richard',
     name: '理查德·费曼',
     nameEn: 'Richard Feynman',
@@ -8228,7 +8229,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hawking-stephen',
     name: '霍金',
     nameEn: 'Stephen Hawking',
@@ -8250,7 +8251,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jobs-steve',
     name: '史蒂夫·乔布斯',
     nameEn: 'Steve Jobs',
@@ -8272,7 +8273,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gates-bill',
     name: '比尔·盖茨',
     nameEn: 'Bill Gates',
@@ -8294,7 +8295,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'malala',
     name: '马拉拉',
     nameEn: 'Malala Yousafzai',
@@ -8316,7 +8317,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'greta-thunberg',
     name: '通贝里',
     nameEn: 'Greta Thunberg',
@@ -8338,7 +8339,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yuan-shikai',
     name: '袁世凯',
     nameEn: 'Yuan Shikai',
@@ -8360,7 +8361,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhou-guoping',
     name: '周国平',
     nameEn: 'Zhou Guoping',
@@ -8382,7 +8383,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lu-yao',
     name: '路遥',
     nameEn: 'Lu Yao',
@@ -8404,7 +8405,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mozart-wolfgang',
     name: '莫扎特',
     nameEn: 'Wolfgang Amadeus Mozart',
@@ -8426,7 +8427,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'beethoven-ludwig',
     name: '贝多芬',
     nameEn: 'Ludwig van Beethoven',
@@ -8448,7 +8449,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rembrandt',
     name: '伦勃朗',
     nameEn: 'Rembrandt van Rijn',
@@ -8470,7 +8471,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'goya',
     name: '戈雅',
     nameEn: 'Francisco Goya',
@@ -8492,7 +8493,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'degas',
     name: '德加',
     nameEn: 'Edgar Degas',
@@ -8514,7 +8515,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'stravinsky',
     name: '斯特拉文斯基',
     nameEn: 'Igor Stravinsky',
@@ -8536,7 +8537,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shostakovich',
     name: '肖斯塔科维奇',
     nameEn: 'Dmitri Shostakovich',
@@ -8558,7 +8559,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'frank-lloyd-wright',
     name: '赖特',
     nameEn: 'Frank Lloyd Wright',
@@ -8580,7 +8581,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chaplin',
     name: '卓别林',
     nameEn: 'Charlie Chaplin',
@@ -8602,7 +8603,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ban-chao',
     name: '班超',
     nameEn: 'Ban Chao',
@@ -8624,7 +8625,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gu-kaizhi',
     name: '顾恺之',
     nameEn: 'Gu Kaizhi',
@@ -8646,7 +8647,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shen-kuo',
     name: '沈括',
     nameEn: 'Shen Kuo',
@@ -8668,7 +8669,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'xu-guangqi',
     name: '徐光启',
     nameEn: 'Xu Guangqi',
@@ -8690,7 +8691,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'han-yu',
     name: '韩愈',
     nameEn: 'Han Yu',
@@ -8712,7 +8713,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'luo-guanzhong',
     name: '罗贯中',
     nameEn: 'Luo Guanzhong',
@@ -8734,7 +8735,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'murash',
     name: '紫式部',
     nameEn: 'Murasaki Shikibu',
@@ -8756,7 +8757,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hokusai-kat',
     name: '葛饰北斋',
     nameEn: 'Katsushika Hokusai',
@@ -8778,7 +8779,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mishima',
     name: '三岛由纪夫',
     nameEn: 'Yukio Mishima',
@@ -8800,7 +8801,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tezuka',
     name: '手冢治虫',
     nameEn: 'Osamu Tezuka',
@@ -8822,7 +8823,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'noguchi',
     name: '野口英世',
     nameEn: 'Hideyo Noguchi',
@@ -8844,7 +8845,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'chanakya',
     name: '考底利耶',
     nameEn: 'Chanakya (Kautilya)',
@@ -8866,7 +8867,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ambedkar',
     name: '安贝德卡',
     nameEn: 'B.R. Ambedkar',
@@ -8888,7 +8889,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mother-teresa',
     name: '特蕾莎修女',
     nameEn: 'Mother Teresa',
@@ -8910,7 +8911,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'avicenna-dupe',
     name: '伊本·西那',
     nameEn: 'Ibn Sina (Avicenna)',
@@ -8932,7 +8933,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ibn-rushd-dup',
     name: '伊本·鲁世德',
     nameEn: 'Ibn Rushd (Averroes)',
@@ -8954,7 +8955,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'durer',
     name: '丢勒',
     nameEn: 'Albrecht Durer',
@@ -8976,7 +8977,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'euler',
     name: '欧拉',
     nameEn: 'Leonhard Euler',
@@ -8998,7 +8999,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gauss',
     name: '高斯',
     nameEn: 'Carl Friedrich Gauss',
@@ -9020,7 +9021,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'john-dalton',
     name: '道尔顿',
     nameEn: 'John Dalton',
@@ -9042,7 +9043,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'joule',
     name: '焦耳',
     nameEn: 'James Joule',
@@ -9064,7 +9065,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hertz',
     name: '赫兹',
     nameEn: 'Heinrich Hertz',
@@ -9086,7 +9087,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'roentgen',
     name: '伦琴',
     nameEn: 'Wilhelm Rontgen',
@@ -9108,7 +9109,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fermi',
     name: '费米',
     nameEn: 'Enrico Fermi',
@@ -9130,7 +9131,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'oppenheimer',
     name: '奥本海默',
     nameEn: 'J. Robert Oppenheimer',
@@ -9152,7 +9153,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'vangogh',
     name: '凡·高',
     nameEn: 'Vincent van Gogh',
@@ -9174,7 +9175,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'dali',
     name: '达利',
     nameEn: 'Salvador Dali',
@@ -9196,7 +9197,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'handel',
     name: '亨德尔',
     nameEn: 'George Frideric Handel',
@@ -9218,7 +9219,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'schubert',
     name: '舒伯特',
     nameEn: 'Franz Schubert',
@@ -9240,7 +9241,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'debussy',
     name: '德彪西',
     nameEn: 'Claude Debussy',
@@ -9262,7 +9263,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rachmaninoff',
     name: '拉赫玛尼诺夫',
     nameEn: 'Sergei Rachmaninoff',
@@ -9284,7 +9285,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'galton',
     name: '高尔顿',
     nameEn: 'Francis Galton',
@@ -9306,7 +9307,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tesla-n',
     name: '尼古拉·特斯拉',
     nameEn: 'Nikola Tesla',
@@ -9328,7 +9329,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'curie-pierre',
     name: '皮埃尔·居里',
     nameEn: 'Pierre Curie',
@@ -9350,7 +9351,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'adele',
     name: '阿黛尔',
     nameEn: 'Adele',
@@ -9372,7 +9373,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'haruki-murakami',
     name: '村上春树',
     nameEn: 'Haruki Murakami',
@@ -9394,7 +9395,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rowling',
     name: 'J.K.罗琳',
     nameEn: 'J.K. Rowling',
@@ -9416,7 +9417,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'diana-princess',
     name: '戴安娜王妃',
     nameEn: 'Princess Diana',
@@ -9438,7 +9439,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pope-john-paul-ii',
     name: '若望保禄二世',
     nameEn: 'Pope John Paul II',
@@ -9460,7 +9461,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rachel-carson',
     name: '蕾切尔·卡逊',
     nameEn: 'Rachel Carson',
@@ -9482,7 +9483,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jane-goodall',
     name: '简·古道尔',
     nameEn: 'Jane Goodall',
@@ -9504,7 +9505,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'armstrong',
     name: '阿姆斯特朗',
     nameEn: 'Neil Armstrong',
@@ -9526,7 +9527,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gagarin',
     name: '加加林',
     nameEn: 'Yuri Gagarin',
@@ -9548,7 +9549,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'einstein-new',
     name: '爱因斯坦',
     nameEn: 'Albert Einstein',
@@ -9570,7 +9571,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nansen',
     name: '南森',
     nameEn: 'Fridtjof Nansen',
@@ -9592,7 +9593,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'amundsen',
     name: '阿蒙森',
     nameEn: 'Roald Amundsen',
@@ -9614,7 +9615,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ibsen',
     name: '易卜生',
     nameEn: 'Henrik Ibsen',
@@ -9636,7 +9637,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kierkegaard',
     name: '克尔凯郭尔',
     nameEn: 'Soren Kierkegaard',
@@ -9658,7 +9659,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hubble',
     name: '哈勃',
     nameEn: 'Edwin Hubble',
@@ -9680,7 +9681,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'von-neumann',
     name: '冯·诺依曼',
     nameEn: 'John von Neumann',
@@ -9702,7 +9703,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rosa-parks',
     name: '罗莎·帕克斯',
     nameEn: 'Rosa Parks',
@@ -9724,7 +9725,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tutu-desmond',
     name: '图图大主教',
     nameEn: 'Desmond Tutu',
@@ -9746,7 +9747,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yousafzai-malala',
     name: '马拉拉',
     nameEn: 'Malala Yousafzai',
@@ -9768,7 +9769,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'meitner-lise',
     name: '迈特纳',
     nameEn: 'Lise Meitner',
@@ -9790,7 +9791,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'noether',
     name: '诺特',
     nameEn: 'Emmy Noether',
@@ -9812,7 +9813,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hypatia',
     name: '希帕提娅',
     nameEn: 'Hypatia',
@@ -9834,7 +9835,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'babbage',
     name: '巴贝奇',
     nameEn: 'Charles Babbage',
@@ -9856,7 +9857,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'planck-max',
     name: '普朗克',
     nameEn: 'Max Planck',
@@ -9878,7 +9879,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bohr-niels',
     name: '玻尔',
     nameEn: 'Niels Bohr',
@@ -9900,7 +9901,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'dirac-paul',
     name: '狄拉克',
     nameEn: 'Paul Dirac',
@@ -9922,7 +9923,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'de-broglie',
     name: '德布罗意',
     nameEn: 'Louis de Broglie',
@@ -9944,7 +9945,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'pauli',
     name: '泡利',
     nameEn: 'Wolfgang Pauli',
@@ -9966,7 +9967,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'born-max',
     name: '玻恩',
     nameEn: 'Max Born',
@@ -9988,7 +9989,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'thales',
     name: '泰勒斯',
     nameEn: 'Thales of Miletus',
@@ -10010,7 +10011,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'anaximander',
     name: '阿那克西曼德',
     nameEn: 'Anaximander',
@@ -10032,7 +10033,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'parmenides',
     name: '巴门尼德',
     nameEn: 'Parmenides',
@@ -10054,7 +10055,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zeno-elea',
     name: '芝诺',
     nameEn: 'Zeno of Elea',
@@ -10076,7 +10077,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'empedocles',
     name: '恩培多克勒',
     nameEn: 'Empedocles',
@@ -10098,7 +10099,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'protagoras',
     name: '普罗泰戈拉',
     nameEn: 'Protagoras',
@@ -10120,7 +10121,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'epicurus',
     name: '伊壁鸠鲁',
     nameEn: 'Epicurus',
@@ -10142,7 +10143,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zeno-citium',
     name: '芝诺（斯多葛）',
     nameEn: 'Zeno of Citium',
@@ -10164,7 +10165,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lucretius',
     name: '卢克莱修',
     nameEn: 'Lucretius',
@@ -10186,7 +10187,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'boethius',
     name: '波爱修斯',
     nameEn: 'Boethius',
@@ -10208,7 +10209,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'duns-scotus',
     name: '邓斯·司各脱',
     nameEn: 'Duns Scotus',
@@ -10230,7 +10231,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ockham',
     name: '奥卡姆',
     nameEn: 'William of Ockham',
@@ -10252,7 +10253,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'meister-eckhart',
     name: '埃克哈特',
     nameEn: 'Meister Eckhart',
@@ -10274,7 +10275,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'john-wycliffe',
     name: '威克里夫',
     nameEn: 'John Wycliffe',
@@ -10296,7 +10297,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jan-hus',
     name: '胡斯',
     nameEn: 'Jan Hus',
@@ -10318,7 +10319,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'francesco-petrarca',
     name: '彼特拉克',
     nameEn: 'Petrarch',
@@ -10340,7 +10341,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'boccaccio',
     name: '薄伽丘',
     nameEn: 'Giovanni Boccaccio',
@@ -10362,7 +10363,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'el-greco',
     name: '埃尔·格列柯',
     nameEn: 'El Greco',
@@ -10384,7 +10385,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'jan-van-eyck',
     name: '凡·艾克',
     nameEn: 'Jan van Eyck',
@@ -10406,7 +10407,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bruegel',
     name: '勃鲁盖尔',
     nameEn: 'Pieter Bruegel the Elder',
@@ -10428,7 +10429,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bernini',
     name: '贝尼尼',
     nameEn: 'Gian Lorenzo Bernini',
@@ -10450,7 +10451,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rubens',
     name: '鲁本斯',
     nameEn: 'Peter Paul Rubens',
@@ -10472,7 +10473,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'velazquez',
     name: '委拉斯开兹',
     nameEn: 'Diego Velazquez',
@@ -10494,7 +10495,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'titian',
     name: '提香',
     nameEn: 'Titian',
@@ -10516,7 +10517,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'botticelli',
     name: '波提切利',
     nameEn: 'Sandro Botticelli',
@@ -10538,7 +10539,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'giotto',
     name: '乔托',
     nameEn: 'Giotto di Bondone',
@@ -10560,7 +10561,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'masaccio',
     name: '马萨乔',
     nameEn: 'Masaccio',
@@ -10582,7 +10583,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'piero-francesca',
     name: '皮耶罗·德拉·弗朗切斯卡',
     nameEn: 'Piero della Francesca',
@@ -10604,7 +10605,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mantegna',
     name: '曼特尼亚',
     nameEn: 'Andrea Mantegna',
@@ -10626,7 +10627,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'bellini-giovanni',
     name: '贝利尼',
     nameEn: 'Giovanni Bellini',
@@ -10648,7 +10649,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'correggio',
     name: '科雷乔',
     nameEn: 'Correggio',
@@ -10670,7 +10671,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'holbein',
     name: '霍尔拜因',
     nameEn: 'Hans Holbein the Younger',
@@ -10692,7 +10693,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'vermeer',
     name: '维米尔',
     nameEn: 'Johannes Vermeer',
@@ -10714,7 +10715,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'toulouse-lautrec',
     name: '劳特累克',
     nameEn: 'Henri de Toulouse-Lautrec',
@@ -10736,7 +10737,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'modigliani',
     name: '莫迪利亚尼',
     nameEn: 'Amedeo Modigliani',
@@ -10758,7 +10759,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'marcel-duchamp',
     name: '杜尚',
     nameEn: 'Marcel Duchamp',
@@ -10780,7 +10781,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mondrian',
     name: '蒙德里安',
     nameEn: 'Piet Mondrian',
@@ -10802,7 +10803,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kandinsky',
     name: '康定斯基',
     nameEn: 'Wassily Kandinsky',
@@ -10824,7 +10825,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'klee',
     name: '克利',
     nameEn: 'Paul Klee',
@@ -10846,7 +10847,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'munch',
     name: '蒙克',
     nameEn: 'Edvard Munch',
@@ -10868,7 +10869,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'seurat',
     name: '修拉',
     nameEn: 'Georges Seurat',
@@ -10890,7 +10891,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'gauguin',
     name: '高更',
     nameEn: 'Paul Gauguin',
@@ -10912,7 +10913,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'matisse',
     name: '马蒂斯',
     nameEn: 'Henri Matisse',
@@ -10934,7 +10935,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'klimt',
     name: '克里姆特',
     nameEn: 'Gustav Klimt',
@@ -10956,7 +10957,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'rodin',
     name: '罗丹',
     nameEn: 'Auguste Rodin',
@@ -10978,7 +10979,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'michelangelo-b',
     name: '布纳罗蒂',
     nameEn: 'Michelangelo Buonarroti',
@@ -11000,7 +11001,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'volta',
     name: '伏打',
     nameEn: 'Alessandro Volta',
@@ -11022,7 +11023,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ohm',
     name: '欧姆',
     nameEn: 'Georg Ohm',
@@ -11044,7 +11045,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ampere',
     name: '安培',
     nameEn: 'Andre-Marie Ampere',
@@ -11066,7 +11067,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'coulomb',
     name: '库仑',
     nameEn: 'Charles-Augustin de Coulomb',
@@ -11088,7 +11089,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'robert-hooke',
     name: '胡克',
     nameEn: 'Robert Hooke',
@@ -11110,7 +11111,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tycho',
     name: '第谷',
     nameEn: 'Tycho Brahe',
@@ -11132,7 +11133,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'kelvin',
     name: '开尔文',
     nameEn: 'Lord Kelvin (William Thomson)',
@@ -11154,7 +11155,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'boltzmann',
     name: '玻尔兹曼',
     nameEn: 'Ludwig Boltzmann',
@@ -11176,7 +11177,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'edwin-land',
     name: '兰德',
     nameEn: 'Edwin Land',
@@ -11198,7 +11199,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'berners-lee',
     name: '伯纳斯-李',
     nameEn: 'Tim Berners-Lee',
@@ -11220,7 +11221,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'shannon',
     name: '香农',
     nameEn: 'Claude Shannon',
@@ -11242,7 +11243,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nash',
     name: '纳什',
     nameEn: 'John Nash',
@@ -11264,7 +11265,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'mandelbrot',
     name: '曼德博',
     nameEn: 'Benoit Mandelbrot',
@@ -11286,7 +11287,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'goodall-jane',
     name: '古道尔',
     nameEn: 'Jane Goodall',
@@ -11308,7 +11309,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fossey',
     name: '弗西',
     nameEn: 'Dian Fossey',
@@ -11330,7 +11331,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nadar',
     name: '纳达尔',
     nameEn: 'Nadar (Gaspard-Felix Tournachon)',
@@ -11352,7 +11353,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ansel-adams',
     name: '安塞尔·亚当斯',
     nameEn: 'Ansel Adams',
@@ -11374,7 +11375,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cartier-bresson',
     name: '布列松',
     nameEn: 'Henri Cartier-Bresson',
@@ -11396,8 +11397,7 @@ export const people = [
     confidenceScore: 0.9,
     externalReferences: [],
   },
-
-  {
+{
       id: 'bianque',
       name: '扁鹊',
       nameEn: 'Bian Que',
@@ -11925,11 +11925,11 @@ export const people = [
     alternativeNames: ['胡亥', 'Hu Hai'],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'han-wendi',
     name: '汉文帝',
     nameEn: 'Emperor Wen of Han',
@@ -11946,11 +11946,11 @@ export const people = [
     alternativeNames: ['刘恒', 'Liu Heng'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'han-jingdi',
     name: '汉景帝',
     nameEn: 'Emperor Jing of Han',
@@ -11967,11 +11967,11 @@ export const people = [
     alternativeNames: ['刘启', 'Liu Qi'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'han-zhaodi',
     name: '汉昭帝',
     nameEn: 'Emperor Zhao of Han',
@@ -11988,11 +11988,11 @@ export const people = [
     alternativeNames: ['刘弗陵', 'Liu Fuling'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'han-xuandi',
     name: '汉宣帝',
     nameEn: 'Emperor Xuan of Han',
@@ -12009,11 +12009,11 @@ export const people = [
     alternativeNames: ['刘询', '刘病已', 'Liu Xun', 'Liu Bingyi'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'han-yuandi',
     name: '汉元帝',
     nameEn: 'Emperor Yuan of Han',
@@ -12030,11 +12030,11 @@ export const people = [
     alternativeNames: ['刘奭', 'Liu Shi'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'han-guangwudi',
     name: '光武帝',
     nameEn: 'Emperor Guangwu of Han',
@@ -12051,11 +12051,11 @@ export const people = [
     alternativeNames: ['刘秀', 'Liu Xiu'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'han-mingdi',
     name: '汉明帝',
     nameEn: 'Emperor Ming of Han',
@@ -12072,11 +12072,11 @@ export const people = [
     alternativeNames: ['刘庄', 'Liu Zhuang'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'han-zhangdi',
     name: '汉章帝',
     nameEn: 'Emperor Zhang of Han',
@@ -12093,11 +12093,11 @@ export const people = [
     alternativeNames: ['刘炟', 'Liu Da'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'han-xiandi',
     name: '汉献帝',
     nameEn: 'Emperor Xian of Han',
@@ -12114,11 +12114,11 @@ export const people = [
     alternativeNames: ['刘协', 'Liu Xie'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'cao-pi',
     name: '曹丕',
     nameEn: 'Cao Pi',
@@ -12135,11 +12135,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'liu-bei',
     name: '刘备',
     nameEn: 'Liu Bei',
@@ -12156,11 +12156,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sun-quan',
     name: '孙权',
     nameEn: 'Sun Quan',
@@ -12177,11 +12177,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sima-yan',
     name: '司马炎',
     nameEn: 'Emperor Wu of Jin',
@@ -12198,11 +12198,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sui-yangdi',
     name: '隋炀帝',
     nameEn: 'Emperor Yang of Sui',
@@ -12219,11 +12219,11 @@ export const people = [
     alternativeNames: ['杨广', 'Yang Guang'],
     sourceIds: ['src-suisheshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'tang-gaozu',
     name: '唐高祖',
     nameEn: 'Emperor Gaozu of Tang',
@@ -12240,11 +12240,11 @@ export const people = [
     alternativeNames: ['李渊', 'Li Yuan'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'tang-gaozong',
     name: '唐高宗',
     nameEn: 'Emperor Gaozong of Tang',
@@ -12261,11 +12261,11 @@ export const people = [
     alternativeNames: ['李治', 'Li Zhi'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'tang-xuanzong',
     name: '唐玄宗',
     nameEn: 'Emperor Xuanzong of Tang',
@@ -12282,11 +12282,11 @@ export const people = [
     alternativeNames: ['李隆基', 'Li Longji'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'tang-xianzong',
     name: '唐宪宗',
     nameEn: 'Emperor Xianzong of Tang',
@@ -12303,11 +12303,11 @@ export const people = [
     alternativeNames: ['李纯', 'Li Chun'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'song-taizu',
     name: '宋太祖',
     nameEn: 'Emperor Taizu of Song',
@@ -12324,11 +12324,11 @@ export const people = [
     alternativeNames: ['赵匡胤', 'Zhao Kuangyin'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'song-taizong',
     name: '宋太宗',
     nameEn: 'Emperor Taizong of Song',
@@ -12345,11 +12345,11 @@ export const people = [
     alternativeNames: ['赵光义', '赵炅', 'Zhao Guangyi'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'song-renzong',
     name: '宋仁宗',
     nameEn: 'Emperor Renzong of Song',
@@ -12366,11 +12366,11 @@ export const people = [
     alternativeNames: ['赵祯', 'Zhao Zhen'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'song-shenzong',
     name: '宋神宗',
     nameEn: 'Emperor Shenzong of Song',
@@ -12387,11 +12387,11 @@ export const people = [
     alternativeNames: ['赵顼', 'Zhao Xu'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'song-huizong',
     name: '宋徽宗',
     nameEn: 'Emperor Huizong of Song',
@@ -12408,11 +12408,11 @@ export const people = [
     alternativeNames: ['赵佶', 'Zhao Ji'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'song-gaozong',
     name: '宋高宗',
     nameEn: 'Emperor Gaozong of Song',
@@ -12429,11 +12429,11 @@ export const people = [
     alternativeNames: ['赵构', 'Zhao Gou'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'yuan-chengzong',
     name: '元成宗',
     nameEn: 'Temür Khan',
@@ -12450,11 +12450,11 @@ export const people = [
     alternativeNames: ['铁穆耳', 'Temür Öljeytü'],
     sourceIds: ['src-yuanshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.7,
     externalReferences: [],
   },
-  {
+{
     id: 'yuan-huizong',
     name: '元惠宗',
     nameEn: 'Toghon Temür',
@@ -12471,11 +12471,11 @@ export const people = [
     alternativeNames: ['妥懽帖睦尔', 'Toghan Temur'],
     sourceIds: ['src-yuanshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'ming-yongle',
     name: '明成祖',
     nameEn: 'Yongle Emperor',
@@ -12492,11 +12492,11 @@ export const people = [
     alternativeNames: ['朱棣', 'Zhu Di'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'ming-xuande',
     name: '明宣宗',
     nameEn: 'Xuande Emperor',
@@ -12513,11 +12513,11 @@ export const people = [
     alternativeNames: ['朱瞻基', 'Zhu Zhanji'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'ming-wanli',
     name: '明神宗',
     nameEn: 'Wanli Emperor',
@@ -12534,11 +12534,11 @@ export const people = [
     alternativeNames: ['朱翊钧', 'Zhu Yijun'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'ming-chongzhen',
     name: '明思宗',
     nameEn: 'Chongzhen Emperor',
@@ -12555,11 +12555,11 @@ export const people = [
     alternativeNames: ['朱由检', 'Zhu Youjian'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'qing-huangtaiji',
     name: '皇太极',
     nameEn: 'Hong Taiji',
@@ -12576,11 +12576,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'qing-shunzhi',
     name: '顺治帝',
     nameEn: 'Shunzhi Emperor',
@@ -12597,11 +12597,11 @@ export const people = [
     alternativeNames: ['福临', 'Fulin'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'qing-yongzheng',
     name: '雍正帝',
     nameEn: 'Yongzheng Emperor',
@@ -12618,11 +12618,11 @@ export const people = [
     alternativeNames: ['胤禛', 'Yinzhen'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qing-guangxu',
     name: '光绪帝',
     nameEn: 'Guangxu Emperor',
@@ -12639,11 +12639,11 @@ export const people = [
     alternativeNames: ['载湉', 'Zaitian'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'qing-puyi',
     name: '溥仪',
     nameEn: 'Puyi',
@@ -12660,13 +12660,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-
-
-  {
+{
     id: 'tiberius',
     name: '提比略',
     nameEn: 'Tiberius',
@@ -12683,11 +12681,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-tacitus', 'src-suetonius'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'caligula',
     name: '卡利古拉',
     nameEn: 'Caligula',
@@ -12704,11 +12702,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-suetonius'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'claudius',
     name: '克劳狄乌斯',
     nameEn: 'Claudius',
@@ -12725,11 +12723,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-tacitus', 'src-suetonius'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'vespasian',
     name: '韦斯帕芗',
     nameEn: 'Vespasian',
@@ -12746,11 +12744,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-tacitus', 'src-suetonius'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'diocletian',
     name: '戴克里先',
     nameEn: 'Diocletian',
@@ -12767,11 +12765,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-tacitus'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'theodosius-i',
     name: '狄奥多西一世',
     nameEn: 'Theodosius I',
@@ -12788,11 +12786,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'heraclius',
     name: '希拉克略',
     nameEn: 'Heraclius',
@@ -12809,11 +12807,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-procopius'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'basil-ii',
     name: '巴西尔二世',
     nameEn: 'Basil II',
@@ -12830,11 +12828,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'alexios-i',
     name: '阿莱克修斯一世',
     nameEn: 'Alexios I Komnenos',
@@ -12851,11 +12849,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-alexiad'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'constantine-xi',
     name: '君士坦丁十一世',
     nameEn: 'Constantine XI Palaiologos',
@@ -12872,11 +12870,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'henry-ii',
     name: '亨利二世',
     nameEn: 'Henry II',
@@ -12893,11 +12891,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'richard-i',
     name: '理查一世（狮心王）',
     nameEn: 'Richard I (the Lionheart)',
@@ -12914,11 +12912,11 @@ export const people = [
     alternativeNames: ['Richard Coeur de Lion'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'king-john',
     name: '约翰王',
     nameEn: 'King John',
@@ -12935,11 +12933,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'edward-i',
     name: '爱德华一世',
     nameEn: 'Edward I',
@@ -12956,11 +12954,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'henry-viii',
     name: '亨利八世',
     nameEn: 'Henry VIII',
@@ -12977,11 +12975,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'charles-i',
     name: '查理一世',
     nameEn: 'Charles I',
@@ -12998,11 +12996,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'louis-ix',
     name: '路易九世（圣路易）',
     nameEn: 'Louis IX (Saint Louis)',
@@ -13019,11 +13017,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'philip-ii-augustus',
     name: '腓力二世·奥古斯都',
     nameEn: 'Philip II Augustus',
@@ -13040,11 +13038,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'philip-iv',
     name: '腓力四世（美男子）',
     nameEn: 'Philip IV (the Fair)',
@@ -13061,11 +13059,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'francis-i',
     name: '弗朗索瓦一世',
     nameEn: 'Francis I',
@@ -13082,11 +13080,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'henry-iv-france',
     name: '亨利四世',
     nameEn: 'Henry IV of France',
@@ -13103,11 +13101,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'louis-xvi',
     name: '路易十六',
     nameEn: 'Louis XVI',
@@ -13124,11 +13122,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'napoleon-iii',
     name: '拿破仑三世',
     nameEn: 'Napoleon III',
@@ -13145,11 +13143,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'otto-i',
     name: '奥托一世',
     nameEn: 'Otto I (the Great)',
@@ -13166,11 +13164,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'frederick-barbarossa',
     name: '腓特烈一世（巴巴罗萨）',
     nameEn: 'Frederick I (Barbarossa)',
@@ -13187,11 +13185,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'frederick-ii',
     name: '腓特烈二世',
     nameEn: 'Frederick II',
@@ -13208,11 +13206,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'charles-v',
     name: '查理五世',
     nameEn: 'Charles V',
@@ -13229,11 +13227,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'maria-theresa',
     name: '玛丽亚·特蕾莎',
     nameEn: 'Maria Theresa',
@@ -13250,11 +13248,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'ivan-iii',
     name: '伊凡三世',
     nameEn: 'Ivan III (the Great)',
@@ -13271,11 +13269,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'catherine-the-great',
     name: '叶卡捷琳娜大帝',
     nameEn: 'Catherine the Great',
@@ -13292,11 +13290,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'alexander-i',
     name: '亚历山大一世',
     nameEn: 'Alexander I',
@@ -13313,11 +13311,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'alexander-ii',
     name: '亚历山大二世',
     nameEn: 'Alexander II',
@@ -13334,11 +13332,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'nicholas-ii',
     name: '尼古拉二世',
     nameEn: 'Nicholas II',
@@ -13355,11 +13353,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'osman-i',
     name: '奥斯曼一世',
     nameEn: 'Osman I',
@@ -13376,11 +13374,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'selim-i',
     name: '塞利姆一世',
     nameEn: 'Selim I',
@@ -13397,11 +13395,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'selim-ii',
     name: '塞利姆二世',
     nameEn: 'Selim II',
@@ -13418,11 +13416,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'murad-iv',
     name: '穆拉德四世',
     nameEn: 'Murad IV',
@@ -13439,11 +13437,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'xerxes-i',
     name: '薛西斯一世',
     nameEn: 'Xerxes I',
@@ -13460,11 +13458,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'shapur-i',
     name: '沙普尔一世',
     nameEn: 'Shapur I',
@@ -13481,11 +13479,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'khosrow-i',
     name: '库思老一世',
     nameEn: 'Khosrow I (Anushirvan)',
@@ -13502,11 +13500,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'abbas-i',
     name: '阿巴斯一世',
     nameEn: 'Abbas I (the Great)',
@@ -13523,11 +13521,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'akhenaten',
     name: '阿肯那顿',
     nameEn: 'Akhenaten',
@@ -13544,11 +13542,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'tutankhamun',
     name: '图坦卡蒙',
     nameEn: 'Tutankhamun',
@@ -13565,11 +13563,11 @@ export const people = [
     alternativeNames: ['图坦卡门', 'King Tut'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'empress-suiko',
     name: '推古天皇',
     nameEn: 'Empress Suiko',
@@ -13586,11 +13584,11 @@ export const people = [
     alternativeNames: ['Suiko-tenno'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'emperor-kammu',
     name: '桓武天皇',
     nameEn: 'Emperor Kammu',
@@ -13607,11 +13605,11 @@ export const people = [
     alternativeNames: ['Kammu-tenno'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'emperor-go-daigo',
     name: '后醍醐天皇',
     nameEn: 'Emperor Go-Daigo',
@@ -13628,11 +13626,11 @@ export const people = [
     alternativeNames: ['Go-Daigo-tenno'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'chandragupta-maurya',
     name: '旃陀罗笈多·孔雀',
     nameEn: 'Chandragupta Maurya',
@@ -13649,11 +13647,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'chandragupta-ii',
     name: '旃陀罗笈多二世',
     nameEn: 'Chandragupta II (Vikramaditya)',
@@ -13670,11 +13668,11 @@ export const people = [
     alternativeNames: ['超日王', 'Vikramaditya'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'gwanggaeto',
     name: '广开土大王',
     nameEn: 'Gwanggaeto the Great',
@@ -13691,11 +13689,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'taejo-goryeo',
     name: '高丽太祖',
     nameEn: 'Taejo of Goryeo',
@@ -13712,11 +13710,11 @@ export const people = [
     alternativeNames: ['王建', 'Wang Geon'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'yeongjo',
     name: '英祖',
     nameEn: 'Yeongjo of Joseon',
@@ -13733,12 +13731,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-
-  {
+{
     id: 'xiao-he',
     name: '萧何',
     nameEn: 'Xiao He',
@@ -13755,11 +13752,11 @@ export const people = [
     alternativeNames: ['萧相国', 'Xiao He'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-liang',
     name: '张良',
     nameEn: 'Zhang Liang',
@@ -13776,11 +13773,11 @@ export const people = [
     alternativeNames: ['张子房', 'Zhang Zifang', '留侯'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'huo-guang',
     name: '霍光',
     nameEn: 'Huo Guang',
@@ -13797,11 +13794,11 @@ export const people = [
     alternativeNames: ['霍子孟', 'Huo Zimeng'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'fang-xuanling',
     name: '房玄龄',
     nameEn: 'Fang Xuanling',
@@ -13818,11 +13815,11 @@ export const people = [
     alternativeNames: ['房乔', 'Fang Qiao'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'di-renjie',
     name: '狄仁杰',
     nameEn: 'Di Renjie',
@@ -13839,11 +13836,11 @@ export const people = [
     alternativeNames: ['狄怀英', 'Di Huaiying', '狄公'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'bao-zheng',
     name: '包拯',
     nameEn: 'Bao Zheng',
@@ -13860,11 +13857,11 @@ export const people = [
     alternativeNames: ['包希仁', 'Bao Xiren', '包青天', '包龙图'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'fan-zhongyan',
     name: '范仲淹',
     nameEn: 'Fan Zhongyan',
@@ -13881,11 +13878,11 @@ export const people = [
     alternativeNames: ['范希文', 'Fan Xiwen'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wen-tianxiang',
     name: '文天祥',
     nameEn: 'Wen Tianxiang',
@@ -13902,11 +13899,11 @@ export const people = [
     alternativeNames: ['文宋瑞', 'Wen Songrui'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yu-qian',
     name: '于谦',
     nameEn: 'Yu Qian',
@@ -13923,11 +13920,11 @@ export const people = [
     alternativeNames: ['于廷益', 'Yu Tingyi'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-juzheng',
     name: '张居正',
     nameEn: 'Zhang Juzheng',
@@ -13944,11 +13941,11 @@ export const people = [
     alternativeNames: ['张叔大', 'Zhang Shuda', '张江陵'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hai-rui',
     name: '海瑞',
     nameEn: 'Hai Rui',
@@ -13965,11 +13962,11 @@ export const people = [
     alternativeNames: ['海刚峰', 'Hai Gangfeng', '海青天'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'lin-zexu',
     name: '林则徐',
     nameEn: 'Lin Zexu',
@@ -13986,11 +13983,11 @@ export const people = [
     alternativeNames: ['林元抚', 'Lin Yuanfu', '林文忠公'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zeng-guofan',
     name: '曾国藩',
     nameEn: 'Zeng Guofan',
@@ -14007,11 +14004,11 @@ export const people = [
     alternativeNames: ['曾伯涵', 'Zeng Bohan', '曾文正公'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'zuo-zongtang',
     name: '左宗棠',
     nameEn: 'Zuo Zongtang',
@@ -14028,11 +14025,11 @@ export const people = [
     alternativeNames: ['左季高', 'Zuo Jigao', '左文襄公'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qu-yuan',
     name: '屈原',
     nameEn: 'Qu Yuan',
@@ -14049,11 +14046,11 @@ export const people = [
     alternativeNames: ['屈平', 'Qu Ping'],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'cao-zhi',
     name: '曹植',
     nameEn: 'Cao Zhi',
@@ -14070,11 +14067,11 @@ export const people = [
     alternativeNames: ['曹子建', 'Cao Zijian', '陈思王'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'tao-yuanming',
     name: '陶渊明',
     nameEn: 'Tao Yuanming',
@@ -14091,11 +14088,11 @@ export const people = [
     alternativeNames: ['陶潜', 'Tao Qian', '五柳先生'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-bo',
     name: '王勃',
     nameEn: 'Wang Bo',
@@ -14112,11 +14109,11 @@ export const people = [
     alternativeNames: ['王子安', 'Wang Zian'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'meng-haoran',
     name: '孟浩然',
     nameEn: 'Meng Haoran',
@@ -14133,11 +14130,11 @@ export const people = [
     alternativeNames: ['孟山人', 'Meng Haoran'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'du-mu',
     name: '杜牧',
     nameEn: 'Du Mu',
@@ -14154,11 +14151,11 @@ export const people = [
     alternativeNames: ['杜牧之', 'Du Muzhi', '杜樊川'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'li-shangyin',
     name: '李商隐',
     nameEn: 'Li Shangyin',
@@ -14175,11 +14172,11 @@ export const people = [
     alternativeNames: ['李义山', 'Li Yishan', '玉谿生'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'liu-zongyuan',
     name: '柳宗元',
     nameEn: 'Liu Zongyuan',
@@ -14196,11 +14193,11 @@ export const people = [
     alternativeNames: ['柳子厚', 'Liu Zihou', '柳河东', '柳柳州'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'lu-you',
     name: '陆游',
     nameEn: 'Lu You',
@@ -14217,11 +14214,11 @@ export const people = [
     alternativeNames: ['陆务观', 'Lu Wuguan', '放翁'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'xin-qiji',
     name: '辛弃疾',
     nameEn: 'Xin Qiji',
@@ -14238,11 +14235,11 @@ export const people = [
     alternativeNames: ['辛幼安', "Xin You'an", '稼轩'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'guan-hanqing',
     name: '关汉卿',
     nameEn: 'Guan Hanqing',
@@ -14259,11 +14256,11 @@ export const people = [
     alternativeNames: ['已斋叟', 'Guan Yizhai'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-xizhi',
     name: '王羲之',
     nameEn: 'Wang Xizhi',
@@ -14280,11 +14277,11 @@ export const people = [
     alternativeNames: ['王逸少', 'Wang Yishao', '王右军'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wu-chengen',
     name: '吴承恩',
     nameEn: 'Wu Cheng\'en',
@@ -14301,11 +14298,11 @@ export const people = [
     alternativeNames: ['吴汝忠', 'Wu Ruzhong'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'cai-lun',
     name: '蔡伦',
     nameEn: 'Cai Lun',
@@ -14322,11 +14319,11 @@ export const people = [
     alternativeNames: ['蔡敬仲', 'Cai Jingzhong'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-zhongjing',
     name: '张仲景',
     nameEn: 'Zhang Zhongjing',
@@ -14343,11 +14340,11 @@ export const people = [
     alternativeNames: ['张机', 'Zhang Ji', '医圣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'hua-tuo',
     name: '华佗',
     nameEn: 'Hua Tuo',
@@ -14364,11 +14361,11 @@ export const people = [
     alternativeNames: ['华元化', 'Hua Yuanhua', '神医华佗'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-  {
+{
     id: 'zu-chongzhi',
     name: '祖冲之',
     nameEn: 'Zu Chongzhi',
@@ -14385,11 +14382,11 @@ export const people = [
     alternativeNames: ['祖文远', 'Zu Wenyuan'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'bi-sheng',
     name: '毕昇',
     nameEn: 'Bi Sheng',
@@ -14406,11 +14403,11 @@ export const people = [
     alternativeNames: ['毕升', 'Bi Sheng'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'guo-shoujing',
     name: '郭守敬',
     nameEn: 'Guo Shoujing',
@@ -14427,11 +14424,11 @@ export const people = [
     alternativeNames: ['郭若思', 'Guo Ruosi'],
     sourceIds: ['src-yuanshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'song-yingxing',
     name: '宋应星',
     nameEn: 'Song Yingxing',
@@ -14448,11 +14445,11 @@ export const people = [
     alternativeNames: ['宋长庚', 'Song Changgeng'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'jiang-ziya',
     name: '姜子牙',
     nameEn: 'Jiang Ziya (Jiang Taigong)',
@@ -14469,11 +14466,11 @@ export const people = [
     alternativeNames: ['姜尚', '吕尚', '太公望', 'Jiang Shang', 'Lu Shang', 'Tai Gong Wang'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.7,
     externalReferences: [],
   },
-  {
+{
     id: 'sima-yi',
     name: '司马懿',
     nameEn: 'Sima Yi',
@@ -14490,11 +14487,11 @@ export const people = [
     alternativeNames: ['司马仲达', 'Sima Zhongda'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhou-yu',
     name: '周瑜',
     nameEn: 'Zhou Yu',
@@ -14511,11 +14508,11 @@ export const people = [
     alternativeNames: ['周郎', 'Zhou Lang', '周公瑾', 'Zhou Gongjin'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'guo-jia',
     name: '郭嘉',
     nameEn: 'Guo Jia',
@@ -14532,11 +14529,11 @@ export const people = [
     alternativeNames: ['郭奉孝', 'Guo Fengxiao'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'pang-tong',
     name: '庞统',
     nameEn: 'Pang Tong',
@@ -14553,11 +14550,11 @@ export const people = [
     alternativeNames: ['庞士元', 'Pang Shiyuan', '凤雏'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'xun-yu',
     name: '荀彧',
     nameEn: 'Xun Yu',
@@ -14574,11 +14571,11 @@ export const people = [
     alternativeNames: ['荀文若', 'Xun Wenruo'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'jia-xu',
     name: '贾诩',
     nameEn: 'Jia Xu',
@@ -14595,11 +14592,11 @@ export const people = [
     alternativeNames: ['贾文和', 'Jia Wenhe', '毒士'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'liu-bowen',
     name: '刘伯温',
     nameEn: 'Liu Bowen',
@@ -14616,13 +14613,11 @@ export const people = [
     alternativeNames: ['刘基', 'Liu Ji', '刘青田'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-
-
-  {
+{
     id: 'chen-ping',
     name: '陈平',
     nameEn: 'Chen Ping',
@@ -14639,11 +14634,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'du-ruhui',
     name: '杜如晦',
     nameEn: 'Du Ruhui',
@@ -14660,11 +14655,11 @@ export const people = [
     alternativeNames: ['杜克明', 'Du Keming'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'kou-zhun',
     name: '寇准',
     nameEn: 'Kou Zhun',
@@ -14681,11 +14676,11 @@ export const people = [
     alternativeNames: ['寇平仲', 'Kou Pingzhong'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhao-pu',
     name: '赵普',
     nameEn: 'Zhao Pu',
@@ -14702,11 +14697,11 @@ export const people = [
     alternativeNames: ['赵则平', 'Zhao Zeping'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'luo-binwang',
     name: '骆宾王',
     nameEn: 'Luo Binwang',
@@ -14723,11 +14718,11 @@ export const people = [
     alternativeNames: ['骆观光', 'Luo Guanguang'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-zhihuan',
     name: '王之涣',
     nameEn: 'Wang Zhihuan',
@@ -14744,11 +14739,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'yan-zhenqing',
     name: '颜真卿',
     nameEn: 'Yan Zhenqing',
@@ -14765,11 +14760,11 @@ export const people = [
     alternativeNames: ['颜清臣', 'Yan Qingchen', '颜鲁公'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-xu',
     name: '张旭',
     nameEn: 'Zhang Xu',
@@ -14786,11 +14781,11 @@ export const people = [
     alternativeNames: ['张伯高', 'Zhang Bogao', '张颠', '草圣'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'shi-naian',
     name: '施耐庵',
     nameEn: 'Shi Nai\'an',
@@ -14807,11 +14802,11 @@ export const people = [
     alternativeNames: ['施彦端', 'Shi Yanduan'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.7,
     externalReferences: [],
   },
-  {
+{
     id: 'ma-zhiyuan',
     name: '马致远',
     nameEn: 'Ma Zhiyuan',
@@ -14828,11 +14823,11 @@ export const people = [
     alternativeNames: ['马千里', 'Ma Qianli', '东篱'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'pu-songling',
     name: '蒲松龄',
     nameEn: 'Pu Songling',
@@ -14849,11 +14844,11 @@ export const people = [
     alternativeNames: ['蒲留仙', 'Pu Liuxian', '柳泉居士'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zheng-banqiao',
     name: '郑板桥',
     nameEn: 'Zheng Banqiao',
@@ -14870,11 +14865,11 @@ export const people = [
     alternativeNames: ['郑燮', 'Zheng Xie', '板桥道人'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'sun-simiao',
     name: '孙思邈',
     nameEn: 'Sun Simiao',
@@ -14891,11 +14886,11 @@ export const people = [
     alternativeNames: ['孙真人', '药王'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'jia-sixie',
     name: '贾思勰',
     nameEn: 'Jia Sixie',
@@ -14912,11 +14907,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'li-daoyuan',
     name: '郦道元',
     nameEn: 'Li Daoyuan',
@@ -14933,11 +14928,11 @@ export const people = [
     alternativeNames: ['郦善长', 'Li Shanchang'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'yi-xing',
     name: '僧一行',
     nameEn: 'Yi Xing (Monk Yixing)',
@@ -14954,11 +14949,11 @@ export const people = [
     alternativeNames: ['张遂', 'Zhang Sui', '大慧禅师'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'su-song',
     name: '苏颂',
     nameEn: 'Su Song',
@@ -14975,11 +14970,11 @@ export const people = [
     alternativeNames: ['苏子容', 'Su Zirong'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'ge-hong',
     name: '葛洪',
     nameEn: 'Ge Hong',
@@ -14996,11 +14991,11 @@ export const people = [
     alternativeNames: ['葛稚川', 'Ge Zhichuan', '抱朴子'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'fan-zeng',
     name: '范增',
     nameEn: 'Fan Zeng',
@@ -15017,11 +15012,11 @@ export const people = [
     alternativeNames: ['范亚父', 'Ya Fu'],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'ji-xiaolan',
     name: '纪晓岚',
     nameEn: 'Ji Xiaolan',
@@ -15038,11 +15033,11 @@ export const people = [
     alternativeNames: ['纪昀', 'Ji Yun', '纪文达公', '观弈道人'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'liu-yong',
     name: '刘墉',
     nameEn: 'Liu Yong',
@@ -15059,12 +15054,10 @@ export const people = [
     alternativeNames: ['刘崇如', 'Liu Chongru', '石庵'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-
-
 {
     id: 'bai-qi',
     name: '白起',
@@ -15082,11 +15075,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-jian',
     name: '王翦',
     nameEn: 'Wang Jian',
@@ -15103,11 +15096,11 @@ export const people = [
     alternativeNames: ['王翦'],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'han-xin',
     name: '韩信',
     nameEn: 'Han Xin',
@@ -15124,11 +15117,11 @@ export const people = [
     alternativeNames: ['韩重言', 'Han Chongyan', '淮阴侯', '兵仙'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'xiang-yu',
     name: '项羽',
     nameEn: 'Xiang Yu',
@@ -15145,11 +15138,11 @@ export const people = [
     alternativeNames: ['项籍', 'Xiang Ji', '西楚霸王'],
     sourceIds: ['src-shiji'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'wei-qing',
     name: '卫青',
     nameEn: 'Wei Qing',
@@ -15166,11 +15159,11 @@ export const people = [
     alternativeNames: ['卫仲卿', 'Wei Zhongqing'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'huo-qubing',
     name: '霍去病',
     nameEn: 'Huo Qubing',
@@ -15187,11 +15180,11 @@ export const people = [
     alternativeNames: ['霍冠军', 'Huo Guanjun', '冠军侯'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'guan-yu',
     name: '关羽',
     nameEn: 'Guan Yu',
@@ -15208,11 +15201,11 @@ export const people = [
     alternativeNames: ['关云长', 'Guan Yunchang', '关公', '美髯公', '关圣帝君'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-fei',
     name: '张飞',
     nameEn: 'Zhang Fei',
@@ -15229,11 +15222,11 @@ export const people = [
     alternativeNames: ['张翼德', 'Zhang Yide'],
     sourceIds: ['src-sanguozhi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'li-jing',
     name: '李靖',
     nameEn: 'Li Jing',
@@ -15250,11 +15243,11 @@ export const people = [
     alternativeNames: ['李药师', 'Li Yaoshi', '卫国公'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'guo-ziyi',
     name: '郭子仪',
     nameEn: 'Guo Ziyi',
@@ -15271,11 +15264,11 @@ export const people = [
     alternativeNames: ['郭令公', 'Guo Linggong'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qi-jiguang',
     name: '戚继光',
     nameEn: 'Qi Jiguang',
@@ -15292,11 +15285,11 @@ export const people = [
     alternativeNames: ['戚元敬', 'Qi Yuanjing', '戚南塘'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yuan-chonghuan',
     name: '袁崇焕',
     nameEn: 'Yuan Chonghuan',
@@ -15313,11 +15306,11 @@ export const people = [
     alternativeNames: ['袁元素', 'Yuan Yuansu'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'dong-zhongshu',
     name: '董仲舒',
     nameEn: 'Dong Zhongshu',
@@ -15334,11 +15327,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-fuzhi',
     name: '王夫之',
     nameEn: 'Wang Fuzhi',
@@ -15355,11 +15348,11 @@ export const people = [
     alternativeNames: ['王而农', 'Wang Ernong', '船山先生', '王船山'],
     sourceIds: ['src-qingshigao'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'huang-zongxi',
     name: '黄宗羲',
     nameEn: 'Huang Zongxi',
@@ -15376,11 +15369,11 @@ export const people = [
     alternativeNames: ['黄太冲', 'Huang Taichong', '梨洲先生', '南雷'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'gu-yanwu',
     name: '顾炎武',
     nameEn: 'Gu Yanwu',
@@ -15397,11 +15390,11 @@ export const people = [
     alternativeNames: ['顾宁人', 'Gu Ningren', '亭林先生'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'huineng',
     name: '慧能',
     nameEn: 'Huineng',
@@ -15418,11 +15411,11 @@ export const people = [
     alternativeNames: ['慧能禅师', '六祖惠能', '曹溪'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'faxian',
     name: '法显',
     nameEn: 'Faxian',
@@ -15439,11 +15432,10 @@ export const people = [
     alternativeNames: ['法显法师', 'Faxian Fashi'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-
 // Total: 18 figures (generals, thinkers, religious),
 
 {
@@ -15463,11 +15455,11 @@ export const people = [
     alternativeNames: ['吴道玄', 'Wu Daoxuan', '画圣'],
     sourceIds: ['src-jiutangshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'zhang-zeduan',
     name: '张择端',
     nameEn: 'Zhang Zeduan',
@@ -15484,11 +15476,11 @@ export const people = [
     alternativeNames: ['张正道', 'Zhang Zhengdao'],
     sourceIds: ['src-ss'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'zhao-mengfu',
     name: '赵孟頫',
     nameEn: 'Zhao Mengfu',
@@ -15505,11 +15497,11 @@ export const people = [
     alternativeNames: ['赵子昂', 'Zhao Zi\'ang', '松雪道人', '赵吴兴'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'tang-yin',
     name: '唐寅',
     nameEn: 'Tang Yin (Tang Bohu)',
@@ -15526,11 +15518,11 @@ export const people = [
     alternativeNames: ['唐伯虎', 'Tang Bohu', '六如居士', '桃花庵主'],
     sourceIds: ['src-mingshi'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'xu-wei',
     name: '徐渭',
     nameEn: 'Xu Wei',
@@ -15547,11 +15539,11 @@ export const people = [
     alternativeNames: ['徐文长', 'Xu Wenchang', '青藤道士', '天池山人'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'ba-da-shanren',
     name: '八大山人',
     nameEn: 'Bada Shanren (Zhu Da)',
@@ -15568,11 +15560,11 @@ export const people = [
     alternativeNames: ['朱耷', 'Zhu Da', '雪个', '驴屋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.8,
     externalReferences: [],
   },
-  {
+{
     id: 'liang-qichao',
     name: '梁启超',
     nameEn: 'Liang Qichao',
@@ -15589,11 +15581,11 @@ export const people = [
     alternativeNames: ['梁任公', 'Liang Rengong', '饮冰室主人'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'cai-yuanpei',
     name: '蔡元培',
     nameEn: 'Cai Yuanpei',
@@ -15610,11 +15602,11 @@ export const people = [
     alternativeNames: ['蔡孑民', 'Cai Jiemin', '蔡鹤卿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'hu-shi',
     name: '胡适',
     nameEn: 'Hu Shi',
@@ -15631,11 +15623,11 @@ export const people = [
     alternativeNames: ['胡适之', 'Hu Shizhi'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'qian-xuesen',
     name: '钱学森',
     nameEn: 'Qian Xuesen',
@@ -15652,11 +15644,11 @@ export const people = [
     alternativeNames: ['Tsien Hsue-shen'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'yuan-longping',
     name: '袁隆平',
     nameEn: 'Yuan Longping',
@@ -15673,11 +15665,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.95,
     externalReferences: [],
   },
-  {
+{
     id: 'zhan-tianyou',
     name: '詹天佑',
     nameEn: 'Zhan Tianyou',
@@ -15694,11 +15686,11 @@ export const people = [
     alternativeNames: ['詹眷诚', 'Zhan Juancheng'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-guowei',
     name: '王国维',
     nameEn: 'Wang Guowei',
@@ -15715,11 +15707,11 @@ export const people = [
     alternativeNames: ['王静安', 'Wang Jing\'an', '观堂'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'zhu-kezhen',
     name: '竺可桢',
     nameEn: 'Zhu Kezhen',
@@ -15736,11 +15728,11 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
-  {
+{
     id: 'lü-zhi',
     name: '吕雉',
     nameEn: 'Empress Lü Zhi',
@@ -15757,11 +15749,11 @@ export const people = [
     alternativeNames: ['吕太后', 'Empress Lü', '汉高后'],
     sourceIds: ['src-shiji', 'src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
-  {
+{
     id: 'wang-zhaojun',
     name: '王昭君',
     nameEn: 'Wang Zhaojun',
@@ -15778,11 +15770,10 @@ export const people = [
     alternativeNames: ['王嫱', 'Wang Qiang', '明妃', '落雁'],
     sourceIds: ['src-hanshu'],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
-
 // Total: 16 figures (artists, modern, women),
   
 {
@@ -15802,7 +15793,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15823,7 +15814,7 @@ export const people = [
     alternativeNames: ['刘克庄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15844,7 +15835,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15865,7 +15856,7 @@ export const people = [
     alternativeNames: ['黄庭坚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15886,7 +15877,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15907,7 +15898,7 @@ export const people = [
     alternativeNames: ['楼钥'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15928,7 +15919,7 @@ export const people = [
     alternativeNames: ['杨万里'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15949,7 +15940,7 @@ export const people = [
     alternativeNames: ['吴澄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15970,7 +15961,7 @@ export const people = [
     alternativeNames: ['王世贞'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -15991,7 +15982,7 @@ export const people = [
     alternativeNames: ['吕祖谦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16012,7 +16003,7 @@ export const people = [
     alternativeNames: ['王恽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16033,7 +16024,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16054,7 +16045,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16075,7 +16066,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16096,7 +16087,7 @@ export const people = [
     alternativeNames: ['秦桧'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16117,7 +16108,7 @@ export const people = [
     alternativeNames: ['叶适'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16138,7 +16129,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16159,7 +16150,7 @@ export const people = [
     alternativeNames: ['黄溍'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16180,7 +16171,7 @@ export const people = [
     alternativeNames: ['张栻'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16201,7 +16192,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16222,7 +16213,7 @@ export const people = [
     alternativeNames: ['李东阳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16243,7 +16234,7 @@ export const people = [
     alternativeNames: ['李维桢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16264,7 +16255,7 @@ export const people = [
     alternativeNames: ['徐阶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16285,7 +16276,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16306,7 +16297,7 @@ export const people = [
     alternativeNames: ['程巨夫'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16327,7 +16318,7 @@ export const people = [
     alternativeNames: ['申时行'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16348,7 +16339,7 @@ export const people = [
     alternativeNames: ['韩琦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16369,7 +16360,7 @@ export const people = [
     alternativeNames: ['邹元标'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16390,7 +16381,7 @@ export const people = [
     alternativeNames: ['李纲'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16411,7 +16402,7 @@ export const people = [
     alternativeNames: ['吕柟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16432,7 +16423,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16453,7 +16444,7 @@ export const people = [
     alternativeNames: ['冯梦祯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16474,7 +16465,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16495,7 +16486,7 @@ export const people = [
     alternativeNames: ['柳贯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16516,7 +16507,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16537,7 +16528,7 @@ export const people = [
     alternativeNames: ['刘宰'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16558,7 +16549,7 @@ export const people = [
     alternativeNames: ['胡铨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16579,7 +16570,7 @@ export const people = [
     alternativeNames: ['曾巩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16600,7 +16591,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16621,7 +16612,7 @@ export const people = [
     alternativeNames: ['范纯仁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16642,7 +16633,7 @@ export const people = [
     alternativeNames: ['纪昀'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16663,7 +16654,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16684,7 +16675,7 @@ export const people = [
     alternativeNames: ['赵孟𫖯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16705,7 +16696,7 @@ export const people = [
     alternativeNames: ['刘禹锡'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16726,7 +16717,7 @@ export const people = [
     alternativeNames: ['张邦奇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16747,7 +16738,7 @@ export const people = [
     alternativeNames: ['陆九渊'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16768,7 +16759,7 @@ export const people = [
     alternativeNames: ['姜宝'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16789,7 +16780,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16810,7 +16801,7 @@ export const people = [
     alternativeNames: ['顾宪成'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16831,7 +16822,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16852,7 +16843,7 @@ export const people = [
     alternativeNames: ['张方平'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16873,7 +16864,7 @@ export const people = [
     alternativeNames: ['孙觌'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16894,7 +16885,7 @@ export const people = [
     alternativeNames: ['苏天爵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16915,7 +16906,7 @@ export const people = [
     alternativeNames: ['陈傅良'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16936,7 +16927,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16957,10 +16948,13 @@ export const people = [
     alternativeNames: ['许有壬'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
+];
+
+export const _peoplePart2: Person[] = [
 {
     id: 'cbdb-62',
     name: '王鏊',
@@ -16978,7 +16972,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -16999,7 +16993,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17020,7 +17014,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17041,7 +17035,7 @@ export const people = [
     alternativeNames: ['费宏'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17062,7 +17056,7 @@ export const people = [
     alternativeNames: ['陈亮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17083,7 +17077,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17104,7 +17098,7 @@ export const people = [
     alternativeNames: ['晁补之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17125,7 +17119,7 @@ export const people = [
     alternativeNames: ['钱谦益'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17146,7 +17140,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17167,7 +17161,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17188,7 +17182,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17209,7 +17203,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17230,7 +17224,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17251,7 +17245,7 @@ export const people = [
     alternativeNames: ['苏辙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17272,7 +17266,7 @@ export const people = [
     alternativeNames: ['杨维祯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17293,7 +17287,7 @@ export const people = [
     alternativeNames: ['徐学谟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17314,7 +17308,7 @@ export const people = [
     alternativeNames: ['叶向高'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17335,7 +17329,7 @@ export const people = [
     alternativeNames: ['杨时'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17356,7 +17350,7 @@ export const people = [
     alternativeNames: ['吴师道'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17377,7 +17371,7 @@ export const people = [
     alternativeNames: ['汪应辰'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17398,7 +17392,7 @@ export const people = [
     alternativeNames: ['罗洪先'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17419,7 +17413,7 @@ export const people = [
     alternativeNames: ['杨寓'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17440,7 +17434,7 @@ export const people = [
     alternativeNames: ['黄干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17461,7 +17455,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17482,7 +17476,7 @@ export const people = [
     alternativeNames: ['欧阳德'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17503,7 +17497,7 @@ export const people = [
     alternativeNames: ['陈宓'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17524,7 +17518,7 @@ export const people = [
     alternativeNames: ['汤显祖'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17545,7 +17539,7 @@ export const people = [
     alternativeNames: ['文彦博'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17566,7 +17560,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17587,7 +17581,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17608,7 +17602,7 @@ export const people = [
     alternativeNames: ['韩元吉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17629,7 +17623,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17650,7 +17644,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17671,7 +17665,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17692,7 +17686,7 @@ export const people = [
     alternativeNames: ['程颐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17713,7 +17707,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17734,7 +17728,7 @@ export const people = [
     alternativeNames: ['贾似道'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17755,7 +17749,7 @@ export const people = [
     alternativeNames: ['邹浩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17776,7 +17770,7 @@ export const people = [
     alternativeNames: ['王维桢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17797,7 +17791,7 @@ export const people = [
     alternativeNames: ['张说'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17818,7 +17812,7 @@ export const people = [
     alternativeNames: ['张佳胤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17839,7 +17833,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17860,7 +17854,7 @@ export const people = [
     alternativeNames: ['杨荣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17881,7 +17875,7 @@ export const people = [
     alternativeNames: ['韩侂胄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17902,7 +17896,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17923,7 +17917,7 @@ export const people = [
     alternativeNames: ['唐顺之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17944,7 +17938,7 @@ export const people = [
     alternativeNames: ['张浚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17965,7 +17959,7 @@ export const people = [
     alternativeNames: ['崔铣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -17986,7 +17980,7 @@ export const people = [
     alternativeNames: ['权德舆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18007,7 +18001,7 @@ export const people = [
     alternativeNames: ['王袆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18028,7 +18022,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18049,7 +18043,7 @@ export const people = [
     alternativeNames: ['贡师泰'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18070,7 +18064,7 @@ export const people = [
     alternativeNames: ['吴宽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18091,7 +18085,7 @@ export const people = [
     alternativeNames: ['高攀龙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18112,7 +18106,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18133,7 +18127,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18154,7 +18148,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18175,7 +18169,7 @@ export const people = [
     alternativeNames: ['吴国伦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18196,7 +18190,7 @@ export const people = [
     alternativeNames: ['赵用贤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18217,7 +18211,7 @@ export const people = [
     alternativeNames: ['黄绾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18238,7 +18232,7 @@ export const people = [
     alternativeNames: ['杨简'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18259,7 +18253,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18280,7 +18274,7 @@ export const people = [
     alternativeNames: ['刘长卿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18301,7 +18295,7 @@ export const people = [
     alternativeNames: ['冯琦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18322,7 +18316,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18343,7 +18337,7 @@ export const people = [
     alternativeNames: ['赵贞吉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18364,7 +18358,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18385,7 +18379,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18406,7 +18400,7 @@ export const people = [
     alternativeNames: ['贾岛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18427,7 +18421,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18448,7 +18442,7 @@ export const people = [
     alternativeNames: ['陈瓘'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18469,7 +18463,7 @@ export const people = [
     alternativeNames: ['岑参'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18490,7 +18484,7 @@ export const people = [
     alternativeNames: ['唐龙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18511,7 +18505,7 @@ export const people = [
     alternativeNames: ['陈懿典'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18532,7 +18526,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18553,7 +18547,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18574,7 +18568,7 @@ export const people = [
     alternativeNames: ['赵南星'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18595,7 +18589,7 @@ export const people = [
     alternativeNames: ['赵廷美'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18616,7 +18610,7 @@ export const people = [
     alternativeNames: ['孙承宗'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18637,7 +18631,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18658,7 +18652,7 @@ export const people = [
     alternativeNames: ['晁说之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18679,7 +18673,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18700,7 +18694,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18721,7 +18715,7 @@ export const people = [
     alternativeNames: ['欧阳玄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18742,7 +18736,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18763,7 +18757,7 @@ export const people = [
     alternativeNames: ['赵抃'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18784,7 +18778,7 @@ export const people = [
     alternativeNames: ['冯拯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18805,7 +18799,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18826,7 +18820,7 @@ export const people = [
     alternativeNames: ['杨廉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18847,7 +18841,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18868,7 +18862,7 @@ export const people = [
     alternativeNames: ['刘春'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18889,7 +18883,7 @@ export const people = [
     alternativeNames: ['吕颐浩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18910,7 +18904,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18931,7 +18925,7 @@ export const people = [
     alternativeNames: ['陆树声'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18952,7 +18946,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18973,7 +18967,7 @@ export const people = [
     alternativeNames: ['黄道周'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -18994,7 +18988,7 @@ export const people = [
     alternativeNames: ['谢铎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19015,7 +19009,7 @@ export const people = [
     alternativeNames: ['周敦颐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19036,7 +19030,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19057,7 +19051,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19078,7 +19072,7 @@ export const people = [
     alternativeNames: ['李贤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19099,7 +19093,7 @@ export const people = [
     alternativeNames: ['杨廷和'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19120,7 +19114,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19141,7 +19135,7 @@ export const people = [
     alternativeNames: ['倪瓒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19162,7 +19156,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19183,7 +19177,7 @@ export const people = [
     alternativeNames: ['任颛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19204,7 +19198,7 @@ export const people = [
     alternativeNames: ['张耒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19225,7 +19219,7 @@ export const people = [
     alternativeNames: ['柳开'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19246,7 +19240,7 @@ export const people = [
     alternativeNames: ['郑元祐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19267,7 +19261,7 @@ export const people = [
     alternativeNames: ['韦应物'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19288,7 +19282,7 @@ export const people = [
     alternativeNames: ['何乔新'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19309,7 +19303,7 @@ export const people = [
     alternativeNames: ['刘几'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19330,7 +19324,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19351,7 +19345,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19372,7 +19366,7 @@ export const people = [
     alternativeNames: ['张时彻'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19393,7 +19387,7 @@ export const people = [
     alternativeNames: ['钱大昕'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19414,7 +19408,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19435,7 +19429,7 @@ export const people = [
     alternativeNames: ['杨博'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19456,7 +19450,7 @@ export const people = [
     alternativeNames: ['吕公著'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19477,7 +19471,7 @@ export const people = [
     alternativeNames: ['陈旅'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19498,7 +19492,7 @@ export const people = [
     alternativeNames: ['张岳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19519,7 +19513,7 @@ export const people = [
     alternativeNames: ['严嵩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19540,7 +19534,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19561,7 +19555,7 @@ export const people = [
     alternativeNames: ['李绅'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19582,7 +19576,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19603,7 +19597,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19624,7 +19618,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19645,7 +19639,7 @@ export const people = [
     alternativeNames: ['谢迁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19666,7 +19660,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19687,7 +19681,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19708,7 +19702,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19729,7 +19723,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19750,7 +19744,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19771,7 +19765,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19792,7 +19786,7 @@ export const people = [
     alternativeNames: ['雷礼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19813,7 +19807,7 @@ export const people = [
     alternativeNames: ['萧瑀'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19834,7 +19828,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19855,7 +19849,7 @@ export const people = [
     alternativeNames: ['张商英'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19876,7 +19870,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19897,7 +19891,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19918,7 +19912,7 @@ export const people = [
     alternativeNames: ['刘宗周'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19939,7 +19933,7 @@ export const people = [
     alternativeNames: ['许浑'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19960,7 +19954,7 @@ export const people = [
     alternativeNames: ['李觏'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -19981,7 +19975,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20002,7 +19996,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20023,7 +20017,7 @@ export const people = [
     alternativeNames: ['王象干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20044,7 +20038,7 @@ export const people = [
     alternativeNames: ['聂豹'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20065,7 +20059,7 @@ export const people = [
     alternativeNames: ['毕仲游'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20086,7 +20080,7 @@ export const people = [
     alternativeNames: ['程颢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20107,7 +20101,7 @@ export const people = [
     alternativeNames: ['范镇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20128,7 +20122,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20149,7 +20143,7 @@ export const people = [
     alternativeNames: ['杨一清'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20170,7 +20164,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20191,7 +20185,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20212,7 +20206,7 @@ export const people = [
     alternativeNames: ['马祖常'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20233,7 +20227,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20254,7 +20248,7 @@ export const people = [
     alternativeNames: ['韩邦奇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20275,7 +20269,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20296,7 +20290,7 @@ export const people = [
     alternativeNames: ['陈俊卿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20317,7 +20311,7 @@ export const people = [
     alternativeNames: ['霍韬'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20338,7 +20332,7 @@ export const people = [
     alternativeNames: ['庞籍'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20359,7 +20353,7 @@ export const people = [
     alternativeNames: ['史弥远'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20380,7 +20374,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20401,7 +20395,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20422,7 +20416,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20443,7 +20437,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20464,7 +20458,7 @@ export const people = [
     alternativeNames: ['陈襄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20485,7 +20479,7 @@ export const people = [
     alternativeNames: ['杨亿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20506,7 +20500,7 @@ export const people = [
     alternativeNames: ['赵锦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20527,7 +20521,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20548,7 +20542,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20569,7 +20563,7 @@ export const people = [
     alternativeNames: ['宗泽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20590,7 +20584,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20611,7 +20605,7 @@ export const people = [
     alternativeNames: ['曹彦约'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20632,7 +20626,7 @@ export const people = [
     alternativeNames: ['孙应时'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20653,7 +20647,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20674,7 +20668,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20695,7 +20689,7 @@ export const people = [
     alternativeNames: ['郑晓'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20716,7 +20710,7 @@ export const people = [
     alternativeNames: ['王锡爵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20737,7 +20731,7 @@ export const people = [
     alternativeNames: ['丁宾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20758,7 +20752,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20779,7 +20773,7 @@ export const people = [
     alternativeNames: ['罗钦顺'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20800,7 +20794,7 @@ export const people = [
     alternativeNames: ['彭华'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20821,7 +20815,7 @@ export const people = [
     alternativeNames: ['赵葵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20842,7 +20836,7 @@ export const people = [
     alternativeNames: ['黄震'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20863,7 +20857,7 @@ export const people = [
     alternativeNames: ['李廷机'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20884,7 +20878,7 @@ export const people = [
     alternativeNames: ['韩绛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20905,7 +20899,7 @@ export const people = [
     alternativeNames: ['吕惠卿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20926,7 +20920,7 @@ export const people = [
     alternativeNames: ['欧阳守道'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20947,7 +20941,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20968,7 +20962,7 @@ export const people = [
     alternativeNames: ['张翥'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -20989,7 +20983,7 @@ export const people = [
     alternativeNames: ['高适'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21010,7 +21004,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21031,7 +21025,7 @@ export const people = [
     alternativeNames: ['梁储'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21052,7 +21046,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21073,7 +21067,7 @@ export const people = [
     alternativeNames: ['胡安国'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21094,7 +21088,7 @@ export const people = [
     alternativeNames: ['江万里'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21115,7 +21109,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21136,7 +21130,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21157,7 +21151,7 @@ export const people = [
     alternativeNames: ['费采'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21178,7 +21172,7 @@ export const people = [
     alternativeNames: ['张祜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21199,7 +21193,7 @@ export const people = [
     alternativeNames: ['李岘'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21220,7 +21214,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21241,7 +21235,7 @@ export const people = [
     alternativeNames: ['钱起'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21262,7 +21256,7 @@ export const people = [
     alternativeNames: ['张孝祥'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21283,7 +21277,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21304,7 +21298,7 @@ export const people = [
     alternativeNames: ['释贯休'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21325,7 +21319,7 @@ export const people = [
     alternativeNames: ['万士和'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21346,7 +21340,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21367,7 +21361,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21388,7 +21382,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21409,7 +21403,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21430,7 +21424,7 @@ export const people = [
     alternativeNames: ['刘敞'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21451,7 +21445,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21472,7 +21466,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21493,7 +21487,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21514,7 +21508,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21535,7 +21529,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21556,7 +21550,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21577,7 +21571,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21598,7 +21592,7 @@ export const people = [
     alternativeNames: ['彭时'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21619,7 +21613,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21640,7 +21634,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21661,7 +21655,7 @@ export const people = [
     alternativeNames: ['邹守益'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21682,7 +21676,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21703,7 +21697,7 @@ export const people = [
     alternativeNames: ['赵鼎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21724,7 +21718,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21745,7 +21739,7 @@ export const people = [
     alternativeNames: ['陈献章'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21766,7 +21760,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21787,7 +21781,7 @@ export const people = [
     alternativeNames: ['李弥逊'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21808,7 +21802,7 @@ export const people = [
     alternativeNames: ['吕大防'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21829,7 +21823,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21850,7 +21844,7 @@ export const people = [
     alternativeNames: ['释居简'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21871,7 +21865,7 @@ export const people = [
     alternativeNames: ['张四维'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21892,7 +21886,7 @@ export const people = [
     alternativeNames: ['张九龄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21913,7 +21907,7 @@ export const people = [
     alternativeNames: ['郑刚中'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21934,7 +21928,7 @@ export const people = [
     alternativeNames: ['刘基'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21955,7 +21949,7 @@ export const people = [
     alternativeNames: ['赵佶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21976,7 +21970,7 @@ export const people = [
     alternativeNames: ['吕本中'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -21997,7 +21991,7 @@ export const people = [
     alternativeNames: ['李显(唐中宗)'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22018,7 +22012,7 @@ export const people = [
     alternativeNames: ['郝质'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22039,7 +22033,7 @@ export const people = [
     alternativeNames: ['杨守陈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22060,7 +22054,7 @@ export const people = [
     alternativeNames: ['朱赓'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22081,7 +22075,7 @@ export const people = [
     alternativeNames: ['苏舜钦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22102,7 +22096,7 @@ export const people = [
     alternativeNames: ['陈韡'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22123,7 +22117,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22144,7 +22138,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22165,7 +22159,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22186,7 +22180,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22207,7 +22201,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22228,7 +22222,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22249,7 +22243,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22270,7 +22264,7 @@ export const people = [
     alternativeNames: ['刘岳申'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22291,7 +22285,7 @@ export const people = [
     alternativeNames: ['许谦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22312,7 +22306,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22333,7 +22327,7 @@ export const people = [
     alternativeNames: ['马亮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22354,7 +22348,7 @@ export const people = [
     alternativeNames: ['韩维'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22375,7 +22369,7 @@ export const people = [
     alternativeNames: ['赵炅'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22396,7 +22390,7 @@ export const people = [
     alternativeNames: ['陈著'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22417,7 +22411,7 @@ export const people = [
     alternativeNames: ['李梦阳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22438,7 +22432,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22459,7 +22453,7 @@ export const people = [
     alternativeNames: ['向子𬤇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22480,7 +22474,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22501,7 +22495,7 @@ export const people = [
     alternativeNames: ['杨汉公'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22522,7 +22516,7 @@ export const people = [
     alternativeNames: ['张养浩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22543,7 +22537,7 @@ export const people = [
     alternativeNames: ['刘健'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22564,7 +22558,7 @@ export const people = [
     alternativeNames: ['李时'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22585,7 +22579,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22606,7 +22600,7 @@ export const people = [
     alternativeNames: ['余阙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22627,7 +22621,7 @@ export const people = [
     alternativeNames: ['陈基'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22648,7 +22642,7 @@ export const people = [
     alternativeNames: ['王琼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22669,7 +22663,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22690,7 +22684,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22711,7 +22705,7 @@ export const people = [
     alternativeNames: ['顾璘'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22732,7 +22726,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22753,7 +22747,7 @@ export const people = [
     alternativeNames: ['陈循'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22774,7 +22768,7 @@ export const people = [
     alternativeNames: ['许国'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22795,7 +22789,7 @@ export const people = [
     alternativeNames: ['张燮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22816,7 +22810,7 @@ export const people = [
     alternativeNames: ['丁谓'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22837,7 +22831,7 @@ export const people = [
     alternativeNames: ['祖无择'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22858,7 +22852,7 @@ export const people = [
     alternativeNames: ['卫泾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22879,7 +22873,7 @@ export const people = [
     alternativeNames: ['杨于陵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22900,7 +22894,7 @@ export const people = [
     alternativeNames: ['钱薇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22921,7 +22915,7 @@ export const people = [
     alternativeNames: ['黄佐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22942,7 +22936,7 @@ export const people = [
     alternativeNames: ['顾鼎臣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22963,7 +22957,7 @@ export const people = [
     alternativeNames: ['葛守礼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -22984,7 +22978,7 @@ export const people = [
     alternativeNames: ['武曌(武则天)'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23005,7 +22999,7 @@ export const people = [
     alternativeNames: ['戴叔伦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23026,7 +23020,7 @@ export const people = [
     alternativeNames: ['张九成'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23047,7 +23041,7 @@ export const people = [
     alternativeNames: ['张籍'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23068,7 +23062,7 @@ export const people = [
     alternativeNames: ['朱德润'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23089,7 +23083,7 @@ export const people = [
     alternativeNames: ['张璁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23110,7 +23104,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23131,7 +23125,7 @@ export const people = [
     alternativeNames: ['何乔远'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23152,7 +23146,7 @@ export const people = [
     alternativeNames: ['刘晏'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23173,7 +23167,7 @@ export const people = [
     alternativeNames: ['马燧'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23194,7 +23188,7 @@ export const people = [
     alternativeNames: ['韦嗣立'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23215,7 +23209,7 @@ export const people = [
     alternativeNames: ['宋之问'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23236,7 +23230,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23257,7 +23251,7 @@ export const people = [
     alternativeNames: ['黄汝亨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23278,7 +23272,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23299,7 +23293,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23320,7 +23314,7 @@ export const people = [
     alternativeNames: ['张瀚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23341,7 +23335,7 @@ export const people = [
     alternativeNames: ['敖文祯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23362,7 +23356,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23383,7 +23377,7 @@ export const people = [
     alternativeNames: ['吴渊'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23404,7 +23398,7 @@ export const people = [
     alternativeNames: ['释宗杲'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23425,7 +23419,7 @@ export const people = [
     alternativeNames: ['吕原'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23446,7 +23440,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23467,7 +23461,7 @@ export const people = [
     alternativeNames: ['苏伯衡'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23488,7 +23482,7 @@ export const people = [
     alternativeNames: ['邵宝'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23509,7 +23503,7 @@ export const people = [
     alternativeNames: ['顾清'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23530,7 +23524,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23551,7 +23545,7 @@ export const people = [
     alternativeNames: ['张士贵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23572,7 +23566,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23593,7 +23587,7 @@ export const people = [
     alternativeNames: ['曹玮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23614,7 +23608,7 @@ export const people = [
     alternativeNames: ['仇远'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23635,7 +23629,7 @@ export const people = [
     alternativeNames: ['吴一鹏'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23656,7 +23650,7 @@ export const people = [
     alternativeNames: ['冯京'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23677,7 +23671,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23698,7 +23692,7 @@ export const people = [
     alternativeNames: ['贾昌朝'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23719,7 +23713,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23740,7 +23734,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23761,7 +23755,7 @@ export const people = [
     alternativeNames: ['刘麟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23782,7 +23776,7 @@ export const people = [
     alternativeNames: ['刘定之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23803,7 +23797,7 @@ export const people = [
     alternativeNames: ['蒋冕'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23824,7 +23818,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23845,7 +23839,7 @@ export const people = [
     alternativeNames: ['吕陶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23866,7 +23860,7 @@ export const people = [
     alternativeNames: ['吴芾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23887,7 +23881,7 @@ export const people = [
     alternativeNames: ['元绛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23908,7 +23902,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23929,7 +23923,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23950,7 +23944,7 @@ export const people = [
     alternativeNames: ['柳约'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23971,7 +23965,7 @@ export const people = [
     alternativeNames: ['吴充'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -23992,7 +23986,7 @@ export const people = [
     alternativeNames: ['杨守阯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24013,7 +24007,7 @@ export const people = [
     alternativeNames: ['吴桂芳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24034,7 +24028,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24055,7 +24049,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24076,7 +24070,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24097,7 +24091,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24118,7 +24112,7 @@ export const people = [
     alternativeNames: ['杨嗣复'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24139,7 +24133,7 @@ export const people = [
     alternativeNames: ['盛颙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24160,7 +24154,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24181,7 +24175,7 @@ export const people = [
     alternativeNames: ['郭梦龄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24202,7 +24196,7 @@ export const people = [
     alternativeNames: ['胡则'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24223,7 +24217,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24244,7 +24238,7 @@ export const people = [
     alternativeNames: ['吴居厚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24265,7 +24259,7 @@ export const people = [
     alternativeNames: ['刘弇'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24286,7 +24280,7 @@ export const people = [
     alternativeNames: ['刘清之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24307,7 +24301,7 @@ export const people = [
     alternativeNames: ['陈文蔚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24328,7 +24322,7 @@ export const people = [
     alternativeNames: ['释大䜣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24349,7 +24343,7 @@ export const people = [
     alternativeNames: ['李峤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24370,7 +24364,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24391,7 +24385,7 @@ export const people = [
     alternativeNames: ['王缙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24412,7 +24406,7 @@ export const people = [
     alternativeNames: ['胡俨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24433,7 +24427,7 @@ export const people = [
     alternativeNames: ['屠侨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24454,7 +24448,7 @@ export const people = [
     alternativeNames: ['毛恺'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24475,7 +24469,7 @@ export const people = [
     alternativeNames: ['杨巨源'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24496,7 +24490,7 @@ export const people = [
     alternativeNames: ['孙升'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24517,7 +24511,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24538,7 +24532,7 @@ export const people = [
     alternativeNames: ['赵槩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24559,7 +24553,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24580,7 +24574,7 @@ export const people = [
     alternativeNames: ['龚茂良'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24601,7 +24595,7 @@ export const people = [
     alternativeNames: ['苏颋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24622,7 +24616,7 @@ export const people = [
     alternativeNames: ['牟𪩘'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24643,7 +24637,7 @@ export const people = [
     alternativeNames: ['赵师𪪴'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24664,7 +24658,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24685,7 +24679,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24706,7 +24700,7 @@ export const people = [
     alternativeNames: ['朱氏(郝质妻)'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24727,7 +24721,7 @@ export const people = [
     alternativeNames: ['党进'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24748,7 +24742,7 @@ export const people = [
     alternativeNames: ['陈道亨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24769,7 +24763,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24790,7 +24784,7 @@ export const people = [
     alternativeNames: ['毛纪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24811,7 +24805,7 @@ export const people = [
     alternativeNames: ['鲍象贤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24832,7 +24826,7 @@ export const people = [
     alternativeNames: ['赵时春'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24853,7 +24847,7 @@ export const people = [
     alternativeNames: ['闻渊'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24874,7 +24868,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24895,7 +24889,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24916,7 +24910,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24937,7 +24931,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24958,7 +24952,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -24979,7 +24973,7 @@ export const people = [
     alternativeNames: ['窦俨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25000,7 +24994,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25021,7 +25015,7 @@ export const people = [
     alternativeNames: ['独孤及'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25042,7 +25036,7 @@ export const people = [
     alternativeNames: ['郑澣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25063,7 +25057,7 @@ export const people = [
     alternativeNames: ['朱㭎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25084,7 +25078,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25105,7 +25099,7 @@ export const people = [
     alternativeNames: ['王以旗'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25126,7 +25120,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25147,7 +25141,7 @@ export const people = [
     alternativeNames: ['刘显'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25168,7 +25162,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25189,7 +25183,7 @@ export const people = [
     alternativeNames: ['方扬'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25210,7 +25204,7 @@ export const people = [
     alternativeNames: ['顾起元'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25231,7 +25225,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25252,7 +25246,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25273,7 +25267,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25294,7 +25288,7 @@ export const people = [
     alternativeNames: ['赵构'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25315,7 +25309,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25336,7 +25330,7 @@ export const people = [
     alternativeNames: ['萨都剌'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25357,7 +25351,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25378,7 +25372,7 @@ export const people = [
     alternativeNames: ['张辅'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25399,7 +25393,7 @@ export const people = [
     alternativeNames: ['严讷'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25420,7 +25414,7 @@ export const people = [
     alternativeNames: ['张元抃'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25441,7 +25435,7 @@ export const people = [
     alternativeNames: ['李贽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25462,7 +25456,7 @@ export const people = [
     alternativeNames: ['吕光洵'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25483,7 +25477,7 @@ export const people = [
     alternativeNames: ['朱胜非'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25504,7 +25498,7 @@ export const people = [
     alternativeNames: ['刘光祖'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25525,7 +25519,7 @@ export const people = [
     alternativeNames: ['王鸿儒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25546,7 +25540,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25567,7 +25561,7 @@ export const people = [
     alternativeNames: ['冯从吾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25588,7 +25582,7 @@ export const people = [
     alternativeNames: ['孙奇逢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25609,7 +25603,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25630,7 +25624,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25651,7 +25645,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25672,7 +25666,7 @@ export const people = [
     alternativeNames: ['陈察'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25693,7 +25687,7 @@ export const people = [
     alternativeNames: ['陆亘'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25714,7 +25708,7 @@ export const people = [
     alternativeNames: ['韩忠彦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25735,7 +25729,7 @@ export const people = [
     alternativeNames: ['韩国华'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25756,7 +25750,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25777,7 +25771,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25798,7 +25792,7 @@ export const people = [
     alternativeNames: ['韦安石'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25819,7 +25813,7 @@ export const people = [
     alternativeNames: ['柳公权'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25840,7 +25834,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25861,7 +25855,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25882,7 +25876,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25903,7 +25897,7 @@ export const people = [
     alternativeNames: ['张䌌英'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25924,7 +25918,7 @@ export const people = [
     alternativeNames: ['蒋启敭'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25945,7 +25939,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25966,7 +25960,7 @@ export const people = [
     alternativeNames: ['张士逊'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -25987,7 +25981,7 @@ export const people = [
     alternativeNames: ['孙览'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26008,7 +26002,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26029,7 +26023,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26050,7 +26044,7 @@ export const people = [
     alternativeNames: ['赵匡胤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26071,7 +26065,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26092,7 +26086,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26113,7 +26107,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26134,7 +26128,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26155,7 +26149,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26176,7 +26170,7 @@ export const people = [
     alternativeNames: ['爱新觉罗灵桂'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26197,7 +26191,7 @@ export const people = [
     alternativeNames: ['爱新觉罗春佑'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26218,7 +26212,7 @@ export const people = [
     alternativeNames: ['刘珝'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26239,7 +26233,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26260,7 +26254,7 @@ export const people = [
     alternativeNames: ['刘忠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26281,7 +26275,7 @@ export const people = [
     alternativeNames: ['李承勋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26302,7 +26296,7 @@ export const people = [
     alternativeNames: ['陶大临'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26323,7 +26317,7 @@ export const people = [
     alternativeNames: ['骆问礼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26344,7 +26338,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26365,7 +26359,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26386,7 +26380,7 @@ export const people = [
     alternativeNames: ['王尧臣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26407,7 +26401,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26428,7 +26422,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26449,7 +26443,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26470,7 +26464,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26491,7 +26485,7 @@ export const people = [
     alternativeNames: ['赵宗儒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26512,7 +26506,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26533,7 +26527,7 @@ export const people = [
     alternativeNames: ['廖庄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26554,7 +26548,7 @@ export const people = [
     alternativeNames: ['徐献忠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26575,7 +26569,7 @@ export const people = [
     alternativeNames: ['邹维琏'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26596,7 +26590,7 @@ export const people = [
     alternativeNames: ['应大猷'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26617,7 +26611,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26638,7 +26632,7 @@ export const people = [
     alternativeNames: ['龙膺'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26659,7 +26653,7 @@ export const people = [
     alternativeNames: ['吕祖俭'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26680,7 +26674,7 @@ export const people = [
     alternativeNames: ['黄度'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26701,7 +26695,7 @@ export const people = [
     alternativeNames: ['郑深'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26722,7 +26716,7 @@ export const people = [
     alternativeNames: ['于志宁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26743,7 +26737,7 @@ export const people = [
     alternativeNames: ['赵冬曦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26764,7 +26758,7 @@ export const people = [
     alternativeNames: ['夏良胜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26785,7 +26779,7 @@ export const people = [
     alternativeNames: ['林聪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26806,7 +26800,7 @@ export const people = [
     alternativeNames: ['赵璜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26827,7 +26821,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26848,7 +26842,7 @@ export const people = [
     alternativeNames: ['方逢时'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26869,7 +26863,7 @@ export const people = [
     alternativeNames: ['李尧民'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26890,7 +26884,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26911,7 +26905,7 @@ export const people = [
     alternativeNames: ['刘庠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26932,7 +26926,7 @@ export const people = [
     alternativeNames: ['梅询'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26953,7 +26947,7 @@ export const people = [
     alternativeNames: ['刘光世'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26974,7 +26968,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -26995,7 +26989,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27016,7 +27010,7 @@ export const people = [
     alternativeNames: ['王应麟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27037,7 +27031,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27058,7 +27052,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27079,7 +27073,7 @@ export const people = [
     alternativeNames: ['崔铉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27100,7 +27094,7 @@ export const people = [
     alternativeNames: ['元载'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27121,7 +27115,7 @@ export const people = [
     alternativeNames: ['刘机'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27142,7 +27136,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27163,7 +27157,7 @@ export const people = [
     alternativeNames: ['陈琳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27184,7 +27178,7 @@ export const people = [
     alternativeNames: ['洪钟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27205,7 +27199,7 @@ export const people = [
     alternativeNames: ['李频'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27226,7 +27220,7 @@ export const people = [
     alternativeNames: ['谭纶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27247,7 +27241,7 @@ export const people = [
     alternativeNames: ['李迁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27268,7 +27262,7 @@ export const people = [
     alternativeNames: ['陈有年'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27289,7 +27283,7 @@ export const people = [
     alternativeNames: ['李颐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27310,7 +27304,7 @@ export const people = [
     alternativeNames: ['王廷干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27331,7 +27325,7 @@ export const people = [
     alternativeNames: ['毛宪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27352,7 +27346,7 @@ export const people = [
     alternativeNames: ['孙鑛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27373,7 +27367,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27394,7 +27388,7 @@ export const people = [
     alternativeNames: ['程师孟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27415,7 +27409,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27436,7 +27430,7 @@ export const people = [
     alternativeNames: ['李中师'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27457,7 +27451,7 @@ export const people = [
     alternativeNames: ['宋绶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27478,7 +27472,7 @@ export const people = [
     alternativeNames: ['张枃'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27499,7 +27493,7 @@ export const people = [
     alternativeNames: ['王迈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27520,7 +27514,7 @@ export const people = [
     alternativeNames: ['曹勋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27541,7 +27535,7 @@ export const people = [
     alternativeNames: ['刘将孙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27562,7 +27556,7 @@ export const people = [
     alternativeNames: ['张之翰'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27583,7 +27577,7 @@ export const people = [
     alternativeNames: ['郝经'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27604,7 +27598,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27625,7 +27619,7 @@ export const people = [
     alternativeNames: ['杨慎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27646,7 +27640,7 @@ export const people = [
     alternativeNames: ['胡应麟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27667,7 +27661,7 @@ export const people = [
     alternativeNames: ['叶赫纳喇全庆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27688,7 +27682,7 @@ export const people = [
     alternativeNames: ['玛拉特松筠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27709,7 +27703,7 @@ export const people = [
     alternativeNames: ['徐宗干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27730,7 +27724,7 @@ export const people = [
     alternativeNames: ['陈文'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27751,7 +27745,7 @@ export const people = [
     alternativeNames: ['张升'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27772,7 +27766,7 @@ export const people = [
     alternativeNames: ['杨守礼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27793,7 +27787,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27814,7 +27808,7 @@ export const people = [
     alternativeNames: ['崔群'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27835,7 +27829,7 @@ export const people = [
     alternativeNames: ['唐文献'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27856,7 +27850,7 @@ export const people = [
     alternativeNames: ['陈康伯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27877,7 +27871,7 @@ export const people = [
     alternativeNames: ['韦骧'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27898,7 +27892,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27919,7 +27913,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27940,7 +27934,7 @@ export const people = [
     alternativeNames: ['徐坚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27961,7 +27955,7 @@ export const people = [
     alternativeNames: ['卢承业'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -27982,7 +27976,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28003,7 +27997,7 @@ export const people = [
     alternativeNames: ['佟佳裕诚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28024,7 +28018,7 @@ export const people = [
     alternativeNames: ['万元吉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28045,7 +28039,7 @@ export const people = [
     alternativeNames: ['朱国桢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28066,7 +28060,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28087,7 +28081,7 @@ export const people = [
     alternativeNames: ['汤和'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28108,7 +28102,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28129,7 +28123,7 @@ export const people = [
     alternativeNames: ['高仪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28150,7 +28144,7 @@ export const people = [
     alternativeNames: ['廖纪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28171,7 +28165,7 @@ export const people = [
     alternativeNames: ['钱徽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28192,7 +28186,7 @@ export const people = [
     alternativeNames: ['高骈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28213,7 +28207,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28234,7 +28228,7 @@ export const people = [
     alternativeNames: ['陶望龄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28255,7 +28249,7 @@ export const people = [
     alternativeNames: ['张义'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28276,7 +28270,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28297,7 +28291,7 @@ export const people = [
     alternativeNames: ['许将'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28318,7 +28312,7 @@ export const people = [
     alternativeNames: ['王钦若'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28339,7 +28333,7 @@ export const people = [
     alternativeNames: ['吕大临'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28360,7 +28354,7 @@ export const people = [
     alternativeNames: ['张柬之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28381,7 +28375,7 @@ export const people = [
     alternativeNames: ['李夷简'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28402,7 +28396,7 @@ export const people = [
     alternativeNames: ['韦抗'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28423,7 +28417,7 @@ export const people = [
     alternativeNames: ['韦承庆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28444,7 +28438,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28465,7 +28459,7 @@ export const people = [
     alternativeNames: ['吴伟业'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28486,7 +28480,7 @@ export const people = [
     alternativeNames: ['杨怀忠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28507,7 +28501,7 @@ export const people = [
     alternativeNames: ['卢见曾'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28528,7 +28522,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28549,7 +28543,7 @@ export const people = [
     alternativeNames: ['乌米花沙纳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28570,7 +28564,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28591,7 +28585,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28612,7 +28606,7 @@ export const people = [
     alternativeNames: ['张宪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28633,7 +28627,7 @@ export const people = [
     alternativeNames: ['邓廷瓒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28654,7 +28648,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28675,7 +28669,7 @@ export const people = [
     alternativeNames: ['陈镐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28696,7 +28690,7 @@ export const people = [
     alternativeNames: ['包节'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28717,7 +28711,7 @@ export const people = [
     alternativeNames: ['聂贤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28738,7 +28732,7 @@ export const people = [
     alternativeNames: ['王铎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28759,7 +28753,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28780,7 +28774,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28801,7 +28795,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28822,7 +28816,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28843,7 +28837,7 @@ export const people = [
     alternativeNames: ['范百禄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28864,7 +28858,7 @@ export const people = [
     alternativeNames: ['蔡延庆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28885,7 +28879,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28906,7 +28900,7 @@ export const people = [
     alternativeNames: ['高继勋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28927,7 +28921,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28948,7 +28942,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28969,7 +28963,7 @@ export const people = [
     alternativeNames: ['吴玠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -28990,7 +28984,7 @@ export const people = [
     alternativeNames: ['赵以夫'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29011,7 +29005,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29032,7 +29026,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29053,7 +29047,7 @@ export const people = [
     alternativeNames: ['宣缯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29074,7 +29068,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29095,7 +29089,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29116,7 +29110,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29137,7 +29131,7 @@ export const people = [
     alternativeNames: ['卢象升'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29158,7 +29152,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29179,7 +29173,7 @@ export const people = [
     alternativeNames: ['徐有贞'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29200,7 +29194,7 @@ export const people = [
     alternativeNames: ['柯潜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29221,7 +29215,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29242,7 +29236,7 @@ export const people = [
     alternativeNames: ['刘纶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29263,7 +29257,7 @@ export const people = [
     alternativeNames: ['徐达'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29284,7 +29278,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29305,7 +29299,7 @@ export const people = [
     alternativeNames: ['翁世资'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29326,7 +29320,7 @@ export const people = [
     alternativeNames: ['赵胜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29347,7 +29341,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29368,7 +29362,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29389,7 +29383,7 @@ export const people = [
     alternativeNames: ['孙懋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29410,7 +29404,7 @@ export const people = [
     alternativeNames: ['刘体干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29431,7 +29425,7 @@ export const people = [
     alternativeNames: ['吴山'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29452,7 +29446,7 @@ export const people = [
     alternativeNames: ['韦武'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29473,7 +29467,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29494,7 +29488,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29515,7 +29509,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29536,7 +29530,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29557,7 +29551,7 @@ export const people = [
     alternativeNames: ['宋仪望'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29578,7 +29572,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29599,7 +29593,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29620,7 +29614,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29641,7 +29635,7 @@ export const people = [
     alternativeNames: ['黄堮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29662,7 +29656,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29683,7 +29677,7 @@ export const people = [
     alternativeNames: ['谢绛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29704,7 +29698,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29725,7 +29719,7 @@ export const people = [
     alternativeNames: ['洪迈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29746,7 +29740,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29767,7 +29761,7 @@ export const people = [
     alternativeNames: ['陈继儒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29788,7 +29782,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29809,7 +29803,7 @@ export const people = [
     alternativeNames: ['赵汝谈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29830,7 +29824,7 @@ export const people = [
     alternativeNames: ['陆象先'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29851,7 +29845,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29872,7 +29866,7 @@ export const people = [
     alternativeNames: ['孙慎行'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29893,7 +29887,7 @@ export const people = [
     alternativeNames: ['李时勉'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29914,7 +29908,7 @@ export const people = [
     alternativeNames: ['郑岳'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29935,7 +29929,7 @@ export const people = [
     alternativeNames: ['石辂'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29956,7 +29950,7 @@ export const people = [
     alternativeNames: ['爱新觉罗敬征'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29977,7 +29971,7 @@ export const people = [
     alternativeNames: ['洪承畴'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -29998,7 +29992,7 @@ export const people = [
     alternativeNames: ['富察联顺'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30019,7 +30013,7 @@ export const people = [
     alternativeNames: ['李绂'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30040,7 +30034,7 @@ export const people = [
     alternativeNames: ['杨镐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30061,7 +30055,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30082,7 +30076,7 @@ export const people = [
     alternativeNames: ['刘丙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30103,7 +30097,7 @@ export const people = [
     alternativeNames: ['杨守随'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30124,7 +30118,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30145,7 +30139,7 @@ export const people = [
     alternativeNames: ['张澯'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30166,7 +30160,7 @@ export const people = [
     alternativeNames: ['孙应奎'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30187,7 +30181,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30208,7 +30202,7 @@ export const people = [
     alternativeNames: ['王昌龄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30229,7 +30223,7 @@ export const people = [
     alternativeNames: ['严维'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30250,7 +30244,7 @@ export const people = [
     alternativeNames: ['孟简'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30271,7 +30265,7 @@ export const people = [
     alternativeNames: ['孙鑨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30292,7 +30286,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30313,7 +30307,7 @@ export const people = [
     alternativeNames: ['陈尧叟'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30334,7 +30328,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30355,7 +30349,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30376,7 +30370,7 @@ export const people = [
     alternativeNames: ['司马池'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30397,7 +30391,7 @@ export const people = [
     alternativeNames: ['潘好谦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30418,7 +30412,7 @@ export const people = [
     alternativeNames: ['强至'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30439,7 +30433,7 @@ export const people = [
     alternativeNames: ['许翰'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30460,7 +30454,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30481,7 +30475,7 @@ export const people = [
     alternativeNames: ['刘子翚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30502,7 +30496,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30523,7 +30517,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30544,7 +30538,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30565,7 +30559,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30586,7 +30580,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30607,7 +30601,7 @@ export const people = [
     alternativeNames: ['沈炼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30628,7 +30622,7 @@ export const people = [
     alternativeNames: ['沈懋学'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30649,7 +30643,7 @@ export const people = [
     alternativeNames: ['沈德潜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30670,7 +30664,7 @@ export const people = [
     alternativeNames: ['爱新觉罗禧恩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30691,7 +30685,7 @@ export const people = [
     alternativeNames: ['索绰罗麟魁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30712,7 +30706,7 @@ export const people = [
     alternativeNames: ['傅宗龙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30733,7 +30727,7 @@ export const people = [
     alternativeNames: ['魏忠贤'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30754,7 +30748,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30775,7 +30769,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30796,7 +30790,7 @@ export const people = [
     alternativeNames: ['蒋瑶'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30817,7 +30811,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30838,7 +30832,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30859,7 +30853,7 @@ export const people = [
     alternativeNames: ['窦庠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30880,7 +30874,7 @@ export const people = [
     alternativeNames: ['魏时亮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30901,7 +30895,7 @@ export const people = [
     alternativeNames: ['王时槐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30922,7 +30916,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30943,7 +30937,7 @@ export const people = [
     alternativeNames: ['陈安石'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30964,7 +30958,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -30985,7 +30979,7 @@ export const people = [
     alternativeNames: ['赵鼎臣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31006,7 +31000,7 @@ export const people = [
     alternativeNames: ['沈与求'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31027,7 +31021,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31048,7 +31042,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31069,7 +31063,7 @@ export const people = [
     alternativeNames: ['陈居仁'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31090,7 +31084,7 @@ export const people = [
     alternativeNames: ['刘邺'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31111,7 +31105,7 @@ export const people = [
     alternativeNames: ['赵方'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31132,7 +31126,7 @@ export const people = [
     alternativeNames: ['郑侠'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31153,7 +31147,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31174,7 +31168,7 @@ export const people = [
     alternativeNames: ['宇文绍节'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31195,7 +31189,7 @@ export const people = [
     alternativeNames: ['张元干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31216,7 +31210,7 @@ export const people = [
     alternativeNames: ['颜颐仲'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31237,7 +31231,7 @@ export const people = [
     alternativeNames: ['王涣之'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31258,7 +31252,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31279,7 +31273,7 @@ export const people = [
     alternativeNames: ['长孙无忌'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31300,7 +31294,7 @@ export const people = [
     alternativeNames: ['钱德洪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31321,7 +31315,7 @@ export const people = [
     alternativeNames: ['陆扆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31342,7 +31336,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31363,7 +31357,7 @@ export const people = [
     alternativeNames: ['杨继盛'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31384,7 +31378,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31405,7 +31399,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31426,7 +31420,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31447,7 +31441,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31468,7 +31462,7 @@ export const people = [
     alternativeNames: ['赵翼'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31489,7 +31483,7 @@ export const people = [
     alternativeNames: ['乌梁罕扎拉丰阿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31510,7 +31504,7 @@ export const people = [
     alternativeNames: ['顾佐'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31531,7 +31525,7 @@ export const people = [
     alternativeNames: ['马汝骥'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31552,7 +31546,7 @@ export const people = [
     alternativeNames: ['高铨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31573,7 +31567,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31594,7 +31588,7 @@ export const people = [
     alternativeNames: ['张濬'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31615,7 +31609,7 @@ export const people = [
     alternativeNames: ['郑昈'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31636,7 +31630,7 @@ export const people = [
     alternativeNames: ['张勋'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31657,7 +31651,7 @@ export const people = [
     alternativeNames: ['李化龙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31678,7 +31672,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31699,7 +31693,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31720,7 +31714,7 @@ export const people = [
     alternativeNames: ['张祥鸢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31741,7 +31735,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31762,7 +31756,7 @@ export const people = [
     alternativeNames: ['刘龙'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31783,7 +31777,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31804,7 +31798,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31825,7 +31819,7 @@ export const people = [
     alternativeNames: ['史弥坚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31846,7 +31840,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31867,7 +31861,7 @@ export const people = [
     alternativeNames: ['萧倣'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31888,7 +31882,7 @@ export const people = [
     alternativeNames: ['叶祖洽'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31909,7 +31903,7 @@ export const people = [
     alternativeNames: ['陈造'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31930,7 +31924,7 @@ export const people = [
     alternativeNames: ['吴儆'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31951,7 +31945,7 @@ export const people = [
     alternativeNames: ['王贻矩'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31972,7 +31966,7 @@ export const people = [
     alternativeNames: ['刘锜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -31993,7 +31987,7 @@ export const people = [
     alternativeNames: ['罗从彦'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32014,7 +32008,7 @@ export const people = [
     alternativeNames: ['陶谷'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32035,7 +32029,7 @@ export const people = [
     alternativeNames: ['赵文'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32056,7 +32050,7 @@ export const people = [
     alternativeNames: ['黄福'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32077,7 +32071,7 @@ export const people = [
     alternativeNames: ['齐抗'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32098,7 +32092,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32119,7 +32113,7 @@ export const people = [
     alternativeNames: ['胡广'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32140,7 +32134,7 @@ export const people = [
     alternativeNames: ['黄淮'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32161,7 +32155,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32182,7 +32176,7 @@ export const people = [
     alternativeNames: ['沈寿民'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32203,7 +32197,7 @@ export const people = [
     alternativeNames: ['袁黄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32224,7 +32218,7 @@ export const people = [
     alternativeNames: ['张庚'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32245,7 +32239,7 @@ export const people = [
     alternativeNames: ['赵颢'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32266,7 +32260,7 @@ export const people = [
     alternativeNames: ['张英'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32287,7 +32281,7 @@ export const people = [
     alternativeNames: ['茅元仪'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32308,7 +32302,7 @@ export const people = [
     alternativeNames: ['阿鲁特赛尚阿'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32329,7 +32323,7 @@ export const people = [
     alternativeNames: ['章佳那彦宝'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32350,7 +32344,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32371,7 +32365,7 @@ export const people = [
     alternativeNames: ['曾樱'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32392,7 +32386,7 @@ export const people = [
     alternativeNames: ['爱新觉罗载容'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32413,7 +32407,7 @@ export const people = [
     alternativeNames: ['袁继咸'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32434,7 +32428,7 @@ export const people = [
     alternativeNames: [],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32455,7 +32449,7 @@ export const people = [
     alternativeNames: ['钱干'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32476,7 +32470,7 @@ export const people = [
     alternativeNames: ['薛禄'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32497,7 +32491,7 @@ export const people = [
     alternativeNames: ['陈怀'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32518,7 +32512,7 @@ export const people = [
     alternativeNames: ['周广'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32539,7 +32533,7 @@ export const people = [
     alternativeNames: ['韦炜'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32560,7 +32554,7 @@ export const people = [
     alternativeNames: ['胡瓒'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
   },
@@ -32581,12 +32575,13 @@ export const people = [
     alternativeNames: ['朱纨'],
     sourceIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.75,
     externalReferences: [],
-  }] as unknown as Person[];
+  },
+];
 
-// ==================== EVENTS ====================
+export const people: Person[] = [..._peoplePart1, ..._peoplePart2];
 
 export const events: HistoricalEvent[] = [
   {
@@ -33451,7 +33446,7 @@ export const events: HistoricalEvent[] = [
     relatedEventIds: [],
     dataStatus: 'published' as const,
     confidenceScore: 0.85,
-    externalReferences: [{ id: 'ref-charlemagne-crown', sourceType: 'encyclopedia', title: 'Charlemagne crowned emperor', url: 'https://www.britannica.com/event/Coronation-of-Charlemagne', license: 'Copyright' }],
+    externalReferences: [{ id: 'ref-charlemagne-crown', sourceType: 'encyclopedia', title: 'Charlemagne crowned emperor', url: 'https://www.britannica.com/event/Coronation-of-Charlemagne', license: 'Copyright' }] as ExternalReference[],
   },
   {
     id: 'evt-mongol-conquest',
@@ -33503,7 +33498,7 @@ export const events: HistoricalEvent[] = [
     relatedEventIds: ['evt-mongol-conquest'],
     dataStatus: 'published' as const,
     confidenceScore: 0.8,
-    externalReferences: [{ id: 'ref-polo-brit', sourceType: 'encyclopedia', title: 'Marco Polo', url: 'https://www.britannica.com/biography/Marco-Polo', license: 'Copyright' }],
+    externalReferences: [{ id: 'ref-polo-brit', sourceType: 'encyclopedia', title: 'Marco Polo', url: 'https://www.britannica.com/biography/Marco-Polo', license: 'Copyright' }] as ExternalReference[],
   },
   {
     id: 'evt-zheng-he-voyages',
@@ -33555,7 +33550,7 @@ export const events: HistoricalEvent[] = [
     relatedEventIds: [],
     dataStatus: 'published' as const,
     confidenceScore: 0.85,
-    externalReferences: [{ id: 'ref-renaissance-brit', sourceType: 'encyclopedia', title: 'Renaissance', url: 'https://www.britannica.com/event/Renaissance', license: 'Copyright' }],
+    externalReferences: [{ id: 'ref-renaissance-brit', sourceType: 'encyclopedia', title: 'Renaissance', url: 'https://www.britannica.com/event/Renaissance', license: 'Copyright' }] as ExternalReference[],
   },
   {
     id: 'evt-columbus-1492',
@@ -33580,7 +33575,7 @@ export const events: HistoricalEvent[] = [
     relatedEventIds: [],
     dataStatus: 'published' as const,
     confidenceScore: 0.85,
-    externalReferences: [{ id: 'ref-columbus-brit', sourceType: 'encyclopedia', title: 'Christopher Columbus', url: 'https://www.britannica.com/biography/Christopher-Columbus', license: 'Copyright' }],
+    externalReferences: [{ id: 'ref-columbus-brit', sourceType: 'encyclopedia', title: 'Christopher Columbus', url: 'https://www.britannica.com/biography/Christopher-Columbus', license: 'Copyright' }] as ExternalReference[],
   },
   {
     id: 'evt-industrial-revolution',
@@ -33606,7 +33601,7 @@ export const events: HistoricalEvent[] = [
     relatedEventIds: [],
     dataStatus: 'published' as const,
     confidenceScore: 0.85,
-    externalReferences: [{ id: 'ref-industrial-brit', sourceType: 'encyclopedia', title: 'Industrial Revolution', url: 'https://www.britannica.com/event/Industrial-Revolution', license: 'Copyright' }],
+    externalReferences: [{ id: 'ref-industrial-brit', sourceType: 'encyclopedia', title: 'Industrial Revolution', url: 'https://www.britannica.com/event/Industrial-Revolution', license: 'Copyright' }] as ExternalReference[],
   },
   {
     id: 'evt-great-wall',
@@ -77050,7 +77045,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-shiji'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77077,7 +77072,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-shiji'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
@@ -77104,7 +77099,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-shiji', 'src-hanshu'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77131,7 +77126,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-hanshu'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77158,7 +77153,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-sanguozhi'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77185,7 +77180,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-sanguozhi'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
@@ -77212,7 +77207,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: [],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.85,
     externalReferences: [],
   },
@@ -77239,7 +77234,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-suisheshu'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77266,7 +77261,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-jiutangshu'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77293,7 +77288,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-ss'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77320,7 +77315,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-ss'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77347,7 +77342,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-ss'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77374,7 +77369,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-ss'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77401,7 +77396,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-yuanshi', 'src-mingshi'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77428,7 +77423,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-mingshi'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77455,7 +77450,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-qingshigao'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77482,7 +77477,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-qingshigao'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
@@ -77509,7 +77504,7 @@ export const events: HistoricalEvent[] = [
     sourceIds: ['src-qingshigao'],
     relatedEventIds: [],
     wikidataQid: '',
-    dataStatus: 'published',
+    dataStatus: 'published' as const,
     confidenceScore: 0.9,
     externalReferences: [],
   },
