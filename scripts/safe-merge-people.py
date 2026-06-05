@@ -25,19 +25,27 @@ PROJECT_ROOT = Path(__file__).parent.parent
 
 def extract_people_ids(content: str) -> set[str]:
     """从 mockData.ts 中提取所有 person ID"""
+    # Try split format first (_peoplePart1 + _peoplePart2)
+    part1_start = content.find("export const _peoplePart1")
+    if part1_start != -1:
+        events_pos = content.find("export const events", part1_start)
+        if events_pos == -1:
+            return set()
+        people_section = content[part1_start:events_pos]
+        ids = re.findall(r"id:\s*'([^']+)'", people_section)
+        return set(ids)
+    
+    # Legacy single-array format
     people_start = content.find("export const people")
     if people_start == -1:
         return set()
-
     array_start = content.find("[", people_start)
     events_pos = content.find("export const events", array_start)
     if events_pos == -1:
         return set()
-
     array_end = content.rfind("];", array_start, events_pos)
     if array_end == -1:
         return set()
-
     people_array = content[array_start:array_end]
     ids = re.findall(r"id:\s*'([^']+)'", people_array)
     return set(ids)
