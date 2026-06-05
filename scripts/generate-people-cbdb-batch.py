@@ -100,18 +100,31 @@ print(f"// Merged IDs to skip: {len(merged_ids)}", file=sys.stderr)
 major_dynasties = list(DYN_REGION.keys())
 dyn_placeholders = ','.join([f"'{d}'" for d in major_dynasties])
 
-# Query candidates with birth+death years, not merged, major dynasties
+# Query candidates: prioritize by data quality tier
+# Tier 1 (already done): birth+death both known
+# Tier 2: birth or death known, or index_year as approximate
+# We use index_year as fallback approximate year for people without birth/death
 cursor.execute(f"""
     SELECT b.c_personid, b.c_name_chn, b.c_name, b.c_birthyear, b.c_deathyear, 
-           d.c_dynasty_chn, b.c_female
+           d.c_dynasty_chn, b.c_female, b.c_index_year
     FROM BIOG_MAIN b
     JOIN DYNASTIES d ON b.c_dy = d.c_dy
-    WHERE b.c_birthyear > 0 
-    AND b.c_deathyear > 0
-    AND b.c_name_chn != '未詳'
+    WHERE b.c_name_chn != '未詳'
+    AND (
+        (b.c_birthyear > 0 AND b.c_deathyear > 0)  -- Tier 1: both known
+        OR (b.c_birthyear > 0 AND b.c_deathyear <= 0)  -- Tier 2a: birth only
+        OR (b.c_birthyear <= 0 AND b.c_deathyear > 0)  -- Tier 2b: death only
+        OR (b.c_index_year > 0 AND b.c_birthyear <= 0 AND b.c_deathyear <= 0)  -- Tier 3: index only
+    )
     AND d.c_dynasty_chn IN ({dyn_placeholders})
     AND b.c_personid NOT IN (SELECT DISTINCT c_merged_from_personid FROM MERGED_PERSON_DATA)
-    ORDER BY b.c_personid
+    ORDER BY 
+        CASE 
+            WHEN b.c_birthyear > 0 AND b.c_deathyear > 0 THEN 1
+            WHEN b.c_birthyear > 0 OR b.c_deathyear > 0 THEN 2
+            ELSE 3
+        END,
+        b.c_personid
 """)
 
 # Fetch all candidates into memory first (before running other queries on the cursor)
@@ -134,7 +147,19 @@ export const _cbdb_batch_{args.offset} = [""")
 
 entries = []
 for row in candidates:
-    personid, name_chn, name_en, birth, death, dynasty, female = row
+    personid, name_chn, name_en, birth, death, dynasty, female, index_year = row
+    
+    # Determine effective years
+    has_birth = birth and birth > 0
+    has_death = death and death > 0
+    
+    # For display: use birth/death if available, otherwise index_year as approximate
+    if not has_birth and not has_death and index_year and index_year > 0:
+        birth = index_year
+        has_birth = True
+        is_approximate = True
+    else:
+        is_approximate = False
     
     # Convert to simplified for matching (CBDB uses traditional)
     name_simp = cc.convert(name_chn)
@@ -209,8 +234,26 @@ for row in candidates:
     # Generate CC-friendly summary (no CBDB references)
     period = dynasty
     
-    birth_str = str(birth) if birth else '不详'
-    death_str = str(death) if death else '不详'
+    if has_birth and has_death:
+        year_info = f"{birth}—{death}年"
+        year_info_en = f"{birth}–{death}"
+        lived_info = f"生于{year_info}"
+        lived_info_en = f"lived {year_info_en}"
+    elif has_birth and not has_death:
+        year_info = f"约{birth}年"
+        year_info_en = f"c. {birth}"
+        lived_info = f"约生于{birth}年"
+        lived_info_en = f"born c. {birth}"
+    elif not has_birth and has_death:
+        year_info = f"?—{death}年"
+        year_info_en = f"?–{death}"
+        lived_info = f"卒于{death}年"
+        lived_info_en = f"died {death}"
+    else:
+        year_info = "年代不详"
+        year_info_en = "dates unknown"
+        lived_info = ""
+        lived_info_en = ""
     
     if num_postings >= 20:
         career_note = "，仕途显达"
@@ -218,26 +261,44 @@ for row in candidates:
     elif num_postings >= 5:
         career_note = "，有仕宦经历"
         career_note_en = ", held official positions"
+    elif num_postings >= 1:
+        career_note = "，曾任官职"
+        career_note_en = ", held an official post"
     else:
         career_note = ""
         career_note_en = ""
     
-    summary_zh = f"{period}时期{'女性' if female else ''}历史人物，生于{name_chn}（{birth_str}—{death_str}年）{career_note}。其事迹见于相关史料记载。"
-    summary_en = f"Historical figure of the {period} dynasty{' (female)' if female else ''}, lived {birth_str}–{death_str}{career_note_en}. Documented in historical sources."
+    female_note = '女性' if female else ''
+    female_note_en = ' (female)' if female else ''
+    
+    if lived_info:
+        summary_zh = f"{period}时期{female_note}历史人物，{lived_info}{career_note}。其事迹见于相关史料记载。"
+        summary_en = f"Historical figure of the {period} dynasty{female_note_en}, {lived_info_en}{career_note_en}. Documented in historical sources."
+    else:
+        summary_zh = f"{period}时期{female_note}历史人物{career_note}。其事迹见于相关史料记载。"
+        summary_en = f"Historical figure of the {period} dynasty{female_note_en}{career_note_en}. Documented in historical sources."
     
     # Description with dynasty context
     context_zh = DYNASTY_CONTEXT.get(dynasty, f'{dynasty}是中国历史上的重要时期。')
     context_en = DYNASTY_CONTEXT_EN.get(dynasty, f'The {dynasty} dynasty was an important period in Chinese history.')
     
-    desc_zh = f'{name_chn}（{birth_str}—{death_str}年），{dynasty}人物。{context_zh}关于其生平与事迹的记载，散见于相关史籍文献之中，反映了当时的历史风貌与社会环境。'
-    desc_en = f'{name_chn} ({birth_str}–{death_str}) was a figure of the {dynasty} dynasty. {context_en} Records of their life and deeds are preserved in historical texts and documents, reflecting the historical context and social environment of the era.'
+    if is_approximate:
+        desc_zh = f'{name_chn}（约{year_info}），{dynasty}人物。{context_zh}关于其生平与事迹的记载，散见于相关史籍文献之中，反映了当时的历史风貌与社会环境。'
+        desc_en = f'{name_chn} (c. {year_info_en}) was a figure of the {dynasty} dynasty. {context_en} Records of their life and deeds are preserved in historical texts and documents, reflecting the historical context and social environment of the era.'
+    else:
+        desc_zh = f'{name_chn}（{year_info}），{dynasty}人物。{context_zh}关于其生平与事迹的记载，散见于相关史籍文献之中，反映了当时的历史风貌与社会环境。'
+        desc_en = f'{name_chn} ({year_info_en}) was a figure of the {dynasty} dynasty. {context_en} Records of their life and deeds are preserved in historical texts and documents, reflecting the historical context and social environment of the era.'
+    
+    # Entry year: prefer birth, fallback to index_year
+    entry_birth = birth if has_birth else (index_year if index_year and index_year > 0 else 'undefined')
+    entry_death = death if has_death else 'undefined'
     
     entry = f"""  {{
     id: '{pid}',
     name: '{esc(name_chn)}',
     nameEn: '{esc(name_display_en)}',
-    birthYear: {birth},
-    deathYear: {death},
+    birthYear: {entry_birth},
+    deathYear: {entry_death},
     regionId: '{region}',
     occupations: [{', '.join(f"'{o}'" for o in occs)}],
     tags: [{', '.join(f"'{t}'" for t in tags)}],
