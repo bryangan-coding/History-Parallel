@@ -395,6 +395,24 @@ export const regions: Region[] = [
     description: '前770年—前221年，周王室衰微后诸侯争霸的五百余年，百家争鸣，奠定了中华文明的思想基础。春秋五霸、战国七雄，最终由秦统一天下。',
     descriptionEn: '770–221 BCE. Over five centuries of contending states after the Zhou decline, the era of the Hundred Schools of Thought that laid the intellectual foundations of Chinese civilization.',
   },
+  {
+    id: 'zhou-dynasty',
+    name: '周朝',
+    nameEn: 'Zhou Dynasty',
+    slug: 'zhou-dynasty',
+    parentRegionId: 'china',
+    description: '前1046年—前256年，中国历史上存续时间最长的王朝，约八百年。西周定都镐京（今西安），创分封制与礼乐制度；东周王室衰微，进入春秋战国时代。',
+    descriptionEn: '1046–256 BCE. The longest-lasting dynasty in Chinese history, spanning nearly eight centuries. The Western Zhou established feudalism and the ritual-music system; the Eastern Zhou saw the decline of royal authority.',
+  },
+  {
+    id: 'northern-southern-dynasties',
+    name: '南北朝',
+    nameEn: 'Northern & Southern Dynasties',
+    slug: 'northern-southern-dynasties',
+    parentRegionId: 'china',
+    description: '420年—589年，东晋灭亡后中国南北分裂时期。南朝经历宋、齐、梁、陈四朝，北朝经历北魏、东魏、西魏、北齐、北周，最终由隋朝统一。',
+    descriptionEn: '420–589. A period of division between northern and southern China after the fall of Eastern Jin. The south saw the Song, Qi, Liang, and Chen dynasties; the north saw the Northern Wei and its successors, ending with Sui reunification.',
+  },
 ];
 
 // ==================== SOURCES ====================
@@ -720,12 +738,14 @@ import _peoplePart2Data from './people/_peoplePart2.json';
 import _peoplePart3Data from './people/_peoplePart3.json';
 import _peoplePart4Data from './people/_peoplePart4.json';
 import _newDynastiesPeopleData from './people/_newDynastiesPeople.json';
+import _gapDynastiesPeopleData from './people/_gapDynastiesPeople.json';
 
 export const _peoplePart1: Person[] = _peoplePart1Data as Person[];
 export const _peoplePart2: Person[] = _peoplePart2Data as Person[];
 export const _peoplePart3: Person[] = _peoplePart3Data as Person[];
 export const _peoplePart4: Person[] = _peoplePart4Data as Person[];
 export const _newDynastiesPeople: Person[] = _newDynastiesPeopleData as Person[];
+export const _gapDynastiesPeople: Person[] = _gapDynastiesPeopleData as Person[];
 
 export const people: Person[] = [
   ..._peoplePart1,
@@ -733,6 +753,7 @@ export const people: Person[] = [
   ..._peoplePart3,
   ..._peoplePart4,
   ..._newDynastiesPeople,
+  ..._gapDynastiesPeople,
 ];
 
 export const events: HistoricalEvent[] = [
