@@ -1066,14 +1066,15 @@
     "alternativeNames": [
       "劉繼元"
     ],
-    "regionId": "liao-dynasty",
+    "regionId": "ten-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "天会：968年九月-973年",
+    "summary": "北汉末代皇帝刘继恩之弟。在位期间使用天会（968-973）等年号，后因宋太宗亲征而降宋，北汉灭亡。",
     "sourceIds": [
       "src-grand-timeline"
     ],

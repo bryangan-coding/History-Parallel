@@ -2703,12 +2703,13 @@
     "alternativeNames": [],
     "regionId": "western-xia",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "应天：1206年－1209年",
+    "summary": "西夏皇帝，夏仁宗之子。在位期间使用应天（1206-1209）等年号，继续与金朝修好。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -3547,14 +3548,15 @@
     "id": "宋光宗",
     "name": "宋光宗",
     "alternativeNames": [],
-    "regionId": "western-xia",
+    "regionId": "song-dynasty",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "子：女：",
+    "summary": "南宋第三位皇帝赵惇，宋孝宗之子。在位期间朝政为皇后李氏与韩侂胄所掌控，晚年因精神疾病禅位于宁宗。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -3589,14 +3591,15 @@
     "id": "宋孝宗",
     "name": "宋孝宗",
     "alternativeNames": [],
-    "regionId": "western-xia",
+    "regionId": "song-dynasty",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "子：女：",
+    "summary": "南宋第二位皇帝赵昚，宋太祖赵匡胤七世孙。在位期间为岳飞平反，发动隆兴北伐力图收复中原，被誉为南宋最有作为的皇帝。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -3712,14 +3715,15 @@
     "id": "宋钦宗",
     "name": "宋钦宗",
     "alternativeNames": [],
-    "regionId": "western-xia",
+    "regionId": "song-dynasty",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "子：女：",
+    "summary": "北宋末代皇帝赵桓，宋徽宗之子。在位仅一年多即遭遇靖康之变，与徽宗一同被金人掳往北方，北宋灭亡。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -14957,14 +14961,14 @@
     "id": "许奕",
     "name": "许奕",
     "alternativeNames": [],
-    "regionId": "western-xia",
+    "regionId": "song-dynasty",
     "occupations": [
       "politician"
     ],
     "tags": [
       "政治人物"
     ],
-    "summary": "许奕，字成子，南宋简州人。",
+    "summary": "南宋政治人物，字成子，简州（今四川简阳）人。官至吏部侍郎，以直言敢谏著称。",
     "sourceIds": [
       "src-grand-timeline"
     ],

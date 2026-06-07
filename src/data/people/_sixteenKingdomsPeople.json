@@ -192,12 +192,13 @@
     ],
     "regionId": "sixteen-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "永康：412年八月－419年",
+    "summary": "西秦皇帝，乞伏乾归之子。在位期间使用永康（412-419）等年号，灭南凉，与北凉、夏国争雄陇右。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -5697,12 +5698,13 @@
     "alternativeNames": [],
     "regionId": "sixteen-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "光始：401年八月-406年",
+    "summary": "后燕末代君主，慕容垂之孙。在位期间使用光始（401-406）等年号，因暴虐失民心而被杀。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -7060,14 +7062,15 @@
     "alternativeNames": [
       "晉哀帝"
     ],
-    "regionId": "sixteen-kingdoms",
+    "regionId": "eastern-jin",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "隆和：362年－363年二月",
+    "summary": "东晋皇帝司马丕，晋成帝之子。在位期间使用隆和（362-363）等年号，崇信道教，因服食丹药中毒而死。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -7129,14 +7132,15 @@
     "alternativeNames": [
       "晉成帝"
     ],
-    "regionId": "sixteen-kingdoms",
+    "regionId": "eastern-jin",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "咸和：326年二月－334年",
+    "summary": "东晋皇帝司马衍，晋明帝之子。在位期间使用咸和（326-334）等年号，幼年即位由庾太后临朝，庾亮、王导相继辅政。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -7175,14 +7179,15 @@
     "alternativeNames": [
       "晉穆帝"
     ],
-    "regionId": "sixteen-kingdoms",
+    "regionId": "eastern-jin",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "永和：345年－356年",
+    "summary": "东晋皇帝司马聃，晋康帝之子。在位期间使用永和（345-356）等年号，桓温北伐一度收复洛阳，是中国历史上最年轻的皇帝之一。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -7432,14 +7437,14 @@
     "id": "朱伺",
     "name": "朱伺",
     "alternativeNames": [],
-    "regionId": "sixteen-kingdoms",
+    "regionId": "western-jin",
     "occupations": [
-      "politician"
+      "general"
     ],
     "tags": [
-      "政治人物"
+      "军事人物"
     ],
-    "summary": "朱伺，字仲文，晉朝安陆人。",
+    "summary": "西晋将领，字仲文，安陆（今湖北安陆）人。陶侃部属，参与平定杜弢之乱。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -7497,12 +7502,13 @@
     "alternativeNames": [],
     "regionId": "sixteen-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "太和：344年－346年九月",
+    "summary": "成汉末代君主，李寿之子。在位期间使用太和（344-346）年号，后被东晋桓温所灭，成汉亡。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -10624,12 +10630,13 @@
     "alternativeNames": [],
     "regionId": "sixteen-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "建武：335年-348年",
+    "summary": "后赵皇帝，石勒之侄。在位期间使用建武（335-348）等年号，以残暴著称，佛教在其治下得到发展。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -10707,12 +10714,13 @@
     ],
     "regionId": "sixteen-kingdoms",
     "occupations": [
-      "politician"
+      "monarch"
     ],
     "tags": [
+      "皇帝",
       "政治人物"
     ],
-    "summary": "太寧：349年十一月-十二月",
+    "summary": "后赵皇帝，石虎之子。在位仅数月在太寧（349）年号间，旋即被石闵（冉闵）废弑。",
     "sourceIds": [
       "src-grand-timeline"
     ],

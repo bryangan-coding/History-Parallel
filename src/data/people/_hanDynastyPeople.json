@@ -278,12 +278,15 @@
     "alternativeNames": [],
     "regionId": "han-dynasty",
     "occupations": [
+      "poet",
+      "writer",
       "politician"
     ],
     "tags": [
+      "文学家",
       "政治人物"
     ],
-    "summary": "《答客难》《非有先生论》",
+    "summary": "西汉文学家、辞赋家。汉武帝时曾任常侍郎、太中大夫等职。以诙谐多智著称，代表作有《答客难》《非有先生论》等。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -5031,14 +5034,14 @@
     "id": "大希律王",
     "name": "大希律王",
     "alternativeNames": [],
-    "regionId": "han-dynasty",
+    "regionId": "middle-east",
     "occupations": [
       "politician"
     ],
     "tags": [
       "政治人物"
     ],
-    "summary": "",
+    "summary": "犹太王国希律王朝的建立者，前37-前4年在位。以大规模建筑工程闻名，包括扩建第二圣殿。亦以多疑残暴著称。",
     "sourceIds": [
       "src-grand-timeline"
     ],
@@ -13429,14 +13432,14 @@
     "id": "莎乐美",
     "name": "莎乐美",
     "alternativeNames": [],
-    "regionId": "han-dynasty",
+    "regionId": "middle-east",
     "occupations": [
       "politician"
     ],
     "tags": [
       "政治人物"
     ],
-    "summary": "",
+    "summary": "希律王朝的犹太公主，希律·安提帕的继女。据《圣经》记载，因母亲唆使要求施洗约翰的头颅。西方艺术中常见题材。",
     "sourceIds": [
       "src-grand-timeline"
     ],
