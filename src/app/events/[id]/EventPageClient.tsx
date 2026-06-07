@@ -23,7 +23,7 @@ import {
 } from '@/lib/types';
 
 export function EventPageClient({ id }: { id: string }) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const event = getEventById(id);
 
   if (!event) {
@@ -47,7 +47,7 @@ export function EventPageClient({ id }: { id: string }) {
   return (
     <div>
       <PageHeader
-        title={eventTitle(event, locale)}
+        title={toScript(eventTitle(event, locale))}
         backTo="/"
         backLabel={t.nav.backToHome}
       />
@@ -62,7 +62,7 @@ export function EventPageClient({ id }: { id: string }) {
                 ))}
               </div>
               <p className="text-stone-600 leading-relaxed">
-                {eventDescription(event, locale)}
+                {toScript(eventDescription(event, locale))}
               </p>
             </div>
           </article>

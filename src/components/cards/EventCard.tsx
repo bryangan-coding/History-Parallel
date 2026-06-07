@@ -20,7 +20,7 @@ export default function EventCard({
   event: HistoricalEvent;
   showParallelButton?: boolean;
 }) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const region = event.regionId ? getRegionById(event.regionId) : undefined;
   const persons = getPersonsForEvent(event.id);
   const tags = eventTags(event, locale);
@@ -40,7 +40,7 @@ export default function EventCard({
         <div className="flex-1 min-w-0">
           <div className="flex items-center gap-2 flex-wrap">
             <h3 className="text-base font-semibold text-stone-900">
-              {eventTitle(event, locale)}
+              {toScript(eventTitle(event, locale))}
             </h3>
             <span
               className="text-xs text-amber-500 shrink-0"
@@ -68,7 +68,7 @@ export default function EventCard({
       </div>
 
       <p className="mt-2 text-sm text-stone-600 leading-relaxed">
-        {eventSummary(event, locale)}
+        {toScript(eventSummary(event, locale))}
       </p>
 
       {persons.length > 0 && (
@@ -79,7 +79,7 @@ export default function EventCard({
               href={`/people/${p.id}`}
               className="text-xs text-stone-500 hover:text-stone-800 transition-colors underline underline-offset-2"
             >
-              {personName(p, locale)}
+              {toScript(personName(p, locale))}
             </Link>
           ))}
         </div>

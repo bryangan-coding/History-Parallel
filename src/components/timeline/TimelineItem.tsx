@@ -13,7 +13,7 @@ export default function TimelineItem({
   personId: string;
   isLast: boolean;
 }) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const region = getRegionById(event.regionId ?? '');
 
   return (
@@ -39,10 +39,10 @@ export default function TimelineItem({
           )}
         </div>
         <h4 className="mt-1 text-base font-medium text-stone-900">
-          {eventTitle(event, locale)}
+          {toScript(eventTitle(event, locale))}
         </h4>
         <p className="mt-1 text-sm text-stone-600 leading-relaxed">
-          {eventSummary(event, locale)}
+          {toScript(eventSummary(event, locale))}
         </p>
         <div className="flex items-center gap-2 mt-2">
           {region && (

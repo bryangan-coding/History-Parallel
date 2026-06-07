@@ -7,7 +7,7 @@ import { getRegionById } from '@/data/utils';
 import Tag from '@/components/common/Tag';
 
 export default function PersonCard({ person, regions }: { person: Person; regions?: Region[] }) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const region = (regions && person.regionId) ? getRegionById(regions, person.regionId) : undefined;
   const tags = personTags(person, locale);
 
@@ -19,7 +19,7 @@ export default function PersonCard({ person, regions }: { person: Person; region
       <div className="flex items-start justify-between">
         <div>
           <h3 className="text-lg font-semibold text-stone-900 group-hover:text-stone-700 transition-colors">
-            {personName(person, locale)}
+            {toScript(personName(person, locale))}
           </h3>
           {person.alternativeNames.length > 0 && (
             <p className="text-sm text-stone-400 mt-0.5">
@@ -37,11 +37,11 @@ export default function PersonCard({ person, regions }: { person: Person; region
         {formatLifespan(person.birthYear ?? 0, person.deathYear ?? 0)}
       </p>
       <p className="mt-2 text-sm text-stone-600 leading-relaxed line-clamp-2">
-        {personSummary(person, locale)}
+        {toScript(personSummary(person, locale))}
       </p>
       <div className="flex flex-wrap gap-1 mt-2">
         {tags.slice(0, 4).map((tag) => (
-          <Tag key={tag} label={tag} />
+          <Tag key={tag} label={toScript(tag)} />
         ))}
       </div>
     </Link>

@@ -60,7 +60,7 @@ const SEARCH_SUGGESTIONS = [
 
 export default function SearchResults() {
   const searchParams = useSearchParams();
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const query = searchParams.get('q') ?? '';
 
   const [eraFilter, setEraFilter] = useState<string>('all');
@@ -457,11 +457,11 @@ export default function SearchResults() {
                     className="block p-4 rounded-xl border border-stone-200 bg-white hover:border-stone-400 transition-colors"
                   >
                     <h3 className="font-medium text-stone-900">
-                      {highlightText(regionName(region, locale), query)}
+                      {highlightText(toScript(regionName(region, locale)), query)}
                     </h3>
                     {regionDescription(region, locale) && (
                       <p className="mt-1 text-sm text-stone-500 line-clamp-2">
-                        {highlightText(regionDescription(region, locale)!, query)}
+                        {highlightText(toScript(regionDescription(region, locale)!), query)}
                       </p>
                     )}
                   </Link>
@@ -495,7 +495,7 @@ export default function SearchResults() {
                         <span className="text-stone-400 tabular-nums mr-2">
                           {formatYearRange(event.startYear, event.endYear)}
                         </span>
-                        {event.titleEn && locale === 'en' ? event.titleEn : event.title}
+                        {event.titleEn && locale === 'en' ? event.titleEn : toScript(event.title)}
                       </div>
                     ))}
                     {ym.nearEvents.length > 5 && (

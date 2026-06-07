@@ -3,7 +3,12 @@
  */
 
 /** Supported locale */
-export type Locale = 'zh' | 'en';
+export type Locale = 'zh-CN' | 'zh-TW' | 'en';
+
+/** Check if a locale is Chinese (either script) */
+export function isZhLocale(locale: Locale): boolean {
+  return locale === 'zh-CN' || locale === 'zh-TW';
+}
 
 // ==================== Data Pipeline Types ====================
 

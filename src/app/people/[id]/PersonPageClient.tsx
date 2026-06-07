@@ -12,7 +12,7 @@ import { formatLifespan } from '@/lib/date';
 import { personName, personSummary, personTags, regionName } from '@/lib/types';
 
 export function PersonPageClient({ id }: { id: string }) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const person = getPersonById(id);
 
   if (!person) {
@@ -28,7 +28,7 @@ export function PersonPageClient({ id }: { id: string }) {
       <PageHeader
         backTo="/"
         backLabel={t.nav.backToHome}
-        title={personName(person, locale)}
+        title={toScript(personName(person, locale))}
       />
 
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
@@ -41,7 +41,7 @@ export function PersonPageClient({ id }: { id: string }) {
             )}
             {person.alternativeNames.length > 0 && (
               <p className="text-sm text-stone-500 mt-1">
-                {person.alternativeNames.join(' / ')}
+                {toScript(person.alternativeNames.join(' / '))}
               </p>
             )}
             <p className="text-sm text-stone-500 mt-3">
@@ -49,11 +49,11 @@ export function PersonPageClient({ id }: { id: string }) {
             </p>
             <div className="flex flex-wrap gap-1.5 mt-3">
               {tags.map((tag) => (
-                <Tag key={tag} label={tag} />
+                <Tag key={tag} label={toScript(tag)} />
               ))}
             </div>
             <p className="mt-4 text-sm text-stone-600 leading-relaxed">
-              {personSummary(person, locale)}
+              {toScript(personSummary(person, locale))}
             </p>
           </div>
         </div>

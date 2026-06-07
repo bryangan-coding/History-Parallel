@@ -3,9 +3,43 @@
 import Link from 'next/link';
 import { LocaleProvider, useLocale } from '@/i18n/LocaleProvider';
 import { FeedbackButton } from '@/components/ui/FeedbackButton';
+import { localeLabel, nextLocale, localeTitle } from '@/i18n/useTextScript';
+
+function LangToggle() {
+  const { locale, setLocale } = useLocale();
+
+  return (
+    <button
+      onClick={() => setLocale(nextLocale(locale))}
+      className="relative inline-flex items-center gap-1 text-xs font-medium 
+                 px-2.5 py-1.5 rounded-full border border-stone-200
+                 bg-stone-50 hover:bg-stone-100 
+                 text-stone-500 hover:text-stone-800 
+                 transition-all duration-200
+                 focus:outline-none focus:ring-2 focus:ring-stone-300 focus:ring-offset-1"
+      title={localeTitle(locale)}
+    >
+      {/* Three-segment indicator */}
+      <span className="flex items-center gap-0.5">
+        <span className={`w-1 h-1 rounded-full transition-colors duration-300 ${
+          locale === 'zh-CN' ? 'bg-amber-500' : 'bg-stone-300'
+        }`} />
+        <span className={`w-1 h-1 rounded-full transition-colors duration-300 ${
+          locale === 'zh-TW' ? 'bg-amber-500' : 'bg-stone-300'
+        }`} />
+        <span className={`w-1 h-1 rounded-full transition-colors duration-300 ${
+          locale === 'en' ? 'bg-amber-500' : 'bg-stone-300'
+        }`} />
+      </span>
+      <span className="tabular-nums min-w-[1.5rem] text-center font-semibold">
+        {localeLabel(locale)}
+      </span>
+    </button>
+  );
+}
 
 function Header() {
-  const { locale, t, setLocale } = useLocale();
+  const { locale, t } = useLocale();
 
   return (
     <header className="border-b border-stone-200 bg-white sticky top-0 z-50">
@@ -43,13 +77,7 @@ function Header() {
               {t.nav.aboutData}
             </Link>
           </nav>
-          <button
-            onClick={() => setLocale(locale === 'zh' ? 'en' : 'zh')}
-            className="text-xs font-medium px-2 py-1 rounded border border-stone-200 text-stone-500 hover:text-stone-800 hover:border-stone-400 transition-colors"
-            title={locale === 'zh' ? 'Switch to English' : '切换为中文'}
-          >
-            {locale === 'zh' ? 'EN' : '中'}
-          </button>
+          <LangToggle />
         </div>
       </div>
     </header>
