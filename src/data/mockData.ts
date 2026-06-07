@@ -724,6 +724,16 @@ export const sources: Source[] = [
     note: '哈佛大学、中研院、北京大学联合维护的中国历史人物传记数据库。本项目仅提取姓名、生卒年、朝代归属等基础事实信息，所有描述性文字均为原创。',
     license: 'CC BY-NC-SA 4.0 (source database); project data is CC BY-SA 4.0',
   },
+  {
+    id: 'src-grand-timeline',
+    title: '古人全表（Grand Timeline）',
+    titleEn: 'Grand Timeline of Ancient Chinese Figures',
+    author: 'LingDong Huang',
+    url: 'https://github.com/LingDong-/grand-timeline',
+    year: 2020,
+    note: 'Wikipedia 爬取的 30,800 位中国古代人物数据库，涵盖前1000年至2000年。本项目提取姓名、生卒年、摘要等事实信息。',
+    license: 'CC0 (source data); project data is CC BY-SA 4.0',
+  },
 
 
 ];
@@ -741,6 +751,7 @@ import _newDynastiesPeopleData from './people/_newDynastiesPeople.json';
 import _gapDynastiesPeopleData from './people/_gapDynastiesPeople.json';
 import _augmentDynastiesPeopleData from './people/_augmentDynastiesPeople.json';
 import _rescueAndExpandPeopleData from './people/_rescueAndExpandPeople.json';
+import _springAutumnPeopleData from './people/_springAutumnPeople.json';
 
 export const _peoplePart1: Person[] = _peoplePart1Data as Person[];
 export const _peoplePart2: Person[] = _peoplePart2Data as Person[];
@@ -750,6 +761,7 @@ export const _newDynastiesPeople: Person[] = _newDynastiesPeopleData as Person[]
 export const _gapDynastiesPeople: Person[] = _gapDynastiesPeopleData as Person[];
 export const _augmentDynastiesPeople: Person[] = _augmentDynastiesPeopleData as Person[];
 export const _rescueAndExpandPeople: Person[] = _rescueAndExpandPeopleData as Person[];
+export const _springAutumnPeople: Person[] = _springAutumnPeopleData as Person[];
 
 export const people: Person[] = [
   ..._peoplePart1,
@@ -760,6 +772,7 @@ export const people: Person[] = [
   ..._gapDynastiesPeople,
   ..._augmentDynastiesPeople,
   ..._rescueAndExpandPeople,
+  ..._springAutumnPeople,
 ];
 
 export const events: HistoricalEvent[] = [
