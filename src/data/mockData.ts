@@ -753,6 +753,15 @@ import _augmentDynastiesPeopleData from './people/_augmentDynastiesPeople.json';
 import _rescueAndExpandPeopleData from './people/_rescueAndExpandPeople.json';
 import _springAutumnPeopleData from './people/_springAutumnPeople.json';
 import _republicOfChinaPeopleData from './people/_republicOfChinaPeople.json';
+import _hanDynastyPeopleData from './people/_hanDynastyPeople.json';
+import _qinDynastyPeopleData from './people/_qinDynastyPeople.json';
+import _threeKingdomsPeopleData from './people/_threeKingdomsPeople.json';
+import _sixteenKingdomsPeopleData from './people/_sixteenKingdomsPeople.json';
+import _suiDynastyPeopleData from './people/_suiDynastyPeople.json';
+import _northernSouthernDynastiesPeopleData from './people/_northernSouthernDynastiesPeople.json';
+import _westernXiaPeopleData from './people/_westernXiaPeople.json';
+import _liaoDynastyPeopleData from './people/_liaoDynastyPeople.json';
+import _jinDynastyPeriodPeopleData from './people/_jinDynastyPeriodPeople.json';
 
 export const _peoplePart1: Person[] = _peoplePart1Data as Person[];
 export const _peoplePart2: Person[] = _peoplePart2Data as Person[];
@@ -764,6 +773,15 @@ export const _augmentDynastiesPeople: Person[] = _augmentDynastiesPeopleData as 
 export const _rescueAndExpandPeople: Person[] = _rescueAndExpandPeopleData as Person[];
 export const _springAutumnPeople: Person[] = _springAutumnPeopleData as Person[];
 export const _republicOfChinaPeople: Person[] = _republicOfChinaPeopleData as Person[];
+export const _hanDynastyPeople: Person[] = _hanDynastyPeopleData as Person[];
+export const _qinDynastyPeople: Person[] = _qinDynastyPeopleData as Person[];
+export const _threeKingdomsPeople: Person[] = _threeKingdomsPeopleData as Person[];
+export const _sixteenKingdomsPeople: Person[] = _sixteenKingdomsPeopleData as Person[];
+export const _suiDynastyPeople: Person[] = _suiDynastyPeopleData as Person[];
+export const _northernSouthernDynastiesPeople: Person[] = _northernSouthernDynastiesPeopleData as Person[];
+export const _westernXiaPeople: Person[] = _westernXiaPeopleData as Person[];
+export const _liaoDynastyPeople: Person[] = _liaoDynastyPeopleData as Person[];
+export const _jinDynastyPeriodPeople: Person[] = _jinDynastyPeriodPeopleData as Person[];
 
 export const people: Person[] = [
   ..._peoplePart1,
@@ -776,6 +794,15 @@ export const people: Person[] = [
   ..._rescueAndExpandPeople,
   ..._springAutumnPeople,
   ..._republicOfChinaPeople,
+  ..._hanDynastyPeople,
+  ..._qinDynastyPeople,
+  ..._threeKingdomsPeople,
+  ..._sixteenKingdomsPeople,
+  ..._suiDynastyPeople,
+  ..._northernSouthernDynastiesPeople,
+  ..._westernXiaPeople,
+  ..._liaoDynastyPeople,
+  ..._jinDynastyPeriodPeople,
 ];
 
 export const events: HistoricalEvent[] = [

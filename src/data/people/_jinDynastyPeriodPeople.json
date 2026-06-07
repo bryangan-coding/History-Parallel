@@ -1,0 +1,877 @@
+[
+  {
+    "id": "侯挚",
+    "name": "侯挚",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "侯挚（？－1233年），字莘卿。金朝大臣，原名师尹，因避讳改名。东平府东阿县（今山东省东阿县西南）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "孛鲁",
+    "name": "孛鲁",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "孛鲁（1197年－1228年），又译博罗，蒙古帝国札剌亦儿部人，木华黎国王的长子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1197,
+    "deathYear": 1228
+  },
+  {
+    "id": "完颜仲德",
+    "name": "完颜仲德",
+    "alternativeNames": [
+      "完顏仲德"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "完颜仲德（？－1234年），金朝末年将领，本名忽斜虎，金朝合懒路（今北朝鲜吉州郡）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1234
+  },
+  {
+    "id": "完颜奴申",
+    "name": "完颜奴申",
+    "alternativeNames": [
+      "完顏奴申"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "完颜奴申（12世纪－1233年），字正甫，又作完颜讷申。女真族，姓完颜。金朝将领，金哀宗时参知政事。参知政事完颜素兰之弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜守纯",
+    "name": "完颜守纯",
+    "alternativeNames": [
+      "完顏守純"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "完顏守純（？－1233年），女真名完顏盤都，为金朝皇族，金宣宗完顏珣的儿子，母亲真妃庞氏。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜琚",
+    "name": "完颜琚",
+    "alternativeNames": [
+      "完顏琚"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "完顏琚（？－1233年），女真名完顏猛安，为金朝皇族，金朝第七位皇帝卫绍王完颜永济的第二子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜瑄",
+    "name": "完颜瑄",
+    "alternativeNames": [
+      "完顏瑄"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "完顏瑄（？－1233年），女真名完顏按出，为金朝皇族，金朝第七位皇帝卫绍王完颜永济的第三子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜璪",
+    "name": "完颜璪",
+    "alternativeNames": [
+      "完顏璪"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "完顏璪（？－1233年），女真名完顏按辰，为金朝皇族，金朝第七位皇帝卫绍王完颜永济的第四子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜赛不",
+    "name": "完颜赛不",
+    "alternativeNames": [
+      "完顏賽不"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "完颜赛不（？－1233年），金始祖函普弟保活里的后裔，金國大将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜陈和尚",
+    "name": "完颜陈和尚",
+    "alternativeNames": [
+      "完顏陳和尚"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "完顏陳和尚（1192年－1232年），本名彝，字良佐，小字陳和尚，另有翻譯為完顏禪華善。中国金朝末年的著名將領，曾於大昌原之役等戰役中擊敗蒙古軍隊。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1192,
+    "deathYear": 1232
+  },
+  {
+    "id": "完颜合达",
+    "name": "完颜合达",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "完颜合达（？－1232年），金朝将领，名瞻，字景山，女真族，完颜氏。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1232
+  },
+  {
+    "id": "完颜思烈",
+    "name": "完颜思烈",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "完颜思烈（？－1233年），金朝末年将领，南阳郡王完颜襄之子，女真人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "完颜璹",
+    "name": "完颜璹",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
+    "tags": [
+      "文学家"
+    ],
+    "summary": "完颜璹（1172年－1232年），本名寿孙，字仲实，一字子瑜，号樗轩老人。是金朝诗人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1172,
+    "deathYear": 1232
+  },
+  {
+    "id": "完颜白撒",
+    "name": "完颜白撒",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "完颜白撒（12世紀－1233年），汉名承裔，金国末年将领，其弟完颜承麟。女真族。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "帖木尔灭里",
+    "name": "帖木尔灭里",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "帖木尔灭里（12世纪－1231年），中亚花剌子模将领。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1231
+  },
+  {
+    "id": "师安石",
+    "name": "师安石",
+    "alternativeNames": [
+      "師安石"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "师安石（12世纪－1228年），本姓尹，因避讳改师姓，字子安，清州（今河北省青县）人，金朝大臣，金哀宗时尚书右丞。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1228
+  },
+  {
+    "id": "张从正",
+    "name": "张从正",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "張從正（1156年－1228年），字子和，號戴人。睢州考城（今河南蘭考縣）人，金朝著名醫家。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1156,
+    "deathYear": 1228
+  },
+  {
+    "id": "张行信",
+    "name": "张行信",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "张行信（1163年－1231年），字信甫，金朝莒州日照县（今山东省日照市）人，本名行忠，后来避讳庄献太子完顏守忠，改名行信。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1163,
+    "deathYear": 1231
+  },
+  {
+    "id": "张元素",
+    "name": "张元素",
+    "alternativeNames": [
+      "張元素"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "張元素（1151年－1234年），字潔古，晚號潔古老人，金代易州（即今河北省易縣）人，著名中醫師，深通药理学，善医伤寒，善于化裁古方，以及善于创新。八歲試童子舉...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1151,
+    "deathYear": 1234
+  },
+  {
+    "id": "忽鲁不花",
+    "name": "忽鲁不花",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "忽鲁不花（1231年－？），又译呼鲁仆化。元朝大臣。元世祖时中书左丞相。蒙古族人，一说为八邻氏。蒙哥汗时万户长不怜吉歹（卜邻吉带）之子，中书右丞相铁木迭儿的伯父...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1231
+  },
+  {
+    "id": "恭圣皇后",
+    "name": "恭圣皇后",
+    "alternativeNames": [
+      "恭聖皇后"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "恭聖皇后（1162年－1232年），楊氏，名桂枝來源請求，南宋宋寧宗第二任皇后。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1162,
+    "deathYear": 1232
+  },
+  {
+    "id": "曹彦约",
+    "name": "曹彦约",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "曹彦约（1157年－1228年），字简甫，号昌谷。都昌人。南宋官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1157,
+    "deathYear": 1228
+  },
+  {
+    "id": "李蹊",
+    "name": "李蹊",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李蹊（？－1233年），中国金朝政治人物，金哀宗时尚书右丞。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "武仙",
+    "name": "武仙",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "武仙（？－1234年），威州（今河北井陉旧威州）人，金朝名将，兴定四年（1220年）被金宣宗封为恒山公。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1234
+  },
+  {
+    "id": "王渥",
+    "name": "王渥",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "王渥（1186年－1232年），字仲泽，太原（今属山西）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1186,
+    "deathYear": 1232
+  },
+  {
+    "id": "白玉蟾",
+    "name": "白玉蟾",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "白玉蟾（1134年－1229年），字如晦、紫清，号海琼子、武夷散人。南宋人，祖籍福建闽清，生於琼州琼山（现海南岛）。主張性命雙修，道教金丹派南五祖之一，是内丹理...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1134,
+    "deathYear": 1229
+  },
+  {
+    "id": "石盏女鲁欢",
+    "name": "石盏女鲁欢",
+    "alternativeNames": [
+      "石盞女魯歡"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "石盞女魯歡（？－1233年），石盞姓，女真人，本名十六，是金朝末年的大臣。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "蒲察官奴",
+    "name": "蒲察官奴",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "蒲察官奴（12世纪－1233年），契丹族。本姓移剌。金朝将领，金哀宗时参知政事。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "蒲鲜万奴",
+    "name": "蒲鲜万奴",
+    "alternativeNames": [
+      "蒲鮮萬奴"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蒲鲜万奴（12世纪－1233年），13世纪前期金国军阀，东夏的创立者。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "蔡沉",
+    "name": "蔡沉",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蔡沈（1167年－1230年），一名蔡沉，字仲默，號九峰，建陽（今屬福建）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1167,
+    "deathYear": 1230
+  },
+  {
+    "id": "薛极",
+    "name": "薛极",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "薛极（1163年－1234年），字会之，常州武进县（今江苏省常州市）人。南宋大臣，宋理宗时参知政事。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1163,
+    "deathYear": 1234
+  },
+  {
+    "id": "费士寅",
+    "name": "费士寅",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "费士寅（1160年－1230年），字戒夫，成都府（今四川省成都市）人。南宋大臣，宋宁宗时参知政事，费彦邦之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1160,
+    "deathYear": 1230
+  },
+  {
+    "id": "赤盏合喜",
+    "name": "赤盏合喜",
+    "alternativeNames": [
+      "赤盞合喜"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "赤盏合喜（？－1233年），金国末年女真人，又作石盏合喜，姓赤盏。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1233
+  },
+  {
+    "id": "赤盏尉忻",
+    "name": "赤盏尉忻",
+    "alternativeNames": [
+      "赤盞尉忻"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "general",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "政治人物"
+    ],
+    "summary": "赤盏尉忻（1171年－1233年），字大用，亦作石盏尉忻。女真族，姓赤盏。金朝将领，上京（今黑龙江省阿城区）人，金哀宗时尚书右丞。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1171,
+    "deathYear": 1233
+  },
+  {
+    "id": "赵与时",
+    "name": "赵与时",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "趙與時（1172年－1228年），字行之，一字德行。宋朝宗室。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1172,
+    "deathYear": 1228
+  },
+  {
+    "id": "赵汝适",
+    "name": "赵汝适",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "赵汝适（kuò）（1170年－1231年），字伯可，兩浙東路天台县人，宋朝宗室，進士出身。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1170,
+    "deathYear": 1231
+  },
+  {
+    "id": "赵不熄",
+    "name": "赵不熄",
+    "alternativeNames": [
+      "趙不熄"
+    ],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "嗣濮王趙不熄（？－1234年（端平元年正月）），祖籍涿郡（今河北省保定市清苑縣）人，宋朝宗室、永嘉郡王趙士程第五子，第二十二代嗣濮王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 1234
+  },
+  {
+    "id": "金哀宗",
+    "name": "金哀宗",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "金哀宗完颜守緒（1198年9月25日－1234年2月9日），金朝第九位皇帝（1224年1月15日—1234年2月9日在位），女真名寧甲速，金朝亡國之君。哀宗在位...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1198,
+    "deathYear": 1234
+  },
+  {
+    "id": "金末帝",
+    "name": "金末帝",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "完顏承麟（1202年－1234年2月9日），通稱金末帝，又稱金後主，金朝末代皇帝，女真名呼敦。原為金國將領，天興三年正月己酉（儒略曆1234年2月9日），金哀宗...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1202,
+    "deathYear": 1234
+  },
+  {
+    "id": "陈贵谊",
+    "name": "陈贵谊",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陈贵谊(1183年－1234年)，字正甫。福建福清人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1183,
+    "deathYear": 1234
+  },
+  {
+    "id": "麻九畴",
+    "name": "麻九畴",
+    "alternativeNames": [],
+    "regionId": "jin-dynasty-period",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "麻九畴（1182年－1232年），字知幾，初名文纯，金朝易州人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 1182,
+    "deathYear": 1232
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": "伍徐",
+    "name": "伍徐",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "伍徐（？－前208年），又作伍逢，秦朝末年農民軍將領，銍縣（今安徽省淮北市濉溪縣）人，陳勝、吳廣屬下。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "公子将闾",
+    "name": "公子将闾",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "公子将閭（？－前209年），中国秦朝始皇帝、二世皇帝时代的公子。嬴姓。秦始皇之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -209
+  },
+  {
+    "id": "刘如意",
+    "name": "刘如意",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "劉如意（前208年－前195年/前194年），漢朝宗室，漢高祖劉邦與宠妃戚夫人所生之子，受封趙王。被嫡母呂后謀殺，諡號称赵隐王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": -208
+  },
+  {
+    "id": "吴广",
+    "name": "吴广",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "吴广（？－前208年），字叔，陳郡阳夏（今河南省太康县）人。秦末民變領袖，曾与陈胜發動大泽起义。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "头曼",
+    "name": "头曼",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "頭曼（？－前209年），挛鞮氏，為歷史上有記載的最早一代匈奴单于。秦始皇三十二年（公元前215年），秦始皇派遣蒙恬征討匈奴，取得黃河以南的土地，头曼則因無法擊退...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -209
+  },
+  {
+    "id": "宋留",
+    "name": "宋留",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宋留（前3世纪－前208年），铚（今安徽宿州市西南）人，秦末农民战争领袖陈胜之部将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "宋襄",
+    "name": "宋襄",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宋襄（前3世纪－前207年），秦末民变时期將領，宋义的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -207
+  },
+  {
+    "id": "宗统王",
+    "name": "宗统王",
+    "alternativeNames": [
+      "宗統王"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "否（？－前220年），是古朝鲜之箕子朝鲜的君主，子姓。在位於前232年至前220年，諡號宗統王（종통왕），後王位由兒子準繼承。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -220
+  },
+  {
+    "id": "屠睢",
+    "name": "屠睢",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "屠睢（？－前214年），秦朝的尉，秦攻百越之战的主将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -214
+  },
+  {
+    "id": "扶苏",
+    "name": "扶苏",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "扶蘇（？－前210年），嬴姓，秦始皇皇長子．秦朝政治人物。秦始皇駕崩後，趙高和李斯等人矯詔謀殺扶蘇，改立公子胡亥為帝，是為沙丘之變。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -210
+  },
+  {
+    "id": "景驹",
+    "name": "景驹",
+    "alternativeNames": [
+      "景駒"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "景驹（？－前208年），芈姓，景氏，楚国的公族，秦末农民战争时的楚王，楚大司馬秦嘉所立，秦二世二年端月即位，当年四月被项梁討死。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "曹无伤",
+    "name": "曹无伤",
+    "alternativeNames": [
+      "曹無傷"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "曹無傷（？－前206年），或作毋傷，是劉邦在秦末起義時手下的一名將領，官至左司馬。他是導致鴻門宴事件發生的人物之一，亦因此被劉邦處死。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -206
+  },
+  {
+    "id": "朱鸡石",
+    "name": "朱鸡石",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "朱雞石（？－前208年），符離（今安徽省宿州市区北部灰古镇）人，秦朝末年農民軍將領，項梁屬下。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "李归",
+    "name": "李归",
+    "alternativeNames": [
+      "李歸"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李歸（？－前208年），秦朝末年的農民軍將領，原為吳廣部下，吳廣遇刺後，成為田臧部下，因秦將章邯討伐，陣亡。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "李由",
+    "name": "李由",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "general",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "政治人物"
+    ],
+    "summary": "李由（前261年－前208年），秦朝将军。丞相李斯的长子，尚秦公主，被任命为三川郡郡守，驻守洛阳，秦末民變時陣亡。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "楚义帝",
+    "name": "楚义帝",
+    "alternativeNames": [
+      "楚義帝"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "楚義帝（？－前206年），芈姓，熊氏，名心，是秦朝末年的政治人物、楚國宗室，楚懷王之孫，後受原楚國貴族項梁擁立，成為反秦的起義軍領袖之一，由於楚國百姓哀憐其祖父...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -206
+  },
+  {
+    "id": "武臣",
+    "name": "武臣",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "武臣（？－前208年），陈郡（今河南淮阳）人，陳勝部将，自立為趙王，不久因內讧而被部將李良所殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "涉间",
+    "name": "涉间",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "涉间（？－前207年），秦朝末年秦军武将，姓涉名间。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -207
+  },
+  {
+    "id": "田儋",
+    "name": "田儋",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "田儋（？－前208年），秦末軍事人物，狄縣（今山東高青）人，原田齐公族，秦末民變時的六國群雄之一。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "田巿",
+    "name": "田巿",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "田巿（？－前206年），秦末軍事人物，秦末齐国人，田儋的儿子，原田齐公族，秦末民變時的六國群雄之一。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -206
+  },
+  {
+    "id": "田臧",
+    "name": "田臧",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "田臧（？－前208年），秦朝末年，陳勝手下的將領，曾經謀殺吳廣，因秦將章邯討伐，被殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "苏角",
+    "name": "苏角",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "苏角（？－前207年），秦朝末年秦军武将，姓苏名角。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -207
+  },
+  {
+    "id": "葛婴",
+    "name": "葛婴",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "葛婴（前3世纪－前209年），符离（今安徽省宿州市东北）人，秦末农民战争领袖陈胜的部将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -209
+  },
+  {
+    "id": "蒙毅",
+    "name": "蒙毅",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蒙毅（約前245年－前210年），為秦朝大臣蒙恬之弟，主掌刑罰及監察朝臣。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -210
+  },
+  {
+    "id": "襄彊",
+    "name": "襄彊",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "襄彊（？－前209年），中国秦朝末年群雄之一，一度称楚王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -209
+  },
+  {
+    "id": "邓宗",
+    "name": "邓宗",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "邓宗（？－前207年），秦朝末年反秦武将。汝阴（今安徽阜阳）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -207
+  },
+  {
+    "id": "邓说",
+    "name": "邓说",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "邓说（？－前208年），秦朝末年反秦軍武将。阳城（今河南登封东南）人，陈胜、吴广属下。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "邵骚",
+    "name": "邵骚",
+    "alternativeNames": [
+      "邵騷"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "邵騷（？－前208年），秦末民變時趙王武臣的左丞相，不久因趙國內鬨而被武臣部將李良所殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "陈胜",
+    "name": "陈胜",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陈胜（？－前208年），字涉，秦朝南陽郡阳城（今河南省方城县）人。秦末民變领袖。因秦法嚴苛，與吴广带领約九百名戍卒發動大泽乡起义，首先抗秦，在其敗退時遭車夫莊賈...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "韩生",
+    "name": "韩生",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "韩生（前3世纪－前206年），楚汉战争时期人物，扬雄所著《法言》称他为蔡生。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -206
+  },
+  {
+    "id": "余樊君",
+    "name": "余樊君",
+    "alternativeNames": [
+      "餘樊君"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "餘樊君（？－前208年），秦朝末年農民軍將領，項梁屬下。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "冯劫",
+    "name": "冯劫",
+    "alternativeNames": [
+      "馮劫"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "馮劫（？－前208年）是戰國時期秦人，在秦始皇時曾任御史大夫。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "冯去疾",
+    "name": "冯去疾",
+    "alternativeNames": [
+      "馮去疾"
+    ],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "馮去疾（？－前208年）是戰國時期秦人，在秦始皇時任右丞相。冯亭之孙。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  },
+  {
+    "id": "魏咎",
+    "name": "魏咎",
+    "alternativeNames": [],
+    "regionId": "qin-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "魏咎（？－前208年），原魏国公族，秦末民變時的六國群雄之一。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": -208
+  }
+]

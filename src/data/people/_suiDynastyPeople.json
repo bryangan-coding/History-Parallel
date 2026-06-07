@@ -1,0 +1,5552 @@
+[
+  {
+    "id": "万宝常",
+    "name": "万宝常",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "万宝常（556年－595年），隋朝音乐家。父万大通，随王琳降北齐。后秘密计划回江南，事泄被诛，万宝常被配为乐户。北周灭亡北齐，隋朝取代北周。开皇年间，郑译制定礼...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 556,
+    "deathYear": 595
+  },
+  {
+    "id": "严淑媛",
+    "name": "严淑媛",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "严淑媛（？－587年），中国南北朝南朝陈文帝陈蒨的妃嫔，封为淑媛。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 587
+  },
+  {
+    "id": "于寔",
+    "name": "于寔",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "于寔（6世紀－581年），字賓實，西魏八柱国之一燕国公于谨之長子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "于义",
+    "name": "于义",
+    "alternativeNames": [
+      "于義"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "于義534年－583年），中国北周、隋朝政治人物、軍人。表字慈恭，河南郡洛陽县人，于謹之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 534,
+    "deathYear": 583
+  },
+  {
+    "id": "于翼",
+    "name": "于翼",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "monarch",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "皇帝",
+      "政治人物"
+    ],
+    "summary": "于翼（6世紀－582年），字文若，于谨之子，年十一，娶宇文泰之女平原公主，开始为员外散骑侍郎，封安平县公，食邑一千户。随从宇文泰征伐有功，大统十六年，进爵安平郡...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 582
+  },
+  {
+    "id": "何之元",
+    "name": "何之元",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "何之元（6世紀？－593年），字幹玉，廬江灊縣人，南北朝南梁及南陳官員和文學家。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 593
+  },
+  {
+    "id": "来整",
+    "name": "来整",
+    "alternativeNames": [
+      "來整"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "來整（约6世纪－618年），江都人，隋朝官员。来护儿的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "元威",
+    "name": "元威",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "元威（538年－590年5月24日），字智威，代郡桑乾县（今山西省朔州市山阴县）人，追尊魏昭成帝拓跋什翼犍的后裔，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 590
+  },
+  {
+    "id": "元敏",
+    "name": "元敏",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "元敏（6世纪－618年），隋朝河南洛阳人，仪陇县侯元寿之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "元文都",
+    "name": "元文都",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "元文都（548年－618年），河南郡洛阳县（今河南省洛阳市东）人，追尊魏景穆帝拓跋晃后裔，北周小冢宰、江陵总管元则之子，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 548,
+    "deathYear": 618
+  },
+  {
+    "id": "元景山",
+    "name": "元景山",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "元景山（532年－586年10月26日），字珤岳，河南郡洛阳县（今河南省洛阳市东）人，追尊魏景穆帝拓跋晃玄孙，北魏宗室，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 586
+  },
+  {
+    "id": "元渠姨",
+    "name": "元渠姨",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "元渠姨（516年－597年），河南郡洛阳县（今河南省洛阳市东）人，追尊魏昭成帝拓跋什翼犍玄孙女，定州刺史元蒲仁之女，嫁北齐左丞相、平原郡王段韶。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 516,
+    "deathYear": 597
+  },
+  {
+    "id": "元胡摩",
+    "name": "元胡摩",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "元胡摩（？－616年），河南洛阳（今河南省洛阳市东）人，西魏文帝元宝炬第五女，封晋安公主，北周孝闵帝宇文觉的皇后。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 616
+  },
+  {
+    "id": "公孙景茂",
+    "name": "公孙景茂",
+    "alternativeNames": [
+      "公孫景茂"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "公孙景茂（519年－605年），字元蔚，隋朝人物，河间郡阜城县人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 605
+  },
+  {
+    "id": "冯孝慈",
+    "name": "冯孝慈",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "冯孝慈（6世纪－613年），隋朝将领。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "冯慈明",
+    "name": "冯慈明",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "冯慈明（550年－617年），字无佚，信都长乐（今河北省冀州市）人。北齐尚書右僕射冯子琮之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 550,
+    "deathYear": 617
+  },
+  {
+    "id": "冼夫人",
+    "name": "冼夫人",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "冼（xiǎn）夫人（522年－602年），名英，高涼郡（今广东省茂名市电白区电城镇山兜村境人）俚人（百越的分支），為俚人傑出的女領袖和軍事家。南梁宋康郡夫人、陳...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 522,
+    "deathYear": 602
+  },
+  {
+    "id": "刘居士",
+    "name": "刘居士",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "刘居士（6世纪－597年），中山（今河北定州）人，隋朝人物，刘昶的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 597
+  },
+  {
+    "id": "刘感",
+    "name": "刘感",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "政治人物"
+    ],
+    "summary": "刘感，岐州凤泉人，祖父是北齐司徒刘丰，官至骠骑将军，追封瀛洲刺史、平原郡公，谥号“忠壮”。在武德二年攻打西秦的浅水原之战中因为英勇不屈被薛仁杲下令乱箭射死。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "刘元进",
+    "name": "刘元进",
+    "alternativeNames": [
+      "劉元進"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "刘元进（？－613年），隋朝时江南民变领袖，余杭（今浙江省杭州市）人。刘元进少时好侠义。当时，隋炀帝滥征徭役，东征高句丽。吴（苏州）、会（绍兴）士卒皆云：“去年...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "刘子翊",
+    "name": "刘子翊",
+    "alternativeNames": [
+      "劉子翊"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "劉子翊（549年－618年），彭城郡彭城县叢亭里（今江苏徐州）人，北齐、北周、隋朝官僚、軍人，北齐徐州司馬劉徧之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 549,
+    "deathYear": 618
+  },
+  {
+    "id": "刘迦论",
+    "name": "刘迦论",
+    "alternativeNames": [
+      "劉迦論"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "劉迦論（？－614年），隋朝时民变领袖。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 614
+  },
+  {
+    "id": "卢思道",
+    "name": "卢思道",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "poet",
+      "writer",
+      "scholar"
+    ],
+    "tags": [
+      "文学家",
+      "学者"
+    ],
+    "summary": "盧思道（535年－586年），字子行，小字释奴，范阳郡涿县（今河北省涿州市）人，隋朝著名诗人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 535,
+    "deathYear": 586
+  },
+  {
+    "id": "卢楚",
+    "name": "卢楚",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "卢楚（？－618年8月11日），涿郡涿县（今河北省涿州市）人，北魏太常丞卢静曾孙，北魏司空掾卢景祚的孙子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "司马申",
+    "name": "司马申",
+    "alternativeNames": [
+      "司馬申"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "司馬申（6世紀－586年），字季和，河內溫縣人，南梁、南陳官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 586
+  },
+  {
+    "id": "司马德戡",
+    "name": "司马德戡",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "司马德戡（580年－618年），扶风郡雍县（今陕西省凤翔县）人。隋朝武将，与宇文化及一同弑杀隋炀帝。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 580,
+    "deathYear": 618
+  },
+  {
+    "id": "吐万绪",
+    "name": "吐万绪",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "吐万绪（？－613年），字长绪，隋朝鲜卑族大将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "吕明星",
+    "name": "吕明星",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "吕明星（？－613年），隋朝隋炀帝时的起事领袖。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "周摇",
+    "name": "周摇",
+    "alternativeNames": [
+      "周搖"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "周搖（519年－602年10月11日），中国西魏、北周、隋朝政治人物、将领。字世安，河南洛阳（今河南省洛阳市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 602
+  },
+  {
+    "id": "周法尚",
+    "name": "周法尚",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "周法尚（556年－614年），南朝陈、北周、隋朝大臣，字德迈，汝南郡安成（今河南省汝南县）人。南朝陈大臣周炅的次子，陈武帝的外孙。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 556,
+    "deathYear": 614
+  },
+  {
+    "id": "周罗睺",
+    "name": "周罗睺",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "周罗睺（542年－605年），字公布，南陈、隋朝将领。九江浔阳人（今江西省九江市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 542,
+    "deathYear": 605
+  },
+  {
+    "id": "周静帝",
+    "name": "周静帝",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "大象：579年二月－580年",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 573,
+    "deathYear": 581
+  },
+  {
+    "id": "尧君素",
+    "name": "尧君素",
+    "alternativeNames": [
+      "堯君素"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "尧君素（6世纪－618年），魏郡湯陰县（今河南省汤阴县东）人，隋朝将领。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "太穆皇后",
+    "name": "太穆皇后",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "太穆皇后（569年－613年），窦氏，京兆郡始平县（今陕西省兴平市）人，北周上柱国、神武郡公窦毅与襄阳公主之女，唐高祖李渊夫人。族人為昭成皇后。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 569,
+    "deathYear": 613
+  },
+  {
+    "id": "姚僧垣",
+    "name": "姚僧垣",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "poet",
+      "writer",
+      "scholar"
+    ],
+    "tags": [
+      "文学家",
+      "学者"
+    ],
+    "summary": "姚僧垣（499年－583年），字法衛，吳興郡武康縣人，南北朝時代的官僚、醫師。姚僧垣僧垣醫術高妙，為當世所推，聲譽旣盛，連遠方的各個藩邦外族都有人請託求訪。著有...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 499,
+    "deathYear": 583
+  },
+  {
+    "id": "姚最",
+    "name": "姚最",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "姚最（536年－602年），字士會，本貫吳興郡武康縣，北周至隋的學者、官僚。撰有《梁後略》十卷。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 536,
+    "deathYear": 602
+  },
+  {
+    "id": "婴阳王",
+    "name": "婴阳王",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "婴阳王（？－618年），名元，是高句丽第26任君主，590－618年在位。平原王的长子。婴阳王以在612年的隋与高句丽的战争中成功抵挡隋炀帝百万大军的进攻而闻名...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "孔奂",
+    "name": "孔奂",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "孔奂（514年－583年），字休文，南朝梁、南朝陈大臣。会稽郡山阴县（今浙江省绍兴市）人。孔子三十二代孫。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 514,
+    "deathYear": 583
+  },
+  {
+    "id": "孙玚",
+    "name": "孙玚",
+    "alternativeNames": [
+      "孫瑒"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "孫瑒（516年－587年），字德璉。吴郡吴县（治今江苏省苏州市）人，南朝梁、南朝陳将领。南梁中散大夫孫循道之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 516,
+    "deathYear": 587
+  },
+  {
+    "id": "宇文众",
+    "name": "宇文众",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文众（550年代－581年），字乾道，北周宗室，宇文导之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文允",
+    "name": "宇文允",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文允（？－581年），字乾仕。周武帝宇文邕的第四子，母亲厍汗姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文元",
+    "name": "宇文元",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文元（？－581年），字干仪。周武帝宇文邕的第七子，母亲郑姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文充",
+    "name": "宇文充",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文充（？－581年），字乾仁。周武帝宇文邕的第五子，母亲冯姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文兑",
+    "name": "宇文兑",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文兑（？－581年），字乾俊。周武帝宇文邕的第六子，母亲薛世妇。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文协",
+    "name": "宇文协",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文协（6世纪－618年），隋朝大臣，河南郡洛阳县（今河南省洛阳市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "宇文娥英",
+    "name": "宇文娥英",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文娥英（578年－615年），父親为南北朝北周周宣帝，母親為北周皇后、隋朝公主杨丽华。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 578,
+    "deathYear": 615
+  },
+  {
+    "id": "宇文寔",
+    "name": "宇文寔",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文寔（6世纪－581年），字乾辩，北周宋王。周明帝宇文毓第三子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文忻",
+    "name": "宇文忻",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文忻（523年－586年），表字仲乐，北周、隋朝大臣，北周许国公宇文贵的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 523,
+    "deathYear": 586
+  },
+  {
+    "id": "宇文恺",
+    "name": "宇文恺",
+    "alternativeNames": [
+      "宇文愷"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文恺（555年－612年11月6日），字安樂，鮮卑人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 555,
+    "deathYear": 612
+  },
+  {
+    "id": "宇文椿",
+    "name": "宇文椿",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文椿（550年代－581年），字乾寿。北周宗室，永昌郡公，宇文导四子，宇文颢孙，宇文泰侄孙，北周武帝堂侄。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文皛",
+    "name": "宇文皛",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文皛（6世纪－618年），隋朝大臣，字婆罗门，河南郡洛阳县（今河南省洛阳市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "宇文衎",
+    "name": "宇文衎",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文衎（570年代－581年），周宣帝宇文赟的第二子，母亲王姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文贞",
+    "name": "宇文贞",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文贞（6世纪－581年），字乾雅，周明帝宇文毓的第二子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文贽",
+    "name": "宇文贽",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文贽（6世纪－581年），字乾信，北周武帝子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文赞",
+    "name": "宇文赞",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文赞（560年代－581年），字乾依。周武帝宇文邕的第二子，母亲李娥姿。周宣帝胞弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宇文述",
+    "name": "宇文述",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宇文述（546年－616年11月20日），字伯通，代郡武川（今內蒙古武川南）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 546,
+    "deathYear": 616
+  },
+  {
+    "id": "宇文逌",
+    "name": "宇文逌",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宇文逌（556年－581年1月11日），字尔固突，河南郡洛阳县（今河南省洛阳市东）人，追尊周文帝宇文泰第十五子",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "宋老生",
+    "name": "宋老生",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宋老生（？－617年），隋朝的虎牙郎将，隋末領兵對抗李淵，被擊敗後遭劉弘基殺死。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "宗元饶",
+    "name": "宗元饶",
+    "alternativeNames": [
+      "宗元饒"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "宗元饒（518年－581年），南郡江陵人，南梁、南陳官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 518,
+    "deathYear": 581
+  },
+  {
+    "id": "宣华夫人",
+    "name": "宣华夫人",
+    "alternativeNames": [
+      "宣華夫人"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "宣華夫人（577年－605年），陳氏，名不詳，陈宣帝女，陈后主同父异母妹，隋文帝晚年妃嫔。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 577,
+    "deathYear": 605
+  },
+  {
+    "id": "尉迟崇",
+    "name": "尉迟崇",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "尉迟崇（6世纪－582年），北周到隋朝的将领，代人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 582
+  },
+  {
+    "id": "尉迟炽繁",
+    "name": "尉迟炽繁",
+    "alternativeNames": [
+      "尉遲熾繁"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "尉遲熾繁（566年－595年），或說名尉遲繁熾，河南郡洛阳县（今河南省洛阳市东）人，蜀國公尉遲迥孫女，上柱国、胙国公尉迟顺之女，周宣帝宇文赟皇后。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 566,
+    "deathYear": 595
+  },
+  {
+    "id": "尔朱敞",
+    "name": "尔朱敞",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "尔朱敞（519年－590年6月7日），字天罗。北魏侍中尔朱彦伯的嫡子。秀容契胡人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 590
+  },
+  {
+    "id": "尹式",
+    "name": "尹式",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "尹式（6世纪?－604年），隋代河间（今属河北）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 604
+  },
+  {
+    "id": "展子虔",
+    "name": "展子虔",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "展子虔（约545年－618年），隋朝画家，生卒年代不详，渤海人（今山东省阳信县）。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "崔彦穆",
+    "name": "崔彦穆",
+    "alternativeNames": [
+      "崔彥穆"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "崔彦穆（6世紀－581年），一作彦睦，字彦穆，清河郡东武城县（今河北省衡水市故城县）人，出自清河崔氏的定著六房之一的郑州崔氏，北魏、西魏、北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 581
+  },
+  {
+    "id": "崔芷蘩",
+    "name": "崔芷蘩",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "崔芷蘩（513年－582年10月17日），博陵郡安平县（今河北省衡水市安平县）人，出自博陵崔氏的博陵第二房，北魏仪同、吏部尚书崔孝芬的女儿，嫁给了李希仁。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 513,
+    "deathYear": 582
+  },
+  {
+    "id": "平原王",
+    "name": "平原王",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "平原王（532年－590年），名阳成、汤，是高句丽第25任君主，559-590年在位。阳原王的长子。557年，平原王成为王世子，两年后继位。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 590
+  },
+  {
+    "id": "庾信",
+    "name": "庾信",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
+    "tags": [
+      "文学家"
+    ],
+    "summary": "庾信（513年－581年），字子山，南阳郡新野县（今河南省南阳市新野县）。仕北周官至驃騎大將軍、開府儀同三司，故人稱「庾开府」。庾信奉梁元帝名出使北朝被留，不得...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 513,
+    "deathYear": 581
+  },
+  {
+    "id": "庾季才",
+    "name": "庾季才",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "庾季才（516年－603年），隋朝学者，字叔奕，新野人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 516,
+    "deathYear": 603
+  },
+  {
+    "id": "庾自直",
+    "name": "庾自直",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
+    "tags": [
+      "文学家"
+    ],
+    "summary": "庾自直（6世纪－618年），南朝陳、隋朝文学家，潁川郡鄢陵县人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "庾质",
+    "name": "庾质",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "庾质（6世紀？－614年），字行修，隋朝官员，新野人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 614
+  },
+  {
+    "id": "张须陀",
+    "name": "张须陀",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "张须陀（565年－616年），弘农阌乡（今河南灵宝市）人，隋朝大将。性刚烈，有勇略，被认为是隋朝柱石。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 565,
+    "deathYear": 616
+  },
+  {
+    "id": "张仲琰",
+    "name": "张仲琰",
+    "alternativeNames": [
+      "張仲琰"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "张仲琰（6世纪－617年），京兆郡（治今陕西省西安市）人，隋朝将领，張祥之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "张奫",
+    "name": "张奫",
+    "alternativeNames": [
+      "張奫"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "張奫（6世纪－606年），中国隋朝将领，字文懿，自称清河郡（今河北清河县）人，張双之子，原籍东武城（今山东武城县西）家住淮阴南谯州。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 606
+  },
+  {
+    "id": "张季珣",
+    "name": "张季珣",
+    "alternativeNames": [
+      "張季珣"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "张季珣（590年－617年），京兆郡（治今陕西西安）人，隋朝将领，張祥之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 590,
+    "deathYear": 617
+  },
+  {
+    "id": "张定和",
+    "name": "张定和",
+    "alternativeNames": [
+      "張定和"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "張定和（6世纪－609年），中国隋朝軍人，表字处謐，京兆郡万年县（今陕西省西安市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 609
+  },
+  {
+    "id": "慧可",
+    "name": "慧可",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "法融牛頭宗｜弘忍東山宗 – 神秀北宗禪｜惠能南宗禪 – 北荷澤宗｜南洪州宗｜南石頭宗｜保唐宗",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 487,
+    "deathYear": 593
+  },
+  {
+    "id": "慧立",
+    "name": "慧立",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "慧立（615年－？）是唐朝僧人，玄奘法師的弟子。俗姓趙。貞觀三年（629年），十五歲時於豳州昭仁寺出家，法號子立，後由唐高宗敕名慧立。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 615
+  },
+  {
+    "id": "戚衮",
+    "name": "戚衮",
+    "alternativeNames": [
+      "戚袞"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "戚袞（519年－581年），字公文，吳郡鹽官人，南北朝南梁、南陳官員與儒者。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 581
+  },
+  {
+    "id": "房彦谦",
+    "name": "房彦谦",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "房彦谦（547年－615年6月16日），字孝冲，祖籍清河郡东武城县（今河北省衡水市故城县），出身清河房氏。房彦谦一生经历东魏、北齐、北周、隋四朝，终于隋泾阳县令...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 547,
+    "deathYear": 615
+  },
+  {
+    "id": "斛律彻",
+    "name": "斛律彻",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "斛律彻（563年－595年12月26日），原名锺，字智通，朔州狄那县（今山西省晋中市寿阳县）人，北齐假黄钺、使持节、都督朔定冀并瀛青齐沧幽肆晋汾十二州诸军事、相...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 563,
+    "deathYear": 595
+  },
+  {
+    "id": "斛斯征",
+    "name": "斛斯征",
+    "alternativeNames": [
+      "斛斯徵"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "斛斯徵（529年－584年），字士亮。广牧郡富昌县人，中国南北朝西魏、北周、隋朝音乐家、儒学者。高车族，斛斯椿之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 529,
+    "deathYear": 584
+  },
+  {
+    "id": "斛斯政",
+    "name": "斛斯政",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "斛斯政（6世纪？－614年），隋朝官员，河南洛阳人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 614
+  },
+  {
+    "id": "明克让",
+    "name": "明克让",
+    "alternativeNames": [
+      "明克讓"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "明克让（522年－595年5月5日），表字弘道。平原郡鬲县（今山东省德州市陵城区）人。南梁隐士明僧韶之孙，侍中明山賓之子，梁朝、隋朝儒学学者、政治人物。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 522,
+    "deathYear": 595
+  },
+  {
+    "id": "智𫖮",
+    "name": "智𫖮",
+    "alternativeNames": [
+      "智顗"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "釋智顗（拼音：zhì yǐ，注音：ㄓˋ ㄧˇ；538年－597年），俗姓陈，字德安，法名智顗，法號智者，生於荆州华容（縣治位於今中國湖北潜江），漢傳佛教出家僧侶...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 597
+  },
+  {
+    "id": "朱燮",
+    "name": "朱燮",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "朱燮（？－613年），隋末农民起义军首领。吴郡人。曾出家为道士。通经史，习兵法，隋宋任昆山县博士，613年率数十学生起义，被稱作「民苦役者，赴之为归」。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "李士谦",
+    "name": "李士谦",
+    "alternativeNames": [
+      "李士謙"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "李士謙（523年－588年），中国南北朝、隋朝著名的隐士。表字子約，趙郡平棘县（今河北省赵县）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 523,
+    "deathYear": 588
+  },
+  {
+    "id": "李娥姿",
+    "name": "李娥姿",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李娥姿（535年－588年），北周宣帝宇文赟、汉王宇文赞生母。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 535,
+    "deathYear": 588
+  },
+  {
+    "id": "李弘芝",
+    "name": "李弘芝",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李弘芝（6世纪？－617年），隋末民变起义军领袖。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "李德林",
+    "name": "李德林",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李德林（532年－592年），字公輔，博陵安平人。祖父李壽，官湖州戶曹從事。父亲李敬族，官拜鎮遠將軍。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 592
+  },
+  {
+    "id": "李智云",
+    "name": "李智云",
+    "alternativeNames": [
+      "李智雲"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "李智雲（604年－617年），原名稚詮，中国唐朝开国皇帝李淵第五子，被隋將陰世師所捕殺，唐代追封為楚哀王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 604,
+    "deathYear": 617
+  },
+  {
+    "id": "李月相",
+    "name": "李月相",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "李月相（535年－618年），陇西狄道（今甘肃省临洮县）人，出自陇西李氏姑臧房，是北魏侍中、吏部尚书、安城文恭伯李韶的曾孙女，北魏通直散骑侍郎、齐州刺史李瑾的孙...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 535,
+    "deathYear": 618
+  },
+  {
+    "id": "李玄霸",
+    "name": "李玄霸",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch",
+      "scholar"
+    ],
+    "tags": [
+      "皇帝",
+      "学者"
+    ],
+    "summary": "李玄霸，又稱李元霸（599年－614年），字大德，李淵第三子，陇西成纪人，獲封為衛懷王。隋朝大業十年（614年）逝世，傳因意外落马而亡，得年十六，並無兒女。《新...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 599,
+    "deathYear": 614
+  },
+  {
+    "id": "来护儿",
+    "name": "来护儿",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "来护儿（6世纪？－618年），江都人，字崇善。隋朝武将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "杨义臣",
+    "name": "杨义臣",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "楊義臣（546年－617年），中国隋朝軍人，本姓尉迟，籍貫代郡。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 546,
+    "deathYear": 617
+  },
+  {
+    "id": "杨尚希",
+    "name": "杨尚希",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨尚希（534年－590年），中国南北朝时期弘农华阴（今陕西华阴市）人。出身弘农杨氏，历仕北周、隋朝，官至礼部尚书、蒲州刺史、高都公。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 534,
+    "deathYear": 590
+  },
+  {
+    "id": "杨异",
+    "name": "杨异",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨异（533年－600年11月8日），字文殊，弘農華陰（治今陝西華陰）人。越国公楊素之從叔。父杨俭，母罗氏。北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 533,
+    "deathYear": 600
+  },
+  {
+    "id": "杨文思",
+    "name": "杨文思",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨文思（542年－611年3月5日），字溫才，弘農華陰（治今陝西華陰）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 542,
+    "deathYear": 611
+  },
+  {
+    "id": "杨文𢙏",
+    "name": "杨文𢙏",
+    "alternativeNames": [
+      "杨文愻"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch",
+      "politician"
+    ],
+    "tags": [
+      "皇帝",
+      "政治人物"
+    ],
+    "summary": "杨文愻（553年－589年5月12日），字文愻，弘農華陰（治今陝西華陰）人。本名杨惠，因与隋文帝之弟滕王杨惠同名，于是改为文愻。越国公楊素之從叔，隋炀帝民部尚书...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 553,
+    "deathYear": 589
+  },
+  {
+    "id": "杨文纪",
+    "name": "杨文纪",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨文纪（546年－603年7月6日），字温范（墓志则载为名纪，字文宪），弘農華陰（治所在今陕西省华阴县）人。越国公楊素之從叔，隋朝官员，民部尚书杨文思之弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 546,
+    "deathYear": 603
+  },
+  {
+    "id": "杨暕",
+    "name": "杨暕",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "杨暕（585年－618年）是隋煬帝杨广和蕭后的次子，元德太子昭同母弟。字世朏，小字阿孩，生于隋文帝开皇五年。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 585,
+    "deathYear": 618
+  },
+  {
+    "id": "杨浩",
+    "name": "杨浩",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "參數所指定的目標頁面不存在，建議更正成存在頁面或直接建立下列一個頁面（建立前請先搜尋是否有合適的存在頁面可以取代）：",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "杨玄奖",
+    "name": "杨玄奖",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨玄奖（6世纪571年后－613年），隋朝大臣，出自弘农杨氏，杨素之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "杨玄感",
+    "name": "杨玄感",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "楊玄感（571年－613年），弘農華陰（今陝西華陰東）人，隋末割據勢力之一。其父楊素為隋朝著名將相。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 571,
+    "deathYear": 613
+  },
+  {
+    "id": "杨积善",
+    "name": "杨积善",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "楊積善（？－613年），是隋朝民變領袖。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "杨约",
+    "name": "杨约",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "monarch",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "皇帝",
+      "政治人物"
+    ],
+    "summary": "杨约（550年－609年11月27日），字惠伯，杨素异母弟，弘农郡华阴人。性情沉静，内心狡诈，好学强记。幼时因爬树摔伤失去生育能力。杨素与他感情很好，有事总是和...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 550,
+    "deathYear": 609
+  },
+  {
+    "id": "柳䛒",
+    "name": "柳䛒",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "柳䛒（542年－610年），中国隋朝文人。字顧言，出自河東柳氏。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 542,
+    "deathYear": 610
+  },
+  {
+    "id": "柳敬言",
+    "name": "柳敬言",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "柳敬言（531年－615年3月20日），字敬言，河东解（今山西省运城市）人，南齐侍中，司空，尚书令、贞阳忠武公柳世隆的曾孙女，南梁秘书监柳恽的孙女，鄱阳太守、驸...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 531,
+    "deathYear": 615
+  },
+  {
+    "id": "柳机",
+    "name": "柳机",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "柳机（539年－594年6月19日），字匡時，河东郡解县（今山西省运城市临猗县）人，出自河东柳氏西眷。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 539,
+    "deathYear": 594
+  },
+  {
+    "id": "柳肃",
+    "name": "柳肃",
+    "alternativeNames": [
+      "柳肅"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "柳肃（544年－615年），字匡仁，隋朝大臣，出自河东柳氏，柳庆的儿子，柳机、柳旦的弟弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 544,
+    "deathYear": 615
+  },
+  {
+    "id": "柳雄亮",
+    "name": "柳雄亮",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "柳雄亮（540年－589年5月17日），字信诚，河东解县人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 540,
+    "deathYear": 589
+  },
+  {
+    "id": "梁叔谐",
+    "name": "梁叔谐",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "梁叔谐（6世纪－586年），北周、隋朝大臣，安定郡乌氏县（今甘肃省泾川县东北）人。梁士彦第三子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 586
+  },
+  {
+    "id": "梁士彦",
+    "name": "梁士彦",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "scholar"
+    ],
+    "tags": [
+      "军事人物",
+      "学者"
+    ],
+    "summary": "梁士彦（515年－586年） 隋朝著名将领，字相如，安定乌氏（今甘肃泾川东北）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 515,
+    "deathYear": 586
+  },
+  {
+    "id": "梁文谦",
+    "name": "梁文谦",
+    "alternativeNames": [
+      "梁文謙"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "梁文謙（558年－613年），隋朝人物，安定郡乌氏县（今甘肃省泾川县东）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 558,
+    "deathYear": 613
+  },
+  {
+    "id": "梁文让",
+    "name": "梁文让",
+    "alternativeNames": [
+      "梁文讓"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "梁文讓（6世纪－613年），隋朝人物，安定乌氏县（今甘肃省泾川县东）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "梁明帝",
+    "name": "梁明帝",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "梁明帝蕭巋（542年－585年），字仁遠，是南北朝時代西梁的第二位君主。正式諡號為「孝明皇帝」，後世比照漢朝和西晉皇帝省略「孝」字，稱「梁明帝」。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 542,
+    "deathYear": 585
+  },
+  {
+    "id": "梁毗",
+    "name": "梁毗",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "梁毗（?－610年），字景和，安定郡乌氏县人，隋代大臣，历任京师和地方要职。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 610
+  },
+  {
+    "id": "梁默",
+    "name": "梁默",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "梁默（551年－609年），周隋时期将领。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 551,
+    "deathYear": 609
+  },
+  {
+    "id": "杨俨",
+    "name": "杨俨",
+    "alternativeNames": [
+      "楊儼"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "杨俨（6世纪－607年），隋朝废太子杨勇的長子，云昭训所生。六歲时，封为長寧郡王，后為叔父杨广毒殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 607
+  },
+  {
+    "id": "杨善会",
+    "name": "杨善会",
+    "alternativeNames": [
+      "楊善會"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "楊善会（6世纪－617年），中国隋朝軍人。表字敬仁，弘農郡華陰县（今陕西省华阴市）人。毗陵郡太守楊初之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "杨子崇",
+    "name": "杨子崇",
+    "alternativeNames": [
+      "楊子崇"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "楊子崇（6世纪－617年），中国隋朝皇族，河間王，隋文帝楊堅族弟，楊盆生之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "杨爽",
+    "name": "杨爽",
+    "alternativeNames": [
+      "楊爽"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "楊爽（563年－587年8月25日），中国隋朝皇族，衛昭王，文帝楊堅異母弟，字師仁，小字明達。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 563,
+    "deathYear": 587
+  },
+  {
+    "id": "杨谅",
+    "name": "杨谅",
+    "alternativeNames": [
+      "楊諒"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "楊諒（6世纪－605年），字德章，一名傑，隋文帝楊堅第五子，母独孤皇后。因不滿隋煬帝楊廣，起兵造反，被楊素率兵擊敗，被囚至死。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 605
+  },
+  {
+    "id": "杨阿五",
+    "name": "杨阿五",
+    "alternativeNames": [
+      "楊阿五"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "杨氏（573年－604年），名不详，字阿五，隋朝蘭陵公主，隋文帝第五女，母親獨孤伽羅。先嫁給王奉孝，奉孝死後又改嫁給柳述。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 573,
+    "deathYear": 604
+  },
+  {
+    "id": "杨丽华",
+    "name": "杨丽华",
+    "alternativeNames": [
+      "楊麗華"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "高祖父：皇曾祖康王楊烈曾祖父：皇祖獻王楊禎祖父：太祖武元皇帝楊忠祖母：元明皇后呂苦桃",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 561,
+    "deathYear": 609
+  },
+  {
+    "id": "樊叔略",
+    "name": "樊叔略",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "樊叔略（536年－594年），陈留县（今河南省开封市陈留镇）人。西魏、北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 536,
+    "deathYear": 594
+  },
+  {
+    "id": "樊子盖",
+    "name": "樊子盖",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "樊子盖（545年－616年8月25日），字华宗，隋朝大臣，庐江人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 545,
+    "deathYear": 616
+  },
+  {
+    "id": "欢斯渴刺兜",
+    "name": "欢斯渴刺兜",
+    "alternativeNames": [
+      "歡斯渴刺兜"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "歡斯渴刺兜（？－610年），其中歡斯為其姓氏，為古代島國流求國的國王，王室世系不詳。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 610
+  },
+  {
+    "id": "段世弘",
+    "name": "段世弘",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "段世弘（？－618年），隋朝官员，段部鲜卑首领段匹磾的九代孙，北海郡期原县人，隋朝兵部尚书、北平襄公段文振第七子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "段文振",
+    "name": "段文振",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "段文振（6世纪？－612年4月17日），字元起，北海郡期原县（今山東益都）人。北周、隋朝武将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 612
+  },
+  {
+    "id": "毛喜",
+    "name": "毛喜",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "毛喜（516年－587年），字伯武，滎陽陽武（今河南原陽）人。擅長書法，為陳朝官員。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 516,
+    "deathYear": 587
+  },
+  {
+    "id": "江总",
+    "name": "江总",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "poet",
+      "writer"
+    ],
+    "tags": [
+      "文学家"
+    ],
+    "summary": "江总（519年－594年），字总持，济阳考城（今河南省民权县东）人，南朝陈大臣、诗人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 594
+  },
+  {
+    "id": "汪文进",
+    "name": "汪文进",
+    "alternativeNames": [
+      "汪文進"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "汪文進（？－590年），南陈末年隋朝初年婺州（今浙江省金华市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 590
+  },
+  {
+    "id": "淳于量",
+    "name": "淳于量",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "淳于量（511年－582年），字思明，濟北人，南北朝南梁、南陳官員。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 511,
+    "deathYear": 582
+  },
+  {
+    "id": "游元",
+    "name": "游元",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "游元（6世纪－613年），字楚客，广平郡任城县（今河北省任县）人，北齐、北周、隋朝人物，游宝藏之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "源彪",
+    "name": "源彪",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "源彪（521年－586年），字文宗，北魏、东魏、北齐、北周、隋朝官员，西平郡乐都（今青海乐都）人，源贺的后裔。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 521,
+    "deathYear": 586
+  },
+  {
+    "id": "温大有",
+    "name": "温大有",
+    "alternativeNames": [
+      "溫大有"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "溫大有（6世纪574年后－618年），字彥將，并州祁縣（今山西祁縣東南）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "燕荣",
+    "name": "燕荣",
+    "alternativeNames": [
+      "燕榮"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "燕荣（6世纪－603年），字贵公，隋朝将领，华阴弘农人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 603
+  },
+  {
+    "id": "独孤罗",
+    "name": "独孤罗",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "独孤罗（534年－599年），字罗仁，云中盛乐（内蒙古和林格尔县）人，西魏八大柱国之一独孤信的长子，独孤伽罗皇后的异母兄。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 534,
+    "deathYear": 599
+  },
+  {
+    "id": "独孤伽罗",
+    "name": "独孤伽罗",
+    "alternativeNames": [
+      "獨孤伽羅"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "獨孤伽羅（544年－602年9月15日），河南郡洛阳县（今河南省洛阳市东）人，北周大司馬獨孤信的七女。隋朝隋文帝即位之後，封為皇后。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 544,
+    "deathYear": 602
+  },
+  {
+    "id": "王元规",
+    "name": "王元规",
+    "alternativeNames": [
+      "王元規"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "王元規（516年－589年），字正範，太原晉陽人，南北朝南梁、南陳官員與儒者。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 516,
+    "deathYear": 589
+  },
+  {
+    "id": "王奉孝",
+    "name": "王奉孝",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "王奉孝（？－583年？），河南郡洛阳人。祖父凤州刺史王显，父亲王谊。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 583
+  },
+  {
+    "id": "王衮",
+    "name": "王衮",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "政治人物"
+    ],
+    "summary": "王衮（558年－613年），字公衣，南北朝后期到隋朝琅琊临沂人。王衮是东晋王导的十世孙。南齐侍中、中书、监卫将军、尚书令、太尉、南昌公王俭的玄孙。南梁侍中、尚书...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 558,
+    "deathYear": 613
+  },
+  {
+    "id": "王𫠆",
+    "name": "王𫠆",
+    "alternativeNames": [
+      "王頍"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "王頍（551年－604年），字景文，太原祁县（山西省晋中市祁县）人。南梁名将太尉王僧辩之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 551,
+    "deathYear": 604
+  },
+  {
+    "id": "田仁恭",
+    "name": "田仁恭",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "田仁恭（536年－582年），南北朝北周、隋朝政治人物、軍人，字長貴，平涼郡長城县人，田弘之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 536,
+    "deathYear": 582
+  },
+  {
+    "id": "百济法王",
+    "name": "百济法王",
+    "alternativeNames": [
+      "百濟法王"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "法王（？－600年5月），姓扶餘，諱宣(或云孝順)。是百濟第二十九代王，599年—600年在位。《三國史記》記載法王為惠王之太子。《隋書》百濟傳則記載法王為二十...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 600
+  },
+  {
+    "id": "皇甫诞",
+    "name": "皇甫诞",
+    "alternativeNames": [
+      "皇甫誕"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "皇甫誕（554年－604年），隋朝政治人物、軍人。表字玄憲，一作玄虑。安定郡烏氏县（今甘肃泾川东北）人。北周随州刺史皇甫璠之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 554,
+    "deathYear": 604
+  },
+  {
+    "id": "卢明月",
+    "name": "卢明月",
+    "alternativeNames": [
+      "盧明月"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "盧明月（？－617年），中国隋朝末年民变领導者，涿郡（今河北省涿州市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "秦爱",
+    "name": "秦爱",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "秦爱（546年－614年12月27日）字季养，齐郡历城（山东历城）人。唐朝大将秦叔宝之父。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 546,
+    "deathYear": 614
+  },
+  {
+    "id": "窦毅",
+    "name": "窦毅",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "窦毅（519年－583年1月3日），字天武，北周驸马，北朝、隋朝时官员。唐高祖李渊的岳父。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 583
+  },
+  {
+    "id": "窦炽",
+    "name": "窦炽",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "竇熾（507年－584年），字光成。扶風平陵（今陝西咸陽西北）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 507,
+    "deathYear": 584
+  },
+  {
+    "id": "窦威",
+    "name": "窦威",
+    "alternativeNames": [
+      "竇威"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "竇威（6世纪？－618年7月25日），字文蔚，岐州平陸县人，唐朝的外戚、宰相。唐高祖太穆竇皇后的叔父。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "窦荣定",
+    "name": "窦荣定",
+    "alternativeNames": [
+      "竇榮定"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "窦荣定（530年－586年），扶风平陵（今陕西省咸阳市西北）人，史稱窦荣定容貌瑰伟，美须髯，深沉而有气度。隋朝官员，安丰郡公，追赠冀州刺史、陈国公。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 530,
+    "deathYear": 586
+  },
+  {
+    "id": "翟让",
+    "name": "翟让",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "翟让（6世纪－617年）隋末群雄中瓦岗军领袖，东郡韦城县（今河南滑县）人，後因與李密爭權，被李密派蔡建德刺殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "耿询",
+    "name": "耿询",
+    "alternativeNames": [
+      "耿詢"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "耿询（6世纪－618年），隋朝官员，字敦信，丹阳人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "兴皇法朗",
+    "name": "兴皇法朗",
+    "alternativeNames": [
+      "興皇法朗"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "釋法朗（507年－581年），《梁書》作惠朗，俗姓周，徐州沛郡沛縣（今江蘇省沛縣）人，南北朝三論宗大師，因長居興皇寺說法，故人稱興皇法朗，或興皇朗。因其辯才無礙...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 507,
+    "deathYear": 581
+  },
+  {
+    "id": "苏孝慈",
+    "name": "苏孝慈",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "苏孝慈（538年－601年），名慈，字孝慈，以字行，扶风郡人，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 601
+  },
+  {
+    "id": "莫丽芳",
+    "name": "莫丽芳",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch",
+      "politician"
+    ],
+    "tags": [
+      "皇帝",
+      "政治人物"
+    ],
+    "summary": "莫丽芳（587年－618年），吴郡吴县人，莫貴嬪是南陈东卫、北兖、南徐三州刺史莫影龙的孙女，高唐郡太守莫孝恭之女。唐高祖李渊登基前的妾侍。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 587,
+    "deathYear": 618
+  },
+  {
+    "id": "莫何可汗",
+    "name": "莫何可汗",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "莫何可汗（?－588年），又称葉護可汗，名阿史那处罗侯，东突厥可汗，乙息记可汗阿史那科罗之子，沙缽略可汗阿史那摄图之弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 588
+  },
+  {
+    "id": "萧妙瑜",
+    "name": "萧妙瑜",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "萧妙瑜（530年－603年），中国南北朝时，南梁武陵王萧纪长女，封淮南公主。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 530,
+    "deathYear": 603
+  },
+  {
+    "id": "萧摩诃",
+    "name": "萧摩诃",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蕭摩訶（532年－604年），字元胤，蘭陵人。中國南朝、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 604
+  },
+  {
+    "id": "萧欣",
+    "name": "萧欣",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "萧欣（6世纪－584年），南梁安成康王萧秀之孙，安成炀王萧机之子，安成蕃王萧操之弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 584
+  },
+  {
+    "id": "萧钜",
+    "name": "萧钜",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "萧钜（6世纪－618年4月11日），西梁南海王萧珣子。西梁灭亡后，宗室入隋朝。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "萧吉",
+    "name": "萧吉",
+    "alternativeNames": [
+      "蕭吉"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch",
+      "scholar"
+    ],
+    "tags": [
+      "皇帝",
+      "学者"
+    ],
+    "summary": "萧吉（6世纪－614年），隋朝学者，字文休，出自兰陵萧氏，梁武帝兄长沙宣武王萧懿之孙。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 614
+  },
+  {
+    "id": "萧圆肃",
+    "name": "萧圆肃",
+    "alternativeNames": [
+      "蕭圓肅"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "蕭圓肅（539年－584年），字明恭，南朝梁皇族。梁武帝萧衍第八子武陵王蕭紀之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 539,
+    "deathYear": 584
+  },
+  {
+    "id": "萧岩",
+    "name": "萧岩",
+    "alternativeNames": [
+      "蕭巖"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蕭巖（6世纪－589年），字义远，中國南北朝時代人物，梁宣帝萧詧的第五子，安平王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 589
+  },
+  {
+    "id": "萧𤩽",
+    "name": "萧𤩽",
+    "alternativeNames": [
+      "蕭瓛"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "蕭瓛（569年－589年），字欽文，梁明帝蕭巋第三子。封義興王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 569,
+    "deathYear": 589
+  },
+  {
+    "id": "薛世雄",
+    "name": "薛世雄",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "薛世雄（555年－617年），字世英，河東汾陰（今山西省萬榮縣）人，隋代著名軍事將領。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 555,
+    "deathYear": 617
+  },
+  {
+    "id": "薛胄",
+    "name": "薛胄",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general",
+      "politician"
+    ],
+    "tags": [
+      "军事人物",
+      "政治人物"
+    ],
+    "summary": "薛胄（6世纪－604年），表字紹玄，河東郡汾陰县（今山西省万荣县西南）人，出自河东薛氏西祖第二房，北周大将军、蔡州刺史薛端之子，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 604
+  },
+  {
+    "id": "薛举",
+    "name": "薛举",
+    "alternativeNames": [
+      "薛舉"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "薛舉（6世纪－618年），河东郡汾阴县（今山西省运城市万荣县）人，其父薛汪时徙居兰州金城郡（今甘肃省兰州市），中國隋代末年群雄之一。大业十三年（617年）四月，...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "虞孝仁",
+    "name": "虞孝仁",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "虞孝仁（6世纪－615年），隋朝大臣，京兆郡栎阳县（今陕西省西安市阎良区）人，虞庆则子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 615
+  },
+  {
+    "id": "虞庆则",
+    "name": "虞庆则",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "虞慶則（？－597年），中国隋朝軍人，本姓魚，京兆郡櫟陽县人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 597
+  },
+  {
+    "id": "虞熙",
+    "name": "虞熙",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "虞熙（6世纪－618年），隋朝官员，会稽郡余姚县（今浙江省余姚市）人，虞世基的次子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "卫玄",
+    "name": "卫玄",
+    "alternativeNames": [
+      "衛玄"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "衛玄（541年－617年），字文升，河南洛阳人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 541,
+    "deathYear": 617
+  },
+  {
+    "id": "袁充",
+    "name": "袁充",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "袁充（544年－618年），隋朝官员，字德符，本陈郡阳夏人，东晋南北朝以后寓居丹阳。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 544,
+    "deathYear": 618
+  },
+  {
+    "id": "袁宪",
+    "name": "袁宪",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "袁宪（529年－598年），字德章。陈郡阳夏（今河南太康）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 529,
+    "deathYear": 598
+  },
+  {
+    "id": "袁敬",
+    "name": "袁敬",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "袁敬（507年－585年10月19日），字子恭，南朝陈大臣。陈郡阳夏县（今河南省太康县）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 507,
+    "deathYear": 585
+  },
+  {
+    "id": "袁聿修",
+    "name": "袁聿修",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "袁聿修（511年－582年），字叔德，陳郡陽夏（今河南太康）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 511,
+    "deathYear": 582
+  },
+  {
+    "id": "裴子烈",
+    "name": "裴子烈",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "裴子烈（？－586年），字大士，河东郡闻喜县（今山西省运城市闻喜县）人，南陈官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 586
+  },
+  {
+    "id": "裴子通",
+    "name": "裴子通",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician",
+      "scholar"
+    ],
+    "tags": [
+      "政治人物",
+      "学者"
+    ],
+    "summary": "裴子通（510年－590年6月4日），字叔灵，河东郡闻喜县（今山西省运城市闻喜县）人，出自河东裴氏定著五房之一的中眷裴，东魏汾州诸军事、汾州刺史、散骑常侍、太府...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 510,
+    "deathYear": 590
+  },
+  {
+    "id": "裴忌",
+    "name": "裴忌",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "裴忌（522年－594年），字無畏，河東郡聞喜县（今山西省聞喜县）人，南北朝南梁、南陳、北周官員。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 522,
+    "deathYear": 594
+  },
+  {
+    "id": "裴蕴",
+    "name": "裴蕴",
+    "alternativeNames": [
+      "裴蘊"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "裴蘊（6世紀？－618年4月11日），河東郡聞喜县（今山西省闻喜县）人。隋煬帝的重臣，後在宇文化及之乱中被殺。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "裴遗业",
+    "name": "裴遗业",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "裴遗业（528年－590年10月1日），字遗业，河东郡闻喜县（今山西省运城市闻喜县）人，出自河东裴氏定著五房之一的中眷裴，北齐官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 528,
+    "deathYear": 590
+  },
+  {
+    "id": "裴镜民",
+    "name": "裴镜民",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "裴镜民（6世纪－596年4月22日），字君倩，河东闻喜（今山西闻喜县）人。出身河东裴氏的东眷裴。北周至隋朝的官员和将领。今山西闻喜县礼元镇裴柏村有唐贞观十一年立...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 596
+  },
+  {
+    "id": "谢贞",
+    "name": "谢贞",
+    "alternativeNames": [
+      "謝貞"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "謝貞（534年－585年），字元正，陳郡陽夏人，南北朝北周、南陳官員。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 534,
+    "deathYear": 585
+  },
+  {
+    "id": "谢岳",
+    "name": "谢岳",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "谢岳（491年－583年），字荣宗，陈郡人，是北魏荆州刺史谢庆的孙子，北魏谏议大夫谢憘的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 491,
+    "deathYear": 583
+  },
+  {
+    "id": "豆卢毓",
+    "name": "豆卢毓",
+    "alternativeNames": [
+      "豆盧毓"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "豆盧毓（577年－604年），隋朝軍事人物，表字道生，昌黎郡徒河县人，豆盧勣之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 577,
+    "deathYear": 604
+  },
+  {
+    "id": "贺若弼",
+    "name": "贺若弼",
+    "alternativeNames": [
+      "賀若弼"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "賀若弼（544年－607年），复姓贺若，字輔伯，河南郡洛阳县人。隋朝大臣，一說為古琴曲《良宵引》的作者。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 544,
+    "deathYear": 607
+  },
+  {
+    "id": "贺娄子干",
+    "name": "贺娄子干",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "賀婁子幹（534年－593年8月16日），字萬壽，本代人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 534,
+    "deathYear": 593
+  },
+  {
+    "id": "贺若谊",
+    "name": "贺若谊",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "贺若谊（520年－596年），字道机，河南洛阳人。隋朝军事人物，贺若弼之叔。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 520,
+    "deathYear": 596
+  },
+  {
+    "id": "赵煚",
+    "name": "赵煚",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "趙煚（532年－599年），字賢通，天水郡西县（今甘肃省天水市秦州区）人，西魏、北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 599
+  },
+  {
+    "id": "赵破阵",
+    "name": "赵破阵",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "赵破阵（6世纪？－613年），又作赵破陈，隋末民变起义军领袖，海陵郡人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "赵芬",
+    "name": "赵芬",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "趙芬（521年－594年），字士茂，天水郡西县人。中国西魏到隋朝的官员，《魏书》、《北史》有传。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 521,
+    "deathYear": 594
+  },
+  {
+    "id": "赵行枢",
+    "name": "赵行枢",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "赵行枢（6世纪－618年），隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "赵仲卿",
+    "name": "赵仲卿",
+    "alternativeNames": [
+      "趙仲卿"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "赵仲卿（541年－604年），隋朝将领，天水陇西人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 541,
+    "deathYear": 604
+  },
+  {
+    "id": "赵元淑",
+    "name": "赵元淑",
+    "alternativeNames": [
+      "趙元淑"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "趙元淑（6世纪－613年），中国隋朝官僚、軍人。博陵郡（郡治今河北省安平县）人，寓居京兆云阳（今陕西泾阳西）。趙世模之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "赵慈景",
+    "name": "赵慈景",
+    "alternativeNames": [
+      "趙慈景"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "赵慈景（6世纪－618年），天水郡新县（今甘肃省天水市秦州区）人，隋朝、唐朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "辛公义",
+    "name": "辛公义",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "辛公义（553年－614年），陇西郡狄道县（今甘肃省定西市临洮县）人，北周、隋朝时期官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 553,
+    "deathYear": 614
+  },
+  {
+    "id": "辛彦之",
+    "name": "辛彦之",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "辛彦之（6世紀－591年），陇西郡狄道县（今甘肃省定西市临洮县）人，西魏、北周、隋朝时期官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 591
+  },
+  {
+    "id": "郁久闾伏仁",
+    "name": "郁久闾伏仁",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郁久闾伏仁（？－586年11月29日），南北朝时漠北柔然汗国的后裔，北周到隋朝初年人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 586
+  },
+  {
+    "id": "郎茂",
+    "name": "郎茂",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郎茂（541年－615年），中国北齐、隋朝政治人物，表字蔚之，恒山郡新市县（郡治今河北省新乐县）人。北齐潁川郡太守郎基之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 541,
+    "deathYear": 615
+  },
+  {
+    "id": "郑祁耶",
+    "name": "郑祁耶",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郑祁耶（？－598年7月2日），荥阳郡开封县（今河南省开封市祥符区）人，出自荥阳郑氏，是杨素的夫人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 598
+  },
+  {
+    "id": "郑译",
+    "name": "郑译",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郑译（540年－591年8月25日），字正义，荥阳郡开封县（今河南省开封市祥符区）人，出自荥阳郑氏北祖第三房，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 540,
+    "deathYear": 591
+  },
+  {
+    "id": "郭绚",
+    "name": "郭绚",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郭绚（6世纪－616年），隋朝人物，河东郡安邑县（今山西省运城市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 616
+  },
+  {
+    "id": "郭衍",
+    "name": "郭衍",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "郭衍（6世纪－611年3月5日），字彦文，自称太原郡介休县（今山西省介休县）人，中国北周、隋朝軍人、政治人物。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 611
+  },
+  {
+    "id": "都蓝可汗",
+    "name": "都蓝可汗",
+    "alternativeNames": [
+      "都藍可汗"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "都藍可汗（？－599年），名阿史那雍虞闾，东突厥可汗，沙缽略可汗阿史那摄图之子。588年，莫何可汗处罗侯中箭去世后，雍虞闾即位号颉伽施多那都蓝可汗。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 599
+  },
+  {
+    "id": "郑灼",
+    "name": "郑灼",
+    "alternativeNames": [
+      "鄭灼"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "鄭灼（514年－581年），字茂昭，東陽信安人，南北朝南梁、南陳官員與儒者。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 514,
+    "deathYear": 581
+  },
+  {
+    "id": "长孙行布",
+    "name": "长孙行布",
+    "alternativeNames": [
+      "長孫行布"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "長孫行布（577年－604年），盩厔县（今陕西省西安市周至县）人，祖籍河南郡洛陽县（今河南省洛阳市东），北周光禄大夫長孫兕之孙，隋朝左领军将军長孫晟长子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 577,
+    "deathYear": 604
+  },
+  {
+    "id": "长孙晟",
+    "name": "长孙晟",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "scholar"
+    ],
+    "tags": [
+      "学者"
+    ],
+    "summary": "長孫晟（552年－609年），字季晟，小名鹅王，河南洛阳人，上党文宣王长孙稚曾孙，平原县侯长孙兕的儿子，隋右驍衛將軍、著名外交家，平突厥之功臣。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 552,
+    "deathYear": 609
+  },
+  {
+    "id": "长孙炽",
+    "name": "长孙炽",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "长孙炽(549年－610年11月15日)，字仲光，河南洛阳人，隋朝大臣。长孙晟之兄，长孙无忌之伯。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 549,
+    "deathYear": 610
+  },
+  {
+    "id": "阮卓",
+    "name": "阮卓",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "阮卓（531年－589年），陳留尉氏人，南北朝南陳官員和文學家。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 531,
+    "deathYear": 589
+  },
+  {
+    "id": "阳休之",
+    "name": "阳休之",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陽休之（509年－582年），字子烈。北平郡無終縣（今天津市蓟州区）人，為北齊知名大學問家。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 509,
+    "deathYear": 582
+  },
+  {
+    "id": "阴世师",
+    "name": "阴世师",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "阴世师（565年－617年），隋朝武威郡（今甘肃省武威市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 565,
+    "deathYear": 617
+  },
+  {
+    "id": "阿史那皇后",
+    "name": "阿史那皇后",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "阿史那皇后（551年－582年），北周武帝宇文邕的皇后。突厥木杆可汗阿史那俟斤之女。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 551,
+    "deathYear": 582
+  },
+  {
+    "id": "陈伯义",
+    "name": "陈伯义",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "陈伯义（？－589年），字堅之，吳興郡長城縣（今浙江長興縣）人。南朝陳宗室，陳文帝陈蒨的第九子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 589
+  },
+  {
+    "id": "陈叔兴",
+    "name": "陈叔兴",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "陳叔兴（573年－607年4月28日），字子推，陳宣帝陈頊第二十六子，宁远公主（隋文帝妃宣华夫人）的同母哥哥，母亲是施姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 573,
+    "deathYear": 607
+  },
+  {
+    "id": "陈叔慎",
+    "name": "陈叔慎",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陈叔慎（572年－589年），字子敬，南陈高宗宣帝陈顼第16子，封岳阳王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 572,
+    "deathYear": 589
+  },
+  {
+    "id": "陈叔荣",
+    "name": "陈叔荣",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陳叔荣（577年－612年6月21日），字子茂，陳宣帝陈頊第三十三子，母亲是秦姬。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 577,
+    "deathYear": 612
+  },
+  {
+    "id": "阴寿",
+    "name": "阴寿",
+    "alternativeNames": [
+      "陰壽"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陰壽（？－583年），字羅雲，武威郡（今甘肃省武威市）人，中国南北朝北周、隋朝軍事人物。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 583
+  },
+  {
+    "id": "陈伯固",
+    "name": "陈伯固",
+    "alternativeNames": [
+      "陳伯固"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "陈伯固（555年－582年），字牢之，南陈世祖文帝陈蒨第五子，封新安王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 555,
+    "deathYear": 582
+  },
+  {
+    "id": "陈伯山",
+    "name": "陈伯山",
+    "alternativeNames": [
+      "陳伯山"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "陳伯山（550年－589年），南北朝陳朝鄱陽王，字靜之。世祖文帝陳蒨第三子，母親為嚴淑媛。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 550,
+    "deathYear": 589
+  },
+  {
+    "id": "陈叔献",
+    "name": "陈叔献",
+    "alternativeNames": [
+      "陳叔獻"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陈叔献（564年－581年1月19日），南北朝陳朝河东王，字子恭，南陈高宗宣帝陈顼第九子，母親為錢貴妃。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 564,
+    "deathYear": 581
+  },
+  {
+    "id": "陈叔陵",
+    "name": "陈叔陵",
+    "alternativeNames": [
+      "陳叔陵"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陳叔陵（554年－582年2月18日），字子嵩，陈宣帝陳頊次子，出继本生祖父陈道谭，袭封為始興王。母親是貴人彭氏。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 554,
+    "deathYear": 582
+  },
+  {
+    "id": "陈叔齐",
+    "name": "陈叔齐",
+    "alternativeNames": [
+      "陳叔齊"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陈叔齐（569年－608年），字子肃，南陈高宗宣帝陈顼第十一子，封新蔡王。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 569,
+    "deathYear": 608
+  },
+  {
+    "id": "陈孝意",
+    "name": "陈孝意",
+    "alternativeNames": [
+      "陳孝意"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陳孝意（6世纪－617年），中国隋朝政治人物，河東郡（治今山西省永济市西南）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "陈方庆",
+    "name": "陈方庆",
+    "alternativeNames": [
+      "陳方慶"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陳方慶（6世紀－589年），吴兴郡长城县（今浙江长兴）人，南北朝南陳宗室與官員。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 589
+  },
+  {
+    "id": "陆爽",
+    "name": "陆爽",
+    "alternativeNames": [
+      "陸爽"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陆爽（539年－591年）字开明，魏郡临漳人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 539,
+    "deathYear": 591
+  },
+  {
+    "id": "陆知命",
+    "name": "陆知命",
+    "alternativeNames": [
+      "陸知命"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "陸知命（548年－614年），中国隋朝政治人物，表字仲通，吴郡富春县（今浙江省杭州市富陽区）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 548,
+    "deathYear": 614
+  },
+  {
+    "id": "韦世康",
+    "name": "韦世康",
+    "alternativeNames": [
+      "韋世康"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韋世康（531年－597年10月9日），京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，北魏、西魏、北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 531,
+    "deathYear": 597
+  },
+  {
+    "id": "韦洸",
+    "name": "韦洸",
+    "alternativeNames": [
+      "韋洸"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韋洸（?－590年），字世穆，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 590
+  },
+  {
+    "id": "韩僧寿",
+    "name": "韩僧寿",
+    "alternativeNames": [
+      "韓僧壽"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韩僧寿（548年－612年），隋朝大臣，字玄庆，河南东垣（今河南省新安县）人，韩擒虎的母弟。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 548,
+    "deathYear": 612
+  },
+  {
+    "id": "韦冲",
+    "name": "韦冲",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦冲（540年－605年6月12日），字世冲，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 540,
+    "deathYear": 605
+  },
+  {
+    "id": "韦匡伯",
+    "name": "韦匡伯",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦匡伯（574年－617年6月6日），字辟邪，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏郧公房，隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 574,
+    "deathYear": 617
+  },
+  {
+    "id": "韦协",
+    "name": "韦协",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦协（564年－598年4月13日），字钦仁，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 564,
+    "deathYear": 598
+  },
+  {
+    "id": "韦寿",
+    "name": "韦寿",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦寿（552年－593年1月7日），字世龄，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏郧公房，北周上柱国、郧国公韦孝宽第四子，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 552,
+    "deathYear": 593
+  },
+  {
+    "id": "韦福嗣",
+    "name": "韦福嗣",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦福嗣（？－614年1月30日），京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，隋朝上开府、荆州总管、上庸文公韦世康第二子，隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 614
+  },
+  {
+    "id": "韦艺",
+    "name": "韦艺",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韦艺（538年－595年5月13日），字世文，京兆郡杜陵县（今陕西省西安市长安区）人，出自京兆韦氏逍遥公房，北周、隋朝官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 595
+  },
+  {
+    "id": "韩擒虎",
+    "name": "韩擒虎",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "韓擒虎（538年－592年12月26日），字子通，河南東垣（今河南新安县）人。隋初開國功臣之一。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 592
+  },
+  {
+    "id": "颜之推",
+    "name": "颜之推",
+    "alternativeNames": [
+      "顏之推"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "顏之推（531年－591年），字介，瑯琊臨沂（在今山东省）人，南梁至隋朝皆为官员，撰有《顏氏家訓》。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 531,
+    "deathYear": 591
+  },
+  {
+    "id": "顾野王",
+    "name": "顾野王",
+    "alternativeNames": [
+      "顧野王"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "顧野王（519年－581年），字希馮，吳郡吴县（今江苏省苏州市）人，南朝梁至陳時代的官员、作家。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 519,
+    "deathYear": 581
+  },
+  {
+    "id": "颜之仪",
+    "name": "颜之仪",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "顏之儀（523年－591年），字子升，琅邪郡临沂县（今属山东省）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 523,
+    "deathYear": 591
+  },
+  {
+    "id": "骆牙",
+    "name": "骆牙",
+    "alternativeNames": [
+      "駱牙"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "駱牙（528年－584年），一名駱文牙，字旗門，吳興臨安人，南梁、南陳官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 528,
+    "deathYear": 584
+  },
+  {
+    "id": "马枢",
+    "name": "马枢",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "馬樞（522年－581年），字要理，扶风郿人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 522,
+    "deathYear": 581
+  },
+  {
+    "id": "骨仪",
+    "name": "骨仪",
+    "alternativeNames": [
+      "骨儀"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "骨仪（6世纪－617年），隋朝大臣，京兆长安（今陕西西安）人。《北史》以为天竺胡人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "高保宁",
+    "name": "高保宁",
+    "alternativeNames": [
+      "高保寧"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "高保寧（6世纪－583年），中国北齐将领，又作高宝宁，代人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 583
+  },
+  {
+    "id": "高劢",
+    "name": "高劢",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高劢（544年－599年），字敬德，北齐清河王高岳子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 544,
+    "deathYear": 599
+  },
+  {
+    "id": "高君雅",
+    "name": "高君雅",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高君雅（6世纪－617年），隋朝大臣，为虎牙郎将。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 617
+  },
+  {
+    "id": "高士达",
+    "name": "高士达",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高士达（557年－616年），隋末山东民變軍领袖之一。信都蓨（今河北衡水市景县）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 557,
+    "deathYear": 616
+  },
+  {
+    "id": "高智慧",
+    "name": "高智慧",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高智慧（6世纪？－590年），南陈末年隋朝初年越州（今浙江省绍兴市）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 590
+  },
+  {
+    "id": "高昙晟",
+    "name": "高昙晟",
+    "alternativeNames": [
+      "高曇晟"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高曇晟（6世纪？－618年），隋末唐初懷戎（今河北涿鹿縣西南）僧人，齊政權領袖。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "高构",
+    "name": "高构",
+    "alternativeNames": [
+      "高構"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "高構（540年－611年），中国隋朝政治人物，表字孝基，北海郡（郡治今山东省昌乐县东）人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 540,
+    "deathYear": 611
+  },
+  {
+    "id": "高颎",
+    "name": "高颎",
+    "alternativeNames": [
+      "高熲"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "monarch"
+    ],
+    "tags": [
+      "皇帝"
+    ],
+    "summary": "高熲（6世纪－607年），字昭玄，一名敏，渤海郡蓨县（今河北景县）人，其父高宾为独孤信赐姓独孤氏，因此又称独孤颎，为隋朝宰相执政近20年，其子是杨勇的女婿，后因...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 607
+  },
+  {
+    "id": "魏刀儿",
+    "name": "魏刀儿",
+    "alternativeNames": [
+      "魏刀兒"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "魏刀兒（？－618年），一作魏刁兒，隋朝时民变领袖。河北人。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "鲁广达",
+    "name": "鲁广达",
+    "alternativeNames": [
+      "魯廣達"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "魯廣達（531年－589年），字遍覽，扶風郿縣人，南梁、南陳官员。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 531,
+    "deathYear": 589
+  },
+  {
+    "id": "鱼俱罗",
+    "name": "鱼俱罗",
+    "alternativeNames": [],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "general"
+    ],
+    "tags": [
+      "军事人物"
+    ],
+    "summary": "鱼俱罗（6世纪？－613年），隋朝将领，冯翊郡下邽县（陕西省渭南市东北）人。身高八尺，眼生重瞳，體力過人，嗓門洪亮，說話聲音能傳出去百步之遠。 ",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 613
+  },
+  {
+    "id": "麦孟才",
+    "name": "麦孟才",
+    "alternativeNames": [
+      "麥孟才"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "麥孟才（6世纪－618年），字智棱，隋朝官员，始兴县人，麦铁杖的儿子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "deathYear": 618
+  },
+  {
+    "id": "麦铁杖",
+    "name": "麦铁杖",
+    "alternativeNames": [
+      "麥鐵杖"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "麦铁杖（538年－612年），原名麥饒豐，广东省始兴人，生於陳朝和隋朝期間，為隋朝大將軍。隨楊素征突厥立功，后死在征高句丽，追赠宿国公，謚武烈。死后子麦孟才袭爵...",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 538,
+    "deathYear": 612
+  },
+  {
+    "id": "庞晃",
+    "name": "庞晃",
+    "alternativeNames": [
+      "龐晃"
+    ],
+    "regionId": "sui-dynasty",
+    "occupations": [
+      "politician"
+    ],
+    "tags": [
+      "政治人物"
+    ],
+    "summary": "龐晃（532年－603年3月24日），西魏、北周、隋朝軍事人物，表字元显，榆林郡人，龐虬之子。",
+    "sourceIds": [
+      "src-grand-timeline"
+    ],
+    "dataStatus": "imported",
+    "confidenceScore": 0.65,
+    "externalReferences": [],
+    "birthYear": 532,
+    "deathYear": 603
+  }
+]
