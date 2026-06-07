@@ -42,3 +42,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# data backup files
+src/data/mockData.ts.*
+scripts/*.pyc
+*.pyc
