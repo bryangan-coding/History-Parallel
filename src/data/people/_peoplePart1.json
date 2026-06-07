@@ -99,7 +99,7 @@
       "Conservative",
       "Northern Song"
     ],
-    "summary": "北宋政治家、史学家，主持编纂编年体通史《资治通鉴》，政治上反对王安石变法。",
+    "summary": "北宋政治家、史学家。耗时十九年主持编纂编年体通史《资治通鉴》，约294卷三百余万字，是中国古代最伟大的史学著作之一。政治上反对王安石变法，属保守派领袖。",
     "summaryEn": "Northern Song statesman and historian who compiled \"Zizhi Tongjian\" and opposed Wang Anshi's reforms.",
     "sourceIds": [
       "src-ss",
@@ -138,7 +138,7 @@
       "Statesman",
       "Northern Song"
     ],
-    "summary": "北宋文学革新运动领袖，唐宋八大家之一。文学上推行古文运动，史学上参与编纂《新唐书》。",
+    "summary": "北宋政治家、文学家，唐宋八大家之一。倡导古文运动，主持编纂《新唐书》和《新五代史》，为一代文宗。",
     "summaryEn": "Leader of the Northern Song literary reform movement. Promoted the Classical Prose Movement and co-edited the \"New Book of Tang.\"",
     "sourceIds": [
       "src-ss"
@@ -398,7 +398,7 @@
       "Reform",
       "Ancient China"
     ],
-    "summary": "中国第一位皇帝，灭六国统一天下，推行书同文、车同轨，建立中央集权制度。",
+    "summary": "中国历史上第一位皇帝（前221-前210年在位），姓嬴名政。灭六国、统一文字度量衡、修筑长城、建立中央集权制度，奠定了中国两千余年帝制的基本框架。",
     "summaryEn": "First Emperor of China, unified the Warring States, standardized writing and measurement, and established centralized imperial rule.",
     "sourceIds": [
       "src-shiji"
@@ -437,7 +437,7 @@
       "Military",
       "Politics"
     ],
-    "summary": "罗马共和国末期军事统帅和政治家，征服高卢，开启了罗马从共和国向帝国的转变。",
+    "summary": "罗马共和国末期最伟大的军事统帅和政治家。征服高卢全境（今法国、比利时），跨过卢比孔河发动内战击败庞培，成为终身独裁官，为罗马从共和国走向帝国奠定基础。公元前44年被元老院刺杀。",
     "summaryEn": "Roman general and statesman who conquered Gaul and initiated Rome's transition from Republic to Empire.",
     "sourceIds": [
       "src-caesar"
@@ -476,7 +476,7 @@
       "High Tang",
       "Chinese Literature"
     ],
-    "summary": "唐代最伟大的浪漫主义诗人，被称为\"诗仙\"，作品飘逸豪放，代表作《将进酒》《静夜思》。",
+    "summary": "唐代最伟大的浪漫主义诗人，被称为\"诗仙\"。作品飘逸豪放、想象奇绝，代表作有《将进酒》《蜀道难》《静夜思》等，是中国诗歌史上的一座高峰。",
     "summaryEn": "The greatest Romantic poet of the Tang dynasty, known as the \"Immortal Poet,\" celebrated for works like \"Bringing in the Wine\" and \"Quiet Night Thought.\"",
     "sourceIds": [
       "src-jts"
@@ -561,7 +561,7 @@
       "Military",
       "13th Century"
     ],
-    "summary": "蒙古帝国建立者，统一蒙古各部后发动大规模征服战争，建立了世界历史上最大的连续陆地帝国。",
+    "summary": "蒙古帝国的建立者。统一蒙古各部后发动大规模征服战争，建立了世界历史上最大的连续陆地帝国。其军事天才和组织能力对世界历史产生了深远影响。",
     "summaryEn": "Founder of the Mongol Empire, united the Mongol tribes and launched campaigns that created the largest contiguous land empire in world history.",
     "sourceIds": [
       "src-secret-history"
@@ -686,7 +686,7 @@
       "Military",
       "19th Century"
     ],
-    "summary": "法国军事家与皇帝，建立法兰西第一帝国，通过拿破仑战争深刻重塑了欧洲政治版图。",
+    "summary": "法国军事家和皇帝（1804-1814、1815年在位）。从炮兵军官崛起为法兰西第一帝国皇帝，颁布《拿破仑法典》，通过拿破仑战争深刻重塑了欧洲政治版图，最终兵败滑铁卢。",
     "summaryEn": "French military leader and Emperor, founded the First French Empire and reshaped the European political landscape through the Napoleonic Wars.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -728,7 +728,7 @@
       "Confucianism",
       "Ancient China"
     ],
-    "summary": "中国古代思想家、教育家，儒家学派创始人。",
+    "summary": "中国古代伟大的思想家、教育家，儒家学派创始人。删订六经，开创私人讲学之风，主张仁、义、礼、智、信。其思想体系深刻影响了东亚两千余年的政治、教育和社会伦理。",
     "summaryEn": "Ancient Chinese philosopher, founder of Confucianism.",
     "sourceIds": [
       "src-shiji"
@@ -763,7 +763,7 @@
       "Taoism",
       "Ancient China"
     ],
-    "summary": "中国古代哲学家，道家学派创始人，《道德经》作者。",
+    "summary": "中国古代哲学家，道家学派创始人，被尊为道教始祖。著有《道德经》五千言，主张\"道法自然\"和\"无为而治\"，其思想对后世中国哲学、政治和宗教产生深远影响。",
     "summaryEn": "Ancient Chinese philosopher, founder of Taoism, author of the Tao Te Ching.",
     "sourceIds": [
       "src-shiji"
@@ -798,7 +798,7 @@
       "Expansion",
       "Silk Road"
     ],
-    "summary": "西汉皇帝，开辟丝绸之路，奠定汉帝国鼎盛疆域。",
+    "summary": "西汉第七位皇帝刘彻（前141-前87年在位）。采纳董仲舒建议\"罢黜百家，独尊儒术\"，派张骞出使西域开辟丝绸之路，北击匈奴，奠定了汉帝国的鼎盛疆域和制度基础。",
     "summaryEn": "Western Han emperor who expanded territory and opened the Silk Road.",
     "sourceIds": [
       "src-shiji"
@@ -831,7 +831,7 @@
       "Han Dynasty",
       "Historiography"
     ],
-    "summary": "西汉史学家，《史记》作者。",
+    "summary": "西汉伟大的史学家、文学家，继父志著《史记》。年轻时游历天下，后因李陵之祸受宫刑，忍辱负重完成这部中国第一部纪传体通史，被鲁迅誉为\"史家之绝唱，无韵之离骚\"。",
     "summaryEn": "Han historian, author of Records of the Grand Historian.",
     "sourceIds": [
       "src-shiji"
@@ -866,7 +866,7 @@
       "Three Kingdoms",
       "Shu Han"
     ],
-    "summary": "三国时期蜀汉丞相，杰出的政治家和军事家。",
+    "summary": "三国时期蜀汉丞相，中国历史上杰出的政治家、军事家与发明家。辅佐刘备建立蜀汉，受遗诏托孤于刘禅，鞠躬尽瘁、死而后已，成为后世忠臣与智慧的象征。",
     "summaryEn": "Chancellor of Shu Han during the Three Kingdoms period.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -896,7 +896,7 @@
       "Ancient Greece",
       "Philosophy"
     ],
-    "summary": "古希腊哲学家，西方哲学奠基人之一。",
+    "summary": "古希腊哲学家，西方哲学奠基人之一。以对话问答法（苏格拉底法）探寻真理，主张\"认识你自己\"，被雅典法庭以腐蚀青年罪判处死刑，饮鸩而亡。其思想主要通过学生柏拉图的著作流传。",
     "summaryEn": "Ancient Greek philosopher, a founding figure of Western philosophy.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -927,7 +927,7 @@
       "Ancient Greece",
       "Philosophy"
     ],
-    "summary": "古希腊哲学家，苏格拉底的学生，亚里士多德的老师。",
+    "summary": "古希腊哲学家，苏格拉底的学生，亚里士多德的老师。创办雅典学院，著有《理想国》等对话录，提出\"理念论\"，构建了西方哲学的第一个完整体系。",
     "summaryEn": "Ancient Greek philosopher, student of Socrates and teacher of Aristotle.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -960,7 +960,7 @@
       "Philosophy",
       "Science"
     ],
-    "summary": "古希腊哲学家和科学家，亚历山大大帝的老师。",
+    "summary": "古希腊哲学家和科学家，亚历山大大帝的老师。其研究涵盖逻辑学、形而上学、伦理学、政治学、生物学等几乎所有领域，是古代世界最博学的思想家，影响了西方学术两千余年。",
     "summaryEn": "Ancient Greek philosopher and scientist, tutor to Alexander the Great.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -994,7 +994,7 @@
       "Macedon",
       "Conquest"
     ],
-    "summary": "马其顿国王，建立了横跨欧亚非的庞大帝国。",
+    "summary": "马其顿国王（前336-前323年在位），亚里士多德的学生。十年间率军征服波斯帝国、埃及至印度河流域，建立横跨欧亚非的庞大帝国，促进了希腊文化与东方文明的融合（希腊化时代）。",
     "summaryEn": "King of Macedon who built a vast empire spanning Europe, Asia, and Africa.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1027,7 +1027,7 @@
       "Mathematics",
       "Science"
     ],
-    "summary": "古希腊数学家、物理学家和工程师。",
+    "summary": "古希腊数学家、物理学家和工程师。发现浮力定律（阿基米德原理）和杠杆原理，发明螺旋提水器等，在罗马围攻叙拉古时设计了多种战争机械守城。",
     "summaryEn": "Ancient Greek mathematician, physicist, and engineer.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1060,7 +1060,7 @@
       "Empire",
       "Politics"
     ],
-    "summary": "罗马帝国的首位皇帝，开启了延续两百年的罗马和平。",
+    "summary": "罗马帝国的首位皇帝（前27-14年在位），凯撒的甥孙和养子。结束了长达百年的罗马内战，建立了元首制，开启了延续约两百年的\"罗马和平\"时期，重建了罗马城和帝国的行政体系。",
     "summaryEn": "First Emperor of Rome, inaugurating two centuries of Pax Romana.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1093,7 +1093,7 @@
       "Law",
       "Ancient Near East"
     ],
-    "summary": "巴比伦国王，颁布了《汉谟拉比法典》。",
+    "summary": "古巴比伦王国第六代国王（前1792-前1750年在位）。统一美索不达米亚，颁布了人类历史上最早的成文法典之一《汉谟拉比法典》，共计约282条，涵盖刑法、民法、商法等领域。",
     "summaryEn": "Babylonian king who promulgated the Code of Hammurabi.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1454,7 +1454,7 @@
       "France",
       "Military"
     ],
-    "summary": "法国民族英雄，在百年战争中领导法国军队。",
+    "summary": "法国民族英雄，百年战争中的传奇人物。一位17岁的农家少女自称受到神启，率法军解奥尔良之围，协助查理七世加冕，后被英军俘虏并作为异端处以火刑，1920年被天主教会封圣。",
     "summaryEn": "French national heroine who led the French army during the Hundred Years War.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1487,7 +1487,7 @@
       "Renaissance",
       "Technology"
     ],
-    "summary": "欧洲活字印刷术发明者，推动了知识的广泛传播。",
+    "summary": "德国发明家，欧洲活字印刷术的发明者。1455年印刷了著名的《古腾堡圣经》，使书籍的批量生产成为可能，被誉为推动知识传播和文艺复兴的关键人物之一。",
     "summaryEn": "Inventor of movable-type printing in Europe, revolutionizing the spread of knowledge.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1582,7 +1582,7 @@
       "Tang Dynasty",
       "Zhenguan Era"
     ],
-    "summary": "唐朝第二位皇帝，开创贞观之治。",
+    "summary": "唐朝第二位皇帝李世民（626-649年在位）。发动玄武门之变即位后，虚心纳谏、任用贤能，开创\"贞观之治\"，被后世视为中国帝王典范。",
     "summaryEn": "Second Tang emperor, inaugurated the prosperous Zhenguan era.",
     "sourceIds": [
       "src-jts"
@@ -1616,7 +1616,7 @@
       "Female Ruler",
       "Wu Zhou"
     ],
-    "summary": "中国历史上唯一的女皇帝，建立武周政权。",
+    "summary": "中国历史上唯一的女皇帝（690-705年在位）。唐高宗皇后，后自立为帝建立武周。推行科举制、破格用人，延续了唐朝盛世，身后留下无字碑供后人评说。",
     "summaryEn": "The only female emperor in Chinese history, founder of the Wu Zhou dynasty.",
     "sourceIds": [
       "src-jts"
@@ -1651,7 +1651,7 @@
       "Realism",
       "Chinese Literature"
     ],
-    "summary": "唐代伟大的现实主义诗人，被称为诗圣。",
+    "summary": "唐代伟大的现实主义诗人，被后世尊为\"诗圣\"。经历了安史之乱，诗作深刻反映了社会矛盾和人民苦难，代表作有《春望》《茅屋为秋风所破歌》等。",
     "summaryEn": "Great Tang realist poet, revered as the Sage of Poetry.",
     "sourceIds": [
       "src-jts"
@@ -1690,7 +1690,7 @@
       "Hangul",
       "Culture"
     ],
-    "summary": "朝鲜王朝第四代国王，创制了训民正音（韩文）。",
+    "summary": "朝鲜王朝第四代国王（1418-1450年在位）。创制了朝鲜文字训民正音（即今天的韩文），推动了科学技术和音乐的发展，被后世尊为朝鲜历史上最伟大的君主。",
     "summaryEn": "Fourth king of Joseon who created Hangul, the Korean alphabet.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1724,7 +1724,7 @@
       "Neo-Confucianism",
       "Philosophy"
     ],
-    "summary": "南宋理学家，儒学集大成者。",
+    "summary": "南宋理学家、哲学家，儒学集大成者。继承二程之学，构建了以\"理\"为核心的庞大哲学体系，其《四书章句集注》成为元明清科举考试的标准教材。",
     "summaryEn": "Southern Song Neo-Confucian philosopher who synthesized Confucian thought.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1757,7 +1757,7 @@
       "Kamakura Shogunate",
       "Samurai"
     ],
-    "summary": "镰仓幕府首位征夷大将军，开创了日本的幕府时代。",
+    "summary": "日本镰仓幕府首位征夷大将军。在源平合战中击败平氏家族，建立镰仓幕府，开创了日本长达近七百年的武家政权时代，天皇成为名义上的统治者。",
     "summaryEn": "First shogun of the Kamakura shogunate, establishing military rule in Japan.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1791,7 +1791,7 @@
       "Literature",
       "England"
     ],
-    "summary": "英国文学史上最伟大的剧作家和诗人。",
+    "summary": "英国文学史上最伟大的剧作家和诗人。创作了37部戏剧和154首十四行诗，代表作有《哈姆雷特》《罗密欧与朱丽叶》《麦克白》等，对英语文学和世界戏剧产生了无可比拟的影响。",
     "summaryEn": "The greatest playwright and poet in English literary history.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1824,7 +1824,7 @@
       "Astronomy",
       "Physics"
     ],
-    "summary": "意大利天文学家和物理学家，现代科学奠基人之一。",
+    "summary": "意大利天文学家和物理学家，现代科学奠基人之一。用望远镜观测天体支持哥白尼日心说，发现自由落体定律，被罗马教廷审判和软禁，但他的科学方法彻底改变了人类认识世界的方式。",
     "summaryEn": "Italian astronomer and physicist, a founding figure of modern science.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1857,7 +1857,7 @@
       "Physics",
       "Mathematics"
     ],
-    "summary": "英国物理学家和数学家，万有引力定律和经典力学的创立者。",
+    "summary": "英国物理学家、数学家、天文学家，科学革命的核心人物。发现万有引力定律和运动三大定律，发明微积分，著有《自然哲学的数学原理》，奠定了经典力学的基础。",
     "summaryEn": "English physicist and mathematician, formulator of universal gravitation and classical mechanics.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1890,7 +1890,7 @@
       "Golden Age",
       "England"
     ],
-    "summary": "英格兰女王，伊丽莎白时代的英国进入黄金时期。",
+    "summary": "英格兰女王（1558-1603年在位）。在位期间英格兰击败西班牙无敌舰队，进入文化繁荣的黄金时代（莎士比亚、培根等），确立英格兰为新教国家。",
     "summaryEn": "Queen of England whose reign marked a golden age of English culture and power.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1923,7 +1923,7 @@
       "Absolutism",
       "Versailles"
     ],
-    "summary": "法国波旁王朝国王，专制君主制的象征，在位72年。",
+    "summary": "法国波旁王朝国王（1643-1715年在位），被称为\"太阳王\"。在位72年是世界历史上在位时间最长的君主之一，兴建凡尔赛宫，将法国打造为欧洲头号强国，是专制君主制的象征。",
     "summaryEn": "King of France, the epitome of absolute monarchy, reigning for 72 years.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -1956,7 +1956,7 @@
       "Founder",
       "Hongwu"
     ],
-    "summary": "明朝开国皇帝，从贫苦农民成为一代帝王。",
+    "summary": "明朝开国皇帝（1368-1398年在位），出身贫苦农家。从乞丐、和尚到参加红巾军，最终推翻元朝建立大明，是中国历史上出身最低微的大一统王朝开国皇帝。",
     "summaryEn": "Founding emperor of the Ming dynasty, rising from impoverished peasant to emperor.",
     "sourceIds": [
       "src-ms"
@@ -1989,7 +1989,7 @@
       "Qing Dynasty",
       "Golden Age"
     ],
-    "summary": "清朝第四位皇帝，在位61年，开创康乾盛世。",
+    "summary": "清朝第四位皇帝玄烨（1661-1722年在位）。擒鳌拜、平三藩、收台湾、定噶尔丹，奠定了清朝二百余年疆域基础，开创了长达百余年的康乾盛世。",
     "summaryEn": "Fourth Qing emperor, reigning 61 years and inaugurating the High Qing era.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2023,7 +2023,7 @@
       "Golden Age",
       "Culture"
     ],
-    "summary": "清朝皇帝，在位60年，清朝版图和国力达到鼎盛。",
+    "summary": "清朝第六位皇帝弘历（1735-1796年在位）。在位六十年，清朝版图和国力达到鼎盛，编纂《四库全书》，但也因晚年怠政和六下江南耗竭国力埋下衰败隐患。",
     "summaryEn": "Qing emperor who brought the empire to its territorial and cultural zenith.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2254,7 +2254,7 @@
       "Reform",
       "Westernization"
     ],
-    "summary": "俄罗斯沙皇，大力推行西化改革。",
+    "summary": "俄罗斯沙皇（1682-1725年在位）。化名赴西欧学习，回国后大力推行西化改革，建立新都圣彼得堡，创建俄国海军，使落后的俄国跻身欧洲强国之列。",
     "summaryEn": "Russian tsar who aggressively westernized and modernized Russia.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2320,7 +2320,7 @@
       "Science",
       "Biology"
     ],
-    "summary": "英国生物学家，《物种起源》作者，提出了进化论。",
+    "summary": "英国博物学家，进化论的奠基人。乘坐贝格尔号环球考察五年，于1859年发表《物种起源》，提出自然选择学说，彻底改变了人类对生命起源和多样性的理解。",
     "summaryEn": "English biologist, author of On the Origin of Species, formulator of evolution by natural selection.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2353,7 +2353,7 @@
       "Philosophy",
       "Economics"
     ],
-    "summary": "德国哲学家和经济学家，《资本论》作者，马克思主义创始人。",
+    "summary": "德国哲学家、经济学家和社会学家。与恩格斯共同撰写《共产党宣言》，著有《资本论》，创立马克思主义理论，对19世纪以来的世界政治、经济和社会发展产生了深远影响。",
     "summaryEn": "German philosopher and economist, author of Das Kapital, founder of Marxism.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2386,7 +2386,7 @@
       "Civil War",
       "Emancipation"
     ],
-    "summary": "美国第16任总统，领导联邦赢得内战并废除奴隶制。",
+    "summary": "美国第16任总统（1861-1865年在任）。领导联邦政府在南北战争中获胜，颁布《解放奴隶宣言》废除奴隶制，内战结束后被暗杀，是美国历史上最伟大的总统之一。",
     "summaryEn": "16th US President who led the Union to victory in the Civil War and abolished slavery.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2420,7 +2420,7 @@
       "Unification",
       "Politics"
     ],
-    "summary": "普鲁士首相，通过铁血政策统一了德意志。",
+    "summary": "普鲁士王国首相和德意志帝国首任宰相。通过三次王朝战争统一德意志，推行\"铁血政策\"，建立欧洲第一个福利国家体系，是19世纪欧洲最具影响力的政治家之一。",
     "summaryEn": "Prussian chancellor who unified Germany through blood and iron.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2452,7 +2452,7 @@
       "Modernization",
       "Japan"
     ],
-    "summary": "日本第122代天皇，领导了明治维新。",
+    "summary": "日本第122代天皇（1867-1912年在位）。领导了明治维新，推行全面西化改革，使日本从一个封闭的封建国家迅速转变为近代工业化强国。",
     "summaryEn": "122nd Emperor of Japan who led the Meiji Restoration.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2486,7 +2486,7 @@
       "Republic of China",
       "Revolution"
     ],
-    "summary": "中华民国国父，领导辛亥革命推翻清朝。",
+    "summary": "中华民国国父，中国近代伟大的革命先行者。领导辛亥革命推翻延续两千余年的封建帝制，创立中华民国，提出三民主义学说。",
     "summaryEn": "Founding father of the Republic of China who led the Xinhai Revolution.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2520,7 +2520,7 @@
       "Independence",
       "Nonviolence"
     ],
-    "summary": "印度独立运动领袖，提倡非暴力抵抗。",
+    "summary": "印度民族独立运动领袖。倡导非暴力不合作运动对抗英国殖民统治，以绝食、和平抗议等方式唤醒民众，被誉为\"圣雄\"，最终领导印度于1947年获得独立。",
     "summaryEn": "Leader of Indian independence movement who advocated nonviolent resistance.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2552,7 +2552,7 @@
       "Physics",
       "Science"
     ],
-    "summary": "德国出生的物理学家，相对论的创立者。",
+    "summary": "德国出生的理论物理学家。1905年提出狭义相对论，1915年提出广义相对论，彻底改变了人类对时间、空间和引力的理解。1921年获诺贝尔物理学奖。",
     "summaryEn": "German-born physicist, formulator of the theory of relativity.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2586,7 +2586,7 @@
       "WWII",
       "Politics"
     ],
-    "summary": "英国首相，领导英国赢得了第二次世界大战。",
+    "summary": "英国政治家、作家，二战期间的英国首相。在纳粹德国威胁下以坚定的意志和鼓舞人心的演说领导英国人民坚持抵抗，与美苏结盟最终赢得战争胜利。",
     "summaryEn": "British Prime Minister who led Britain to victory in World War II.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2620,7 +2620,7 @@
       "Science",
       "Woman Scientist"
     ],
-    "summary": "波兰裔法国物理学家，放射性研究的先驱。",
+    "summary": "波兰裔法国物理学家和化学家。放射性研究的先驱，发现钋和镭两种放射性元素，是世界上第一位两次获得诺贝尔奖的科学家（物理学奖和化学奖各一次）。",
     "summaryEn": "Polish-French physicist, pioneer in the study of radioactivity.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2654,7 +2654,7 @@
       "Anti-Apartheid",
       "Peace"
     ],
-    "summary": "南非反种族隔离领袖和首任黑人总统。",
+    "summary": "南非反种族隔离革命的领袖。被囚禁27年后获释，成为南非首位黑人总统（1994-1999年），致力于种族和解，是20世纪最受尊敬的政治人物之一。",
     "summaryEn": "South African anti-apartheid leader and first Black president.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2688,7 +2688,7 @@
       "Art",
       "Italy"
     ],
-    "summary": "意大利文艺复兴雕塑家、画家，创作了大卫像和西斯廷天顶画。",
+    "summary": "意大利文艺复兴时期的雕塑家、画家和建筑师。创作了大卫雕像和西斯廷教堂天顶画《创世纪》，以对人体解剖的精妙描绘和宏大的艺术气魄成为文艺复兴艺术的巅峰代表。",
     "summaryEn": "Italian Renaissance sculptor and painter, creator of David and the Sistine Chapel ceiling.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2720,7 +2720,7 @@
       "Austria",
       "Music"
     ],
-    "summary": "奥地利作曲家，古典主义时期最伟大的音乐家之一。",
+    "summary": "奥地利作曲家，古典主义时期最伟大的音乐天才之一。35岁短暂的一生创作了600余部作品，包括歌剧《费加罗的婚礼》《魔笛》和大量交响曲、协奏曲，旋律优美而深刻。",
     "summaryEn": "Austrian composer, one of the greatest musicians of the Classical period.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2752,7 +2752,7 @@
       "Romantic",
       "Germany"
     ],
-    "summary": "德国作曲家，连接古典与浪漫主义的音乐巨人。",
+    "summary": "德国作曲家，连接古典主义与浪漫主义的音乐巨人。虽中年失聪仍坚持创作，创作了九部交响曲（包括《英雄》《命运》《合唱》）和32首钢琴奏鸣曲，将音乐表情推向前所未有的深度。",
     "summaryEn": "German composer, the musical giant bridging the Classical and Romantic eras.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2787,7 +2787,7 @@
       "Britain",
       "Empire"
     ],
-    "summary": "英国女王，维多利亚时代的英国成为日不落帝国。",
+    "summary": "英国女王（1837-1901年在位），在位64年是英国历史上最长的君主之一。维多利亚时代的英国成为\"日不落帝国\"，工业革命达到顶峰，在全球拥有最广阔的殖民地。",
     "summaryEn": "Queen of the United Kingdom, whose reign saw the British Empire at its zenith.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -2990,7 +2990,7 @@
       "Religious Tolerance",
       "India"
     ],
-    "summary": "莫卧儿帝国最伟大的皇帝，推行宗教宽容政策。",
+    "summary": "莫卧儿帝国最伟大的皇帝（1556-1605年在位）。推行宗教宽容政策，废除对非穆斯林的人头税，建立了高效的行政体系，将帝国的版图和国力推向鼎盛。",
     "summaryEn": "The greatest Mughal emperor, who promoted religious tolerance.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3023,7 +3023,7 @@
       "Mongol Empire",
       "China"
     ],
-    "summary": "元朝建立者，蒙古帝国的第五位大汗。",
+    "summary": "元朝建立者（1260-1294年在位），蒙古帝国第五位大汗。定都大都（今北京），灭南宋统一中国，创立行省制度，是第一个统治全中国的非汉族皇帝。",
     "summaryEn": "Founder of the Yuan dynasty, the fifth Khagan of the Mongol Empire.",
     "sourceIds": [
       "src-secret-history"
@@ -3126,7 +3126,7 @@
       "Japan",
       "Unification"
     ],
-    "summary": "江户幕府首任将军，统一日本并建立了持续260年的和平。",
+    "summary": "日本江户幕府首任征夷大将军。在关原之战中获胜后统一日本，建立江户幕府，开启长达260余年的和平时代（江户时代），对日本政治体制、社会和文化的形成产生了深远影响。",
     "summaryEn": "First shogun of the Edo shogunate, unified Japan and established 260 years of peace.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3193,7 +3193,7 @@
       "Golden Age",
       "Law"
     ],
-    "summary": "奥斯曼帝国第十位苏丹，帝国在他的统治下达到鼎盛。",
+    "summary": "奥斯曼帝国第十位苏丹（1520-1566年在位）。帝国在他的统治下达到鼎盛，版图横跨欧亚非三洲，以完善的法律体系著称（被称为\"立法者\"），是奥斯曼历史上最伟大的君主。",
     "summaryEn": "Tenth Sultan of the Ottoman Empire, under whom the empire reached its zenith.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3226,7 +3226,7 @@
       "Enlightenment",
       "Reform"
     ],
-    "summary": "俄国女皇，在位期间俄国成为欧洲列强之一。",
+    "summary": "俄国女皇（1762-1796年在位）。原为德意志公主，通过政变推翻丈夫彼得三世后即位。在位期间俄国领土大幅扩张，成为欧洲列强之一，推行开明专制，与伏尔泰等启蒙思想家交好。",
     "summaryEn": "Empress of Russia who made Russia a major European power.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3260,7 +3260,7 @@
       "Military",
       "Enlightenment"
     ],
-    "summary": "普鲁士国王，将普鲁士打造为欧洲军事强国。",
+    "summary": "普鲁士国王（1740-1786年在位）。通过七年战争等军事扩张将普鲁士打造为欧洲军事强国，同时也是启蒙运动的代表人物，与伏尔泰长期通信，是一位\"哲学家国王\"。",
     "summaryEn": "King of Prussia who transformed Prussia into a European military power.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3291,7 +3291,7 @@
       "French Revolution",
       "Reign of Terror"
     ],
-    "summary": "法国大革命领袖，雅各宾派核心人物。",
+    "summary": "法国大革命时期雅各宾派领袖。以其极端的革命理想和廉洁著称，在恐怖统治时期掌握了巨大权力，最终在热月政变中被推翻并送上断头台。",
     "summaryEn": "Leader of the French Revolution and central figure in the Jacobin movement.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3326,7 +3326,7 @@
       "Independence",
       "Liberation"
     ],
-    "summary": "拉丁美洲独立运动领袖，解放了多个南美国家。",
+    "summary": "拉丁美洲独立运动领袖，被誉为\"解放者\"。领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚等国摆脱西班牙殖民统治的独立战争。",
     "summaryEn": "Leader of Latin American independence, liberator of multiple South American nations.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3360,7 +3360,7 @@
       "Self-Strengthening",
       "Diplomacy"
     ],
-    "summary": "晚清重臣，主导洋务运动和中国近代外交。",
+    "summary": "晚清重臣，淮军和北洋水师的创建者。主导洋务运动三十年，创办江南制造总局等近代工业，代表清廷签订诸多不平等条约，是中国近代史上最复杂也最具争议的政治人物之一。",
     "summaryEn": "Leading Qing statesman who spearheaded the Self-Strengthening Movement and late Qing diplomacy.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3427,7 +3427,7 @@
       "USSR",
       "Communism"
     ],
-    "summary": "俄国革命领袖，苏联的缔造者。",
+    "summary": "俄国革命家，布尔什维克党的创始人。领导1917年十月革命推翻临时政府，建立世界上第一个社会主义国家苏联，对20世纪国际共产主义运动产生决定性影响。",
     "summaryEn": "Leader of the Russian Revolution and founder of the Soviet Union.",
     "sourceIds": [],
     "birthDatePrecision": "year",
@@ -3514,7 +3514,7 @@
       "Han Dynasty",
       "Founding Emperor"
     ],
-    "summary": "汉高祖，出身平民，在秦末农民起义中崛起，击败项羽建立汉朝。",
+    "summary": "汉高祖，西汉开国皇帝（前202-前195年在位）。出身平民，在秦末农民起义中崛起，与项羽争霸四年后击败对手建立汉朝，奠定了四百年大汉基业。",
     "summaryEn": "Emperor Gaozu of Han, who rose from peasant origins during the Qin collapse to defeat Xiang Yu and found the Han Dynasty.",
     "occupations": [],
     "sourceIds": [],
@@ -3813,7 +3813,7 @@
       "Navigation",
       "Colonization"
     ],
-    "summary": "意大利航海家，1492年横渡大西洋发现美洲大陆，开启了欧洲殖民扩张的大航海时代。",
+    "summary": "意大利航海家，在西班牙王室资助下四次横渡大西洋。1492年首次到达美洲，虽未意识到发现了新大陆，但其航行开启了欧洲对美洲的殖民时代，彻底改变了世界历史进程。",
     "summaryEn": "Italian navigator who crossed the Atlantic in 1492 and reached the Americas, inaugurating the Age of Discovery and European colonization.",
     "occupations": [],
     "sourceIds": [],
@@ -3846,7 +3846,7 @@
       "Women",
       "Nobel"
     ],
-    "summary": "波兰裔法国科学家，放射性研究的先驱，历史上唯一两次获得不同科学领域诺贝尔奖的人。",
+    "summary": "波兰裔法国物理学家和化学家。放射性研究的先驱，发现钋和镭两种放射性元素，是世界上第一位两次获得诺贝尔奖的科学家（物理学奖和化学奖各一次）。",
     "summaryEn": "Polish-French scientist and pioneer of radioactivity research, the only person to win Nobel Prizes in two different scientific fields.",
     "occupations": [],
     "sourceIds": [],
@@ -3908,7 +3908,7 @@
       "Revolution",
       "South America"
     ],
-    "summary": "南美独立运动的领袖，领导委内瑞拉、哥伦比亚、秘鲁、玻利维亚等国脱离西班牙统治。",
+    "summary": "拉丁美洲独立运动领袖，被誉为\"解放者\"。领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚等国摆脱西班牙殖民统治的独立战争。",
     "summaryEn": "Leader of South American independence movements who freed Venezuela, Colombia, Peru, Bolivia, and others from Spanish rule.",
     "occupations": [],
     "sourceIds": [],
@@ -6393,7 +6393,7 @@
       "Three Kingdoms",
       "Shu Han"
     ],
-    "summary": "三国时期蜀汉丞相，中国历史上最著名的谋略家和政治家之一，以'鞠躬尽瘁，死而后已'的精神流芳百世。",
+    "summary": "三国时期蜀汉丞相，中国历史上杰出的政治家、军事家与发明家。辅佐刘备建立蜀汉，受遗诏托孤于刘禅，鞠躬尽瘁、死而后已，成为后世忠臣与智慧的象征。",
     "summaryEn": "Chancellor of Shu Han during the Three Kingdoms period, one of China's most celebrated strategists and statesmen, remembered for his spirit of 'giving one's all until death.'",
     "description": "诸葛亮隐居隆中时被刘备三顾茅庐请出山。他为刘备规划了'隆中对'——占据荆益二州联吴抗曹的战略蓝图。赤壁之战中他出使东吴促成孙刘联盟。刘备去世后他受遗诏辅佐后主刘禅，总揽朝政。他平定南中叛乱，六出祁山北伐中原——但每次都因粮草不继而被迫退兵。234年在五丈原军中病逝，真正做到了'鞠躬尽瘁，死而后已'。",
     "descriptionEn": "Zhuge Liang was living in seclusion at Longzhong when Liu Bei visited him three times to recruit him. He devised the 'Longzhong Plan' — a strategic blueprint to occupy Jing and Yi provinces and ally with Wu against Cao Wei. At the Battle of Red Cliffs, he brokered the Sun-Liu alliance. After Liu Bei's death, he governed as regent for the young Liu Shan. He pacified the southern rebellion and launched six northern expeditions against Wei from Mount Qi — each time forced to retreat by supply shortages. He died of illness at Wuzhang Plains in 234, truly embodying his vow to 'give his all until his last breath.'",
@@ -6427,7 +6427,7 @@
       "Three Kingdoms",
       "Cao Wei"
     ],
-    "summary": "东汉末年杰出的军事家、政治家和诗人，三国曹魏政权的奠基者，'治世之能臣，乱世之奸雄'。",
+    "summary": "东汉末年杰出的政治家、军事家、文学家。挟天子以令诸侯，统一中国北方，为曹魏政权奠基。亦善诗文，与子曹丕、曹植并称\"三曹\"，开创建安文学。",
     "summaryEn": "Outstanding military leader, statesman, and poet of the late Eastern Han, founder of the Cao Wei state, described as 'a capable minister in peaceful times, a cunning hero in chaotic times.'",
     "description": "曹操出身宦官家庭，黄巾起义时崭露头角。196年他迎汉献帝于许昌——'挟天子以令诸侯'——占据了政治上的主动权。官渡之战以少胜多击败袁绍，统一了北方。但他南征时在赤壁被孙刘联军击败，三国鼎立的格局由此形成。曹操不仅是军事家——他的诗作《短歌行》《观沧海》《龟虽寿》是建安文学的代表，慷慨悲凉、气韵沉雄。",
     "descriptionEn": "Born to a eunuch family, Cao Cao rose to prominence during the Yellow Turban Rebellion. In 196, he took Emperor Xian under his protection in Xuchang — 'holding the emperor to command the feudal lords' — gaining political initiative. He defeated Yuan Shao at the Battle of Guandu against overwhelming odds, unifying the north. But his southern campaign was thwarted at Red Cliffs by the Sun-Liu alliance, establishing the Three Kingdoms pattern. Cao Cao was not only a military leader — his poems such as 'Short Song Style,' 'Gazing at the Blue Sea,' and 'Though the Tortoise Lives Long' are highpoints of Jian'an literature: heroic, somber, and powerful.",
@@ -6457,7 +6457,7 @@
       "National Hero",
       "Southern Song"
     ],
-    "summary": "南宋抗金名将，中国历史上最著名的民族英雄之一，以'精忠报国'的精神和冤死风波亭的悲剧闻名。",
+    "summary": "南宋抗金名将、民族英雄。率领岳家军北伐，大败金军于郾城、颍昌，后被宋高宗和秦桧以十二道金牌召回，以\"莫须有\"罪名冤杀。",
     "summaryEn": "Southern Song general who led the resistance against Jin invaders, one of China's most celebrated national heroes, remembered for his 'serve the country with utmost loyalty' spirit and tragic execution.",
     "description": "岳飞在北宋灭亡后加入抗金队伍，率领岳家军屡次击败金军——'撼山易，撼岳家军难'。他收复了大量失地，一度打到距故都开封仅四十五里的朱仙镇。但宋高宗和宰相秦桧一心求和，以十二道金牌将他从前线召回，以'莫须有'的罪名在风波亭处死。二十年后平反，至今西湖边的岳王庙香火不断——秦桧夫妇的铁铸跪像世世代代受人唾弃。",
     "descriptionEn": "After the fall of Northern Song, Yue Fei joined the resistance and led the 'Yue Family Army' to repeated victories over the Jin — 'It is easier to shake a mountain than the Yue army.' He recovered vast territories and once advanced to Zhuxian Town, just 22 kilometers from the old capital Kaifeng. But Emperor Gaozong and Chancellor Qin Hui, bent on peace, recalled him from the front with twelve imperial gold tablets and executed him at Wind and Wave Pavilion on the fabricated charge of 'maybe there was something.' He was posthumously rehabilitated 20 years later; his temple by West Lake in Hangzhou still receives constant visitors — while the iron kneeling statues of Qin Hui and his wife are cursed by generation after generation.",
@@ -6646,7 +6646,7 @@
       "Ming Dynasty",
       "Heart-Mind School"
     ],
-    "summary": "明代哲学家、军事家和政治家，心学的集大成者，提出'知行合一'和'致良知'的思想。",
+    "summary": "明代哲学家、军事家，心学集大成者。提出\"致良知\"和\"知行合一\"学说，平定宁王之乱，其思想影响远及日本、朝鲜，对东亚近代思想启蒙产生重要作用。",
     "summaryEn": "Ming dynasty philosopher, general, and statesman who synthesized the School of Heart-Mind, proposing 'unity of knowledge and action' and 'extension of innate knowledge.'",
     "description": "王阳明既平定过宁王之乱，又镇压过西南民变——但他在中国思想史上的地位来自他的哲学。他反对朱熹的'格物致知'——认为心即是理，真理不在外部而在每个人的心中。'知行合一'意味着真正的知必然包含行——知道孝顺却不行孝，就不是真正的知。他的思想不仅深刻影响了明清两代的儒学，还在日本明治维新中发挥了重要作用，至今仍是东亚文化的重要思想资源。",
     "descriptionEn": "Wang Yangming suppressed the Prince of Ning's rebellion and quelled southwestern uprisings — but his place in Chinese intellectual history rests on his philosophy. Against Zhu Xi's 'investigation of things,' he held that the heart-mind is principle itself and truth resides within, not externally. His 'unity of knowledge and action' means genuine knowledge necessarily includes action — claiming to know filial piety without practicing it is not real knowledge. His thought not only profoundly shaped Ming-Qing Confucianism but also played a key role in Japan's Meiji Restoration, remaining an important intellectual resource in East Asian culture.",
@@ -6902,7 +6902,7 @@
       "Mughal",
       "Religious Tolerance"
     ],
-    "summary": "莫卧儿帝国最伟大的皇帝，以宗教宽容和文化融合政策创建了跨越印度教与伊斯兰教鸿沟的统一帝国。",
+    "summary": "莫卧儿帝国最伟大的皇帝（1556-1605年在位）。推行宗教宽容政策，废除对非穆斯林的人头税，建立了高效的行政体系，将帝国的版图和国力推向鼎盛。",
     "summaryEn": "The greatest Mughal emperor who created a unified empire bridging the Hindu-Muslim divide through religious tolerance and cultural synthesis.",
     "description": "阿克巴13岁即位，但迅速证明了自己是军事和管理天才。他征服了印度次大陆的大部分地区，但真正的革命性在于他的治理理念：他废除了对非穆斯林征收的'吉兹亚'人头税，娶了印度教拉杰普特公主，邀请各宗教代表在宫廷讨论神学，甚至创建了一种综合各宗教的'神一教'。他推动波斯、印度和中亚文化的融合——莫卧儿细密画和建筑风格在他的时期达到巅峰。",
     "descriptionEn": "Akbar ascended at 13 but quickly proved a military and administrative genius. He conquered most of the Indian subcontinent, but his true revolutionary contribution lay in his governance philosophy: he abolished the jizya tax on non-Muslims, married Hindu Rajput princesses, invited representatives of all religions to debate theology at court, and even created a syncretic 'Divine Faith.' He fostered a fusion of Persian, Indian, and Central Asian cultures — Mughal miniature painting and architecture reached their zenith under his patronage.",
@@ -7143,7 +7143,7 @@
       "Empire",
       "Macedon"
     ],
-    "summary": "马其顿国王，古代世界最伟大的征服者之一，在13年间建立了横跨欧亚非三大洲的庞大帝国。",
+    "summary": "马其顿国王（前336-前323年在位），亚里士多德的学生。十年间率军征服波斯帝国、埃及至印度河流域，建立横跨欧亚非的庞大帝国，促进了希腊文化与东方文明的融合（希腊化时代）。",
     "summaryEn": "King of Macedon and one of the greatest conquerors of antiquity, who built a vast empire spanning three continents in just thirteen years. Tutored by Aristotle, he never lost a battle.",
     "description": "马其顿国王，古代世界最伟大的征服者之一，在13年间建立了横跨欧亚非三大洲的庞大帝国。",
     "descriptionEn": "King of Macedon and one of the greatest conquerors of antiquity, who built a vast empire spanning three continents in just thirteen years. Tutored by Aristotle, he never lost a battle.",
@@ -7439,7 +7439,7 @@
       "Independence",
       "Liberator"
     ],
-    "summary": "南美独立运动的军事和政治领袖，领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚的独立。",
+    "summary": "拉丁美洲独立运动领袖，被誉为\"解放者\"。领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚等国摆脱西班牙殖民统治的独立战争。",
     "summaryEn": "Military and political leader of South American independence, who liberated Venezuela, Colombia, Ecuador, Peru, and Bolivia.",
     "description": "南美独立运动的军事和政治领袖，领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚的独立。",
     "descriptionEn": "Military and political leader of South American independence, who liberated Venezuela, Colombia, Ecuador, Peru, and Bolivia.",
@@ -9096,7 +9096,7 @@
       "Evolution",
       "Biology"
     ],
-    "summary": "英国博物学家，以自然选择为核心的进化论的提出者，《物种起源》的作者。",
+    "summary": "英国博物学家，进化论的奠基人。乘坐贝格尔号环球考察五年，于1859年发表《物种起源》，提出自然选择学说，彻底改变了人类对生命起源和多样性的理解。",
     "summaryEn": "British naturalist who proposed the theory of evolution by natural selection, author of 'On the Origin of Species.'",
     "description": "英国博物学家，以自然选择为核心的进化论的提出者，《物种起源》的作者。",
     "descriptionEn": "British naturalist who proposed the theory of evolution by natural selection, author of 'On the Origin of Species.'",
@@ -9310,7 +9310,7 @@
       "Radioactivity",
       "Nobel"
     ],
-    "summary": "波兰裔法国物理化学家，放射性研究的开创者，至今唯一在两门不同科学领域获诺贝尔奖的人。",
+    "summary": "波兰裔法国物理学家和化学家。放射性研究的先驱，发现钋和镭两种放射性元素，是世界上第一位两次获得诺贝尔奖的科学家（物理学奖和化学奖各一次）。",
     "summaryEn": "Polish-born French physicist-chemist and pioneer of radioactivity research, still the only person to win Nobel Prizes in two different sciences.",
     "description": "波兰裔法国物理化学家，放射性研究的开创者，至今唯一在两门不同科学领域获诺贝尔奖的人。",
     "descriptionEn": "Polish-born French physicist-chemist and pioneer of radioactivity research, still the only person to win Nobel Prizes in two different sciences.",
@@ -9404,7 +9404,7 @@
       "Qin",
       "Empire"
     ],
-    "summary": "中国历史上第一位统一天下的皇帝，建立了中国第一个中央集权的帝国，以兵马俑和焚书坑儒闻名。",
+    "summary": "中国历史上第一位皇帝（前221-前210年在位），姓嬴名政。灭六国、统一文字度量衡、修筑长城、建立中央集权制度，奠定了中国两千余年帝制的基本框架。",
     "summaryEn": "The first emperor of a unified China who established the first centralized empire, known for the Terracotta Army and the burning of books and burying of scholars.",
     "description": "中国历史上第一位统一天下的皇帝，建立了中国第一个中央集权的帝国，以兵马俑和焚书坑儒闻名。",
     "descriptionEn": "The first emperor of a unified China who established the first centralized empire, known for the Terracotta Army and the burning of books and burying of scholars.",
@@ -10204,7 +10204,7 @@
       "Yuan Dynasty",
       "Mongol"
     ],
-    "summary": "元朝的建立者，将蒙古帝国带入了中国王朝体系，接待了马可·波罗。",
+    "summary": "元朝建立者（1260-1294年在位），蒙古帝国第五位大汗。定都大都（今北京），灭南宋统一中国，创立行省制度，是第一个统治全中国的非汉族皇帝。",
     "summaryEn": "Founder of the Yuan Dynasty who integrated the Mongol Empire into the Chinese dynastic system and hosted Marco Polo.",
     "description": "元朝的建立者，将蒙古帝国带入了中国王朝体系，接待了马可·波罗。",
     "descriptionEn": "Founder of the Yuan Dynasty who integrated the Mongol Empire into the Chinese dynastic system and hosted Marco Polo.",
@@ -10441,7 +10441,7 @@
       "Language",
       "Korea"
     ],
-    "summary": "朝鲜王朝第四代国王，创造了韩文（训民正音），是朝鲜历史上最受尊敬的君主。",
+    "summary": "朝鲜王朝第四代国王（1418-1450年在位）。创制了朝鲜文字训民正音（即今天的韩文），推动了科学技术和音乐的发展，被后世尊为朝鲜历史上最伟大的君主。",
     "summaryEn": "The fourth king of the Joseon Dynasty who created Hangul (the Korean alphabet), the most revered monarch in Korean history.",
     "description": "朝鲜王朝第四代国王，创造了韩文（训民正音），是朝鲜历史上最受尊敬的君主。",
     "descriptionEn": "The fourth king of the Joseon Dynasty who created Hangul (the Korean alphabet), the most revered monarch in Korean history.",
@@ -11501,7 +11501,7 @@
       "Republic",
       "Beiyang"
     ],
-    "summary": "清末北洋新军的缔造者，民国首任正式大总统，后短暂称帝失败。",
+    "summary": "清末北洋新军的缔造者和实际掌控者。辛亥革命后迫使清帝退位，成为民国首任正式大总统。1915年复辟帝制自称皇帝，遭到全国反对，数月后被迫取消，在病愤中去世。",
     "summaryEn": "Creator of the Beiyang New Army in the late Qing, the first formal president of the Republic of China, who briefly and unsuccessfully declared himself emperor.",
     "description": "清末北洋新军的缔造者，民国首任正式大总统，后短暂称帝失败。",
     "descriptionEn": "Creator of the Beiyang New Army in the late Qing, the first formal president of the Republic of China, who briefly and unsuccessfully declared himself emperor.",
@@ -11588,7 +11588,7 @@
       "Classical",
       "Composition"
     ],
-    "summary": "奥地利作曲家，以惊人的天才在35年生命中创作了600余部作品，涵盖交响曲、歌剧和室内乐。",
+    "summary": "奥地利作曲家，古典主义时期最伟大的音乐天才之一。35岁短暂的一生创作了600余部作品，包括歌剧《费加罗的婚礼》《魔笛》和大量交响曲、协奏曲，旋律优美而深刻。",
     "summaryEn": "Austrian composer who, with prodigious genius, created over 600 works in 35 years spanning symphonies, operas, and chamber music.",
     "description": "奥地利作曲家，以惊人的天才在35年生命中创作了600余部作品，涵盖交响曲、歌剧和室内乐。",
     "descriptionEn": "Austrian composer who, with prodigious genius, created over 600 works in 35 years spanning symphonies, operas, and chamber music.",
@@ -11620,7 +11620,7 @@
       "Romantic",
       "Composition"
     ],
-    "summary": "德国作曲家，在逐渐失聪中创造了最具革命性的音乐，将古典音乐推向浪漫主义的门槛。",
+    "summary": "德国作曲家，连接古典主义与浪漫主义的音乐巨人。虽中年失聪仍坚持创作，创作了九部交响曲（包括《英雄》《命运》《合唱》）和32首钢琴奏鸣曲，将音乐表情推向前所未有的深度。",
     "summaryEn": "German composer who, while progressively going deaf, created the most revolutionary music of his era, pushing classical music to the threshold of Romanticism.",
     "description": "德国作曲家，在逐渐失聪中创造了最具革命性的音乐，将古典音乐推向浪漫主义的门槛。",
     "descriptionEn": "German composer who, while progressively going deaf, created the most revolutionary music of his era, pushing classical music to the threshold of Romanticism.",
@@ -13164,7 +13164,7 @@
       "Relativity",
       "Nobel"
     ],
-    "summary": "德裔物理学家，相对论的创立者，20世纪科学的最具标志性人物，E=mc2公式的作者。",
+    "summary": "德国出生的理论物理学家。1905年提出狭义相对论，1915年提出广义相对论，彻底改变了人类对时间、空间和引力的理解。1921年获诺贝尔物理学奖。",
     "summaryEn": "German-born physicist, creator of relativity theory, and the most iconic figure of 20th-century science, author of E=mc2.",
     "description": "德裔物理学家，相对论的创立者，20世纪科学的最具标志性人物，E=mc2公式的作者。",
     "descriptionEn": "German-born physicist, creator of relativity theory, and the most iconic figure of 20th-century science, author of E=mc2.",
@@ -15888,7 +15888,7 @@
       "Dictator",
       "Ancient Rome"
     ],
-    "summary": "罗马共和国末期的政治家、军事家、作家，其逝世标志着罗马共和国的终结。",
+    "summary": "罗马共和国末期最伟大的军事统帅和政治家。征服高卢全境（今法国、比利时），跨过卢比孔河发动内战击败庞培，成为终身独裁官，为罗马从共和国走向帝国奠定基础。公元前44年被元老院刺杀。",
     "summaryEn": "Politician, general, and author at the end of the Roman Republic, whose death marked the end of the Roman Republic.",
     "sourceIds": [
       "src-wiki"
@@ -15960,7 +15960,7 @@
       "Records of the Grand Historian",
       "Historiography"
     ],
-    "summary": "西汉史学家，《史记》作者，中国史学的奠基人。",
+    "summary": "西汉伟大的史学家、文学家，继父志著《史记》。年轻时游历天下，后因李陵之祸受宫刑，忍辱负重完成这部中国第一部纪传体通史，被鲁迅誉为\"史家之绝唱，无韵之离骚\"。",
     "summaryEn": "Western Han historian, author of \"Records of the Grand Historian\", founder of Chinese historiography.",
     "sourceIds": [
       "src-shiji"
@@ -15996,7 +15996,7 @@
       "Papermaking",
       "Four Great Inventions"
     ],
-    "summary": "东汉发明家，改进造纸术，被誉为纸圣。",
+    "summary": "东汉宦官、发明家，被尊为\"纸圣\"。总结前人经验改进造纸术，用树皮、麻头、破布等原料制造出轻便价廉的纸张，这一发明后来传遍世界，深刻改变了人类文明的记录和传播方式。",
     "summaryEn": "Eastern Han inventor, improved papermaking technology, revered as the Sage of Paper.",
     "sourceIds": [
       "src-houhanshu"
@@ -16031,7 +16031,7 @@
       "Movable Type",
       "Four Great Inventions"
     ],
-    "summary": "北宋发明家，活字印刷术的发明者。",
+    "summary": "北宋发明家。于庆历年间发明活字印刷术，用胶泥刻字后再用火烧硬，排版印刷，是世界上最早的活字印刷技术，比德国古腾堡的活字印刷早约四百年。",
     "summaryEn": "Northern Song inventor, inventor of movable type printing.",
     "sourceIds": [
       "src-songshi"
@@ -16284,7 +16284,7 @@
       "Neo-Confucianism",
       "Confucianism"
     ],
-    "summary": "南宋哲学家、理学家，理学集大成者。",
+    "summary": "南宋理学家、哲学家，儒学集大成者。继承二程之学，构建了以\"理\"为核心的庞大哲学体系，其《四书章句集注》成为元明清科举考试的标准教材。",
     "summaryEn": "Southern Song philosopher and Neo-Confucian, synthesizer of Neo-Confucianism.",
     "sourceIds": [
       "src-songshi"
@@ -16320,7 +16320,7 @@
       "School of Mind",
       "Confucianism"
     ],
-    "summary": "明代哲学家、军事家，心学集大成者。",
+    "summary": "明代哲学家、军事家，心学集大成者。提出\"致良知\"和\"知行合一\"学说，平定宁王之乱，其思想影响远及日本、朝鲜，对东亚近代思想启蒙产生重要作用。",
     "summaryEn": "Ming dynasty philosopher and military strategist, synthesizer of the School of Mind.",
     "sourceIds": [
       "src-mingshi"
@@ -16357,7 +16357,7 @@
       "Three Kingdoms",
       "Wei"
     ],
-    "summary": "东汉末年政治家、军事家、诗人，魏国奠基人。",
+    "summary": "东汉末年杰出的政治家、军事家、文学家。挟天子以令诸侯，统一中国北方，为曹魏政权奠基。亦善诗文，与子曹丕、曹植并称\"三曹\"，开创建安文学。",
     "summaryEn": "Late Eastern Han politician, militarist, and poet, founder of the Cao Wei state.",
     "sourceIds": [
       "src-shiji"
@@ -16465,7 +16465,7 @@
       "Resistance against Jin",
       "National Hero"
     ],
-    "summary": "南宋军事家、民族英雄，抗金名将。",
+    "summary": "南宋抗金名将、民族英雄。率领岳家军北伐，大败金军于郾城、颍昌，后被宋高宗和秦桧以十二道金牌召回，以\"莫须有\"罪名冤杀。",
     "summaryEn": "Southern Song militarist and national hero, famous general resisting the Jin dynasty.",
     "sourceIds": [
       "src-songshi"
@@ -16501,7 +16501,7 @@
       "Resistance against Qing",
       "Recovered Taiwan"
     ],
-    "summary": "明代军事家、民族英雄，收复台湾。",
+    "summary": "明末清初军事家、民族英雄。率军东渡台湾海峡，驱逐荷兰殖民者，收复台湾，建立了明郑政权，被两岸人民共同尊为民族英雄。",
     "summaryEn": "Ming dynasty militarist and national hero, recovered Taiwan from Dutch rule.",
     "sourceIds": [
       "src-mingshi"
@@ -16573,7 +16573,7 @@
       "Xinhai Revolution",
       "Republic of China"
     ],
-    "summary": "中国近现代革命家、政治家，辛亥革命领袖。",
+    "summary": "中华民国国父，中国近代伟大的革命先行者。领导辛亥革命推翻延续两千余年的封建帝制，创立中华民国，提出三民主义学说。",
     "summaryEn": "Modern Chinese revolutionary and politician, leader of the Xinhai Revolution.",
     "sourceIds": [
       "src-wiki"
@@ -19087,7 +19087,7 @@
       "Russia",
       "Enlightenment"
     ],
-    "summary": "俄罗斯帝国女皇，发动政变夺取政权，推行开明专制，将俄罗斯打造为欧洲一流强国。",
+    "summary": "俄国女皇（1762-1796年在位）。原为德意志公主，通过政变推翻丈夫彼得三世后即位。在位期间俄国领土大幅扩张，成为欧洲列强之一，推行开明专制，与伏尔泰等启蒙思想家交好。",
     "summaryEn": "Empress of Russia who seized power through a coup, enacted enlightened absolutism, and established Russia as a premier European power.",
     "description": "叶卡捷琳娜原为德国小公国的公主，嫁给彼得三世后在一场政变中废黜丈夫夺取皇位。她与伏尔泰和狄德罗通信讨论启蒙思想，但俄罗斯的现实使她的改革有限度。她在位期间俄罗斯领土大幅扩张——吞并克里米亚、瓜分波兰（三次瓜分后波兰从地图上消失）、在黑海取得出海口。她大力赞助艺术和教育——建立斯莫尔尼女子学院和艾尔米塔什博物馆。她的统治被认为是俄罗斯的黄金时代之一——尽管农奴制在这一时期反而更加固化。",
     "descriptionEn": "Catherine was a minor German princess who, after marrying Peter III, deposed her husband in a coup and seized the throne. She corresponded with Voltaire and Diderot on Enlightenment ideas, though Russian realities limited her reforms. Her reign saw dramatic territorial expansion — annexing Crimea, partitioning Poland (which disappeared from the map after three partitions), and gaining access to the Black Sea. She was a great patron of arts and education — founding the Smolny Institute for noble girls and the Hermitage Museum. Her reign is regarded as a golden age of Russia — despite the paradox that serfdom actually tightened during her rule.",
@@ -20322,7 +20322,7 @@
       "National Hero",
       "Qing Dynasty"
     ],
-    "summary": "清朝名臣，虎门销烟的指挥者，中国近代「开眼看世界的第一人」。",
+    "summary": "清朝名臣，中国近代\"开眼看世界的第一人\"。1839年受命为钦差大臣赴广东查禁鸦片，在虎门缴获并销毁大量鸦片，直接引发了第一次鸦片战争。",
     "summaryEn": "Qing minister who directed the destruction of opium at Humen; the 'first Chinese to open his eyes to the world' in the modern era.",
     "description": "林则徐被道光皇帝任命为钦差大臣前往广州禁烟。他抵达后迅速行动——收缴英国商人的鸦片两万余箱，在虎门海滩全部销毁（历时23天）。这一壮举使他成为中华民族抵抗外侮的象征——但也成为英国发动鸦片战争的借口。战争失败后他被贬新疆，在伊犁他兴修水利、推广坎儿井——至今新疆仍有「林公渠」。他在广州期间组织翻译西方报刊和书籍——《四洲志》——使他成为近代中国系统了解西方的第一人。",
     "descriptionEn": "Lin Zexu was appointed Imperial Commissioner and dispatched to Guangzhou to suppress the opium trade. He acted with startling speed — confiscating over 20,000 chests of opium from British merchants and destroying them all on Humen Beach over 23 days. This heroic act made him a national symbol of resistance — and also Britain's casus belli for the Opium War. After China's defeat, he was exiled to Xinjiang, where he built irrigation works and promoted karez wells — 'Lin's Canal' persists to this day. In Guangzhou, he had organized the translation of Western newspapers and books — notably 'A Gazetteer of Four Continents' — making him modern China's first systematic student of the West.",
@@ -20922,7 +20922,7 @@
       "Inventor",
       "Han Dynasty"
     ],
-    "summary": "东汉宦官，105年改进了造纸术并使其实用化，这项发明彻底改变了人类文明的进程。",
+    "summary": "东汉宦官、发明家，被尊为\"纸圣\"。总结前人经验改进造纸术，用树皮、麻头、破布等原料制造出轻便价廉的纸张，这一发明后来传遍世界，深刻改变了人类文明的记录和传播方式。",
     "summaryEn": "Eastern Han eunuch who refined papermaking into a practical technology in 105 CE, an invention that fundamentally altered the course of human civilization.",
     "description": "蔡伦是汉和帝时期的宦官，官至尚方令——掌管宫廷器物制作。在他之前中国已有原始纸张（以麻纤维制造），但粗糙、昂贵、不宜书写。蔡伦于105年改进了造纸工艺——使用树皮、麻头、破布和旧渔网等廉价材料，通过打浆、抄纸、晾干等工序制造出轻薄、平滑、适于书写的纸张。他的造纸术在几百年间从中国传到阿拉伯世界再到欧洲——古登堡印刷术的出现正是建立在纸的普遍可得之上。造纸术被列为中国古代四大发明之一。",
     "descriptionEn": "Cai Lun was a eunuch serving Emperor He of Han, rising to Director of Imperial Workshops. Before him, rudimentary paper existed in China (made from hemp), but it was coarse, expensive, and unsuitable for writing. In 105 CE, Cai Lun refined the process — using tree bark, hemp waste, rags, and old fishing nets as cheap raw materials, pulping, sheet-forming, and drying to produce thin, smooth, writable paper. His papermaking technology spread over centuries from China to the Islamic world and then to Europe — Gutenberg's printing press was built on the widespread availability of paper. Papermaking is counted among China's Four Great Inventions.",
