@@ -752,6 +752,7 @@ import _gapDynastiesPeopleData from './people/_gapDynastiesPeople.json';
 import _augmentDynastiesPeopleData from './people/_augmentDynastiesPeople.json';
 import _rescueAndExpandPeopleData from './people/_rescueAndExpandPeople.json';
 import _springAutumnPeopleData from './people/_springAutumnPeople.json';
+import _republicOfChinaPeopleData from './people/_republicOfChinaPeople.json';
 
 export const _peoplePart1: Person[] = _peoplePart1Data as Person[];
 export const _peoplePart2: Person[] = _peoplePart2Data as Person[];
@@ -762,6 +763,7 @@ export const _gapDynastiesPeople: Person[] = _gapDynastiesPeopleData as Person[]
 export const _augmentDynastiesPeople: Person[] = _augmentDynastiesPeopleData as Person[];
 export const _rescueAndExpandPeople: Person[] = _rescueAndExpandPeopleData as Person[];
 export const _springAutumnPeople: Person[] = _springAutumnPeopleData as Person[];
+export const _republicOfChinaPeople: Person[] = _republicOfChinaPeopleData as Person[];
 
 export const people: Person[] = [
   ..._peoplePart1,
@@ -773,6 +775,7 @@ export const people: Person[] = [
   ..._augmentDynastiesPeople,
   ..._rescueAndExpandPeople,
   ..._springAutumnPeople,
+  ..._republicOfChinaPeople,
 ];
 
 export const events: HistoricalEvent[] = [
