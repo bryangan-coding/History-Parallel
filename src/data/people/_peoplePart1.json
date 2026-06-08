@@ -36,7 +36,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "北宋中期文坛领袖，诗词文书画俱绝。一生历经仁宗、英宗、神宗、哲宗、徽宗五朝，仕途坎坷。"
   },
   {
     "id": "wang-anshi",
@@ -110,7 +111,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "北宋政治家、史学家。耗时十九年主持编纂编年体通史《资治通鉴》，约294卷三百余万字，是中国古代最伟大的史学著作之一。政治上反对王安石变法，属保守派领袖。"
   },
   {
     "id": "ouyang-xiu",
@@ -148,7 +150,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "北宋政治家、文学家，唐宋八大家之一。倡导古文运动，主持编纂《新唐书》和《新五代史》，为一代文宗。"
   },
   {
     "id": "william-conqueror",
@@ -186,7 +189,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "诺曼底公爵，1066年征服英格兰，建立诺曼王朝，彻底改变英格兰的政治和社会结构。"
   },
   {
     "id": "gregory-vii",
@@ -222,7 +226,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马教皇，推行格列高利改革，与神圣罗马帝国皇帝亨利四世发生\"叙任权斗争\"，引发卡诺莎之辱事件。"
   },
   {
     "id": "anselm",
@@ -260,7 +265,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "坎特伯雷大主教，经院哲学奠基人，提出\"信仰寻求理解\"和上帝存在的本体论证明。"
   },
   {
     "id": "murasaki-shikibu",
@@ -293,7 +299,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "平安时代中期女作家，《源氏物语》作者。作品被认为是世界最早的长篇小说之一。"
   },
   {
     "id": "fujiwara-michinaga",
@@ -330,7 +337,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "平安时代中期最有权势的贵族，摄关政治的巅峰人物。其三个女儿分别成为三位天皇的皇后。"
   },
   {
     "id": "alexios-komnenos",
@@ -368,7 +376,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "拜占庭帝国科穆宁王朝开国皇帝，面对塞尔柱入侵和诺曼威胁，请求西方援助，间接促成第一次十字军东征。"
   },
   {
     "id": "qin-shi-huang",
@@ -407,7 +416,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中国历史上第一位皇帝（前221-前210年在位），姓嬴名政。灭六国、统一文字度量衡、修筑长城、建立中央集权制度，奠定了中国两千余年帝制的基本框架。"
   },
   {
     "id": "julius-caesar",
@@ -446,7 +456,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马共和国末期最伟大的军事统帅和政治家。征服高卢全境（今法国、比利时），跨过卢比孔河发动内战击败庞培，成为终身独裁官，为罗马从共和国走向帝国奠定基础。公元前44年被元老院刺杀。"
   },
   {
     "id": "li-bai",
@@ -485,7 +496,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "唐代最伟大的浪漫主义诗人，被称为\"诗仙\"。作品飘逸豪放、想象奇绝，代表作有《将进酒》《蜀道难》《静夜思》等，是中国诗歌史上的一座高峰。"
   },
   {
     "id": "charlemagne",
@@ -530,7 +542,8 @@
         "url": "https://www.britannica.com/biography/Charlemagne",
         "license": "Copyright"
       }
-    ]
+    ],
+    "description": "法兰克王国加洛林王朝国王，800年被教皇加冕为罗马皇帝，被誉为\"欧洲之父\"。"
   },
   {
     "id": "genghis-khan",
@@ -570,7 +583,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "蒙古帝国的建立者。统一蒙古各部后发动大规模征服战争，建立了世界历史上最大的连续陆地帝国。其军事天才和组织能力对世界历史产生了深远影响。"
   },
   {
     "id": "zheng-he",
@@ -610,7 +624,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "明代著名航海家，七次率庞大船队下西洋，到达东南亚、印度、阿拉伯和东非，是人类航海史上的壮举。"
   },
   {
     "id": "leonardo-da-vinci",
@@ -655,7 +670,8 @@
         "url": "https://www.britannica.com/biography/Leonardo-da-Vinci",
         "license": "Copyright"
       }
-    ]
+    ],
+    "description": "意大利文艺复兴全才，画家、雕塑家、建筑师和科学家。代表作《蒙娜丽莎》《最后的晚餐》。"
   },
   {
     "id": "napoleon",
@@ -701,7 +717,8 @@
         "url": "https://www.britannica.com/biography/Napoleon-I",
         "license": "Copyright"
       }
-    ]
+    ],
+    "description": "法国军事家和皇帝（1804-1814、1815年在位）。从炮兵军官崛起为法兰西第一帝国皇帝，颁布《拿破仑法典》，通过拿破仑战争深刻重塑了欧洲政治版图，最终兵败滑铁卢。"
   },
   {
     "id": "confucius",
@@ -737,7 +754,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中国古代伟大的思想家、教育家，儒家学派创始人。删订六经，开创私人讲学之风，主张仁、义、礼、智、信。其思想体系深刻影响了东亚两千余年的政治、教育和社会伦理。"
   },
   {
     "id": "laozi",
@@ -772,7 +790,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中国古代哲学家，道家学派创始人，被尊为道教始祖。著有《道德经》五千言，主张\"道法自然\"和\"无为而治\"，其思想对后世中国哲学、政治和宗教产生深远影响。"
   },
   {
     "id": "han-wudi",
@@ -807,7 +826,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "西汉第七位皇帝刘彻（前141-前87年在位）。采纳董仲舒建议\"罢黜百家，独尊儒术\"，派张骞出使西域开辟丝绸之路，北击匈奴，奠定了汉帝国的鼎盛疆域和制度基础。"
   },
   {
     "id": "sima-qian",
@@ -840,7 +860,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "西汉伟大的史学家、文学家，继父志著《史记》。年轻时游历天下，后因李陵之祸受宫刑，忍辱负重完成这部中国第一部纪传体通史，被鲁迅誉为\"史家之绝唱，无韵之离骚\"。"
   },
   {
     "id": "zhugeliang",
@@ -873,7 +894,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "三国时期蜀汉丞相，中国历史上杰出的政治家、军事家与发明家。辅佐刘备建立蜀汉，受遗诏托孤于刘禅，鞠躬尽瘁、死而后已，成为后世忠臣与智慧的象征。"
   },
   {
     "id": "socrates",
@@ -903,7 +925,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊哲学家，西方哲学奠基人之一。以对话问答法（苏格拉底法）探寻真理，主张\"认识你自己\"，被雅典法庭以腐蚀青年罪判处死刑，饮鸩而亡。其思想主要通过学生柏拉图的著作流传。"
   },
   {
     "id": "plato",
@@ -934,7 +957,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊哲学家，苏格拉底的学生，亚里士多德的老师。创办雅典学院，著有《理想国》等对话录，提出\"理念论\"，构建了西方哲学的第一个完整体系。"
   },
   {
     "id": "aristotle",
@@ -967,7 +991,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊哲学家和科学家，亚历山大大帝的老师。其研究涵盖逻辑学、形而上学、伦理学、政治学、生物学等几乎所有领域，是古代世界最博学的思想家，影响了西方学术两千余年。"
   },
   {
     "id": "alexander-great",
@@ -1001,7 +1026,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "马其顿国王（前336-前323年在位），亚里士多德的学生。十年间率军征服波斯帝国、埃及至印度河流域，建立横跨欧亚非的庞大帝国，促进了希腊文化与东方文明的融合（希腊化时代）。"
   },
   {
     "id": "archimedes",
@@ -1034,7 +1060,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊数学家、物理学家和工程师。发现浮力定律（阿基米德原理）和杠杆原理，发明螺旋提水器等，在罗马围攻叙拉古时设计了多种战争机械守城。"
   },
   {
     "id": "augustus",
@@ -1067,7 +1094,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马帝国的首位皇帝（前27-14年在位），凯撒的甥孙和养子。结束了长达百年的罗马内战，建立了元首制，开启了延续约两百年的\"罗马和平\"时期，重建了罗马城和帝国的行政体系。"
   },
   {
     "id": "hammurabi",
@@ -1100,7 +1128,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古巴比伦王国第六代国王（前1792-前1750年在位）。统一美索不达米亚，颁布了人类历史上最早的成文法典之一《汉谟拉比法典》，共计约282条，涵盖刑法、民法、商法等领域。"
   },
   {
     "id": "cyrus-great",
@@ -1461,7 +1490,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国民族英雄，百年战争中的传奇人物。一位17岁的农家少女自称受到神启，率法军解奥尔良之围，协助查理七世加冕，后被英军俘虏并作为异端处以火刑，1920年被天主教会封圣。"
   },
   {
     "id": "gutenberg",
@@ -1494,7 +1524,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国发明家，欧洲活字印刷术的发明者。1455年印刷了著名的《古腾堡圣经》，使书籍的批量生产成为可能，被誉为推动知识传播和文艺复兴的关键人物之一。"
   },
   {
     "id": "henry-v",
@@ -1591,7 +1622,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "唐朝第二位皇帝李世民（626-649年在位）。发动玄武门之变即位后，虚心纳谏、任用贤能，开创\"贞观之治\"，被后世视为中国帝王典范。"
   },
   {
     "id": "wu-zetian",
@@ -1625,7 +1657,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中国历史上唯一的女皇帝（690-705年在位）。唐高宗皇后，后自立为帝建立武周。推行科举制、破格用人，延续了唐朝盛世，身后留下无字碑供后人评说。"
   },
   {
     "id": "du-fu",
@@ -1660,7 +1693,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "唐代伟大的现实主义诗人，被后世尊为\"诗圣\"。经历了安史之乱，诗作深刻反映了社会矛盾和人民苦难，代表作有《春望》《茅屋为秋风所破歌》等。"
   },
   {
     "id": "sejong",
@@ -1697,7 +1731,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "朝鲜王朝第四代国王（1418-1450年在位）。创制了朝鲜文字训民正音（即今天的韩文），推动了科学技术和音乐的发展，被后世尊为朝鲜历史上最伟大的君主。"
   },
   {
     "id": "zhu-xi",
@@ -1731,7 +1766,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "南宋理学家、哲学家，儒学集大成者。继承二程之学，构建了以\"理\"为核心的庞大哲学体系，其《四书章句集注》成为元明清科举考试的标准教材。"
   },
   {
     "id": "minamoto-yoritomo",
@@ -1764,7 +1800,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "日本镰仓幕府首位征夷大将军。在源平合战中击败平氏家族，建立镰仓幕府，开创了日本长达近七百年的武家政权时代，天皇成为名义上的统治者。"
   },
   {
     "id": "shakespeare",
@@ -1798,7 +1835,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国文学史上最伟大的剧作家和诗人。创作了37部戏剧和154首十四行诗，代表作有《哈姆雷特》《罗密欧与朱丽叶》《麦克白》等，对英语文学和世界戏剧产生了无可比拟的影响。"
   },
   {
     "id": "galileo",
@@ -1831,7 +1869,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "意大利天文学家和物理学家，现代科学奠基人之一。用望远镜观测天体支持哥白尼日心说，发现自由落体定律，被罗马教廷审判和软禁，但他的科学方法彻底改变了人类认识世界的方式。"
   },
   {
     "id": "newton",
@@ -1864,7 +1903,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国物理学家、数学家、天文学家，科学革命的核心人物。发现万有引力定律和运动三大定律，发明微积分，著有《自然哲学的数学原理》，奠定了经典力学的基础。"
   },
   {
     "id": "elizabeth-i",
@@ -1897,7 +1937,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英格兰女王（1558-1603年在位）。在位期间英格兰击败西班牙无敌舰队，进入文化繁荣的黄金时代（莎士比亚、培根等），确立英格兰为新教国家。"
   },
   {
     "id": "louis-xiv",
@@ -1930,7 +1971,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国波旁王朝国王（1643-1715年在位），被称为\"太阳王\"。在位72年是世界历史上在位时间最长的君主之一，兴建凡尔赛宫，将法国打造为欧洲头号强国，是专制君主制的象征。"
   },
   {
     "id": "zhu-yuanzhang",
@@ -1965,7 +2007,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "明朝开国皇帝（1368-1398年在位），出身贫苦农家。从乞丐、和尚到参加红巾军，最终推翻元朝建立大明，是中国历史上出身最低微的大一统王朝开国皇帝。"
   },
   {
     "id": "kangxi",
@@ -1996,7 +2039,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "清朝第四位皇帝玄烨（1661-1722年在位）。擒鳌拜、平三藩、收台湾、定噶尔丹，奠定了清朝二百余年疆域基础，开创了长达百余年的康乾盛世。"
   },
   {
     "id": "qianlong",
@@ -2030,7 +2074,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "清朝第六位皇帝弘历（1735-1796年在位）。在位六十年，清朝版图和国力达到鼎盛，编纂《四库全书》，但也因晚年怠政和六下江南耗竭国力埋下衰败隐患。"
   },
   {
     "id": "cao-xueqin",
@@ -2261,7 +2306,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "俄罗斯沙皇（1682-1725年在位）。化名赴西欧学习，回国后大力推行西化改革，建立新都圣彼得堡，创建俄国海军，使落后的俄国跻身欧洲强国之列。"
   },
   {
     "id": "washington",
@@ -2327,7 +2373,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国博物学家，进化论的奠基人。乘坐贝格尔号环球考察五年，于1859年发表《物种起源》，提出自然选择学说，彻底改变了人类对生命起源和多样性的理解。"
   },
   {
     "id": "marx",
@@ -2360,7 +2407,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国哲学家、经济学家和社会学家。与恩格斯共同撰写《共产党宣言》，著有《资本论》，创立马克思主义理论，对19世纪以来的世界政治、经济和社会发展产生了深远影响。"
   },
   {
     "id": "lincoln",
@@ -2393,7 +2441,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "美国第16任总统（1861-1865年在任）。领导联邦政府在南北战争中获胜，颁布《解放奴隶宣言》废除奴隶制，内战结束后被暗杀，是美国历史上最伟大的总统之一。"
   },
   {
     "id": "bismarck",
@@ -2427,7 +2476,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "普鲁士王国首相和德意志帝国首任宰相。通过三次王朝战争统一德意志，推行\"铁血政策\"，建立欧洲第一个福利国家体系，是19世纪欧洲最具影响力的政治家之一。"
   },
   {
     "id": "meiji",
@@ -2459,7 +2509,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "日本第122代天皇（1867-1912年在位）。领导了明治维新，推行全面西化改革，使日本从一个封闭的封建国家迅速转变为近代工业化强国。"
   },
   {
     "id": "sun-yat-sen",
@@ -2493,7 +2544,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中华民国国父，中国近代伟大的革命先行者。领导辛亥革命推翻延续两千余年的封建帝制，创立中华民国，提出三民主义学说。"
   },
   {
     "id": "gandhi",
@@ -2527,7 +2579,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "印度民族独立运动领袖。倡导非暴力不合作运动对抗英国殖民统治，以绝食、和平抗议等方式唤醒民众，被誉为\"圣雄\"，最终领导印度于1947年获得独立。"
   },
   {
     "id": "einstein",
@@ -2559,7 +2612,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国出生的理论物理学家。1905年提出狭义相对论，1915年提出广义相对论，彻底改变了人类对时间、空间和引力的理解。1921年获诺贝尔物理学奖。"
   },
   {
     "id": "churchill",
@@ -2593,7 +2647,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国政治家、作家，二战期间的英国首相。在纳粹德国威胁下以坚定的意志和鼓舞人心的演说领导英国人民坚持抵抗，与美苏结盟最终赢得战争胜利。"
   },
   {
     "id": "curie",
@@ -2627,7 +2682,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "波兰裔法国物理学家和化学家。放射性研究的先驱，发现钋和镭两种放射性元素，是世界上第一位两次获得诺贝尔奖的科学家（物理学奖和化学奖各一次）。"
   },
   {
     "id": "mandela",
@@ -2661,7 +2717,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "南非反种族隔离革命的领袖。被囚禁27年后获释，成为南非首位黑人总统（1994-1999年），致力于种族和解，是20世纪最受尊敬的政治人物之一。"
   },
   {
     "id": "michelangelo",
@@ -2695,7 +2752,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "意大利文艺复兴时期的雕塑家、画家和建筑师。创作了大卫雕像和西斯廷教堂天顶画《创世纪》，以对人体解剖的精妙描绘和宏大的艺术气魄成为文艺复兴艺术的巅峰代表。"
   },
   {
     "id": "mozart",
@@ -2727,7 +2785,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "奥地利作曲家，古典主义时期最伟大的音乐天才之一。35岁短暂的一生创作了600余部作品，包括歌剧《费加罗的婚礼》《魔笛》和大量交响曲、协奏曲，旋律优美而深刻。"
   },
   {
     "id": "beethoven",
@@ -2759,7 +2818,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国作曲家，连接古典主义与浪漫主义的音乐巨人。虽中年失聪仍坚持创作，创作了九部交响曲（包括《英雄》《命运》《合唱》）和32首钢琴奏鸣曲，将音乐表情推向前所未有的深度。"
   },
   {
     "id": "victoria",
@@ -2794,7 +2854,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国女王（1837-1901年在位），在位64年是英国历史上最长的君主之一。维多利亚时代的英国成为\"日不落帝国\"，工业革命达到顶峰，在全球拥有最广阔的殖民地。"
   },
   {
     "id": "voltaire",
@@ -2997,7 +3058,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "莫卧儿帝国最伟大的皇帝（1556-1605年在位）。推行宗教宽容政策，废除对非穆斯林的人头税，建立了高效的行政体系，将帝国的版图和国力推向鼎盛。"
   },
   {
     "id": "khubilai-khan",
@@ -3032,7 +3094,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "元朝建立者（1260-1294年在位），蒙古帝国第五位大汗。定都大都（今北京），灭南宋统一中国，创立行省制度，是第一个统治全中国的非汉族皇帝。"
   },
   {
     "id": "vasco-da-gama",
@@ -3133,7 +3196,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "日本江户幕府首任征夷大将军。在关原之战中获胜后统一日本，建立江户幕府，开启长达260余年的和平时代（江户时代），对日本政治体制、社会和文化的形成产生了深远影响。"
   },
   {
     "id": "ivan-terrible",
@@ -3200,7 +3264,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "奥斯曼帝国第十位苏丹（1520-1566年在位）。帝国在他的统治下达到鼎盛，版图横跨欧亚非三洲，以完善的法律体系著称（被称为\"立法者\"），是奥斯曼历史上最伟大的君主。"
   },
   {
     "id": "catherine-great",
@@ -3233,7 +3298,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "俄国女皇（1762-1796年在位）。原为德意志公主，通过政变推翻丈夫彼得三世后即位。在位期间俄国领土大幅扩张，成为欧洲列强之一，推行开明专制，与伏尔泰等启蒙思想家交好。"
   },
   {
     "id": "frederick-great",
@@ -3267,7 +3333,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "普鲁士国王（1740-1786年在位）。通过七年战争等军事扩张将普鲁士打造为欧洲军事强国，同时也是启蒙运动的代表人物，与伏尔泰长期通信，是一位\"哲学家国王\"。"
   },
   {
     "id": "robespierre",
@@ -3298,7 +3365,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国大革命时期雅各宾派领袖。以其极端的革命理想和廉洁著称，在恐怖统治时期掌握了巨大权力，最终在热月政变中被推翻并送上断头台。"
   },
   {
     "id": "simon-bolivar",
@@ -3333,7 +3401,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "拉丁美洲独立运动领袖，被誉为\"解放者\"。领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚等国摆脱西班牙殖民统治的独立战争。"
   },
   {
     "id": "li-hongzhang",
@@ -3367,7 +3436,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "晚清重臣，淮军和北洋水师的创建者。主导洋务运动三十年，创办江南制造总局等近代工业，代表清廷签订诸多不平等条约，是中国近代史上最复杂也最具争议的政治人物之一。"
   },
   {
     "id": "rasputin",
@@ -3434,7 +3504,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "俄国革命家，布尔什维克党的创始人。领导1917年十月革命推翻临时政府，建立世界上第一个社会主义国家苏联，对20世纪国际共产主义运动产生决定性影响。"
   },
   {
     "id": "cleopatra-vii",
@@ -3463,7 +3534,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "O56"
+    "wikidataQid": "O56",
+    "description": "古埃及托勒密王朝最后一任法老，以智慧、外交手腕和与罗马将领的传奇关系闻名。"
   },
   {
     "id": "cicero",
@@ -3494,7 +3566,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "O1541"
+    "wikidataQid": "O1541",
+    "description": "罗马共和国末期最伟大的演说家、哲学家和政治家，其著作深刻影响了西方思想。"
   },
   {
     "id": "liu-bang",
@@ -3522,7 +3595,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "汉高祖，西汉开国皇帝（前202-前195年在位）。出身平民，在秦末农民起义中崛起，与项羽争霸四年后击败对手建立汉朝，奠定了四百年大汉基业。"
   },
   {
     "id": "zhang-qian",
@@ -3552,7 +3626,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "汉代外交家、探险家，奉汉武帝之命出使西域，开辟丝绸之路的先驱。"
   },
   {
     "id": "zhuangzi",
@@ -3580,7 +3655,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.8,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "战国时期道家学派代表人物，与老子并称'老庄'，以逍遥自由和齐物哲学闻名。"
   },
   {
     "id": "homer",
@@ -3609,7 +3685,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.7,
     "externalReferences": [],
-    "wikidataQid": "O6691"
+    "wikidataQid": "O6691",
+    "description": "古希腊盲诗人，传统上被认为是《伊利亚特》和《奥德赛》的作者，西方文学之父。"
   },
   {
     "id": "pericles",
@@ -3639,7 +3716,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "雅典黄金时代的政治领袖，推动民主改革，主持帕特农神庙等宏伟建筑的建设。"
   },
   {
     "id": "darius-i",
@@ -3673,7 +3751,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "波斯阿契美尼德王朝最伟大的帝王之一，改革行政体系，建立行省（总督）制度，修建皇家大道。"
   },
   {
     "id": "vedic-seers",
@@ -3733,7 +3812,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "拜占庭帝国最伟大的皇帝之一，编撰了《查士丁尼法典》，建造了圣索菲亚大教堂，试图恢复罗马帝国的辉煌。"
   },
   {
     "id": "gregory-great",
@@ -3763,7 +3843,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马教皇，教会圣师，派遣传教士到英格兰传教，改革教会礼仪，对中世纪欧洲的基督教化影响深远。"
   },
   {
     "id": "harun-al-rashid",
@@ -3793,7 +3874,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "阿拔斯哈里发国第五任哈里发，其统治时期是伊斯兰黄金时代的顶峰，《一千零一夜》中的传奇君主。"
   },
   {
     "id": "columbus",
@@ -3822,7 +3904,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "O7322"
+    "wikidataQid": "O7322",
+    "description": "意大利航海家，在西班牙王室资助下四次横渡大西洋。1492年首次到达美洲，虽未意识到发现了新大陆，但其航行开启了欧洲对美洲的殖民时代，彻底改变了世界历史进程。"
   },
   {
     "id": "marie-curie",
@@ -3855,7 +3938,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q7186"
+    "wikidataQid": "Q7186",
+    "description": "波兰裔法国物理学家和化学家。放射性研究的先驱，发现钋和镭两种放射性元素，是世界上第一位两次获得诺贝尔奖的科学家（物理学奖和化学奖各一次）。"
   },
   {
     "id": "fdr",
@@ -3886,7 +3970,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q8007"
+    "wikidataQid": "Q8007",
+    "description": "美国第32任总统，推行新政应对大萧条，领导美国度过二战，唯一连任四届的总统。"
   },
   {
     "id": "bolivar",
@@ -3917,7 +4002,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q8605"
+    "wikidataQid": "Q8605",
+    "description": "拉丁美洲独立运动领袖，被誉为\"解放者\"。领导了委内瑞拉、哥伦比亚、厄瓜多尔、秘鲁和玻利维亚等国摆脱西班牙殖民统治的独立战争。"
   },
   {
     "id": "ataturk",
@@ -3948,7 +4034,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q5152"
+    "wikidataQid": "Q5152",
+    "description": "土耳其共和国的缔造者和首任总统，推行激进的世俗化、现代化改革，被誉为'土耳其之父'。"
   },
   {
     "id": "mansas-musa",
@@ -3978,7 +4065,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.8,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "马里帝国的皇帝，历史上最富有的人之一，其前往麦加的朝圣之旅震惊了中世纪的伊斯兰和欧洲世界。"
   },
   {
     "id": "nefertiti",
@@ -4008,7 +4096,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.75,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古埃及王后，与丈夫阿肯那顿推行宗教改革，其半身雕像成为古埃及艺术中最著名的形象。"
   },
   {
     "id": "marcus-aurelius",
@@ -4041,7 +4130,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q1430"
+    "wikidataQid": "Q1430",
+    "description": "罗马帝国'五贤帝'中的最后一位，斯多亚派哲学家皇帝，著有《沉思录》。"
   },
   {
     "id": "constantine",
@@ -4072,7 +4162,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q8413"
+    "wikidataQid": "Q8413",
+    "description": "罗马帝国第一位皈依基督教的皇帝，颁布米兰敕令使基督教合法化，建立君士坦丁堡作为新都。"
   },
   {
     "id": "sun-tzu",
@@ -4101,7 +4192,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.75,
     "externalReferences": [],
-    "wikidataQid": "Q37151"
+    "wikidataQid": "Q37151",
+    "description": "春秋时期军事家，《孙子兵法》的作者，被誉为兵学圣典，影响后世两千余年。"
   },
   {
     "id": "mencius",
@@ -4130,7 +4222,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.85,
     "externalReferences": [],
-    "wikidataQid": "Q188977"
+    "wikidataQid": "Q188977",
+    "description": "战国儒家代表人物，继承并发展了孔子的思想，提出'性善论'和'民贵君轻'的政治理念。"
   },
   {
     "id": "han-fei",
@@ -4159,7 +4252,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.85,
     "externalReferences": [],
-    "wikidataQid": "Q28987"
+    "wikidataQid": "Q28987",
+    "description": "战国末期法家集大成者，综合商鞅的'法'、申不害的'术'和慎到的'势'，为秦统一提供了理论基础。"
   },
   {
     "id": "virgil",
@@ -4188,7 +4282,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q1398"
+    "wikidataQid": "Q1398",
+    "description": "古罗马最伟大的诗人，创作了罗马民族史诗《埃涅阿斯纪》，但丁《神曲》中的引路人。"
   },
   {
     "id": "copernicus",
@@ -4217,7 +4312,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q619"
+    "wikidataQid": "Q619",
+    "description": "波兰天文学家，提出日心说（太阳而非地球是宇宙中心），引发了近代科学革命。"
   },
   {
     "id": "kepler",
@@ -4246,7 +4342,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q8964"
+    "wikidataQid": "Q8964",
+    "description": "德国天文学家和数学家，发现行星运动三大定律，为牛顿万有引力定律奠定了基础。"
   },
   {
     "id": "machiavelli",
@@ -4275,7 +4372,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.9,
     "externalReferences": [],
-    "wikidataQid": "Q1399"
+    "wikidataQid": "Q1399",
+    "description": "意大利政治思想家，《君主论》的作者，以现实主义政治哲学闻名，被视为近代政治学之父。"
   },
   {
     "id": "pasteur",
@@ -4306,7 +4404,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q529"
+    "wikidataQid": "Q529",
+    "description": "法国微生物学家，创立了微生物学，发明巴氏消毒法和狂犬病疫苗，彻底改变了医学。"
   },
   {
     "id": "tesla",
@@ -4337,7 +4436,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q9036"
+    "wikidataQid": "Q9036",
+    "description": "塞尔维亚裔美籍发明家，交流电系统的主要设计者，一生获得三百多项专利的天才工程师。"
   },
   {
     "id": "tolstoy",
@@ -4368,7 +4468,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q7243"
+    "wikidataQid": "Q7243",
+    "description": "俄罗斯文学巨匠，代表作《战争与和平》和《安娜·卡列尼娜》是世界文学的最高成就之一。"
   },
   {
     "id": "dostoevsky",
@@ -4399,7 +4500,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q991"
+    "wikidataQid": "Q991",
+    "description": "俄罗斯小说家，以《罪与罚》和《卡拉马佐夫兄弟》等作品探索人性深渊，影响了存在主义和现代心理学。"
   },
   {
     "id": "edison",
@@ -4428,7 +4530,8 @@
     "dataStatus": "published",
     "confidenceScore": 0.95,
     "externalReferences": [],
-    "wikidataQid": "Q8743"
+    "wikidataQid": "Q8743",
+    "description": "美国发明家，拥有超过一千项专利，发明留声机、改进电灯泡和电影摄影机，创办通用电气。"
   },
   {
     "id": "mozi",
@@ -4458,7 +4561,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.8,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "墨家学派创始人，主张\"兼爱\"\"非攻\"，精通光学力学与防御工事技术，战国思想家中最独特的务实派。"
   },
   {
     "id": "xunzi",
@@ -4488,7 +4592,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "战国晚期儒家大师，提出\"性恶论\"与孟子对抗，其弟子韩非和李斯开创了法家统治理念。"
   },
   {
     "id": "li-si",
@@ -4518,7 +4623,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "秦始皇的首任丞相，推行郡县制与焚书令，统一文字与度量衡，构建了秦帝国行政体系的基石。"
   },
   {
     "id": "seneca",
@@ -4548,7 +4654,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马斯多葛派哲学家与悲剧作家，尼禄皇帝的恩师，以道德书简面对被迫自杀的坦然为后世树立了斯多葛精神的典范。"
   },
   {
     "id": "tacitus",
@@ -4578,7 +4685,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马帝国最伟大的历史学家，《编年史》和《历史》以冷峻犀利的拉丁文记录了早期帝国政治的真相。"
   },
   {
     "id": "hippocrates",
@@ -4608,7 +4716,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.75,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "\"医学之父\"，将疾病归因从神灵惩罚转向自然观察，其誓言至今仍是全球医学生的道德仪式。"
   },
   {
     "id": "euclid",
@@ -4638,7 +4747,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊数学家，\"几何学之父\"，《几何原本》以五大公设构建了演绎数学体系，作为教科书使用了两千余年。"
   },
   {
     "id": "sappho",
@@ -4668,7 +4778,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.75,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "古希腊最伟大的女抒情诗人，柏拉图称之为\"第十位缪斯\"，其诗以炽烈的情感直接书写爱与欲望。"
   },
   {
     "id": "ptolemy",
@@ -4698,7 +4809,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "希腊化时期的天文学家与地理学家，其地心说模型《天文学大成》支配西方宇宙观达一千四百年。"
   },
   {
     "id": "shang-yang",
@@ -4728,7 +4840,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "先秦法家实践的先驱，在秦国推行最彻底的变法——废井田、奖军功、行县制，为秦统一六国奠定根基。"
   },
   {
     "id": "bai-juyi",
@@ -4758,7 +4871,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中唐诗歌巨匠，以\"文章合为时而著，歌诗合为事而作\"的理念写下近三千首诗，在中国和日本影响深远。"
   },
   {
     "id": "al-razi",
@@ -4790,7 +4904,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "伊斯兰黄金时代的医学家与哲学家，鉴别天花与麻疹的第一人，《医学集成》在拉丁世界作为教科书使用至十七世纪。"
   },
   {
     "id": "kalidasa",
@@ -4820,7 +4935,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.7,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "笈多王朝时期最伟大的梵语诗人和剧作家，被誉为\"印度莎士比亚\"，《沙恭达罗》令歌德赞不绝口。"
   },
   {
     "id": "aryabhata",
@@ -4850,7 +4966,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "笈多王朝的数学与天文天才，23岁即完成划时代著作，提出地球自转说，精确计算了圆周率和太阳年。"
   },
   {
     "id": "al-ghazali",
@@ -4880,7 +4997,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "伊斯兰教最具影响力的神学家之一，调合了正统教义与苏菲神秘主义，其《圣学复苏》被誉为\"伊斯兰百科全书\"。"
   },
   {
     "id": "sui-wendi",
@@ -4910,7 +5028,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "隋朝开国皇帝杨坚，终结三百年南北分裂，开创三省六部制和科举制，为盛唐奠定了制度基础。"
   },
   {
     "id": "wang-wei",
@@ -4940,7 +5059,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "唐代\"诗佛\"，山水田园诗派的巅峰，亦是中国文人画的开山鼻祖——苏东坡赞其\"诗中有画，画中有诗\"。"
   },
   {
     "id": "al-farabi",
@@ -4970,7 +5090,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.85,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "伊斯兰哲学的\"第二导师\"（以亚里士多德为第一导师），将希腊哲学体系化引入伊斯兰，并撰写了奠基性音乐理论著作。"
   },
   {
     "id": "augustine",
@@ -5002,7 +5123,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "晚期罗马最伟大的基督教神学家，《忏悔录》是西方第一本自传，《上帝之城》奠定了基督教政治哲学的基础。"
   },
   {
     "id": "wei-zheng",
@@ -5030,7 +5152,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "唐太宗朝最著名的谏臣，以直言敢谏成就了\"以人为镜\"的千古佳话，是贞观之治文臣精神的象征。"
   },
   {
     "id": "raphael",
@@ -5060,7 +5183,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "意大利文艺复兴三杰中最年轻的一位，《雅典学院》以宏大的空间构想将古今哲人共置一堂，成为西方理性精神的终极视觉象征。"
   },
   {
     "id": "donatello",
@@ -5088,7 +5212,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "文艺复兴早期最伟大的雕塑家，以青铜《大卫》打破了中世纪僵硬传统，复兴了古典人体自然主义。"
   },
   {
     "id": "thomas-more",
@@ -5118,7 +5243,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国大法官与人文主义者，《乌托邦》构想了以公有制与理性管理为特征的理想岛国，因拒绝承认亨利八世为教会首脑被斩首。"
   },
   {
     "id": "francis-bacon",
@@ -5148,7 +5274,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国哲学家与科学家，以\"知识就是力量\"宣告经验科学的时代，在《新工具》中构建了科学归纳法。"
   },
   {
     "id": "montaigne",
@@ -5178,7 +5305,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国文艺复兴最伟大的散文家，创造了\"随笔\"文体，以自省和温和的怀疑论探索人性的全部维度。"
   },
   {
     "id": "cervantes",
@@ -5206,7 +5334,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "西班牙文学巨匠，《堂吉诃德》被公认为现代小说的开山鼻祖，全球印量仅次于《圣经》。"
   },
   {
     "id": "descartes",
@@ -5236,7 +5365,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "\"近代哲学之父\"，以\"我思故我在\"为起点重建全部知识体系，同时发明了解析几何。"
   },
   {
     "id": "brunelleschi",
@@ -5266,7 +5396,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "佛罗伦萨建筑师，以圣母百花大教堂穹顶开创了文艺复兴建筑新时代，并发明了线性透视法。"
   },
   {
     "id": "spinoza",
@@ -5296,7 +5427,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "荷兰犹太裔哲学家，以几何学方式论述伦理学和形而上学，提出\"神即自然\"的泛神论，深刻影响了启蒙运动。"
   },
   {
     "id": "locke",
@@ -5326,7 +5458,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国经验论哲学家与政治思想家，\"自由主义之父\"，其社会契约论和自然权利学说深刻影响了美国独立宣言。"
   },
   {
     "id": "bach",
@@ -5356,7 +5489,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "巴洛克音乐的集大成者，以复调艺术的极致精密与深挚灵性成为西方古典音乐的基石——贝多芬称其为\"大海而非小溪\"。"
   },
   {
     "id": "dickens",
@@ -5386,7 +5520,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "维多利亚时代最伟大的小说家，以《双城记》《远大前程》《雾都孤儿》等作品深刻揭露了工业社会的苦难与不公。"
   },
   {
     "id": "hugo",
@@ -5416,7 +5551,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国浪漫主义文学运动的领袖，《悲惨世界》与《巴黎圣母院》的作者，去世时超过两百万人为其送葬。"
   },
   {
     "id": "kant",
@@ -5446,7 +5582,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国古典哲学创始人，其三大批判以\"哥白尼式的革命\"将哲学焦点转向人的认知结构，其定言令式成为现代道德的基石。"
   },
   {
     "id": "adam-smith",
@@ -5476,7 +5613,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "苏格兰启蒙运动的思想领袖，\"现代经济学之父\"，《国富论》以\"看不见的手\"奠定了自由市场理论的基石。"
   },
   {
     "id": "hegel",
@@ -5506,7 +5644,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国唯心主义的集大成者，以正题-反题-合题的辩证法将人类意识、自然与历史纳入一个宏大的理性运动之中。"
   },
   {
     "id": "goethe",
@@ -5536,7 +5675,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "德国文学史上最伟大的作家，《浮士德》的作者，横跨诗歌、戏剧、小说与科学研究的文艺复兴式通才。"
   },
   {
     "id": "marie-antoinette",
@@ -5566,7 +5706,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "法国大革命中被处决的最后一位王后，从被宠溺的奥地利公主变成了旧制度的牺牲与象征。"
   },
   {
     "id": "chopin",
@@ -5596,7 +5737,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "波兰作曲家与钢琴诗人，将钢琴的表现力推至前所未有的境界，其夜曲、玛祖卡和波兰舞曲成为浪漫主义音乐的精魂。"
   },
   {
     "id": "jane-austen",
@@ -5626,7 +5768,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.95,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "英国小说家，以《傲慢与偏见》《理智与情感》等六部小说以看似微末的乡绅婚恋，解剖了整个阶级社会的肌理。"
   },
   {
     "id": "pythagoras",
@@ -15897,7 +16040,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "罗马共和国末期最伟大的军事统帅和政治家。征服高卢全境（今法国、比利时），跨过卢比孔河发动内战击败庞培，成为终身独裁官，为罗马从共和国走向帝国奠定基础。公元前44年被元老院刺杀。"
   },
   {
     "id": "marcopolo",
@@ -15969,7 +16113,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "西汉伟大的史学家、文学家，继父志著《史记》。年轻时游历天下，后因李陵之祸受宫刑，忍辱负重完成这部中国第一部纪传体通史，被鲁迅誉为\"史家之绝唱，无韵之离骚\"。"
   },
   {
     "id": "cailun",
@@ -16005,7 +16150,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "东汉宦官、发明家，被尊为\"纸圣\"。总结前人经验改进造纸术，用树皮、麻头、破布等原料制造出轻便价廉的纸张，这一发明后来传遍世界，深刻改变了人类文明的记录和传播方式。"
   },
   {
     "id": "bisheng",
@@ -16040,7 +16186,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "北宋发明家。于庆历年间发明活字印刷术，用胶泥刻字后再用火烧硬，排版印刷，是世界上最早的活字印刷技术，比德国古腾堡的活字印刷早约四百年。"
   },
   {
     "id": "zhenghe",
@@ -16293,7 +16440,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "南宋理学家、哲学家，儒学集大成者。继承二程之学，构建了以\"理\"为核心的庞大哲学体系，其《四书章句集注》成为元明清科举考试的标准教材。"
   },
   {
     "id": "wangyangming",
@@ -16329,7 +16477,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "明代哲学家、军事家，心学集大成者。提出\"致良知\"和\"知行合一\"学说，平定宁王之乱，其思想影响远及日本、朝鲜，对东亚近代思想启蒙产生重要作用。"
   },
   {
     "id": "caocao",
@@ -16366,7 +16515,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "东汉末年杰出的政治家、军事家、文学家。挟天子以令诸侯，统一中国北方，为曹魏政权奠基。亦善诗文，与子曹丕、曹植并称\"三曹\"，开创建安文学。"
   },
   {
     "id": "liubei",
@@ -16474,7 +16624,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "南宋抗金名将、民族英雄。率领岳家军北伐，大败金军于郾城、颍昌，后被宋高宗和秦桧以十二道金牌召回，以\"莫须有\"罪名冤杀。"
   },
   {
     "id": "zhengchenggong",
@@ -16510,7 +16661,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "明末清初军事家、民族英雄。率军东渡台湾海峡，驱逐荷兰殖民者，收复台湾，建立了明郑政权，被两岸人民共同尊为民族英雄。"
   },
   {
     "id": "luxun",
@@ -16582,7 +16734,8 @@
     "deathDatePrecision": "year",
     "dataStatus": "published",
     "confidenceScore": 0.9,
-    "externalReferences": []
+    "externalReferences": [],
+    "description": "中华民国国父，中国近代伟大的革命先行者。领导辛亥革命推翻延续两千余年的封建帝制，创立中华民国，提出三民主义学说。"
   },
   {
     "id": "qin-er-shi",
