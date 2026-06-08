@@ -13,9 +13,9 @@ function LangToggle() {
       onClick={() => setLocale(nextLocale(locale))}
       className="relative inline-flex items-center gap-1 text-xs font-medium 
                  px-2.5 py-1.5 rounded-full border border-stone-200
-                 bg-stone-50 hover:bg-stone-100 
+                 bg-stone-50 hover:bg-stone-100 cursor-pointer select-none
                  text-stone-500 hover:text-stone-800 
-                 transition-all duration-200
+                 transition-all duration-200 active:scale-95
                  focus:outline-none focus:ring-2 focus:ring-stone-300 focus:ring-offset-1"
       title={localeTitle(locale)}
     >
