@@ -762,6 +762,7 @@ import _northernSouthernDynastiesPeopleData from './people/_northernSouthernDyna
 import _westernXiaPeopleData from './people/_westernXiaPeople.json';
 import _liaoDynastyPeopleData from './people/_liaoDynastyPeople.json';
 import _jinDynastyPeriodPeopleData from './people/_jinDynastyPeriodPeople.json';
+import _biographicalEvents from './people/_biographicalEvents.json' assert { type: 'json' };
 
 export const _peoplePart1: Person[] = _peoplePart1Data as Person[];
 export const _peoplePart2: Person[] = _peoplePart2Data as Person[];
@@ -806,6 +807,7 @@ export const people: Person[] = [
 ];
 
 export const events: HistoricalEvent[] = [
+  ..._biographicalEvents as HistoricalEvent[],
   {
     id: 'evt-wutai',
     title: '乌台诗案',
@@ -4945,22 +4947,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-su-shi-major',
-    title: '苏轼的重大成就',
+    title: '苏轼进士及第',
     titleEn: 'Major achievement of Su Shi (Su Dongpo)',
-    startYear: 1058,
-    endYear: 1058,
+    startYear: 1057,
+    endYear: 1057,
     regionId: 'song-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['su-shi'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '苏轼在公元1058年前后北宋中期文坛领袖，诗词文书画俱绝。一生历经仁宗、英宗、神宗、哲宗、徽宗五朝，仕途坎坷。',
+    summary: '嘉祐二年（1057年），21岁的苏轼与19岁的弟弟苏辙同榜进士及第轰动京师。主考官欧阳修读到苏轼文章时误以为是弟子曾巩所作，为避嫌将之列为第二。',
     summaryEn: 'Around 1058 CE, Su Shi (Su Dongpo) achieved a major milestone.',
-    description: '苏轼一生中的重要成就时期。北宋中期文坛领袖，诗词文书画俱绝。一生历经仁宗、英宗、神宗、哲宗、徽宗五朝，仕途坎坷。',
+    description: '嘉祐二年（1057年）是中国科举史上最辉煌的一届。21岁的苏轼与19岁的弟弟苏辙同榜进士及第轰动京师。主考官欧阳修读到《刑赏忠厚之至论》时拍案叫绝，误以为出自弟子曾巩之手列为第二名。同榜还有曾巩、张载、程颢等大儒名臣。',
     descriptionEn: 'A pivotal period in Su Shi (Su Dongpo)\'s life. Literary giant of the Northern Song, excelling in poetry, prose, calligraphy, and painting. His career spanned five reigns and was marked by repeated political exile.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -5020,7 +5022,7 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-wang-anshi-major',
-    title: '王安石的重大成就',
+    title: '王安石进士及第',
     titleEn: 'Major achievement of Wang Anshi',
     startYear: 1042,
     endYear: 1042,
@@ -5030,12 +5032,12 @@ export const events: HistoricalEvent[] = [
     personIds: ['wang-anshi'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '王安石在公元1042年前后北宋著名改革家，神宗时期主持熙宁变法，力图富国强兵。',
+    summary: '庆历二年（1042年），22岁的王安石考中进士名列第四名，授签书淮南判官。自此步入仕途，在地方积累丰富治理经验，为其后来推行熙宁变法奠定了实践基础。',
     summaryEn: 'Around 1042 CE, Wang Anshi achieved a major milestone.',
-    description: '王安石一生中的重要成就时期。北宋著名改革家，神宗时期主持熙宁变法，力图富国强兵。',
+    description: '庆历二年（1042年），22岁的王安石进士及第，以第四名脱颖而出授签书淮南判官。他自幼随父宦游各地遍览民间疾苦。及第后主动选择地方任职，在鄞县知县任上兴修水利、贷谷于民、改革学校政绩卓著。十余年基层经历让他认识了北宋积贫积弱的症结。',
     descriptionEn: 'A pivotal period in Wang Anshi\'s life. Renowned Northern Song reformer who led the Xining Reforms under Emperor Shenzong to strengthen the state and military.',
     sourceIds: [],
-    importance: 3,
+    importance: 4,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -5095,22 +5097,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-sima-guang-major',
-    title: '司马光的重大成就',
+    title: '司马光进士及第',
     titleEn: 'Major achievement of Sima Guang',
-    startYear: 1041,
-    endYear: 1041,
+    startYear: 1038,
+    endYear: 1038,
     regionId: 'song-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['sima-guang'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '司马光在公元1041年前后北宋政治家、史学家，主持编纂编年体通史《资治通鉴》，政治上反对王安石变法。',
+    summary: '宝元元年（1038年），年仅20岁的司马光进士及第。他七岁便晓《左传》大义，砸缸救友的故事家喻户晓。后以刚正敢言著称，以编纂《资治通鉴》闻名于世。',
     summaryEn: 'Around 1041 CE, Sima Guang achieved a major milestone.',
-    description: '司马光一生中的重要成就时期。北宋政治家、史学家，主持编纂编年体通史《资治通鉴》，政治上反对王安石变法。',
+    description: '宝元元年（1038年），年仅20岁的司马光以甲科进士及第。他七岁听人讲《左传》便能领悟大意，砸缸救友的故事世代传诵。进士及第后历任华州判官、苏州判官等职以刚正敢言著称。他最大贡献是耗费十九年编纂《资治通鉴》，涵盖战国至五代1362年的编年体巨著。',
     descriptionEn: 'A pivotal period in Sima Guang\'s life. Northern Song statesman and historian who compiled "Zizhi Tongjian" and opposed Wang Anshi\\',
     sourceIds: [],
-    importance: 3,
+    importance: 4,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -5170,22 +5172,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-ouyang-xiu-major',
-    title: '欧阳修的重大成就',
+    title: '欧阳修进士及第',
     titleEn: 'Major achievement of Ouyang Xiu',
-    startYear: 1028,
-    endYear: 1028,
+    startYear: 1030,
+    endYear: 1030,
     regionId: 'song-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['ouyang-xiu'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '欧阳修在公元1028年前后北宋文学革新运动领袖，唐宋八大家之一。文学上推行古文运动，史学上参与编纂《新唐书》。',
+    summary: '天圣八年（1030年），欧阳修以第一名通过省试后进士及第。他四岁丧父，母亲以荻草画沙教其识字。后成为北宋文坛领袖，位列唐宋八大家。',
     summaryEn: 'Around 1028 CE, Ouyang Xiu achieved a major milestone.',
-    description: '欧阳修一生中的重要成就时期。北宋文学革新运动领袖，唐宋八大家之一。文学上推行古文运动，史学上参与编纂《新唐书》。',
+    description: '天圣八年（1030年），欧阳修以第一名通过省试后进士及第。他四岁丧父家贫无纸笔，母亲郑氏以荻草画沙教他识字。及第历任馆阁校勘、参知政事等职，因支持范仲淹改革屡遭贬谪。他领导古文运动，力矫浮靡文风。《醉翁亭记》成为千古名篇。',
     descriptionEn: 'A pivotal period in Ouyang Xiu\'s life. Leader of the Northern Song literary reform movement. Promoted the Classical Prose Movement and co-edited the "New Book of Tang."',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -5845,22 +5847,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-li-bai-major',
-    title: '李白的重大成就',
+    title: '李白辞亲远游',
     titleEn: 'Major achievement of Li Bai',
-    startYear: 721,
-    endYear: 721,
+    startYear: 725,
+    endYear: 725,
     regionId: 'tang-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['li-bai'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '李白在公元721年前后唐代最伟大的浪漫主义诗人，被称为"诗仙"，作品飘逸豪放，代表作《将进酒》《静夜思》。',
+    summary: '开元十三年（725年），二十五岁的李白辞亲远游，仗剑出蜀，沿长江而下，途经江陵、洞庭、庐山等地，一路结交名士饮酒赋诗。这是他人生最重要的转折点。',
     summaryEn: 'Around 721 CE, Li Bai achieved a major milestone.',
-    description: '李白一生中的重要成就时期。唐代最伟大的浪漫主义诗人，被称为"诗仙"，作品飘逸豪放，代表作《将进酒》《静夜思》。',
+    description: '开元十三年（725年），二十五岁的李白辞亲远游，离开故乡蜀中向东漫游。他自幼博览群书又习剑术，出蜀后游历江陵、洞庭、庐山、金陵等地，一路赋诗交友。在江陵遇道教名士司马承祯得其赞赏；在金陵挥金如土不到一年散尽三十万钱。《渡荆门送别》写于此时。',
     descriptionEn: 'A pivotal period in Li Bai\'s life. The greatest Romantic poet of the Tang dynasty, known as the "Immortal Poet," celebrated for works like "Bringing in the Wine" and "Quiet Night Thought."',
     sourceIds: [],
-    importance: 3,
+    importance: 4,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -6070,22 +6072,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-zheng-he-major',
-    title: '郑和的重大成就',
+    title: '郑和首次下西洋',
     titleEn: 'Major achievement of Zheng He',
-    startYear: 1391,
-    endYear: 1391,
+    startYear: 1405,
+    endYear: 1405,
     regionId: 'ming-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['zheng-he'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '郑和在公元1391年前后明代著名航海家，七次率庞大船队下西洋，到达东南亚、印度、阿拉伯和东非，是人类航海史上的壮举。',
+    summary: '永乐三年（1405年），郑和奉明成祖之命率领庞大船队首次下西洋。舰队拥有大小船只二百余艘、船员二万七千余人，最远到达印度古里，开启了人类航海史上的壮举。',
     summaryEn: 'Around 1391 CE, Zheng He achieved a major milestone.',
-    description: '郑和一生中的重要成就时期。明代著名航海家，七次率庞大船队下西洋，到达东南亚、印度、阿拉伯和东非，是人类航海史上的壮举。',
+    description: '永乐三年（1405年）七月，明成祖命郑和为正使，率领当时世界上最大的船队从苏州刘家港启航。郑和本姓马，云南昆阳人，幼年被明军掳入宫中成为太监后因战功赐姓郑。船队二百余艘、船员二万七千余人，先后到达占城、爪哇、苏门答腊、满剌加，最远抵达古里（印度卡利卡特）。',
     descriptionEn: 'A pivotal period in Zheng He\'s life. Ming dynasty navigator who led seven major maritime expeditions to Southeast Asia, India, Arabia, and East Africa — a monumental achievement in the history of navigation.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -8245,22 +8247,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-emperor-taizong-major',
-    title: '唐太宗的重大成就',
+    title: '李世民劝父起兵',
     titleEn: 'Major achievement of Emperor Taizong of Tang',
-    startYear: 615,
-    endYear: 615,
+    startYear: 617,
+    endYear: 617,
     regionId: 'tang-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['emperor-taizong'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '唐太宗在公元615年前后唐朝第二位皇帝，开创贞观之治。',
+    summary: '大业十三年（617年），李世民审时度势，联合裴寂、刘文静力劝其父太原留守李渊起兵反隋。七月李渊在太原誓师，李世民率军攻入长安，开启了唐朝建立的序幕。',
     summaryEn: 'Around 615 CE, Emperor Taizong of Tang achieved a major milestone.',
-    description: '唐太宗一生中的重要成就时期。唐朝第二位皇帝，开创贞观之治。',
+    description: '大业十三年（617年），隋朝天下大乱。太原留守李渊卷入政治危机，其子李世民联合裴寂和刘文静力劝父亲起兵。七月李渊誓师，李世民与李建成分率两军直指长安。十一月攻克长安，次年五月李渊称帝建立唐朝。年仅二十岁的李世民展现出卓越的军事谋略。',
     descriptionEn: 'A pivotal period in Emperor Taizong of Tang\'s life. Second Tang emperor, inaugurated the prosperous Zhenguan era.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -8320,22 +8322,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-wu-zetian-major',
-    title: '武则天的重大成就',
+    title: '武则天立为皇后',
     titleEn: 'Major achievement of Wu Zetian',
-    startYear: 651,
-    endYear: 651,
+    startYear: 655,
+    endYear: 655,
     regionId: 'tang-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['wu-zetian'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '武则天在公元651年前后中国历史上唯一的女皇帝，建立武周政权。',
+    summary: '永徽六年（655年），唐高宗力排众议废王皇后立武则天为皇后。武则天由此掌握后宫与朝政实权，与高宗并称二圣，为其日后成为中国历史上唯一女皇帝铺平了道路。',
     summaryEn: 'Around 651 CE, Wu Zetian achieved a major milestone.',
-    description: '武则天一生中的重要成就时期。中国历史上唯一的女皇帝，建立武周政权。',
+    description: '永徽六年（655年），唐高宗李治力排众议废王皇后立武则天为皇后。武则天十四岁入宫为太宗才人，太宗驾崩后入感业寺为尼，高宗召回封为昭仪。在废王立武的政治斗争中获李勣支持。立后因高宗体弱多病得以批阅奏章处理政务。',
     descriptionEn: 'A pivotal period in Wu Zetian\'s life. The only female emperor in Chinese history, founder of the Wu Zhou dynasty.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -8395,22 +8397,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-du-fu-major',
-    title: '杜甫的重大成就',
+    title: '杜甫漫游吴越',
     titleEn: 'Major achievement of Du Fu',
-    startYear: 731,
-    endYear: 731,
+    startYear: 735,
+    endYear: 735,
     regionId: 'tang-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['du-fu'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '杜甫在公元731年前后唐代伟大的现实主义诗人，被称为诗圣。',
+    summary: '开元二十三年（735年），二十四岁的杜甫首次远游江南，在吴越一带漫游了三四年之久。他徜徉于苏州、杭州等名城，登临名胜古迹，开阔了视野，为其沉郁顿挫的诗风奠定了基础。',
     summaryEn: 'Around 731 CE, Du Fu achieved a major milestone.',
-    description: '杜甫一生中的重要成就时期。唐代伟大的现实主义诗人，被称为诗圣。',
+    description: '开元二十三年（735年），二十四岁的杜甫结束洛阳书斋生活，首次远游江南，在吴越一带漫游三四年。他徜徉于苏州、杭州、绍兴等历史文化名城，登金陵凤凰台，泛舟太湖和鉴湖。这段经历让他见识了盛唐江南的富庶繁华。',
     descriptionEn: 'A pivotal period in Du Fu\'s life. Great Tang realist poet, revered as the Sage of Poetry.',
     sourceIds: [],
-    importance: 3,
+    importance: 4,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -9070,22 +9072,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-zhu-yuanzhang-major',
-    title: '朱元璋的重大成就',
+    title: '朱元璋投奔红巾军',
     titleEn: 'Major achievement of Zhu Yuanzhang',
-    startYear: 1351,
-    endYear: 1351,
+    startYear: 1352,
+    endYear: 1352,
     regionId: 'ming-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['zhu-yuanzhang'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '朱元璋在公元1351年前后明朝开国皇帝，从贫苦农民成为一代帝王。',
+    summary: '至正十二年（1352年），25岁的朱元璋投奔郭子兴的红巾军起义。他作战勇猛又识字能文，很快被提拔为九夫长，郭子兴还将养女马氏许配给他。由此开启从乞丐到皇帝的传奇人生。',
     summaryEn: 'Around 1351 CE, Zhu Yuanzhang achieved a major milestone.',
-    description: '朱元璋一生中的重要成就时期。明朝开国皇帝，从贫苦农民成为一代帝王。',
+    description: '至正十二年（1352年），元末天下大乱。朱元璋幼年父母兄长在灾荒中相继去世，沦为乞丐后入皇觉寺为僧。25岁那年儿时玩伴汤和来信劝他投军，他前往濠州投奔郭子兴。郭见其相貌奇伟收为亲兵，他作战骁勇又识字能文很快被提拔。郭子兴将养女马氏许配给他。',
     descriptionEn: 'A pivotal period in Zhu Yuanzhang\'s life. Founding emperor of the Ming dynasty, rising from impoverished peasant to emperor.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -9145,22 +9147,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-kangxi-major',
-    title: '康熙帝的重大成就',
+    title: '康熙智擒鳌拜',
     titleEn: 'Major achievement of Kangxi Emperor',
-    startYear: 1676,
-    endYear: 1676,
+    startYear: 1669,
+    endYear: 1669,
     regionId: 'china',
     coordinates: undefined,
     placeName: '',
     personIds: ['kangxi'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '康熙帝在公元1676年前后清朝第四位皇帝，在位61年，开创康乾盛世。',
+    summary: '康熙八年（1669年），年仅16岁的康熙帝表面沉迷布库游戏，暗中训练满洲少年擒拿之术。在武英殿一举擒获专横跋扈的辅政大臣鳌拜，从此亲掌朝政开启了中国历史上最长的帝王统治。',
     summaryEn: 'Around 1676 CE, Kangxi Emperor achieved a major milestone.',
-    description: '康熙帝一生中的重要成就时期。清朝第四位皇帝，在位61年，开创康乾盛世。',
+    description: '康熙八年（1669年）五月，一场精心策划的政变在紫禁城上演。康熙帝八岁即位由四大臣辅政但鳌拜专横跋扈。康熙表面沉迷布库游戏，暗中训练满洲少年擒拿术。五月十六日召鳌拜入武英殿少年们一拥而上将其擒获。十六岁康熙就此亲政。',
     descriptionEn: 'A pivotal period in Kangxi Emperor\'s life. Fourth Qing emperor, reigning 61 years and inaugurating the High Qing era.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -9220,22 +9222,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-qianlong-major',
-    title: '乾隆帝的重大成就',
+    title: '乾隆平定准噶尔',
     titleEn: 'Major achievement of Qianlong Emperor',
-    startYear: 1740,
-    endYear: 1740,
+    startYear: 1755,
+    endYear: 1755,
     regionId: 'china',
     coordinates: undefined,
     placeName: '',
     personIds: ['qianlong'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '乾隆帝在公元1740年前后清朝皇帝，在位60年，清朝版图和国力达到鼎盛。',
+    summary: '乾隆二十年（1755年），乾隆帝抓住准噶尔内乱之机，命班第、永常分两路出兵远征伊犁。彻底消灭了困扰清朝近百年的准噶尔汗国，将天山南北纳入版图定名新疆，奠定现代中国西北边疆。',
     summaryEn: 'Around 1740 CE, Qianlong Emperor achieved a major milestone.',
-    description: '乾隆帝一生中的重要成就时期。清朝皇帝，在位60年，清朝版图和国力达到鼎盛。',
+    description: '乾隆二十年（1755年）是清朝版图奠定的关键之年。自康熙年间噶尔丹崛起以来准噶尔蒙古一直是西北最大威胁。1755年准噶尔分裂阿睦尔撒纳投清。乾隆果断出兵两路远征伊犁。首领达瓦齐被擒汗国灭亡。此役使天山南北正式纳入清朝版图命名新疆。',
     descriptionEn: 'A pivotal period in Qianlong Emperor\'s life. Qing emperor who brought the empire to its territorial and cultural zenith.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -9295,22 +9297,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-cao-xueqin-major',
-    title: '曹雪芹的重大成就',
+    title: '曹雪芹开始创作红楼梦',
     titleEn: 'Major achievement of Cao Xueqin',
-    startYear: 1731,
-    endYear: 1731,
+    startYear: 1744,
+    endYear: 1744,
     regionId: 'china',
     coordinates: undefined,
     placeName: '',
     personIds: ['cao-xueqin'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '曹雪芹在公元1731年前后清代文学家，《红楼梦》作者。',
+    summary: '约乾隆九年（1744年），家道中落的曹雪芹在北京西郊香山脚下开始创作《红楼梦》。他以自身家族从繁华到衰败的经历为蓝本，披阅十载增删五次，完成了这部中国古典小说巅峰之作的前八十回。',
     summaryEn: 'Around 1731 CE, Cao Xueqin achieved a major milestone.',
-    description: '曹雪芹一生中的重要成就时期。清代文学家，《红楼梦》作者。',
+    description: '约乾隆九年（1744年），曹雪芹在北京西郊香山脚下陋室中开始提笔创作《红楼梦》。他出身江宁织造曹家，祖父曹寅是康熙帝宠臣。雍正年间家族被抄从金陵富贵之乡沦为北京贫民。晚年移居香山以卖画为生。他以血泪之笔描绘了四大家族兴衰的爱情悲剧。',
     descriptionEn: 'A pivotal period in Cao Xueqin\'s life. Qing dynasty writer, author of Dream of the Red Chamber.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -9370,22 +9372,22 @@ export const events: HistoricalEvent[] = [
   },
   {
     id: 'evt-li-shizhen-major',
-    title: '李时珍的重大成就',
+    title: '李时珍开始编纂本草纲目',
     titleEn: 'Major achievement of Li Shizhen',
-    startYear: 1543,
-    endYear: 1543,
+    startYear: 1552,
+    endYear: 1552,
     regionId: 'ming-dynasty',
     coordinates: undefined,
     placeName: '',
     personIds: ['li-shizhen'],
     tags: ['人物', '成就'],
     tagsEn: ['Biography', 'Achievement'],
-    summary: '李时珍在公元1543年前后明代医学家，《本草纲目》作者。',
+    summary: '嘉靖三十一年（1552年），李时珍鉴于历代本草著作多有谬误，决心编纂全面准确的药物学巨著。他辞去太医院职务，深入各地山林采集标本，历时27年完成《本草纲目》被达尔文誉为中国古代的百科全书。',
     summaryEn: 'Around 1543 CE, Li Shizhen achieved a major milestone.',
-    description: '李时珍一生中的重要成就时期。明代医学家，《本草纲目》作者。',
+    description: '嘉靖三十一年（1552年），已是名医的李时珍在行医实践中发现历代本草书籍谬误甚多，立下宏愿编纂《本草纲目》。他辞去太医院院判之职，足迹遍及湖北、江西、江苏、安徽等地采集药材向药农樵夫请教。历经27年三易其稿完成52卷巨著。',
     descriptionEn: 'A pivotal period in Li Shizhen\'s life. Ming dynasty physician, author of the Compendium of Materia Medica.',
     sourceIds: [],
-    importance: 3,
+    importance: 5,
     datePrecision: 'year' as const,
     isApproximate: false,
     relatedEventIds: [],
@@ -45734,26 +45736,36 @@ export const events: HistoricalEvent[] = [
 // Total: 18 Chinese historical events,
 ];
 
+// ==================== MAP INDEXES (O(1) lookups) ====================
+
+/** Pre-built Map indexes for O(1) lookup by ID */
+const personMap = new Map<string, Person>(people.map((p) => [p.id, p]));
+const regionMap = new Map<string, Region>(regions.map((r) => [r.id, r]));
+const eventMap = new Map<string, HistoricalEvent>(events.map((e) => [e.id, e]));
+const sourceMap = new Map<string, Source>(sources.map((s) => [s.id, s]));
+
+export { personMap, regionMap, eventMap, sourceMap };
+
 // ==================== HELPERS ====================
 
-/** Get a person by ID */
+/** Get a person by ID — O(1) via Map */
 export function getPersonById(id: string): Person | undefined {
-  return people.find((p) => p.id === id);
+  return personMap.get(id);
 }
 
-/** Get a region by ID */
+/** Get a region by ID — O(1) via Map */
 export function getRegionById(id: string): Region | undefined {
-  return regions.find((r) => r.id === id);
+  return regionMap.get(id);
 }
 
-/** Get an event by ID */
+/** Get an event by ID — O(1) via Map */
 export function getEventById(id: string): HistoricalEvent | undefined {
-  return events.find((e) => e.id === id);
+  return eventMap.get(id);
 }
 
-/** Get a source by ID */
+/** Get a source by ID — O(1) via Map */
 export function getSourceById(id: string): Source | undefined {
-  return sources.find((s) => s.id === id);
+  return sourceMap.get(id);
 }
 
 /** Get sub-regions for a given region */
@@ -45766,12 +45778,12 @@ export function getEventsForPerson(personId: string): HistoricalEvent[] {
   return events.filter((e) => e.personIds.includes(personId));
 }
 
-/** Get persons for an event */
+/** Get persons for an event — O(1) per person via Map */
 export function getPersonsForEvent(eventId: string): Person[] {
-  const event = getEventById(eventId);
+  const event = eventMap.get(eventId);
   if (!event) return [];
   return event.personIds
-    .map((pid) => getPersonById(pid))
+    .map((pid) => personMap.get(pid))
     .filter((p): p is Person => p !== undefined);
 }
 
@@ -45788,11 +45800,11 @@ export function getAllTags(): string[] {
   return Array.from(tagSet).sort();
 }
 
-/** Get sources linked to an event */
+/** Get sources linked to an event — O(1) per source via Map */
 export function getSourcesForEvent(eventId: string): Source[] {
-  const event = getEventById(eventId);
+  const event = eventMap.get(eventId);
   if (!event) return [];
   return event.sourceIds
-    .map((sid) => getSourceById(sid))
+    .map((sid) => sourceMap.get(sid))
     .filter((s): s is Source => s !== undefined);
 }

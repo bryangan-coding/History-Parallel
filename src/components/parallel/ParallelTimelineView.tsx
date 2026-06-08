@@ -26,7 +26,7 @@ export default function ParallelTimelineView({ groups, centerYear, range }: Prop
   const { locale } = useLocale();
   const minYear = centerYear - range;
   const maxYear = centerYear + range;
-  const totalSpan = maxYear - minYear;
+  const totalSpan = maxYear - minYear || 1; // Prevent division by zero when range=0
   const [selectedEvent, setSelectedEvent] = useState<{
     event: ScoredEvent;
     region: ReturnType<typeof regionName>;
@@ -62,6 +62,7 @@ export default function ParallelTimelineView({ groups, centerYear, range }: Prop
 
   // Calculate x position (percentage) for an event
   const getXPercent = (year: number) => {
+    if (totalSpan <= 0) return 50; // Center single-year view
     return ((year - minYear) / totalSpan) * 100;
   };
 
@@ -191,6 +192,8 @@ export default function ParallelTimelineView({ groups, centerYear, range }: Prop
           regionName={selectedEvent.region}
           onClose={closePreview}
           locale={locale}
+          persons={selectedEvent.event.persons}
+          region={undefined}
         />
       )}
     </div>

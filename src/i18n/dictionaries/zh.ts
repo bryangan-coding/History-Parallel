@@ -88,6 +88,9 @@ export interface Dictionary {
     eventAchievement: string;
     yearsOld: string;
     empty: string;
+    mainPerson: string;
+    zoomIn: string;
+    zoomOut: string;
   };
 
   // Parallel page
@@ -213,6 +216,9 @@ export const zh: Dictionary = {
     eventAchievement: '成就',
     yearsOld: '{age}岁',
     empty: '暂无生平事件',
+    mainPerson: '主体',
+    zoomIn: '放大',
+    zoomOut: '缩小',
   },
   parallel: {
     timeRange: '时间范围',

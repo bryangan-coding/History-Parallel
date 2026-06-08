@@ -1,22 +1,30 @@
-import type { SearchResult, YearMatch, Person, HistoricalEvent } from '@/lib/types';
-import { people, events, regions } from '@/data/mockData';
-
 /**
  * Search across all entities: people, events, regions, years.
  * Supports Chinese names, English names, aliases, tags, and year numbers.
  * Only returns published data for public-facing search.
+ *
+ * IMPORTANT: This module is designed to be callable from both server and client.
+ * Data is passed as parameters — no direct import of mockData.
  */
-export function search(query: string): SearchResult {
+
+import type { SearchResult, YearMatch, Person, HistoricalEvent, Region } from '@/lib/types';
+
+export function search(
+  query: string,
+  people: Person[],
+  events: HistoricalEvent[],
+  regions: Region[],
+): SearchResult {
   const q = query.trim();
   if (!q) {
     return { people: [], events: [], regions: [], yearMatches: [] };
   }
 
   const results: SearchResult = {
-    people: searchPeople(q),
-    events: searchEvents(q),
-    regions: searchRegions(q),
-    yearMatches: searchYears(q),
+    people: searchPeople(q, people),
+    events: searchEvents(q, events),
+    regions: searchRegions(q, regions),
+    yearMatches: searchYears(q, events),
   };
 
   return results;
@@ -31,7 +39,7 @@ function matchScore(text: string, query: string): number {
   return 0;
 }
 
-function searchPeople(q: string): Person[] {
+function searchPeople(q: string, people: Person[]): Person[] {
   const publishedPeople = people.filter((p) => p.dataStatus === 'published');
 
   const results = publishedPeople
@@ -58,7 +66,7 @@ function searchPeople(q: string): Person[] {
   return results;
 }
 
-function searchEvents(q: string): HistoricalEvent[] {
+function searchEvents(q: string, events: HistoricalEvent[]): HistoricalEvent[] {
   const publishedEvents = events.filter((e) => e.dataStatus === 'published');
 
   const results = publishedEvents
@@ -86,7 +94,7 @@ function searchEvents(q: string): HistoricalEvent[] {
   return results;
 }
 
-function searchRegions(q: string) {
+function searchRegions(q: string, regions: Region[]) {
   return regions
     .map((r) => {
       let score = 0;
@@ -103,7 +111,7 @@ function searchRegions(q: string) {
     .map((r) => r.region);
 }
 
-function searchYears(q: string): YearMatch[] {
+function searchYears(q: string, events: HistoricalEvent[]): YearMatch[] {
   const publishedEvents = events.filter((e) => e.dataStatus === 'published');
 
   // Try to parse as a year number
@@ -124,6 +132,7 @@ function searchYears(q: string): YearMatch[] {
   if (inRange.length === 0) {
     // Only show if the year exists in our data range
     const allYears = publishedEvents.map((e) => e.startYear ?? 0);
+    if (allYears.length === 0) return [];
     const minYear = Math.min(...allYears);
     const maxYear = Math.max(...allYears);
     if (yearNum < minYear || yearNum > maxYear) return [];

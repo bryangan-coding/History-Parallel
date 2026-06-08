@@ -9,7 +9,15 @@ import ExamplePromptCard, {
 } from '@/components/cards/ExamplePromptCard';
 import type { Person, Region } from '@/lib/types';
 
-export default function HomePageClient({ publishedPeople, regions }: { publishedPeople: Person[]; regions: Region[] }) {
+export default function HomePageClient({
+  totalPublished,
+  featuredPeople,
+  regions,
+}: {
+  totalPublished: number;
+  featuredPeople: Person[];
+  regions: Region[];
+}) {
   const { locale, t } = useLocale();
 
   return (
@@ -67,7 +75,7 @@ export default function HomePageClient({ publishedPeople, regions }: { published
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByPerson}</h3>
-          <p className="mt-1 text-xs text-stone-400">{publishedPeople.length} {locale === 'en' ? 'figures' : '位人物'}</p>
+          <p className="mt-1 text-xs text-stone-400">{totalPublished} {locale === 'en' ? 'figures' : '位人物'}</p>
         </Link>
 
         <Link
@@ -110,19 +118,27 @@ export default function HomePageClient({ publishedPeople, regions }: { published
         </Link>
       </div>
 
-      {/* Browse all people */}
-      <div className="mt-16 w-full max-w-3xl mx-auto">
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
-            {t.home.exploreByPerson} ({publishedPeople.length})
-          </h2>
+      {/* Featured people */}
+      {featuredPeople.length > 0 && (
+        <div className="mt-16 w-full max-w-3xl mx-auto">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
+              {locale === 'en' ? 'Featured People' : '精选人物'}
+            </h2>
+            <Link
+              href="/people"
+              className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
+            >
+              {locale === 'en' ? `View all ${totalPublished} figures →` : `查看全部 ${totalPublished} 位人物 →`}
+            </Link>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {featuredPeople.map((p) => (
+              <PersonCard key={p.id} person={p} regions={regions} />
+            ))}
+          </div>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          {publishedPeople.map((p) => (
-            <PersonCard key={p.id} person={p} regions={regions} />
-          ))}
-        </div>
-      </div>
+      )}
     </div>
   );
 }

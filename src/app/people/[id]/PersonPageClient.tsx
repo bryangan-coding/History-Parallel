@@ -7,20 +7,26 @@ import PageHeader from '@/components/common/PageHeader';
 import Tag from '@/components/common/Tag';
 import Timeline from '@/components/timeline/Timeline';
 import EmptyState from '@/components/common/EmptyState';
-import { getPersonById, getEventsForPerson, getRegionById } from '@/data/mockData';
 import { formatLifespan } from '@/lib/date';
 import { personName, personSummary, personTags, regionName } from '@/lib/types';
+import type { Person, HistoricalEvent, Region } from '@/lib/types';
 
-export function PersonPageClient({ id }: { id: string }) {
+interface PersonPageClientProps {
+  id: string;
+  person?: Person;
+  region?: Region;
+  personEvents: HistoricalEvent[];
+  /** Pre-resolved event regions for the timeline */
+  eventRegions: Map<string, Region | undefined>;
+}
+
+export function PersonPageClient({ id, person, region, personEvents, eventRegions }: PersonPageClientProps) {
   const { locale, t, toScript } = useLocale();
-  const person = getPersonById(id);
 
   if (!person) {
     notFound();
   }
 
-  const region = getRegionById(person.regionId ?? '');
-  const personEvents = getEventsForPerson(person.id);
   const tags = personTags(person, locale);
 
   return (
@@ -74,7 +80,7 @@ export function PersonPageClient({ id }: { id: string }) {
               description={t.person.noEventsDesc}
             />
           ) : (
-            <Timeline events={personEvents} personId={person.id} />
+            <Timeline events={personEvents} eventRegions={eventRegions} />
           )}
         </div>
       </div>

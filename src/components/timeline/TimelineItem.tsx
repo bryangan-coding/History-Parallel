@@ -1,20 +1,22 @@
 import Link from 'next/link';
-import type { HistoricalEvent } from '@/lib/types';
+import type { HistoricalEvent, Region } from '@/lib/types';
 import { formatYearRange } from '@/lib/date';
-import { getRegionById } from '@/data/mockData';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { eventTitle, eventSummary, regionName } from '@/lib/types';
+
+interface TimelineItemProps {
+  event: HistoricalEvent;
+  isLast: boolean;
+  /** Pre-resolved region — avoids importing mockData in client */
+  region?: Region;
+}
 
 export default function TimelineItem({
   event,
   isLast,
-}: {
-  event: HistoricalEvent;
-  personId: string;
-  isLast: boolean;
-}) {
+  region,
+}: TimelineItemProps) {
   const { locale, toScript } = useLocale();
-  const region = getRegionById(event.regionId ?? '');
 
   return (
     <div className={`relative pl-12 ${isLast ? 'pb-0' : 'pb-8'}`}>

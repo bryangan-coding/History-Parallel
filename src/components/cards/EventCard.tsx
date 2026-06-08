@@ -1,7 +1,6 @@
 import Link from 'next/link';
-import type { HistoricalEvent } from '@/lib/types';
+import type { HistoricalEvent, Region, Person } from '@/lib/types';
 import { formatYearRange } from '@/lib/date';
-import { getRegionById, getPersonsForEvent } from '@/data/mockData';
 import { useLocale } from '@/i18n/LocaleProvider';
 import {
   eventTitle,
@@ -13,16 +12,22 @@ import {
 } from '@/lib/types';
 import Tag from '@/components/common/Tag';
 
+interface EventCardProps {
+  event: HistoricalEvent;
+  showParallelButton?: boolean;
+  /** Pre-resolved region — avoids importing mockData in client */
+  region?: Region;
+  /** Pre-resolved persons — avoids importing mockData in client */
+  persons?: Person[];
+}
+
 export default function EventCard({
   event,
   showParallelButton = false,
-}: {
-  event: HistoricalEvent;
-  showParallelButton?: boolean;
-}) {
+  region,
+  persons = [],
+}: EventCardProps) {
   const { locale, toScript } = useLocale();
-  const region = event.regionId ? getRegionById(event.regionId) : undefined;
-  const persons = getPersonsForEvent(event.id);
   const tags = eventTags(event, locale);
   const displayPlaceName = eventPlaceName(event, locale);
 
@@ -46,7 +51,7 @@ export default function EventCard({
               className="text-xs text-amber-500 shrink-0"
               title={`${locale === 'en' ? 'Importance' : '重要性'}: ${event.importance}/5`}
             >
-              {importanceDots[event.importance]}
+              {importanceDots[event.importance as keyof typeof importanceDots] ?? '•'}
             </span>
           </div>
           <div className="flex items-center gap-2 mt-1 text-sm text-stone-500">

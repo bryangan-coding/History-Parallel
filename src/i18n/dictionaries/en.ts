@@ -76,6 +76,9 @@ export const en: Dictionary = {
     eventAchievement: 'Achievement',
     yearsOld: '{age} years old',
     empty: 'No biographical events',
+    mainPerson: 'Main',
+    zoomIn: 'Zoom in',
+    zoomOut: 'Zoom out',
   },
   parallel: {
     timeRange: 'Time Range',

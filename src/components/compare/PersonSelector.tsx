@@ -6,14 +6,12 @@ import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, personSummary } from '@/lib/types';
 
 interface PersonSelectorProps {
-  allPeople: Person[];
   selected: Person[];
   onAdd: (person: Person) => void;
   onRemove: (personId: string) => void;
 }
 
 export default function PersonSelector({
-  allPeople,
   selected,
   onAdd,
   onRemove,
@@ -21,24 +19,44 @@ export default function PersonSelector({
   const { locale, t } = useLocale();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
+  const [results, setResults] = useState<Person[]>([]);
+  const [loading, setLoading] = useState(false);
+  const [fetchError, setFetchError] = useState(false);
   const inputRef = useRef<HTMLInputElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
+  const debounceRef = useRef<ReturnType<typeof setTimeout>>(null);
 
   const selectedIds = useMemo(() => new Set(selected.map((p) => p.id)), [selected]);
 
-  const filtered = useMemo(() => {
-    if (query.trim().length === 0) return [];
-    const q = query.toLowerCase();
-    return allPeople
-      .filter((p) => {
-        if (selectedIds.has(p.id)) return false;
-        const name = personName(p, locale).toLowerCase();
-        const altNames = p.alternativeNames.join(' ').toLowerCase();
-        const eng = p.nameEn?.toLowerCase() ?? '';
-        return name.includes(q) || altNames.includes(q) || eng.includes(q);
-      })
-      .slice(0, 8);
-  }, [allPeople, query, locale, selectedIds]);
+  // Fetch from API when query changes (debounced)
+  useEffect(() => {
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+
+    if (query.trim().length === 0) {
+      setResults([]);
+      return;
+    }
+
+    debounceRef.current = setTimeout(() => {
+      setLoading(true);
+      setFetchError(false);
+      fetch(`/api/data/people?q=${encodeURIComponent(query.trim())}&limit=8&published=true`)
+        .then((r) => r.json())
+        .then((data) => {
+          setResults((data.items || []).filter((p: Person) => !selectedIds.has(p.id)));
+          setLoading(false);
+        })
+        .catch(() => {
+          setResults([]);
+          setFetchError(true);
+          setLoading(false);
+        });
+    }, 200);
+
+    return () => {
+      if (debounceRef.current) clearTimeout(debounceRef.current);
+    };
+  }, [query, selectedIds]);
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -98,12 +116,16 @@ export default function PersonSelector({
         {/* Dropdown */}
         {isOpen && query.trim().length > 0 && (
           <div className="absolute top-full mt-1 left-0 right-0 bg-white border border-stone-200 rounded-lg shadow-lg z-50 max-h-72 overflow-y-auto">
-            {filtered.length === 0 ? (
+            {loading ? (
+              <div className="flex items-center justify-center py-6">
+                <div className="animate-spin w-5 h-5 border-2 border-stone-300 border-t-stone-600 rounded-full" />
+              </div>
+            ) : results.length === 0 ? (
               <p className="px-4 py-3 text-sm text-stone-400 text-center">
-                {locale === 'en' ? 'No matching people' : '无匹配人物'}
+                {fetchError ? (locale === 'en' ? 'Search failed. Try again.' : '搜索失败，请重试。') : (locale === 'en' ? 'No matching people' : '无匹配人物')}
               </p>
             ) : (
-              filtered.map((person) => (
+              results.map((person) => (
                 <button
                   key={person.id}
                   onClick={() => {

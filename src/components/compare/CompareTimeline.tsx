@@ -76,6 +76,7 @@ export default function CompareTimeline({ people, allEvents }: CompareTimelinePr
 
   // Map year to x position in timeline space
   function yearToX(year: number): number {
+    if (totalSpan <= 0) return LEFT_LABEL_WIDTH + TIMELINE_WIDTH / 2;
     return LEFT_LABEL_WIDTH + ((year - minYear) / totalSpan) * TIMELINE_WIDTH;
   }
 

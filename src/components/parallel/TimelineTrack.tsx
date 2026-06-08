@@ -40,6 +40,7 @@ const TimelineTrack = memo(function TimelineTrack({
   locale,
 }: Props) {
   const getXPercent = (year: number) => {
+    if (totalSpan <= 0) return 50; // Center when single-year view
     return ((year - minYear) / totalSpan) * 100;
   };
 

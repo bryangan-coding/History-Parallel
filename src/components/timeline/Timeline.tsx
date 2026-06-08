@@ -1,12 +1,13 @@
-import type { HistoricalEvent } from '@/lib/types';
+import type { HistoricalEvent, Region } from '@/lib/types';
 import TimelineItem from './TimelineItem';
 
 export default function Timeline({
   events,
-  personId,
+  eventRegions,
 }: {
   events: HistoricalEvent[];
-  personId: string;
+  /** Pre-resolved regions for each event — avoids importing mockData in client */
+  eventRegions?: Map<string, Region | undefined>;
 }) {
   if (events.length === 0) {
     return (
@@ -28,8 +29,8 @@ export default function Timeline({
           <TimelineItem
             key={event.id}
             event={event}
-            personId={personId}
             isLast={index === sorted.length - 1}
+            region={eventRegions?.get(event.id)}
           />
         ))}
       </div>

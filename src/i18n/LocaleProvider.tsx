@@ -1,6 +1,6 @@
 'use client';
 
-import React, { createContext, useContext, useState, useCallback, useEffect } from 'react';
+import React, { createContext, useContext, useState, useCallback, useEffect, useRef, useMemo } from 'react';
 import type { Locale } from '@/lib/types';
 import type { Dictionary } from './dictionaries/zh';
 import { zh } from './dictionaries/zh';
@@ -14,14 +14,23 @@ const dictionaries: Record<Locale, Dictionary> = {
   en,
 };
 
+// Split context into two parts to minimize re-renders:
+// 1. LocaleContext — only changes when locale actually changes
+// 2. TranslationContext — dictionary changes with locale
+// Most components only need locale, not the full dictionary
+
 interface LocaleContextValue {
   locale: Locale;
-  t: Dictionary;
   setLocale: (locale: Locale) => void;
+}
+
+interface TranslationContextValue {
+  t: Dictionary;
   toScript: (text: string | undefined | null) => string;
 }
 
 const LocaleContext = createContext<LocaleContextValue | null>(null);
+const TranslationContext = createContext<TranslationContextValue | null>(null);
 
 function isLocale(v: string): v is Locale {
   return v === 'zh-CN' || v === 'zh-TW' || v === 'en';
@@ -48,7 +57,7 @@ function setCookie(locale: Locale) {
 export function LocaleProvider({ children }: { children: React.ReactNode }) {
   const [locale, setLocaleState] = useState<Locale>('zh-CN');
   const [converterReady, setConverterReady] = useState(false);
-  const converterRef = React.useRef<((text: string) => string) | null>(null);
+  const converterRef = useRef<((text: string) => string) | null>(null);
 
   // Read persisted locale on mount
   useEffect(() => {
@@ -84,6 +93,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
   const t = dictionaries[locale];
 
+  // Memoize toScript — only recreate when locale actually changes
   const toScript = useCallback(
     (text: string | undefined | null): string => {
       if (!text || locale !== 'zh-TW') return text ?? '';
@@ -93,17 +103,42 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     [locale]
   );
 
+  // Stable locale context value — only changes when locale changes
+  const localeValue = useMemo(() => ({
+    locale,
+    setLocale,
+  }), [locale, setLocale]);
+
+  // Translation context value — changes with locale
+  const translationValue = useMemo(() => ({
+    t,
+    toScript,
+  }), [t, toScript]);
+
   return (
-    <LocaleContext.Provider value={{ locale, t, setLocale, toScript }}>
-      {children}
+    <LocaleContext.Provider value={localeValue}>
+      <TranslationContext.Provider value={translationValue}>
+        {children}
+      </TranslationContext.Provider>
     </LocaleContext.Provider>
   );
 }
 
-export function useLocale(): LocaleContextValue {
-  const ctx = useContext(LocaleContext);
-  if (!ctx) {
+/** Get just the locale and setLocale — minimal re-render impact */
+export function useLocale(): LocaleContextValue & TranslationContextValue {
+  const localeCtx = useContext(LocaleContext);
+  const translationCtx = useContext(TranslationContext);
+  if (!localeCtx || !translationCtx) {
     throw new Error('useLocale must be used within a LocaleProvider');
   }
-  return ctx;
+  return { ...localeCtx, ...translationCtx };
+}
+
+/** Get only the locale string — avoids re-render when t/toScript change */
+export function useLocaleOnly(): Locale {
+  const ctx = useContext(LocaleContext);
+  if (!ctx) {
+    throw new Error('useLocaleOnly must be used within a LocaleProvider');
+  }
+  return ctx.locale;
 }

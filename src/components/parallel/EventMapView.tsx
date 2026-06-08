@@ -2,10 +2,9 @@
 
 import { useState, useMemo, useRef, useCallback } from 'react';
 import Link from 'next/link';
-import type { HistoricalEvent } from '@/lib/types';
+import type { HistoricalEvent, Region } from '@/lib/types';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { eventTitle, regionName } from '@/lib/types';
-import { getRegionById } from '@/data/mockData';
 
 interface EventMapViewProps {
   events: HistoricalEvent[];
@@ -13,6 +12,8 @@ interface EventMapViewProps {
   range: number;
   yearRange?: [number, number];
   onYearRangeChange?: (range: [number, number]) => void;
+  /** Pre-built region map — avoids importing mockData in client */
+  regionMap: Map<string, Region>;
 }
 
 function formatYearLabel(year: number): string {
@@ -104,8 +105,9 @@ export default function EventMapView({
   events,
   focusYear,
   yearRange,
+  regionMap,
 }: EventMapViewProps) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const [hoveredId, setHoveredId] = useState<string | null>(null);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [hoveredConnection, setHoveredConnection] = useState<string | null>(null);
@@ -302,7 +304,7 @@ export default function EventMapView({
                           fontWeight="500"
                           textAnchor="middle"
                         >
-                          {eventTitle(conn.toEvent, locale).substring(0, 18)}
+                          {toScript(eventTitle(conn.toEvent, locale)).substring(0, 18)}
                         </text>
                       </g>
                     )}
@@ -389,7 +391,7 @@ export default function EventMapView({
                       fill="#292524"
                       fontWeight="500"
                     >
-                      {eventTitle(event, locale).substring(0, 25)}
+                      {toScript(eventTitle(event, locale)).substring(0, 25)}
                       {eventTitle(event, locale).length > 25 ? '...' : ''}
                     </text>
                   </g>
@@ -405,7 +407,7 @@ export default function EventMapView({
             <div className="flex items-start justify-between">
               <div>
                 <h4 className="font-semibold text-stone-900 text-sm">
-                  {eventTitle(selectedEvent, locale)}
+                  {toScript(eventTitle(selectedEvent, locale))}
                 </h4>
                 <p className="text-xs text-stone-500 mt-1">
                   {selectedEvent.startYear !== undefined
@@ -419,7 +421,7 @@ export default function EventMapView({
                     <>
                       {' · '}
                       {(() => {
-                        const r = getRegionById(selectedEvent.regionId ?? '');
+                        const r = regionMap.get(selectedEvent.regionId ?? '');
                         return r ? regionName(r, locale) : selectedEvent.regionId;
                       })()}
                     </>

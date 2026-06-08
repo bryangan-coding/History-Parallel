@@ -2,23 +2,24 @@
 
 import Link from 'next/link';
 import { X, MapPin, Calendar, Users } from 'lucide-react';
-import type { ScoredEvent } from '@/lib/types';
+import type { ScoredEvent, Person, Region } from '@/lib/types';
 import { eventTitle, eventSummary, eventPlaceName, personName } from '@/lib/types';
 import { formatYearRange } from '@/lib/date';
 import type { Locale } from '@/lib/types';
-import { getPersonsForEvent, getRegionById } from '@/data/mockData';
 
 interface Props {
   scored: ScoredEvent;
   regionName: string;
   onClose: () => void;
   locale: Locale;
+  /** Pre-resolved persons — avoids importing mockData in client */
+  persons: Person[];
+  /** Pre-resolved region — avoids importing mockData in client */
+  region?: Region;
 }
 
-export default function EventPreviewPanel({ scored, regionName, onClose, locale }: Props) {
+export default function EventPreviewPanel({ scored, regionName, onClose, locale, persons, region }: Props) {
   const evt = scored.event;
-  const persons = getPersonsForEvent(evt.id);
-  const region = getRegionById(evt.regionId ?? '');
 
   return (
     <div className="mt-4 border border-stone-200 rounded-xl bg-white p-5 animate-in fade-in slide-in-from-bottom-2 duration-200">

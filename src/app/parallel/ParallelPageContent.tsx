@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { useLocale } from '@/i18n/LocaleProvider';
 import PageHeader from '@/components/common/PageHeader';
@@ -8,56 +8,98 @@ import TimeRangeSelector from '@/components/parallel/TimeRangeSelector';
 import ParallelWorldView from '@/components/parallel/ParallelWorldView';
 import ParallelTimelineView from '@/components/parallel/ParallelTimelineView';
 import EmptyState from '@/components/common/EmptyState';
-import { getParallelEvents } from '@/lib/parallel';
-import { getEventById, getPersonById, events } from '@/data/mockData';
 import { formatYearRange } from '@/lib/date';
 import { eventTitle, personName } from '@/lib/types';
-import type { TimeRange } from '@/lib/types';
+import type { ParallelRegionGroup, Region, TimeRange } from '@/lib/types';
+import { fetchParallelEvents, fetchPerson, fetchEvent } from '@/data/server-actions';
 import { LayoutGrid, GitCommitHorizontal, Map } from 'lucide-react';
 import EventMapView from '@/components/parallel/EventMapView';
 import TimeRangeSlider from '@/components/parallel/TimeRangeSlider';
+import { buildRegionMap } from '@/data/clientLookup';
 
 type ViewMode = 'card' | 'timeline' | 'map';
 
-export default function ParallelPageContent() {
+interface ParallelPageContentProps {
+  regions: Region[];
+}
+
+export default function ParallelPageContent({ regions }: ParallelPageContentProps) {
   const { locale, t } = useLocale();
   const searchParams = useSearchParams();
 
-  const year = parseInt(searchParams.get('year') ?? '1080', 10);
-  searchParams.get('startYear');
-  searchParams.get('endYear');
+  const rawYear = parseInt(searchParams.get('year') ?? '1080', 10);
+  const year = isNaN(rawYear) ? 1080 : rawYear;
   const focusEventId = searchParams.get('focusEvent') ?? undefined;
   const personId = searchParams.get('personId') ?? undefined;
-  const range = (parseInt(searchParams.get('range') ?? '20', 10) || 20) as TimeRange;
+  const rangeVal = parseInt(searchParams.get('range') ?? '20', 10);
+  const range = (isNaN(rangeVal) || ![0, 5, 20, 100].includes(rangeVal) ? 20 : rangeVal) as TimeRange;
 
   const [viewMode, setViewMode] = useState<ViewMode>('card');
+  const [groups, setGroups] = useState<ParallelRegionGroup[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const [focusEvent, setFocusEvent] = useState<Awaited<ReturnType<typeof fetchEvent>>>(undefined);
+  const [focusPerson, setFocusPerson] = useState<Awaited<ReturnType<typeof fetchPerson>>>(undefined);
+  const [yearRange, setYearRange] = useState<[number, number]>([-3000, 2000]);
+  // Separate data range for TimeRangeSlider bounds (doesn't change with user selection)
+  const [dataRange, setDataRange] = useState<[number, number]>([-3000, 2000]);
 
-  const focusEvent = focusEventId ? getEventById(focusEventId) : undefined;
-  const focusPerson = personId ? getPersonById(personId) : undefined;
+  const regionMap = useMemo(() => buildRegionMap(regions), [regions]);
 
-  const groups = getParallelEvents({
-    year,
-    range,
-    focusEventId,
-    focusPersonId: personId,
-  });
+  // Fetch parallel events via Server Action
+  useEffect(() => {
+    setLoading(true);
+    setError(null);
+    fetchParallelEvents({ year, range, focusEventId, focusPersonId: personId })
+      .then(setGroups)
+      .catch((err) => {
+        setError(err instanceof Error ? err.message : 'Failed to load data');
+        setGroups([]);
+      })
+      .finally(() => setLoading(false));
+  }, [year, range, focusEventId, personId]);
 
-  // Compute full year range from all published events
-  const { allMinYear, allMaxYear } = useMemo(() => {
-    const publishedEvents = events.filter((e) => e.dataStatus === 'published');
-    let min = Infinity;
-    let max = -Infinity;
-    for (const e of publishedEvents) {
-      if (e.startYear !== undefined) {
-        const end = e.endYear ?? e.startYear;
-        if (e.startYear < min) min = e.startYear;
-        if (end > max) max = end;
+  // Fetch focus event if needed
+  useEffect(() => {
+    if (focusEventId) {
+      fetchEvent(focusEventId).then(setFocusEvent).catch(() => {});
+    } else {
+      setFocusEvent(undefined);
+    }
+  }, [focusEventId]);
+
+  // Fetch focus person if needed
+  useEffect(() => {
+    if (personId) {
+      fetchPerson(personId).then(setFocusPerson).catch(() => {});
+    } else {
+      setFocusPerson(undefined);
+    }
+  }, [personId]);
+
+  // Compute full year range from loaded groups (for slider bounds, not user selection)
+  useEffect(() => {
+    if (groups.length > 0) {
+      let min = Infinity;
+      let max = -Infinity;
+      for (const g of groups) {
+        for (const s of g.events) {
+          const ey = s.event.startYear ?? 0;
+          const end = s.event.endYear ?? ey;
+          if (ey < min) min = ey;
+          if (end > max) max = end;
+        }
+      }
+      if (min !== Infinity) {
+        setDataRange([min, max]);
+        // Only update yearRange if it hasn't been user-modified (matches default)
+        setYearRange((prev) => {
+          if (prev[0] === -3000 && prev[1] === 2000) return [min, max];
+          return prev;
+        });
       }
     }
-    return { allMinYear: min === Infinity ? 0 : min, allMaxYear: max === -Infinity ? 2000 : max };
-  }, []);
-
-  const [yearRange, setYearRange] = useState<[number, number]>([allMinYear, allMaxYear]);
+  }, [groups]);
 
   // Filter groups by yearRange
   const filteredGroups = useMemo(() => {
@@ -155,40 +197,56 @@ export default function ParallelPageContent() {
         </p>
       </div>
 
+      {/* Loading state */}
+      {loading && (
+        <div className="flex items-center justify-center py-16">
+          <div className="animate-spin w-8 h-8 border-2 border-stone-300 border-t-stone-600 rounded-full" />
+        </div>
+      )}
+
+      {/* Error state */}
+      {error && !loading && (
+        <EmptyState
+          title={locale === 'en' ? 'Failed to load' : '加载失败'}
+          description={error}
+        />
+      )}
+
       {/* Time Range Slider */}
-      {allEventsForSlider.length > 0 && (
+      {!loading && allEventsForSlider.length > 0 && (
         <div className="mb-6 p-4 bg-white rounded-lg border border-stone-200">
           <TimeRangeSlider
             events={allEventsForSlider}
             value={yearRange}
             onChange={setYearRange}
-            minYear={allMinYear}
-            maxYear={allMaxYear}
+            minYear={dataRange[0]}
+            maxYear={dataRange[1]}
           />
         </div>
       )}
 
-      {filteredGroups.length === 0 ? (
+      {!loading && filteredGroups.length === 0 ? (
         <EmptyState
           title={t.parallel.noData}
           description={t.parallel.noDataDesc}
         />
-      ) : viewMode === 'timeline' ? (
+      ) : !loading && viewMode === 'timeline' ? (
         <ParallelTimelineView
           groups={filteredGroups}
           centerYear={year}
           range={range}
         />
-      ) : viewMode === 'map' ? (
+      ) : !loading && viewMode === 'map' ? (
         <EventMapView
           events={filteredGroups.flatMap((g) => g.events.map((s) => s.event))}
           focusYear={year}
           range={range}
           yearRange={yearRange}
+          regionMap={regionMap}
         />
-      ) : (
+      ) : !loading ? (
         <ParallelWorldView groups={filteredGroups} />
-      )}
+      ) : null}
     </div>
   );
 }

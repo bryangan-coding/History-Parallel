@@ -9,40 +9,31 @@ import EventCard from '@/components/cards/EventCard';
 import SourceList from '@/components/cards/SourceList';
 import PersonCard from '@/components/cards/PersonCard';
 import {
-  getEventById,
-  getPersonsForEvent,
-  getRegionById,
-  events,
-} from '@/data/mockData';
-import {
   eventTitle,
   eventDescription,
   eventPlaceName,
   eventTags,
   regionName,
 } from '@/lib/types';
+import type { Person, HistoricalEvent, Region } from '@/lib/types';
 
-export function EventPageClient({ id }: { id: string }) {
+interface EventPageClientProps {
+  id: string;
+  event?: HistoricalEvent;
+  persons: Person[];
+  region?: Region;
+  relatedEvents: { event: HistoricalEvent; region?: Region; persons: Person[] }[];
+}
+
+export function EventPageClient({ id, event, persons, region, relatedEvents }: EventPageClientProps) {
   const { locale, t, toScript } = useLocale();
-  const event = getEventById(id);
 
   if (!event) {
     notFound();
   }
 
-  const persons = getPersonsForEvent(event.id);
-  const region = event.regionId ? getRegionById(event.regionId) : undefined;
   const tags = eventTags(event, locale);
   const displayPlaceName = eventPlaceName(event, locale);
-
-  const relatedEvents = events
-    .filter(
-      (e) =>
-        e.id !== event.id &&
-        e.regionId === event.regionId &&
-        Math.abs((e.startYear ?? 0) - (event.startYear ?? 0)) <= 50,
-    )
-    .slice(0, 5);
 
   return (
     <div>
@@ -139,8 +130,14 @@ export function EventPageClient({ id }: { id: string }) {
             {t.event.relatedEventsTitle}
           </h3>
           <div className="space-y-3">
-            {relatedEvents.map((e) => (
-              <EventCard key={e.id} event={e} showParallelButton />
+            {relatedEvents.map(({ event: relEvent, region: relRegion, persons: relPersons }) => (
+              <EventCard
+                key={relEvent.id}
+                event={relEvent}
+                showParallelButton
+                region={relRegion}
+                persons={relPersons}
+              />
             ))}
           </div>
         </section>

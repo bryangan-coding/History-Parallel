@@ -1,11 +1,20 @@
-import { people, events, regions, sources } from '@/data/mockData';
-import { initData } from '@/data/helpers';
+import { people, regions } from '@/data/mockData';
 import HomePageClient from './HomePageClient';
+import type { Person } from '@/lib/types';
 
-// Initialize client-side helper data on server render
-initData(people, events, regions, sources);
+// Pre-compute stats server-side — only pass lightweight data to client
 const publishedPeople = people.filter((p) => p.dataStatus === 'published');
+const totalPublished = publishedPeople.length;
+
+// Only pick a small featured subset for display on the homepage
+const featuredPeople = publishedPeople.slice(0, 12);
 
 export default function HomePage() {
-  return <HomePageClient publishedPeople={publishedPeople} regions={regions} />;
+  return (
+    <HomePageClient
+      totalPublished={totalPublished}
+      featuredPeople={featuredPeople}
+      regions={regions}
+    />
+  );
 }

@@ -1,32 +1,50 @@
 'use client';
 
-import { useState, useMemo, useCallback } from 'react';
+import { useState, useMemo, useCallback, useEffect } from 'react';
 import { useSearchParams } from 'next/navigation';
 import type { Person, HistoricalEvent } from '@/lib/types';
 import { useLocale } from '@/i18n/LocaleProvider';
 import PageHeader from '@/components/common/PageHeader';
 import PersonSelector from '@/components/compare/PersonSelector';
-import CompareTimeline from '@/components/compare/CompareTimeline';
-import { people, getEventsForPerson, getPersonById } from '@/data/mockData';
+import VerticalCompareTimeline from '@/components/compare/VerticalCompareTimeline';
+import { lookupEventsForPerson } from '@/data/clientLookup';
 
-export default function ComparePageClient() {
-  const { t } = useLocale();
+interface ComparePageClientProps {
+  allEvents: HistoricalEvent[];
+}
+
+export default function ComparePageClient({ allEvents }: ComparePageClientProps) {
+  const { locale, t } = useLocale();
   const searchParams = useSearchParams();
 
-  // Compute initial selected people (handle preselect from URL)
-  const initialPeople = useMemo(() => {
-    const preselectId = searchParams.get('preselect');
-    if (!preselectId) return [];
-    const person = getPersonById(preselectId);
-    if (person && person.dataStatus === 'published') return [person];
-    return [];
-  }, [searchParams]);
+  const [initialPeople, setInitialPeople] = useState<Person[]>([]);
+  const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
 
-  const [selectedPeople, setSelectedPeople] = useState<Person[]>(initialPeople);
+  // Handle URL preselect by fetching the person — useEffect with proper cleanup
+  const preselectId = searchParams.get('preselect');
+  useEffect(() => {
+    if (!preselectId) return;
+    fetch(`/api/data/people?ids=${preselectId}&limit=1`)
+      .then((r) => r.json())
+      .then((data) => {
+        if (data.items?.length > 0) {
+          setInitialPeople(data.items);
+        }
+      })
+      .catch(() => {});
+  }, [preselectId]);
+
+  // Sync initial people into selected list when they load
+  useEffect(() => {
+    if (initialPeople.length > 0 && selectedPeople.length === 0) {
+      setSelectedPeople(initialPeople);
+    }
+  }, [initialPeople, selectedPeople.length]);
 
   const handleAdd = useCallback((person: Person) => {
     setSelectedPeople((prev) => {
       if (prev.find((p) => p.id === person.id)) return prev;
+      if (prev.length >= 6) return prev;
       return [...prev, person];
     });
   }, []);
@@ -39,16 +57,10 @@ export default function ComparePageClient() {
   const eventsMap = useMemo(() => {
     const map = new Map<string, HistoricalEvent[]>();
     selectedPeople.forEach((p) => {
-      map.set(p.id, getEventsForPerson(p.id));
+      map.set(p.id, lookupEventsForPerson(allEvents, p.id));
     });
     return map;
-  }, [selectedPeople]);
-
-  // Filter out only published people
-  const availablePeople = useMemo(
-    () => people.filter((p) => p.dataStatus === 'published'),
-    []
-  );
+  }, [selectedPeople, allEvents]);
 
   return (
     <div>
@@ -62,16 +74,27 @@ export default function ComparePageClient() {
       <div className="mt-6">
         <label className="block text-sm font-medium text-stone-700 mb-2">
           {t.compare.selectPeople}
+          {selectedPeople.length > 0 && (
+            <span className="text-stone-400 font-normal ml-1">
+              ({selectedPeople.length}/6)
+            </span>
+          )}
         </label>
         <PersonSelector
-          allPeople={availablePeople}
           selected={selectedPeople}
           onAdd={handleAdd}
           onRemove={handleRemove}
         />
+        {selectedPeople.length >= 6 && (
+          <p className="text-xs text-amber-600 mt-1.5">
+            {locale === 'en'
+              ? 'Maximum 6 people (1 main + 5 comparisons)'
+              : '已选满 6 人（1 位主体 + 5 位对比），请先移除再添加'}
+          </p>
+        )}
       </div>
 
-      <CompareTimeline people={selectedPeople} allEvents={eventsMap} />
+      <VerticalCompareTimeline people={selectedPeople} allEvents={eventsMap} />
     </div>
   );
 }

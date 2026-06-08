@@ -1,16 +1,25 @@
+/**
+ * Parallel events computation — parameterized for server/client safety.
+ * Data is passed as parameters — no direct import of mockData.
+ */
+
 import type {
   ParallelRegionGroup,
   ScoredEvent,
   TimeRange,
+  Person,
+  HistoricalEvent,
+  Region,
 } from '@/lib/types';
-import { events, getPersonById, getRegionById } from '@/data/mockData';
-import type { Person } from '@/lib/types';
 
 interface GetParallelEventsOptions {
   year: number;
   range?: TimeRange;
   focusEventId?: string;
   focusPersonId?: string;
+  events: HistoricalEvent[];
+  personMap?: Map<string, Person>;
+  regionMap?: Map<string, Region>;
 }
 
 /**
@@ -23,6 +32,9 @@ export function getParallelEvents({
   range = 20,
   focusEventId,
   focusPersonId,
+  events,
+  personMap: pMap,
+  regionMap: rMap,
 }: GetParallelEventsOptions): ParallelRegionGroup[] {
   const minYear = year - range;
   const maxYear = year + range;
@@ -67,9 +79,9 @@ export function getParallelEvents({
       score += 100;
     }
 
-    // Resolve persons
+    // Resolve persons using map for O(1) lookup
     const persons: Person[] = event.personIds
-      .map((pid) => getPersonById(pid))
+      .map((pid) => pMap ? pMap.get(pid) : undefined)
       .filter((p): p is Person => p !== undefined);
 
     return { event, persons, score, distanceFromFocus };
@@ -94,7 +106,7 @@ export function getParallelEvents({
   // Build result, only include regions with events
   const result: ParallelRegionGroup[] = [];
   for (const [regionId, evts] of grouped) {
-    const region = getRegionById(regionId);
+    const region = rMap ? rMap.get(regionId) : undefined;
     if (!region) continue;
     result.push({ region, events: evts });
   }

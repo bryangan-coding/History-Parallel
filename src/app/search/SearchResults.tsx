@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useTransition } from 'react';
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { useLocale } from '@/i18n/LocaleProvider';
@@ -9,19 +9,27 @@ import PageHeader from '@/components/common/PageHeader';
 import EmptyState from '@/components/common/EmptyState';
 import PersonCard from '@/components/cards/PersonCard';
 import EventCard from '@/components/cards/EventCard';
-import { search } from '@/lib/search';
+import { searchData } from '@/data/server-actions';
 import { formatYearRange } from '@/lib/date';
 import { regionName, regionDescription } from '@/lib/types';
-import { getRegionById } from '@/data/mockData';
+import { buildRegionMap } from '@/data/clientLookup';
+import type { SearchResult, Region, Person, HistoricalEvent } from '@/lib/types';
 import { Funnel } from 'lucide-react';
+
+interface SearchPageClientProps {
+  regions: Region[];
+}
 
 // Highlight matching text
 function highlightText(text: string, query: string): React.ReactNode {
   if (!query.trim()) return text;
-  const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+  const escaped = query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  // Use 'i' flag without 'g' — global flag causes lastIndex issues with test()
+  const regex = new RegExp(`(${escaped})`, 'i');
+  const qLower = query.toLowerCase();
   const parts = text.split(regex);
   return parts.map((part, i) =>
-    regex.test(part) ? (
+    part.toLowerCase() === qLower ? (
       <mark key={i} className="bg-amber-100 text-amber-900 rounded px-0.5">
         {part}
       </mark>
@@ -58,7 +66,7 @@ const SEARCH_SUGGESTIONS = [
   { query: '孔子', label: '孔子', labelEn: 'Confucius' },
 ];
 
-export default function SearchResults() {
+export default function SearchResults({ regions }: SearchPageClientProps) {
   const searchParams = useSearchParams();
   const { locale, t, toScript } = useLocale();
   const query = searchParams.get('q') ?? '';
@@ -69,10 +77,31 @@ export default function SearchResults() {
   const [showAdvanced, setShowAdvanced] = useState(false);
   const [yearFrom, setYearFrom] = useState('');
   const [yearTo, setYearTo] = useState('');
-  const [searchField, setSearchField] = useState<string>('all');
   const [showFilters, setShowFilters] = useState(false);
 
-  const rawResults = useMemo(() => search(query), [query]);
+  // Server action for search — avoids importing mockData in client
+  const [isPending, startTransition] = useTransition();
+  const [rawResults, setRawResults] = useState<SearchResult>({ people: [], events: [], regions: [], yearMatches: [] });
+
+  // Trigger search via Server Action when query changes — useEffect with cancellation
+  useEffect(() => {
+    if (!query) {
+      setRawResults({ people: [], events: [], regions: [], yearMatches: [] });
+      return;
+    }
+    let cancelled = false;
+    startTransition(async () => {
+      try {
+        const result = await searchData(query);
+        if (!cancelled) setRawResults(result);
+      } catch {
+        if (!cancelled) setRawResults({ people: [], events: [], regions: [], yearMatches: [] });
+      }
+    });
+    return () => { cancelled = true; };
+  }, [query, startTransition]);
+
+  const regionMap = useMemo(() => buildRegionMap(regions), [regions]);
 
   // Apply filters
   const results = useMemo(() => {
@@ -101,12 +130,12 @@ export default function SearchResults() {
       filtered = {
         ...filtered,
         people: filtered.people.filter((p) => {
-          const region = p.regionId ? getRegionById(p.regionId) : null;
+          const region = p.regionId ? regionMap.get(p.regionId) : null;
           const topId = region?.parentRegionId || region?.id;
           return topId === regionFilter;
         }),
         events: filtered.events.filter((e) => {
-          const region = e.regionId ? getRegionById(e.regionId) : null;
+          const region = e.regionId ? regionMap.get(e.regionId) : null;
           const topId = region?.parentRegionId || region?.id;
           return topId === regionFilter;
         }),
@@ -150,7 +179,7 @@ export default function SearchResults() {
     }
 
     return filtered;
-  }, [rawResults, eraFilter, regionFilter, sortOption, yearFrom, yearTo]);
+  }, [rawResults, eraFilter, regionFilter, sortOption, yearFrom, yearTo, regionMap]);
 
   const hasResults =
     results.people.length > 0 ||
@@ -164,17 +193,16 @@ export default function SearchResults() {
   // Get top-level regions for filter
   const topRegions = useMemo(() => {
     return TOP_REGION_IDS.map((id) => {
-      const region = getRegionById(id);
+      const region = regionMap.get(id);
       return region ? { id, name: regionName(region, locale) } : null;
     }).filter(Boolean) as { id: string; name: string }[];
-  }, [locale]);
+  }, [locale, regionMap]);
 
   // Active filter count
   const activeFilterCount =
     (eraFilter !== 'all' ? 1 : 0) +
     (regionFilter !== 'all' ? 1 : 0) +
-    (yearFrom || yearTo ? 1 : 0) +
-    (searchField !== 'all' ? 1 : 0);
+    (yearFrom || yearTo ? 1 : 0);
 
   return (
     <div>
@@ -187,6 +215,14 @@ export default function SearchResults() {
         }
       />
       <SearchBox defaultValue={query} placeholder={t.search.searchPlaceholder} className="mb-4" />
+
+      {/* Loading indicator */}
+      {isPending && (
+        <div className="flex items-center gap-2 mb-4 text-sm text-stone-400">
+          <div className="animate-spin w-4 h-4 border-2 border-stone-300 border-t-stone-600 rounded-full" />
+          {locale === 'en' ? 'Searching...' : '搜索中...'}
+        </div>
+      )}
 
       {/* Result summary */}
       {query && hasResults && (
@@ -338,21 +374,6 @@ export default function SearchResults() {
                     className="w-20 text-xs border border-stone-200 rounded px-2 py-1 focus:outline-none focus:border-stone-400"
                   />
                 </div>
-                <div className="flex items-center gap-2">
-                  <label className="text-xs text-stone-500">
-                    {locale === 'en' ? 'Field:' : '字段：'}
-                  </label>
-                  <select
-                    value={searchField}
-                    onChange={(e) => setSearchField(e.target.value)}
-                    className="text-xs border border-stone-200 rounded px-2 py-1 bg-white text-stone-600"
-                  >
-                    <option value="all">{locale === 'en' ? 'All' : '全部字段'}</option>
-                    <option value="name">{locale === 'en' ? 'Name' : '名称'}</option>
-                    <option value="summary">{locale === 'en' ? 'Summary' : '简介'}</option>
-                    <option value="tags">{locale === 'en' ? 'Tags' : '标签'}</option>
-                  </select>
-                </div>
               </div>
             )}
           </div>
@@ -386,7 +407,7 @@ export default function SearchResults() {
       )}
 
       {/* Empty state - no results */}
-      {query && !hasResults && (
+      {query && !hasResults && !isPending && (
         <div>
           <EmptyState
             title={t.search.noResults.replace('{query}', query)}
@@ -418,7 +439,7 @@ export default function SearchResults() {
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
                 {results.people.map((person) => (
                   <div key={person.id} className="relative group">
-                    <PersonCard person={person} />
+                    <PersonCard person={person} regions={regions} />
                   </div>
                 ))}
               </div>
@@ -432,13 +453,17 @@ export default function SearchResults() {
                 {t.search.sectionEvents} ({results.events.length})
               </h2>
               <div className="space-y-3">
-                {results.events.map((event) => (
-                  <EventCard
-                    key={event.id}
-                    event={event}
-                    showParallelButton
-                  />
-                ))}
+                {results.events.map((event) => {
+                  const region = event.regionId ? regionMap.get(event.regionId) : undefined;
+                  return (
+                    <EventCard
+                      key={event.id}
+                      event={event}
+                      showParallelButton
+                      region={region}
+                    />
+                  );
+                })}
               </div>
             </section>
           )}

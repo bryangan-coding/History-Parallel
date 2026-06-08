@@ -72,6 +72,8 @@ import {
   people as mockPeople,
   events as mockEvents,
   sources as mockSources,
+  personMap as mockPersonMap,
+  regionMap as mockRegionMap,
   getRegionById as mockGetRegionById,
   getPersonById as mockGetPersonById,
   getEventById as mockGetEventById,
@@ -137,7 +139,7 @@ class MockDataProvider implements DataProvider {
   }
 
   async search(query: string) {
-    return mockSearch(query);
+    return mockSearch(query, mockPeople, mockEvents, mockRegions);
   }
 
   async getParallelEvents(opts: {
@@ -146,7 +148,12 @@ class MockDataProvider implements DataProvider {
     focusEventId?: string;
     focusPersonId?: string;
   }): Promise<ParallelRegionGroup[]> {
-    return mockGetParallelEvents(opts);
+    return mockGetParallelEvents({
+      ...opts,
+      events: mockEvents,
+      personMap: mockPersonMap,
+      regionMap: mockRegionMap,
+    });
   }
 }
 

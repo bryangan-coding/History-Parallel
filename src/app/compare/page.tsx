@@ -1,5 +1,8 @@
 import { Suspense } from 'react';
 import ComparePageClient from './ComparePageClient';
+import { events } from '@/data/mockData';
+
+const publishedEvents = events.filter((e) => e.dataStatus === 'published');
 
 export default function ComparePage() {
   return (
@@ -13,7 +16,7 @@ export default function ComparePage() {
         </div>
       }
     >
-      <ComparePageClient />
+      <ComparePageClient allEvents={publishedEvents} />
     </Suspense>
   );
 }

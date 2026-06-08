@@ -1,5 +1,6 @@
 import { Suspense } from 'react';
 import ParallelPageContent from './ParallelPageContent';
+import { regions } from '@/data/mockData';
 
 export default function ParallelPage() {
   return (
@@ -20,7 +21,7 @@ export default function ParallelPage() {
         </div>
       }
     >
-      <ParallelPageContent />
+      <ParallelPageContent regions={regions} />
     </Suspense>
   );
 }
