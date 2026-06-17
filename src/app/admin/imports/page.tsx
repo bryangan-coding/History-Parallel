@@ -1,4 +1,4 @@
-import { regions } from '@/data/mockData';
+import { regions } from '@/data/regions';
 import AdminImportsClient from './AdminImportsClient';
 
 export default function AdminImportsPage() {

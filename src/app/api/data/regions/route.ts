@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { regions } from '@/data/mockData';
+import { regions } from '@/data/regions';
 
 export async function GET() {
   return NextResponse.json({ items: regions });

@@ -4,10 +4,8 @@ module.exports = {
   testEnvironment: 'node',
   roots: ['<rootDir>/src/lib/__tests__'],
   testMatch: ['**/?(*.)+(spec|test).ts'],
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.jest.json',
-    },
+  transform: {
+    '^.+\\.ts$': ['ts-jest', { tsconfig: 'tsconfig.jest.json' }],
   },
   moduleNameMapper: {
     '^@/(.*)$': '<rootDir>/src/$1',

@@ -1,6 +1,9 @@
 import { EventPageClient } from './EventPageClient';
 import { events, people, regions, personMap, regionMap, eventMap, getPersonsForEvent } from '@/data/mockData';
 
+const RELATED_EVENT_YEAR_RANGE = 50;
+const MAX_RELATED_EVENTS = 5;
+
 interface Props {
   params: Promise<{ id: string }>;
 }
@@ -17,15 +20,15 @@ export default async function EventPage({ params }: Props) {
   const persons = getPersonsForEvent(event.id);
   const region = event.regionId ? regionMap.get(event.regionId) : undefined;
 
-  // Find related events (same region, within 50 years)
+  // Find related events (same region, within RELATED_EVENT_YEAR_RANGE years)
   const relatedEventsData = events
     .filter(
       (e) =>
         e.id !== event.id &&
         e.regionId === event.regionId &&
-        Math.abs((e.startYear ?? 0) - (event.startYear ?? 0)) <= 50,
+        Math.abs((e.startYear ?? 0) - (event.startYear ?? 0)) <= RELATED_EVENT_YEAR_RANGE,
     )
-    .slice(0, 5)
+    .slice(0, MAX_RELATED_EVENTS)
     .map((e) => ({
       event: e,
       region: e.regionId ? regionMap.get(e.regionId) : undefined,

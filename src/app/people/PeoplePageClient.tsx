@@ -13,7 +13,7 @@ interface EraGroupStat {
   labelEn: string;
   count: number;
   minYear: number;
-  maxYear: number;
+  maxYear: number | null;
 }
 
 const PAGE_SIZE = 50;

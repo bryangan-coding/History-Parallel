@@ -1,14 +1,15 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { people, personMap } from '@/data/mockData';
 import type { Person } from '@/lib/types';
+import { ERAS } from '@/lib/eras.js';
 
-const ERA_MAP: Record<string, { min: number; max: number }> = {
-  ancient: { min: -3000, max: 0 },
-  earlyMedieval: { min: 1, max: 960 },
-  song: { min: 960, max: 1279 },
-  postSong: { min: 1279, max: 1500 },
-  modern: { min: 1500, max: Infinity },
-};
+// Compute ERA_MAP from shared definitions (exclusive upper bound)
+const ERA_MAP: Record<string, { min: number; max: number }> = Object.fromEntries(
+  ERAS.map((era) => [
+    era.key,
+    { min: era.min, max: era.max === null ? Infinity : era.max },
+  ])
+);
 
 export async function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl;
@@ -59,13 +60,14 @@ export async function GET(request: NextRequest) {
     );
   }
 
-  // Era filter
+  // Era filter (exclusive upper bound, matching eras.js semantics)
   if (era) {
     const range = ERA_MAP[era];
     if (range) {
       items = items.filter((p) => {
         const y = p.birthYear ?? 0;
-        return y >= range.min && y <= range.max;
+        if (!isFinite(range.max)) return y >= range.min;
+        return y >= range.min && y < range.max;
       });
     }
   }

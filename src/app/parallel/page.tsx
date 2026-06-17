@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import ParallelPageContent from './ParallelPageContent';
-import { regions } from '@/data/mockData';
+import { regions } from '@/data/regions';
 
 export default function ParallelPage() {
   return (

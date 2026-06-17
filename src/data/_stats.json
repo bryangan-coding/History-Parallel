@@ -1,0 +1,90 @@
+{
+  "totalPeople": 82723,
+  "totalEvents": 56,
+  "totalPublished": 77482,
+  "peoplePending": 5241,
+  "eventsPending": 0,
+  "totalRecords": 82779,
+  "statusCounts": {
+    "published": 77538,
+    "needs_review": 0,
+    "imported": 5241,
+    "verified": 0,
+    "rejected": 0
+  },
+  "distribution": [
+    {
+      "label": "0–0.3",
+      "min": 0,
+      "max": 0.3,
+      "count": 0
+    },
+    {
+      "label": "0.3–0.5",
+      "min": 0.3,
+      "max": 0.5,
+      "count": 0
+    },
+    {
+      "label": "0.5–0.7",
+      "min": 0.5,
+      "max": 0.7,
+      "count": 57570
+    },
+    {
+      "label": "0.7–0.85",
+      "min": 0.7,
+      "max": 0.85,
+      "count": 24507
+    },
+    {
+      "label": "0.85–1.0",
+      "min": 0.85,
+      "max": 1,
+      "count": 702
+    }
+  ],
+  "eraStats": [
+    {
+      "key": "ancient",
+      "label": "公元前",
+      "labelEn": "BCE",
+      "count": 190,
+      "minYear": -3000,
+      "maxYear": 0
+    },
+    {
+      "key": "earlyMedieval",
+      "label": "1–10 世纪",
+      "labelEn": "1st–10th Century",
+      "count": 7047,
+      "minYear": 1,
+      "maxYear": 960
+    },
+    {
+      "key": "song",
+      "label": "宋（960–1278）",
+      "labelEn": "Song (960–1278)",
+      "count": 13218,
+      "minYear": 960,
+      "maxYear": 1279
+    },
+    {
+      "key": "postSong",
+      "label": "宋后–明（1279–1499）",
+      "labelEn": "Post-Song to Ming (1279–1499)",
+      "count": 8898,
+      "minYear": 1279,
+      "maxYear": 1500
+    },
+    {
+      "key": "modern",
+      "label": "1500 年后",
+      "labelEn": "After 1500",
+      "count": 31166,
+      "minYear": 1500,
+      "maxYear": null
+    }
+  ],
+  "totalRegions": 34
+}

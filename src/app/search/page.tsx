@@ -1,6 +1,6 @@
 import { Suspense } from 'react';
 import SearchResults from './SearchResults';
-import { regions } from '@/data/mockData';
+import { regions } from '@/data/regions';
 
 export default function SearchPage() {
   return (
