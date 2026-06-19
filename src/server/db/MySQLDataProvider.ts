@@ -146,8 +146,11 @@ export class MySQLDataProvider implements DataProvider {
   // ---- Persons ----
 
   async getPersons(): Promise<Person[]> {
+    // WARNING: This loads ALL published people (~77K rows) into memory.
+    // Prefer findPeopleByIds() or listPeople() with pagination in production code.
+    // Hard limit of 5000 to prevent OOM.
     const [rows] = await pool.query<RowDataPacket[]>(
-      'SELECT * FROM people WHERE data_status = ?', ['published'],
+      'SELECT * FROM people WHERE data_status = ? LIMIT 5000', ['published'],
     );
     return rows.map(mapPerson);
   }
@@ -171,8 +174,11 @@ export class MySQLDataProvider implements DataProvider {
   // ---- Events ----
 
   async getEvents(): Promise<HistoricalEvent[]> {
+    // WARNING: This loads ALL published events (~891K rows) into memory.
+    // Prefer findEventsByYearRange() or listEvents() with filtering in production code.
+    // Hard limit of 5000 to prevent OOM.
     const [rows] = await pool.query<RowDataPacket[]>(
-      'SELECT * FROM events WHERE data_status = ?', ['published'],
+      'SELECT * FROM events WHERE data_status = ? LIMIT 5000', ['published'],
     );
     return rows.map(mapEvent);
   }
@@ -203,7 +209,9 @@ export class MySQLDataProvider implements DataProvider {
          (start_year >= ? AND start_year <= ?)
          OR (end_year IS NOT NULL AND end_year >= ? AND end_year <= ?)
          OR (start_year <= ? AND end_year IS NOT NULL AND end_year >= ?)
-       )`,
+       )
+       ORDER BY start_year
+       LIMIT 2000`,
       [startYear, endYear, startYear, endYear, startYear, endYear],
     );
     return rows.map(mapEvent);
@@ -324,7 +332,9 @@ export class MySQLDataProvider implements DataProvider {
          (start_year >= ? AND start_year <= ?)
          OR (end_year IS NOT NULL AND end_year >= ? AND end_year <= ?)
          OR (start_year <= ? AND end_year IS NOT NULL AND end_year >= ?)
-       )`,
+       )
+       ORDER BY start_year
+       LIMIT 2000`,
       [minYear, maxYear, minYear, maxYear, minYear, maxYear],
     );
 

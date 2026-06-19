@@ -8,7 +8,7 @@ const pool = mysql.createPool({
   host: process.env.MYSQL_HOST || 'localhost',
   port: parseInt(process.env.MYSQL_PORT || '3307', 10),
   user: process.env.MYSQL_USER || 'root',
-  password: process.env.MYSQL_PASSWORD || '',
+  password: process.env.MYSQL_PASSWORD ?? undefined,
   database: process.env.MYSQL_DATABASE || 'history_parallel',
   charset: 'utf8mb4',
   socketPath: process.env.MYSQL_SOCKET || '/tmp/mysql.sock',

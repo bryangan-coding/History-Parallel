@@ -12,9 +12,10 @@ import { setEventStatus, setEventScore } from '@/server/admin-actions';
 interface AdminReviewEventsClientProps {
   events: HistoricalEvent[];
   regions: Region[];
+  totalEvents?: number;
 }
 
-export default function AdminReviewEventsClient({ events: allEvents, regions }: AdminReviewEventsClientProps) {
+export default function AdminReviewEventsClient({ events: allEvents, regions, totalEvents }: AdminReviewEventsClientProps) {
   const { locale } = useLocale();
 
   const [eventsData, setEventsData] = useState<HistoricalEvent[]>(() =>

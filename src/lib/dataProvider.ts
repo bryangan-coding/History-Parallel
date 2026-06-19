@@ -65,60 +65,80 @@ export interface DataProvider {
 
 // ============================================================
 // MockDataProvider — 基于现有 mockData.ts（同步数据）
+//
+// IMPORTANT: mockData.ts 导入约 170 个大型 JSON 文件（~140MB+）。
+// 使用动态 import() 延迟加载，仅在实际使用 mock provider 时才加载。
+// 当前默认 provider 为 MySQL，因此 mockData 不会被加载到内存中。
 // ============================================================
 
-import {
-  regions as mockRegions,
-  people as mockPeople,
-  events as mockEvents,
-  sources as mockSources,
-  personMap as mockPersonMap,
-  regionMap as mockRegionMap,
-  getRegionById as mockGetRegionById,
-  getPersonById as mockGetPersonById,
-  getEventById as mockGetEventById,
-  getPersonsForEvent as mockGetPersonsForEvent,
-  getEventsForPerson as mockGetEventsForPerson,
-  getSourcesForEvent as mockGetSourcesForEvent,
-} from '@/data/mockData';
-import { search as mockSearch } from '@/lib/search';
-import { getParallelEvents as mockGetParallelEvents } from '@/lib/parallel';
-
 class MockDataProvider implements DataProvider {
+  private _loaded = false;
+  // Use any type to avoid TypeScript compiler resolving mockData.ts's 170+ JSON imports
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private _mockData: any = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private _mockSearch: any = null;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  private _mockGetParallelEvents: any = null;
+
+  private async _load() {
+    if (this._loaded) return;
+    const [mockData, searchMod, parallelMod] = await Promise.all([
+      import('@/data/mockData'),
+      import('@/lib/search'),
+      import('@/lib/parallel'),
+    ]);
+    this._mockData = mockData;
+    this._mockSearch = searchMod.search;
+    this._mockGetParallelEvents = parallelMod.getParallelEvents;
+    this._loaded = true;
+  }
+
   async getRegions(): Promise<Region[]> {
-    return mockRegions;
+    await this._load();
+    return this._mockData!.regions;
   }
 
   async getRegionById(id: string): Promise<Region | undefined> {
-    return mockGetRegionById(id);
+    await this._load();
+    return this._mockData!.getRegionById(id);
   }
 
   async getPersons(): Promise<Person[]> {
-    return mockPeople;
+    await this._load();
+    return this._mockData!.people;
   }
 
   async getPersonById(id: string): Promise<Person | undefined> {
-    return mockGetPersonById(id);
+    await this._load();
+    return this._mockData!.getPersonById(id);
   }
 
   async getPersonsForEvent(eventId: string): Promise<Person[]> {
-    return mockGetPersonsForEvent(eventId);
+    await this._load();
+    return this._mockData!.getPersonsForEvent(eventId);
   }
 
   async getEvents(): Promise<HistoricalEvent[]> {
-    return mockEvents;
+    await this._load();
+    return this._mockData!.events;
   }
 
   async getEventById(id: string): Promise<HistoricalEvent | undefined> {
-    return mockGetEventById(id);
+    await this._load();
+    return this._mockData!.getEventById(id);
   }
 
   async getEventsForPerson(personId: string): Promise<HistoricalEvent[]> {
-    return mockGetEventsForPerson(personId);
+    await this._load();
+    return this._mockData!.getEventsForPerson(personId);
   }
 
   async getEventsByYearRange(startYear: number, endYear: number): Promise<HistoricalEvent[]> {
-    return mockEvents.filter((e) => {
+    await this._load();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const mockEvents = this._mockData!.events as any[];
+    return mockEvents.filter((e: any) => {
       if (e.dataStatus !== 'published') return false;
       const s = e.startYear ?? 0;
       const en = e.endYear ?? s;
@@ -127,19 +147,24 @@ class MockDataProvider implements DataProvider {
   }
 
   async getSources(): Promise<Source[]> {
-    return mockSources;
+    await this._load();
+    return this._mockData!.sources;
   }
 
   async getSourceById(id: string): Promise<Source | undefined> {
-    return mockSources.find((s) => s.id === id);
+    await this._load();
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    return this._mockData!.sources.find((s: any) => s.id === id);
   }
 
   async getSourcesForEvent(eventId: string): Promise<Source[]> {
-    return mockGetSourcesForEvent(eventId);
+    await this._load();
+    return this._mockData!.getSourcesForEvent(eventId);
   }
 
   async search(query: string) {
-    return mockSearch(query, mockPeople, mockEvents, mockRegions);
+    await this._load();
+    return this._mockSearch!(query, this._mockData!.people, this._mockData!.events, this._mockData!.regions);
   }
 
   async getParallelEvents(opts: {
@@ -148,11 +173,12 @@ class MockDataProvider implements DataProvider {
     focusEventId?: string;
     focusPersonId?: string;
   }): Promise<ParallelRegionGroup[]> {
-    return mockGetParallelEvents({
+    await this._load();
+    return this._mockGetParallelEvents!({
       ...opts,
-      events: mockEvents,
-      personMap: mockPersonMap,
-      regionMap: mockRegionMap,
+      events: this._mockData!.events,
+      personMap: this._mockData!.personMap,
+      regionMap: this._mockData!.regionMap,
     });
   }
 }

@@ -157,11 +157,17 @@ export async function listPeople(opts?: {
     return { items: rows.map(mapPerson), total };
   }
 
+  // Default: hard limit of 500 to prevent accidental full-table loads
+  const effectiveLimit = opts?.limit ?? 500;
+  const [countRows] = await pool.query<RowDataPacket[]>(
+    `SELECT COUNT(*) as total FROM people ${where}`, params,
+  );
+  const total = countRows[0].total as number;
   const [rows] = await pool.query<RowDataPacket[]>(
-    `SELECT * FROM people ${where} ORDER BY name`, params,
+    `SELECT * FROM people ${where} ORDER BY name LIMIT ?`, [effectiveLimit],
   );
   const items = rows.map(mapPerson);
-  return { items, total: items.length };
+  return { items, total };
 }
 
 export async function findPersonById(id: string): Promise<Person | undefined> {
@@ -185,6 +191,8 @@ export async function listEvents(opts?: {
   dataStatus?: string;
   regionId?: string;
   ids?: string[];
+  page?: number;
+  limit?: number;
 }): Promise<HistoricalEvent[]> {
   const conditions: string[] = [];
   const params: unknown[] = [];
@@ -198,7 +206,13 @@ export async function listEvents(opts?: {
   }
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
-  const [rows] = await pool.query<RowDataPacket[]>(`SELECT * FROM events ${where}`, params);
+  const effectiveLimit = opts?.limit ?? 500;
+  const offset = opts?.page ? (opts.page - 1) * effectiveLimit : 0;
+
+  const [rows] = await pool.query<RowDataPacket[]>(
+    `SELECT * FROM events ${where} ORDER BY start_year DESC LIMIT ? OFFSET ?`,
+    [...params, effectiveLimit, offset],
+  );
   return rows.map(mapEvent);
 }
 
@@ -227,10 +241,16 @@ export async function listAllEvents(opts?: {
     return { items: rows.map(mapEvent), total };
   }
 
-  const [rows] = await pool.query<RowDataPacket[]>(
-    `SELECT * FROM events ${where} ORDER BY start_year DESC`, params,
+  // Default: hard limit of 500 to prevent accidental full-table loads
+  const effectiveLimit = opts?.limit ?? 500;
+  const [countRows] = await pool.query<RowDataPacket[]>(
+    `SELECT COUNT(*) as total FROM events ${where}`, params,
   );
-  return { items: rows.map(mapEvent), total: rows.length };
+  const total = countRows[0].total as number;
+  const [rows] = await pool.query<RowDataPacket[]>(
+    `SELECT * FROM events ${where} ORDER BY start_year DESC LIMIT ?`, [effectiveLimit],
+  );
+  return { items: rows.map(mapEvent), total };
 }
 
 export async function findEventById(id: string): Promise<HistoricalEvent | undefined> {
@@ -252,7 +272,7 @@ export async function findEventsForPerson(personId: string): Promise<HistoricalE
 
 export async function findEventsByRegion(regionId: string): Promise<HistoricalEvent[]> {
   const [rows] = await pool.query<RowDataPacket[]>(
-    "SELECT * FROM events WHERE region_id = ? AND data_status = 'published' ORDER BY start_year",
+    "SELECT * FROM events WHERE region_id = ? AND data_status = 'published' ORDER BY start_year LIMIT 500",
     [regionId],
   );
   return rows.map(mapEvent);
@@ -280,7 +300,8 @@ export async function findEventsByYearRange(minYear: number, maxYear: number): P
        OR (end_year IS NOT NULL AND end_year >= ? AND end_year <= ?)
        OR (start_year <= ? AND end_year IS NOT NULL AND end_year >= ?)
      )
-     ORDER BY start_year`,
+     ORDER BY start_year
+     LIMIT 500`,
     [minYear, maxYear, minYear, maxYear, minYear, maxYear],
   );
   return rows.map(mapEvent);

@@ -29,7 +29,9 @@ export default function GlobalErrorPage({
           页面加载时发生错误。请尝试重新加载，或返回首页。
         </p>
 
-        {process.env.NODE_ENV === 'development' && (
+        {/* Only show error details in development.
+            NEXT_PUBLIC_ prefix ensures the value is available client-side. */}
+        {process.env.NEXT_PUBLIC_VERCEL_ENV !== 'production' && (
           <div className="mb-6 p-3 bg-stone-50 rounded border border-stone-200 text-xs text-stone-700 font-mono overflow-auto max-h-32">
             {error.message}
             {error.digest && (

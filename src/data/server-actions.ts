@@ -1,14 +1,12 @@
 'use server';
 
 import type { Person, HistoricalEvent, Region, Source, SearchResult } from '@/lib/types';
-import { search } from '@/lib/search';
 import { getParallelEvents } from '@/lib/parallel';
 import {
   listPeople,
   findPersonById,
   findPeopleByIds,
   listEvents,
-  listAllEvents,
   findEventById,
   findEventsForPerson,
   findEventsByRegion,
@@ -24,18 +22,27 @@ import {
 
 // ==================== Data fetchers ====================
 
+/**
+ * @deprecated Prefer listPeople() with pagination. This loads at most 500 people.
+ */
 export async function getPublishedPeople(): Promise<Person[]> {
-  const { items } = await listPeople({ publishedOnly: true });
+  const { items } = await listPeople({ publishedOnly: true, limit: 500 });
   return items;
 }
 
+/**
+ * @deprecated Prefer listPeople() with pagination. This loads at most 500 people.
+ */
 export async function getAllPeople(): Promise<Person[]> {
-  const { items } = await listPeople();
+  const { items } = await listPeople({ limit: 500 });
   return items;
 }
 
+/**
+ * @deprecated Prefer listEvents() with pagination. This loads at most 500 events.
+ */
 export async function getAllEvents(): Promise<HistoricalEvent[]> {
-  return listEvents({ publishedOnly: true });
+  return listEvents({ publishedOnly: true, limit: 500 });
 }
 
 export async function getAllRegions(): Promise<Region[]> {
@@ -73,7 +80,7 @@ export async function searchData(query: string): Promise<SearchResult> {
   // Search events via SQL (title/summary LIKE, limited to 50)
   const events = await listEventsBySearch(q, 50);
 
-  // Region search
+  // Region search — regions table is small (~46 rows), filtering in JS is fine
   const regions = await listRegions();
   const lowerQ = q.toLowerCase();
   const filteredRegions = regions.filter(r =>
