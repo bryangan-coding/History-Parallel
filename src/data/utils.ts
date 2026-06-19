@@ -1,7 +1,6 @@
 /**
  * Pure utility functions that accept data as parameters.
  * These are SAFE to import in client components — no data arrays are bundled.
- * Import from here instead of '@/data/mockData' in client components.
  */
 import type { Person, HistoricalEvent, Region, Source } from '@/lib/types';
 

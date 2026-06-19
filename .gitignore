@@ -57,14 +57,13 @@ scripts/*.pyc
 # MySQL data directory (binary, not for git)
 /mysql_data/
 
-# Event JSON batch files — data now in MySQL, but still imported by mockData.ts
-# DO NOT ignore these until mockData.ts is fully removed
-# src/data/events/_lifespanEvents*.json
-# src/data/events/_lifespanEvents_extra*.json
-# src/data/events/_detailedEvents_*.json
-# src/data/events/_deepEvents_*.json
-# src/data/events/_deepEvents_tang_*.json
-# src/data/events/_lifespanStats*.json
+# Event JSON batch files — data now lives in MySQL, keep locally for reference
+src/data/events/_lifespanEvents*.json
+src/data/events/_lifespanEvents_extra*.json
+src/data/events/_detailedEvents_*.json
+src/data/events/_deepEvents_*.json
+src/data/events/_deepEvents_tang_*.json
+src/data/events/_lifespanStats*.json
 
 # Large SQL dump — not for git, keep locally only
 supabase/history_parallel_dump.sql

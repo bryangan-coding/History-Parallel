@@ -2,10 +2,8 @@
  * Client-safe data utilities — NO large data arrays are imported.
  *
  * This module provides lightweight lookup helpers that accept pre-built
- * Map indexes as parameters. Use these in 'use client' components instead
- * of importing from '@/data/mockData'.
- *
- * The Map indexes are created on the server and passed down as props.
+ * Map indexes as parameters. The Map indexes are created on the server
+ * and passed down as props.
  */
 
 import type { Person, HistoricalEvent, Region, Source } from '@/lib/types';

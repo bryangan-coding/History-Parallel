@@ -16,7 +16,7 @@ import type {
   ScoredEvent,
   TimeRange,
 } from '@/lib/types';
-import type { DataProvider } from '@/lib/dataProvider';
+import type { DataProvider } from '@/lib/dataProviderTypes';
 import pool, { parseJsonArray } from '@/server/db/mysql';
 import type { RowDataPacket } from 'mysql2';
 

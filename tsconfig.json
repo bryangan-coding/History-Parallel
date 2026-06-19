@@ -26,9 +26,8 @@
     "next-env.d.ts",
     "src/**/*.ts",
     "src/**/*.tsx",
-    "scripts/**/*.ts",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "src/data/events", "src/data/people", "src/data/mockData.ts"]
+  "exclude": ["node_modules"]
 }
