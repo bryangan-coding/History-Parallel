@@ -7,18 +7,14 @@ import { useLocale } from '@/i18n/LocaleProvider';
 import PageHeader from '@/components/common/PageHeader';
 import PersonSelector from '@/components/compare/PersonSelector';
 import VerticalCompareTimeline from '@/components/compare/VerticalCompareTimeline';
-import { lookupEventsForPerson } from '@/data/clientLookup';
 
-interface ComparePageClientProps {
-  allEvents: HistoricalEvent[];
-}
-
-export default function ComparePageClient({ allEvents }: ComparePageClientProps) {
+export default function ComparePageClient() {
   const { locale, t } = useLocale();
   const searchParams = useSearchParams();
 
   const [initialPeople, setInitialPeople] = useState<Person[]>([]);
   const [selectedPeople, setSelectedPeople] = useState<Person[]>([]);
+  const [personEvents, setPersonEvents] = useState<Map<string, HistoricalEvent[]>>(new Map());
 
   // Handle URL preselect by fetching the person — useEffect with proper cleanup
   const preselectId = searchParams.get('preselect');
@@ -53,14 +49,33 @@ export default function ComparePageClient({ allEvents }: ComparePageClientProps)
     setSelectedPeople((prev) => prev.filter((p) => p.id !== personId));
   }, []);
 
-  // Collect all events for selected people
-  const eventsMap = useMemo(() => {
-    const map = new Map<string, HistoricalEvent[]>();
-    selectedPeople.forEach((p) => {
-      map.set(p.id, lookupEventsForPerson(allEvents, p.id));
-    });
-    return map;
-  }, [selectedPeople, allEvents]);
+  // Fetch events for selected people on demand (via server action, not loading all 98K events)
+  const [eventsMap, setEventsMap] = useState<Map<string, HistoricalEvent[]>>(new Map());
+  useEffect(() => {
+    let cancelled = false;
+    async function fetchEventsForSelected() {
+      const map = new Map<string, HistoricalEvent[]>();
+      for (const p of selectedPeople) {
+        if (personEvents.has(p.id)) {
+          map.set(p.id, personEvents.get(p.id)!);
+        } else {
+          try {
+            const { fetchEventsForPerson } = await import('@/data/server-actions');
+            const events = await fetchEventsForPerson(p.id);
+            if (!cancelled) map.set(p.id, events);
+          } catch {
+            if (!cancelled) map.set(p.id, []);
+          }
+        }
+      }
+      if (!cancelled) {
+        setPersonEvents(prev => { const m = new Map(prev); map.forEach((v, k) => m.set(k, v)); return m; });
+        setEventsMap(map);
+      }
+    }
+    fetchEventsForSelected();
+    return () => { cancelled = true; };
+  }, [selectedPeople]);
 
   return (
     <div>

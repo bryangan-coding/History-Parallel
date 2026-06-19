@@ -1,0 +1,1430 @@
+[
+  {
+    "id": "evt-guoshoujing-calendar",
+    "title": "郭守敬编制《授时历》",
+    "titleEn": "Guo Shoujing Creates Shoushi Calendar",
+    "startYear": 1276,
+    "endYear": 1280,
+    "importance": 5,
+    "summary": "郭守敬在全国设27个观测站，编制《授时历》以365.2425天为一年，与现行公历相同但早了三个世纪。",
+    "summaryEn": "Guo Shoujing set up 27 observatories nationwide and created the Shoushi Calendar, matching the Gregorian year length three centuries earlier.",
+    "description": "郭守敬在全国设27个观测站，编制《授时历》以365.2425天为一年，与现行公历相同但早了三个世纪。",
+    "descriptionEn": "Guo Shoujing set up 27 observatories nationwide and created the Shoushi Calendar, matching the Gregorian year length three centuries earlier.",
+    "tags": [
+      "科学",
+      "天文学",
+      "元朝"
+    ],
+    "tagsEn": [
+      "Science",
+      "Astronomy",
+      "Yuan Dynasty"
+    ],
+    "personIds": [
+      "guo-shoujing"
+    ],
+    "regionId": "yuan-dynasty",
+    "sourceIds": [
+      "src-yuanshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "大都（今北京）",
+    "placeNameEn": "Dadu, modern Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-guoshoujing-canal",
+    "title": "郭守敬修建通惠河",
+    "titleEn": "Guo Shoujing Builds Tonghui Canal",
+    "startYear": 1291,
+    "endYear": 1293,
+    "importance": 4,
+    "summary": "郭守敬主持修建通惠河，使京杭大运河全线贯通直达大都城内的积水潭。",
+    "summaryEn": "Guo Shoujing built the Tonghui Canal, completing the Grand Canal's direct connection to the heart of Dadu.",
+    "description": "郭守敬主持修建通惠河，使京杭大运河全线贯通直达大都城内的积水潭。",
+    "descriptionEn": "Guo Shoujing built the Tonghui Canal, completing the Grand Canal's direct connection to the heart of Dadu.",
+    "tags": [
+      "工程",
+      "水利",
+      "元朝"
+    ],
+    "tagsEn": [
+      "Engineering",
+      "Hydraulics",
+      "Yuan Dynasty"
+    ],
+    "personIds": [
+      "guo-shoujing"
+    ],
+    "regionId": "yuan-dynasty",
+    "sourceIds": [
+      "src-yuanshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "大都（今北京）",
+    "placeNameEn": "Dadu, modern Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-yuanchengzong-reign",
+    "title": "元成宗守成之治",
+    "titleEn": "Emperor Chengzong's Conservative Rule",
+    "startYear": 1294,
+    "endYear": 1307,
+    "importance": 3,
+    "summary": "忽必烈之孙铁穆耳继承皇位，停止对外远征，基本维持忽必烈的制度框架。",
+    "summaryEn": "Temur, Kublai's grandson, halted foreign expeditions and maintained Kublai's institutional framework.",
+    "description": "忽必烈之孙铁穆耳继承皇位，停止对外远征，基本维持忽必烈的制度框架。",
+    "descriptionEn": "Temur, Kublai's grandson, halted foreign expeditions and maintained Kublai's institutional framework.",
+    "tags": [
+      "政治",
+      "元朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Yuan Dynasty"
+    ],
+    "personIds": [
+      "yuan-chengzong"
+    ],
+    "regionId": "yuan-dynasty",
+    "sourceIds": [
+      "src-yuanshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "大都（今北京）",
+    "placeNameEn": "Dadu, modern Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-yuanhuizong-fall",
+    "title": "元惠宗——元朝末代皇帝",
+    "titleEn": "Emperor Huizong: Last Yuan Emperor",
+    "startYear": 1333,
+    "endYear": 1368,
+    "importance": 4,
+    "summary": "妥懽帖睦尔年少即位，初期励精图治但很快沉迷享乐。1368年徐达攻入大都，元朝在中原的统治终结。",
+    "summaryEn": "Toghon Temur ascended young; after brief reform, he indulged in pleasure. In 1368, Xu Da captured Dadu, ending Yuan rule in China.",
+    "description": "妥懽帖睦尔年少即位，初期励精图治但很快沉迷享乐。1368年徐达攻入大都，元朝在中原的统治终结。",
+    "descriptionEn": "Toghon Temur ascended young; after brief reform, he indulged in pleasure. In 1368, Xu Da captured Dadu, ending Yuan rule in China.",
+    "tags": [
+      "政治",
+      "灭亡",
+      "元朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Fall",
+      "Yuan Dynasty"
+    ],
+    "personIds": [
+      "yuan-huizong"
+    ],
+    "regionId": "yuan-dynasty",
+    "sourceIds": [
+      "src-yuanshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "大都（今北京）",
+    "placeNameEn": "Dadu, modern Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-liubowen-advisor",
+    "title": "刘伯温辅佐朱元璋",
+    "titleEn": "Liu Bowen Advises Zhu Yuanzhang",
+    "startYear": 1360,
+    "endYear": 1375,
+    "importance": 4,
+    "summary": "刘伯温是明朝开国第一谋臣，以神机妙算著称，民间传说中近乎半神化的军师形象。",
+    "summaryEn": "Liu Bowen was the founding Ming dynasty's foremost strategist, mythologized in folklore as a semi-divine advisor.",
+    "description": "刘伯温是明朝开国第一谋臣，以神机妙算著称，民间传说中近乎半神化的军师形象。",
+    "descriptionEn": "Liu Bowen was the founding Ming dynasty's foremost strategist, mythologized in folklore as a semi-divine advisor.",
+    "tags": [
+      "政治",
+      "开国",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Founding",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "liu-bowen",
+      "ming-taizu"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "应天（今南京）",
+    "placeNameEn": "Yingtian, modern Nanjing",
+    "coordinates": {
+      "lat": 32.0,
+      "lng": 118.7
+    }
+  },
+  {
+    "id": "evt-mingyongle-coup",
+    "title": "靖难之役",
+    "titleEn": "Jingnan Campaign",
+    "startYear": 1399,
+    "endYear": 1402,
+    "importance": 5,
+    "summary": "燕王朱棣以「清君侧」为名发动靖难之役，四年后攻入南京夺取皇位。",
+    "summaryEn": "Prince of Yan Zhu Di launched the Jingnan Campaign, capturing Nanjing after four years to seize the throne.",
+    "description": "燕王朱棣以「清君侧」为名发动靖难之役，四年后攻入南京夺取皇位。",
+    "descriptionEn": "Prince of Yan Zhu Di launched the Jingnan Campaign, capturing Nanjing after four years to seize the throne.",
+    "tags": [
+      "军事",
+      "政变",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Coup",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "ming-yongle"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北平至南京",
+    "placeNameEn": "Beiping to Nanjing",
+    "coordinates": {
+      "lat": 36.0,
+      "lng": 117.0
+    }
+  },
+  {
+    "id": "evt-mingyongle-beijing",
+    "title": "迁都北京与永乐盛世",
+    "titleEn": "Moving Capital to Beijing & Yongle Era",
+    "startYear": 1403,
+    "endYear": 1424,
+    "importance": 5,
+    "summary": "永乐帝迁都北京、五次亲征漠北、派郑和七下西洋、编纂《永乐大典》、修筑紫禁城。",
+    "summaryEn": "Yongle moved the capital to Beijing, led five northern campaigns, dispatched Zheng He's voyages, compiled the Yongle Encyclopedia.",
+    "description": "永乐帝迁都北京、五次亲征漠北、派郑和七下西洋、编纂《永乐大典》、修筑紫禁城。",
+    "descriptionEn": "Yongle moved the capital to Beijing, led five northern campaigns, dispatched Zheng He's voyages, compiled the Yongle Encyclopedia.",
+    "tags": [
+      "政治",
+      "盛世",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Golden Age",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "ming-yongle",
+      "zheng-he"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-yuqian-defense",
+    "title": "于谦保卫北京",
+    "titleEn": "Yu Qian Defends Beijing",
+    "startYear": 1449,
+    "endYear": null,
+    "importance": 5,
+    "summary": "土木堡之变后于谦力排南迁之议，领导北京保卫战击退瓦剌大军，挽救了明朝。",
+    "summaryEn": "After the Tumu Crisis, Yu Qian overrode calls to flee south, leading the defense of Beijing and saving the Ming dynasty.",
+    "description": "土木堡之变后于谦力排南迁之议，领导北京保卫战击退瓦剌大军，挽救了明朝。",
+    "descriptionEn": "After the Tumu Crisis, Yu Qian overrode calls to flee south, leading the defense of Beijing and saving the Ming dynasty.",
+    "tags": [
+      "军事",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "yu-qian"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-mingxuande-reign",
+    "title": "明宣宗——仁宣之治",
+    "titleEn": "Emperor Xuande's Benevolent Rule",
+    "startYear": 1425,
+    "endYear": 1435,
+    "importance": 4,
+    "summary": "明宣宗延续仁政，裁撤冗员减轻赋税，宣德炉和宣德青花瓷至今仍是中国工艺美术的极致代表。",
+    "summaryEn": "Xuande continued benevolent policies, and Xuande-era bronzes and blue-and-white porcelain remain pinnacles of Chinese craft.",
+    "description": "明宣宗延续仁政，裁撤冗员减轻赋税，宣德炉和宣德青花瓷至今仍是中国工艺美术的极致代表。",
+    "descriptionEn": "Xuande continued benevolent policies, and Xuande-era bronzes and blue-and-white porcelain remain pinnacles of Chinese craft.",
+    "tags": [
+      "政治",
+      "艺术",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Art",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "ming-xuande"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-tangyin-fall",
+    "title": "唐伯虎——从解元到落魄才子",
+    "titleEn": "Tang Yin: From Top Scholar to Fallen Genius",
+    "startYear": 1498,
+    "endYear": 1499,
+    "importance": 4,
+    "summary": "唐寅乡试第一风光无限，但次年卷入科场舞弊案被终身剥夺考试资格，从此靠卖画为生。",
+    "summaryEn": "Tang Yin placed first in provincial exams, but was banned for life after a cheating scandal, becoming a painter for hire.",
+    "description": "唐寅乡试第一风光无限，但次年卷入科场舞弊案被终身剥夺考试资格，从此靠卖画为生。",
+    "descriptionEn": "Tang Yin placed first in provincial exams, but was banned for life after a cheating scandal, becoming a painter for hire.",
+    "tags": [
+      "艺术",
+      "绘画",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Art",
+      "Painting",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "tang-yin"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "南京至苏州",
+    "placeNameEn": "Nanjing to Suzhou",
+    "coordinates": {
+      "lat": 31.3,
+      "lng": 120.6
+    }
+  },
+  {
+    "id": "evt-wangyangming-philosophy",
+    "title": "王阳明龙场悟道",
+    "titleEn": "Wang Yangming's Enlightenment at Longchang",
+    "startYear": 1508,
+    "endYear": null,
+    "importance": 5,
+    "summary": "王阳明被贬贵州龙场驿，在困顿中顿悟「心即是理」，开创了心学。",
+    "summaryEn": "Exiled to Longchang, Guizhou, Wang Yangming had his breakthrough: 'The mind is principle' — founding the School of Mind.",
+    "description": "王阳明被贬贵州龙场驿，在困顿中顿悟「心即是理」，开创了心学。",
+    "descriptionEn": "Exiled to Longchang, Guizhou, Wang Yangming had his breakthrough: 'The mind is principle' — founding the School of Mind.",
+    "tags": [
+      "哲学",
+      "心学",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Philosophy",
+      "School of Mind",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "wang-yangming"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "贵州龙场",
+    "placeNameEn": "Longchang, Guizhou",
+    "coordinates": {
+      "lat": 26.6,
+      "lng": 106.7
+    }
+  },
+  {
+    "id": "evt-wangyangming-rebellion",
+    "title": "王阳明平定宁王之乱",
+    "titleEn": "Wang Yangming Suppresses Prince of Ning",
+    "startYear": 1519,
+    "endYear": null,
+    "importance": 5,
+    "summary": "宁王朱宸濠在南昌叛乱，王阳明以临时拼凑的兵力仅43天就平定叛乱。",
+    "summaryEn": "When Prince of Ning rebelled, Wang Yangming crushed the rebellion in just 43 days with hastily assembled forces.",
+    "description": "宁王朱宸濠在南昌叛乱，王阳明以临时拼凑的兵力仅43天就平定叛乱。",
+    "descriptionEn": "When Prince of Ning rebelled, Wang Yangming crushed the rebellion in just 43 days with hastily assembled forces.",
+    "tags": [
+      "军事",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "wang-yangming"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "南昌",
+    "placeNameEn": "Nanchang",
+    "coordinates": {
+      "lat": 28.7,
+      "lng": 115.9
+    }
+  },
+  {
+    "id": "evt-wuchengen-novel",
+    "title": "吴承恩著《西游记》",
+    "titleEn": "Wu Chengen Writes Journey to the West",
+    "startYear": 1550,
+    "endYear": 1580,
+    "importance": 5,
+    "summary": "吴承恩在晚年创作了中国最伟大的神魔小说《西游记》，孙悟空成为中国文化最深入人心的形象之一。",
+    "summaryEn": "Wu Chengen wrote Journey to the West, China's greatest mythological novel, creating the immortal Monkey King.",
+    "description": "吴承恩在晚年创作了中国最伟大的神魔小说《西游记》，孙悟空成为中国文化最深入人心的形象之一。",
+    "descriptionEn": "Wu Chengen wrote Journey to the West, China's greatest mythological novel, creating the immortal Monkey King.",
+    "tags": [
+      "文学",
+      "小说",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Literature",
+      "Novel",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "wu-chengen"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "淮安",
+    "placeNameEn": "Huai'an",
+    "coordinates": {
+      "lat": 33.5,
+      "lng": 119.1
+    }
+  },
+  {
+    "id": "evt-hairui-memorial",
+    "title": "海瑞上《治安疏》",
+    "titleEn": "Hai Rui's Candid Memorial",
+    "startYear": 1566,
+    "endYear": null,
+    "importance": 5,
+    "summary": "海瑞备好棺材上《治安疏》痛斥嘉靖帝迷信道教不理朝政，成为中国历史上最著名的谏臣。",
+    "summaryEn": "Hai Rui prepared his coffin and submitted a memorial harshly criticizing the Jiajing Emperor, becoming China's most famous remonstrator.",
+    "description": "海瑞备好棺材上《治安疏》痛斥嘉靖帝迷信道教不理朝政，成为中国历史上最著名的谏臣。",
+    "descriptionEn": "Hai Rui prepared his coffin and submitted a memorial harshly criticizing the Jiajing Emperor, becoming China's most famous remonstrator.",
+    "tags": [
+      "政治",
+      "谏臣",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Remonstrator",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "hai-rui"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-xuwei-art",
+    "title": "徐渭——最不幸的天才",
+    "titleEn": "Xu Wei: The Most Unfortunate Genius",
+    "startYear": 1550,
+    "endYear": 1593,
+    "importance": 4,
+    "summary": "徐渭八次科举不第，一度精神失常九次自杀未遂，但在痛苦中开创了泼墨大写意花鸟画。",
+    "summaryEn": "Xu Wei failed the exams eight times, went insane and attempted suicide nine times, yet pioneered splash-ink flower painting.",
+    "description": "徐渭八次科举不第，一度精神失常九次自杀未遂，但在痛苦中开创了泼墨大写意花鸟画。",
+    "descriptionEn": "Xu Wei failed the exams eight times, went insane and attempted suicide nine times, yet pioneered splash-ink flower painting.",
+    "tags": [
+      "绘画",
+      "艺术",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Painting",
+      "Art",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "xu-wei"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "绍兴",
+    "placeNameEn": "Shaoxing",
+    "coordinates": {
+      "lat": 30.0,
+      "lng": 120.5
+    }
+  },
+  {
+    "id": "evt-zhangjuzheng-reform",
+    "title": "张居正改革",
+    "titleEn": "Zhang Juzheng's Reforms",
+    "startYear": 1572,
+    "endYear": 1582,
+    "importance": 5,
+    "summary": "张居正任首辅推行一条鞭法等重大改革，使明朝财政好转，是明朝最有权势的首辅。",
+    "summaryEn": "Zhang Juzheng as Grand Secretary implemented the Single Whip Law and other reforms, reviving Ming finances.",
+    "description": "张居正任首辅推行一条鞭法等重大改革，使明朝财政好转，是明朝最有权势的首辅。",
+    "descriptionEn": "Zhang Juzheng as Grand Secretary implemented the Single Whip Law and other reforms, reviving Ming finances.",
+    "tags": [
+      "政治",
+      "改革",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Reform",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "zhang-juzheng"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-qijiguang-pirates",
+    "title": "戚继光抗倭",
+    "titleEn": "Qi Jiguang Fights Pirates",
+    "startYear": 1555,
+    "endYear": 1567,
+    "importance": 5,
+    "summary": "戚继光组建戚家军，在东南沿海九战九捷基本肃清倭患，著有《纪效新书》和《练兵实纪》。",
+    "summaryEn": "Qi Jiguang formed the Qi Army, winning nine consecutive battles to clear the coast of pirates.",
+    "description": "戚继光组建戚家军，在东南沿海九战九捷基本肃清倭患，著有《纪效新书》和《练兵实纪》。",
+    "descriptionEn": "Qi Jiguang formed the Qi Army, winning nine consecutive battles to clear the coast of pirates.",
+    "tags": [
+      "军事",
+      "抗倭",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Anti-Pirate",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "qi-jiguang"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "浙江福建沿海",
+    "placeNameEn": "Zhejiang-Fujian Coast",
+    "coordinates": {
+      "lat": 28.0,
+      "lng": 121.0
+    }
+  },
+  {
+    "id": "evt-mingwanli-reign",
+    "title": "万历怠政",
+    "titleEn": "Wanli Emperor's Neglect",
+    "startYear": 1586,
+    "endYear": 1620,
+    "importance": 4,
+    "summary": "明神宗万历帝前期有张居正辅政，后期因国本之争长达三十年不上朝，明朝由此走向衰败。",
+    "summaryEn": "Emperor Wanli, after Zhang Juzheng's death, refused to hold court for 30 years over a succession dispute.",
+    "description": "明神宗万历帝前期有张居正辅政，后期因国本之争长达三十年不上朝，明朝由此走向衰败。",
+    "descriptionEn": "Emperor Wanli, after Zhang Juzheng's death, refused to hold court for 30 years over a succession dispute.",
+    "tags": [
+      "政治",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "ming-wanli"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-yuanchonghuan-ningyuan",
+    "title": "宁远大捷",
+    "titleEn": "Victory at Ningyuan",
+    "startYear": 1626,
+    "endYear": null,
+    "importance": 5,
+    "summary": "袁崇焕在宁远以红夷大炮命中努尔哈赤，后者不久伤重而死，是明军对后金的第一次重大胜利。",
+    "summaryEn": "Yuan Chonghuan used Portuguese cannons at Ningyuan, mortally wounding Nurhaci — Ming's first major victory against the Later Jin.",
+    "description": "袁崇焕在宁远以红夷大炮命中努尔哈赤，后者不久伤重而死，是明军对后金的第一次重大胜利。",
+    "descriptionEn": "Yuan Chonghuan used Portuguese cannons at Ningyuan, mortally wounding Nurhaci — Ming's first major victory against the Later Jin.",
+    "tags": [
+      "军事",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "yuan-chonghuan",
+      "nurhaci"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "宁远（今辽宁兴城）",
+    "placeNameEn": "Ningyuan, modern Xingcheng",
+    "coordinates": {
+      "lat": 40.6,
+      "lng": 120.7
+    }
+  },
+  {
+    "id": "evt-yuanchonghuan-death",
+    "title": "袁崇焕被凌迟",
+    "titleEn": "Yuan Chonghuan's Execution",
+    "startYear": 1630,
+    "endYear": null,
+    "importance": 5,
+    "summary": "皇太极利用反间计，多疑的崇祯帝将袁崇焕凌迟处死，北京百姓争食其肉——中国历史上最黑暗的忠臣悲剧之一。",
+    "summaryEn": "Hong Taiji's disinformation led the paranoid Chongzhen Emperor to have Yuan Chonghuan executed by slow slicing — one of history's darkest loyalist tragedies.",
+    "description": "皇太极利用反间计，多疑的崇祯帝将袁崇焕凌迟处死，北京百姓争食其肉——中国历史上最黑暗的忠臣悲剧之一。",
+    "descriptionEn": "Hong Taiji's disinformation led the paranoid Chongzhen Emperor to have Yuan Chonghuan executed by slow slicing — one of history's darkest loyalist tragedies.",
+    "tags": [
+      "政治",
+      "冤狱",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Miscarriage of Justice",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "yuan-chonghuan",
+      "ming-chongzhen"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-songyingxing-book",
+    "title": "宋应星著《天工开物》",
+    "titleEn": "Song Yingxing Writes Tiangong Kaiwu",
+    "startYear": 1637,
+    "endYear": null,
+    "importance": 5,
+    "summary": "宋应星编著《天工开物》——中国第一部综合性工业技术百科全书，记录了明代的农业和手工业技术。",
+    "summaryEn": "Song Yingxing compiled Tiangong Kaiwu — China's first comprehensive encyclopedia of industrial technology.",
+    "description": "宋应星编著《天工开物》——中国第一部综合性工业技术百科全书，记录了明代的农业和手工业技术。",
+    "descriptionEn": "Song Yingxing compiled Tiangong Kaiwu — China's first comprehensive encyclopedia of industrial technology.",
+    "tags": [
+      "科技",
+      "著作",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Technology",
+      "Scholarship",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "song-yingxing"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "江西",
+    "placeNameEn": "Jiangxi",
+    "coordinates": {
+      "lat": 28.0,
+      "lng": 116.0
+    }
+  },
+  {
+    "id": "evt-mingchongzhen-fall",
+    "title": "崇祯帝煤山自缢",
+    "titleEn": "Chongzhen Emperor Hangs Himself",
+    "startYear": 1644,
+    "endYear": null,
+    "importance": 5,
+    "summary": "李自成攻破北京，崇祯帝在煤山自缢身亡，明朝灭亡。死前写下「任贼分裂朕尸，勿伤百姓一人」。",
+    "summaryEn": "Li Zicheng captured Beijing; the Chongzhen Emperor hanged himself on Coal Hill, ending the Ming dynasty.",
+    "description": "李自成攻破北京，崇祯帝在煤山自缢身亡，明朝灭亡。死前写下「任贼分裂朕尸，勿伤百姓一人」。",
+    "descriptionEn": "Li Zicheng captured Beijing; the Chongzhen Emperor hanged himself on Coal Hill, ending the Ming dynasty.",
+    "tags": [
+      "政治",
+      "灭亡",
+      "明朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Fall",
+      "Ming Dynasty"
+    ],
+    "personIds": [
+      "ming-chongzhen"
+    ],
+    "regionId": "ming-dynasty",
+    "sourceIds": [
+      "src-mingshi"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京煤山（今景山）",
+    "placeNameEn": "Coal Hill, Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-qinghuangtaiji-reform",
+    "title": "皇太极建立大清",
+    "titleEn": "Hong Taiji Proclaims the Qing Dynasty",
+    "startYear": 1636,
+    "endYear": null,
+    "importance": 5,
+    "summary": "皇太极在盛京称帝改国号为「大清」，改革八旗制度、重用汉人降将，做好了入主中原的一切准备。",
+    "summaryEn": "Hong Taiji proclaimed the Qing dynasty at Shengjing, reformed the Banner system, and prepared for the conquest of China.",
+    "description": "皇太极在盛京称帝改国号为「大清」，改革八旗制度、重用汉人降将，做好了入主中原的一切准备。",
+    "descriptionEn": "Hong Taiji proclaimed the Qing dynasty at Shengjing, reformed the Banner system, and prepared for the conquest of China.",
+    "tags": [
+      "政治",
+      "开国",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Founding",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "qing-huangtaiji"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "盛京（今沈阳）",
+    "placeNameEn": "Shengjing, modern Shenyang",
+    "coordinates": {
+      "lat": 41.8,
+      "lng": 123.4
+    }
+  },
+  {
+    "id": "evt-badashanren-art",
+    "title": "八大山人的白眼鱼鸟",
+    "titleEn": "Ba Da Shanren's Scornful Fish and Birds",
+    "startYear": 1660,
+    "endYear": 1705,
+    "importance": 4,
+    "summary": "明宗室后裔朱耷出家为僧，以翻白眼的鱼鸟和大面积留白表达亡国之痛。",
+    "summaryEn": "Zhu Da, Ming imperial descendant turned monk, expressed his grief through fish and birds with scornful white eyes.",
+    "description": "明宗室后裔朱耷出家为僧，以翻白眼的鱼鸟和大面积留白表达亡国之痛。",
+    "descriptionEn": "Zhu Da, Ming imperial descendant turned monk, expressed his grief through fish and birds with scornful white eyes.",
+    "tags": [
+      "绘画",
+      "艺术",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Painting",
+      "Art",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "ba-da-shanren"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "南昌",
+    "placeNameEn": "Nanchang",
+    "coordinates": {
+      "lat": 28.7,
+      "lng": 115.9
+    }
+  },
+  {
+    "id": "evt-qingshunzhi-conquest",
+    "title": "清军入关",
+    "titleEn": "Qing Forces Enter the Pass",
+    "startYear": 1644,
+    "endYear": null,
+    "importance": 5,
+    "summary": "吴三桂引清兵入关，清军迅速占领北京并迁都，开始了清朝对中国的统治。",
+    "summaryEn": "Wu Sangui opened Shanhai Pass; Qing forces quickly captured Beijing and moved the capital, beginning Qing rule over China.",
+    "description": "吴三桂引清兵入关，清军迅速占领北京并迁都，开始了清朝对中国的统治。",
+    "descriptionEn": "Wu Sangui opened Shanhai Pass; Qing forces quickly captured Beijing and moved the capital, beginning Qing rule over China.",
+    "tags": [
+      "政治",
+      "入关",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Conquest",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "qing-shunzhi",
+      "wu-sangui"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-pusongling-stories",
+    "title": "蒲松龄著《聊斋志异》",
+    "titleEn": "Pu Songling Writes Strange Tales",
+    "startYear": 1680,
+    "endYear": 1715,
+    "importance": 5,
+    "summary": "蒲松龄科举屡试不第，在乡村教书之余搜集民间鬼狐故事，著成中国最伟大的文言短篇小说集。",
+    "summaryEn": "Failing the exams repeatedly, Pu Songling collected ghost and fox spirit tales, creating China's greatest classical short story collection.",
+    "description": "蒲松龄科举屡试不第，在乡村教书之余搜集民间鬼狐故事，著成中国最伟大的文言短篇小说集。",
+    "descriptionEn": "Failing the exams repeatedly, Pu Songling collected ghost and fox spirit tales, creating China's greatest classical short story collection.",
+    "tags": [
+      "文学",
+      "小说",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Literature",
+      "Novel",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "pu-songling"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "山东淄川",
+    "placeNameEn": "Zichuan, Shandong",
+    "coordinates": {
+      "lat": 36.6,
+      "lng": 117.9
+    }
+  },
+  {
+    "id": "evt-qingyongzheng-reform",
+    "title": "雍正帝改革",
+    "titleEn": "Yongzheng Emperor's Reforms",
+    "startYear": 1723,
+    "endYear": 1735,
+    "importance": 5,
+    "summary": "雍正帝推行摊丁入亩、耗羡归公、改土归流等重大改革，设立军机处强化皇权，是清朝最有效率的皇帝。",
+    "summaryEn": "Yongzheng implemented sweeping fiscal and administrative reforms, establishing the Grand Council and strengthening imperial power.",
+    "description": "雍正帝推行摊丁入亩、耗羡归公、改土归流等重大改革，设立军机处强化皇权，是清朝最有效率的皇帝。",
+    "descriptionEn": "Yongzheng implemented sweeping fiscal and administrative reforms, establishing the Grand Council and strengthening imperial power.",
+    "tags": [
+      "政治",
+      "改革",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Reform",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "qing-yongzheng"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-zhengbanqiao-art",
+    "title": "郑板桥——扬州八怪之首",
+    "titleEn": "Zheng Banqiao: Leader of the Eight Eccentrics",
+    "startYear": 1736,
+    "endYear": 1765,
+    "importance": 4,
+    "summary": "郑板桥以画竹闻名，题诗「衙斋卧听萧萧竹，疑是民间疾苦声」表达对百姓的深切关怀。",
+    "summaryEn": "Zheng Banqiao, famed for bamboo paintings, wrote: 'Lying in my office, I hear the rustling bamboo — could it be the sound of the people's suffering?'",
+    "description": "郑板桥以画竹闻名，题诗「衙斋卧听萧萧竹，疑是民间疾苦声」表达对百姓的深切关怀。",
+    "descriptionEn": "Zheng Banqiao, famed for bamboo paintings, wrote: 'Lying in my office, I hear the rustling bamboo — could it be the sound of the people's suffering?'",
+    "tags": [
+      "绘画",
+      "书法",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Painting",
+      "Calligraphy",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "zheng-banqiao"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "扬州",
+    "placeNameEn": "Yangzhou",
+    "coordinates": {
+      "lat": 32.4,
+      "lng": 119.4
+    }
+  },
+  {
+    "id": "evt-liuyong-official",
+    "title": "刘墉——浓墨宰相",
+    "titleEn": "Liu Yong: The Ink-Dark Chancellor",
+    "startYear": 1751,
+    "endYear": 1805,
+    "importance": 4,
+    "summary": "刘墉是乾隆朝名臣，以书法和清廉著称，民间传说中「刘罗锅」形象深入人心。",
+    "summaryEn": "Liu Yong was a famed Qianlong-era official, renowned for his calligraphy and incorruptibility.",
+    "description": "刘墉是乾隆朝名臣，以书法和清廉著称，民间传说中「刘罗锅」形象深入人心。",
+    "descriptionEn": "Liu Yong was a famed Qianlong-era official, renowned for his calligraphy and incorruptibility.",
+    "tags": [
+      "政治",
+      "书法",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Calligraphy",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "liu-yong"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-jixiaolan-compile",
+    "title": "纪晓岚编纂《四库全书》",
+    "titleEn": "Ji Xiaolan Compiles Siku Quanshu",
+    "startYear": 1773,
+    "endYear": 1782,
+    "importance": 5,
+    "summary": "纪晓岚任《四库全书》总纂官，历时十年完成这部中国历史上规模最大的丛书。",
+    "summaryEn": "Ji Xiaolan served as chief editor of the Siku Quanshu, completing the largest book collection in Chinese history over ten years.",
+    "description": "纪晓岚任《四库全书》总纂官，历时十年完成这部中国历史上规模最大的丛书。",
+    "descriptionEn": "Ji Xiaolan served as chief editor of the Siku Quanshu, completing the largest book collection in Chinese history over ten years.",
+    "tags": [
+      "学术",
+      "编纂",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Scholarship",
+      "Compilation",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "ji-xiaolan"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-linzexu-opium",
+    "title": "林则徐虎门销烟",
+    "titleEn": "Lin Zexu Destroys Opium at Humen",
+    "startYear": 1839,
+    "endYear": null,
+    "importance": 5,
+    "summary": "林则徐在虎门海滩当众销毁英国鸦片两万余箱，成为中国近代史上最壮烈的抵抗外来侵略的象征。",
+    "summaryEn": "Lin Zexu publicly destroyed over 20,000 chests of British opium at Humen Beach, becoming a national hero.",
+    "description": "林则徐在虎门海滩当众销毁英国鸦片两万余箱，成为中国近代史上最壮烈的抵抗外来侵略的象征。",
+    "descriptionEn": "Lin Zexu publicly destroyed over 20,000 chests of British opium at Humen Beach, becoming a national hero.",
+    "tags": [
+      "政治",
+      "禁烟",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Anti-Opium",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "lin-zexu"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "虎门（今广东东莞）",
+    "placeNameEn": "Humen, modern Dongguan",
+    "coordinates": {
+      "lat": 22.8,
+      "lng": 113.6
+    }
+  },
+  {
+    "id": "evt-zengguofan-taiping",
+    "title": "曾国藩平定太平天国",
+    "titleEn": "Zeng Guofan Defeats the Taiping",
+    "startYear": 1853,
+    "endYear": 1864,
+    "importance": 5,
+    "summary": "曾国藩组建湘军，经过十余年苦战最终攻破天京平定太平天国，挽救了清朝。",
+    "summaryEn": "Zeng Guofan raised the Hunan Army and after a decade of bitter warfare captured Nanjing, crushing the Taiping Rebellion.",
+    "description": "曾国藩组建湘军，经过十余年苦战最终攻破天京平定太平天国，挽救了清朝。",
+    "descriptionEn": "Zeng Guofan raised the Hunan Army and after a decade of bitter warfare captured Nanjing, crushing the Taiping Rebellion.",
+    "tags": [
+      "军事",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "zeng-guofan"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "天京（今南京）",
+    "placeNameEn": "Nanjing",
+    "coordinates": {
+      "lat": 32.0,
+      "lng": 118.7
+    }
+  },
+  {
+    "id": "evt-zuozongtang-xinjiang",
+    "title": "左宗棠收复新疆",
+    "titleEn": "Zuo Zongtang Recovers Xinjiang",
+    "startYear": 1875,
+    "endYear": 1878,
+    "importance": 5,
+    "summary": "左宗棠抬棺出征收复新疆，粉碎了阿古柏分裂政权，为中华民族保住了六分之一的国土。",
+    "summaryEn": "Zuo Zongtang marched west with his coffin, recovering Xinjiang from Yakub Beg and preserving one-sixth of China's territory.",
+    "description": "左宗棠抬棺出征收复新疆，粉碎了阿古柏分裂政权，为中华民族保住了六分之一的国土。",
+    "descriptionEn": "Zuo Zongtang marched west with his coffin, recovering Xinjiang from Yakub Beg and preserving one-sixth of China's territory.",
+    "tags": [
+      "军事",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Military",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "zuo-zongtang"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "新疆",
+    "placeNameEn": "Xinjiang",
+    "coordinates": {
+      "lat": 43.8,
+      "lng": 87.6
+    }
+  },
+  {
+    "id": "evt-qingguangxu-reform",
+    "title": "戊戌变法",
+    "titleEn": "Hundred Days' Reform",
+    "startYear": 1898,
+    "endYear": null,
+    "importance": 5,
+    "summary": "光绪帝和康有为梁启超推动103天改革，企图将中国从君主专制转向君主立宪，被慈禧政变镇压。",
+    "summaryEn": "Emperor Guangxu with Kang Youwei and Liang Qichao launched 103 days of reforms, crushed by Empress Dowager Cixi's coup.",
+    "description": "光绪帝和康有为梁启超推动103天改革，企图将中国从君主专制转向君主立宪，被慈禧政变镇压。",
+    "descriptionEn": "Emperor Guangxu with Kang Youwei and Liang Qichao launched 103 days of reforms, crushed by Empress Dowager Cixi's coup.",
+    "tags": [
+      "政治",
+      "改革",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Reform",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "qing-guangxu",
+      "kang-youwei",
+      "liang-qichao"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  },
+  {
+    "id": "evt-qingpuyi-abdicate",
+    "title": "溥仪退位——清朝灭亡",
+    "titleEn": "Puyi Abdicates: End of Qing Dynasty",
+    "startYear": 1912,
+    "endYear": null,
+    "importance": 5,
+    "summary": "辛亥革命后六岁的溥仪颁布退位诏书，清朝灭亡，中国两千多年的帝制终结。",
+    "summaryEn": "After the Xinhai Revolution, the six-year-old Puyi issued the abdication edict, ending both the Qing dynasty and imperial China.",
+    "description": "辛亥革命后六岁的溥仪颁布退位诏书，清朝灭亡，中国两千多年的帝制终结。",
+    "descriptionEn": "After the Xinhai Revolution, the six-year-old Puyi issued the abdication edict, ending both the Qing dynasty and imperial China.",
+    "tags": [
+      "政治",
+      "灭亡",
+      "清朝"
+    ],
+    "tagsEn": [
+      "Politics",
+      "Fall",
+      "Qing Dynasty"
+    ],
+    "personIds": [
+      "qing-puyi"
+    ],
+    "regionId": "qing-dynasty",
+    "sourceIds": [
+      "src-qingshigao"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": [],
+    "placeName": "北京",
+    "placeNameEn": "Beijing",
+    "coordinates": {
+      "lat": 39.9,
+      "lng": 116.4
+    }
+  }
+]

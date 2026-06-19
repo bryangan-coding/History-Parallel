@@ -1,0 +1,6928 @@
+[
+  {
+    "id": "evt-deep5a-cui-xuan-liang-768-death",
+    "title": "崔玄亮去世",
+    "titleEn": "Death of Cui Xuanliang",
+    "startYear": 833,
+    "importance": 3,
+    "summary": "崔玄亮于833年去世。",
+    "summaryEn": "Cui Xuanliang died in 833.",
+    "description": "崔玄亮于833年去世。",
+    "descriptionEn": "Cui Xuanliang died in 833.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-xuan-liang-768"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-gao-683-birth",
+    "title": "李暠出生",
+    "titleEn": "Birth of Li Gao",
+    "startYear": 683,
+    "importance": 2,
+    "summary": "李暠于683年出生。",
+    "summaryEn": "Li Gao was born in 683.",
+    "description": "李暠于683年出生。",
+    "descriptionEn": "Li Gao was born in 683.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-gao-683"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-gao-683-death",
+    "title": "李暠去世",
+    "titleEn": "Death of Li Gao",
+    "startYear": 740,
+    "importance": 3,
+    "summary": "李暠于740年去世。",
+    "summaryEn": "Li Gao died in 740.",
+    "description": "李暠于740年去世。",
+    "descriptionEn": "Li Gao died in 740.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-gao-683"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-chang-ling-690-2-birth",
+    "title": "王昌齡出生",
+    "titleEn": "Birth of Wang Changling",
+    "startYear": 690,
+    "importance": 2,
+    "summary": "王昌齡于690年出生。",
+    "summaryEn": "Wang Changling was born in 690.",
+    "description": "王昌齡于690年出生。",
+    "descriptionEn": "Wang Changling was born in 690.",
+    "tags": [
+      "出生",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "wang-chang-ling-690-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-chang-ling-690-2-death",
+    "title": "王昌齡去世",
+    "titleEn": "Death of Wang Changling",
+    "startYear": 756,
+    "importance": 3,
+    "summary": "王昌齡于756年去世。",
+    "summaryEn": "Wang Changling died in 756.",
+    "description": "王昌齡于756年去世。",
+    "descriptionEn": "Wang Changling died in 756.",
+    "tags": [
+      "逝世",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "wang-chang-ling-690-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-quan-nan-sheng-634-birth",
+    "title": "泉男生出生",
+    "titleEn": "Birth of Quan Nansheng",
+    "startYear": 634,
+    "importance": 2,
+    "summary": "泉男生于634年出生。",
+    "summaryEn": "Quan Nansheng was born in 634.",
+    "description": "泉男生于634年出生。",
+    "descriptionEn": "Quan Nansheng was born in 634.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "quan-nan-sheng-634"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-quan-nan-sheng-634-death",
+    "title": "泉男生去世",
+    "titleEn": "Death of Quan Nansheng",
+    "startYear": 679,
+    "importance": 3,
+    "summary": "泉男生于679年去世。",
+    "summaryEn": "Quan Nansheng died in 679.",
+    "description": "泉男生于679年去世。",
+    "descriptionEn": "Quan Nansheng died in 679.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "quan-nan-sheng-634"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-chu-sui-liang-596-birth",
+    "title": "褚遂良出生",
+    "titleEn": "Birth of Chu Suiliang",
+    "startYear": 596,
+    "importance": 2,
+    "summary": "褚遂良于596年出生。",
+    "summaryEn": "Chu Suiliang was born in 596.",
+    "description": "褚遂良于596年出生。",
+    "descriptionEn": "Chu Suiliang was born in 596.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "chu-sui-liang-596"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-chu-sui-liang-596-death",
+    "title": "褚遂良去世",
+    "titleEn": "Death of Chu Suiliang",
+    "startYear": 658,
+    "importance": 3,
+    "summary": "褚遂良于658年去世。",
+    "summaryEn": "Chu Suiliang died in 658.",
+    "description": "褚遂良于658年去世。",
+    "descriptionEn": "Chu Suiliang died in 658.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "chu-sui-liang-596"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yi-847-2-birth",
+    "title": "陸扆出生",
+    "titleEn": "Birth of Lu Yi",
+    "startYear": 847,
+    "importance": 2,
+    "summary": "陸扆于847年出生。",
+    "summaryEn": "Lu Yi was born in 847.",
+    "description": "陸扆于847年出生。",
+    "descriptionEn": "Lu Yi was born in 847.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-yi-847-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yi-847-2-death",
+    "title": "陸扆去世",
+    "titleEn": "Death of Lu Yi",
+    "startYear": 905,
+    "importance": 3,
+    "summary": "陸扆于905年去世。",
+    "summaryEn": "Lu Yi died in 905.",
+    "description": "陸扆于905年去世。",
+    "descriptionEn": "Lu Yi died in 905.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-yi-847-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-gao-pian-821-birth",
+    "title": "高駢出生",
+    "titleEn": "Birth of Gao Pian",
+    "startYear": 821,
+    "importance": 2,
+    "summary": "高駢于821年出生。",
+    "summaryEn": "Gao Pian was born in 821.",
+    "description": "高駢于821年出生。",
+    "descriptionEn": "Gao Pian was born in 821.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "gao-pian-821"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-gao-pian-821-death",
+    "title": "高駢去世",
+    "titleEn": "Death of Gao Pian",
+    "startYear": 887,
+    "importance": 3,
+    "summary": "高駢于887年去世。",
+    "summaryEn": "Gao Pian died in 887.",
+    "description": "高駢于887年去世。",
+    "descriptionEn": "Gao Pian died in 887.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "gao-pian-821"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-jian-zhi-625-birth",
+    "title": "張柬之出生",
+    "titleEn": "Birth of Zhang Jianzhi",
+    "startYear": 625,
+    "importance": 2,
+    "summary": "張柬之于625年出生。",
+    "summaryEn": "Zhang Jianzhi was born in 625.",
+    "description": "張柬之于625年出生。",
+    "descriptionEn": "Zhang Jianzhi was born in 625.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-jian-zhi-625"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-jian-zhi-625-death",
+    "title": "張柬之去世",
+    "titleEn": "Death of Zhang Jianzhi",
+    "startYear": 706,
+    "importance": 3,
+    "summary": "張柬之于706年去世。",
+    "summaryEn": "Zhang Jianzhi died in 706.",
+    "description": "張柬之于706年去世。",
+    "descriptionEn": "Zhang Jianzhi died in 706.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-jian-zhi-625"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-jian-feng-735-birth",
+    "title": "張建封出生",
+    "titleEn": "Birth of Zhang Jianfeng",
+    "startYear": 735,
+    "importance": 2,
+    "summary": "張建封于735年出生。",
+    "summaryEn": "Zhang Jianfeng was born in 735.",
+    "description": "張建封于735年出生。",
+    "descriptionEn": "Zhang Jianfeng was born in 735.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-jian-feng-735"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-jian-feng-735-death",
+    "title": "張建封去世",
+    "titleEn": "Death of Zhang Jianfeng",
+    "startYear": 800,
+    "importance": 3,
+    "summary": "張建封于800年去世。",
+    "summaryEn": "Zhang Jianfeng died in 800.",
+    "description": "張建封于800年去世。",
+    "descriptionEn": "Zhang Jianfeng died in 800.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-jian-feng-735"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-han-huang-723-birth",
+    "title": "韓滉出生",
+    "titleEn": "Birth of Han Huang",
+    "startYear": 723,
+    "importance": 2,
+    "summary": "韓滉于723年出生。",
+    "summaryEn": "Han Huang was born in 723.",
+    "description": "韓滉于723年出生。",
+    "descriptionEn": "Han Huang was born in 723.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "han-huang-723"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-han-huang-723-death",
+    "title": "韓滉去世",
+    "titleEn": "Death of Han Huang",
+    "startYear": 787,
+    "importance": 3,
+    "summary": "韓滉于787年去世。",
+    "summaryEn": "Han Huang died in 787.",
+    "description": "韓滉于787年去世。",
+    "descriptionEn": "Han Huang died in 787.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "han-huang-723"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-gong-chuo-768-birth",
+    "title": "柳公綽出生",
+    "titleEn": "Birth of Liu Gongchuo",
+    "startYear": 768,
+    "importance": 2,
+    "summary": "柳公綽于768年出生。",
+    "summaryEn": "Liu Gongchuo was born in 768.",
+    "description": "柳公綽于768年出生。",
+    "descriptionEn": "Liu Gongchuo was born in 768.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-gong-chuo-768"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-gong-chuo-768-death",
+    "title": "柳公綽去世",
+    "titleEn": "Death of Liu Gongchuo",
+    "startYear": 832,
+    "importance": 3,
+    "summary": "柳公綽于832年去世。",
+    "summaryEn": "Liu Gongchuo died in 832.",
+    "description": "柳公綽于832年去世。",
+    "descriptionEn": "Liu Gongchuo died in 832.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-gong-chuo-768"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-zhou-728-birth",
+    "title": "裴胄出生",
+    "titleEn": "Birth of Pei Zhou",
+    "startYear": 728,
+    "importance": 2,
+    "summary": "裴胄于728年出生。",
+    "summaryEn": "Pei Zhou was born in 728.",
+    "description": "裴胄于728年出生。",
+    "descriptionEn": "Pei Zhou was born in 728.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-zhou-728"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-zhou-728-death",
+    "title": "裴胄去世",
+    "titleEn": "Death of Pei Zhou",
+    "startYear": 803,
+    "importance": 3,
+    "summary": "裴胄于803年去世。",
+    "summaryEn": "Pei Zhou died in 803.",
+    "description": "裴胄于803年去世。",
+    "descriptionEn": "Pei Zhou died in 803.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-zhou-728"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-ji-fu-758-birth",
+    "title": "李吉甫出生",
+    "titleEn": "Birth of Li Jifu",
+    "startYear": 758,
+    "importance": 2,
+    "summary": "李吉甫于758年出生。",
+    "summaryEn": "Li Jifu was born in 758.",
+    "description": "李吉甫于758年出生。",
+    "descriptionEn": "Li Jifu was born in 758.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-ji-fu-758"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-ji-fu-758-death",
+    "title": "李吉甫去世",
+    "titleEn": "Death of Li Jifu",
+    "startYear": 814,
+    "importance": 3,
+    "summary": "李吉甫于814年去世。",
+    "summaryEn": "Li Jifu died in 814.",
+    "description": "李吉甫于814年去世。",
+    "descriptionEn": "Li Jifu died in 814.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-ji-fu-758"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-zhi-(-tang-gao-zong-)-628-birth",
+    "title": "李治(唐高宗)出生",
+    "titleEn": "Birth of Li Zhi (Emperor Gaozong of Tang)",
+    "startYear": 628,
+    "importance": 2,
+    "summary": "李治(唐高宗)于628年出生。",
+    "summaryEn": "Li Zhi (Emperor Gaozong of Tang) was born in 628.",
+    "description": "李治(唐高宗)于628年出生。",
+    "descriptionEn": "Li Zhi (Emperor Gaozong of Tang) was born in 628.",
+    "tags": [
+      "出生",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "li-zhi-(-tang-gao-zong-)-628"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-zhi-(-tang-gao-zong-)-628-death",
+    "title": "李治(唐高宗)去世",
+    "titleEn": "Death of Li Zhi (Emperor Gaozong of Tang)",
+    "startYear": 683,
+    "importance": 3,
+    "summary": "李治(唐高宗)于683年去世。",
+    "summaryEn": "Li Zhi (Emperor Gaozong of Tang) died in 683.",
+    "description": "李治(唐高宗)于683年去世。",
+    "descriptionEn": "Li Zhi (Emperor Gaozong of Tang) died in 683.",
+    "tags": [
+      "逝世",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "li-zhi-(-tang-gao-zong-)-628"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lv-wen-772-birth",
+    "title": "呂溫出生",
+    "titleEn": "Birth of Lv Wen",
+    "startYear": 772,
+    "importance": 2,
+    "summary": "呂溫于772年出生。",
+    "summaryEn": "Lv Wen was born in 772.",
+    "description": "呂溫于772年出生。",
+    "descriptionEn": "Lv Wen was born in 772.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman",
+      "Writer"
+    ],
+    "personIds": [
+      "lv-wen-772"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lv-wen-772-death",
+    "title": "呂溫去世",
+    "titleEn": "Death of Lv Wen",
+    "startYear": 811,
+    "importance": 3,
+    "summary": "呂溫于811年去世。",
+    "summaryEn": "Lv Wen died in 811.",
+    "description": "呂溫于811年去世。",
+    "descriptionEn": "Lv Wen died in 811.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman",
+      "Writer"
+    ],
+    "personIds": [
+      "lv-wen-772"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bi-xian-803-birth",
+    "title": "畢諴出生",
+    "titleEn": "Birth of Bi Xian",
+    "startYear": 803,
+    "importance": 2,
+    "summary": "畢諴于803年出生。",
+    "summaryEn": "Bi Xian was born in 803.",
+    "description": "畢諴于803年出生。",
+    "descriptionEn": "Bi Xian was born in 803.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bi-xian-803"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bi-xian-803-death",
+    "title": "畢諴去世",
+    "titleEn": "Death of Bi Xian",
+    "startYear": 864,
+    "importance": 3,
+    "summary": "畢諴于864年去世。",
+    "summaryEn": "Bi Xian died in 864.",
+    "description": "畢諴于864年去世。",
+    "descriptionEn": "Bi Xian died in 864.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bi-xian-803"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-kang-667-birth",
+    "title": "韋抗出生",
+    "titleEn": "Birth of Wei Kang",
+    "startYear": 667,
+    "importance": 2,
+    "summary": "韋抗于667年出生。",
+    "summaryEn": "Wei Kang was born in 667.",
+    "description": "韋抗于667年出生。",
+    "descriptionEn": "Wei Kang was born in 667.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-kang-667"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-kang-667-death",
+    "title": "韋抗去世",
+    "titleEn": "Death of Wei Kang",
+    "startYear": 726,
+    "importance": 3,
+    "summary": "韋抗于726年去世。",
+    "summaryEn": "Wei Kang died in 726.",
+    "description": "韋抗于726年去世。",
+    "descriptionEn": "Wei Kang died in 726.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-kang-667"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-cheng-qing-640-birth",
+    "title": "韋承慶出生",
+    "titleEn": "Birth of Wei Chengqing",
+    "startYear": 640,
+    "importance": 2,
+    "summary": "韋承慶于640年出生。",
+    "summaryEn": "Wei Chengqing was born in 640.",
+    "description": "韋承慶于640年出生。",
+    "descriptionEn": "Wei Chengqing was born in 640.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-cheng-qing-640"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-cheng-qing-640-death",
+    "title": "韋承慶去世",
+    "titleEn": "Death of Wei Chengqing",
+    "startYear": 706,
+    "importance": 3,
+    "summary": "韋承慶于706年去世。",
+    "summaryEn": "Wei Chengqing died in 706.",
+    "description": "韋承慶于706年去世。",
+    "descriptionEn": "Wei Chengqing died in 706.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-cheng-qing-640"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-wu-752-birth",
+    "title": "韋武出生",
+    "titleEn": "Birth of Wei Wu",
+    "startYear": 752,
+    "importance": 2,
+    "summary": "韋武于752年出生。",
+    "summaryEn": "Wei Wu was born in 752.",
+    "description": "韋武于752年出生。",
+    "descriptionEn": "Wei Wu was born in 752.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-wu-752"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-wu-752-death",
+    "title": "韋武去世",
+    "titleEn": "Death of Wei Wu",
+    "startYear": 806,
+    "importance": 3,
+    "summary": "韋武于806年去世。",
+    "summaryEn": "Wei Wu died in 806.",
+    "description": "韋武于806年去世。",
+    "descriptionEn": "Wei Wu died in 806.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-wu-752"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-chang-ling-690-birth",
+    "title": "王昌齡出生",
+    "titleEn": "Birth of Wang Changling",
+    "startYear": 690,
+    "importance": 2,
+    "summary": "王昌齡于690年出生。",
+    "summaryEn": "Wang Changling was born in 690.",
+    "description": "王昌齡于690年出生。",
+    "descriptionEn": "Wang Changling was born in 690.",
+    "tags": [
+      "出生",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "wang-chang-ling-690"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-chang-ling-690-death",
+    "title": "王昌齡去世",
+    "titleEn": "Death of Wang Changling",
+    "startYear": 756,
+    "importance": 3,
+    "summary": "王昌齡于756年去世。",
+    "summaryEn": "Wang Changling died in 756.",
+    "description": "王昌齡于756年去世。",
+    "descriptionEn": "Wang Changling died in 756.",
+    "tags": [
+      "逝世",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "wang-chang-ling-690"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-sun-wu-ji-death",
+    "title": "長孫無忌去世",
+    "titleEn": "Death of Zhangsun Wuji",
+    "startYear": 659,
+    "importance": 3,
+    "summary": "長孫無忌于659年去世。",
+    "summaryEn": "Zhangsun Wuji died in 659.",
+    "description": "長孫無忌于659年去世。",
+    "descriptionEn": "Zhangsun Wuji died in 659.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-sun-wu-ji"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yi-847-birth",
+    "title": "陸扆出生",
+    "titleEn": "Birth of Lu Yi",
+    "startYear": 847,
+    "importance": 2,
+    "summary": "陸扆于847年出生。",
+    "summaryEn": "Lu Yi was born in 847.",
+    "description": "陸扆于847年出生。",
+    "descriptionEn": "Lu Yi was born in 847.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-yi-847"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yi-847-death",
+    "title": "陸扆去世",
+    "titleEn": "Death of Lu Yi",
+    "startYear": 905,
+    "importance": 3,
+    "summary": "陸扆于905年去世。",
+    "summaryEn": "Lu Yi died in 905.",
+    "description": "陸扆于905年去世。",
+    "descriptionEn": "Lu Yi died in 905.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-yi-847"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-zhuang-836-birth",
+    "title": "韋莊出生",
+    "titleEn": "Birth of Wei Zhuang",
+    "startYear": 836,
+    "importance": 2,
+    "summary": "韋莊于836年出生。",
+    "summaryEn": "Wei Zhuang was born in 836.",
+    "description": "韋莊于836年出生。",
+    "descriptionEn": "Wei Zhuang was born in 836.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-zhuang-836"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-zhuang-836-death",
+    "title": "韋莊去世",
+    "titleEn": "Death of Wei Zhuang",
+    "startYear": 910,
+    "importance": 3,
+    "summary": "韋莊于910年去世。",
+    "summaryEn": "Wei Zhuang died in 910.",
+    "description": "韋莊于910年去世。",
+    "descriptionEn": "Wei Zhuang died in 910.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-zhuang-836"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-dou-chang-747-birth",
+    "title": "竇常出生",
+    "titleEn": "Birth of Dou Chang",
+    "startYear": 747,
+    "importance": 2,
+    "summary": "竇常于747年出生。",
+    "summaryEn": "Dou Chang was born in 747.",
+    "description": "竇常于747年出生。",
+    "descriptionEn": "Dou Chang was born in 747.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "dou-chang-747"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-dou-chang-747-death",
+    "title": "竇常去世",
+    "titleEn": "Death of Dou Chang",
+    "startYear": 825,
+    "importance": 3,
+    "summary": "竇常于825年去世。",
+    "summaryEn": "Dou Chang died in 825.",
+    "description": "竇常于825年去世。",
+    "descriptionEn": "Dou Chang died in 825.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "dou-chang-747"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-xing-jian-619-birth",
+    "title": "裴行儉出生",
+    "titleEn": "Birth of Pei Xingjian",
+    "startYear": 619,
+    "importance": 2,
+    "summary": "裴行儉于619年出生。",
+    "summaryEn": "Pei Xingjian was born in 619.",
+    "description": "裴行儉于619年出生。",
+    "descriptionEn": "Pei Xingjian was born in 619.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-xing-jian-619"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-xing-jian-619-death",
+    "title": "裴行儉去世",
+    "titleEn": "Death of Pei Xingjian",
+    "startYear": 682,
+    "importance": 3,
+    "summary": "裴行儉于682年去世。",
+    "summaryEn": "Pei Xingjian died in 682.",
+    "description": "裴行儉于682年去世。",
+    "descriptionEn": "Pei Xingjian died in 682.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-xing-jian-619"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-shi-671-birth",
+    "title": "崔湜出生",
+    "titleEn": "Birth of Cui Shi",
+    "startYear": 671,
+    "importance": 2,
+    "summary": "崔湜于671年出生。",
+    "summaryEn": "Cui Shi was born in 671.",
+    "description": "崔湜于671年出生。",
+    "descriptionEn": "Cui Shi was born in 671.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-shi-671"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-shi-671-death",
+    "title": "崔湜去世",
+    "titleEn": "Death of Cui Shi",
+    "startYear": 713,
+    "importance": 3,
+    "summary": "崔湜于713年去世。",
+    "summaryEn": "Cui Shi died in 713.",
+    "description": "崔湜于713年去世。",
+    "descriptionEn": "Cui Shi died in 713.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-shi-671"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-dan-753-birth",
+    "title": "韋丹出生",
+    "titleEn": "Birth of Wei Dan",
+    "startYear": 753,
+    "importance": 2,
+    "summary": "韋丹于753年出生。",
+    "summaryEn": "Wei Dan was born in 753.",
+    "description": "韋丹于753年出生。",
+    "descriptionEn": "Wei Dan was born in 753.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-dan-753"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-dan-753-death",
+    "title": "韋丹去世",
+    "titleEn": "Death of Wei Dan",
+    "startYear": 810,
+    "importance": 3,
+    "summary": "韋丹于810年去世。",
+    "summaryEn": "Wei Dan died in 810.",
+    "description": "韋丹于810年去世。",
+    "descriptionEn": "Wei Dan died in 810.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-dan-753"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-wo-820-birth",
+    "title": "盧渥出生",
+    "titleEn": "Birth of Lu Wo",
+    "startYear": 820,
+    "importance": 2,
+    "summary": "盧渥于820年出生。",
+    "summaryEn": "Lu Wo was born in 820.",
+    "description": "盧渥于820年出生。",
+    "descriptionEn": "Lu Wo was born in 820.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-wo-820"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-wo-820-death",
+    "title": "盧渥去世",
+    "titleEn": "Death of Lu Wo",
+    "startYear": 905,
+    "importance": 3,
+    "summary": "盧渥于905年去世。",
+    "summaryEn": "Lu Wo died in 905.",
+    "description": "盧渥于905年去世。",
+    "descriptionEn": "Lu Wo died in 905.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-wo-820"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-jia-zhi-718-birth",
+    "title": "賈至出生",
+    "titleEn": "Birth of Jia Zhi",
+    "startYear": 718,
+    "importance": 2,
+    "summary": "賈至于718年出生。",
+    "summaryEn": "Jia Zhi was born in 718.",
+    "description": "賈至于718年出生。",
+    "descriptionEn": "Jia Zhi was born in 718.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "jia-zhi-718"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-jia-zhi-718-death",
+    "title": "賈至去世",
+    "titleEn": "Death of Jia Zhi",
+    "startYear": 772,
+    "importance": 3,
+    "summary": "賈至于772年去世。",
+    "summaryEn": "Jia Zhi died in 772.",
+    "description": "賈至于772年去世。",
+    "descriptionEn": "Jia Zhi died in 772.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "jia-zhi-718"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yu-cheng-xuan-death",
+    "title": "庾承宣去世",
+    "titleEn": "Death of Yu Chengxuan",
+    "startYear": 835,
+    "importance": 3,
+    "summary": "庾承宣于835年去世。",
+    "summaryEn": "Yu Chengxuan died in 835.",
+    "description": "庾承宣于835年去世。",
+    "descriptionEn": "Yu Chengxuan died in 835.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yu-cheng-xuan"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yao-nan-zhong-723-birth",
+    "title": "姚南仲出生",
+    "titleEn": "Birth of Yao Nanzhong",
+    "startYear": 723,
+    "importance": 2,
+    "summary": "姚南仲于723年出生。",
+    "summaryEn": "Yao Nanzhong was born in 723.",
+    "description": "姚南仲于723年出生。",
+    "descriptionEn": "Yao Nanzhong was born in 723.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yao-nan-zhong-723"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yao-nan-zhong-723-death",
+    "title": "姚南仲去世",
+    "titleEn": "Death of Yao Nanzhong",
+    "startYear": 803,
+    "importance": 3,
+    "summary": "姚南仲于803年去世。",
+    "summaryEn": "Yao Nanzhong died in 803.",
+    "description": "姚南仲于803年去世。",
+    "descriptionEn": "Yao Nanzhong died in 803.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yao-nan-zhong-723"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-jia-dan-730-birth",
+    "title": "賈耽出生",
+    "titleEn": "Birth of Jia Dan",
+    "startYear": 730,
+    "importance": 2,
+    "summary": "賈耽于730年出生。",
+    "summaryEn": "Jia Dan was born in 730.",
+    "description": "賈耽于730年出生。",
+    "descriptionEn": "Jia Dan was born in 730.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "jia-dan-730"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-jia-dan-730-death",
+    "title": "賈耽去世",
+    "titleEn": "Death of Jia Dan",
+    "startYear": 805,
+    "importance": 3,
+    "summary": "賈耽于805年去世。",
+    "summaryEn": "Jia Dan died in 805.",
+    "description": "賈耽于805年去世。",
+    "descriptionEn": "Jia Dan died in 805.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "jia-dan-730"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yu-xiu-lie-692-birth",
+    "title": "于休烈出生",
+    "titleEn": "Birth of Yu Xiulie",
+    "startYear": 692,
+    "importance": 2,
+    "summary": "于休烈于692年出生。",
+    "summaryEn": "Yu Xiulie was born in 692.",
+    "description": "于休烈于692年出生。",
+    "descriptionEn": "Yu Xiulie was born in 692.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yu-xiu-lie-692"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yu-xiu-lie-692-death",
+    "title": "于休烈去世",
+    "titleEn": "Death of Yu Xiulie",
+    "startYear": 772,
+    "importance": 3,
+    "summary": "于休烈于772年去世。",
+    "summaryEn": "Yu Xiulie died in 772.",
+    "description": "于休烈于772年去世。",
+    "descriptionEn": "Yu Xiulie died in 772.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yu-xiu-lie-692"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-chu-hou-773-birth",
+    "title": "韋處厚出生",
+    "titleEn": "Birth of Wei Chuhou",
+    "startYear": 773,
+    "importance": 2,
+    "summary": "韋處厚于773年出生。",
+    "summaryEn": "Wei Chuhou was born in 773.",
+    "description": "韋處厚于773年出生。",
+    "descriptionEn": "Wei Chuhou was born in 773.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-chu-hou-773"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-chu-hou-773-death",
+    "title": "韋處厚去世",
+    "titleEn": "Death of Wei Chuhou",
+    "startYear": 828,
+    "importance": 3,
+    "summary": "韋處厚于828年去世。",
+    "summaryEn": "Wei Chuhou died in 828.",
+    "description": "韋處厚于828年去世。",
+    "descriptionEn": "Wei Chuhou died in 828.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-chu-hou-773"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-jing-xuan-615-birth",
+    "title": "李敬玄出生",
+    "titleEn": "Birth of Li Jingxuan",
+    "startYear": 615,
+    "importance": 2,
+    "summary": "李敬玄于615年出生。",
+    "summaryEn": "Li Jingxuan was born in 615.",
+    "description": "李敬玄于615年出生。",
+    "descriptionEn": "Li Jingxuan was born in 615.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-jing-xuan-615"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-jing-xuan-615-death",
+    "title": "李敬玄去世",
+    "titleEn": "Death of Li Jingxuan",
+    "startYear": 682,
+    "importance": 3,
+    "summary": "李敬玄于682年去世。",
+    "summaryEn": "Li Jingxuan died in 682.",
+    "description": "李敬玄于682年去世。",
+    "descriptionEn": "Li Jingxuan died in 682.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-jing-xuan-615"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhao-jing-737-birth",
+    "title": "趙憬出生",
+    "titleEn": "Birth of Zhao Jing",
+    "startYear": 737,
+    "importance": 2,
+    "summary": "趙憬于737年出生。",
+    "summaryEn": "Zhao Jing was born in 737.",
+    "description": "趙憬于737年出生。",
+    "descriptionEn": "Zhao Jing was born in 737.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhao-jing-737"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhao-jing-737-death",
+    "title": "趙憬去世",
+    "titleEn": "Death of Zhao Jing",
+    "startYear": 797,
+    "importance": 3,
+    "summary": "趙憬于797年去世。",
+    "summaryEn": "Zhao Jing died in 797.",
+    "description": "趙憬于797年去世。",
+    "descriptionEn": "Zhao Jing died in 797.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhao-jing-737"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-chen-zi-ang-661-birth",
+    "title": "陳子昂出生",
+    "titleEn": "Birth of Chen Ziang",
+    "startYear": 661,
+    "importance": 2,
+    "summary": "陳子昂于661年出生。",
+    "summaryEn": "Chen Ziang was born in 661.",
+    "description": "陳子昂于661年出生。",
+    "descriptionEn": "Chen Ziang was born in 661.",
+    "tags": [
+      "出生",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "chen-zi-ang-661"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-chen-zi-ang-661-death",
+    "title": "陳子昂去世",
+    "titleEn": "Death of Chen Ziang",
+    "startYear": 702,
+    "importance": 3,
+    "summary": "陳子昂于702年去世。",
+    "summaryEn": "Chen Ziang died in 702.",
+    "description": "陳子昂于702年去世。",
+    "descriptionEn": "Chen Ziang died in 702.",
+    "tags": [
+      "逝世",
+      "唐",
+      "文学家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Writer"
+    ],
+    "personIds": [
+      "chen-zi-ang-661"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-hun-716-birth",
+    "title": "柳渾出生",
+    "titleEn": "Birth of Liu Hun",
+    "startYear": 716,
+    "importance": 2,
+    "summary": "柳渾于716年出生。",
+    "summaryEn": "Liu Hun was born in 716.",
+    "description": "柳渾于716年出生。",
+    "descriptionEn": "Liu Hun was born in 716.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-hun-716"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-hun-716-death",
+    "title": "柳渾去世",
+    "titleEn": "Death of Liu Hun",
+    "startYear": 789,
+    "importance": 3,
+    "summary": "柳渾于789年去世。",
+    "summaryEn": "Liu Hun died in 789.",
+    "description": "柳渾于789年去世。",
+    "descriptionEn": "Liu Hun died in 789.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-hun-716"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xiao-xin-699-birth",
+    "title": "蕭昕出生",
+    "titleEn": "Birth of Xiao Xin",
+    "startYear": 699,
+    "importance": 2,
+    "summary": "蕭昕于699年出生。",
+    "summaryEn": "Xiao Xin was born in 699.",
+    "description": "蕭昕于699年出生。",
+    "descriptionEn": "Xiao Xin was born in 699.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xiao-xin-699"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xiao-xin-699-death",
+    "title": "蕭昕去世",
+    "titleEn": "Death of Xiao Xin",
+    "startYear": 791,
+    "importance": 3,
+    "summary": "蕭昕于791年去世。",
+    "summaryEn": "Xiao Xin died in 791.",
+    "description": "蕭昕于791年去世。",
+    "descriptionEn": "Xiao Xin died in 791.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xiao-xin-699"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-xian-(-tang-rang-huang-di-)-679-birth",
+    "title": "李憲(唐讓皇帝)出生",
+    "titleEn": "Birth of Li Xian (Rang Emperor of Tang)",
+    "startYear": 679,
+    "importance": 2,
+    "summary": "李憲(唐讓皇帝)于679年出生。",
+    "summaryEn": "Li Xian (Rang Emperor of Tang) was born in 679.",
+    "description": "李憲(唐讓皇帝)于679年出生。",
+    "descriptionEn": "Li Xian (Rang Emperor of Tang) was born in 679.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-xian-(-tang-rang-huang-di-)-679"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-xian-(-tang-rang-huang-di-)-679-death",
+    "title": "李憲(唐讓皇帝)去世",
+    "titleEn": "Death of Li Xian (Rang Emperor of Tang)",
+    "startYear": 741,
+    "importance": 3,
+    "summary": "李憲(唐讓皇帝)于741年去世。",
+    "summaryEn": "Li Xian (Rang Emperor of Tang) died in 741.",
+    "description": "李憲(唐讓皇帝)于741年去世。",
+    "descriptionEn": "Li Xian (Rang Emperor of Tang) died in 741.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-xian-(-tang-rang-huang-di-)-679"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-ji-688-birth",
+    "title": "韋濟出生",
+    "titleEn": "Birth of Wei Ji",
+    "startYear": 688,
+    "importance": 2,
+    "summary": "韋濟于688年出生。",
+    "summaryEn": "Wei Ji was born in 688.",
+    "description": "韋濟于688年出生。",
+    "descriptionEn": "Wei Ji was born in 688.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-ji-688"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-ji-688-death",
+    "title": "韋濟去世",
+    "titleEn": "Death of Wei Ji",
+    "startYear": 754,
+    "importance": 3,
+    "summary": "韋濟于754年去世。",
+    "summaryEn": "Wei Ji died in 754.",
+    "description": "韋濟于754年去世。",
+    "descriptionEn": "Wei Ji died in 754.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-ji-688"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-fu-guo-704-2-birth",
+    "title": "李輔國出生",
+    "titleEn": "Birth of Li Fuguo",
+    "startYear": 704,
+    "importance": 2,
+    "summary": "李輔國于704年出生。",
+    "summaryEn": "Li Fuguo was born in 704.",
+    "description": "李輔國于704年出生。",
+    "descriptionEn": "Li Fuguo was born in 704.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-fu-guo-704-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-fu-guo-704-2-death",
+    "title": "李輔國去世",
+    "titleEn": "Death of Li Fuguo",
+    "startYear": 762,
+    "importance": 3,
+    "summary": "李輔國于762年去世。",
+    "summaryEn": "Li Fuguo died in 762.",
+    "description": "李輔國于762年去世。",
+    "descriptionEn": "Li Fuguo died in 762.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-fu-guo-704-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-heng-(-tang-su-zong-)-711-2-birth",
+    "title": "李亨(唐肅宗)出生",
+    "titleEn": "Birth of Li Heng (Emperor Suzong of Tang)",
+    "startYear": 711,
+    "importance": 2,
+    "summary": "李亨(唐肅宗)于711年出生。",
+    "summaryEn": "Li Heng (Emperor Suzong of Tang) was born in 711.",
+    "description": "李亨(唐肅宗)于711年出生。",
+    "descriptionEn": "Li Heng (Emperor Suzong of Tang) was born in 711.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "li-heng-(-tang-su-zong-)-711-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-heng-(-tang-su-zong-)-711-2-death",
+    "title": "李亨(唐肅宗)去世",
+    "titleEn": "Death of Li Heng (Emperor Suzong of Tang)",
+    "startYear": 762,
+    "importance": 3,
+    "summary": "李亨(唐肅宗)于762年去世。",
+    "summaryEn": "Li Heng (Emperor Suzong of Tang) died in 762.",
+    "description": "李亨(唐肅宗)于762年去世。",
+    "descriptionEn": "Li Heng (Emperor Suzong of Tang) died in 762.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "li-heng-(-tang-su-zong-)-711-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-shen-jiao-675-2-birth",
+    "title": "楊慎交出生",
+    "titleEn": "Birth of Yang Shenjiao",
+    "startYear": 675,
+    "importance": 2,
+    "summary": "楊慎交于675年出生。",
+    "summaryEn": "Yang Shenjiao was born in 675.",
+    "description": "楊慎交于675年出生。",
+    "descriptionEn": "Yang Shenjiao was born in 675.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-shen-jiao-675-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-shen-jiao-675-2-death",
+    "title": "楊慎交去世",
+    "titleEn": "Death of Yang Shenjiao",
+    "startYear": 724,
+    "importance": 3,
+    "summary": "楊慎交于724年去世。",
+    "summaryEn": "Yang Shenjiao died in 724.",
+    "description": "楊慎交于724年去世。",
+    "descriptionEn": "Yang Shenjiao died in 724.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-shen-jiao-675-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-you-fu-721-birth",
+    "title": "崔祐甫出生",
+    "titleEn": "Birth of Cui Youfu",
+    "startYear": 721,
+    "importance": 2,
+    "summary": "崔祐甫于721年出生。",
+    "summaryEn": "Cui Youfu was born in 721.",
+    "description": "崔祐甫于721年出生。",
+    "descriptionEn": "Cui Youfu was born in 721.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-you-fu-721"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-you-fu-721-death",
+    "title": "崔祐甫去世",
+    "titleEn": "Death of Cui Youfu",
+    "startYear": 780,
+    "importance": 3,
+    "summary": "崔祐甫于780年去世。",
+    "summaryEn": "Cui Youfu died in 780.",
+    "description": "崔祐甫于780年去世。",
+    "descriptionEn": "Cui Youfu died in 780.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-you-fu-721"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kang-xi-xian-646-2-birth",
+    "title": "康希銑出生",
+    "titleEn": "Birth of Kang Xixian",
+    "startYear": 646,
+    "importance": 2,
+    "summary": "康希銑于646年出生。",
+    "summaryEn": "Kang Xixian was born in 646.",
+    "description": "康希銑于646年出生。",
+    "descriptionEn": "Kang Xixian was born in 646.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kang-xi-xian-646-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kang-xi-xian-646-2-death",
+    "title": "康希銑去世",
+    "titleEn": "Death of Kang Xixian",
+    "startYear": 716,
+    "importance": 3,
+    "summary": "康希銑于716年去世。",
+    "summaryEn": "Kang Xixian died in 716.",
+    "description": "康希銑于716年去世。",
+    "descriptionEn": "Kang Xixian died in 716.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kang-xi-xian-646-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-bin-754-birth",
+    "title": "崔邠出生",
+    "titleEn": "Birth of Cui Bin",
+    "startYear": 754,
+    "importance": 2,
+    "summary": "崔邠于754年出生。",
+    "summaryEn": "Cui Bin was born in 754.",
+    "description": "崔邠于754年出生。",
+    "descriptionEn": "Cui Bin was born in 754.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-bin-754"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-bin-754-death",
+    "title": "崔邠去世",
+    "titleEn": "Death of Cui Bin",
+    "startYear": 815,
+    "importance": 3,
+    "summary": "崔邠于815年去世。",
+    "summaryEn": "Cui Bin died in 815.",
+    "description": "崔邠于815年去世。",
+    "descriptionEn": "Cui Bin died in 815.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-bin-754"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-guang-yan-762-2-birth",
+    "title": "李光顏出生",
+    "titleEn": "Birth of Li Guangyan",
+    "startYear": 762,
+    "importance": 2,
+    "summary": "李光顏于762年出生。",
+    "summaryEn": "Li Guangyan was born in 762.",
+    "description": "李光顏于762年出生。",
+    "descriptionEn": "Li Guangyan was born in 762.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-guang-yan-762-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-guang-yan-762-2-death",
+    "title": "李光顏去世",
+    "titleEn": "Death of Li Guangyan",
+    "startYear": 826,
+    "importance": 3,
+    "summary": "李光顏于826年去世。",
+    "summaryEn": "Li Guangyan died in 826.",
+    "description": "李光顏于826年去世。",
+    "descriptionEn": "Li Guangyan died in 826.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-guang-yan-762-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-yuan-gui-2-death",
+    "title": "李元軌去世",
+    "titleEn": "Death of Li Yuangui",
+    "startYear": 688,
+    "importance": 3,
+    "summary": "李元軌于688年去世。",
+    "summaryEn": "Li Yuangui died in 688.",
+    "description": "李元軌于688年去世。",
+    "descriptionEn": "Li Yuangui died in 688.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-yuan-gui-2"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-fu-guo-704-birth",
+    "title": "李輔國出生",
+    "titleEn": "Birth of Li Fuguo",
+    "startYear": 704,
+    "importance": 2,
+    "summary": "李輔國于704年出生。",
+    "summaryEn": "Li Fuguo was born in 704.",
+    "description": "李輔國于704年出生。",
+    "descriptionEn": "Li Fuguo was born in 704.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-fu-guo-704"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-fu-guo-704-death",
+    "title": "李輔國去世",
+    "titleEn": "Death of Li Fuguo",
+    "startYear": 762,
+    "importance": 3,
+    "summary": "李輔國于762年去世。",
+    "summaryEn": "Li Fuguo died in 762.",
+    "description": "李輔國于762年去世。",
+    "descriptionEn": "Li Fuguo died in 762.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-fu-guo-704"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-heng-(-tang-su-zong-)-711-birth",
+    "title": "李亨(唐肅宗)出生",
+    "titleEn": "Birth of Li Heng (Emperor Suzong of Tang)",
+    "startYear": 711,
+    "importance": 2,
+    "summary": "李亨(唐肅宗)于711年出生。",
+    "summaryEn": "Li Heng (Emperor Suzong of Tang) was born in 711.",
+    "description": "李亨(唐肅宗)于711年出生。",
+    "descriptionEn": "Li Heng (Emperor Suzong of Tang) was born in 711.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "li-heng-(-tang-su-zong-)-711"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-heng-(-tang-su-zong-)-711-death",
+    "title": "李亨(唐肅宗)去世",
+    "titleEn": "Death of Li Heng (Emperor Suzong of Tang)",
+    "startYear": 762,
+    "importance": 3,
+    "summary": "李亨(唐肅宗)于762年去世。",
+    "summaryEn": "Li Heng (Emperor Suzong of Tang) died in 762.",
+    "description": "李亨(唐肅宗)于762年去世。",
+    "descriptionEn": "Li Heng (Emperor Suzong of Tang) died in 762.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "li-heng-(-tang-su-zong-)-711"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-shen-jiao-675-birth",
+    "title": "楊慎交出生",
+    "titleEn": "Birth of Yang Shenjiao",
+    "startYear": 675,
+    "importance": 2,
+    "summary": "楊慎交于675年出生。",
+    "summaryEn": "Yang Shenjiao was born in 675.",
+    "description": "楊慎交于675年出生。",
+    "descriptionEn": "Yang Shenjiao was born in 675.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-shen-jiao-675"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-shen-jiao-675-death",
+    "title": "楊慎交去世",
+    "titleEn": "Death of Yang Shenjiao",
+    "startYear": 724,
+    "importance": 3,
+    "summary": "楊慎交于724年去世。",
+    "summaryEn": "Yang Shenjiao died in 724.",
+    "description": "楊慎交于724年去世。",
+    "descriptionEn": "Yang Shenjiao died in 724.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-shen-jiao-675"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kang-xi-xian-646-birth",
+    "title": "康希銑出生",
+    "titleEn": "Birth of Kang Xixian",
+    "startYear": 646,
+    "importance": 2,
+    "summary": "康希銑于646年出生。",
+    "summaryEn": "Kang Xixian was born in 646.",
+    "description": "康希銑于646年出生。",
+    "descriptionEn": "Kang Xixian was born in 646.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kang-xi-xian-646"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kang-xi-xian-646-death",
+    "title": "康希銑去世",
+    "titleEn": "Death of Kang Xixian",
+    "startYear": 716,
+    "importance": 3,
+    "summary": "康希銑于716年去世。",
+    "summaryEn": "Kang Xixian died in 716.",
+    "description": "康希銑于716年去世。",
+    "descriptionEn": "Kang Xixian died in 716.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kang-xi-xian-646"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-guang-yan-762-birth",
+    "title": "李光顏出生",
+    "titleEn": "Birth of Li Guangyan",
+    "startYear": 762,
+    "importance": 2,
+    "summary": "李光顏于762年出生。",
+    "summaryEn": "Li Guangyan was born in 762.",
+    "description": "李光顏于762年出生。",
+    "descriptionEn": "Li Guangyan was born in 762.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-guang-yan-762"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-guang-yan-762-death",
+    "title": "李光顏去世",
+    "titleEn": "Death of Li Guangyan",
+    "startYear": 826,
+    "importance": 3,
+    "summary": "李光顏于826年去世。",
+    "summaryEn": "Li Guangyan died in 826.",
+    "description": "李光顏于826年去世。",
+    "descriptionEn": "Li Guangyan died in 826.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-guang-yan-762"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-yuan-gui-death",
+    "title": "李元軌去世",
+    "titleEn": "Death of Li Yuangui",
+    "startYear": 688,
+    "importance": 3,
+    "summary": "李元軌于688年去世。",
+    "summaryEn": "Li Yuangui died in 688.",
+    "description": "李元軌于688年去世。",
+    "descriptionEn": "Li Yuangui died in 688.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-yuan-gui"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-qi-wu-death",
+    "title": "李齊物去世",
+    "titleEn": "Death of Li Qiwu",
+    "startYear": 761,
+    "importance": 3,
+    "summary": "李齊物于761年去世。",
+    "summaryEn": "Li Qiwu died in 761.",
+    "description": "李齊物于761年去世。",
+    "descriptionEn": "Li Qiwu died in 761.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-qi-wu"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lai-ji-610-birth",
+    "title": "來濟出生",
+    "titleEn": "Birth of Lai Ji",
+    "startYear": 610,
+    "importance": 2,
+    "summary": "來濟于610年出生。",
+    "summaryEn": "Lai Ji was born in 610.",
+    "description": "來濟于610年出生。",
+    "descriptionEn": "Lai Ji was born in 610.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lai-ji-610"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lai-ji-610-death",
+    "title": "來濟去世",
+    "titleEn": "Death of Lai Ji",
+    "startYear": 662,
+    "importance": 3,
+    "summary": "來濟于662年去世。",
+    "summaryEn": "Lai Ji died in 662.",
+    "description": "來濟于662年去世。",
+    "descriptionEn": "Lai Ji died in 662.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lai-ji-610"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lv-wei-735-birth",
+    "title": "呂渭出生",
+    "titleEn": "Birth of Lv Wei",
+    "startYear": 735,
+    "importance": 2,
+    "summary": "呂渭于735年出生。",
+    "summaryEn": "Lv Wei was born in 735.",
+    "description": "呂渭于735年出生。",
+    "descriptionEn": "Lv Wei was born in 735.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lv-wei-735"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lv-wei-735-death",
+    "title": "呂渭去世",
+    "titleEn": "Death of Lv Wei",
+    "startYear": 800,
+    "importance": 3,
+    "summary": "呂渭于800年去世。",
+    "summaryEn": "Lv Wei died in 800.",
+    "description": "呂渭于800年去世。",
+    "descriptionEn": "Lv Wei died in 800.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lv-wei-735"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-ren-gui-601-birth",
+    "title": "劉仁軌出生",
+    "titleEn": "Birth of Liu Rengui",
+    "startYear": 601,
+    "importance": 2,
+    "summary": "劉仁軌于601年出生。",
+    "summaryEn": "Liu Rengui was born in 601.",
+    "description": "劉仁軌于601年出生。",
+    "descriptionEn": "Liu Rengui was born in 601.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-ren-gui-601"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-ren-gui-601-death",
+    "title": "劉仁軌去世",
+    "titleEn": "Death of Liu Rengui",
+    "startYear": 685,
+    "importance": 3,
+    "summary": "劉仁軌于685年去世。",
+    "summaryEn": "Liu Rengui died in 685.",
+    "description": "劉仁軌于685年去世。",
+    "descriptionEn": "Liu Rengui died in 685.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-ren-gui-601"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-du-shen-yan-645-birth",
+    "title": "杜審言出生",
+    "titleEn": "Birth of Du Shenyan",
+    "startYear": 645,
+    "importance": 2,
+    "summary": "杜審言于645年出生。",
+    "summaryEn": "Du Shenyan was born in 645.",
+    "description": "杜審言于645年出生。",
+    "descriptionEn": "Du Shenyan was born in 645.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "du-shen-yan-645"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-du-shen-yan-645-death",
+    "title": "杜審言去世",
+    "titleEn": "Death of Du Shenyan",
+    "startYear": 708,
+    "importance": 3,
+    "summary": "杜審言于708年去世。",
+    "summaryEn": "Du Shenyan died in 708.",
+    "description": "杜審言于708年去世。",
+    "descriptionEn": "Du Shenyan died in 708.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "du-shen-yan-645"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-zhong-si-731-birth",
+    "title": "王忠嗣出生",
+    "titleEn": "Birth of Wang Zhongsi",
+    "startYear": 731,
+    "importance": 2,
+    "summary": "王忠嗣于731年出生。",
+    "summaryEn": "Wang Zhongsi was born in 731.",
+    "description": "王忠嗣于731年出生。",
+    "descriptionEn": "Wang Zhongsi was born in 731.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wang-zhong-si-731"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-zhong-si-731-death",
+    "title": "王忠嗣去世",
+    "titleEn": "Death of Wang Zhongsi",
+    "startYear": 775,
+    "importance": 3,
+    "summary": "王忠嗣于775年去世。",
+    "summaryEn": "Wang Zhongsi died in 775.",
+    "description": "王忠嗣于775年去世。",
+    "descriptionEn": "Wang Zhongsi died in 775.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wang-zhong-si-731"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xue-ji-649-birth",
+    "title": "薛稷出生",
+    "titleEn": "Birth of Xue Ji",
+    "startYear": 649,
+    "importance": 2,
+    "summary": "薛稷于649年出生。",
+    "summaryEn": "Xue Ji was born in 649.",
+    "description": "薛稷于649年出生。",
+    "descriptionEn": "Xue Ji was born in 649.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xue-ji-649"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xue-ji-649-death",
+    "title": "薛稷去世",
+    "titleEn": "Death of Xue Ji",
+    "startYear": 713,
+    "importance": 3,
+    "summary": "薛稷于713年去世。",
+    "summaryEn": "Xue Ji died in 713.",
+    "description": "薛稷于713年去世。",
+    "descriptionEn": "Xue Ji died in 713.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xue-ji-649"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-su-773-birth",
+    "title": "李愬出生",
+    "titleEn": "Birth of Li Su",
+    "startYear": 773,
+    "importance": 2,
+    "summary": "李愬于773年出生。",
+    "summaryEn": "Li Su was born in 773.",
+    "description": "李愬于773年出生。",
+    "descriptionEn": "Li Su was born in 773.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-su-773"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-su-773-death",
+    "title": "李愬去世",
+    "titleEn": "Death of Li Su",
+    "startYear": 821,
+    "importance": 3,
+    "summary": "李愬于821年去世。",
+    "summaryEn": "Li Su died in 821.",
+    "description": "李愬于821年去世。",
+    "descriptionEn": "Li Su died in 821.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-su-773"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-fei-yin-bin-590-birth",
+    "title": "費胤斌出生",
+    "titleEn": "Birth of Fei Yinbin",
+    "startYear": 590,
+    "importance": 2,
+    "summary": "費胤斌于590年出生。",
+    "summaryEn": "Fei Yinbin was born in 590.",
+    "description": "費胤斌于590年出生。",
+    "descriptionEn": "Fei Yinbin was born in 590.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "fei-yin-bin-590"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-fei-yin-bin-590-death",
+    "title": "費胤斌去世",
+    "titleEn": "Death of Fei Yinbin",
+    "startYear": 672,
+    "importance": 3,
+    "summary": "費胤斌于672年去世。",
+    "summaryEn": "Fei Yinbin died in 672.",
+    "description": "費胤斌于672年去世。",
+    "descriptionEn": "Fei Yinbin died in 672.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "fei-yin-bin-590"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-yan-727-birth",
+    "title": "楊炎出生",
+    "titleEn": "Birth of Yang Yan",
+    "startYear": 727,
+    "importance": 2,
+    "summary": "楊炎于727年出生。",
+    "summaryEn": "Yang Yan was born in 727.",
+    "description": "楊炎于727年出生。",
+    "descriptionEn": "Yang Yan was born in 727.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-yan-727"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-yan-727-death",
+    "title": "楊炎去世",
+    "titleEn": "Death of Yang Yan",
+    "startYear": 781,
+    "importance": 3,
+    "summary": "楊炎于781年去世。",
+    "summaryEn": "Yang Yan died in 781.",
+    "description": "楊炎于781年去世。",
+    "descriptionEn": "Yang Yan died in 781.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-yan-727"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-he-zhi-zhang-659-birth",
+    "title": "賀知章出生",
+    "titleEn": "Birth of He Zhizhang",
+    "startYear": 659,
+    "importance": 2,
+    "summary": "賀知章于659年出生。",
+    "summaryEn": "He Zhizhang was born in 659.",
+    "description": "賀知章于659年出生。",
+    "descriptionEn": "He Zhizhang was born in 659.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "he-zhi-zhang-659"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-he-zhi-zhang-659-death",
+    "title": "賀知章去世",
+    "titleEn": "Death of He Zhizhang",
+    "startYear": 744,
+    "importance": 3,
+    "summary": "賀知章于744年去世。",
+    "summaryEn": "He Zhizhang died in 744.",
+    "description": "賀知章于744年去世。",
+    "descriptionEn": "He Zhizhang died in 744.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "he-zhi-zhang-659"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yuan-ban-qian-628-birth",
+    "title": "員半千出生",
+    "titleEn": "Birth of Yuan Panqian",
+    "startYear": 628,
+    "importance": 2,
+    "summary": "員半千于628年出生。",
+    "summaryEn": "Yuan Panqian was born in 628.",
+    "description": "員半千于628年出生。",
+    "descriptionEn": "Yuan Panqian was born in 628.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yuan-ban-qian-628"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yuan-ban-qian-628-death",
+    "title": "員半千去世",
+    "titleEn": "Death of Yuan Panqian",
+    "startYear": 714,
+    "importance": 3,
+    "summary": "員半千于714年去世。",
+    "summaryEn": "Yuan Panqian died in 714.",
+    "description": "員半千于714年去世。",
+    "descriptionEn": "Yuan Panqian died in 714.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yuan-ban-qian-628"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-guo-zhi-yun-667-birth",
+    "title": "郭知運出生",
+    "titleEn": "Birth of Guo Zhiyun",
+    "startYear": 667,
+    "importance": 2,
+    "summary": "郭知運于667年出生。",
+    "summaryEn": "Guo Zhiyun was born in 667.",
+    "description": "郭知運于667年出生。",
+    "descriptionEn": "Guo Zhiyun was born in 667.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "guo-zhi-yun-667"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-guo-zhi-yun-667-death",
+    "title": "郭知運去世",
+    "titleEn": "Death of Guo Zhiyun",
+    "startYear": 721,
+    "importance": 3,
+    "summary": "郭知運于721年去世。",
+    "summaryEn": "Guo Zhiyun died in 721.",
+    "description": "郭知運于721年去世。",
+    "descriptionEn": "Guo Zhiyun died in 721.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "guo-zhi-yun-667"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-jun-750-birth",
+    "title": "裴均出生",
+    "titleEn": "Birth of Pei Jun",
+    "startYear": 750,
+    "importance": 2,
+    "summary": "裴均于750年出生。",
+    "summaryEn": "Pei Jun was born in 750.",
+    "description": "裴均于750年出生。",
+    "descriptionEn": "Pei Jun was born in 750.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-jun-750"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-pei-jun-750-death",
+    "title": "裴均去世",
+    "titleEn": "Death of Pei Jun",
+    "startYear": 811,
+    "importance": 3,
+    "summary": "裴均于811年去世。",
+    "summaryEn": "Pei Jun died in 811.",
+    "description": "裴均于811年去世。",
+    "descriptionEn": "Pei Jun died in 811.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "pei-jun-750"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yan-yun-nan-694-birth",
+    "title": "顏允南出生",
+    "titleEn": "Birth of Yan Yunnan",
+    "startYear": 694,
+    "importance": 2,
+    "summary": "顏允南于694年出生。",
+    "summaryEn": "Yan Yunnan was born in 694.",
+    "description": "顏允南于694年出生。",
+    "descriptionEn": "Yan Yunnan was born in 694.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yan-yun-nan-694"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yan-yun-nan-694-death",
+    "title": "顏允南去世",
+    "titleEn": "Death of Yan Yunnan",
+    "startYear": 762,
+    "importance": 3,
+    "summary": "顏允南于762年去世。",
+    "summaryEn": "Yan Yunnan died in 762.",
+    "description": "顏允南于762年去世。",
+    "descriptionEn": "Yan Yunnan died in 762.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yan-yun-nan-694"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cen-wen-ben-595-birth",
+    "title": "岑文本出生",
+    "titleEn": "Birth of Cen Wenben",
+    "startYear": 595,
+    "importance": 2,
+    "summary": "岑文本于595年出生。",
+    "summaryEn": "Cen Wenben was born in 595.",
+    "description": "岑文本于595年出生。",
+    "descriptionEn": "Cen Wenben was born in 595.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cen-wen-ben-595"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cen-wen-ben-595-death",
+    "title": "岑文本去世",
+    "titleEn": "Death of Cen Wenben",
+    "startYear": 645,
+    "importance": 3,
+    "summary": "岑文本于645年去世。",
+    "summaryEn": "Cen Wenben died in 645.",
+    "description": "岑文本于645年去世。",
+    "descriptionEn": "Cen Wenben died in 645.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cen-wen-ben-595"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-rong-874-birth",
+    "title": "王鎔出生",
+    "titleEn": "Birth of Wang Rong",
+    "startYear": 874,
+    "importance": 2,
+    "summary": "王鎔于874年出生。",
+    "summaryEn": "Wang Rong was born in 874.",
+    "description": "王鎔于874年出生。",
+    "descriptionEn": "Wang Rong was born in 874.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wang-rong-874"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wang-rong-874-death",
+    "title": "王鎔去世",
+    "titleEn": "Death of Wang Rong",
+    "startYear": 921,
+    "importance": 3,
+    "summary": "王鎔于921年去世。",
+    "summaryEn": "Wang Rong died in 921.",
+    "description": "王鎔于921年去世。",
+    "descriptionEn": "Wang Rong died in 921.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wang-rong-874"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-yi-fu-614-birth",
+    "title": "李義府出生",
+    "titleEn": "Birth of Li Yifu",
+    "startYear": 614,
+    "importance": 2,
+    "summary": "李義府于614年出生。",
+    "summaryEn": "Li Yifu was born in 614.",
+    "description": "李義府于614年出生。",
+    "descriptionEn": "Li Yifu was born in 614.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-yi-fu-614"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-yi-fu-614-death",
+    "title": "李義府去世",
+    "titleEn": "Death of Li Yifu",
+    "startYear": 666,
+    "importance": 3,
+    "summary": "李義府于666年去世。",
+    "summaryEn": "Li Yifu died in 666.",
+    "description": "李義府于666年去世。",
+    "descriptionEn": "Li Yifu died in 666.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "li-yi-fu-614"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-shi-si-ming-703-birth",
+    "title": "史思明出生",
+    "titleEn": "Birth of Shi Siming",
+    "startYear": 703,
+    "importance": 2,
+    "summary": "史思明于703年出生。",
+    "summaryEn": "Shi Siming was born in 703.",
+    "description": "史思明于703年出生。",
+    "descriptionEn": "Shi Siming was born in 703.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "shi-si-ming-703"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-shi-si-ming-703-death",
+    "title": "史思明去世",
+    "titleEn": "Death of Shi Siming",
+    "startYear": 761,
+    "importance": 3,
+    "summary": "史思明于761年去世。",
+    "summaryEn": "Shi Siming died in 761.",
+    "description": "史思明于761年去世。",
+    "descriptionEn": "Shi Siming died in 761.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "shi-si-ming-703"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-yi-zhi-631-birth",
+    "title": "劉禕之出生",
+    "titleEn": "Birth of Liu Yizhi",
+    "startYear": 631,
+    "importance": 2,
+    "summary": "劉禕之于631年出生。",
+    "summaryEn": "Liu Yizhi was born in 631.",
+    "description": "劉禕之于631年出生。",
+    "descriptionEn": "Liu Yizhi was born in 631.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-yi-zhi-631"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-liu-yi-zhi-631-death",
+    "title": "劉禕之去世",
+    "titleEn": "Death of Liu Yizhi",
+    "startYear": 687,
+    "importance": 3,
+    "summary": "劉禕之于687年去世。",
+    "summaryEn": "Liu Yizhi died in 687.",
+    "description": "劉禕之于687年去世。",
+    "descriptionEn": "Liu Yizhi died in 687.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "liu-yi-zhi-631"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-qin-xi-720-birth",
+    "title": "秦系出生",
+    "titleEn": "Birth of Qin Xi",
+    "startYear": 720,
+    "importance": 2,
+    "summary": "秦系于720年出生。",
+    "summaryEn": "Qin Xi was born in 720.",
+    "description": "秦系于720年出生。",
+    "descriptionEn": "Qin Xi was born in 720.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "qin-xi-720"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-qin-xi-720-death",
+    "title": "秦系去世",
+    "titleEn": "Death of Qin Xi",
+    "startYear": 800,
+    "importance": 3,
+    "summary": "秦系于800年去世。",
+    "summaryEn": "Qin Xi died in 800.",
+    "description": "秦系于800年去世。",
+    "descriptionEn": "Qin Xi died in 800.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "qin-xi-720"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yan-shi-gu-581-birth",
+    "title": "顏師古出生",
+    "titleEn": "Birth of Yan Shigu",
+    "startYear": 581,
+    "importance": 2,
+    "summary": "顏師古于581年出生。",
+    "summaryEn": "Yan Shigu was born in 581.",
+    "description": "顏師古于581年出生。",
+    "descriptionEn": "Yan Shigu was born in 581.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yan-shi-gu-581"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yan-shi-gu-581-death",
+    "title": "顏師古去世",
+    "titleEn": "Death of Yan Shigu",
+    "startYear": 645,
+    "importance": 3,
+    "summary": "顏師古于645年去世。",
+    "summaryEn": "Yan Shigu died in 645.",
+    "description": "顏師古于645年去世。",
+    "descriptionEn": "Yan Shigu died in 645.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yan-shi-gu-581"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-qu-mou-749-birth",
+    "title": "韋渠牟出生",
+    "titleEn": "Birth of Wei Qumou",
+    "startYear": 749,
+    "importance": 2,
+    "summary": "韋渠牟于749年出生。",
+    "summaryEn": "Wei Qumou was born in 749.",
+    "description": "韋渠牟于749年出生。",
+    "descriptionEn": "Wei Qumou was born in 749.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-qu-mou-749"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-qu-mou-749-death",
+    "title": "韋渠牟去世",
+    "titleEn": "Death of Wei Qumou",
+    "startYear": 801,
+    "importance": 3,
+    "summary": "韋渠牟于801年去世。",
+    "summaryEn": "Wei Qumou died in 801.",
+    "description": "韋渠牟于801年去世。",
+    "descriptionEn": "Wei Qumou died in 801.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-qu-mou-749"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhou-xiang-855-birth",
+    "title": "周庠出生",
+    "titleEn": "Birth of Zhou Xiang",
+    "startYear": 855,
+    "importance": 2,
+    "summary": "周庠于855年出生。",
+    "summaryEn": "Zhou Xiang was born in 855.",
+    "description": "周庠于855年出生。",
+    "descriptionEn": "Zhou Xiang was born in 855.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhou-xiang-855"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhou-xiang-855-death",
+    "title": "周庠去世",
+    "titleEn": "Death of Zhou Xiang",
+    "startYear": 920,
+    "importance": 3,
+    "summary": "周庠于920年去世。",
+    "summaryEn": "Zhou Xiang died in 920.",
+    "description": "周庠于920年去世。",
+    "descriptionEn": "Zhou Xiang died in 920.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhou-xiang-855"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tian-cheng-si-704-birth",
+    "title": "田承嗣出生",
+    "titleEn": "Birth of Tian Chengsi",
+    "startYear": 704,
+    "importance": 2,
+    "summary": "田承嗣于704年出生。",
+    "summaryEn": "Tian Chengsi was born in 704.",
+    "description": "田承嗣于704年出生。",
+    "descriptionEn": "Tian Chengsi was born in 704.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tian-cheng-si-704"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tian-cheng-si-704-death",
+    "title": "田承嗣去世",
+    "titleEn": "Death of Tian Chengsi",
+    "startYear": 778,
+    "importance": 3,
+    "summary": "田承嗣于778年去世。",
+    "summaryEn": "Tian Chengsi died in 778.",
+    "description": "田承嗣于778年去世。",
+    "descriptionEn": "Tian Chengsi died in 778.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tian-cheng-si-704"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-fang-ru-fu-756-birth",
+    "title": "房孺復出生",
+    "titleEn": "Birth of Fang Rufu",
+    "startYear": 756,
+    "importance": 2,
+    "summary": "房孺復于756年出生。",
+    "summaryEn": "Fang Rufu was born in 756.",
+    "description": "房孺復于756年出生。",
+    "descriptionEn": "Fang Rufu was born in 756.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "fang-ru-fu-756"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-fang-ru-fu-756-death",
+    "title": "房孺復去世",
+    "titleEn": "Death of Fang Rufu",
+    "startYear": 797,
+    "importance": 3,
+    "summary": "房孺復于797年去世。",
+    "summaryEn": "Fang Rufu died in 797.",
+    "description": "房孺復于797年去世。",
+    "descriptionEn": "Fang Rufu died in 797.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "fang-ru-fu-756"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-ren-yi-621-birth",
+    "title": "張仁禕出生",
+    "titleEn": "Birth of Zhang Renyi",
+    "startYear": 621,
+    "importance": 2,
+    "summary": "張仁禕于621年出生。",
+    "summaryEn": "Zhang Renyi was born in 621.",
+    "description": "張仁禕于621年出生。",
+    "descriptionEn": "Zhang Renyi was born in 621.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-ren-yi-621"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-ren-yi-621-death",
+    "title": "張仁禕去世",
+    "titleEn": "Death of Zhang Renyi",
+    "startYear": 678,
+    "importance": 3,
+    "summary": "張仁禕于678年去世。",
+    "summaryEn": "Zhang Renyi died in 678.",
+    "description": "張仁禕于678年去世。",
+    "descriptionEn": "Zhang Renyi died in 678.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "zhang-ren-yi-621"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yu-733-birth",
+    "title": "陸羽出生",
+    "titleEn": "Birth of Lu Yu",
+    "startYear": 733,
+    "importance": 2,
+    "summary": "陸羽于733年出生。",
+    "summaryEn": "Lu Yu was born in 733.",
+    "description": "陸羽于733年出生。",
+    "descriptionEn": "Lu Yu was born in 733.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "lu-yu-733"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-yu-733-death",
+    "title": "陸羽去世",
+    "titleEn": "Death of Lu Yu",
+    "startYear": 805,
+    "importance": 3,
+    "summary": "陸羽于805年去世。",
+    "summaryEn": "Lu Yu died in 805.",
+    "description": "陸羽于805年去世。",
+    "descriptionEn": "Lu Yu died in 805.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "lu-yu-733"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-shang-guan-yi-607-birth",
+    "title": "上官儀出生",
+    "titleEn": "Birth of Shangguan Yi",
+    "startYear": 607,
+    "importance": 2,
+    "summary": "上官儀于607年出生。",
+    "summaryEn": "Shangguan Yi was born in 607.",
+    "description": "上官儀于607年出生。",
+    "descriptionEn": "Shangguan Yi was born in 607.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "shang-guan-yi-607"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-shang-guan-yi-607-death",
+    "title": "上官儀去世",
+    "titleEn": "Death of Shangguan Yi",
+    "startYear": 664,
+    "importance": 3,
+    "summary": "上官儀于664年去世。",
+    "summaryEn": "Shangguan Yi died in 664.",
+    "description": "上官儀于664年去世。",
+    "descriptionEn": "Shangguan Yi died in 664.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "shang-guan-yi-607"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kong-ying-da-574-birth",
+    "title": "孔穎達出生",
+    "titleEn": "Birth of Kong Yingda",
+    "startYear": 574,
+    "importance": 2,
+    "summary": "孔穎達于574年出生。",
+    "summaryEn": "Kong Yingda was born in 574.",
+    "description": "孔穎達于574年出生。",
+    "descriptionEn": "Kong Yingda was born in 574.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kong-ying-da-574"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-kong-ying-da-574-death",
+    "title": "孔穎達去世",
+    "titleEn": "Death of Kong Yingda",
+    "startYear": 648,
+    "importance": 3,
+    "summary": "孔穎達于648年去世。",
+    "summaryEn": "Kong Yingda died in 648.",
+    "description": "孔穎達于648年去世。",
+    "descriptionEn": "Kong Yingda died in 648.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "kong-ying-da-574"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-jian-qiu-788-birth",
+    "title": "盧簡求出生",
+    "titleEn": "Birth of Lu Jianqiu",
+    "startYear": 788,
+    "importance": 2,
+    "summary": "盧簡求于788年出生。",
+    "summaryEn": "Lu Jianqiu was born in 788.",
+    "description": "盧簡求于788年出生。",
+    "descriptionEn": "Lu Jianqiu was born in 788.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-jian-qiu-788"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-jian-qiu-788-death",
+    "title": "盧簡求去世",
+    "titleEn": "Death of Lu Jianqiu",
+    "startYear": 864,
+    "importance": 3,
+    "summary": "盧簡求于864年去世。",
+    "summaryEn": "Lu Jianqiu died in 864.",
+    "description": "盧簡求于864年去世。",
+    "descriptionEn": "Lu Jianqiu died in 864.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-jian-qiu-788"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-zhi-697-birth",
+    "title": "韋陟出生",
+    "titleEn": "Birth of Wei Zhi (2)",
+    "startYear": 697,
+    "importance": 2,
+    "summary": "韋陟于697年出生。",
+    "summaryEn": "Wei Zhi (2) was born in 697.",
+    "description": "韋陟于697年出生。",
+    "descriptionEn": "Wei Zhi (2) was born in 697.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-zhi-697"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-wei-zhi-697-death",
+    "title": "韋陟去世",
+    "titleEn": "Death of Wei Zhi (2)",
+    "startYear": 761,
+    "importance": 3,
+    "summary": "韋陟于761年去世。",
+    "summaryEn": "Wei Zhi (2) died in 761.",
+    "description": "韋陟于761年去世。",
+    "descriptionEn": "Wei Zhi (2) died in 761.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "wei-zhi-697"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tang-xiu-jing-627-birth",
+    "title": "唐休璟出生",
+    "titleEn": "Birth of Tang Xiujing",
+    "startYear": 627,
+    "importance": 2,
+    "summary": "唐休璟于627年出生。",
+    "summaryEn": "Tang Xiujing was born in 627.",
+    "description": "唐休璟于627年出生。",
+    "descriptionEn": "Tang Xiujing was born in 627.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tang-xiu-jing-627"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tang-xiu-jing-627-death",
+    "title": "唐休璟去世",
+    "titleEn": "Death of Tang Xiujing",
+    "startYear": 712,
+    "importance": 3,
+    "summary": "唐休璟于712年去世。",
+    "summaryEn": "Tang Xiujing died in 712.",
+    "description": "唐休璟于712年去世。",
+    "descriptionEn": "Tang Xiujing died in 712.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tang-xiu-jing-627"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-yuan-yan-640-birth",
+    "title": "楊元琰出生",
+    "titleEn": "Birth of Yang Yuanyan",
+    "startYear": 640,
+    "importance": 2,
+    "summary": "楊元琰于640年出生。",
+    "summaryEn": "Yang Yuanyan was born in 640.",
+    "description": "楊元琰于640年出生。",
+    "descriptionEn": "Yang Yuanyan was born in 640.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-yuan-yan-640"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-yang-yuan-yan-640-death",
+    "title": "楊元琰去世",
+    "titleEn": "Death of Yang Yuanyan",
+    "startYear": 718,
+    "importance": 3,
+    "summary": "楊元琰于718年去世。",
+    "summaryEn": "Yang Yuanyan died in 718.",
+    "description": "楊元琰于718年去世。",
+    "descriptionEn": "Yang Yuanyan died in 718.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "yang-yuan-yan-640"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bai-huang-706-birth",
+    "title": "白鍠出生",
+    "titleEn": "Birth of Bai Huang",
+    "startYear": 706,
+    "importance": 2,
+    "summary": "白鍠于706年出生。",
+    "summaryEn": "Bai Huang was born in 706.",
+    "description": "白鍠于706年出生。",
+    "descriptionEn": "Bai Huang was born in 706.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bai-huang-706"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bai-huang-706-death",
+    "title": "白鍠去世",
+    "titleEn": "Death of Bai Huang",
+    "startYear": 773,
+    "importance": 3,
+    "summary": "白鍠于773年去世。",
+    "summaryEn": "Bai Huang died in 773.",
+    "description": "白鍠于773年去世。",
+    "descriptionEn": "Bai Huang died in 773.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bai-huang-706"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tian-hong-zheng-764-birth",
+    "title": "田弘正出生",
+    "titleEn": "Birth of Tian Hongzheng",
+    "startYear": 764,
+    "importance": 2,
+    "summary": "田弘正于764年出生。",
+    "summaryEn": "Tian Hongzheng was born in 764.",
+    "description": "田弘正于764年出生。",
+    "descriptionEn": "Tian Hongzheng was born in 764.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tian-hong-zheng-764"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-tian-hong-zheng-764-death",
+    "title": "田弘正去世",
+    "titleEn": "Death of Tian Hongzheng",
+    "startYear": 821,
+    "importance": 3,
+    "summary": "田弘正于821年去世。",
+    "summaryEn": "Tian Hongzheng died in 821.",
+    "description": "田弘正于821年去世。",
+    "descriptionEn": "Tian Hongzheng died in 821.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "tian-hong-zheng-764"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-luo-hong-xin-836-birth",
+    "title": "羅弘信出生",
+    "titleEn": "Birth of Luo Hongxin",
+    "startYear": 836,
+    "importance": 2,
+    "summary": "羅弘信于836年出生。",
+    "summaryEn": "Luo Hongxin was born in 836.",
+    "description": "羅弘信于836年出生。",
+    "descriptionEn": "Luo Hongxin was born in 836.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "luo-hong-xin-836"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-luo-hong-xin-836-office2",
+    "title": "羅弘信任官",
+    "titleEn": "Luo Hongxin Appointed",
+    "startYear": 888,
+    "importance": 3,
+    "summary": "888年）利用士兵对前任魏博节度使乐彦祯及其子乐从训的不满以节度使",
+    "summaryEn": "Luo Hongxin received an official appointment in 888.",
+    "description": "888年）利用士兵对前任魏博节度使乐彦祯及其子乐从训的不满以节度使",
+    "descriptionEn": "Luo Hongxin received an official appointment in 888.",
+    "tags": [
+      "仕途",
+      "唐朝",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Career",
+      "Tang Dynasty",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "luo-hong-xin-836"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-luo-hong-xin-836-death",
+    "title": "羅弘信去世",
+    "titleEn": "Death of Luo Hongxin",
+    "startYear": 898,
+    "importance": 3,
+    "summary": "羅弘信于898年去世。",
+    "summaryEn": "Luo Hongxin died in 898.",
+    "description": "羅弘信于898年去世。",
+    "descriptionEn": "Luo Hongxin died in 898.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "luo-hong-xin-836"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-zhi-yuan-857-birth",
+    "title": "崔致遠出生",
+    "titleEn": "Birth of Cui Zhiyuan",
+    "startYear": 857,
+    "importance": 2,
+    "summary": "崔致遠于857年出生。",
+    "summaryEn": "Cui Zhiyuan was born in 857.",
+    "description": "崔致遠于857年出生。",
+    "descriptionEn": "Cui Zhiyuan was born in 857.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-zhi-yuan-857"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-zhi-yuan-857-death",
+    "title": "崔致遠去世",
+    "titleEn": "Death of Cui Zhiyuan",
+    "startYear": 928,
+    "importance": 3,
+    "summary": "崔致遠于928年去世。",
+    "summaryEn": "Cui Zhiyuan died in 928.",
+    "description": "崔致遠于928年去世。",
+    "descriptionEn": "Cui Zhiyuan died in 928.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-zhi-yuan-857"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-qun-742-birth",
+    "title": "盧羣出生",
+    "titleEn": "Birth of Lu Qun",
+    "startYear": 742,
+    "importance": 2,
+    "summary": "盧羣于742年出生。",
+    "summaryEn": "Lu Qun was born in 742.",
+    "description": "盧羣于742年出生。",
+    "descriptionEn": "Lu Qun was born in 742.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-qun-742"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-lu-qun-742-death",
+    "title": "盧羣去世",
+    "titleEn": "Death of Lu Qun",
+    "startYear": 800,
+    "importance": 3,
+    "summary": "盧羣于800年去世。",
+    "summaryEn": "Lu Qun died in 800.",
+    "description": "盧羣于800年去世。",
+    "descriptionEn": "Lu Qun died in 800.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "lu-qun-742"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-miao-fan-766-birth",
+    "title": "苗蕃出生",
+    "titleEn": "Birth of Miao Fan",
+    "startYear": 766,
+    "importance": 2,
+    "summary": "苗蕃于766年出生。",
+    "summaryEn": "Miao Fan was born in 766.",
+    "description": "苗蕃于766年出生。",
+    "descriptionEn": "Miao Fan was born in 766.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "miao-fan-766"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-miao-fan-766-death",
+    "title": "苗蕃去世",
+    "titleEn": "Death of Miao Fan",
+    "startYear": 807,
+    "importance": 3,
+    "summary": "苗蕃于807年去世。",
+    "summaryEn": "Miao Fan died in 807.",
+    "description": "苗蕃于807年去世。",
+    "descriptionEn": "Miao Fan died in 807.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "miao-fan-766"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-qu-she-688-birth",
+    "title": "張去奢出生",
+    "titleEn": "Birth of Zhang Qushe",
+    "startYear": 688,
+    "importance": 2,
+    "summary": "張去奢于688年出生。",
+    "summaryEn": "Zhang Qushe was born in 688.",
+    "description": "張去奢于688年出生。",
+    "descriptionEn": "Zhang Qushe was born in 688.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "zhang-qu-she-688"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-zhang-qu-she-688-death",
+    "title": "張去奢去世",
+    "titleEn": "Death of Zhang Qushe",
+    "startYear": 747,
+    "importance": 3,
+    "summary": "張去奢于747年去世。",
+    "summaryEn": "Zhang Qushe died in 747.",
+    "description": "張去奢于747年去世。",
+    "descriptionEn": "Zhang Qushe died in 747.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "zhang-qu-she-688"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-gan-716-birth",
+    "title": "黎幹出生",
+    "titleEn": "Birth of Li Gan",
+    "startYear": 716,
+    "importance": 2,
+    "summary": "黎幹于716年出生。",
+    "summaryEn": "Li Gan was born in 716.",
+    "description": "黎幹于716年出生。",
+    "descriptionEn": "Li Gan was born in 716.",
+    "tags": [
+      "出生",
+      "唐"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐"
+    ],
+    "personIds": [
+      "li-gan-716"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-li-gan-716-death",
+    "title": "黎幹去世",
+    "titleEn": "Death of Li Gan",
+    "startYear": 779,
+    "importance": 3,
+    "summary": "黎幹于779年去世。",
+    "summaryEn": "Li Gan died in 779.",
+    "description": "黎幹于779年去世。",
+    "descriptionEn": "Li Gan died in 779.",
+    "tags": [
+      "逝世",
+      "唐"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐"
+    ],
+    "personIds": [
+      "li-gan-716"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-huan-707-birth",
+    "title": "崔渙出生",
+    "titleEn": "Birth of Cui Huan",
+    "startYear": 707,
+    "importance": 2,
+    "summary": "崔渙于707年出生。",
+    "summaryEn": "Cui Huan was born in 707.",
+    "description": "崔渙于707年出生。",
+    "descriptionEn": "Cui Huan was born in 707.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-huan-707"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-cui-huan-707-death",
+    "title": "崔渙去世",
+    "titleEn": "Death of Cui Huan",
+    "startYear": 768,
+    "importance": 3,
+    "summary": "崔渙于768年去世。",
+    "summaryEn": "Cui Huan died in 768.",
+    "description": "崔渙于768年去世。",
+    "descriptionEn": "Cui Huan died in 768.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "cui-huan-707"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bai-xing-jian-776-birth",
+    "title": "白行簡出生",
+    "titleEn": "Birth of Bai Xingjian",
+    "startYear": 776,
+    "importance": 2,
+    "summary": "白行簡于776年出生。",
+    "summaryEn": "Bai Xingjian was born in 776.",
+    "description": "白行簡于776年出生。",
+    "descriptionEn": "Bai Xingjian was born in 776.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bai-xing-jian-776"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-bai-xing-jian-776-death",
+    "title": "白行簡去世",
+    "titleEn": "Death of Bai Xingjian",
+    "startYear": 826,
+    "importance": 3,
+    "summary": "白行簡于826年去世。",
+    "summaryEn": "Bai Xingjian died in 826.",
+    "description": "白行簡于826年去世。",
+    "descriptionEn": "Bai Xingjian died in 826.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "bai-xing-jian-776"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-du-xian-681-birth",
+    "title": "杜暹出生",
+    "titleEn": "Birth of Du Xian (2)",
+    "startYear": 681,
+    "importance": 2,
+    "summary": "杜暹于681年出生。",
+    "summaryEn": "Du Xian (2) was born in 681.",
+    "description": "杜暹于681年出生。",
+    "descriptionEn": "Du Xian (2) was born in 681.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "du-xian-681"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-du-xian-681-death",
+    "title": "杜暹去世",
+    "titleEn": "Death of Du Xian (2)",
+    "startYear": 740,
+    "importance": 3,
+    "summary": "杜暹于740年去世。",
+    "summaryEn": "Du Xian (2) died in 740.",
+    "description": "杜暹于740年去世。",
+    "descriptionEn": "Du Xian (2) died in 740.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "du-xian-681"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xue-shu-708-birth",
+    "title": "薛舒出生",
+    "titleEn": "Birth of Xue Shu (2)",
+    "startYear": 708,
+    "importance": 2,
+    "summary": "薛舒于708年出生。",
+    "summaryEn": "Xue Shu (2) was born in 708.",
+    "description": "薛舒于708年出生。",
+    "descriptionEn": "Xue Shu (2) was born in 708.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xue-shu-708"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-xue-shu-708-death",
+    "title": "薛舒去世",
+    "titleEn": "Death of Xue Shu (2)",
+    "startYear": 775,
+    "importance": 3,
+    "summary": "薛舒于775年去世。",
+    "summaryEn": "Xue Shu (2) died in 775.",
+    "description": "薛舒于775年去世。",
+    "descriptionEn": "Xue Shu (2) died in 775.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "xue-shu-708"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-si-ma-shi-611-birth",
+    "title": "司馬寔出生",
+    "titleEn": "Birth of Sima Shi",
+    "startYear": 611,
+    "importance": 2,
+    "summary": "司馬寔于611年出生。",
+    "summaryEn": "Sima Shi was born in 611.",
+    "description": "司馬寔于611年出生。",
+    "descriptionEn": "Sima Shi was born in 611.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "si-ma-shi-611"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-si-ma-shi-611-death",
+    "title": "司馬寔去世",
+    "titleEn": "Death of Sima Shi",
+    "startYear": 686,
+    "importance": 3,
+    "summary": "司馬寔于686年去世。",
+    "summaryEn": "Sima Shi died in 686.",
+    "description": "司馬寔于686年去世。",
+    "descriptionEn": "Sima Shi died in 686.",
+    "tags": [
+      "逝世",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Death",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "si-ma-shi-611"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb",
+      "src-grand-timeline"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-deep5a-gao-long-ji-633-birth",
+    "title": "高隆基出生",
+    "titleEn": "Birth of Gao Longji",
+    "startYear": 633,
+    "importance": 2,
+    "summary": "高隆基于633年出生。",
+    "summaryEn": "Gao Longji was born in 633.",
+    "description": "高隆基于633年出生。",
+    "descriptionEn": "Gao Longji was born in 633.",
+    "tags": [
+      "出生",
+      "唐",
+      "政治家"
+    ],
+    "tagsEn": [
+      "Birth",
+      "唐",
+      "Statesman"
+    ],
+    "personIds": [
+      "gao-long-ji-633"
+    ],
+    "regionId": "tang-dynasty",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.8,
+    "externalReferences": []
+  }
+]

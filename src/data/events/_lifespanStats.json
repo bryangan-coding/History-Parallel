@@ -1,0 +1,42 @@
+{
+  "tang-dynasty": {
+    "total": 11645,
+    "rich": 22,
+    "basic": 11614,
+    "skipped_has_event": 9,
+    "skipped_no_years": 0,
+    "events_generated": 11636
+  },
+  "song-dynasty": {
+    "total": 10593,
+    "rich": 12,
+    "basic": 10570,
+    "skipped_has_event": 11,
+    "skipped_no_years": 0,
+    "events_generated": 10582
+  },
+  "yuan-dynasty": {
+    "total": 12796,
+    "rich": 3,
+    "basic": 6152,
+    "skipped_has_event": 0,
+    "skipped_no_years": 6641,
+    "events_generated": 6155
+  },
+  "ming-dynasty": {
+    "total": 14668,
+    "rich": 13,
+    "basic": 14649,
+    "skipped_has_event": 6,
+    "skipped_no_years": 0,
+    "events_generated": 14662
+  },
+  "qing-dynasty": {
+    "total": 14566,
+    "rich": 11,
+    "basic": 14553,
+    "skipped_has_event": 2,
+    "skipped_no_years": 0,
+    "events_generated": 14564
+  }
+}

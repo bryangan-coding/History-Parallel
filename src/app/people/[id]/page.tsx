@@ -1,6 +1,10 @@
 import { PersonPageClient } from './PersonPageClient';
-import { people, events, regions, personMap, regionMap, getEventsForPerson } from '@/data/mockData';
 import type { Region } from '@/lib/types';
+import {
+  findPersonById,
+  findRegionById,
+  findEventsForPerson,
+} from '@/server/db/queries';
 
 interface Props {
   params: Promise<{ id: string }>;
@@ -8,20 +12,25 @@ interface Props {
 
 export default async function PersonPage({ params }: Props) {
   const { id } = await params;
-  const person = personMap.get(id);
+  const person = await findPersonById(id);
 
   if (!person) {
     return <PersonPageClient id={id} person={undefined} region={undefined} personEvents={[]} eventRegions={new Map()} />;
   }
 
-  // Pre-resolve all data on the server
-  const region = person.regionId ? regionMap.get(person.regionId) : undefined;
-  const personEvents = getEventsForPerson(person.id);
+  const region = person.regionId ? await findRegionById(person.regionId) : undefined;
+  const personEvents = await findEventsForPerson(person.id);
 
-  // Pre-resolve regions for each event (for the Timeline component)
+  // Batch fetch all event regions (no N+1)
+  const regionIds = [...new Set(personEvents.map(e => e.regionId).filter(Boolean) as string[])];
+  const regions = regionIds.length > 0
+    ? await Promise.all(regionIds.map(id => findRegionById(id)))
+    : [];
+  const regionLookup = new Map(regions.filter(Boolean).map(r => [r!.id, r]));
+
   const eventRegions = new Map<string, Region | undefined>();
   for (const e of personEvents) {
-    eventRegions.set(e.id, e.regionId ? regionMap.get(e.regionId) : undefined);
+    eventRegions.set(e.id, e.regionId ? regionLookup.get(e.regionId) : undefined);
   }
 
   return (

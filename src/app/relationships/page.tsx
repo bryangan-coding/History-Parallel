@@ -1,16 +1,21 @@
 import RelationshipsPageClient from './RelationshipsPageClient';
-import { people, regions, personMap, regionMap } from '@/data/mockData';
+import type { Region } from '@/lib/types';
 import { relationships, getAllRelatedPersonIds } from '@/data/relationships';
+import { findPeopleByIds, listRegions } from '@/server/db/queries';
 
-// Pre-compute related person data on the server
-const relatedIds = getAllRelatedPersonIds();
-const relatedPeople = new Map<string, typeof people[0]>();
-for (const id of relatedIds) {
-  const person = personMap.get(id);
-  if (person) relatedPeople.set(id, person);
-}
+export default async function RelationshipsPage() {
+  const relatedIds = getAllRelatedPersonIds();
+  const [regions, people] = await Promise.all([
+    listRegions(),
+    findPeopleByIds(relatedIds),
+  ]);
+  const regionMap = new Map<string, Region>(regions.map((r) => [r.id, r]));
 
-export default function RelationshipsPage() {
+  const relatedPeople = new Map<string, NonNullable<(typeof people)[number]>>();
+  for (const p of people) {
+    relatedPeople.set(p.id, p);
+  }
+
   return (
     <RelationshipsPageClient
       personMap={relatedPeople}

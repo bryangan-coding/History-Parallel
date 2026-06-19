@@ -1,0 +1,3376 @@
+[
+  {
+    "id": "evt-lifespan-peng-bing",
+    "title": "彭炳生平",
+    "titleEn": "Life of Peng Bing",
+    "startYear": 1321,
+    "endYear": 1381,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "peng-bing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1351年）。曾任端本堂說書等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1351年）。曾任端本堂說書等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-peng-ling",
+    "title": "彭齡生平",
+    "titleEn": "Life of Peng Ling",
+    "startYear": 1789,
+    "endYear": 1849,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "peng-ling"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。江西·新城。人。约生于1789年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。江西·新城。人。约生于1789年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-jing-hou",
+    "title": "景厚生平",
+    "titleEn": "Life of Jing Hou",
+    "startYear": 1856,
+    "endYear": 1916,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jing-hou"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1886年）。曾任同考官、庶子等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1886年）。曾任同考官、庶子等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-jing-xing",
+    "title": "景星生平",
+    "titleEn": "Life of Jing Xing",
+    "startYear": 1794,
+    "endYear": 1854,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jing-xing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人物。漢軍·正黃旗。人。卒于1854年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人物。漢軍·正黃旗。人。卒于1854年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-ceng-hua",
+    "title": "曾華生平",
+    "titleEn": "Life of Zeng Hua",
+    "startYear": 1184,
+    "endYear": 1244,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ceng-hua"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1214年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1214年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ceng-rui",
+    "title": "曾瑞生平",
+    "titleEn": "Life of Zeng Rui",
+    "startYear": 1175,
+    "endYear": 1235,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ceng-rui"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1205年）。大興人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1205年）。大興人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-you-tang-wu",
+    "title": "游唐兀生平",
+    "titleEn": "Life of You Tangwu",
+    "startYear": 1286,
+    "endYear": 1346,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "you-tang-wu"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代rank or office by inheritance（1316年）。曾任翼副千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代rank or office by inheritance（1316年）。曾任翼副千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-tang-lin-2",
+    "title": "湯霖生平",
+    "titleEn": "Life of Tang Lin",
+    "startYear": 1860,
+    "endYear": 1920,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "tang-lin-2"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1890年）。新建人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1890年）。新建人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-jiao-wei",
+    "title": "焦位生平",
+    "titleEn": "Life of Jiao Wei",
+    "startYear": 1340,
+    "endYear": 1400,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jiao-wei"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1370年）。曾任教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1370年）。曾任教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-sheng-biao",
+    "title": "盛彪生平",
+    "titleEn": "Life of Sheng Biao",
+    "startYear": 1270,
+    "endYear": 1330,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "sheng-biao"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1300年）。曾任州儒學教授、路學正等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1300年）。曾任州儒學教授、路學正等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cheng-yan",
+    "title": "程琰生平",
+    "titleEn": "Life of Cheng Yan",
+    "startYear": 1750,
+    "endYear": 1810,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cheng-yan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1780年）。曾任同考官、內閣侍讀等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1780年）。曾任同考官、內閣侍讀等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cheng-long",
+    "title": "程隆生平",
+    "titleEn": "Life of Cheng Long",
+    "startYear": 1250,
+    "endYear": 1310,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cheng-long"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1280年）。曾任縣尉等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1280年）。曾任縣尉等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cheng-shu-4",
+    "title": "程澍生平",
+    "titleEn": "Life of Cheng Shu",
+    "startYear": 1799,
+    "endYear": 1859,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cheng-shu-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人物。安徽·廬江。人。卒于1859年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人物。安徽·廬江。人。卒于1859年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-cheng-yi-fei",
+    "title": "程一飛生平",
+    "titleEn": "Life of Cheng Yifei",
+    "startYear": 1241,
+    "endYear": 1301,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cheng-yi-fei"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1271年）。歙縣人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1271年）。歙縣人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cheng-ke-shao",
+    "title": "程克紹生平",
+    "titleEn": "Life of Cheng Keshao",
+    "startYear": 1249,
+    "endYear": 1309,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cheng-ke-shao"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1279年）。曾任縣主簿、主簿等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1279年）。曾任縣主簿、主簿等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-shu-zhuang",
+    "title": "舒莊生平",
+    "titleEn": "Life of Shu Zhuang",
+    "startYear": 1325,
+    "endYear": 1385,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "shu-zhuang"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1355年）。曾任宣慰司都元帥府經歷、知州等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1355年）。曾任宣慰司都元帥府經歷、知州等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-fei-shou-lu",
+    "title": "費守祿生平",
+    "titleEn": "Life of Fei Shoulu",
+    "startYear": 1288,
+    "endYear": 1348,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "fei-shou-lu"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代rank or office by inheritance（1318年）。曾任翼千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代rank or office by inheritance（1318年）。曾任翼千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-he-zhi-2",
+    "title": "賀祉生平",
+    "titleEn": "Life of He Zhi",
+    "startYear": 1239,
+    "endYear": 1299,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "he-zhi-2"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代rank or office by inheritance（1269年）。曾任千戶、諸路總管府總管等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代rank or office by inheritance（1269年）。曾任千戶、諸路總管府總管等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-feng-shi",
+    "title": "馮氏生平",
+    "titleEn": "Life of Feng Shi",
+    "startYear": 996,
+    "endYear": 1056,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "feng-shi"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代人物。卒于1056年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period (female). Documented in historical sources.",
+    "description": "元代人物。卒于1056年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period (female). Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-feng-xiang",
+    "title": "馮相生平",
+    "titleEn": "Life of Feng Xiang",
+    "startYear": 1469,
+    "endYear": 1529,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "feng-xiang"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1499年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1499年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-feng-yong",
+    "title": "馮詠生平",
+    "titleEn": "Life of Feng Yong",
+    "startYear": 1672,
+    "endYear": 1732,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "feng-yong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。江西·金溪。人。约生于1672年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。江西·金溪。人。约生于1672年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-feng-zhong-de",
+    "title": "馮仲德生平",
+    "titleEn": "Life of Feng Zhongde",
+    "startYear": 1233,
+    "endYear": 1293,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "feng-zhong-de"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代rank or office by inheritance（1263年）。曾任縣尹、縣尹等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "description": "元代rank or office by inheritance（1263年）。曾任縣尹、縣尹等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-feng-xin-ke",
+    "title": "馮信可生平",
+    "titleEn": "Life of Feng Xinke",
+    "startYear": 985,
+    "endYear": 1075,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "feng-xin-ke"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代人物。長樂人。卒于1075年。",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代人物。長樂人。卒于1075年。",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lifespan-huang-ding",
+    "title": "黃定生平",
+    "titleEn": "Life of Huang Ding",
+    "startYear": 1142,
+    "endYear": 1202,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-ding"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1172年）。曾任知某州軍州事、提舉常平茶鹽公事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1172年）。曾任知某州軍州事、提舉常平茶鹽公事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-zhen",
+    "title": "黃珍生平",
+    "titleEn": "Life of Huang Zhen",
+    "startYear": 1133,
+    "endYear": 1193,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-zhen"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1163年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1163年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-yu",
+    "title": "黃彧生平",
+    "titleEn": "Life of Huang Yu",
+    "startYear": 1088,
+    "endYear": 1148,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-yu"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1118年）。曾任縣丞、觀察推官等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1118年）。曾任縣丞、觀察推官等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-lian",
+    "title": "黃廉生平",
+    "titleEn": "Life of Huang Lian",
+    "startYear": 1031,
+    "endYear": 1091,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-lian"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1061年）。曾任轉運使、提舉茶場買馬等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1061年）。曾任轉運使、提舉茶場買馬等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-yi-2",
+    "title": "黃鎰生平",
+    "titleEn": "Life of Huang Yi",
+    "startYear": 1018,
+    "endYear": 1096,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-yi-2"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人物。徙家會稽)。人。卒于1096年。",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人物。徙家會稽)。人。卒于1096年。",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lifespan-huang-yuan-yuan",
+    "title": "黃元淵生平",
+    "titleEn": "Life of Huang Yuanyuan",
+    "startYear": 1325,
+    "endYear": 1385,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-yuan-yuan"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1355年）。曾任諸路總管府學錄、路學正等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1355年）。曾任諸路總管府學錄、路學正等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-ru-zheng",
+    "title": "黃如徵生平",
+    "titleEn": "Life of Huang Ruzheng",
+    "startYear": 1316,
+    "endYear": 1376,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-ru-zheng"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代office (not degree) granted by special grace（1346年）。曾任儒學提舉司提舉等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代office (not degree) granted by special grace（1346年）。曾任儒學提舉司提舉等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-huang-he-qing",
+    "title": "黃河清生平",
+    "titleEn": "Life of Huang Heqing",
+    "startYear": 1746,
+    "endYear": 1806,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-he-qing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。浙江·臨海。人。约生于1746年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。浙江·臨海。人。约生于1746年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-huang-yi-zhen",
+    "title": "黃義貞生平",
+    "titleEn": "Life of Huang Yizhen",
+    "startYear": 1272,
+    "endYear": 1332,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "huang-yi-zhen"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1302年）。曾任太學博士等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1302年）。曾任太學博士等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-ming",
+    "title": "楊明生平",
+    "titleEn": "Life of Yang Ming",
+    "startYear": 1091,
+    "endYear": 1151,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-ming"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1121年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1121年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-zhen-3",
+    "title": "楊珍生平",
+    "titleEn": "Life of Yang Zhen",
+    "startYear": 376,
+    "endYear": 436,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-zhen-3"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代官吏。曾任太守等职。卒于436年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代官吏。曾任太守等职。卒于436年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-lie",
+    "title": "楊烈生平",
+    "titleEn": "Life of Yang Lie",
+    "startYear": 391,
+    "endYear": 451,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-lie"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代官吏。曾任太守等职。卒于451年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代官吏。曾任太守等职。卒于451年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-yong-2",
+    "title": "楊庸生平",
+    "titleEn": "Life of Yang Yong",
+    "startYear": 1231,
+    "endYear": 1291,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-yong-2"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代office (not degree) granted by special grace（1261年）。曾任孔顏孟三氏學教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代office (not degree) granted by special grace（1261年）。曾任孔顏孟三氏學教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-tong",
+    "title": "楊統生平",
+    "titleEn": "Life of Yang Tong",
+    "startYear": 1741,
+    "endYear": 1801,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-tong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。廣東·順德。人。约生于1741年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。廣東·順德。人。约生于1741年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-jun-4",
+    "title": "楊鈞生平",
+    "titleEn": "Life of Yang Jun",
+    "startYear": 1700,
+    "endYear": 1760,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-jun-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。陝西·蒲城。人。约生于1700年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。陝西·蒲城。人。约生于1700年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-ji-6",
+    "title": "楊稷生平",
+    "titleEn": "Life of Yang Ji",
+    "startYear": 1672,
+    "endYear": 1732,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-ji-6"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代科舉制舉: 賢良方正科（1729年）。江蘇·武進。人。曾任知縣等职。卒于1732年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代科舉制舉: 賢良方正科（1729年）。江蘇·武進。人。曾任知縣等职。卒于1732年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-jing-4",
+    "title": "楊靜生平",
+    "titleEn": "Life of Yang Jing",
+    "startYear": 1282,
+    "endYear": 1342,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-jing-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1312年）。曾任肅政廉訪司廉訪使等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1312年）。曾任肅政廉訪司廉訪使等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-da-zhong",
+    "title": "楊大中生平",
+    "titleEn": "Life of Yang Dazhong",
+    "startYear": 1352,
+    "endYear": 1412,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-da-zhong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1382年）。曾任祕書監著作郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1382年）。曾任祕書監著作郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-da-heng",
+    "title": "楊大亨生平",
+    "titleEn": "Life of Yang Daheng",
+    "startYear": 1012,
+    "endYear": 1072,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-da-heng"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1042年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1042年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-shao-yu",
+    "title": "楊少愚生平",
+    "titleEn": "Life of Yang Shaoyu",
+    "startYear": 1220,
+    "endYear": 1280,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-shao-yu"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1250年）。青陽人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1250年）。青陽人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-shun-qing",
+    "title": "楊順卿生平",
+    "titleEn": "Life of Yang Shunqing",
+    "startYear": 1325,
+    "endYear": 1385,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-shun-qing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1355年）。曾任州同知等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1355年）。曾任州同知等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-chun-nian",
+    "title": "楊椿年生平",
+    "titleEn": "Life of Yang Chunnian",
+    "startYear": 1091,
+    "endYear": 1151,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-chun-nian"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1121年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1121年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-yang-de-rong",
+    "title": "楊德榮生平",
+    "titleEn": "Life of Yang Derong",
+    "startYear": 1801,
+    "endYear": 1861,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-de-rong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人物。浙江·會稽。人。卒于1861年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人物。浙江·會稽。人。卒于1861年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-yang-peng-yi",
+    "title": "楊鵬翼生平",
+    "titleEn": "Life of Yang Pengyi",
+    "startYear": 1610,
+    "endYear": 1670,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "yang-peng-yi"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1640年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1640年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-chu-ding",
+    "title": "楚鼎生平",
+    "titleEn": "Life of Chu Ding",
+    "startYear": 985,
+    "endYear": 1045,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "chu-ding"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代yin privilege: general（1015年）。曾任右班殿直等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代yin privilege: general（1015年）。曾任右班殿直等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-wan-yi-e",
+    "title": "萬一鶚生平",
+    "titleEn": "Life of Wan Yie",
+    "startYear": 1235,
+    "endYear": 1295,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "wan-yi-e"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1265年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1265年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ye-yi",
+    "title": "葉益生平",
+    "titleEn": "Life of Ye Yi",
+    "startYear": 1325,
+    "endYear": 1385,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ye-yi"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代office granted for literary or artistic skill（1355年）。曾任錄判等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代office granted for literary or artistic skill（1355年）。曾任錄判等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ye-qi-2",
+    "title": "葉起生平",
+    "titleEn": "Life of Ye Qi",
+    "startYear": 1157,
+    "endYear": 1217,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ye-qi-2"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1187年）。永嘉人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1187年）。永嘉人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ye-lan",
+    "title": "葉蘭生平",
+    "titleEn": "Life of Ye Lan",
+    "startYear": 1352,
+    "endYear": 1412,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ye-lan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1382年）。曾任太常奉禮等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1382年）。曾任太常奉禮等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ye-da-you",
+    "title": "葉大有生平",
+    "titleEn": "Life of Ye Dayou",
+    "startYear": 1202,
+    "endYear": 1262,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ye-da-you"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1232年）。曾任知某州軍州事、侍御史等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1232年）。曾任知某州軍州事、侍御史等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ge-ang",
+    "title": "葛昂生平",
+    "titleEn": "Life of Ge Ang",
+    "startYear": 975,
+    "endYear": 1035,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ge-ang"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1005年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1005年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ge",
+    "title": "葛?生平",
+    "titleEn": "Life of Ge??",
+    "startYear": 1325,
+    "endYear": 1385,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ge"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1355年）。曾任縣學訓導等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1355年）。曾任縣學訓導等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-ge-yuan-ling",
+    "title": "葛元齡生平",
+    "titleEn": "Life of Ge Yuanling",
+    "startYear": 1303,
+    "endYear": 1363,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "ge-yuan-ling"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1333年）。曾任縣主簿等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1333年）。曾任縣主簿等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-dong-li-2",
+    "title": "董立生平",
+    "titleEn": "Life of Dong Li",
+    "startYear": 1317,
+    "endYear": 1377,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "dong-li-2"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1347年）。曾任翰林國史院修撰、國子監國子司業二員等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "description": "元代recommendation（1347年）。曾任翰林國史院修撰、國子監國子司業二員等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-dong-jing",
+    "title": "董荊生平",
+    "titleEn": "Life of Dong Jing",
+    "startYear": 1354,
+    "endYear": 1414,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "dong-jing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代Decree examination: Erudite and Literary（1384年）。曾任縣丞等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代Decree examination: Erudite and Literary（1384年）。曾任縣丞等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-dong-fan",
+    "title": "董蕃生平",
+    "titleEn": "Life of Dong Fan",
+    "startYear": 1250,
+    "endYear": 1310,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "dong-fan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1280年）。曾任書院山長等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1280年）。曾任書院山長等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-jie-yan",
+    "title": "解晏生平",
+    "titleEn": "Life of Jie Yan",
+    "startYear": 1250,
+    "endYear": 1310,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jie-yan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1280年）。曾任諸路總管府總管、府從事兼提領匠局等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1280年）。曾任諸路總管府總管、府從事兼提領匠局等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhan-shi-wen",
+    "title": "詹師文生平",
+    "titleEn": "Life of Zhan Shiwen",
+    "startYear": 1166,
+    "endYear": 1226,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhan-shi-wen"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1196年）。曾任儒林郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1196年）。曾任儒林郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-jia-dong",
+    "title": "賈棟生平",
+    "titleEn": "Life of Jia Dong",
+    "startYear": 1752,
+    "endYear": 1812,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jia-dong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。江蘇·高郵。人。约生于1752年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。江蘇·高郵。人。约生于1752年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-jia-huang",
+    "title": "賈璜生平",
+    "titleEn": "Life of Jia Huang",
+    "startYear": 1848,
+    "endYear": 1908,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jia-huang"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。山西·夏縣。人。约生于1848年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。山西·夏縣。人。约生于1848年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-jia-shou-zheng",
+    "title": "賈守正生平",
+    "titleEn": "Life of Jia Shouzheng",
+    "startYear": 982,
+    "endYear": 1042,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jia-shou-zheng"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代examination or school: degree granted by grace（1012年）。曾任尚書省工部虞部司員外郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代examination or school: degree granted by grace（1012年）。曾任尚書省工部虞部司員外郎等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-jia-de-cheng",
+    "title": "賈德成生平",
+    "titleEn": "Life of Jia Decheng",
+    "startYear": 1311,
+    "endYear": 1371,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "jia-de-cheng"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代imperial summons（1341年）。曾任水軍百戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代imperial summons（1341年）。曾任水軍百戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zou-wei",
+    "title": "鄒偉生平",
+    "titleEn": "Life of Zou Wei",
+    "startYear": 1088,
+    "endYear": 1148,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zou-wei"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1118年）。南昌人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1118年）。南昌人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-lei-zhen-2",
+    "title": "雷震生平",
+    "titleEn": "Life of Lei Zhen",
+    "startYear": 1132,
+    "endYear": 1208,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "lei-zhen-2"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代人物。金壇人。卒于1208年。",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代人物。金壇人。卒于1208年。",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lifespan-liao-zheng-hua",
+    "title": "廖正華生平",
+    "titleEn": "Life of Liao Zhenghua",
+    "startYear": 1850,
+    "endYear": 1910,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liao-zheng-hua"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。四川·江安。人。约生于1850年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。四川·江安。人。约生于1850年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-zhao-guo",
+    "title": "趙果生平",
+    "titleEn": "Life of Zhao Guo",
+    "startYear": 1226,
+    "endYear": 1286,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-guo"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1256年）。潼川涪城人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1256年）。潼川涪城人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-yan",
+    "title": "趙衍生平",
+    "titleEn": "Life of Zhao Yan",
+    "startYear": 1643,
+    "endYear": 1703,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-yan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1673年）。浙江·東陽。人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1673年）。浙江·東陽。人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-yang",
+    "title": "趙暘生平",
+    "titleEn": "Life of Zhao Yang",
+    "startYear": 1064,
+    "endYear": 1124,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-yang"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1094年）。曾任庫部司郎中、直龍圖閣等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1094年）。曾任庫部司郎中、直龍圖閣等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-zi",
+    "title": "趙資生平",
+    "titleEn": "Life of Zhao Zi",
+    "startYear": 1671,
+    "endYear": 1731,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-zi"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。山東·寧海。人。约生于1671年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。山東·寧海。人。约生于1671年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-zhao-jing",
+    "title": "趙靖生平",
+    "titleEn": "Life of Zhao Jing",
+    "startYear": 1555,
+    "endYear": 1636,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-jing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代人物。卒于1636年。",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代人物。卒于1636年。",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": false,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lifespan-zhao-lin",
+    "title": "趙霖生平",
+    "titleEn": "Life of Zhao Lin",
+    "startYear": 1073,
+    "endYear": 1133,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-lin"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1103年）。曾任朝奉郎、知某州軍州事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1103年）。曾任朝奉郎、知某州軍州事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-jian",
+    "title": "趙簡生平",
+    "titleEn": "Life of Zhao Jian",
+    "startYear": 1226,
+    "endYear": 1286,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-jian"
+    ],
+    "tags": [
+      "生平",
+      "元",
+      "官员"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元",
+      "Official"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1256年）。邛州依政人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "description": "元代进士（1256年）。邛州依政人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held official positions. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-jin",
+    "title": "趙覲生平",
+    "titleEn": "Life of Zhao Jin",
+    "startYear": 1031,
+    "endYear": 1091,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-jin"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代yin privilege: when relative killed for dynastic cause（1061年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代yin privilege: when relative killed for dynastic cause（1061年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-zhi-dao",
+    "title": "趙至道生平",
+    "titleEn": "Life of Zhao Zhidao",
+    "startYear": 1166,
+    "endYear": 1226,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-zhi-dao"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1196年）。曾任監察御史、寶謨閣直學士等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1196年）。曾任監察御史、寶謨閣直學士等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-zhao-zong-yuan",
+    "title": "趙宗元生平",
+    "titleEn": "Life of Zhao Zongyuan",
+    "startYear": 813,
+    "endYear": 873,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "zhao-zong-yuan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代人物。澤州人。卒于873年。（时间说明：生年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代人物。澤州人。卒于873年。（时间说明：生年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-liu-yi-8",
+    "title": "劉易生平",
+    "titleEn": "Life of Liu Yi",
+    "startYear": 1133,
+    "endYear": 1193,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-yi-8"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1163年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1163年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-yong-4",
+    "title": "劉庸生平",
+    "titleEn": "Life of Liu Yong",
+    "startYear": 1374,
+    "endYear": 1434,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-yong-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1404年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1404年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-wen-4",
+    "title": "劉雯生平",
+    "titleEn": "Life of Liu Wen",
+    "startYear": 1757,
+    "endYear": 1817,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-wen-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。山東·諸城。人。约生于1757年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元时期人。山東·諸城。人。约生于1757年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-liu-shun",
+    "title": "劉順生平",
+    "titleEn": "Life of Liu Shun",
+    "startYear": 1697,
+    "endYear": 1757,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-shun"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1727年）。曾任藍翎侍衛、協副將等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1727年）。曾任藍翎侍衛、協副將等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-jing-4",
+    "title": "劉敬生平",
+    "titleEn": "Life of Liu Jing",
+    "startYear": 1866,
+    "endYear": 1926,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-jing-4"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。福建·閩縣。人。约生于1866年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。福建·閩縣。人。约生于1866年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-liu-run",
+    "title": "劉潤生平",
+    "titleEn": "Life of Liu Run",
+    "startYear": 1809,
+    "endYear": 1869,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-run"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。河南·祥符。人。约生于1809年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。河南·祥符。人。约生于1809年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-liu-zun",
+    "title": "劉遵生平",
+    "titleEn": "Life of Liu Zun",
+    "startYear": 1115,
+    "endYear": 1175,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-zun"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1145年）。象山人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1145年）。象山人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-yong-5",
+    "title": "劉鏞生平",
+    "titleEn": "Life of Liu Yong",
+    "startYear": 1849,
+    "endYear": 1909,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-yong-5"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。直隸·清苑。人。约生于1849年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。直隸·清苑。人。约生于1849年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-liu-shi-jie",
+    "title": "劉世傑生平",
+    "titleEn": "Life of Liu Shijie",
+    "startYear": 1613,
+    "endYear": 1673,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-shi-jie"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1643年）。曾任按察使司僉事、兵部武選司主事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1643年）。曾任按察使司僉事、兵部武選司主事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-ben-ren",
+    "title": "劉本仁生平",
+    "titleEn": "Life of Liu Benren",
+    "startYear": 1364,
+    "endYear": 1424,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-ben-ren"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1394年）。河間人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1394年）。河間人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-yong-zuo",
+    "title": "劉永祚生平",
+    "titleEn": "Life of Liu Yongzuo",
+    "startYear": 1589,
+    "endYear": 1649,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-yong-zuo"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1619年）。曾任巡撫、右參政等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1619年）。曾任巡撫、右參政等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-zhi-xing",
+    "title": "劉志行生平",
+    "titleEn": "Life of Liu Zhixing",
+    "startYear": 1136,
+    "endYear": 1196,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-zhi-xing"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1166年）。曾任知某州軍州事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1166年）。曾任知某州軍州事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-wei-zhong",
+    "title": "劉惟忠生平",
+    "titleEn": "Life of Liu Weizhong",
+    "startYear": 1577,
+    "endYear": 1637,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-wei-zhong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1607年）。崇安人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1607年）。崇安人。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-liu-chao-zong",
+    "title": "劉朝宗生平",
+    "titleEn": "Life of Liu Zhaozong",
+    "startYear": 1621,
+    "endYear": 1681,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "liu-chao-zong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元时期人。山東·章丘。人。约生于1621年。（时间说明：卒年不详，假定约享年60岁）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元时期人。山東·章丘。人。约生于1621年。（时间说明：卒年不详，假定约享年60岁）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "卒年不详，假定约享年60岁"
+  },
+  {
+    "id": "evt-lifespan-pan-jin",
+    "title": "潘津生平",
+    "titleEn": "Life of Fan Jin",
+    "startYear": 1196,
+    "endYear": 1256,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "pan-jin"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1226年）。曾任知某縣事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1226年）。曾任知某縣事等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-pan-huai",
+    "title": "潘懷生平",
+    "titleEn": "Life of Fan Huai",
+    "startYear": 1341,
+    "endYear": 1401,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "pan-huai"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1371年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代recommendation（1371年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-pan-zhong-wen",
+    "title": "潘仲文生平",
+    "titleEn": "Life of Fan Zhongwen",
+    "startYear": 1296,
+    "endYear": 1356,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "pan-zhong-wen"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代recommendation（1326年）。曾任諸路總管府儒學教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代recommendation（1326年）。曾任諸路總管府儒學教授等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-pan-cong-da",
+    "title": "潘從大生平",
+    "titleEn": "Life of Fan Zongda",
+    "startYear": 1232,
+    "endYear": 1292,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "pan-cong-da"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1262年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1262年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-pan-ta-bu-dai",
+    "title": "潘塔不歹生平",
+    "titleEn": "Life of Fan Tabue",
+    "startYear": 1282,
+    "endYear": 1342,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "pan-ta-bu-dai"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代rank or office by inheritance（1312年）。曾任翼千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代rank or office by inheritance（1312年）。曾任翼千戶等职。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cai-yan",
+    "title": "蔡衍生平",
+    "titleEn": "Life of Cai Yan",
+    "startYear": 1085,
+    "endYear": 1145,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cai-yan"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1115年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "description": "元代进士（1115年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period, held an official post. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  },
+  {
+    "id": "evt-lifespan-cai-jin-zhong",
+    "title": "蔡盡忠生平",
+    "titleEn": "Life of Cai Jinzhong",
+    "startYear": 1145,
+    "endYear": 1205,
+    "regionId": "yuan-dynasty",
+    "personIds": [
+      "cai-jin-zhong"
+    ],
+    "tags": [
+      "生平",
+      "元"
+    ],
+    "tagsEn": [
+      "Biography",
+      "元"
+    ],
+    "importance": 2,
+    "summary": "元代进士（1175年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "summaryEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "description": "元代进士（1175年）。（时间说明：生卒年均不详，根据史料中提及的年份推断大致活跃时期）",
+    "descriptionEn": "Historical figure of the 元 period. Documented in historical sources.",
+    "sourceIds": [
+      "src-cbdb"
+    ],
+    "relatedEventIds": [],
+    "datePrecision": "year",
+    "isApproximate": true,
+    "dataStatus": "published",
+    "confidenceScore": 0.5,
+    "externalReferences": [],
+    "_timeNote": "生卒年均不详，根据史料中提及的年份推断大致活跃时期"
+  }
+]

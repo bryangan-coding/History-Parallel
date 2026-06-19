@@ -1,5 +1,12 @@
 import { EventPageClient } from './EventPageClient';
-import { events, people, regions, personMap, regionMap, eventMap, getPersonsForEvent } from '@/data/mockData';
+import {
+  findEventById,
+  findRegionById,
+  findPersonsForEvent,
+  findEventsByYearRange,
+  findPeopleByIds,
+  listRegions,
+} from '@/server/db/queries';
 
 const RELATED_EVENT_YEAR_RANGE = 50;
 const MAX_RELATED_EVENTS = 5;
@@ -10,38 +17,39 @@ interface Props {
 
 export default async function EventPage({ params }: Props) {
   const { id } = await params;
-  const event = eventMap.get(id);
+  const event = await findEventById(id);
 
   if (!event) {
     return <EventPageClient id={id} event={undefined} persons={[]} region={undefined} relatedEvents={[]} />;
   }
 
-  // Pre-resolve all data on the server
-  const persons = getPersonsForEvent(event.id);
-  const region = event.regionId ? regionMap.get(event.regionId) : undefined;
+  const persons = await findPersonsForEvent(event.id);
+  const region = event.regionId ? await findRegionById(event.regionId) : undefined;
 
-  // Find related events (same region, within RELATED_EVENT_YEAR_RANGE years)
-  const relatedEventsData = events
-    .filter(
-      (e) =>
-        e.id !== event.id &&
-        e.regionId === event.regionId &&
-        Math.abs((e.startYear ?? 0) - (event.startYear ?? 0)) <= RELATED_EVENT_YEAR_RANGE,
-    )
-    .slice(0, MAX_RELATED_EVENTS)
-    .map((e) => ({
-      event: e,
-      region: e.regionId ? regionMap.get(e.regionId) : undefined,
-      persons: getPersonsForEvent(e.id),
-    }));
+  // Find related events (time-range filtered, NOT all events in region)
+  const year = event.startYear ?? 0;
+  const sameRegionEvents = await findEventsByYearRange(year - RELATED_EVENT_YEAR_RANGE, year + RELATED_EVENT_YEAR_RANGE);
+  const relatedSlice = sameRegionEvents
+    .filter(e => e.id !== event.id && e.regionId === event.regionId)
+    .slice(0, MAX_RELATED_EVENTS);
+
+  // Batch fetch: all related persons + regions in one go
+  const allRelatedPersonIds = [...new Set(relatedSlice.flatMap(e => e.personIds))];
+  const allRelatedRegionIds = [...new Set(relatedSlice.map(e => e.regionId).filter(Boolean) as string[])];
+  const [relatedPersons, allRegions] = await Promise.all([
+    allRelatedPersonIds.length ? findPeopleByIds(allRelatedPersonIds) : [],
+    allRelatedRegionIds.length ? Promise.all(allRelatedRegionIds.map(id => findRegionById(id))) : [],
+  ]);
+  const regionMap = new Map(allRegions.filter(Boolean).map(r => [r!.id, r!]));
+  const personMap = new Map(relatedPersons.map(p => [p.id, p]));
+
+  const relatedEventsData = relatedSlice.map(e => ({
+    event: e,
+    region: e.regionId ? regionMap.get(e.regionId) : undefined,
+    persons: e.personIds.map(pid => personMap.get(pid)).filter((p): p is NonNullable<typeof p> => p != null),
+  }));
 
   return (
-    <EventPageClient
-      id={id}
-      event={event}
-      persons={persons}
-      region={region}
-      relatedEvents={relatedEventsData}
-    />
+    <EventPageClient id={id} event={event} persons={persons} region={region} relatedEvents={relatedEventsData} />
   );
 }

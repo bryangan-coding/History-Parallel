@@ -7,6 +7,7 @@ import type { Region } from '@/lib/types';
 import Link from 'next/link';
 import { useState, useMemo } from 'react';
 import { Search, CheckSquare, X, ChevronDown, ChevronUp, Edit3 } from 'lucide-react';
+import { setEventStatus, setEventScore } from '@/server/admin-actions';
 
 interface AdminReviewEventsClientProps {
   events: HistoricalEvent[];
@@ -29,6 +30,7 @@ export default function AdminReviewEventsClient({ events: allEvents, regions }: 
   const [editingScore, setEditingScore] = useState<string | null>(null);
   const [editValue, setEditValue] = useState('');
   const [toast, setToast] = useState<{ message: string; type: 'success' | 'error' } | null>(null);
+  const [pending, setPending] = useState<string | null>(null); // 'status' | 'score' | null
 
   const filteredEvents = useMemo(() => {
     return eventsData.filter((evt) => {

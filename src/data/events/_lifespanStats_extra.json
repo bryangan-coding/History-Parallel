@@ -1,0 +1,248 @@
+{
+  "han-dynasty": {
+    "total": 1361,
+    "events": 966,
+    "skipped_has_event": 4,
+    "skipped_no_years": 391
+  },
+  "three-kingdoms": {
+    "total": 343,
+    "events": 342,
+    "skipped_has_event": 1,
+    "skipped_no_years": 0
+  },
+  "sixteen-kingdoms": {
+    "total": 760,
+    "events": 760,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "northern-southern-dynasties": {
+    "total": 1391,
+    "events": 1390,
+    "skipped_has_event": 1,
+    "skipped_no_years": 0
+  },
+  "sui-dynasty": {
+    "total": 376,
+    "events": 375,
+    "skipped_has_event": 1,
+    "skipped_no_years": 0
+  },
+  "zhou-dynasty": {
+    "total": 301,
+    "events": 301,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "middle-east": {
+    "total": 28,
+    "events": 3,
+    "skipped_has_event": 25,
+    "skipped_no_years": 0
+  },
+  "jin-dynasty-period": {
+    "total": 92,
+    "events": 92,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "liao-dynasty": {
+    "total": 730,
+    "events": 729,
+    "skipped_has_event": 1,
+    "skipped_no_years": 0
+  },
+  "ten-kingdoms": {
+    "total": 60,
+    "events": 60,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "western-jin": {
+    "total": 20,
+    "events": 20,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "eastern-jin": {
+    "total": 26,
+    "events": 26,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "five-dynasties": {
+    "total": 20,
+    "events": 20,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "republic-of-china": {
+    "total": 10336,
+    "events": 10336,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "china": {
+    "total": 277,
+    "events": 228,
+    "skipped_has_event": 49,
+    "skipped_no_years": 0
+  },
+  "england": {
+    "total": 60,
+    "events": 6,
+    "skipped_has_event": 54,
+    "skipped_no_years": 0
+  },
+  "europe": {
+    "total": 180,
+    "events": 0,
+    "skipped_has_event": 180,
+    "skipped_no_years": 0
+  },
+  "japan": {
+    "total": 28,
+    "events": 3,
+    "skipped_has_event": 25,
+    "skipped_no_years": 0
+  },
+  "byzantine": {
+    "total": 6,
+    "events": 4,
+    "skipped_has_event": 2,
+    "skipped_no_years": 0
+  },
+  "roman-empire": {
+    "total": 30,
+    "events": 7,
+    "skipped_has_event": 23,
+    "skipped_no_years": 0
+  },
+  "mongol-empire": {
+    "total": 3,
+    "events": 0,
+    "skipped_has_event": 3,
+    "skipped_no_years": 0
+  },
+  "renaissance-europe": {
+    "total": 28,
+    "events": 0,
+    "skipped_has_event": 28,
+    "skipped_no_years": 0
+  },
+  "india": {
+    "total": 21,
+    "events": 2,
+    "skipped_has_event": 19,
+    "skipped_no_years": 0
+  },
+  "americas": {
+    "total": 47,
+    "events": 0,
+    "skipped_has_event": 47,
+    "skipped_no_years": 0
+  },
+  "africa": {
+    "total": 16,
+    "events": 0,
+    "skipped_has_event": 16,
+    "skipped_no_years": 0
+  },
+  "asia": {
+    "total": 16,
+    "events": 0,
+    "skipped_has_event": 16,
+    "skipped_no_years": 0
+  },
+  "italy": {
+    "total": 2,
+    "events": 2,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "germany": {
+    "total": 1,
+    "events": 1,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "spain": {
+    "total": 1,
+    "events": 1,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "russia": {
+    "total": 6,
+    "events": 6,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "scotland": {
+    "total": 1,
+    "events": 1,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "qin-dynasty": {
+    "total": 167,
+    "events": 45,
+    "skipped_has_event": 0,
+    "skipped_no_years": 122
+  },
+  "france": {
+    "total": 7,
+    "events": 7,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "holy-roman-empire": {
+    "total": 5,
+    "events": 5,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "ottoman-empire": {
+    "total": 4,
+    "events": 4,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "persia": {
+    "total": 3,
+    "events": 3,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "safavid-persia": {
+    "total": 1,
+    "events": 1,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "egypt": {
+    "total": 2,
+    "events": 2,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "korea": {
+    "total": 3,
+    "events": 3,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  },
+  "western-xia": {
+    "total": 959,
+    "events": 948,
+    "skipped_has_event": 0,
+    "skipped_no_years": 11
+  },
+  "spring-autumn-warring-states": {
+    "total": 733,
+    "events": 733,
+    "skipped_has_event": 0,
+    "skipped_no_years": 0
+  }
+}

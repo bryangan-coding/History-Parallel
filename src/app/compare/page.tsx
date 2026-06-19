@@ -1,10 +1,7 @@
 import { Suspense } from 'react';
 import ComparePageClient from './ComparePageClient';
-import { events } from '@/data/mockData';
 
-const publishedEvents = events.filter((e) => e.dataStatus === 'published');
-
-export default function ComparePage() {
+export default async function ComparePage() {
   return (
     <Suspense
       fallback={
@@ -16,7 +13,7 @@ export default function ComparePage() {
         </div>
       }
     >
-      <ComparePageClient allEvents={publishedEvents} />
+      <ComparePageClient />
     </Suspense>
   );
 }

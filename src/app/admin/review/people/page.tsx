@@ -1,12 +1,17 @@
-import { people } from '@/data/mockData';
 import AdminReviewPeopleClient from './AdminReviewPeopleClient';
+import { listPeople } from '@/server/db/queries';
 
-// Only pass counts, not the full data
-const totalCount = people.length;
-const pendingCount = people.filter((p) => p.dataStatus !== 'published').length;
-const publishedCount = people.filter((p) => p.dataStatus === 'published').length;
+export default async function AdminReviewPeoplePage() {
+  // Compute counts on the server from the DB
+  const [all, published] = await Promise.all([
+    listPeople(),
+    listPeople({ publishedOnly: true }),
+  ]);
 
-export default function AdminReviewPeoplePage() {
+  const totalCount = all.total;
+  const publishedCount = published.total;
+  const pendingCount = totalCount - publishedCount;
+
   return (
     <AdminReviewPeopleClient
       totalCount={totalCount}
