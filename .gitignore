@@ -65,3 +65,6 @@ scripts/*.pyc
 # src/data/events/_deepEvents_*.json
 # src/data/events/_deepEvents_tang_*.json
 # src/data/events/_lifespanStats*.json
+
+# Large SQL dump — not for git, keep locally only
+supabase/history_parallel_dump.sql
