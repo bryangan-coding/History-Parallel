@@ -322,7 +322,7 @@ export default function AdminReviewEventsClient({ events: allEvents, regions, to
                             onClick={(e) => { e.stopPropagation(); handleScoreEdit(evt.id, evt.confidenceScore); }}
                             className="text-xs text-stone-400 hover:text-stone-600 flex items-center gap-1 transition-colors"
                           >
-                            {evt.confidenceScore.toFixed(2)}
+                            {Number(evt.confidenceScore).toFixed(2)}
                             <Edit3 size={10} />
                           </button>
                         )}
@@ -382,7 +382,7 @@ export default function AdminReviewEventsClient({ events: allEvents, regions, to
                     <DetailField label="Place" value={eventPlaceName(evt, locale) ?? 'Unknown'} />
                     <DetailField label="Date Precision" value={evt.datePrecision} />
                     <DetailField label="Importance" value={'★'.repeat(evt.importance)} />
-                    <DetailField label="Confidence" value={evt.confidenceScore.toFixed(3)} />
+                    <DetailField label="Confidence" value={Number(evt.confidenceScore).toFixed(3)} />
                     <DetailField label="Wikidata QID" value={evt.wikidataQid ?? 'None'} mono />
                     <DetailField label="Approximate" value={evt.isApproximate ? 'Yes' : 'No'} />
                     <DetailField label="Related People" value={evt.personIds.length > 0 ? evt.personIds.join(', ') : 'None'} mono span />

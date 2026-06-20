@@ -1,3 +1,4 @@
+import { Suspense } from 'react';
 import LoginForm from './LoginForm';
 
 export const metadata = {
@@ -12,7 +13,9 @@ export default function LoginPage() {
           <h1 className="text-xl font-bold text-stone-900">历史平行线</h1>
           <p className="text-sm text-stone-500 mt-1">管理后台登录</p>
         </div>
-        <LoginForm />
+        <Suspense fallback={<div className="text-sm text-stone-400 text-center py-4">Loading...</div>}>
+          <LoginForm />
+        </Suspense>
       </div>
     </div>
   );

@@ -282,7 +282,7 @@ export default function AdminReviewPeopleClient({
                               onClick={(e) => { e.stopPropagation(); handleScoreEdit(p.id, p.confidenceScore); }}
                               className="text-xs text-stone-400 hover:text-stone-600 flex items-center gap-1 transition-colors"
                             >
-                              {p.confidenceScore.toFixed(2)}
+                              {Number(p.confidenceScore).toFixed(2)}
                               <Edit3 size={10} />
                             </button>
                           )}
@@ -314,7 +314,7 @@ export default function AdminReviewPeopleClient({
                       <DetailField label="Birth Year" value={p.birthYear?.toString() ?? 'Unknown'} />
                       <DetailField label="Death Year" value={p.deathYear?.toString() ?? 'Unknown'} />
                       <DetailField label="Region" value={p.regionId ?? 'None'} />
-                      <DetailField label="Confidence" value={p.confidenceScore.toFixed(3)} />
+                      <DetailField label="Confidence" value={Number(p.confidenceScore).toFixed(3)} />
                       <DetailField label="Wikidata QID" value={p.wikidataQid ?? 'None'} mono />
                       <DetailField label="Sources" value={p.sourceIds.join(', ') || 'None'} mono span />
                       <DetailField label="Alternative Names" value={p.alternativeNames.join(', ') || 'None'} span />

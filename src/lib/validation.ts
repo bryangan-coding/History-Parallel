@@ -64,7 +64,7 @@ export function validatePerson(person: Person): ValidationIssue[] {
     issues.push({
       level: 'error',
       field: 'confidenceScore',
-      message: `Published persons require confidenceScore >= 0.7 (current: ${person.confidenceScore.toFixed(2)})`,
+      message: `Published persons require confidenceScore >= 0.7 (current: ${Number(person.confidenceScore).toFixed(2)})`,
     });
   }
 
@@ -167,7 +167,7 @@ export function validateHistoricalEvent(
     issues.push({
       level: 'error',
       field: 'confidenceScore',
-      message: `Published events require confidenceScore >= 0.7 (current: ${event.confidenceScore.toFixed(2)})`,
+      message: `Published events require confidenceScore >= 0.7 (current: ${Number(event.confidenceScore).toFixed(2)})`,
     });
   }
 
