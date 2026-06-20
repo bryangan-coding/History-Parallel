@@ -1,0 +1,2343 @@
+{
+  "totalGroups": 135,
+  "totalToDelete": 140,
+  "patternBreakdown": {
+    "evt-struct*-*": 19,
+    "evt-lifespan-* (生平模板)": 77,
+    "evt-rich*-*": 15,
+    "*-death": 8,
+    "evt-*": 14,
+    "*-major": 2,
+    "evt-tsymq-*": 2,
+    "evt-deep-*": 3
+  },
+  "deleteIds": [
+    "evt-struct3-dai-tian-ren-1899-实业家-extra",
+    "evt-struct3-wu-hua-1874-实业家-extra",
+    "evt-lifespan-he-qi-1859",
+    "evt-lifespan-何铸",
+    "evt-struct3-fu-fan-chu-1867-实业家-extra",
+    "evt-lifespan-元绛",
+    "evt-lifespan-元继",
+    "evt-lifespan-凌统",
+    "evt-struct3-liu-jin-yu-1898-实业家-extra",
+    "evt-lifespan-liu-jun-648",
+    "evt-struct3-zhou-jing-ting-1900-实业家-extra",
+    "evt-lifespan-周邦彦",
+    "evt-struct3-jiang-sheng-jie-1915-实业家-extra",
+    "evt-lifespan-子璇",
+    "evt-lifespan-孙翊",
+    "evt-lifespan-sun-ce-175",
+    "evt-lifespan-song-jiao-ren-1882",
+    "evt-lifespan-完颜秉德",
+    "evt-rich-tu-da-shan-1500-office10",
+    "evt-5c-cui-gui-cong-death",
+    "evt-rich-zuo-pei-1875-office11",
+    "evt-5c-yu-cheng-xuan-death",
+    "evt-lifespan-张仲景",
+    "evt-lifespan-张商英",
+    "evt-struct3-zhang-zhi-dong-1826-政治家-extra",
+    "evt-5c-xu-rong-death",
+    "evt-lifespan-xu-zi-hua-1873",
+    "evt-lifespan-折彦质",
+    "evt-lifespan-智圆",
+    "evt-lifespan-曹冲",
+    "evt-rich-zhu-dun-ru-1081-office8",
+    "evt-lifespan-李仁罕",
+    "evt-5c-li-yuan-gui-2-death",
+    "evt-5c-li-yuan-gui-death",
+    "evt-struct3-li-hua-1909-实业家-extra",
+    "evt-liqingzhao-early",
+    "evt-struct3-li-zhu-chen-1882-实业家-extra",
+    "evt-li-bai-major",
+    "evt-libai-enters-court",
+    "evt-libai-exiled-yelang",
+    "evt-lifespan-李继迁",
+    "evt-struct3-li-da-hai-1919-实业家-extra",
+    "evt-5c-li-qi-wu-death",
+    "evt-dufu-travels-wuyue",
+    "evt-dufu-trapped-anlushan",
+    "evt-liuzongyuan-exile",
+    "evt-lifespan-柳永",
+    "evt-lifespan-柳隐",
+    "evt-rich-yang-shi-cong-1597-office7",
+    "evt-lifespan-yang-shi-xiang-1860",
+    "evt-lifespan-yang-ying-ju-1696",
+    "evt-tsymq-0023",
+    "evt-rich-ouyang-xiu-exam",
+    "evt-rich-ouyang-xiu-office19",
+    "evt-lifespan-欧阳炯",
+    "evt-deep2-----7",
+    "evt-lifespan-wang-quan-1828",
+    "evt-rich-shen-mi-1501-office18",
+    "evt-lifespan-pan-gao-1514",
+    "evt-rich-pan-gao-1514-office9",
+    "evt-lifespan-王全斌",
+    "evt-deep5a-wang-da-li-613-death",
+    "evt-deep2-----0",
+    "evt-deep2-----1",
+    "evt-wang-anshi-reform",
+    "evt-songshenzong-reform",
+    "evt-lifespan-王安礼",
+    "evt-rich-wang-ju-zheng-1087-office3",
+    "evt-rich-wang-fen-1828-office0",
+    "evt-lifespan-wang-kai-yun-1832",
+    "evt-lifespan-richard-i",
+    "evt-lifespan-sheng-xuan-huai-1844",
+    "evt-lifespan-yu-zhi-mo-1866",
+    "evt-lifespan-qin-li-shan-1878",
+    "evt-struct3-qin-fen-1882-实业家-extra",
+    "evt-lifespan-章懿李皇后",
+    "evt-lifespan-章献皇后",
+    "evt-rich-mou-chang-qi-1562-office22",
+    "evt-struct3-luo-zhong-chen-1880-科学家-extra",
+    "evt-lifespan-耶律罨撤葛",
+    "evt-lifespan-耶律长寿女",
+    "evt-struct3-hu-xi-yuan-1900-实业家-extra",
+    "evt-su-shi-major",
+    "evt-sushi-wutai-trial",
+    "evt-wutai",
+    "evt-sushi-huangzhou",
+    "evt-sushi-lingnan",
+    "evt-struct3-su-song-政治家-extra",
+    "evt-fanzhongyan-reform",
+    "evt-fanzhongyan-yueyang",
+    "evt-struct3-fan-xu-dong-1883-实业家-extra",
+    "evt-struct3-sa-ben-xin-1898-实业家-extra",
+    "evt-rich-cai-bian-1058-office2",
+    "evt-lifespan-cai-e-1882",
+    "evt-rich-su-zhao-kui-1879-office20",
+    "evt-rich2-pei-ji-570-1",
+    "evt-lifespan-chu-jie-529",
+    "evt-lifespan-费士寅",
+    "evt-lifespan-赵明诚",
+    "evt-lifespan-赵禼",
+    "evt-rich-zhao-fan-1851-office6",
+    "evt-lifespan-邓洵武",
+    "evt-struct3-guo-xu-zhong-1912-实业家-extra",
+    "evt-lifespan-shi-shao-zong-1074",
+    "evt-lifespan-qian-hong-xuan-913",
+    "evt-lifespan-zhong-yao-151",
+    "evt-lifespan-钱传璛",
+    "evt-lifespan-钱传璟",
+    "evt-lifespan-钱元懿",
+    "evt-lifespan-钱元珦",
+    "evt-lifespan-钱元珰",
+    "evt-lifespan-钱元球",
+    "evt-lifespan-钱元璙",
+    "evt-lifespan-钱元璲",
+    "evt-lifespan-钱元瞿",
+    "evt-lifespan-钱弘仪",
+    "evt-lifespan-钱弘仰",
+    "evt-lifespan-钱弘偓",
+    "evt-lifespan-钱弘偡",
+    "evt-lifespan-钱弘僔",
+    "evt-lifespan-钱弘儇",
+    "evt-lifespan-钱惟演",
+    "evt-lifespan-钱惟濬",
+    "evt-lifespan-钱景臻",
+    "evt-5c-zhang-sun-wu-ji-death",
+    "evt-lifespan-ruan-xing-cun-1874",
+    "evt-lifespan-陆知命",
+    "evt-lifespan-陈洪进",
+    "evt-lifespan-chen-you-liang-1320",
+    "evt-struct3-chen-shang-wen-1897-实业家-extra",
+    "evt-lifespan-韦敻",
+    "evt-tsymq-0010",
+    "evt-lifespan-gu-yong-168",
+    "evt-lifespan-颜之推",
+    "evt-lifespan-马绰",
+    "evt-lifespan-鲁肃",
+    "evt-struct3-huang-ya-fu-1837-实业家-extra",
+    "evt-lifespan-黄居采",
+    "evt-lifespan-黄荃",
+    "evt-lifespan-龚美"
+  ],
+  "groups": [
+    {
+      "personName": "代田稔 (Dai Tian Ren)",
+      "year": 1936,
+      "keep": {
+        "id": "evt-struct3-dai-tian-ren-1899-科学家-extra",
+        "title": "代田稔·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-dai-tian-ren-1899-实业家-extra",
+          "title": "代田稔·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "伍華 (Wu Hua)",
+      "year": 1908,
+      "keep": {
+        "id": "evt-struct3-wu-hua-1874-科学家-extra",
+        "title": "伍華·科学发现",
+        "score": 275
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-wu-hua-1874-实业家-extra",
+          "title": "伍華·事业成功",
+          "score": 199
+        }
+      ]
+    },
+    {
+      "personName": "何啟 (He Qi)",
+      "year": 1859,
+      "keep": {
+        "id": "evt-birth-he-qi-1859",
+        "title": "何啟出生",
+        "score": 198
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-he-qi-1859",
+          "title": "何啟生平",
+          "score": -274
+        }
+      ]
+    },
+    {
+      "personName": "何铸",
+      "year": 1088,
+      "keep": {
+        "id": "evt-newpub-何铸-event-1088",
+        "title": "何铸·－1152年），字伯寿，宋朝杭州余杭县（今浙江省杭州市西）人",
+        "score": 803.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-何铸",
+          "title": "何铸生平",
+          "score": -446.5
+        }
+      ]
+    },
+    {
+      "personName": "傅範初 (Fu Fan Chu)",
+      "year": 1887,
+      "keep": {
+        "id": "evt-struct3-fu-fan-chu-1867-科学家-extra",
+        "title": "傅範初·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-fu-fan-chu-1867-实业家-extra",
+          "title": "傅範初·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "元绛",
+      "year": 1009,
+      "keep": {
+        "id": "evt-newpub-元绛-event-1009",
+        "title": "元绛·－1083年），字厚之，宋朝杭州钱塘县（今浙江省杭州市）人",
+        "score": 785.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-元绛",
+          "title": "元绛生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "元继",
+      "year": 464,
+      "keep": {
+        "id": "evt-newpub-元继-event-464",
+        "title": "元继·－528年11月11日，《魏书》本纪作卒于25日），字仁世，",
+        "score": 841.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-元继",
+          "title": "元继生平",
+          "score": -330.5
+        }
+      ]
+    },
+    {
+      "personName": "凌统",
+      "year": 189,
+      "keep": {
+        "id": "evt-newpub-凌统-event-189",
+        "title": "凌统·－217年，或作237年），字公績，一作公續，揚州吳郡餘杭（",
+        "score": 849.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-凌统",
+          "title": "凌统生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "劉晉鈺 (Liu Jin Yu)",
+      "year": 1921,
+      "keep": {
+        "id": "evt-struct3-liu-jin-yu-1898-科学家-extra",
+        "title": "劉晉鈺·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-liu-jin-yu-1898-实业家-extra",
+          "title": "劉晉鈺·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "劉濬 (Liu Xun)",
+      "year": 648,
+      "keep": {
+        "id": "evt-birth-liu-jun-648",
+        "title": "劉濬出生",
+        "score": 197
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-liu-jun-648",
+          "title": "劉濬生平",
+          "score": -296.5
+        }
+      ]
+    },
+    {
+      "personName": "周荆庭 (Zhou Jing Ting)",
+      "year": 1929,
+      "keep": {
+        "id": "evt-struct3-zhou-jing-ting-1900-科学家-extra",
+        "title": "周荆庭·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-zhou-jing-ting-1900-实业家-extra",
+          "title": "周荆庭·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "周邦彦",
+      "year": 1056,
+      "keep": {
+        "id": "evt-newpub-周邦彦-event-1056",
+        "title": "周邦彦·－1121年），字美成，號清真居士，錢塘（今浙江杭州）人，中",
+        "score": 817.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-周邦彦",
+          "title": "周邦彦生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "姜圣阶 (Jiang Sheng Jie)",
+      "year": 1949,
+      "keep": {
+        "id": "evt-struct3-jiang-sheng-jie-1915-科学家-extra",
+        "title": "姜圣阶·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-jiang-sheng-jie-1915-实业家-extra",
+          "title": "姜圣阶·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "子璇",
+      "year": 965,
+      "keep": {
+        "id": "evt-newpub-子璇-event-965",
+        "title": "子璇·－1038年），号东平，又称长水大师，杭州钱塘人，北宋华严宗",
+        "score": 779.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-子璇",
+          "title": "子璇生平",
+          "score": -462.5
+        }
+      ]
+    },
+    {
+      "personName": "孙翊",
+      "year": 184,
+      "keep": {
+        "id": "evt-newpub-孙翊-event-184",
+        "title": "孙翊·－204年），一名孙俨，字叔弼，吳郡富春（今浙江杭州富陽）人",
+        "score": 785.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-孙翊",
+          "title": "孙翊生平",
+          "score": -412.5
+        }
+      ]
+    },
+    {
+      "personName": "孫策 (Sun Ce)",
+      "year": 175,
+      "keep": {
+        "id": "evt-newpub-sun-ce-175-event-175",
+        "title": "孫策·7月－200年5月5日），字伯符，吴郡富春（今浙江杭州富阳）",
+        "score": 755.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-sun-ce-175",
+          "title": "孫策生平",
+          "score": -397.5
+        }
+      ]
+    },
+    {
+      "personName": "宋教仁 (Song Jiaoren)",
+      "year": 1882,
+      "keep": {
+        "id": "evt-birth-song-jiao-ren-1882",
+        "title": "宋教仁出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-song-jiao-ren-1882",
+          "title": "宋教仁生平",
+          "score": -187
+        }
+      ]
+    },
+    {
+      "personName": "完颜秉德",
+      "year": 1120,
+      "keep": {
+        "id": "evt-newpub-完颜秉德-event-1120",
+        "title": "完颜秉德·－1150年），女真名乙卒，金朝皇族",
+        "score": 764.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-完颜秉德",
+          "title": "完颜秉德生平",
+          "score": -448.5
+        }
+      ]
+    },
+    {
+      "personName": "屠大山 (Tu Dashan)",
+      "year": 1523,
+      "keep": {
+        "id": "evt-rich-tu-da-shan-1500-exam",
+        "title": "屠大山科举及第",
+        "score": 628
+      },
+      "delete": [
+        {
+          "id": "evt-rich-tu-da-shan-1500-office10",
+          "title": "屠大山任官",
+          "score": 628
+        }
+      ]
+    },
+    {
+      "personName": "崔龜從 (Cui Guicong)",
+      "year": 853,
+      "keep": {
+        "id": "evt-deep5a-cui-gui-cong-death",
+        "title": "崔龜從去世",
+        "score": 382
+      },
+      "delete": [
+        {
+          "id": "evt-5c-cui-gui-cong-death",
+          "title": "崔龜從逝世",
+          "score": 248
+        }
+      ]
+    },
+    {
+      "personName": "左霈 (Zuo Pei)",
+      "year": 1894,
+      "keep": {
+        "id": "evt-rich-zuo-pei-1875-exam",
+        "title": "左霈科举及第",
+        "score": 634
+      },
+      "delete": [
+        {
+          "id": "evt-rich-zuo-pei-1875-office11",
+          "title": "左霈任官",
+          "score": 634
+        }
+      ]
+    },
+    {
+      "personName": "庾承宣 (Yu Chengxuan)",
+      "year": 835,
+      "keep": {
+        "id": "evt-deep5a-yu-cheng-xuan-death",
+        "title": "庾承宣去世",
+        "score": 382
+      },
+      "delete": [
+        {
+          "id": "evt-5c-yu-cheng-xuan-death",
+          "title": "庾承宣逝世",
+          "score": 248
+        }
+      ]
+    },
+    {
+      "personName": "张仲景",
+      "year": 150,
+      "keep": {
+        "id": "evt-newpub-张仲景-event-150",
+        "title": "张仲景·－219年），名機（《历代神仙通鉴》作玑），字仲景，南阳郡涅",
+        "score": 841.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-张仲景",
+          "title": "张仲景生平",
+          "score": -410.5
+        }
+      ]
+    },
+    {
+      "personName": "张商英",
+      "year": 1043,
+      "keep": {
+        "id": "evt-newpub-张商英-event-1043",
+        "title": "张商英·－1122年），字天覺，號無盡居士，成都府路晉原（今四川新津",
+        "score": 785.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-张商英",
+          "title": "张商英生平",
+          "score": -458.5
+        }
+      ]
+    },
+    {
+      "personName": "張之洞 (Zhang Zhidong)",
+      "year": 1863,
+      "keep": {
+        "id": "evt-rich-zhang-zhi-dong-1826-exam",
+        "title": "張之洞科举及第",
+        "score": 615.5
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-zhang-zhi-dong-1826-政治家-extra",
+          "title": "張之洞·政治影响",
+          "score": 176.5
+        }
+      ]
+    },
+    {
+      "personName": "徐容 (Xu Rong)",
+      "year": 824,
+      "keep": {
+        "id": "evt-deep5a-xu-rong-death",
+        "title": "徐容去世",
+        "score": 380
+      },
+      "delete": [
+        {
+          "id": "evt-5c-xu-rong-death",
+          "title": "徐容逝世",
+          "score": 246
+        }
+      ]
+    },
+    {
+      "personName": "徐自華 (Xu Zihua)",
+      "year": 1873,
+      "keep": {
+        "id": "evt-birth-xu-zi-hua-1873",
+        "title": "徐自華出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-xu-zi-hua-1873",
+          "title": "徐自華生平",
+          "score": -309
+        }
+      ]
+    },
+    {
+      "personName": "折彦质",
+      "year": 1080,
+      "keep": {
+        "id": "evt-newpub-折彦质-event-1080",
+        "title": "折彦质·－1160年），字仲古，别号介之，曾筑“葆真”草堂于寿安锦屏",
+        "score": 809.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-折彦质",
+          "title": "折彦质生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "智圆",
+      "year": 976,
+      "keep": {
+        "id": "evt-newpub-智圆-event-976",
+        "title": "智圆·～1022年），字无外，号潜夫、中庸子，又称孤山智圆，浙江钱",
+        "score": 817.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-智圆",
+          "title": "智圆生平",
+          "score": -434.5
+        }
+      ]
+    },
+    {
+      "personName": "曹冲",
+      "year": 196,
+      "keep": {
+        "id": "evt-newpub-曹冲-event-196",
+        "title": "曹冲·－208年），字倉舒，沛國譙縣（今安徽亳州）人，东漢末年人物",
+        "score": 837.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-曹冲",
+          "title": "曹冲生平",
+          "score": -414.5
+        }
+      ]
+    },
+    {
+      "personName": "朱敦儒 (Zhu Dunru)",
+      "year": 1135,
+      "keep": {
+        "id": "evt-rich-zhu-dun-ru-1081-exam",
+        "title": "朱敦儒科举及第",
+        "score": 607.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-zhu-dun-ru-1081-office8",
+          "title": "朱敦儒任官",
+          "score": 607.5
+        }
+      ]
+    },
+    {
+      "personName": "李仁罕",
+      "year": 873,
+      "keep": {
+        "id": "evt-newpub-李仁罕-event-873",
+        "title": "李仁罕·－934年），字德美，五代十国时期后蜀大将，在后蜀开国皇帝孟",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-李仁罕",
+          "title": "李仁罕生平",
+          "score": -296.5
+        }
+      ]
+    },
+    {
+      "personName": "李元軌 (Li Yuangui)",
+      "year": 688,
+      "keep": {
+        "id": "evt-deep5a-li-yuan-gui-2-death",
+        "title": "李元軌去世",
+        "score": 382
+      },
+      "delete": [
+        {
+          "id": "evt-5c-li-yuan-gui-2-death",
+          "title": "李元軌逝世",
+          "score": 248
+        }
+      ]
+    },
+    {
+      "personName": "李元軌 (Li Yuangui)",
+      "year": 688,
+      "keep": {
+        "id": "evt-deep5a-li-yuan-gui-death",
+        "title": "李元軌去世",
+        "score": 382
+      },
+      "delete": [
+        {
+          "id": "evt-5c-li-yuan-gui-death",
+          "title": "李元軌逝世",
+          "score": 248
+        }
+      ]
+    },
+    {
+      "personName": "李化 (Li Hua)",
+      "year": 1938,
+      "keep": {
+        "id": "evt-rich2-li-hua-1909-1",
+        "title": "間，已帶了攝影隊到廣州拍攝日本軍機濫炸的情形",
+        "score": 538
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-li-hua-1909-实业家-extra",
+          "title": "李化·事业成功",
+          "score": 199
+        }
+      ]
+    },
+    {
+      "personName": "李清照 (Li Qingzhao)",
+      "year": 1101,
+      "keep": {
+        "id": "evt-tsymq-0031",
+        "title": "李清照与赵明诚的幸福婚姻",
+        "score": 1018.5
+      },
+      "delete": [
+        {
+          "id": "evt-liqingzhao-early",
+          "title": "李清照与赵明诚的金石姻缘",
+          "score": 531.5
+        }
+      ]
+    },
+    {
+      "personName": "李烛尘 (Li Zhu Chen)",
+      "year": 1920,
+      "keep": {
+        "id": "evt-struct3-li-zhu-chen-1882-科学家-extra",
+        "title": "李烛尘·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-li-zhu-chen-1882-实业家-extra",
+          "title": "李烛尘·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "李白 (Li Bai)",
+      "year": 725,
+      "keep": {
+        "id": "evt-deep----725",
+        "title": "李白辞亲远游仗剑出蜀",
+        "score": 1579
+      },
+      "delete": [
+        {
+          "id": "evt-li-bai-major",
+          "title": "李白辞亲远游",
+          "score": 1232
+        }
+      ]
+    },
+    {
+      "personName": "李白 (Li Bai)",
+      "year": 742,
+      "keep": {
+        "id": "evt-deep----742",
+        "title": "李白奉诏入长安供奉翰林",
+        "score": 1673
+      },
+      "delete": [
+        {
+          "id": "evt-libai-enters-court",
+          "title": "李白入长安为翰林供奉",
+          "score": 705
+        }
+      ]
+    },
+    {
+      "personName": "李白 (Li Bai)",
+      "year": 757,
+      "keep": {
+        "id": "evt-deep----757",
+        "title": "李白流放夜郎遇赦",
+        "score": 1585
+      },
+      "delete": [
+        {
+          "id": "evt-libai-exiled-yelang",
+          "title": "李白流放夜郎",
+          "score": 703
+        }
+      ]
+    },
+    {
+      "personName": "李继迁",
+      "year": 963,
+      "keep": {
+        "id": "evt-newpub-李继迁-event-963",
+        "title": "李继迁·－1004年1月26日），祖籍银州（今陕西横山县），北宋党項",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-李继迁",
+          "title": "李继迁生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "李達海 (Li Da Hai)",
+      "year": 1952,
+      "keep": {
+        "id": "evt-struct3-li-da-hai-1919-科学家-extra",
+        "title": "李達海·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-li-da-hai-1919-实业家-extra",
+          "title": "李達海·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "李齊物 (Li Qiwu)",
+      "year": 761,
+      "keep": {
+        "id": "evt-deep5a-li-qi-wu-death",
+        "title": "李齊物去世",
+        "score": 382
+      },
+      "delete": [
+        {
+          "id": "evt-5c-li-qi-wu-death",
+          "title": "李齊物逝世",
+          "score": 248
+        }
+      ]
+    },
+    {
+      "personName": "杜甫 (Du Fu)",
+      "year": 735,
+      "keep": {
+        "id": "evt-deep----735",
+        "title": "杜甫漫游吴越与齐鲁",
+        "score": 1492
+      },
+      "delete": [
+        {
+          "id": "evt-dufu-travels-wuyue",
+          "title": "杜甫漫游吴越",
+          "score": 643
+        }
+      ]
+    },
+    {
+      "personName": "杜甫 (Du Fu)",
+      "year": 756,
+      "keep": {
+        "id": "evt-deep----756",
+        "title": "安史之乱中杜甫身陷长安",
+        "score": 1648
+      },
+      "delete": [
+        {
+          "id": "evt-dufu-trapped-anlushan",
+          "title": "杜甫身陷安史之乱",
+          "score": 724
+        }
+      ]
+    },
+    {
+      "personName": "柳宗元 (Liu Zongyuan)",
+      "year": 805,
+      "keep": {
+        "id": "evt-tsymq-0011",
+        "title": "永贞革新失败柳宗元贬谪永州",
+        "score": 1194.5
+      },
+      "delete": [
+        {
+          "id": "evt-liuzongyuan-exile",
+          "title": "柳宗元被贬永州",
+          "score": 595.5
+        }
+      ]
+    },
+    {
+      "personName": "柳永",
+      "year": 987,
+      "keep": {
+        "id": "evt-newpub-柳永-event-987",
+        "title": "柳永·－1053年），原名三變，字景莊，後改名永，改字耆卿，福建崇",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-柳永",
+          "title": "柳永生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "柳隐",
+      "year": 190,
+      "keep": {
+        "id": "evt-newpub-柳隐-event-190",
+        "title": "柳隐·－269年），字休然，蜀郡成都人",
+        "score": 742.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-柳隐",
+          "title": "柳隐生平",
+          "score": -472.5
+        }
+      ]
+    },
+    {
+      "personName": "楊士聰 (Yang Shicong)",
+      "year": 1631,
+      "keep": {
+        "id": "evt-rich-yang-shi-cong-1597-exam",
+        "title": "楊士聰科举及第",
+        "score": 628
+      },
+      "delete": [
+        {
+          "id": "evt-rich-yang-shi-cong-1597-office7",
+          "title": "楊士聰任官",
+          "score": 628
+        }
+      ]
+    },
+    {
+      "personName": "楊士驤 (Yang Shixiang)",
+      "year": 1860,
+      "keep": {
+        "id": "evt-birth-yang-shi-xiang-1860",
+        "title": "楊士驤出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-yang-shi-xiang-1860",
+          "title": "楊士驤生平",
+          "score": -396.5
+        }
+      ]
+    },
+    {
+      "personName": "楊應琚 (Yang Yingju)",
+      "year": 1696,
+      "keep": {
+        "id": "evt-birth-yang-ying-ju-1696",
+        "title": "楊應琚出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-yang-ying-ju-1696",
+          "title": "楊應琚生平",
+          "score": -444.5
+        }
+      ]
+    },
+    {
+      "personName": "欧阳修 (Ouyang Xiu)",
+      "year": 1030,
+      "keep": {
+        "id": "evt-ouyang-xiu-major",
+        "title": "欧阳修进士及第",
+        "score": 1296
+      },
+      "delete": [
+        {
+          "id": "evt-tsymq-0023",
+          "title": "欧阳修进士及第文章名天下",
+          "score": 1098.5
+        },
+        {
+          "id": "evt-rich-ouyang-xiu-exam",
+          "title": "欧阳修科举及第",
+          "score": 645
+        },
+        {
+          "id": "evt-rich-ouyang-xiu-office19",
+          "title": "欧阳修任官",
+          "score": 645
+        }
+      ]
+    },
+    {
+      "personName": "欧阳炯",
+      "year": 896,
+      "keep": {
+        "id": "evt-newpub-欧阳炯-event-896",
+        "title": "欧阳炯·－971年），字不詳，中国五代十国后蜀的大臣，花间派词人，益",
+        "score": 813.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-欧阳炯",
+          "title": "欧阳炯生平",
+          "score": -438.5
+        }
+      ]
+    },
+    {
+      "personName": "武则天 (Wu Zetian)",
+      "year": 690,
+      "keep": {
+        "id": "evt-wuzetian-zhou-dynasty",
+        "title": "武则天改唐为周称帝",
+        "score": 727
+      },
+      "delete": [
+        {
+          "id": "evt-deep2-----7",
+          "title": "武则天废唐建周称帝",
+          "score": 668
+        }
+      ]
+    },
+    {
+      "personName": "汪瑔 (Wang Quan)",
+      "year": 1828,
+      "keep": {
+        "id": "evt-birth-wang-quan-1828",
+        "title": "汪瑔出生",
+        "score": 198
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-wang-quan-1828",
+          "title": "汪瑔生平",
+          "score": -442.5
+        }
+      ]
+    },
+    {
+      "personName": "沈謐 (Shen Mi)",
+      "year": 1529,
+      "keep": {
+        "id": "evt-rich-shen-mi-1501-exam",
+        "title": "沈謐科举及第",
+        "score": 628
+      },
+      "delete": [
+        {
+          "id": "evt-rich-shen-mi-1501-office18",
+          "title": "沈謐任官",
+          "score": 628
+        }
+      ]
+    },
+    {
+      "personName": "潘高 (Pan Gao)",
+      "year": 1514,
+      "keep": {
+        "id": "evt-birth-pan-gao-1514",
+        "title": "潘高出生",
+        "score": 198
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-pan-gao-1514",
+          "title": "潘高生平",
+          "score": -242.5
+        }
+      ]
+    },
+    {
+      "personName": "潘高 (Pan Gao)",
+      "year": 1532,
+      "keep": {
+        "id": "evt-rich-pan-gao-1514-exam",
+        "title": "潘高科举及第",
+        "score": 605.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-pan-gao-1514-office9",
+          "title": "潘高任官",
+          "score": 605.5
+        }
+      ]
+    },
+    {
+      "personName": "王全斌",
+      "year": 908,
+      "keep": {
+        "id": "evt-newpub-王全斌-event-908",
+        "title": "王全斌·－976年），并州太原人（今山西太原），五代至北宋初将领，出",
+        "score": 831.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-王全斌",
+          "title": "王全斌生平",
+          "score": -302.5
+        }
+      ]
+    },
+    {
+      "personName": "王大禮 (Wang Dali)",
+      "year": 669,
+      "keep": {
+        "id": "evt-rich2-wang-da-li-613-1",
+        "title": "）二月廿四，王大礼去世，公主驸马陪葬昭陵",
+        "score": 510.5
+      },
+      "delete": [
+        {
+          "id": "evt-deep5a-wang-da-li-613-death",
+          "title": "王大禮去世",
+          "score": 382
+        }
+      ]
+    },
+    {
+      "personName": "王安石 (Wang Anshi)",
+      "year": 1058,
+      "keep": {
+        "id": "evt-wanganshi-essay",
+        "title": "王安石上万言书",
+        "score": 740
+      },
+      "delete": [
+        {
+          "id": "evt-deep2-----0",
+          "title": "王安石上万言书倡言变法",
+          "score": 575
+        }
+      ]
+    },
+    {
+      "personName": "王安石 (Wang Anshi)",
+      "year": 1069,
+      "keep": {
+        "id": "evt-wanganshi-xining-reforms",
+        "title": "王安石推行熙宁变法",
+        "score": 744
+      },
+      "delete": [
+        {
+          "id": "evt-deep2-----1",
+          "title": "宋神宗任命王安石推行熙宁变法",
+          "score": 679
+        },
+        {
+          "id": "evt-wang-anshi-reform",
+          "title": "王安石变法（熙宁变法）",
+          "score": 679
+        },
+        {
+          "id": "evt-songshenzong-reform",
+          "title": "宋神宗与熙宁变法",
+          "score": 607.5
+        }
+      ]
+    },
+    {
+      "personName": "王安礼",
+      "year": 1034,
+      "keep": {
+        "id": "evt-newpub-王安礼-event-1034",
+        "title": "王安礼·－1095年），字和甫，北宋诗人，抚州临川县（今江西省抚州市",
+        "score": 817.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-王安礼",
+          "title": "王安礼生平",
+          "score": -326.5
+        }
+      ]
+    },
+    {
+      "personName": "王居正 (Wang Juzheng (2))",
+      "year": 1112,
+      "keep": {
+        "id": "evt-rich-wang-ju-zheng-1087-exam",
+        "title": "王居正科举及第",
+        "score": 603.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-wang-ju-zheng-1087-office3",
+          "title": "王居正任官",
+          "score": 603.5
+        }
+      ]
+    },
+    {
+      "personName": "王棻 (Wang Fen)",
+      "year": 1867,
+      "keep": {
+        "id": "evt-rich-wang-fen-1828-exam",
+        "title": "王棻科举及第",
+        "score": 603.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-wang-fen-1828-office0",
+          "title": "王棻任官",
+          "score": 603.5
+        }
+      ]
+    },
+    {
+      "personName": "王闓運 (Wang Kaiyun)",
+      "year": 1832,
+      "keep": {
+        "id": "evt-birth-wang-kai-yun-1832",
+        "title": "王闓運出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-wang-kai-yun-1832",
+          "title": "王闓運生平",
+          "score": -335
+        }
+      ]
+    },
+    {
+      "personName": "理查一世（狮心王） (Richard I (the Lionheart))",
+      "year": 1157,
+      "keep": {
+        "id": "evt-mass-richard-i-birth",
+        "title": "理查一世（狮心王）出生",
+        "score": 273.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-richard-i",
+          "title": "理查一世（狮心王）生平",
+          "score": 115.5
+        }
+      ]
+    },
+    {
+      "personName": "盛宣懷 (Sheng Xuanhuai)",
+      "year": 1844,
+      "keep": {
+        "id": "evt-birth-sheng-xuan-huai-1844",
+        "title": "盛宣懷出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-sheng-xuan-huai-1844",
+          "title": "盛宣懷生平",
+          "score": -246
+        }
+      ]
+    },
+    {
+      "personName": "禹之謨 (Yu Zhimo)",
+      "year": 1866,
+      "keep": {
+        "id": "evt-birth-yu-zhi-mo-1866",
+        "title": "禹之謨出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-yu-zhi-mo-1866",
+          "title": "禹之謨生平",
+          "score": -402
+        }
+      ]
+    },
+    {
+      "personName": "秦力山 (Qin Lishan)",
+      "year": 1878,
+      "keep": {
+        "id": "evt-birth-qin-li-shan-1878",
+        "title": "秦力山出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-qin-li-shan-1878",
+          "title": "秦力山生平",
+          "score": -382
+        }
+      ]
+    },
+    {
+      "personName": "秦汾 (Qin Fen)",
+      "year": 1922,
+      "keep": {
+        "id": "evt-struct3-qin-fen-1882-科学家-extra",
+        "title": "秦汾·科学发现",
+        "score": 275
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-qin-fen-1882-实业家-extra",
+          "title": "秦汾·事业成功",
+          "score": 199
+        }
+      ]
+    },
+    {
+      "personName": "章懿李皇后",
+      "year": 987,
+      "keep": {
+        "id": "evt-newpub-章懿李皇后-event-987",
+        "title": "章懿李皇后·－1032年），李氏，杭州人，宋真宗妃嫔，宋仁宗赵祯生母",
+        "score": 787.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-章懿李皇后",
+          "title": "章懿李皇后生平",
+          "score": -404.5
+        }
+      ]
+    },
+    {
+      "personName": "章献皇后",
+      "year": 969,
+      "keep": {
+        "id": "evt-newpub-章献皇后-event-969",
+        "title": "章献皇后·－1033年5月11日），姓刘，名字无记载，野史称刘娥，益州",
+        "score": 865.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-章献皇后",
+          "title": "章献皇后生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "繆昌期 (Miao Changqi)",
+      "year": 1613,
+      "keep": {
+        "id": "evt-rich-mou-chang-qi-1562-exam",
+        "title": "繆昌期科举及第",
+        "score": 605.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-mou-chang-qi-1562-office22",
+          "title": "繆昌期任官",
+          "score": 605.5
+        }
+      ]
+    },
+    {
+      "personName": "罗忠忱 (Luo Zhong Chen)",
+      "year": 1921,
+      "keep": {
+        "id": "evt-rich2-luo-zhong-chen-1880-1",
+        "title": "7月至1922年7月擔任唐山交大校長",
+        "score": 611
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-luo-zhong-chen-1880-科学家-extra",
+          "title": "罗忠忱·科学发现",
+          "score": 277
+        }
+      ]
+    },
+    {
+      "personName": "耶律罨撤葛",
+      "year": 935,
+      "keep": {
+        "id": "evt-newpub-耶律罨撤葛-event-935",
+        "title": "耶律罨撤葛·－972年）为辽太宗次子，辽穆宗述律同母之次弟，辽景宗继位之",
+        "score": 867.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-耶律罨撤葛",
+          "title": "耶律罨撤葛生平",
+          "score": -384.5
+        }
+      ]
+    },
+    {
+      "personName": "耶律长寿女",
+      "year": 975,
+      "keep": {
+        "id": "evt-newpub-耶律长寿女-event-975",
+        "title": "耶律长寿女·－1017年），为契丹（遼朝）皇女，辽景宗耶律贤和皇后萧绰的",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-耶律长寿女",
+          "title": "耶律长寿女生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "胡西园 (Hu Xi Yuan)",
+      "year": 1936,
+      "keep": {
+        "id": "evt-struct3-hu-xi-yuan-1900-科学家-extra",
+        "title": "胡西园·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-hu-xi-yuan-1900-实业家-extra",
+          "title": "胡西园·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "苏轼 (Su Shi (Su Dongpo))",
+      "year": 1057,
+      "keep": {
+        "id": "evt-deep----1057",
+        "title": "苏轼进士及第轰动京师",
+        "score": 1631
+      },
+      "delete": [
+        {
+          "id": "evt-su-shi-major",
+          "title": "苏轼进士及第",
+          "score": 1301
+        }
+      ]
+    },
+    {
+      "personName": "苏轼 (Su Shi (Su Dongpo))",
+      "year": 1079,
+      "keep": {
+        "id": "evt-deep----1079",
+        "title": "乌台诗案：苏轼入狱百日",
+        "score": 1686
+      },
+      "delete": [
+        {
+          "id": "evt-sushi-wutai-trial",
+          "title": "乌台诗案贬谪黄州",
+          "score": 745
+        },
+        {
+          "id": "evt-wutai",
+          "title": "乌台诗案",
+          "score": 667
+        }
+      ]
+    },
+    {
+      "personName": "苏轼 (Su Shi (Su Dongpo))",
+      "year": 1080,
+      "keep": {
+        "id": "evt-deep----1080",
+        "title": "苏轼贬谪黄州自号东坡居士",
+        "score": 1553
+      },
+      "delete": [
+        {
+          "id": "evt-sushi-huangzhou",
+          "title": "苏轼被贬黄州",
+          "score": 685
+        }
+      ]
+    },
+    {
+      "personName": "苏轼 (Su Shi (Su Dongpo))",
+      "year": 1094,
+      "keep": {
+        "id": "evt-deep----1094",
+        "title": "苏轼贬谪惠州再谪儋州",
+        "score": 1592
+      },
+      "delete": [
+        {
+          "id": "evt-sushi-lingnan",
+          "title": "苏轼被贬岭南",
+          "score": 507
+        }
+      ]
+    },
+    {
+      "personName": "苏颂 (Su Song)",
+      "year": 1056,
+      "keep": {
+        "id": "evt-struct3-su-song-科学家-extra",
+        "title": "苏颂·科学发现",
+        "score": 282.5
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-su-song-政治家-extra",
+          "title": "苏颂·政治影响",
+          "score": 204.5
+        }
+      ]
+    },
+    {
+      "personName": "范仲淹 (Fan Zhongyan)",
+      "year": 1043,
+      "keep": {
+        "id": "evt-tsymq-0021",
+        "title": "范仲淹主持庆历新政",
+        "score": 1169.5
+      },
+      "delete": [
+        {
+          "id": "evt-fanzhongyan-reform",
+          "title": "庆历新政",
+          "score": 601.5
+        }
+      ]
+    },
+    {
+      "personName": "范仲淹 (Fan Zhongyan)",
+      "year": 1046,
+      "keep": {
+        "id": "evt-tsymq-0022",
+        "title": "范仲淹作《岳阳楼记》",
+        "score": 1180.5
+      },
+      "delete": [
+        {
+          "id": "evt-fanzhongyan-yueyang",
+          "title": "《岳阳楼记》",
+          "score": 615.5
+        }
+      ]
+    },
+    {
+      "personName": "范旭东 (Fan Xu Dong)",
+      "year": 1910,
+      "keep": {
+        "id": "evt-struct3-fan-xu-dong-1883-科学家-extra",
+        "title": "范旭东·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-fan-xu-dong-1883-实业家-extra",
+          "title": "范旭东·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "萨本炘 (Sa Ben Xin)",
+      "year": 1928,
+      "keep": {
+        "id": "evt-struct3-sa-ben-xin-1898-科学家-extra",
+        "title": "萨本炘·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-sa-ben-xin-1898-实业家-extra",
+          "title": "萨本炘·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "蔡卞 (Cai Bian)",
+      "year": 1070,
+      "keep": {
+        "id": "evt-rich-cai-bian-1058-exam",
+        "title": "蔡卞科举及第",
+        "score": 617.5
+      },
+      "delete": [
+        {
+          "id": "evt-rich-cai-bian-1058-office2",
+          "title": "蔡卞任官",
+          "score": 617.5
+        }
+      ]
+    },
+    {
+      "personName": "蔡鍔 (Cai E)",
+      "year": 1882,
+      "keep": {
+        "id": "evt-birth-cai-e-1882",
+        "title": "蔡鍔出生",
+        "score": 198
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-cai-e-1882",
+          "title": "蔡鍔生平",
+          "score": -251
+        }
+      ]
+    },
+    {
+      "personName": "蘇兆奎 (Su Zhao Kui)",
+      "year": 1904,
+      "keep": {
+        "id": "evt-rich-su-zhao-kui-1879-exam",
+        "title": "蘇兆奎科举及第",
+        "score": 630
+      },
+      "delete": [
+        {
+          "id": "evt-rich-su-zhao-kui-1879-office20",
+          "title": "蘇兆奎任官",
+          "score": 630
+        }
+      ]
+    },
+    {
+      "personName": "裴寂 (Pei Ji (4))",
+      "year": 618,
+      "keep": {
+        "id": "evt-rich-pei-ji-570-office15",
+        "title": "裴寂任官",
+        "score": 730
+      },
+      "delete": [
+        {
+          "id": "evt-rich2-pei-ji-570-1",
+          "title": "）至六年（623年）为尚书右僕射，六年至九年（626年）正月…",
+          "score": 564
+        }
+      ]
+    },
+    {
+      "personName": "褚玠 (Chu Jie)",
+      "year": 529,
+      "keep": {
+        "id": "evt-newpub-chu-jie-529-event-529",
+        "title": "褚玠·－580年），字温理，祖籍河南阳翟，后迁到钱唐（今杭州）",
+        "score": 790
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-chu-jie-529",
+          "title": "褚玠生平",
+          "score": -376
+        }
+      ]
+    },
+    {
+      "personName": "费士寅",
+      "year": 1160,
+      "keep": {
+        "id": "evt-newpub-费士寅-event-1160",
+        "title": "费士寅·－1230年），字戒夫，成都府（今四川省成都市）人",
+        "score": 779.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-费士寅",
+          "title": "费士寅生平",
+          "score": -432.5
+        }
+      ]
+    },
+    {
+      "personName": "赵明诚",
+      "year": 1081,
+      "keep": {
+        "id": "evt-newpub-赵明诚-event-1081",
+        "title": "赵明诚·－1129年9月3日），字德甫，又作德父",
+        "score": 769.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-赵明诚",
+          "title": "赵明诚生平",
+          "score": -430.5
+        }
+      ]
+    },
+    {
+      "personName": "赵禼",
+      "year": 1026,
+      "keep": {
+        "id": "evt-newpub-赵禼-event-1026",
+        "title": "赵禼·－1090年）字公才，邛州依政（今四川成都邛崍市）人，北宋政",
+        "score": 799.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-赵禼",
+          "title": "赵禼生平",
+          "score": -426.5
+        }
+      ]
+    },
+    {
+      "personName": "趙藩 (Zhao Fan)",
+      "year": 1875,
+      "keep": {
+        "id": "evt-rich-zhao-fan-1851-exam",
+        "title": "趙藩科举及第",
+        "score": 640
+      },
+      "delete": [
+        {
+          "id": "evt-rich-zhao-fan-1851-office6",
+          "title": "趙藩任官",
+          "score": 640
+        }
+      ]
+    },
+    {
+      "personName": "邓洵武",
+      "year": 1055,
+      "keep": {
+        "id": "evt-newpub-邓洵武-event-1055",
+        "title": "邓洵武·－1121年），字子常，北宋成都府双流县（今四川省成都市双流",
+        "score": 793.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-邓洵武",
+          "title": "邓洵武生平",
+          "score": -398.5
+        }
+      ]
+    },
+    {
+      "personName": "郭虚中 (Guo Xu Zhong)",
+      "year": 1938,
+      "keep": {
+        "id": "evt-struct3-guo-xu-zhong-1912-科学家-extra",
+        "title": "郭虚中·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-guo-xu-zhong-1912-实业家-extra",
+          "title": "郭虚中·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "釋紹宗 (Shi Shaozong)",
+      "year": 1074,
+      "keep": {
+        "id": "evt-birth-shi-shao-zong-1074",
+        "title": "釋紹宗出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-shi-shao-zong-1074",
+          "title": "釋紹宗生平",
+          "score": -444.5
+        }
+      ]
+    },
+    {
+      "personName": "錢弘儇 (Qian Hongxuan)",
+      "year": 913,
+      "keep": {
+        "id": "evt-newpub-qian-hong-xuan-913-event-913",
+        "title": "錢弘儇·－966年），字智仁，杭州錢塘（今浙江杭州）人，五代十國的吳",
+        "score": 850
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-qian-hong-xuan-913",
+          "title": "錢弘儇生平",
+          "score": -334
+        }
+      ]
+    },
+    {
+      "personName": "鍾繇 (Zhong You)",
+      "year": 151,
+      "keep": {
+        "id": "evt-newpub-zhong-yao-151-event-151",
+        "title": "鍾繇·－230年），字元常，豫州潁川長社（今河南长葛）人，三国代曹",
+        "score": 833.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-zhong-yao-151",
+          "title": "鍾繇生平",
+          "score": -378.5
+        }
+      ]
+    },
+    {
+      "personName": "钱传璛",
+      "year": 890,
+      "keep": {
+        "id": "evt-newpub-钱传璛-event-890",
+        "title": "钱传璛·－925年），杭州錢塘（今浙江杭州）人，又名钱传琇，是五代十",
+        "score": 855.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱传璛",
+          "title": "钱传璛生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱传璟",
+      "year": 891,
+      "keep": {
+        "id": "evt-newpub-钱传璟-event-891",
+        "title": "钱传璟·－921年），杭州錢塘（今浙江杭州）人，是五代十國的吳越國武",
+        "score": 843.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱传璟",
+          "title": "钱传璟生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元懿",
+      "year": 886,
+      "keep": {
+        "id": "evt-newpub-钱元懿-event-886",
+        "title": "钱元懿·－951年），杭州錢塘（今浙江杭州）人，字秉徽，五代十國的吳",
+        "score": 809.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元懿",
+          "title": "钱元懿生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元珦",
+      "year": 889,
+      "keep": {
+        "id": "evt-newpub-钱元珦-event-889",
+        "title": "钱元珦·－937年），杭州錢塘（今浙江杭州）人，五代十國的吳越國武肃",
+        "score": 803.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元珦",
+          "title": "钱元珦生平",
+          "score": -386.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元珰",
+      "year": 899,
+      "keep": {
+        "id": "evt-newpub-钱元珰-event-899",
+        "title": "钱元珰·－970年），杭州錢塘（今浙江杭州）人，五代十國的吳越國武肃",
+        "score": 805.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元珰",
+          "title": "钱元珰生平",
+          "score": -384.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元球",
+      "year": 888,
+      "keep": {
+        "id": "evt-newpub-钱元球-event-888",
+        "title": "钱元球·－937年），杭州錢塘（今浙江杭州）人，五代十國的吳越國武肃",
+        "score": 801.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元球",
+          "title": "钱元球生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元璙",
+      "year": 887,
+      "keep": {
+        "id": "evt-newpub-钱元璙-event-887",
+        "title": "钱元璙·－942年），字德辉，杭州錢塘（今浙江杭州）人，原名钱传璙，",
+        "score": 861.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元璙",
+          "title": "钱元璙生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元璲",
+      "year": 880,
+      "keep": {
+        "id": "evt-newpub-钱元璲-event-880",
+        "title": "钱元璲·－933年），原名钱传璲，杭州錢塘（今浙江杭州）人，是五代十",
+        "score": 815.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元璲",
+          "title": "钱元璲生平",
+          "score": -386.5
+        }
+      ]
+    },
+    {
+      "personName": "钱元瞿",
+      "year": 887,
+      "keep": {
+        "id": "evt-newpub-钱元瞿-event-887",
+        "title": "钱元瞿·－924年），杭州錢塘（今浙江杭州）人，是五代十國的吳越國武",
+        "score": 839.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱元瞿",
+          "title": "钱元瞿生平",
+          "score": -406.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘仪",
+      "year": 932,
+      "keep": {
+        "id": "evt-newpub-钱弘仪-event-932",
+        "title": "钱弘仪·－979年），字延世，杭州錢塘（今浙江杭州）人，五代十國的吳",
+        "score": 829.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘仪",
+          "title": "钱弘仪生平",
+          "score": -304.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘仰",
+      "year": 935,
+      "keep": {
+        "id": "evt-newpub-钱弘仰-event-935",
+        "title": "钱弘仰·－958年），杭州錢塘（今浙江杭州）人，是五代十國的吳越國國",
+        "score": 823.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘仰",
+          "title": "钱弘仰生平",
+          "score": -428.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘偓",
+      "year": 934,
+      "keep": {
+        "id": "evt-newpub-钱弘偓-event-934",
+        "title": "钱弘偓·－958年），杭州錢塘（今浙江杭州）人，字赞尧，是五代十國的",
+        "score": 831.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘偓",
+          "title": "钱弘偓生平",
+          "score": -406.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘偡",
+      "year": 929,
+      "keep": {
+        "id": "evt-newpub-钱弘偡-event-929",
+        "title": "钱弘偡·－966年），字惠达，杭州錢塘（今浙江杭州）人，五代十國的吳",
+        "score": 827.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘偡",
+          "title": "钱弘偡生平",
+          "score": -400.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘僔",
+      "year": 927,
+      "keep": {
+        "id": "evt-newpub-钱弘僔-event-927",
+        "title": "钱弘僔·－940年），杭州錢塘（今浙江杭州）人，五代十國的吳越國國王",
+        "score": 861.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘僔",
+          "title": "钱弘僔生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "钱弘儇",
+      "year": 913,
+      "keep": {
+        "id": "evt-newpub-钱弘儇-event-913",
+        "title": "钱弘儇·－966年），字智仁，杭州錢塘（今浙江杭州）人，五代十國的吳",
+        "score": 827.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱弘儇",
+          "title": "钱弘儇生平",
+          "score": -382.5
+        }
+      ]
+    },
+    {
+      "personName": "钱惟演",
+      "year": 977,
+      "keep": {
+        "id": "evt-newpub-钱惟演-event-977",
+        "title": "钱惟演·－1034年），字希圣，钱塘（今浙江杭州）人，中国北宋詩人，",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱惟演",
+          "title": "钱惟演生平",
+          "score": -296.5
+        }
+      ]
+    },
+    {
+      "personName": "钱惟濬",
+      "year": 955,
+      "keep": {
+        "id": "evt-newpub-钱惟濬-event-955",
+        "title": "钱惟濬·－991年），字禹川，錢塘（今浙江杭州）人",
+        "score": 769.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱惟濬",
+          "title": "钱惟濬生平",
+          "score": -440.5
+        }
+      ]
+    },
+    {
+      "personName": "钱景臻",
+      "year": 1043,
+      "keep": {
+        "id": "evt-newpub-钱景臻-event-1043",
+        "title": "钱景臻·－1126年）字道邃，钱塘（今浙江杭州）人",
+        "score": 761.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-钱景臻",
+          "title": "钱景臻生平",
+          "score": -462.5
+        }
+      ]
+    },
+    {
+      "personName": "長孫無忌 (Zhangsun Wuji)",
+      "year": 659,
+      "keep": {
+        "id": "evt-deep5a-zhang-sun-wu-ji-death",
+        "title": "長孫無忌去世",
+        "score": 384
+      },
+      "delete": [
+        {
+          "id": "evt-5c-zhang-sun-wu-ji-death",
+          "title": "長孫無忌逝世",
+          "score": 250
+        }
+      ]
+    },
+    {
+      "personName": "阮性存 (Ruan Xingcun)",
+      "year": 1874,
+      "keep": {
+        "id": "evt-birth-ruan-xing-cun-1874",
+        "title": "阮性存出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-ruan-xing-cun-1874",
+          "title": "阮性存生平",
+          "score": -309
+        }
+      ]
+    },
+    {
+      "personName": "陆知命",
+      "year": 548,
+      "keep": {
+        "id": "evt-newpub-陆知命-event-548",
+        "title": "陆知命·－614年），中国隋朝政治人物，表字仲通，吴郡富春县（今浙江",
+        "score": 803.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-陆知命",
+          "title": "陆知命生平",
+          "score": -446.5
+        }
+      ]
+    },
+    {
+      "personName": "陈洪进",
+      "year": 914,
+      "keep": {
+        "id": "evt-newpub-陈洪进-event-914",
+        "title": "陈洪进·－985年），字濟川，籍貫清源郡仙遊（今福建莆田仙遊縣）人，",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-陈洪进",
+          "title": "陈洪进生平",
+          "score": -296.5
+        }
+      ]
+    },
+    {
+      "personName": "陳友諒 (Chen Youliang)",
+      "year": 1320,
+      "keep": {
+        "id": "evt-birth-chen-you-liang-1320",
+        "title": "陳友諒出生",
+        "score": 199
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-chen-you-liang-1320",
+          "title": "陳友諒生平",
+          "score": -318.5
+        }
+      ]
+    },
+    {
+      "personName": "陳尚文 (Chen Shang Wen)",
+      "year": 1929,
+      "keep": {
+        "id": "evt-struct3-chen-shang-wen-1897-科学家-extra",
+        "title": "陳尚文·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-chen-shang-wen-1897-实业家-extra",
+          "title": "陳尚文·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "韦敻",
+      "year": 502,
+      "keep": {
+        "id": "evt-newpub-韦敻-event-502",
+        "title": "韦敻·－578年），字敬远，京兆郡杜陵县（今陕西省西安市长安区）人",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-韦敻",
+          "title": "韦敻生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "韩愈 (Han Yu)",
+      "year": 819,
+      "keep": {
+        "id": "evt-tsymq-0008",
+        "title": "韩愈谏迎佛骨贬谪潮州",
+        "score": 1196.5
+      },
+      "delete": [
+        {
+          "id": "evt-tsymq-0010",
+          "title": "韩愈刺潮八月兴学驱鳄",
+          "score": 1080.5
+        }
+      ]
+    },
+    {
+      "personName": "顧雍 (Gu Yong)",
+      "year": 168,
+      "keep": {
+        "id": "evt-newpub-gu-yong-168-event-168",
+        "title": "顧雍·－243年），字元歎，吳郡吳縣（今江苏省苏州市）人，是三国時",
+        "score": 876
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-gu-yong-168",
+          "title": "顧雍生平",
+          "score": -334
+        }
+      ]
+    },
+    {
+      "personName": "颜之推",
+      "year": 531,
+      "keep": {
+        "id": "evt-newpub-颜之推-event-531",
+        "title": "颜之推·－591年），字介，瑯琊臨沂（在今山东省）人，南梁至隋朝皆为",
+        "score": 809.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-颜之推",
+          "title": "颜之推生平",
+          "score": -442.5
+        }
+      ]
+    },
+    {
+      "personName": "马绰",
+      "year": 850,
+      "keep": {
+        "id": "evt-newpub-马绰-event-850",
+        "title": "马绰·－921年），是五代十国时期吴越国官员，余杭（今浙江省杭州市",
+        "score": 779.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-马绰",
+          "title": "马绰生平",
+          "score": -462.5
+        }
+      ]
+    },
+    {
+      "personName": "鲁肃",
+      "year": 172,
+      "keep": {
+        "id": "evt-newpub-鲁肃-event-172",
+        "title": "鲁肃·－217年），字子敬，临淮郡东城县（今安徽省定远县）人，東漢",
+        "score": 877.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-鲁肃",
+          "title": "鲁肃生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "黃亞福 (Huang Ya Fu)",
+      "year": 1873,
+      "keep": {
+        "id": "evt-struct3-huang-ya-fu-1837-科学家-extra",
+        "title": "黃亞福·科学发现",
+        "score": 277
+      },
+      "delete": [
+        {
+          "id": "evt-struct3-huang-ya-fu-1837-实业家-extra",
+          "title": "黃亞福·事业成功",
+          "score": 201
+        }
+      ]
+    },
+    {
+      "personName": "黄居采",
+      "year": 933,
+      "keep": {
+        "id": "evt-newpub-黄居采-event-933",
+        "title": "黄居采·－993年以後），字伯鸞，四川成都人",
+        "score": 763.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-黄居采",
+          "title": "黄居采生平",
+          "score": -376.5
+        }
+      ]
+    },
+    {
+      "personName": "黄荃",
+      "year": 903,
+      "keep": {
+        "id": "evt-newpub-黄荃-event-903",
+        "title": "黄荃·－965年），字要叔，四川成都人，五代十國西蜀畫家",
+        "score": 775.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-黄荃",
+          "title": "黄荃生平",
+          "score": -394.5
+        }
+      ]
+    },
+    {
+      "personName": "龚美",
+      "year": 962,
+      "keep": {
+        "id": "evt-newpub-龚美-event-962",
+        "title": "龚美·－1021年），表字世济，益州华阳县（今四川省成都市）人，北",
+        "score": 782.5
+      },
+      "delete": [
+        {
+          "id": "evt-lifespan-龚美",
+          "title": "龚美生平",
+          "score": -460.5
+        }
+      ]
+    }
+  ]
+}
