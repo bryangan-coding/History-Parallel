@@ -4,7 +4,7 @@ import { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import type { Person, HistoricalEvent } from '@/lib/types';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, eventTitle, eventSummary } from '@/lib/types';
-import { Minus, Plus, X } from 'lucide-react';
+import { Minus, Plus, X, Maximize2 } from 'lucide-react';
 
 // ==================== Constants ====================
 
@@ -15,22 +15,26 @@ const PERSON_COLORS = [
 
 const BASE_PX_PER_YEAR = 6;
 const ZOOM_STEPS = [0.5, 0.75, 1, 1.5, 2, 3];
-const PADDING_TOP = 72;
+const PADDING_TOP = 56;
 const PADDING_BOTTOM = 48;
-const AXIS_WIDTH = 48;
+const AXIS_WIDTH = 52;
 const MAIN_PANEL_WIDTH = 420;
-const COMPARE_COL_WIDTH = 280;
-const EVENT_CARD_HEIGHT = 48;
-const MIN_EVENT_GAP = 8;
-const EVENT_LIMIT_MAIN = 80;
-const EVENT_LIMIT_COMPARE = 40;
-const LANE_OFFSETS = [16, 150, 284];
+const COMPARE_COL_WIDTH = 240;
+const CARD_MIN_HEIGHT = 40;
+const MERGE_WINDOW = 5; // merge events within 5 years
 
 // ==================== Helpers ====================
 
 function fmtYear(y: number): string {
   if (y < 0) return `前${Math.abs(y)}`;
   return String(y);
+}
+
+interface MergedCard {
+  events: HistoricalEvent[];
+  startYear: number;
+  endYear: number;
+  y: number;
 }
 
 // ==================== Component ====================
@@ -46,8 +50,8 @@ export default function VerticalCompareTimeline({
 }: VerticalCompareTimelineProps) {
   const { locale, t } = useLocale();
   const [zoomIndex, setZoomIndex] = useState(2);
-  const [selectedEvent, setSelectedEvent] = useState<HistoricalEvent | null>(null);
-  const [selectedEventPerson, setSelectedEventPerson] = useState<Person | null>(null);
+  const [expandedCard, setExpandedCard] = useState<MergedCard | null>(null);
+  const [expandedPerson, setExpandedPerson] = useState<Person | null>(null);
   const [showAllMain, setShowAllMain] = useState(false);
   const [showAllCompare, setShowAllCompare] = useState<Record<string, boolean>>({});
   const zoom = ZOOM_STEPS[zoomIndex];
@@ -76,9 +80,50 @@ export default function VerticalCompareTimeline({
   const mainPerson = people[0];
   const comparisonPeople = people.slice(1, 6);
 
+  // 上方=更早: year越小Y越小
   function yearToY(year: number): number {
-    return PADDING_TOP + (maxYear - year) * pixelsPerYear;
+    return PADDING_TOP + (year - minYear) * pixelsPerYear;
   }
+
+  // ===== Merge events into cards =====
+  function mergeEvents(events: HistoricalEvent[]): MergedCard[] {
+    if (events.length === 0) return [];
+    const sorted = [...events]
+      .filter(e => e.startYear != null)
+      .sort((a, b) => (a.startYear ?? 0) - (b.startYear ?? 0));
+
+    const cards: MergedCard[] = [];
+    for (const evt of sorted) {
+      const last = cards[cards.length - 1];
+      const year = evt.startYear!;
+      if (last && Math.abs(year - last.startYear) <= MERGE_WINDOW) {
+        last.events.push(evt);
+        last.endYear = Math.max(last.endYear, evt.endYear ?? year);
+        last.y = yearToY(last.startYear);
+      } else {
+        cards.push({
+          events: [evt],
+          startYear: year,
+          endYear: evt.endYear ?? year,
+          y: yearToY(year),
+        });
+      }
+    }
+    return cards;
+  }
+
+  const mainCards = useMemo(() => {
+    if (!mainPerson) return [];
+    return mergeEvents(allEvents.get(mainPerson.id) ?? []);
+  }, [mainPerson, allEvents, pixelsPerYear, minYear]);
+
+  const compareCardsMap = useMemo(() => {
+    const map = new Map<string, MergedCard[]>();
+    for (const p of comparisonPeople) {
+      map.set(p.id, mergeEvents(allEvents.get(p.id) ?? []));
+    }
+    return map;
+  }, [comparisonPeople, allEvents, pixelsPerYear, minYear]);
 
   const yearTicks = useMemo(() => {
     const span = maxYear - minYear;
@@ -89,7 +134,6 @@ export default function VerticalCompareTimeline({
     else if (span <= 1000) step = 50;
     else if (span <= 2000) step = 100;
     else step = 200;
-
     const ticks: { year: number; y: number }[] = [];
     const start = Math.ceil(minYear / step) * step;
     for (let y = start; y <= maxYear; y += step) {
@@ -98,79 +142,17 @@ export default function VerticalCompareTimeline({
     return ticks;
   }, [minYear, maxYear, pixelsPerYear]);
 
-  const layoutMainEvents = useMemo(() => {
-    if (!mainPerson) return [];
-    const rawEvents = (allEvents.get(mainPerson.id) ?? [])
-      .filter((e) => e.startYear != null)
-      .sort((a, b) => (a.startYear ?? 0) - (b.startYear ?? 0));
-
-    interface Placed { event: HistoricalEvent; y: number; lane: number; }
-    const placed: Placed[] = [];
-    const lastYPerLane: number[] = [-Infinity, -Infinity, -Infinity];
-
-    for (const event of rawEvents) {
-      const baseY = yearToY(event.startYear!);
-      let bestLane = -1;
-
-      for (let lane = 0; lane < 3; lane++) {
-        if (lastYPerLane[lane] === -Infinity) { bestLane = lane; break; }
-        if (lastYPerLane[lane] - baseY >= EVENT_CARD_HEIGHT + MIN_EVENT_GAP) {
-          if (bestLane === -1 || lastYPerLane[lane] > lastYPerLane[bestLane]) {
-            bestLane = lane;
-          }
-        }
-      }
-      if (bestLane === -1) bestLane = lastYPerLane.indexOf(Math.max(...lastYPerLane));
-
-      placed.push({ event, y: baseY, lane: bestLane });
-      lastYPerLane[bestLane] = baseY;
-    }
-    return placed;
-  }, [mainPerson, allEvents, pixelsPerYear, minYear, maxYear]);
-
-  const layoutCompareEvents = useCallback(
-    (person: Person) => {
-      const rawEvents = (allEvents.get(person.id) ?? [])
-        .filter((e) => e.startYear != null)
-        .sort((a, b) => (a.startYear ?? 0) - (b.startYear ?? 0));
-      interface Placed { event: HistoricalEvent; y: number; }
-      const placed: Placed[] = [];
-      const lastYPerLane: number[] = [-Infinity, -Infinity];
-      for (const event of rawEvents) {
-        const baseY = yearToY(event.startYear!);
-        let bestLane = 0;
-        const minGap = 18;
-        let maxLastY = -Infinity;
-        for (let lane = 0; lane < 2; lane++) {
-          if (lastYPerLane[lane] === -Infinity) { bestLane = lane; break; }
-          if (lastYPerLane[lane] - baseY >= minGap) {
-            if (maxLastY === -Infinity || lastYPerLane[lane] > maxLastY) {
-              bestLane = lane; maxLastY = lastYPerLane[lane];
-            }
-          }
-        }
-        if (maxLastY === -Infinity && lastYPerLane[0] !== -Infinity) {
-          bestLane = lastYPerLane[0] > lastYPerLane[1] ? 0 : 1;
-        }
-        placed.push({ event, y: baseY });
-        lastYPerLane[bestLane] = baseY;
-      }
-      return placed;
-    },
-    [allEvents, pixelsPerYear, minYear, maxYear],
-  );
-
-  const openModal = useCallback((event: HistoricalEvent, person: Person) => {
-    setSelectedEvent(event);
-    setSelectedEventPerson(person);
+  const openExpand = useCallback((card: MergedCard, person: Person) => {
+    setExpandedCard(card);
+    setExpandedPerson(person);
   }, []);
-  const closeModal = useCallback(() => { setSelectedEvent(null); setSelectedEventPerson(null); }, []);
+  const closeExpand = useCallback(() => { setExpandedCard(null); setExpandedPerson(null); }, []);
   useEffect(() => {
-    if (!selectedEvent) return;
-    const handler = (e: KeyboardEvent) => { if (e.key === 'Escape') closeModal(); };
-    window.addEventListener('keydown', handler);
-    return () => window.removeEventListener('keydown', handler);
-  }, [selectedEvent, closeModal]);
+    if (!expandedCard) return;
+    const h = (e: KeyboardEvent) => { if (e.key === 'Escape') closeExpand(); };
+    window.addEventListener('keydown', h);
+    return () => window.removeEventListener('keydown', h);
+  }, [expandedCard, closeExpand]);
 
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const savedCenterYearRef = useRef<number | null>(null);
@@ -180,20 +162,20 @@ export default function VerticalCompareTimeline({
     const container = scrollContainerRef.current;
     if (container) {
       const centerY = container.scrollTop + container.clientHeight / 2;
-      savedCenterYearRef.current = maxYear - (centerY - PADDING_TOP) / pixelsPerYear;
+      savedCenterYearRef.current = minYear + (centerY - PADDING_TOP) / pixelsPerYear;
     }
     setZoomIndex(newIndex);
-  }, [zoomIndex, maxYear, pixelsPerYear]);
+  }, [zoomIndex, minYear, pixelsPerYear]);
 
   const handleZoomOut = useCallback(() => {
     const newIndex = Math.max(0, zoomIndex - 1);
     const container = scrollContainerRef.current;
     if (container) {
       const centerY = container.scrollTop + container.clientHeight / 2;
-      savedCenterYearRef.current = maxYear - (centerY - PADDING_TOP) / pixelsPerYear;
+      savedCenterYearRef.current = minYear + (centerY - PADDING_TOP) / pixelsPerYear;
     }
     setZoomIndex(newIndex);
-  }, [zoomIndex, maxYear, pixelsPerYear]);
+  }, [zoomIndex, minYear, pixelsPerYear]);
 
   useEffect(() => {
     if (savedCenterYearRef.current == null) return;
@@ -202,17 +184,15 @@ export default function VerticalCompareTimeline({
     const centerYear = savedCenterYearRef.current;
     savedCenterYearRef.current = null;
     requestAnimationFrame(() => {
-      const targetY = PADDING_TOP + (maxYear - centerYear) * pixelsPerYear;
+      const targetY = yearToY(centerYear);
       container.scrollTop = targetY - container.clientHeight / 2;
     });
-  }, [pixelsPerYear, maxYear]);
+  }, [pixelsPerYear, minYear]);
 
-  // --- Horizontal mouse wheel scroll ---
   const hScrollRef = useRef<HTMLDivElement>(null);
   const handleHScrollWheel = useCallback((e: React.WheelEvent) => {
     const el = hScrollRef.current;
     if (!el) return;
-    // If horizontal scroll is possible, translate vertical wheel to horizontal
     if (el.scrollWidth > el.clientWidth) {
       e.preventDefault();
       el.scrollLeft += e.deltaY;
@@ -230,6 +210,14 @@ export default function VerticalCompareTimeline({
 
   const totalColsWidth = MAIN_PANEL_WIDTH + AXIS_WIDTH + Math.max(comparisonPeople.length * COMPARE_COL_WIDTH, 200);
 
+  // Scroll to birth year on mount
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container || !mainPerson?.birthYear) return;
+    const y = yearToY(mainPerson.birthYear);
+    container.scrollTop = y - container.clientHeight / 3;
+  }, []);
+
   return (
     <div className="mt-4">
       {/* Toolbar */}
@@ -237,221 +225,200 @@ export default function VerticalCompareTimeline({
         <div className="flex items-center gap-3">
           {mainPerson && (
             <div className="flex items-center gap-1.5">
-              <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: PERSON_COLORS[0] }} />
+              <div className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: PERSON_COLORS[0] }} />
               <span className="text-xs font-medium text-stone-600">{personName(mainPerson, locale)}</span>
-              <span className="text-[10px] text-stone-400 bg-stone-100 px-1.5 py-0.5 rounded">{t.compare.mainPerson || '主体'}</span>
             </div>
-          )}
-          {comparisonPeople.length > 0 && (
-            <span className="text-[10px] text-stone-400">vs {comparisonPeople.length} {locale === 'en' ? 'others' : '人对比'}</span>
           )}
         </div>
         <div className="flex items-center gap-0.5 bg-stone-100 rounded-lg p-0.5">
-          <button onClick={handleZoomOut} disabled={zoomIndex === 0} className="p-1.5 rounded-md hover:bg-white disabled:opacity-25 disabled:hover:bg-transparent text-stone-500" aria-label="Zoom out"><Minus size={14} /></button>
-          <span className="text-xs font-semibold text-stone-600 w-12 text-center tabular-nums select-none">{Math.round(zoom * 100)}%</span>
-          <button onClick={handleZoomIn} disabled={zoomIndex === ZOOM_STEPS.length - 1} className="p-1.5 rounded-md hover:bg-white disabled:opacity-25 disabled:hover:bg-transparent text-stone-500" aria-label="Zoom in"><Plus size={14} /></button>
+          <button onClick={handleZoomOut} disabled={zoomIndex === 0} className="p-1.5 rounded-md hover:bg-white disabled:opacity-25 text-stone-500"><Minus size={14} /></button>
+          <span className="text-xs font-semibold text-stone-600 w-12 text-center tabular-nums">{Math.round(zoom * 100)}%</span>
+          <button onClick={handleZoomIn} disabled={zoomIndex === ZOOM_STEPS.length - 1} className="p-1.5 rounded-md hover:bg-white disabled:opacity-25 text-stone-500"><Plus size={14} /></button>
         </div>
       </div>
 
-      {/* ========== Main Comparison Area: horizontal scroll via mouse wheel ========== */}
       <div className="border border-stone-200 rounded-xl bg-white shadow-sm overflow-hidden">
-        <div
-          ref={hScrollRef}
-          className="overflow-x-auto"
-          onWheel={handleHScrollWheel}
-          style={{ maxHeight: 'calc(100vh - 260px)' }}
-        >
-          <div className="flex" style={{ minHeight: totalHeight, width: totalColsWidth, minWidth: '100%' }}>
-            {/* ===== LEFT: Main Person ===== */}
-            <div className="flex-shrink-0 border-r border-stone-200/60 bg-gradient-to-r from-stone-50/50 to-white" style={{ width: MAIN_PANEL_WIDTH }}>
-              <div className="relative" style={{ height: totalHeight }}>
-                <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100 px-4 py-3">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2 min-w-0">
-                      <div className="w-2.5 h-2.5 rounded-full flex-shrink-0" style={{ backgroundColor: PERSON_COLORS[0], boxShadow: `0 0 0 1px #fff, 0 0 0 3px ${PERSON_COLORS[0]}30` }} />
+        <div ref={hScrollRef} className="overflow-x-auto" onWheel={handleHScrollWheel} style={{ maxHeight: 'calc(100vh - 200px)' }}>
+          <div ref={scrollContainerRef} className="overflow-y-auto" style={{ maxHeight: 'calc(100vh - 200px)' }}>
+            <div className="flex" style={{ minHeight: totalHeight, width: totalColsWidth, minWidth: '100%' }}>
+              {/* ===== LEFT: Main Person ===== */}
+              <div className="flex-shrink-0 border-r border-stone-200/60 bg-gradient-to-r from-stone-50/50 to-white" style={{ width: MAIN_PANEL_WIDTH }}>
+                <div className="relative" style={{ height: totalHeight }}>
+                  <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100 px-4 py-2.5">
+                    <div className="flex items-center justify-between">
                       <span className="text-sm font-semibold text-stone-800 truncate">{mainPerson ? personName(mainPerson, locale) : ''}</span>
+                      {mainPerson?.birthYear != null && mainPerson?.deathYear != null && (
+                        <span className="text-[11px] font-mono text-stone-400 ml-2">{fmtYear(mainPerson.birthYear)}–{fmtYear(mainPerson.deathYear)}</span>
+                      )}
                     </div>
-                    {mainPerson?.birthYear != null && mainPerson?.deathYear != null && (
-                      <span className="text-[11px] font-mono text-stone-400 tabular-nums flex-shrink-0 ml-2">{fmtYear(mainPerson.birthYear)}–{fmtYear(mainPerson.deathYear)}</span>
-                    )}
                   </div>
-                </div>
 
-                {mainPerson?.birthYear != null && mainPerson?.deathYear != null && (() => {
-                  const barTop = yearToY(mainPerson.deathYear);
-                  const barBottom = yearToY(mainPerson.birthYear);
-                  const barHeight = Math.max(barBottom - barTop, 6);
-                  return <div className="absolute left-0 w-1 rounded-full z-0 opacity-20" style={{ top: barTop, height: barHeight, backgroundColor: PERSON_COLORS[0] }} />;
-                })()}
+                  {/* Lifespan bar */}
+                  {mainPerson?.birthYear != null && mainPerson?.deathYear != null && (() => {
+                    const barTop = yearToY(mainPerson.birthYear);
+                    const barHeight = Math.max(yearToY(mainPerson.deathYear) - barTop, 4);
+                    return <div className="absolute left-2 w-1 rounded-full z-0 opacity-15" style={{ top: barTop, height: barHeight, backgroundColor: PERSON_COLORS[0] }} />;
+                  })()}
 
-                {(() => {
-                  const totalCount = layoutMainEvents.length;
-                  const displayedEvents = showAllMain ? layoutMainEvents : layoutMainEvents.slice(0, EVENT_LIMIT_MAIN);
-                  const hasMore = totalCount > EVENT_LIMIT_MAIN;
-                  return (
-                    <>
-                      {displayedEvents.map(({ event, y, lane }) => {
-                        const color = PERSON_COLORS[0];
-                        const evtTitle = eventTitle(event, locale);
-                        const evtSummary = eventSummary(event, locale);
-                        const year = event.startYear;
-                        const isBirth = event.tags?.includes('出生');
-                        const isDeath = event.tags?.includes('逝世');
-                        const leftOffset = LANE_OFFSETS[lane] ?? LANE_OFFSETS[0];
-                        const cardMaxWidth = MAIN_PANEL_WIDTH - leftOffset - 16;
-                        return (
-                          <div key={event.id} className="absolute" style={{ top: y, left: leftOffset, zIndex: 10 }}>
-                            <div className="bg-white border border-stone-200 rounded-md px-3 py-2 hover:border-stone-400 hover:shadow-md transition-all duration-150 cursor-pointer select-none"
-                              role="button" tabIndex={0} onClick={() => mainPerson && openModal(event, mainPerson)}
-                              onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); mainPerson && openModal(event, mainPerson); } }}
-                              style={{ width: cardMaxWidth, borderLeftWidth: 3, borderLeftColor: color, minHeight: EVENT_CARD_HEIGHT }}>
-                              <div className="flex items-start gap-1.5">
-                                <div className="w-2 h-2 rounded-full mt-0.5 flex-shrink-0" style={{ backgroundColor: isBirth || isDeath ? color : 'transparent', border: isBirth || isDeath ? 'none' : `2px solid ${color}` }} />
-                                <div className="min-w-0 flex-1">
-                                  <div className="text-xs font-medium text-stone-800 leading-tight line-clamp-2">{evtTitle}</div>
-                                  <div className="flex items-center gap-2 mt-0.5">
-                                    {year != null && <span className="text-[10px] font-mono text-stone-400 whitespace-nowrap tabular-nums">{fmtYear(year)}</span>}
-                                    {evtSummary && <span className="text-[10px] text-stone-400 truncate">{evtSummary}</span>}
+                  {/* Cards */}
+                  {(() => {
+                    const displayed = showAllMain ? mainCards : mainCards.slice(0, 30);
+                    return (
+                      <>
+                        {displayed.map((card, i) => {
+                          const color = PERSON_COLORS[0];
+                          const count = card.events.length;
+                          const primaryEvent = card.events[0];
+                          const isBirth = primaryEvent.tags?.includes('出生');
+                          const isDeath = primaryEvent.tags?.includes('逝世');
+                          return (
+                            <div key={i} className="absolute left-2 right-3 z-10" style={{ top: card.y }}>
+                              <div
+                                className="bg-white border border-stone-200 rounded-md px-2.5 py-1.5 hover:border-stone-400 hover:shadow-sm transition-all cursor-pointer"
+                                style={{ borderLeftWidth: 3, borderLeftColor: color, minHeight: CARD_MIN_HEIGHT }}
+                              >
+                                <div className="flex items-start gap-1.5">
+                                  <div className="w-1.5 h-1.5 rounded-full mt-1 flex-shrink-0" style={{ backgroundColor: isBirth || isDeath ? color : 'transparent', border: isBirth || isDeath ? 'none' : `2px solid ${color}` }} />
+                                  <div className="min-w-0 flex-1">
+                                    <div className="flex items-center gap-1">
+                                      <span className="text-[11px] font-medium text-stone-800 leading-tight line-clamp-1">{eventTitle(primaryEvent, locale)}</span>
+                                      {count > 1 && <span className="text-[10px] text-stone-400 bg-stone-100 px-1 rounded">+{count - 1}</span>}
+                                    </div>
+                                    <div className="flex items-center gap-2 mt-0.5">
+                                      <span className="text-[10px] font-mono text-stone-400">{fmtYear(card.startYear)}{card.endYear !== card.startYear ? `–${fmtYear(card.endYear)}` : ''}</span>
+                                    </div>
                                   </div>
+                                  <button
+                                    onClick={(e) => { e.stopPropagation(); mainPerson && openExpand(card, mainPerson); }}
+                                    className="flex-shrink-0 p-0.5 rounded hover:bg-stone-100 text-stone-400 hover:text-stone-600 transition-colors"
+                                    title="展开详情"
+                                  >
+                                    <Maximize2 size={12} />
+                                  </button>
                                 </div>
                               </div>
                             </div>
-                          </div>
-                        );
-                      })}
-                      {hasMore && (
-                        <div className="sticky bottom-0 z-20 bg-white/90 backdrop-blur-sm border-t border-stone-100 py-2 px-4 text-center">
-                          <button onClick={() => setShowAllMain(!showAllMain)} className="text-xs text-blue-600 hover:text-blue-700 font-medium">
-                            {showAllMain ? (locale === 'en' ? 'Show fewer' : '收起') : (locale === 'en' ? `Show all ${totalCount} events` : `显示全部 ${totalCount} 条事件`)}
-                          </button>
-                        </div>
-                      )}
-                    </>
-                  );
-                })()}
-
-                {layoutMainEvents.length === 0 && mainPerson && (
-                  <div className="absolute inset-0 flex items-center justify-center"><p className="text-xs text-stone-300">{t.compare.empty}</p></div>
-                )}
-              </div>
-            </div>
-
-            {/* ===== CENTER: Timeline Axis ===== */}
-            <div className="flex-shrink-0 relative bg-white" style={{ width: AXIS_WIDTH }}>
-              <div className="relative" style={{ height: totalHeight }}>
-                <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100" style={{ height: 49 }} />
-                <div className="absolute left-1/2 top-0 bottom-0" style={{ width: 1, backgroundColor: '#d6d3d1', transform: 'translateX(-0.5px)' }} />
-                {yearTicks.map(({ year, y }) => (
-                  <div key={year} className="absolute left-0 right-0 flex items-center" style={{ top: y, transform: 'translateY(-0.5px)' }}>
-                    <span className={`text-[9px] px-1 select-none whitespace-nowrap font-mono tabular-nums w-full text-center ${yearTicks.length <= 10 ? 'text-stone-500 font-medium' : (Math.abs(year) < 100 || year === 0 ? 'text-stone-500 font-medium' : 'text-stone-400')}`}>{fmtYear(year)}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* ===== RIGHT: Comparison People ===== */}
-            <div className="flex-1 overflow-x-auto min-w-0">
-              <div className="flex" style={{ height: totalHeight, minWidth: Math.max(comparisonPeople.length * COMPARE_COL_WIDTH, 200) }}>
-                {comparisonPeople.length === 0 && (
-                  <div className="flex-1 flex items-center justify-center" style={{ height: totalHeight }}>
-                    <p className="text-xs text-stone-300">{locale === 'en' ? 'Add comparison people above' : '在上方搜索框中添加对比人物'}</p>
-                  </div>
-                )}
-                {comparisonPeople.map((person, idx) => {
-                  const color = PERSON_COLORS[(idx + 1) % PERSON_COLORS.length];
-                  const events = layoutCompareEvents(person);
-                  const birth = person.birthYear;
-                  const death = person.deathYear;
-                  return (
-                    <div key={person.id} className="flex-shrink-0 border-r border-stone-100 last:border-r-0" style={{ width: COMPARE_COL_WIDTH }}>
-                      <div className="relative" style={{ height: totalHeight }}>
-                        <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100 px-4 py-3">
-                          <div className="flex items-center gap-1.5">
-                            <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
-                            <span className="text-xs font-medium text-stone-700 truncate flex-1">{personName(person, locale)}</span>
-                          </div>
-                          {birth != null && death != null && <span className="text-[10px] font-mono text-stone-400 tabular-nums">{fmtYear(birth)}–{fmtYear(death)}</span>}
-                        </div>
-                        {birth != null && death != null && (() => {
-                          const barTop = yearToY(death); const barBottom = yearToY(birth);
-                          const barHeight = Math.max(barBottom - barTop, 6);
-                          return <div className="absolute left-5 w-1 rounded-full z-0 opacity-25" style={{ top: barTop, height: barHeight, backgroundColor: color }} />;
-                        })()}
-                        {(() => {
-                          const allCount = events.length;
-                          const displayedEvents = showAllCompare[person.id] ? events : events.slice(0, EVENT_LIMIT_COMPARE);
-                          const hasMore = allCount > EVENT_LIMIT_COMPARE;
-                          return (
-                            <>
-                              {displayedEvents.map(({ event, y }) => {
-                                const shortTitle = eventTitle(event, locale);
-                                const shortSummary = eventSummary(event, locale);
-                                const isBirth = event.tags?.includes('出生');
-                                const isDeath = event.tags?.includes('逝世');
-                                return (
-                                  <div key={event.id} className="absolute left-3 z-10" style={{ top: y, transform: 'translateY(-50%)' }}>
-                                    <div role="button" tabIndex={0} onClick={() => openModal(event, person)} onKeyDown={(e) => { if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); openModal(event, person); } }}
-                                      className="cursor-pointer hover:bg-stone-50 rounded px-2 py-1 -mx-2 -my-1 transition-colors max-w-[240px]">
-                                      <div className="flex items-center gap-1.5">
-                                        <div className="flex-shrink-0 rounded-full" style={{ width: isBirth || isDeath ? 8 : 6, height: isBirth || isDeath ? 8 : 6, backgroundColor: isBirth || isDeath ? color : '#fff', border: `2px solid ${color}` }} />
-                                        <div className="min-w-0">
-                                          <span className="text-[11px] text-stone-700 font-medium leading-tight line-clamp-1">{shortTitle}</span>
-                                          {shortSummary && <span className="block text-[10px] text-stone-400 leading-tight line-clamp-1 mt-0.5">{shortSummary}</span>}
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                );
-                              })}
-                              {hasMore && (
-                                <div className="sticky bottom-0 z-20 bg-white/90 backdrop-blur-sm border-t border-stone-100 py-1.5 px-3 text-center">
-                                  <button onClick={() => setShowAllCompare((prev) => ({ ...prev, [person.id]: !prev[person.id] }))} className="text-[10px] text-blue-600 hover:text-blue-700 font-medium">
-                                    {showAllCompare[person.id] ? (locale === 'en' ? 'Show fewer' : '收起') : (locale === 'en' ? `Show all ${allCount} events` : `显示全部 ${allCount} 条事件`)}
-                                  </button>
-                                </div>
-                              )}
-                            </>
                           );
-                        })()}
-                        {events.length === 0 && <div className="absolute inset-0 flex items-center justify-center"><p className="text-[10px] text-stone-300">{t.compare.empty}</p></div>}
-                      </div>
+                        })}
+                        {mainCards.length > 30 && !showAllMain && (
+                          <div className="absolute bottom-0 left-0 right-0 z-20 bg-white/90 border-t border-stone-100 py-2 text-center">
+                            <button onClick={() => setShowAllMain(true)} className="text-xs text-blue-600">显示全部 {mainCards.length} 条</button>
+                          </div>
+                        )}
+                      </>
+                    );
+                  })()}
+                </div>
+              </div>
+
+              {/* ===== CENTER: Axis ===== */}
+              <div className="flex-shrink-0 relative bg-white" style={{ width: AXIS_WIDTH }}>
+                <div className="relative" style={{ height: totalHeight }}>
+                  <div className="sticky top-0 z-20 bg-white/95 border-b border-stone-100" style={{ height: 41 }} />
+                  <div className="absolute left-1/2 top-0 bottom-0" style={{ width: 1, backgroundColor: '#d6d3d1' }} />
+                  {yearTicks.map(({ year, y }) => (
+                    <div key={year} className="absolute left-0 right-0 text-center" style={{ top: y, transform: 'translateY(-50%)' }}>
+                      <span className="text-[9px] text-stone-400 font-mono select-none">{fmtYear(year)}</span>
                     </div>
-                  );
-                })}
+                  ))}
+                </div>
+              </div>
+
+              {/* ===== RIGHT: Comparison People ===== */}
+              <div className="flex-1 overflow-x-auto min-w-0">
+                <div className="flex" style={{ height: totalHeight, minWidth: Math.max(comparisonPeople.length * COMPARE_COL_WIDTH, 200) }}>
+                  {comparisonPeople.map((person, idx) => {
+                    const color = PERSON_COLORS[(idx + 1) % PERSON_COLORS.length];
+                    const cards = compareCardsMap.get(person.id) ?? [];
+                    const displayed = showAllCompare[person.id] ? cards : cards.slice(0, 20);
+                    return (
+                      <div key={person.id} className="flex-shrink-0 border-r border-stone-100 last:border-r-0" style={{ width: COMPARE_COL_WIDTH }}>
+                        <div className="relative" style={{ height: totalHeight }}>
+                          <div className="sticky top-0 z-20 bg-white/95 border-b border-stone-100 px-3 py-2.5">
+                            <div className="flex items-center gap-1.5">
+                              <div className="w-2 h-2 rounded-full" style={{ backgroundColor: color }} />
+                              <span className="text-xs font-medium text-stone-700 truncate">{personName(person, locale)}</span>
+                            </div>
+                            {person.birthYear != null && person.deathYear != null && (
+                              <span className="text-[10px] font-mono text-stone-400">{fmtYear(person.birthYear)}–{fmtYear(person.deathYear)}</span>
+                            )}
+                          </div>
+                          {person.birthYear != null && person.deathYear != null && (() => {
+                            const barTop = yearToY(person.birthYear);
+                            const barHeight = Math.max(yearToY(person.deathYear) - barTop, 4);
+                            return <div className="absolute left-4 w-1 rounded-full z-0 opacity-15" style={{ top: barTop, height: barHeight, backgroundColor: color }} />;
+                          })()}
+                          {displayed.map((card, i) => {
+                            const count = card.events.length;
+                            const primary = card.events[0];
+                            return (
+                              <div key={i} className="absolute left-3 right-2 z-10" style={{ top: card.y }}>
+                                <div
+                                  className="cursor-pointer hover:bg-stone-50 rounded px-1.5 py-1 transition-colors"
+                                  onClick={() => openExpand(card, person)}
+                                >
+                                  <div className="flex items-center gap-1">
+                                    <div className="w-1.5 h-1.5 rounded-full flex-shrink-0" style={{ border: `2px solid ${color}` }} />
+                                    <span className="text-[10px] text-stone-700 font-medium line-clamp-1">{eventTitle(primary, locale)}</span>
+                                    {count > 1 && <span className="text-[9px] text-stone-400">+{count - 1}</span>}
+                                  </div>
+                                  <span className="text-[9px] font-mono text-stone-400 ml-2.5">{fmtYear(card.startYear)}</span>
+                                </div>
+                              </div>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
               </div>
             </div>
           </div>
         </div>
-
-        {/* Horizontal scroll hint */}
-        {comparisonPeople.length > 1 && (
-          <div className="border-t border-stone-100 bg-stone-50/50 px-4 py-1.5">
-            <p className="text-[10px] text-stone-400 text-right">
-              {locale === 'en' ? `← Scroll to see all people →` : `← 滚轮滑动查看全部对比人物 →`}
-            </p>
-          </div>
-        )}
       </div>
 
-      {/* ========== Event Detail Modal ========== */}
-      {selectedEvent && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ backgroundColor: 'rgba(0,0,0,0.45)' }} onClick={closeModal}>
-          <div role="dialog" aria-modal="true" className="relative bg-white rounded-xl shadow-2xl max-w-lg w-full max-h-[80vh] overflow-y-auto" onClick={(e) => e.stopPropagation()}>
-            <button onClick={closeModal} className="absolute top-3 right-3 p-1.5 rounded-full hover:bg-stone-100 text-stone-400 hover:text-stone-600 transition-colors z-10" aria-label="Close"><X size={16} /></button>
-            <div className="px-6 pt-5 pb-3 border-b border-stone-100" style={{ borderLeftWidth: 4, borderLeftColor: (() => { if (!selectedEventPerson) return PERSON_COLORS[0]; const idx = people.indexOf(selectedEventPerson); return PERSON_COLORS[idx >= 0 ? idx : 0]; })() }}>
-              <div className="pr-8">
-                <h3 className="text-base font-semibold text-stone-800 leading-snug">{eventTitle(selectedEvent, locale)}</h3>
-                {selectedEventPerson && <p className="text-[11px] text-stone-400 mt-1">{personName(selectedEventPerson, locale)}{selectedEvent.startYear != null && <span className="ml-2 font-mono">{fmtYear(selectedEvent.startYear)}</span>}</p>}
+      {/* ========== Expand Modal ========== */}
+      {expandedCard && expandedPerson && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4" style={{ backgroundColor: 'rgba(0,0,0,0.35)' }} onClick={closeExpand}>
+          <div
+            role="dialog" aria-modal="true"
+            className="relative bg-white rounded-xl shadow-2xl max-w-xl w-full max-h-[75vh] flex flex-col"
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Header */}
+            <div className="flex items-center justify-between px-5 py-3 border-b border-stone-100 flex-shrink-0"
+              style={{ borderLeftWidth: 4, borderLeftColor: (() => {
+                const idx = people.indexOf(expandedPerson);
+                return PERSON_COLORS[idx >= 0 ? idx % PERSON_COLORS.length : 0];
+              })() }}
+            >
+              <div>
+                <span className="text-sm font-semibold text-stone-800">{personName(expandedPerson, locale)}</span>
+                <span className="text-[11px] text-stone-400 ml-2">
+                  {fmtYear(expandedCard.startYear)}{expandedCard.endYear !== expandedCard.startYear ? `–${fmtYear(expandedCard.endYear)}` : ''}
+                </span>
+                <span className="text-[11px] text-stone-400 ml-1">· {expandedCard.events.length} 件事</span>
               </div>
+              <button onClick={closeExpand} className="p-1 rounded-full hover:bg-stone-100 text-stone-400"><X size={16} /></button>
             </div>
-            <div className="px-6 py-4 space-y-3">
-              {eventSummary(selectedEvent, locale) && <p className="text-sm text-stone-600 leading-relaxed">{eventSummary(selectedEvent, locale)}</p>}
-              {selectedEvent.description && <div className="text-sm text-stone-500 leading-relaxed whitespace-pre-wrap">{selectedEvent.description}</div>}
-              <div className="flex flex-wrap gap-2 pt-2 border-t border-stone-100">
-                {selectedEvent.startYear != null && <span className="inline-flex items-center gap-1 text-[11px] text-stone-500 bg-stone-100 px-2 py-0.5 rounded">{locale === 'en' ? 'Start Year' : '起始年份'}: {fmtYear(selectedEvent.startYear)}</span>}
-                {selectedEvent.endYear != null && <span className="inline-flex items-center gap-1 text-[11px] text-stone-500 bg-stone-100 px-2 py-0.5 rounded">{locale === 'en' ? 'End Year' : '结束年份'}: {fmtYear(selectedEvent.endYear)}</span>}
-                {selectedEvent.importance != null && <span className="inline-flex items-center gap-1 text-[11px] text-stone-500 bg-stone-100 px-2 py-0.5 rounded">{locale === 'en' ? 'Importance' : '重要性'}: {'★'.repeat(selectedEvent.importance)}{'☆'.repeat(5 - selectedEvent.importance)}</span>}
-              </div>
+            {/* Body */}
+            <div className="px-5 py-3 overflow-y-auto flex-1 space-y-4">
+              {expandedCard.events.map((evt) => (
+                <div key={evt.id} className="border-b border-stone-100 pb-3 last:border-0">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="text-[11px] font-mono text-stone-400">{fmtYear(evt.startYear ?? 0)}</span>
+                    <span className="text-[10px] text-stone-400">
+                      {'★'.repeat(evt.importance)}{'☆'.repeat(5 - evt.importance)}
+                    </span>
+                  </div>
+                  <h4 className="text-sm font-semibold text-stone-800">{eventTitle(evt, locale)}</h4>
+                  <p className="text-xs text-stone-600 leading-relaxed mt-1">{eventSummary(evt, locale)}</p>
+                  {evt.description && evt.description !== eventSummary(evt, locale) && (
+                    <p className="text-xs text-stone-500 leading-relaxed mt-1 whitespace-pre-wrap">{evt.description}</p>
+                  )}
+                </div>
+              ))}
             </div>
           </div>
         </div>
