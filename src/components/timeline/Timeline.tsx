@@ -26,14 +26,14 @@ export default function Timeline({
 
   return (
     <div className="relative">
-      {/* Vertical line */}
+      {/* Vertical timeline axis */}
       <div
-        className={`absolute left-[19px] top-0 bottom-0 w-px transition-colors duration-300 ${
+        className={`absolute left-[19px] top-2 bottom-2 w-px transition-colors duration-300 ${
           hoveredBadgeId ? 'bg-amber-300' : 'bg-stone-200'
         }`}
       />
 
-      <div className="space-y-0">
+      <div className="flex flex-col">
         {sorted.map((event, index) => (
           <TimelineItem
             key={event.id}
