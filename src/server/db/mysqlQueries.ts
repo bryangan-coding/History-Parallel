@@ -111,6 +111,8 @@ export async function listPeople(opts?: {
   dataStatus?: string;
   regionId?: string;
   query?: string;
+  /** Alternative script variant of the query (simplified↔traditional) */
+  queryAlt?: string;
   era?: { min: number; max: number | null };
   page?: number;
   limit?: number;
@@ -127,10 +129,149 @@ export async function listPeople(opts?: {
   if (opts?.regionId && opts.regionId !== 'all') {
     conditions.push('region_id = ?'); params.push(opts.regionId);
   }
+  // Simplified/Traditional common char mapping (embedded here to avoid import issues)
+  const SC_TC_MAP: Record<string, string> = {
+    '万':'萬','与':'與','专':'專','东':'東','丝':'絲','两':'兩','严':'嚴','个':'個','丰':'豐',
+    '临':'臨','为':'為','丽':'麗','举':'舉','么':'麼','义':'義','乌':'烏','乐':'樂','乔':'喬',
+    '习':'習','乡':'鄉','书':'書','买':'買','乱':'亂','争':'爭','于':'於','亏':'虧','云':'雲',
+    '亚':'亞','产':'產','亲':'親','亿':'億','仅':'僅','从':'從','仓':'倉','仪':'儀','们':'們',
+    '价':'價','众':'眾','优':'優','会':'會','传':'傳','伤':'傷','伦':'倫','伪':'偽','体':'體',
+    '余':'餘','佣':'傭','侦':'偵','侧':'側','侨':'僑','儿':'兒','兑':'兌','党':'黨','兰':'蘭',
+    '关':'關','兴':'興','养':'養','兽':'獸','内':'內','册':'冊','写':'寫','军':'軍','农':'農',
+    '冯':'馮','冲':'衝','决':'決','况':'況','冻':'凍','净':'淨','凉':'涼','减':'減','几':'幾',
+    '凤':'鳳','凭':'憑','凯':'凱','击':'擊','凿':'鑿','划':'劃','刘':'劉','则':'則','刚':'剛',
+    '创':'創','删':'刪','别':'別','剧':'劇','劝':'勸','办':'辦','务':'務','动':'動','励':'勵',
+    '劳':'勞','势':'勢','勋':'勳','华':'華','协':'協','单':'單','卖':'賣','卢':'盧','卫':'衛',
+    '却':'卻','厅':'廳','历':'歷','厉':'厲','压':'壓','厌':'厭','县':'縣','发':'發','变':'變',
+    '叶':'葉','号':'號','吕':'呂','员':'員','国':'國','图':'圖','圆':'圓','圣':'聖','场':'場',
+    '块':'塊','坚':'堅','坛':'壇','坝':'壩','坟':'墳','坠':'墜','垦':'墾','墙':'牆','壮':'壯',
+    '声':'聲','处':'處','备':'備','复':'復','头':'頭','夺':'奪','奖':'獎','奋':'奮','妇':'婦',
+    '孙':'孫','学':'學','实':'實','宠':'寵','审':'審','宽':'寬','对':'對','寻':'尋','导':'導',
+    '寿':'壽','将':'將','尘':'塵','尝':'嘗','尧':'堯','尽':'盡','层':'層','属':'屬','岁':'歲',
+    '岛':'島','巩':'鞏','币':'幣','师':'師','帐':'帳','带':'帶','帮':'幫','干':'幹','庄':'莊',
+    '庆':'慶','庐':'廬','应':'應','庙':'廟','厂':'廠','广':'廣','废':'廢','开':'開','异':'異',
+    '张':'張','弹':'彈','强':'強','归':'歸','当':'當','录':'錄','汇':'匯','汉':'漢','灭':'滅',
+    '灯':'燈','灵':'靈','灿':'燦','炉':'爐','无':'無','时':'時','晋':'晉','晒':'曬','晓':'曉',
+    '术':'術','杀':'殺','杂':'雜','权':'權','条':'條','来':'來','杨':'楊','极':'極','构':'構',
+    '标':'標','树':'樹','样':'樣','检':'檢','梦':'夢','欢':'歡','毕':'畢','气':'氣','沟':'溝',
+    '泽':'澤','洁':'潔','测':'測','济':'濟','浏':'瀏','浑':'渾','浓':'濃','涛':'濤','润':'潤',
+    '涨':'漲','湾':'灣','湿':'濕','溃':'潰','滨':'濱','滩':'灘','潜':'潛','炼':'煉','烟':'煙',
+    '烦':'煩','烧':'燒','热':'熱','爱':'愛','爷':'爺','尔':'爾','牵':'牽','牺':'犧','犹':'猶',
+    '独':'獨','获':'獲','献':'獻','现':'現','环':'環','电':'電','画':'畫','畅':'暢','疗':'療',
+    '疯':'瘋','监':'監','盘':'盤','矿':'礦','码':'碼','砖':'磚','础':'礎','确':'確','碍':'礙',
+    '礼':'禮','视':'視','离':'離','种':'種','积':'積','称':'稱','稳':'穩','穷':'窮','窃':'竊',
+    '竞':'競','笔':'筆','筑':'築','筛':'篩','简':'簡','类':'類','粮':'糧','紧':'緊','纠':'糾',
+    '红':'紅','纤':'纖','约':'約','级':'級','纪':'紀','纯':'純','纲':'綱','纳':'納','纵':'縱',
+    '纷':'紛','纸':'紙','纹':'紋','纺':'紡','纽':'紐','线':'線','练':'練','组':'組','细':'細',
+    '织':'織','终':'終','绍':'紹','经':'經','绑':'綁','结':'結','给':'給','络':'絡','绝':'絕',
+    '统':'統','绢':'絹','绣':'繡','继':'繼','绩':'績','绪':'緒','续':'續','绳':'繩','维':'維',
+    '绵':'綿','综':'綜','绿':'綠','绸':'綢','缩':'縮','缪':'繆','缆':'纜','网':'網','罗':'羅',
+    '罚':'罰','罢':'罷','聪':'聰','联':'聯','肃':'肅','胜':'勝','胀':'脹','肿':'腫','胆':'膽',
+    '脏':'臟','脑':'腦','脚':'腳','脸':'臉','脱':'脫','腊':'臘','腾':'騰','舰':'艦','艰':'艱',
+    '艺':'藝','节':'節','苏':'蘇','范':'範','蓝':'藍','药':'藥','虽':'雖','虫':'蟲','虾':'蝦',
+    '蚕':'蠶','蛮':'蠻','见':'見','观':'觀','规':'規','览':'覽','觉':'覺','触':'觸','计':'計',
+    '订':'訂','认':'認','让':'讓','训':'訓','议':'議','记':'記','讲':'講','许':'許','论':'論',
+    '讽':'諷','设':'設','访':'訪','证':'證','评':'評','识':'識','诉':'訴','词':'詞','译':'譯',
+    '试':'試','诗':'詩','诚':'誠','话':'話','诞':'誕','询':'詢','该':'該','详':'詳','语':'語',
+    '误':'誤','说':'說','请':'請','诸':'諸','读':'讀','课':'課','谁':'誰','调':'調','谈':'談',
+    '谊':'誼','谋':'謀','谢':'謝','谣':'謠','谦':'謙','谨':'謹','贝':'貝','负':'負','财':'財',
+    '责':'責','贤':'賢','货':'貨','质':'質','购':'購','费':'費','贺':'賀','贼':'賊','资':'資',
+    '赏':'賞','赐':'賜','赖':'賴','赚':'賺','赛':'賽','赞':'贊','赠':'贈','赢':'贏','赵':'趙',
+    '赶':'趕','跃':'躍','践':'踐','踪':'蹤','车':'車','轨':'軌','转':'轉','轮':'輪','软':'軟',
+    '轴':'軸','轻':'輕','载':'載','较':'較','辆':'輛','辉':'輝','辈':'輩','辑':'輯','输':'輸',
+    '辞':'辭','边':'邊','辽':'遼','达':'達','迁':'遷','过':'過','迈':'邁','运':'運','还':'還',
+    '这':'這','进':'進','远':'遠','违':'違','连':'連','迟':'遲','选':'選','适':'適','递':'遞',
+    '遗':'遺','邓':'鄧','邮':'郵','邻':'鄰','郑':'鄭','里':'裡','针':'針','钉':'釘','钓':'釣',
+    '钟':'鐘','钢':'鋼','钥':'鑰','钦':'欽','钩':'鉤','钱':'錢','铁':'鐵','铜':'銅','铝':'鋁',
+    '银':'銀','铸':'鑄','铺':'鋪','链':'鏈','销':'銷','锁':'鎖','锅':'鍋','锈':'鏽','锋':'鋒',
+    '锐':'銳','错':'錯','锡':'錫','锣':'鑼','锤':'錘','锦':'錦','键':'鍵','锯':'鋸','镇':'鎮',
+    '镜':'鏡','长':'長','门':'門','闪':'閃','闭':'閉','问':'問','闯':'闖','闲':'閒','间':'間',
+    '闻':'聞','阀':'閥','阁':'閣','阅':'閱','队':'隊','阶':'階','阳':'陽','阴':'陰','阵':'陣',
+    '陆':'陸','际':'際','陈':'陳','陕':'陝','险':'險','随':'隨','隐':'隱','难':'難','雾':'霧',
+    '静':'靜','面':'麵','韩':'韓','页':'頁','顶':'頂','项':'項','顺':'順','须':'須','顾':'顧',
+    '顿':'頓','预':'預','领':'領','颈':'頸','频':'頻','颖':'穎','颗':'顆','题':'題','颜':'顏',
+    '额':'額','风':'風','飘':'飄','飞':'飛','饭':'飯','饮':'飲','饱':'飽','饺':'餃','饼':'餅',
+    '饿':'餓','馆':'館','马':'馬','驰':'馳','驱':'驅','驴':'驢','驶':'駛','驻':'駐','驾':'駕',
+    '验':'驗','骗':'騙','鱼':'魚','鲁':'魯','鲜':'鮮','鸟':'鳥','鸡':'雞','鸣':'鳴','鸭':'鴨',
+    '鸽':'鴿','鸿':'鴻','鹅':'鵝','鹤':'鶴','鹰':'鷹','麦':'麥','黄':'黃','龙':'龍',
+    '龟':'龜','轼':'軾',
+  };
+  
+  function toAltScript(text: string): string | null {
+    // Try simplified→traditional first
+    let alt = '';
+    let changed = false;
+    for (const ch of text) {
+      if (SC_TC_MAP[ch]) { alt += SC_TC_MAP[ch]; changed = true; }
+      else alt += ch;
+    }
+    if (changed) return alt;
+    
+    // Try traditional→simplified
+    const TC_SC_MAP: Record<string, string> = {};
+    for (const [sc, tc] of Object.entries(SC_TC_MAP)) TC_SC_MAP[tc] = sc;
+    alt = '';
+    changed = false;
+    for (const ch of text) {
+      if (TC_SC_MAP[ch]) { alt += TC_SC_MAP[ch]; changed = true; }
+      else alt += ch;
+    }
+    return changed ? alt : null;
+  }
+
+  let relevanceOrder = '';
   if (opts?.query) {
-    const q = `%${opts.query}%`;
-    conditions.push('(name LIKE ? OR name_en LIKE ? OR summary LIKE ?)');
-    params.push(q, q, q);
+    const rawQuery = opts.query;
+    const altQuery = opts.queryAlt || toAltScript(rawQuery);
+    const q = `%${rawQuery}%`;
+    
+    if (altQuery && altQuery !== rawQuery) {
+      const aq = `%${altQuery}%`;
+      conditions.push(
+        '(name LIKE ? OR name LIKE ? OR name_en LIKE ? OR summary LIKE ? OR summary LIKE ? OR alternative_names LIKE ?)'
+      );
+      params.push(q, aq, q, q, aq, q);
+
+      const exact = rawQuery;
+      const exactAlt = altQuery;
+      const prefix = `${rawQuery}%`;
+      const prefixAlt = `${altQuery}%`;
+      relevanceOrder = `
+        CASE
+          WHEN name = ? THEN 0
+          WHEN name = ? THEN 0
+          WHEN name LIKE ? THEN 1
+          WHEN name LIKE ? THEN 1
+          WHEN name LIKE ? THEN 2
+          WHEN name LIKE ? THEN 2
+          WHEN name_en = ? THEN 3
+          WHEN name_en LIKE ? THEN 4
+          ELSE 5
+        END,
+        CHAR_LENGTH(name),
+        name`;
+      params.push(exact, exactAlt, prefix, prefixAlt, q, aq, exact, prefix);
+    } else {
+      conditions.push(
+        '(name LIKE ? OR name_en LIKE ? OR summary LIKE ? OR alternative_names LIKE ?)'
+      );
+      params.push(q, q, q, q);
+
+      const exact = rawQuery;
+      const prefix = `${rawQuery}%`;
+      relevanceOrder = `
+        CASE
+          WHEN name = ? THEN 0
+          WHEN name LIKE ? THEN 1
+          WHEN name LIKE ? THEN 2
+          WHEN name_en = ? THEN 3
+          WHEN name_en LIKE ? THEN 4
+          ELSE 5
+        END,
+        CHAR_LENGTH(name),
+        name`;
+      params.push(exact, prefix, q, exact, prefix);
+    }
   }
   if (opts?.era) {
     if (opts.era.max === null) {
@@ -143,6 +284,8 @@ export async function listPeople(opts?: {
 
   const where = conditions.length > 0 ? `WHERE ${conditions.join(' AND ')}` : '';
 
+  const orderBy = relevanceOrder || 'name';
+
   // If pagination requested, do it in SQL (not in memory)
   if (opts?.page && opts?.limit) {
     const offset = (opts.page - 1) * opts.limit;
@@ -151,7 +294,7 @@ export async function listPeople(opts?: {
     );
     const total = countRows[0].total;
     const [rows] = await pool.query<RowDataPacket[]>(
-      `SELECT * FROM people ${where} ORDER BY name LIMIT ? OFFSET ?`,
+      `SELECT * FROM people ${where} ORDER BY ${orderBy} LIMIT ? OFFSET ?`,
       [...params, opts.limit, offset],
     );
     return { items: rows.map(mapPerson), total };
@@ -164,7 +307,7 @@ export async function listPeople(opts?: {
   );
   const total = countRows[0].total as number;
   const [rows] = await pool.query<RowDataPacket[]>(
-    `SELECT * FROM people ${where} ORDER BY name LIMIT ?`, [effectiveLimit],
+    `SELECT * FROM people ${where} ORDER BY ${orderBy} LIMIT ?`, [...params, effectiveLimit],
   );
   const items = rows.map(mapPerson);
   return { items, total };

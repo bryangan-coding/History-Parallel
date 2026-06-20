@@ -67,7 +67,10 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     }
   }, []);
 
-  // Load converter lazily
+  // Load both converters lazily
+  const s2tRef = useRef<((text: string) => string) | null>(null); // Simplified → Traditional
+  const t2sRef = useRef<((text: string) => string) | null>(null); // Traditional → Simplified
+
   useEffect(() => {
     let cancelled = false;
     import('opencc-js')
@@ -75,7 +78,8 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
         if (!cancelled) {
           const Converter = mod.Converter || mod.default?.Converter;
           if (Converter) {
-            converterRef.current = Converter({ from: 'cn', to: 'twp' });
+            s2tRef.current = Converter({ from: 'cn', to: 'twp' }); // 简→繁
+            t2sRef.current = Converter({ from: 'twp', to: 'cn' }); // 繁→简
           }
           setConverterReady(true);
         }
@@ -93,12 +97,21 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
 
   const t = dictionaries[locale];
 
-  // Memoize toScript — only recreate when locale actually changes
+  // toScript: auto-convert between Simplified and Traditional
   const toScript = useCallback(
     (text: string | undefined | null): string => {
-      if (!text || locale !== 'zh-TW') return text ?? '';
-      if (!converterRef.current) return text;
-      return converterRef.current(text);
+      if (!text) return text ?? '';
+      if (locale === 'en') return text;
+      
+      if (locale === 'zh-CN' && t2sRef.current) {
+        // Always convert via Traditional→Simplified.
+        // If text is already simplified, opencc leaves it unchanged.
+        return t2sRef.current(text);
+      } else if (locale === 'zh-TW' && s2tRef.current) {
+        return s2tRef.current(text);
+      }
+      
+      return text;
     },
     [locale]
   );
