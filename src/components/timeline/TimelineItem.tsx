@@ -217,7 +217,7 @@ export default function TimelineItem({
             href={`/parallel?year=${event.startYear}&focusEvent=${event.id}`}
             className="ml-auto text-xs font-medium text-amber-700 hover:text-amber-900 transition-colors border border-amber-200 rounded-md px-2 py-0.5 hover:border-amber-400 hover:bg-amber-50"
           >
-            {locale === 'en' ? 'Parallel World →' : '同时期世界 →'}
+            {locale === 'en' ? 'Parallel World →' : toScript('同时期世界 →')}
           </Link>
         </div>
       </div>

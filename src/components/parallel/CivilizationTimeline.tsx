@@ -54,7 +54,7 @@ function computeLanes(periods: CivilizationPeriod[]): CivilizationPeriod[][] {
 }
 
 export default function CivilizationTimeline() {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const scrollRef = useRef<HTMLDivElement>(null);
 
   const [enabledCivs, setEnabledCivs] = useState<Set<string>>(
@@ -108,7 +108,7 @@ export default function CivilizationTimeline() {
       {/* Controls */}
       <div className="mb-4 flex flex-wrap items-center gap-3">
         <span className="text-xs font-semibold text-stone-500 uppercase tracking-wide">
-          {locale === 'en' ? 'Civilizations:' : '文明：'}
+          {locale === 'en' ? 'Civilizations:' : toScript('文明：')}
         </span>
         {civilizations.map((civ) => (
           <label key={civ.id} className="flex items-center gap-1.5 text-sm cursor-pointer select-none">
@@ -118,7 +118,7 @@ export default function CivilizationTimeline() {
           </label>
         ))}
         <div className="ml-auto flex items-center gap-2">
-          <span className="text-xs text-stone-400">{locale === 'en' ? 'Zoom:' : '缩放：'}</span>
+          <span className="text-xs text-stone-400">{locale === 'en' ? 'Zoom:' : toScript('缩放：')}</span>
           <button onClick={() => setZoomLevel((z) => Math.max(0.5, z - 0.25))}
             className="px-2 py-1 text-xs border border-stone-200 rounded hover:bg-stone-50 text-stone-600">−</button>
           <span className="text-xs text-stone-500 tabular-nums w-10 text-center">{Math.round(zoomLevel * 100)}%</span>
@@ -304,8 +304,8 @@ export default function CivilizationTimeline() {
 
             {/* Legend */}
             <text x={PADDING_LEFT} y={totalChartHeight - 12} style={{ fontSize: 9, fill: '#a8a29e' }}>
-              ● = {locale === 'en' ? 'Key Event' : '重大事件'} &nbsp; — &nbsp;
-              {locale === 'en' ? 'Gray bar = continuous timeline, arrow = gap between eras' : '灰条 = 连续时间线，箭头 = 朝代间隙'}
+              ● = {locale === 'en' ? 'Key Event' : toScript('重大事件')} &nbsp; — &nbsp;
+              {locale === 'en' ? 'Gray bar = continuous timeline, arrow = gap between eras' : toScript('灰条 = 连续时间线，箭头 = 朝代间隙')}
             </text>
           </svg>
         </div>
@@ -320,12 +320,12 @@ export default function CivilizationTimeline() {
             <div className="flex items-start justify-between">
               <div>
                 <h3 className="text-base font-semibold text-stone-900">{locale === 'en' ? civ.nameEn : civ.name}</h3>
-                <p className="text-xs text-stone-400 mt-0.5">{civ.periods.length} {locale === 'en' ? 'dynasties/periods' : '个朝代/时期'}</p>
+                <p className="text-xs text-stone-400 mt-0.5">{civ.periods.length} {locale === 'en' ? 'dynasties/periods' : toScript('个朝代/时期')}</p>
               </div>
-              <button onClick={() => setHighlightedCiv(null)} className="text-stone-400 hover:text-stone-600 text-xs">{locale === 'en' ? 'Close' : '关闭'}</button>
+              <button onClick={() => setHighlightedCiv(null)} className="text-stone-400 hover:text-stone-600 text-xs">{locale === 'en' ? 'Close' : toScript('关闭')}</button>
             </div>
             <div className="mt-3 space-y-1.5">
-              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">{locale === 'en' ? 'Key Events' : '重大事件'}</h4>
+              <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide">{locale === 'en' ? 'Key Events' : toScript('重大事件')}</h4>
               {civ.keyEvents.map((event) => (
                 <div key={`detail-${event.year}-${event.title}`} className="flex items-center gap-2 text-sm">
                   <span className="text-xs font-mono text-stone-400 tabular-nums w-14 text-right">{fmtYear(event.year)}</span>

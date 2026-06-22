@@ -69,9 +69,9 @@ export function EventPageClient({ id, event, persons, region, relatedEvents }: E
               <div className="flex justify-between">
                 <dt className="text-stone-500">{t.event.time}</dt>
                 <dd className="text-stone-700 font-medium">
-                  {event.approximateDateText ?? `${event.startYear}${locale === 'en' ? '' : '年'}`}
+                  {event.approximateDateText ?? `${event.startYear}${locale === 'en' ? '' : toScript('年')}`}
                   {event.endYear && event.endYear !== event.startYear
-                    ? ` — ${event.endYear}${locale === 'en' ? '' : '年'}`
+                    ? ` — ${event.endYear}${locale === 'en' ? '' : toScript('年')}`
                     : ''}
                 </dd>
               </div>

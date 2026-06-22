@@ -49,7 +49,7 @@ export default function EventCard({
             </h3>
             <span
               className="text-xs text-amber-500 shrink-0"
-              title={`${locale === 'en' ? 'Importance' : '重要性'}: ${event.importance}/5`}
+              title={`${locale === 'en' ? 'Importance' : toScript('重要性')}: ${event.importance}/5`}
             >
               {importanceDots[event.importance as keyof typeof importanceDots] ?? '•'}
             </span>
@@ -102,7 +102,7 @@ export default function EventCard({
             href={`/parallel?year=${event.startYear ?? 0}&focusEvent=${event.id}`}
             className="ml-auto text-xs font-medium text-stone-500 hover:text-stone-800 transition-colors border border-stone-200 rounded-md px-2 py-0.5 hover:border-stone-400"
           >
-            {locale === 'en' ? 'Parallel World →' : '同时期世界 →'}
+            {locale === 'en' ? 'Parallel World →' : toScript('同时期世界 →')}
           </Link>
         )}
       </div>

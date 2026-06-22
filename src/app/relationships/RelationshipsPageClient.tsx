@@ -182,7 +182,7 @@ export default function RelationshipsPageClient({
   regionMap,
   relationships: allRelationships,
 }: RelationshipsPageClientProps) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const svgRef = useRef<SVGSVGElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
 
@@ -367,19 +367,19 @@ export default function RelationshipsPageClient({
       {/* Header */}
       <div className="mb-6">
         <h1 className="text-2xl font-bold text-stone-900">
-          {locale === 'en' ? 'Person Relationships' : '人物关系图'}
+          {locale === 'en' ? 'Person Relationships' : toScript('人物关系图')}
         </h1>
         <p className="mt-1 text-sm text-stone-500">
           {locale === 'en'
             ? 'Explore connections between historical figures across civilizations'
-            : '探索跨越文明的历史人物关系网络'}
+            : toScript('探索跨越文明的历史人物关系网络')}
         </p>
       </div>
 
       {/* View mode toggle */}
       <div className="flex items-center gap-2 mb-6">
         <span className="text-xs font-semibold text-stone-500 uppercase tracking-wide mr-2">
-          {locale === 'en' ? 'View' : '视图'}
+          {locale === 'en' ? 'View' : toScript('视图')}
         </span>
         <div className="flex bg-stone-100 rounded-lg p-0.5">
           <button
@@ -390,7 +390,7 @@ export default function RelationshipsPageClient({
                 : 'text-stone-500 hover:text-stone-700'
             }`}
           >
-            {locale === 'en' ? 'By Category' : '分类浏览'}
+            {locale === 'en' ? 'By Category' : toScript('分类浏览')}
           </button>
           <button
             onClick={() => setViewMode('graph')}
@@ -400,7 +400,7 @@ export default function RelationshipsPageClient({
                 : 'text-stone-500 hover:text-stone-700'
             }`}
           >
-            {locale === 'en' ? 'Relation Graph' : '关系图谱'}
+            {locale === 'en' ? 'Relation Graph' : toScript('关系图谱')}
           </button>
         </div>
         <span className="text-xs text-stone-400 ml-auto">
@@ -432,7 +432,7 @@ export default function RelationshipsPageClient({
                   <span className="text-lg">{rt.icon}</span>
                   <div className="flex-1">
                     <h3 className="text-sm font-semibold text-stone-800">
-                      {locale === 'en' ? rt.labelEn : rt.label}
+                      {locale === 'en' ? rt.labelEn : toScript(rt.label)}
                     </h3>
                     <p className="text-xs text-stone-400 mt-0.5">
                       {locale === 'en'
@@ -500,7 +500,7 @@ export default function RelationshipsPageClient({
                                 fontSize: 10,
                               }}
                             >
-                              {locale === 'en' ? rt.labelEn : rt.label}
+                              {locale === 'en' ? rt.labelEn : toScript(rt.label)}
                             </span>
                           </span>
 
@@ -571,7 +571,7 @@ export default function RelationshipsPageClient({
             {/* Relationship type filter */}
             <div>
               <h3 className="text-xs font-semibold text-stone-500 uppercase tracking-wide mb-2">
-                {locale === 'en' ? 'Relationship Type' : '关系类型'}
+                {locale === 'en' ? 'Relationship Type' : toScript('关系类型')}
               </h3>
               <div className="space-y-1">
                 {RELATIONSHIP_TYPES.map((rt) => (
@@ -585,7 +585,7 @@ export default function RelationshipsPageClient({
                       onChange={() => toggleType(rt.value)}
                       className="rounded border-stone-300 text-stone-600 focus:ring-stone-500"
                     />
-                    {locale === 'en' ? rt.labelEn : rt.label}
+                    {locale === 'en' ? rt.labelEn : toScript(rt.label)}
                   </label>
                 ))}
               </div>
@@ -594,14 +594,14 @@ export default function RelationshipsPageClient({
             {/* Region filter */}
             <div>
               <h3 className="text-xs font-semibold text-stone-500 uppercase tracking-wide mb-2">
-                {locale === 'en' ? 'Region' : '地区'}
+                {locale === 'en' ? 'Region' : toScript('地区')}
               </h3>
               <select
                 value={selectedRegion}
                 onChange={(e) => setSelectedRegion(e.target.value)}
                 className="w-full text-sm border border-stone-200 rounded-lg px-3 py-2 bg-white text-stone-700 focus:outline-none focus:border-stone-400"
               >
-                <option value="all">{locale === 'en' ? 'All Regions' : '全部地区'}</option>
+                <option value="all">{locale === 'en' ? 'All Regions' : toScript('全部地区')}</option>
                 {regionOptions.map((r) => (
                   <option key={r.id} value={r.id}>
                     {r.name}
@@ -613,17 +613,17 @@ export default function RelationshipsPageClient({
             {/* Era filter */}
             <div>
               <h3 className="text-xs font-semibold text-stone-500 uppercase tracking-wide mb-2">
-                {locale === 'en' ? 'Era' : '时代'}
+                {locale === 'en' ? 'Era' : toScript('时代')}
               </h3>
               <select
                 value={selectedEra}
                 onChange={(e) => setSelectedEra(e.target.value)}
                 className="w-full text-sm border border-stone-200 rounded-lg px-3 py-2 bg-white text-stone-700 focus:outline-none focus:border-stone-400"
               >
-                <option value="all">{locale === 'en' ? 'All Eras' : '全部时代'}</option>
+                <option value="all">{locale === 'en' ? 'All Eras' : toScript('全部时代')}</option>
                 {ERAS.map((e) => (
                   <option key={e.value} value={e.value}>
-                    {locale === 'en' ? e.labelEn : e.label}
+                    {locale === 'en' ? e.labelEn : toScript(e.label)}
                   </option>
                 ))}
               </select>
@@ -828,12 +828,12 @@ export default function RelationshipsPageClient({
               onClick={() => setSelectedPerson(null)}
               className="text-stone-400 hover:text-stone-600 text-sm"
             >
-              {locale === 'en' ? 'Close' : '关闭'}
+              {locale === 'en' ? 'Close' : toScript('关闭')}
             </button>
           </div>
           <p className="mt-2 text-sm text-stone-600">
             {selectedPerson.birthYear && selectedPerson.deathYear
-              ? `${locale === 'en' ? 'Lived' : '生卒年'}：${selectedPerson.birthYear} - ${selectedPerson.deathYear}`
+              ? `${locale === 'en' ? 'Lived' : toScript('生卒年')}：${selectedPerson.birthYear} - ${selectedPerson.deathYear}`
               : ''}
           </p>
           <p className="mt-3 text-sm text-stone-600 leading-relaxed">
@@ -842,7 +842,7 @@ export default function RelationshipsPageClient({
           {/* Related connections */}
           <div className="mt-4">
             <h4 className="text-xs font-semibold text-stone-500 uppercase tracking-wide mb-2">
-              {locale === 'en' ? 'Connections' : '关联人物'}
+              {locale === 'en' ? 'Connections' : toScript('关联人物')}
             </h4>
             <div className="flex flex-wrap gap-2">
               {personRelationships.map((rel) => {

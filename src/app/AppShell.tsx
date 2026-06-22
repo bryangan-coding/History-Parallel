@@ -39,7 +39,7 @@ function LangToggle() {
 }
 
 function Header() {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
 
   return (
     <header className="border-b border-stone-200 bg-white sticky top-0 z-50">
@@ -56,7 +56,7 @@ function Header() {
               href="/compare"
               className="hover:text-stone-800 transition-colors"
             >
-              {locale === 'en' ? 'Compare' : '人物对比'}
+              {locale === 'en' ? 'Compare' : toScript('人物对比')}
             </Link>
             <Link
               href="/relationships"

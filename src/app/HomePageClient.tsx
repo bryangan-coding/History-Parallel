@@ -18,7 +18,7 @@ export default function HomePageClient({
   featuredPeople: Person[];
   regions: Region[];
 }) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
 
   return (
     <div className="min-h-[calc(100vh-10rem)] flex flex-col items-center justify-center">
@@ -61,9 +61,9 @@ export default function HomePageClient({
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">
-            {locale === 'en' ? 'Compare People' : '人物对比'}
+            {locale === 'en' ? 'Compare People' : toScript('人物对比')}
           </h3>
-          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? 'Side-by-side life paths' : '并排对比人生轨迹'}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? 'Side-by-side life paths' : toScript('并排对比人生轨迹')}</p>
         </Link>
         <Link
           href="/people"
@@ -75,7 +75,7 @@ export default function HomePageClient({
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByPerson}</h3>
-          <p className="mt-1 text-xs text-stone-400">{totalPublished} {locale === 'en' ? 'figures' : '位人物'}</p>
+          <p className="mt-1 text-xs text-stone-400">{totalPublished} {locale === 'en' ? 'figures' : toScript('位人物')}</p>
         </Link>
 
         <Link
@@ -88,7 +88,7 @@ export default function HomePageClient({
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreByYear}</h3>
-          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '221 BCE – 1840 CE' : '公元前 221 年 – 公元 1840 年'}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '221 BCE – 1840 CE' : toScript('公元前 221 年 – 公元 1840 年')}</p>
         </Link>
 
         <Link
@@ -101,7 +101,7 @@ export default function HomePageClient({
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreRelationships}</h3>
-          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? 'Interactive graph' : '互动关系图'}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? 'Interactive graph' : toScript('互动关系图')}</p>
         </Link>
 
         <Link
@@ -114,7 +114,7 @@ export default function HomePageClient({
             </svg>
           </div>
           <h3 className="text-sm font-semibold text-stone-700">{t.home.exploreCivilizations}</h3>
-          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '7 civilizations' : '7 大文明'}</p>
+          <p className="mt-1 text-xs text-stone-400">{locale === 'en' ? '7 civilizations' : toScript('7 大文明')}</p>
         </Link>
       </div>
 
@@ -123,13 +123,13 @@ export default function HomePageClient({
         <div className="mt-16 w-full max-w-3xl mx-auto">
           <div className="flex items-center justify-between mb-4">
             <h2 className="text-sm font-semibold text-stone-500 uppercase tracking-wide">
-              {locale === 'en' ? 'Featured People' : '精选人物'}
+              {locale === 'en' ? 'Featured People' : toScript('精选人物')}
             </h2>
             <Link
               href="/people"
               className="text-xs text-stone-400 hover:text-stone-600 transition-colors"
             >
-              {locale === 'en' ? `View all ${totalPublished} figures →` : `查看全部 ${totalPublished} 位人物 →`}
+              {locale === 'en' ? `View all ${totalPublished} figures →` : toScript(`查看全部 ${totalPublished} 位人物 →`)}
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">

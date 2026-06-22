@@ -5,20 +5,20 @@ import { X, MapPin, Calendar, Users } from 'lucide-react';
 import type { ScoredEvent, Person, Region } from '@/lib/types';
 import { eventTitle, eventSummary, eventPlaceName, personName } from '@/lib/types';
 import { formatYearRange } from '@/lib/date';
-import type { Locale } from '@/lib/types';
+import { useLocale } from '@/i18n/LocaleProvider';
 
 interface Props {
   scored: ScoredEvent;
   regionName: string;
   onClose: () => void;
-  locale: Locale;
   /** Pre-resolved persons — avoids importing mockData in client */
   persons: Person[];
   /** Pre-resolved region — avoids importing mockData in client */
   region?: Region;
 }
 
-export default function EventPreviewPanel({ scored, regionName, onClose, locale, persons, region }: Props) {
+export default function EventPreviewPanel({ scored, regionName, onClose, persons, region }: Props) {
+  const { locale, toScript } = useLocale();
   const evt = scored.event;
 
   return (
@@ -76,7 +76,7 @@ export default function EventPreviewPanel({ scored, regionName, onClose, locale,
           href={`/events/${evt.id}`}
           className="inline-flex items-center text-xs font-medium text-stone-700 hover:text-stone-900 bg-stone-100 hover:bg-stone-200 px-3 py-1.5 rounded-md transition-colors"
         >
-          {locale === 'en' ? 'View details →' : '查看详情 →'}
+          {locale === 'en' ? 'View details →' : toScript('查看详情 →')}
         </Link>
       </div>
     </div>

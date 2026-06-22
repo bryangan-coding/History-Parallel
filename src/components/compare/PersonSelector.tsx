@@ -4,19 +4,22 @@ import { useState, useRef, useEffect, useMemo } from 'react';
 import type { Person } from '@/lib/types';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, personSummary } from '@/lib/types';
+import { X, ArrowLeftRight } from 'lucide-react';
 
 interface PersonSelectorProps {
   selected: Person[];
   onAdd: (person: Person) => void;
   onRemove: (personId: string) => void;
+  onSetReference?: (personId: string) => void;
 }
 
 export default function PersonSelector({
   selected,
   onAdd,
   onRemove,
+  onSetReference,
 }: PersonSelectorProps) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const [query, setQuery] = useState('');
   const [isOpen, setIsOpen] = useState(false);
   const [results, setResults] = useState<Person[]>([]);
@@ -74,23 +77,38 @@ export default function PersonSelector({
       {selected.length > 0 && (
         <div className="flex flex-wrap gap-2">
           {selected.map((person, i) => {
-            const colors = ['#d97706', '#2563eb', '#059669', '#dc2626', '#7c3aed', '#0d9488', '#ea580c', '#ca8a04'];
+            const colors = ['#d97706', '#2563eb', '#059669', '#dc2626', '#7c3aed', '#0d9488'];
             const color = colors[i % colors.length];
+            const isReference = i === 0;
             return (
               <span
                 key={person.id}
-                className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-sm font-medium border transition-colors"
+                className="inline-flex items-center gap-1 px-3 py-1.5 rounded-full text-sm font-medium border transition-colors group"
                 style={{ borderColor: color, color, backgroundColor: `${color}10` }}
               >
-                {personName(person, locale)}
+                {isReference && (
+                  <span className="text-[10px] font-medium uppercase tracking-wide" style={{ color }}>
+                    {locale === 'en' ? 'Ref' : toScript('参照')}
+                  </span>
+                )}
+                <span className="text-sm font-semibold text-stone-800">
+                  {personName(person, locale)}
+                </span>
+                {!isReference && onSetReference && (
+                  <button
+                    onClick={() => onSetReference(person.id)}
+                    className="p-0.5 rounded hover:bg-black/10 transition-colors opacity-40 group-hover:opacity-100"
+                    title={locale === 'en' ? 'Set as reference' : toScript('设为参照')}
+                  >
+                    <ArrowLeftRight size={11} />
+                  </button>
+                )}
                 <button
                   onClick={() => onRemove(person.id)}
-                  className="ml-0.5 rounded-full p-0.5 hover:bg-black/5 transition-colors"
-                  title={t.compare.removePerson}
+                  className="p-0.5 rounded hover:bg-black/10 transition-colors opacity-40 group-hover:opacity-100"
+                  title={locale === 'en' ? 'Remove' : toScript('移除')}
                 >
-                  <svg width="12" height="12" viewBox="0 0 12 12" fill="none">
-                    <path d="M3 3L9 9M9 3L3 9" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" />
-                  </svg>
+                  <X size={13} />
                 </button>
               </span>
             );
@@ -122,7 +140,7 @@ export default function PersonSelector({
               </div>
             ) : results.length === 0 ? (
               <p className="px-4 py-3 text-sm text-stone-400 text-center">
-                {fetchError ? (locale === 'en' ? 'Search failed. Try again.' : '搜索失败，请重试。') : (locale === 'en' ? 'No matching people' : '无匹配人物')}
+                {fetchError ? (locale === 'en' ? 'Search failed. Try again.' : toScript('搜索失败，请重试。')) : (locale === 'en' ? 'No matching people' : toScript('无匹配人物'))}
               </p>
             ) : (
               results.map((person) => (

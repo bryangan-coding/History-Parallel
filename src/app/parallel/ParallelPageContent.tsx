@@ -24,7 +24,7 @@ interface ParallelPageContentProps {
 }
 
 export default function ParallelPageContent({ regions }: ParallelPageContentProps) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const searchParams = useSearchParams();
 
   const rawYear = parseInt(searchParams.get('year') ?? '1080', 10);
@@ -124,11 +124,11 @@ export default function ParallelPageContent({ regions }: ParallelPageContentProp
   } else if (focusPerson) {
     title = `${formatYearRange(focusPerson.birthYear, focusPerson.deathYear)}, ${personName(focusPerson, locale)}`;
   } else {
-    title = locale === 'en' ? `Around ${year}` : `${year}年前后`;
+    title = locale === 'en' ? `Around ${year}` : toScript(`${year}年前后`);
   }
 
   const subtitle = range > 0
-    ? (locale === 'en' ? `Time range: ${year - range} — ${year + range}` : `时间范围：${year - range} — ${year + range}年`)
+    ? (locale === 'en' ? `Time range: ${year - range} — ${year + range}` : toScript(`时间范围：${year - range} — ${year + range}年`))
     : undefined;
 
   const totalEvents = filteredGroups.reduce((sum, g) => sum + g.events.length, 0);
@@ -185,7 +185,7 @@ export default function ParallelPageContent({ regions }: ParallelPageContentProp
               aria-pressed={viewMode === 'map'}
             >
               <Map className="w-3.5 h-3.5" />
-              {locale === 'en' ? 'Map' : '地图'}
+              {locale === 'en' ? 'Map' : toScript('地图')}
             </button>
           </div>
         </div>
@@ -207,7 +207,7 @@ export default function ParallelPageContent({ regions }: ParallelPageContentProp
       {/* Error state */}
       {error && !loading && (
         <EmptyState
-          title={locale === 'en' ? 'Failed to load' : '加载失败'}
+          title={locale === 'en' ? 'Failed to load' : toScript('加载失败')}
           description={error}
         />
       )}

@@ -220,7 +220,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
       {isPending && (
         <div className="flex items-center gap-2 mb-4 text-sm text-stone-400">
           <div className="animate-spin w-4 h-4 border-2 border-stone-300 border-t-stone-600 rounded-full" />
-          {locale === 'en' ? 'Searching...' : '搜索中...'}
+          {locale === 'en' ? 'Searching...' : toScript('搜索中...')}
         </div>
       )}
 
@@ -230,20 +230,20 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
           <p className="text-sm text-stone-500">
             {locale === 'en'
               ? `${totalResults} results found`
-              : `找到 ${totalResults} 条结果`}
+              : toScript(`找到 ${totalResults} 条结果`)}
             {results.people.length > 0 && (
               <span className="ml-2 text-stone-400">
-                {locale === 'en' ? 'People' : '人物'}: {results.people.length}
+                {locale === 'en' ? 'People' : toScript('人物')}: {results.people.length}
               </span>
             )}
             {results.events.length > 0 && (
               <span className="ml-2 text-stone-400">
-                {locale === 'en' ? 'Events' : '事件'}: {results.events.length}
+                {locale === 'en' ? 'Events' : toScript('事件')}: {results.events.length}
               </span>
             )}
             {results.regions.length > 0 && (
               <span className="ml-2 text-stone-400">
-                {locale === 'en' ? 'Regions' : '地区'}: {results.regions.length}
+                {locale === 'en' ? 'Regions' : toScript('地区')}: {results.regions.length}
               </span>
             )}
           </p>
@@ -257,7 +257,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
               }`}
             >
               <Funnel className="w-3 h-3" />
-              {locale === 'en' ? 'Filters' : '筛选'}
+              {locale === 'en' ? 'Filters' : toScript('筛选')}
               {activeFilterCount > 0 && (
                 <span className="ml-1 w-4 h-4 rounded-full bg-stone-600 text-white text-[10px] flex items-center justify-center">
                   {activeFilterCount}
@@ -271,7 +271,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
             >
               {SORT_OPTIONS.map((opt) => (
                 <option key={opt.value} value={opt.value}>
-                  {locale === 'en' ? opt.labelEn : opt.label}
+                  {locale === 'en' ? opt.labelEn : toScript(opt.label)}
                 </option>
               ))}
             </select>
@@ -286,7 +286,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
             {/* Era filter chips */}
             <div>
               <span className="text-xs font-semibold text-stone-500 uppercase block mb-1.5">
-                {locale === 'en' ? 'Era' : '时代'}
+                {locale === 'en' ? 'Era' : toScript('时代')}
               </span>
               <div className="flex flex-wrap gap-1">
                 {ERA_FILTERS.map((era) => (
@@ -299,7 +299,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
                         : 'border-stone-200 text-stone-500 hover:border-stone-300'
                     }`}
                   >
-                    {locale === 'en' ? era.labelEn : era.label}
+                    {locale === 'en' ? era.labelEn : toScript(era.label)}
                   </button>
                 ))}
               </div>
@@ -308,7 +308,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
             {/* Region filter */}
             <div>
               <span className="text-xs font-semibold text-stone-500 uppercase block mb-1.5">
-                {locale === 'en' ? 'Region' : '地区'}
+                {locale === 'en' ? 'Region' : toScript('地区')}
               </span>
               <div className="flex flex-wrap gap-1">
                 <button
@@ -319,7 +319,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
                       : 'border-stone-200 text-stone-500 hover:border-stone-300'
                   }`}
                 >
-                  {locale === 'en' ? 'All' : '全部'}
+                  {locale === 'en' ? 'All' : toScript('全部')}
                 </button>
                 {topRegions.map((r) => (
                   <button
@@ -347,22 +347,22 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
               {showAdvanced
                 ? locale === 'en'
                   ? '− Hide Advanced'
-                  : '− 收起高级搜索'
+                  : toScript('− 收起高级搜索')
                 : locale === 'en'
                   ? '+ Advanced Search'
-                  : '+ 高级搜索'}
+                  : toScript('+ 高级搜索')}
             </button>
             {showAdvanced && (
               <div className="mt-2 flex flex-wrap gap-3">
                 <div className="flex items-center gap-2">
                   <label className="text-xs text-stone-500">
-                    {locale === 'en' ? 'Year:' : '年份：'}
+                    {locale === 'en' ? 'Year:' : toScript('年份：')}
                   </label>
                   <input
                     type="number"
                     value={yearFrom}
                     onChange={(e) => setYearFrom(e.target.value)}
-                    placeholder={locale === 'en' ? 'From' : '起始'}
+                    placeholder={locale === 'en' ? 'From' : toScript('起始')}
                     className="w-20 text-xs border border-stone-200 rounded px-2 py-1 focus:outline-none focus:border-stone-400"
                   />
                   <span className="text-xs text-stone-400">—</span>
@@ -370,7 +370,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
                     type="number"
                     value={yearTo}
                     onChange={(e) => setYearTo(e.target.value)}
-                    placeholder={locale === 'en' ? 'To' : '结束'}
+                    placeholder={locale === 'en' ? 'To' : toScript('结束')}
                     className="w-20 text-xs border border-stone-200 rounded px-2 py-1 focus:outline-none focus:border-stone-400"
                   />
                 </div>
@@ -389,7 +389,7 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
           />
           <div className="mt-4">
             <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-2">
-              {locale === 'en' ? 'Try searching for:' : '试试搜索：'}
+              {locale === 'en' ? 'Try searching for:' : toScript('试试搜索：')}
             </p>
             <div className="flex flex-wrap gap-2">
               {SEARCH_SUGGESTIONS.map((s) => (
@@ -415,13 +415,13 @@ export default function SearchResults({ regions }: SearchPageClientProps) {
           />
           <div className="mt-4">
             <p className="text-xs font-semibold text-stone-400 uppercase tracking-wide mb-2">
-              {locale === 'en' ? 'Suggestions:' : '建议：'}
+              {locale === 'en' ? 'Suggestions:' : toScript('建议：')}
             </p>
             <ul className="text-sm text-stone-500 space-y-1 list-disc pl-5">
-              <li>{locale === 'en' ? 'Try a different spelling or keyword' : '尝试不同的拼写或关键词'}</li>
-              <li>{locale === 'en' ? 'Try a broader term (e.g., "China" instead of a dynasty name)' : '尝试更宽泛的词（如搜"中国"而不是朝代名）'}</li>
-              <li>{locale === 'en' ? 'Search by year number (e.g., "1066")' : '用年份数字搜索（如"1066"）'}</li>
-              <li>{locale === 'en' ? 'Try English if Chinese doesn\'t work' : '中文搜不到可以试试英文名'}</li>
+              <li>{locale === 'en' ? 'Try a different spelling or keyword' : toScript('尝试不同的拼写或关键词')}</li>
+              <li>{locale === 'en' ? 'Try a broader term (e.g., "China" instead of a dynasty name)' : toScript('尝试更宽泛的词（如搜"中国"而不是朝代名）')}</li>
+              <li>{locale === 'en' ? 'Search by year number (e.g., "1066")' : toScript('用年份数字搜索（如"1066"）')}</li>
+              <li>{locale === 'en' ? 'Try English if Chinese doesn\'t work' : toScript('中文搜不到可以试试英文名')}</li>
             </ul>
           </div>
         </div>

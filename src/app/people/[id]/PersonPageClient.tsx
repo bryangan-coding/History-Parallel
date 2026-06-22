@@ -71,7 +71,7 @@ export function PersonPageClient({ id, person, region, personEvents, eventRegion
               href={`/compare?preselect=${person.id}`}
               className="text-xs font-medium text-stone-400 hover:text-stone-600 transition-colors border border-stone-200 rounded-md px-2 py-0.5 hover:border-stone-300"
             >
-              {locale === 'en' ? 'Compare →' : '对比他人 →'}
+              {locale === 'en' ? 'Compare →' : toScript('对比他人 →')}
             </Link>
           </h2>
           {personEvents.length === 0 ? (

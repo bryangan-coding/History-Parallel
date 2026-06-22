@@ -351,6 +351,36 @@
     "externalReferences": []
   },
   {
+    "id": "evt-wanganshi-jinshi",
+    "title": "王安石进士及第",
+    "titleEn": "Wang Anshi passes the imperial examination",
+    "startYear": 1042,
+    "endYear": 1042,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-anshi"
+    ],
+    "tags": [
+      "人物",
+      "生平"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life"
+    ],
+    "summary": "庆历二年（1042年），二十二岁的王安石进士及第，名列第四名（一甲）。他放弃留京入馆阁的机会，主动请求外放到地方任职，先后任淮南判官、鄞县知县、舒州通判等，在基层积累了丰富的施政经验。",
+    "description": "庆历二年（1042年），年仅二十二岁的王安石以第四名考中进士。按宋代惯例，名列前茅的进士可留在京城任职馆阁之职——这是通向高官的捷径。但王安石却主动请求外放地方，先后在淮南、鄞县（今浙江宁波）、舒州（今安徽潜山）等地任职近二十年。在鄞县知县任上他兴修水利、贷谷与民，初步实践了自己的改革理念，赢得了百姓的衷心爱戴。这段深入基层的经历为他日后主持全国性变法积累了宝贵的第一手经验。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
     "id": "evt-wanganshi-essay",
     "title": "王安石上万言书",
     "titleEn": "Wang Anshi submits Ten-Thousand Word Memorial",
@@ -417,6 +447,202 @@
     "externalReferences": []
   },
   {
+    "id": "evt-wanganshi-resign",
+    "title": "王安石变法失败罢相归江宁",
+    "titleEn": "Wang Anshi resigns after reform failure and returns to Jiangning",
+    "startYear": 1076,
+    "endYear": 1076,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-anshi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "变法",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Reform",
+      "Politics"
+    ],
+    "summary": "熙宁九年（1076年），变法派内部矛盾激化，加上天灾频发和旧党猛烈攻击，王安石长子王雱病逝更给他沉重打击。五十六岁的王安石被迫再次罢相，退居江宁府（今南京）。他苦心经营的变法事业在旧党反扑下逐渐被废除。",
+    "description": "熙宁九年（1076年），变法局势急转直下。变法派内部吕惠卿与王安石产生严重分歧甚至反目成仇，外部旧党司马光、文彦博等人猛烈攻击新法。更为致命的是，持续的大旱导致流民四起，反对派借机声称这是上天对新法的惩罚。王安石最疼爱的长子王雱也在这一年病逝，年仅三十三岁。心力交瘁的王安石终于第二次也是最后一次罢相，五十六岁的他带着丧子之痛黯然回到江宁（今南京）。元丰八年（1085年）神宗驾崩后旧党上台，新法被逐一废除。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wanganshi-retirement",
+    "title": "王安石退居金陵半山园",
+    "titleEn": "Wang Anshi retires to Banshan Garden in Jinling",
+    "startYear": 1077,
+    "endYear": 1077,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-anshi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature"
+    ],
+    "summary": "罢相后的王安石在江宁府城东门外筑半山园隐居，自号半山。他寄情山水、潜心佛学，诗风由早年的奇崛峭拔转为含蓄深沉——「春风又绿江南岸，明月何时照我还」的千古名句正写于此时。晚年的王安石与苏轼在金陵相见，一笑泯恩仇。",
+    "description": "熙宁十年（1077年）后，王安石在江宁（今南京）东门外的钟山脚下筑半山园隐居，自号「半山」。他远离了昔日政治漩涡的中心，骑驴游山、吟诗参禅。这一时期他的诗歌达到了最高成就——《泊船瓜洲》中的「春风又绿江南岸，明月何时照我还」以一字千钧的「绿」字享誉千古。元丰七年（1084年）苏轼从黄州贬所北上途经金陵，两位昔日的政敌相见。王安石亲自骑驴到江边迎接，二人谈诗论佛数日，临别时王安石感叹「不知更几百年，方有如此人物」。这段晚年相逢成为北宋文人史上最动人的佳话。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wanganshi-death",
+    "title": "王安石病逝金陵",
+    "titleEn": "Wang Anshi dies in Jinling",
+    "startYear": 1086,
+    "endYear": 1086,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-anshi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "元祐元年（1086年），当王安石得知自己苦心推行的免役法也被旧党废除时，这位倔强的老人终于崩溃。同年四月，王安石在江宁郁郁而终，享年六十六岁。他生前封荆国公，后世尊称王荆公。",
+    "description": "元祐元年（1086年），王安石晚年最后的慰藉也破灭了。旧党上台后司马光以惊人的速度废除新法，当他听到连自己最看重的免役法也被废除的消息时，这位一生倔强不屈的改革家终于老泪纵横。同年四月，王安石在江宁半山园中郁郁而终，享年六十六岁。他生前被封为荆国公，后世尊称「王荆公」。作为唐宋八大家之一，王安石不仅以变法留名青史，其散文雄健峭拔、诗歌遒劲清新，在中国文学史上同样占据着重要地位。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-fengxiang",
+    "title": "苏轼任凤翔签判初入仕途",
+    "titleEn": "Su Shi begins his career as Assistant Magistrate of Fengxiang",
+    "startYear": 1061,
+    "endYear": 1061,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "仕途"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Career"
+    ],
+    "summary": "嘉祐六年（1061年），二十六岁的苏轼通过制科考试获三等（最高等），授大理评事、签书凤翔府判官。这是他仕途的起点，在凤翔三年间深入民间了解百姓疾苦，初显政治才干。",
+    "description": "嘉祐六年（1061年），苏轼参加制科考试——这是比进士科更高规格的选拔。他以「贤良方正能直言极谏科」考入第三等（自宋开国以来获三等者仅二人），名震京师。随后授大理评事、签书凤翔府判官，携妻子王弗赴任。在凤翔的三年里他深入关中大地，目睹了百姓的艰难生活，写下了《郿坞》《李氏园》等反映民间疾苦的诗篇。这段基层经历为他日后的政治生涯奠定了基础。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-hangzhou-tongpan",
+    "title": "苏轼反对新法外放杭州通判",
+    "titleEn": "Su Shi opposes reforms and is sent to Hangzhou as Vice Prefect",
+    "startYear": 1071,
+    "endYear": 1071,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Politics"
+    ],
+    "summary": "熙宁四年（1071年），苏轼因上书反对王安石新法激怒变法派，自请外放为杭州通判。这是他仕途中的第一次挫折，但也由此开启了他与杭州的不解之缘——「欲把西湖比西子，淡妆浓抹总相宜」便写于此间。",
+    "description": "熙宁四年（1071年），王安石变法正如火如荼。苏轼多次上书论新法之弊，认为变法过急、与民争利。这使他成为变法派的眼中钉，御史谢景温弹劾他在送父亲灵柩回蜀途中贩运私盐——虽查无实据，但苏轼深知朝中已无容身之处，自请外放。三十六岁的他被任命为杭州通判。这是他人生中第一次遭遇政治挫折。但在杭州的三年间他游遍西湖山水，写下「水光潋滟晴方好，山色空蒙雨亦奇」等名篇，江南烟雨反而滋养了他的诗心。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-mizhou",
+    "title": "苏轼任密州知州创作豪放词",
+    "titleEn": "Su Shi governs Mizhou and writes his greatest heroic lyrics",
+    "startYear": 1075,
+    "endYear": 1075,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature"
+    ],
+    "summary": "熙宁八年（1075年），苏轼在密州知州任上创作了两首传诵千古的绝唱——《江城子·密州出猎》「会挽雕弓如满月，西北望，射天狼」开创豪放词风；《水调歌头·明月几时有》「但愿人长久，千里共婵娟」成为中秋词的千古绝调。",
+    "description": "熙宁八年（1075年），四十岁的苏轼在密州（今山东诸城）任知州。这年正月他梦见了去世十年的原配妻子王弗，醒来泪流满面写下「十年生死两茫茫，不思量，自难忘」——中国文学史上最深情的悼亡词。同年冬天他与同僚出猎，写下《江城子·密州出猎》「老夫聊发少年狂，左牵黄，右擎苍」，首开以词写豪情的先河。次年中秋，他因思念弟弟苏辙而醉饮达旦，写下了《水调歌头》「明月几时有，把酒问青天」。密州三年是苏轼词风成熟的转折点。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
     "id": "evt-sushi-wutai-trial",
     "title": "乌台诗案贬谪黄州",
     "titleEn": "Su Shi exiled to Huangzhou after Crow Terrace Poetry Trial",
@@ -440,8 +666,40 @@
       "Literature"
     ],
     "summary": "元丰二年（1079年），苏轼因诗文被指讽刺新法，被捕入御史台狱（乌台），历经四月审讯后被贬为黄州团练副使。在黄州自号东坡居士，创作了《赤壁赋》《念奴娇·赤壁怀古》等千古名篇。",
-    "description": "元丰二年（1079年），四十三岁的苏轼因诗文\"讥讪朝政\"被弹劾入狱——这就是\"乌台诗案\"。经多方营救被贬黄州团练副使。在黄州期间自耕东坡，自号\"东坡居士\"，泛舟赤壁之下写出了前后《赤壁赋》和\"大江东去\"的不朽篇章。贬谪反而催生了他文学创作的巅峰。",
+    "description": "元丰二年（1079年），四十三岁的苏轼因诗文「讥讪朝政」被弹劾入狱——这就是「乌台诗案」。经多方营救被贬黄州团练副使。在黄州期间自耕东坡，自号「东坡居士」，泛舟赤壁之下写出了前后《赤壁赋》和「大江东去」的不朽篇章。贬谪反而催生了他文学创作的巅峰。",
     "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-recalled-hanlin",
+    "title": "苏轼被召还任翰林学士",
+    "titleEn": "Su Shi recalled to court as Hanlin Academician",
+    "startYear": 1085,
+    "endYear": 1085,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "仕途"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Career"
+    ],
+    "summary": "元丰八年（1085年），宋神宗去世，年仅十岁的哲宗继位，高太后垂帘听政，起用旧党。苏轼被召还朝，一路升迁至翰林学士、知制诰，负责起草朝廷诏令，达到仕途的巅峰。",
+    "description": "元丰八年（1085年），随着宋神宗去世和高太后掌权，政治风向骤变。旧党领袖司马光被起用为相，苏轼的命运也随之逆转——从贬谪之地被急速召回，短短一年多内从团练副使跃升为三品翰林学士、知制诰，负责起草朝廷最重要的诏令文书。此时他已是名满天下的大文豪，京中士大夫争相与之交游。然而他并不完全赞同旧党尽废新法的做法，主张保留免役法等行之有效的新政，因而又与旧党产生分歧。",
+    "importance": 4,
     "datePrecision": "year",
     "isApproximate": false,
     "relatedEventIds": [],
@@ -471,8 +729,342 @@
       "Life",
       "Governance"
     ],
-    "summary": "元祐四年（1089年），苏轼以龙图阁学士出知杭州。他组织二十万民工大规模疏浚西湖，以淤泥葑草堆筑长堤遍植桃柳，后人称此堤为\"苏堤\"。苏堤春晓至今仍是西湖十景之首。",
-    "description": "元祐四年（1089年），苏轼出任杭州知州。面对西湖严重淤塞的困境，他组织二十万民工疏浚西湖，将淤泥水草堆筑成贯穿南北的长堤，堤上遍植桃柳芙蓉，建六桥以通水流。百姓感激他，将此堤命名为\"苏堤\"。\"苏堤春晓\"至今仍是西湖十景之首。",
+    "summary": "元祐四年（1089年），苏轼以龙图阁学士出知杭州。他组织二十万民工大规模疏浚西湖，以淤泥葑草堆筑长堤遍植桃柳，后人称此堤为「苏堤」。苏堤春晓至今仍是西湖十景之首。",
+    "description": "元祐四年（1089年），苏轼出任杭州知州。面对西湖严重淤塞的困境，他组织二十万民工疏浚西湖，将淤泥水草堆筑成贯穿南北的长堤，堤上遍植桃柳芙蓉，建六桥以通水流。百姓感激他，将此堤命名为「苏堤」。「苏堤春晓」至今仍是西湖十景之首。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-huizhou",
+    "title": "苏轼贬谪惠州",
+    "titleEn": "Su Shi exiled to Huizhou in Lingnan",
+    "startYear": 1094,
+    "endYear": 1094,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile"
+    ],
+    "summary": "绍圣元年（1094年），哲宗亲政后重用新党，苏轼被贬为宁远军节度副使、惠州安置。此时他已年近六旬，但依然旷达乐观——「日啖荔枝三百颗，不辞长作岭南人」，并在惠州资助修建了东新桥和西新桥。",
+    "description": "绍圣元年（1094年），高太后去世后哲宗亲政，重新起用变法派，对旧党展开了残酷的政治清算。苏轼被一贬再贬，最后以「宁远军节度副使」的虚衔安置惠州——此时他已五十九岁。当时的岭南被视为瘴疠蛮荒之地，但他却在惠州活得有滋有味：「罗浮山下四时春，卢橘杨梅次第新。日啖荔枝三百颗，不辞长作岭南人。」他还捐出皇帝赏赐的犀带，又动员弟媳捐出宫中赏赐的黄金，资助修建了惠州的东新桥和西新桥，造福一方百姓。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-danzhou",
+    "title": "苏轼贬谪儋州开化海南",
+    "titleEn": "Su Shi exiled to Danzhou and civilizes Hainan",
+    "startYear": 1097,
+    "endYear": 1097,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "教育"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Education"
+    ],
+    "summary": "绍圣四年（1097年），六十二岁的苏轼被贬往更遥远的儋州（今海南岛）。在当时的海南这是仅比满门抄斩轻一等的处罚。但他在蛮荒之地开办学堂、传播文化，培养了海南历史上第一位举人，被海南人民世代敬仰。",
+    "description": "绍圣四年（1097年），政敌们读到苏轼在惠州写下的「报道先生春睡美，道人轻打五更钟」后大为恼怒——贬谪之人居然如此逍遥！于是将他再贬到更遥远的儋州（今海南儋州）。当时海南是流放罪臣的极远之地，六十二岁的苏轼抱着必死之心渡海，将后事都安排好了。但抵达后他与当地黎族百姓和睦相处，开办学堂讲学授课。他培养了海南历史上第一位举人姜唐佐和第一位进士符确。海南人至今说「琼崖文化，实自苏公始」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sushi-north-return",
+    "title": "苏轼遇赦北归病逝常州",
+    "titleEn": "Su Shi is pardoned but dies in Changzhou on his way north",
+    "startYear": 1100,
+    "endYear": 1101,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "元符三年（1100年），哲宗去世徽宗即位，苏轼遇赦北归。北归途中沿途百姓夹道欢迎，但他因多年贬谪积劳成疾，于建中靖国元年（1101年）七月二十八日病逝于常州，享年六十六岁。",
+    "description": "元符三年（1100年），年仅二十五岁的宋哲宗突然去世，徽宗即位之初大赦天下，被贬谪海南三年的苏轼终于获准北归。消息传开后沿途百姓万人空巷争相一睹东坡先生风采。然而多年的贬谪流放已严重损害了他的健康——从海南渡海归来途中他就已染病。行至常州时病情加重，于建中靖国元年七月二十八日（1101年8月24日）与世长辞，享年六十六岁。「吴越之民相与哭于市」，天下士子无不悲痛。苏轼临终前对三个儿子说的最后一句话是：「吾生不恶，死必不坠。」",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-revolt",
+    "title": "辛弃疾率众起义归南宋",
+    "titleEn": "Xin Qiji leads a revolt and joins the Southern Song",
+    "startYear": 1161,
+    "endYear": 1161,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "起义",
+      "军事"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Revolt",
+      "Military"
+    ],
+    "summary": "绍兴三十一年（1161年），金主完颜亮大举南侵，北方汉人纷纷起义。年仅二十二岁的辛弃疾聚集两千人投奔耿京起义军，任掌书记，并劝耿京归附南宋。次年他奉命南下联络宋朝，归来时却惊闻耿京已被叛徒张安国杀害，义军溃散。",
+    "description": "绍兴三十一年（1161年），金主完颜亮率六十万大军南侵，北方沦陷区汉人奋起反抗。年仅二十二岁的辛弃疾聚集两千余人投奔耿京领导的起义军，被任命为掌书记。他力劝耿京归附南宋以图恢复中原大计。绍兴三十二年（1162年）辛弃疾奉命南下与南宋朝廷联络，宋高宗在建康（今南京）接见并任命耿京为天平军节度使。然而辛弃疾北返途中惊闻噩耗——叛徒张安国已杀害耿京投降金朝，义军群龙无首已溃散。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-capture-traitor",
+    "title": "辛弃疾率五十骑擒叛徒张安国",
+    "titleEn": "Xin Qiji captures traitor Zhang Anguo with fifty riders",
+    "startYear": 1162,
+    "endYear": 1162,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "传奇"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Legend"
+    ],
+    "summary": "绍兴三十二年（1162年），辛弃疾仅率五十骑突袭金营，于数万金兵中生擒叛徒张安国，并号召旧部万人南归。这一壮举使二十三岁的辛弃疾名震天下——「壮岁旌旗拥万夫，锦襜突骑渡江初」正是他晚年的热血回忆。",
+    "description": "绍兴三十二年（1162年），辛弃疾北返途中得知耿京遇害、义军溃散后，做出了一个令金人胆寒的决定——他只率五十名骑兵，趁夜色突袭金兵大营。当时叛徒张安国正在金营中饮酒庆功，辛弃疾以迅雷不及掩耳之势冲入营帐将其擒获，并当场号召被裹挟的义军旧部。在他的感召下，万余名义军跟随他一路突破金兵拦截南渡长江。辛弃疾将张安国押至建康斩首。这一传奇壮举使他二十三岁便名震天下。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-ten-treatises",
+    "title": "辛弃疾上美芹十论",
+    "titleEn": "Xin Qiji submits Ten Treatises on Strategic Planning",
+    "startYear": 1165,
+    "endYear": 1165,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "战略",
+      "北伐"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Strategy",
+      "Recovery"
+    ],
+    "summary": "乾道元年（1165年），辛弃疾向宋孝宗呈上《美芹十论》（又称《御戎十论》），从审势、察情、观衅、自治、守淮、屯田、致勇、防微、久任、详战十个方面全面阐述了北伐收复中原的战略规划。这是南宋最系统的北伐方略，可惜未被采纳。",
+    "description": "乾道元年（1165年），年仅二十六岁的辛弃疾向刚即位的宋孝宗呈上《美芹十论》——一部系统阐述北伐收复中原的战略著作。他从十个方面详尽分析了金国的内部矛盾和宋朝的北伐方略：指出金国实行民族压迫统治根基不稳，建议采取持久战而非速决战、屯田养兵、训练精锐等。全文洋洋万言、鞭辟入里，是南宋一朝最全面、最具战略眼光的北伐方案。然而当时朝中主和派占上风，这份充满热血与远见的奏章被搁置一旁。辛弃疾一生念念不忘中原，却始终壮志未酬。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-flying-tiger",
+    "title": "辛弃疾创建飞虎军",
+    "titleEn": "Xin Qiji establishes the Flying Tiger Army",
+    "startYear": 1180,
+    "endYear": 1180,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "建军"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Army"
+    ],
+    "summary": "淳熙七年（1180年），辛弃疾任湖南安抚使，冒着被弹劾的风险创建了一支精锐的地方武装——飞虎军。他为建军营砍伐林木时豪迈地说「只要能建好军队，我甘愿承担一切责任」。这支飞虎军后来成为长江防线最精锐的劲旅，金人闻之色变。",
+    "description": "淳熙七年（1180年），辛弃疾出任湖南安抚使兼知潭州。他深知北伐需要一支训练有素的军队，于是力排众议创建「飞虎军」。当时有人弹劾他耗费钱财，朝廷连下金牌命他停工。辛弃疾将金牌藏起，加快了营房建设速度。时值秋雨连绵需要瓦片，他下令长沙城居民每户送瓦二十片——不到两天瓦片便堆满军营。他又从广西购买战马五百匹，从各地招募精壮兵士。飞虎军建成后雄镇一方，成为长江中下游最精锐的部队，金人称为「虎儿军」不敢轻犯。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-exile-daihu",
+    "title": "辛弃疾被弹劾闲居带湖",
+    "titleEn": "Xin Qiji impeached and retires to Daihu",
+    "startYear": 1181,
+    "endYear": 1181,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Literature"
+    ],
+    "summary": "淳熙八年（1181年），辛弃疾被弹劾罢官，退居江西上饶带湖庄园，自号稼轩居士。此后的二十年间他大部分时间赋闲在家，北伐壮志难酬，却在田园山水中创作了大量豪放悲壮的词篇——「醉里挑灯看剑，梦回吹角连营」正是此间所写。",
+    "description": "淳熙八年（1181年），四十二岁的辛弃疾被谏官弹劾「用钱如泥沙，杀人如草芥」而遭罢官。他退居江西上饶带湖庄园，自号「稼轩居士」。此后二十年间他虽几度起复但每次任期都极短，大部分时间闲居在家。这段看似消沉的岁月却催生了中国文学史上最激昂悲壮的词作——「醉里挑灯看剑，梦回吹角连营」「可怜白发生」「廉颇老矣，尚能饭否」等千古名句，道尽了一位英雄报国无门的深沉悲愤。辛词以文为词、以气驭词，将豪放词风推向了巅峰。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xinqiji-last-call",
+    "title": "辛弃疾临终大呼杀贼",
+    "titleEn": "Xin Qiji cries 'Kill the enemy!' on his deathbed",
+    "startYear": 1207,
+    "endYear": 1207,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xin-qiji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世",
+      "爱国"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death",
+      "Patriotism"
+    ],
+    "summary": "开禧三年（1207年），朝廷在韩侂胄北伐失败后急召辛弃疾入朝主持大局。然而诏命未至，六十八岁的辛弃疾已病重不起。临终前他大呼「杀贼！杀贼！」数声而亡。这位终生以收复中原为己任的英雄至死未能看到河山一统。",
+    "description": "开禧三年（1207年），韩侂胄主持的开禧北伐遭遇惨败，金兵大举南下。危急关头朝廷想起了赋闲在家已久的辛弃疾，急召他入京任枢密院都承旨，指望这位老英雄能挽狂澜于既倒。然而诏命到达铅山时辛弃疾已病入膏肓卧床不起。九月初十，这位一生以收复中原为志业的英雄在病榻上突然睁大眼睛连呼「杀贼！杀贼！」数声，随后与世长辞，享年六十八岁。从二十二岁率众南归到六十八岁临终疾呼，辛弃疾用一生诠释了什么是至死不渝的家国情怀。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-simaguang-oppose-reform",
+    "title": "司马光反对新法退居洛阳",
+    "titleEn": "Sima Guang opposes reforms and retires to Luoyang",
+    "startYear": 1071,
+    "endYear": 1071,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sima-guang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "熙宁四年（1071年），司马光因坚决反对王安石变法，与神宗当面激烈辩论后自请退居洛阳。在洛阳的十五年间他远离朝政，专心致志编纂《资治通鉴》，「日力不足，继之以夜」的苦读精神传为佳话。",
+    "description": "熙宁四年（1071年），司马光与王安石围绕变法展开了著名的「延和殿之争」。司马光认为新法「侵官、生事、征利、拒谏」，与民争利动摇国本。宋神宗最终选择支持王安石，司马光被任命为西京留司御史台——一个有名无实的闲职。他退居洛阳十五年间，表面上是赋闲，实则以惊人的毅力编纂《资治通鉴》。他自述「日力不足，继之以夜」，将全部心血倾注于这部史学巨著。他还聚集了一批失意的旧党文人——富弼、文彦博等，洛阳成为旧党的精神大本营。",
     "importance": 5,
     "datePrecision": "year",
     "isApproximate": false,
@@ -505,6 +1097,567 @@
     ],
     "summary": "治平元年（1064年），司马光开始编纂《资治通鉴》。此后他前后耗时十九年，团结刘恕、刘攽、范祖禹等一流史学家，完成涵盖战国至五代1362年历史的编年体巨著。",
     "description": "治平元年（1064年），司马光向宋英宗进呈八卷《历年图》，此后在英宗和神宗支持下设书局专心编纂。退居洛阳十五年间，他翻阅大量宫廷秘藏史料，十九年呕心沥血完成二百九十四卷《资治通鉴》。宋神宗亲赐书名并作序：\"鉴于往事，有资于治道。\"",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-simaguang-return",
+    "title": "司马光回朝废除新法",
+    "titleEn": "Sima Guang returns to court and abolishes the New Policies",
+    "startYear": 1085,
+    "endYear": 1085,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sima-guang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治",
+      "变法"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics",
+      "Reform"
+    ],
+    "summary": "元丰八年（1085年），宋神宗去世，年仅十岁的哲宗继位，高太后垂帘听政。六十七岁的司马光被召回朝出任宰相。他以惊人的速度废除了王安石推行的大部分新法，史称「元祐更化」。然而这种全盘否定的做法也引发了旧党内部的分裂。",
+    "description": "元丰八年（1085年）三月，年仅三十八岁的宋神宗英年早逝，高太后临朝称制。她一向反对新法，立即召司马光回朝。司马光从洛阳出发时百姓夹道欢迎，京城百姓甚至拦住他的马头高呼「公无归洛，留相天子，活百姓」。六十七岁的司马光出任宰相后以惊人的速度废除新法——免役法、青苗法、市易法逐一罢除。这种全盘否定的做法不仅遭到变法派的反对，连旧党内部的苏轼、范纯仁等人也认为过于极端——他们主张保留行之有效的免役法。但司马光固执己见，这也为日后新旧党争的恶性循环埋下了伏笔。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-simaguang-death",
+    "title": "司马光病逝",
+    "titleEn": "Sima Guang passes away",
+    "startYear": 1086,
+    "endYear": 1086,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sima-guang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "元祐元年（1086年）九月，六十八岁的司马光因操劳过度病逝于宰相任上。他为废除新法殚精竭虑，临终前还在为朝政操心。京师百姓罢市哭祭，四方来吊者数以万计。他留下的《资治通鉴》被后世帝王奉为治国必读之书。",
+    "description": "元祐元年（1086年）九月初一，司马光病逝于汴京宰相府，享年六十八岁。回朝仅一年多他日夜操劳废除新法，身体迅速垮了下来。临终前他仍在口述遗表忧心国事。噩耗传出后京师百姓罢市前往吊唁，沿途哭声不绝。高太后和年幼的哲宗亲临哭祭，辍朝三日，赠太师、温国公，谥号「文正」——这是文官最高级别的谥号。司马光一生除了编纂《资治通鉴》这座史学丰碑外，还以清廉正直著称——死后家中除了一床旧被和几箱书籍，别无长物。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-luyou-shenyuan",
+    "title": "陆游与唐婉沈园悲别",
+    "titleEn": "Lu You parts with Tang Wan at Shen Garden",
+    "startYear": 1151,
+    "endYear": 1151,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "lu-you"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "爱情",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Love",
+      "Literature"
+    ],
+    "summary": "绍兴二十一年（1151年），陆游在沈园偶遇被母亲逼迫离异的前妻唐婉。唐婉遣人送来酒肴，陆游百感交集，在沈园墙上题下千古绝唱《钗头凤》——「红酥手，黄縢酒，满城春色宫墙柳。」这段凄美的爱情悲剧成为陆游心中永远的伤痛。",
+    "description": "绍兴二十一年（1151年），二十七岁的陆游在绍兴沈园偶遇前妻唐婉。陆游二十岁时娶表妹唐婉为妻，夫妻情深意笃。但陆母担心儿子沉迷儿女情长荒废学业，逼迫陆游休妻。七年后沈园重逢时唐婉已改嫁赵士程。唐婉征得丈夫同意派人给陆游送来酒肴。陆游痛饮之后挥笔在沈园墙上写下《钗头凤》——「红酥手，黄縢酒，满城春色宫墙柳。东风恶，欢情薄，一怀愁绪，几年离索。错！错！错！」唐婉读后和了一首《钗头凤》「世情薄，人情恶」，不久后抑郁而终。陆游一生写了数十首怀念唐婉的诗，八十四岁临终前一年还在写「沈家园里花如锦，半是当年识放翁」，这段爱情悲剧持续了整整六十年。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-luyou-nanzheng",
+    "title": "陆游南郑从军",
+    "titleEn": "Lu You serves at the Nanzheng frontier",
+    "startYear": 1172,
+    "endYear": 1172,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "lu-you"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军旅",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Literature"
+    ],
+    "summary": "乾道八年（1172年），四十八岁的陆游应四川宣抚使王炎之邀赴南郑（今陕西汉中）前线从军，亲身参与北伐筹备。这段「铁马秋风大散关」的军旅生涯虽然仅持续了八个月，却是陆游一生中最壮怀激烈的时光，也成为他此后数十年魂牵梦萦的记忆。",
+    "description": "乾道八年（1172年），陆游终于等来了实现北伐梦想的机会——四川宣抚使王炎邀他赴南郑（今陕西汉中）前线任幕僚。南郑是南宋西北前线的军事重镇，与金兵隔秦岭对峙。陆游身披戎装亲历大散关等前沿阵地，参与谋划北伐大计。他在这里写下了大量豪气冲天的诗篇，也获得了「放翁」这个别号——因被人讥讽「不拘礼法、恃酒颓放」而索性自号「放翁」。然而北伐计划最终因朝廷撤换王炎而流产，陆游的军旅生涯戛然而止。但这八个月的从军经历成为他此后数十年反复追忆的巅峰时刻——「楼船夜雪瓜洲渡，铁马秋风大散关」正是这段岁月的写照。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-luyou-shu-zhong",
+    "title": "陆游蜀中宦游与诗名大振",
+    "titleEn": "Lu You serves in Sichuan and gains poetic fame",
+    "startYear": 1170,
+    "endYear": 1170,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "lu-you"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学",
+      "漫游"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature",
+      "Travel"
+    ],
+    "summary": "乾道六年（1170年），陆游入蜀任夔州通判，后辗转蜀州、嘉州、荣州等地任职，前后在四川生活了八年。巴山蜀水的壮丽风光和民间疾苦极大丰富了他的诗歌创作，他将自己的诗集命名为《剑南诗稿》，以纪念这段刻骨铭心的蜀中岁月。",
+    "description": "乾道六年（1170年），四十六岁的陆游赴任夔州（今重庆奉节）通判，踏上了入蜀之路。他将从绍兴到夔州五千余里的一百六十天行程写成《入蜀记》六卷——一部文笔优美的游记散文。此后八年他在蜀州、嘉州、荣州、成都等地辗转任职。巴山蜀水的雄奇秀丽和底层百姓的真实生活给了陆游取之不尽的创作灵感。他的诗风在蜀中臻于成熟，题材从个人感怀扩展到家国天下。晚年陆游将自己全部诗作编为《剑南诗稿》，以纪念在剑门关以南的四川度过的这段最重要的人生岁月。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-luyou-retirement",
+    "title": "陆游退居山阴",
+    "titleEn": "Lu You retires to Shanyin",
+    "startYear": 1190,
+    "endYear": 1190,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "lu-you"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature"
+    ],
+    "summary": "绍熙元年（1190年），陆游因一贯主张北伐被弹劾罢官，退居故乡山阴（今浙江绍兴）。此后二十年间他寄情田园却从未忘记中原故土，创作了大量爱国诗篇。他自筑「老学庵」读书写诗，以八十五岁高龄成为中国古代最高产的诗人之一。",
+    "description": "绍熙元年（1190年），六十六岁的陆游被弹劾「嘲咏风月」罢官回乡。他回到故乡山阴（今浙江绍兴）筑「老学庵」，过起了田园生活。表面上看他种菜浇园、与邻翁对饮，诗中也写「小楼一夜听春雨，深巷明朝卖杏花」这般清新闲适之作。但陆游从未真正忘记中原——他在一个风雨大作的夜晚写下「夜阑卧听风吹雨，铁马冰河入梦来」，连做梦都是北伐沙场。陆游是中国古代最高产的诗人，现存诗作超过九千三百首，其中绝大部分创作于晚年退居山阴的二十年间。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-luyou-last-poem",
+    "title": "陆游临终示儿",
+    "titleEn": "Lu You writes his deathbed poem to his son",
+    "startYear": 1210,
+    "endYear": 1210,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "lu-you"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世",
+      "爱国"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death",
+      "Patriotism"
+    ],
+    "summary": "嘉定三年（1210年）十二月，八十五岁的陆游病逝于山阴家中。临终前他写下绝笔诗《示儿》：「死去元知万事空，但悲不见九州同。王师北定中原日，家祭无忘告乃翁。」这首二十八个字的绝句，凝结了一位爱国诗人毕生的遗憾与期望。",
+    "description": "嘉定三年（1210年）十二月二十九日（公历1210年1月26日），八十五岁的陆游在故乡山阴与世长辞。他一生写了九千三百多首诗，最后一首是留给儿子的《示儿》。当他在病榻上写下「死去元知万事空，但悲不见九州同」时，这位老人知道生命即将走到尽头——他并不惧怕死亡，唯一的遗憾是有生之年未能看到中原光复、九州一统。然后他嘱咐儿子「王师北定中原日，家祭无忘告乃翁」——即使死后，他也要等待那个消息。这首二十八个字的绝句被后人评为「率意直书，悲壮沉痛，孤忠至性，可泣鬼神」，成为中国文学史上最感人的临终诗篇。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-ouyangxiu-jinshi",
+    "title": "欧阳修进士及第",
+    "titleEn": "Ouyang Xiu passes the imperial examination",
+    "startYear": 1030,
+    "endYear": 1030,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "ouyang-xiu"
+    ],
+    "tags": [
+      "人物",
+      "生平"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life"
+    ],
+    "summary": "天圣八年（1030年），二十四岁的欧阳修进士及第。他四岁丧父，家贫无纸笔，母亲以芦荻画地教他识字——「画荻教子」成为千古美谈。欧阳修从此踏上仕途，后来成为北宋诗文革新运动的领袖。",
+    "description": "天圣八年（1030年），二十四岁的欧阳修以第十四名进士及第。他出身贫寒——四岁丧父，母亲郑氏带着他到随州投靠叔父。家贫买不起纸笔，母亲便用芦荻秆在沙地上教他写字认字，这就是传颂千古的「画荻教子」。欧阳修从小好学不倦，借书抄诵，往往书未抄完已能背诵。进士及第后他被任命为西京（洛阳）留守推官，结识了梅尧臣、尹洙等文友，开始了他的文学生涯。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-ouyangxiu-qingli",
+    "title": "欧阳修参与庆历新政",
+    "titleEn": "Ouyang Xiu joins the Qingli Reforms",
+    "startYear": 1043,
+    "endYear": 1043,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "ouyang-xiu"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治",
+      "变法"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics",
+      "Reform"
+    ],
+    "summary": "庆历三年（1043年），范仲淹主持庆历新政，欧阳修是核心参与者。他出任谏官敢于直言，写下著名的《朋党论》为改革派辩护——「君子与君子以同道为朋，小人与小人以同利为朋。」新政失败后欧阳修被贬滁州，却写下了千古名篇《醉翁亭记》。",
+    "description": "庆历三年（1043年），宋仁宗起用范仲淹推行「庆历新政」，欧阳修被任命为谏官。他以刚正敢言著称，当保守派攻击改革派结党营私时，欧阳修写下著名的《朋党论》予以回击，提出君子有朋、小人无朋的观点。然而新政仅持续一年多便因保守派的强大阻力而失败，范仲淹等人被贬出朝。欧阳修也被贬为滁州知州。在滁州他寄情山水，写下了传诵千古的《醉翁亭记》——「醉翁之意不在酒，在乎山水之间也」的名句千古流传。这次贬谪不但没有击垮他，反而使他的文学创作达到了新的高度。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-ouyangxiu-exam",
+    "title": "欧阳修主考礼部取苏轼",
+    "titleEn": "Ouyang Xiu presides over examination and discovers Su Shi",
+    "startYear": 1057,
+    "endYear": 1057,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "ouyang-xiu",
+      "su-shi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "科举",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Examination",
+      "Literature"
+    ],
+    "summary": "嘉祐二年（1057年），欧阳修以翰林学士身份主持礼部贡举。他力排当时流行的晦涩文风（太学体），录取了苏轼、苏辙、曾巩等一批才华横溢的年轻人。读到苏轼的考卷时他误以为是自己弟子曾巩所作，为避嫌仅取为第二——这一榜被后世誉为「千古科举第一榜」。",
+    "description": "嘉祐二年（1057年），五十一岁的欧阳修出任礼部贡举主考官。当时的科场流行一种叫「太学体」的晦涩文风——用生僻典故堆砌文章，佶屈聱牙不知所云。欧阳修决心扭转这股歪风，凡写太学体的考生一律不取。放榜后落第士子当街围堵辱骂他，但他毫不动摇。这一榜录取的人才堪称千古一榜——苏轼、苏辙、曾巩位列「唐宋八大家」；程颢、张载成为理学宗师；吕惠卿、章惇后来成为宰相。当读到一篇文采斐然的答卷时，欧阳修误以为是自己弟子曾巩所作，为避嫌将之取为第二——放榜后才知道这个考生是来自眉山的苏轼。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-ouyangxiu-new-history",
+    "title": "欧阳修主持编纂新唐书与新五代史",
+    "titleEn": "Ouyang Xiu compiles the New Tang History and New Five Dynasties History",
+    "startYear": 1060,
+    "endYear": 1060,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "ouyang-xiu"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "史学",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "History",
+      "Writing"
+    ],
+    "summary": "嘉祐五年（1060年），欧阳修主持编纂的《新唐书》二百二十五卷完成。此后他又独自撰写《新五代史》七十四卷，以春秋笔法褒贬历史人物。这两部史书被列入「二十四史」，欧阳修成为唯一一个参与两部正史编纂的人。",
+    "description": "嘉祐五年（1060年），欧阳修与宋祁等人合编的《新唐书》二百二十五卷终于完成。这部官修正史耗时十七年，在《旧唐书》基础上补充了大量史料，尤其在志书部分增加了《选举志》《兵志》等重要内容。此外欧阳修还以一人之力撰写了《新五代史》七十四卷——他模仿《春秋》的笔法，在叙事中寓褒贬、别善恶，开创了以文学手法写历史的先河。欧阳修是「二十四史」中唯一一位参与编纂两部正史的史学家。加上他在经学、金石学上的贡献（著《集古录》一千卷），他的学术成就极为全面。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-ouyangxiu-retirement",
+    "title": "欧阳修退居颍州自号六一居士",
+    "titleEn": "Ouyang Xiu retires to Yingzhou as the Retiree of Six Ones",
+    "startYear": 1071,
+    "endYear": 1071,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "ouyang-xiu"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature"
+    ],
+    "summary": "熙宁四年（1071年），六十五岁的欧阳修因反对王安石新法未被采纳，自请退休退居颍州（今安徽阜阳）西湖之滨，自号「六一居士」。所谓「六一」——藏书一万卷、金石遗文一千卷、琴一张、棋一局、酒一壶，外加一老翁。次年病逝，享年六十六岁。",
+    "description": "熙宁四年（1071年），欧阳修对王安石变法的激进做法深感忧虑，多次上书未被采纳后，六十五岁的他以太子少师致仕退休。他选择定居颍州（今安徽阜阳）西湖之滨，自号「六一居士」。有人问他何为六一，他笑答：「吾家藏书一万卷，集录三代以来金石遗文一千卷，有琴一张，有棋一局，而常置酒一壶，以吾一翁，老于此五物之间，是岂不为六一乎？」这悠然自得的晚年生活只持续了一年——熙宁五年（1072年）闰七月，欧阳修在颍州家中病逝，享年六十六岁，谥号「文忠」。苏轼评价他「论大道似韩愈，论事似陆贽，记事似司马迁，诗赋似李白」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fanzhongyan-jinshi",
+    "title": "范仲淹断齑画粥进士及第",
+    "titleEn": "Fan Zhongyan passes the imperial examination after years of hardship",
+    "startYear": 1015,
+    "endYear": 1015,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fan-zhongyan"
+    ],
+    "tags": [
+      "人物",
+      "生平"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life"
+    ],
+    "summary": "大中祥符八年（1015年），二十七岁的范仲淹进士及第。他两岁丧父，母亲改嫁，在醴泉寺读书时每天煮一锅粥划成四块早晚各吃两块——「断齑画粥」的苦读故事传为佳话。进士及第后他恢复范姓，开始了「先天下之忧而忧，后天下之乐而乐」的传奇人生。",
+    "description": "大中祥符八年（1015年），二十七岁的范仲淹以「朱说」之名考中进士。他两岁丧父，母亲谢氏改嫁淄州长山人朱文翰，范仲淹随继父姓朱。稍长后得知身世，他含泪辞别母亲，独自到应天府醴泉寺刻苦读书。他每天只煮一锅粥，待粥凝固后划成四块，早晚各取两块就着咸菜充饥——这就是「断齑画粥」的典故。进士及第后他恢复范姓，将母亲接回奉养。这个出身贫寒的少年从此踏上仕途，后来成为北宋最伟大的政治家之一。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fanzhongyan-defend-west",
+    "title": "范仲淹经略西北防西夏",
+    "titleEn": "Fan Zhongyan defends the northwest frontier against Western Xia",
+    "startYear": 1040,
+    "endYear": 1040,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fan-zhongyan"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "边防"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Defense"
+    ],
+    "summary": "康定元年（1040年），西夏李元昊大举入侵，宋军三川口惨败。危急时刻范仲淹临危受命，出任陕西经略安抚副使兼知延州。他改革军制、修筑堡寨、屯田养兵，使西北边防转危为安。西夏人敬畏地称他「小范老子腹中自有数万甲兵」。",
+    "description": "康定元年（1040年），西夏李元昊发动大规模入侵，宋军在延州三川口遭遇惨败，西北震动。五十二岁的范仲淹临危受命，以龙图阁直学士出任陕西经略安抚副使兼知延州（今陕西延安）。他全面改革边防体系——将原来按官阶依次出战的被动防御改为根据敌情灵活部署；修筑大量堡寨构成纵深防御体系；招募当地蕃汉弓箭手屯田戍边。在他的经营下西北防线很快稳固。西夏士兵互相告诫：「今小范老子腹中自有数万甲兵，不比大范老子（指前任范雍）可欺也。」「浊酒一杯家万里，燕然未勒归无计」的《渔家傲》正写于此时。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fanzhongyan-qingli-reform",
+    "title": "范仲淹主持庆历新政",
+    "titleEn": "Fan Zhongyan leads the Qingli Reforms",
+    "startYear": 1043,
+    "endYear": 1043,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fan-zhongyan"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治",
+      "变法"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics",
+      "Reform"
+    ],
+    "summary": "庆历三年（1043年），宋仁宗任命范仲淹为参知政事（副宰相）推行新政。范仲淹提出了著名的《答手诏条陈十事》——明黜陟、抑侥幸、精贡举、择官长、均公田、厚农桑、修武备、减徭役、覃恩信、重命令，全面拉开庆历新政的序幕。",
+    "description": "庆历三年（1043年），面对日益严重的财政危机和军事压力，宋仁宗决心改革，任命范仲淹为参知政事（副宰相）。范仲淹以《答手诏条陈十事》提出了系统改革方案：严格考核官员实行能上能下（明黜陟）、限制恩荫入仕（抑侥幸）、改革科举重策论（精贡举）、选拔清廉官员担任地方长官（择官长）、均分职田以养廉（均公田）、兴修水利发展农业（厚农桑）、整顿军队（修武备）、减免徭役（减徭役）、朝廷要取信于民（覃恩信）、法令须严格执行（重命令）。改革直指官僚集团的核心利益，遭到强烈抵制。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fanzhongyan-yueyang",
+    "title": "范仲淹作岳阳楼记",
+    "titleEn": "Fan Zhongyan writes Record of Yueyang Tower",
+    "startYear": 1046,
+    "endYear": 1046,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fan-zhongyan"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature"
+    ],
+    "summary": "庆历六年（1046年），新政失败被贬邓州的范仲淹应好友滕子京之邀，仅凭一幅《洞庭晚秋图》便写下了震铄古今的《岳阳楼记》。「先天下之忧而忧，后天下之乐而乐」成为千年来中国士大夫的精神坐标。",
+    "description": "庆历六年（1046年），五十八岁的范仲淹被贬邓州知州。他的好友滕子京此时正在岳州（今湖南岳阳）任知州，重修了岳阳楼后请范仲淹写一篇文章记述此事。范仲淹从未到过岳阳楼，滕子京便派人送来一幅《洞庭晚秋图》。范仲淹展开画卷，凭着自己丰富的阅历和宏大的胸襟，写下了千古名篇《岳阳楼记》。全篇以「不以物喜，不以己悲」的超然境界和「先天下之忧而忧，后天下之乐而乐」的崇高理想，将中国士大夫的担当精神提升到了一个前所未有的高度。「先忧后乐」从此成为千年来中国知识分子的人格标杆。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fanzhongyan-death",
+    "title": "范仲淹病逝徐州",
+    "titleEn": "Fan Zhongyan dies in Xuzhou",
+    "startYear": 1052,
+    "endYear": 1052,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fan-zhongyan"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "皇祐四年（1052年），范仲淹在调任颍州途中病逝于徐州，享年六十四岁。噩耗传出后羌族酋长数百人哭之如父，斋戒三日。仁宗亲书「褒贤之碑」，谥号「文正」——这是文官最高级别的谥号，也是对他一生最好的总结。",
+    "description": "皇祐四年（1052年），六十四岁的范仲淹带病从青州调任颍州，行至徐州时病情加重，五月二十日与世长辞。噩耗传出后朝野震动——他曾经镇守的西北前线羌族数百名酋长闻讯后痛哭流涕，为他斋戒三日如同丧父。范仲淹一生清廉，死后家中无钱办丧事，其子范纯仁借钱才得以扶柩归葬。宋仁宗亲笔书写「褒贤之碑」的碑额，赐谥号「文正」——这是宋代文官梦寐以求的最高荣誉。后人将他与孔子、孟子、颜回等一同列入孔庙从祀，尊为「范文正公」。",
     "importance": 5,
     "datePrecision": "year",
     "isApproximate": false,
@@ -1794,6 +2947,2154 @@
     ],
     "summary": "天宝十二载（753年），双目失明的鉴真和尚在第六次东渡后终于成功抵达日本。他将佛教戒律、唐代建筑、雕塑和医药技术传播到日本，被日本人民尊为\"过海大师\"和\"日本文化的恩人\"。",
     "description": "天宝十二载（753年），六十六岁且双目失明的鉴真和尚经过六次艰苦卓绝的努力，终于抵达日本九州。此前五次东渡均因风暴、触礁或官府阻挠而失败，第五次时他已双目失明。抵达日本后鉴真在奈良东大寺建立戒坛为天皇和皇族授戒，正式将佛教戒律传入日本。他还带去了唐代的建筑技术（鉴真亲自设计的唐招提寺至今保存完好）、雕塑和医药知识，被日本人民尊为\"过海大师\"和\"日本文化的恩人\"。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qinshihuang-unify",
+    "title": "秦始皇统一六国",
+    "titleEn": "Qin Shi Huang unifies the six warring states",
+    "startYear": -221,
+    "endYear": -221,
+    "regionId": "qin-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qin-shi-huang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "统一",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Unification",
+      "Politics"
+    ],
+    "summary": "秦王政二十六年（前221年），秦王嬴政先后灭韩、赵、魏、楚、燕、齐六国，结束了自春秋以来五百多年的分裂割据，建立了中国历史上第一个大一统的中央集权帝国——秦朝。嬴政自称「始皇帝」，开创了皇帝制度。",
+    "description": "秦王政二十六年（前221年），三十九岁的嬴政完成了统一天下的伟业。从十七年（前230年）灭韩开始，秦国用了十年时间先后消灭六国。统一后嬴政自称「始皇帝」，废除分封制推行郡县制，中央设三公九卿，将全国划分为三十六郡。他统一了文字（小篆）、度量衡、货币和车轨，修筑驰道和长城，建立了中国历史上第一个大一统帝国。虽然秦朝仅延续了十五年，但秦始皇创立的中央集权制度影响了此后两千年的中国政治格局。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qinshihuang-burn-bury",
+    "title": "秦始皇焚书坑儒",
+    "titleEn": "Qin Shi Huang burns books and buries scholars",
+    "startYear": -213,
+    "endYear": -212,
+    "regionId": "qin-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qin-shi-huang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文化"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Culture"
+    ],
+    "summary": "秦始皇三十四年（前213年），采纳丞相李斯建议，下令焚烧除秦记、医药、卜筮、种树之外的所有书籍。次年又将四百六十余名「诽谤」朝政的方士儒生坑杀于咸阳。焚书坑儒虽旨在统一思想，却成为中国历史上最严重的文化浩劫之一。",
+    "description": "秦始皇三十四年（前213年），博士淳于越在咸阳宫宴会上主张恢复分封制，丞相李斯力驳并建议焚烧私藏书籍。秦始皇采纳李斯建议颁布《焚书令》：除秦国史书和医药、卜筮、种树等实用书籍外，民间所藏《诗》《书》百家语一律焚毁，谈论《诗》《书》者斩首。次年因方士卢生、侯生等为秦始皇求仙药不得而逃亡，秦始皇大怒下令追查，最终将四百六十余名方士和儒生坑杀于咸阳。这一事件严重摧残了中国古代文化典籍的传承。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qinshihuang-death",
+    "title": "秦始皇巡游途中病逝沙丘",
+    "titleEn": "Qin Shi Huang dies at Shaqiu during inspection tour",
+    "startYear": -210,
+    "endYear": -210,
+    "regionId": "qin-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qin-shi-huang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "秦始皇三十七年（前210年），秦始皇在第五次东巡途中病逝于沙丘平台（今河北广宗），享年五十岁。宦官赵高勾结丞相李斯秘不发丧，伪造诏书赐死太子扶苏，立少子胡亥为帝。秦朝从此迅速走向灭亡。",
+    "description": "秦始皇三十七年（前210年），五十岁的秦始皇开始第五次东巡，随行者有丞相李斯、宦官赵高和少子胡亥。行至平原津（今山东平原）时秦始皇突发重病，七月丙寅日病逝于沙丘平台。临终前他写诏书命在上郡监军的太子扶苏「与丧会咸阳而葬」，但诏书被赵高扣留。赵高说服李斯秘不发丧——将秦始皇尸体置于辒辌车中，每日仍假装送饭奏事。同时伪造诏书赐死扶苏和大将蒙恬，立胡亥为二世皇帝。这场政变为秦朝的迅速崩溃埋下了伏笔。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-hanwudi-ascend",
+    "title": "汉武帝即位",
+    "titleEn": "Emperor Wu of Han ascends the throne",
+    "startYear": -141,
+    "endYear": -141,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "han-wudi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "即位"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Coronation"
+    ],
+    "summary": "景帝后元三年（前141年），十六岁的刘彻即位为帝，是为汉武帝。他在位五十四年，是中国历史上在位时间最长的皇帝之一。他「罢黜百家，独尊儒术」、北击匈奴、开通西域、推行推恩令，开创了汉朝的鼎盛时代。",
+    "description": "景帝后元三年（前141年），汉景帝驾崩，十六岁的太子刘彻即位，次年改元建元。汉武帝在位长达五十四年（前141年—前87年），开创了中国历史上第一个真正的盛世。他在思想文化上采纳董仲舒建议「罢黜百家，独尊儒术」，设立太学培养人才；在军事上派卫青、霍去病多次出击匈奴，彻底解除北方边患；在外交上派张骞出使西域开辟丝绸之路；在政治上推行推恩令削弱诸侯王势力。他的一系列措施奠定了此后两千年中国大一统格局的基础。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-hanwudi-defeat-xiongnu",
+    "title": "汉武帝北击匈奴",
+    "titleEn": "Emperor Wu of Han launches campaigns against the Xiongnu",
+    "startYear": -133,
+    "endYear": -119,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "han-wudi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "战争",
+      "军事"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "War",
+      "Military"
+    ],
+    "summary": "汉武帝在位期间发动了大规模的对匈战争。从元光二年（前133年）马邑之谋开始，至元狩四年（前119年）漠北大战，卫青、霍去病率军深入漠北，「封狼居胥」，彻底击溃了匈奴主力，使「漠南无王庭」，解除了自汉初以来匈奴对中原的威胁。",
+    "description": "汉武帝一改汉初对匈奴的和亲政策，采取主动出击战略。元光二年（前133年）设马邑之谋试图诱歼匈奴单于未果，从此拉开了汉匈全面战争的序幕。元朔二年（前127年）卫青收复河套地区；元狩二年（前121年）霍去病两次出击河西走廊，匈奴浑邪王率众降汉，汉朝设河西四郡；元狩四年（前119年）汉武帝发动最大规模的漠北战役——卫青、霍去病各率五万骑兵分路出击，霍去病深入漠北两千余里至狼居胥山（今蒙古肯特山）祭天立碑。此役「匈奴远遁，而漠南无王庭」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-hanwudi-silk-road",
+    "title": "汉武帝派张骞通西域",
+    "titleEn": "Emperor Wu of Han sends Zhang Qian to the Western Regions",
+    "startYear": -138,
+    "endYear": -126,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "han-wudi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "外交",
+      "贸易"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Diplomacy",
+      "Trade"
+    ],
+    "summary": "汉武帝建元三年（前138年）派张骞出使西域，联络大月氏共击匈奴。张骞历经十三年、行程数万里，虽未达成军事同盟，却带回了关于西域各国的详尽信息，开辟了举世闻名的丝绸之路。",
+    "description": "建元三年（前138年），汉武帝从匈奴降者口中得知大月氏与匈奴有世仇，遂招募张骞出使西域联络大月氏。张骞率百余人出陇西即被匈奴俘虏，被扣留十年后寻机逃脱，经大宛、康居终于抵达大月氏。然而此时大月氏已定居阿姆河流域生活安定，不愿再与匈奴作战。张骞归途中再次被匈奴扣留，历时十三年才回到长安，出发时百余人归来仅剩两人。他向汉武帝详细报告了西域各国的风土人情，促成了后来汉朝经营西域和丝绸之路的开通。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-hanwudi-last-years",
+    "title": "汉武帝晚年巫蛊之祸与轮台罪己诏",
+    "titleEn": "Emperor Wu's late-life Witchcraft Scandal and Luntai Repentance Edict",
+    "startYear": -91,
+    "endYear": -89,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "han-wudi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "征和二年（前91年），汉武帝晚年爆发巫蛊之祸，太子刘据被逼起兵后兵败自杀。数年后武帝幡然悔悟，于征和四年（前89年）颁布著名的《轮台罪己诏》，宣布停止远征、与民休息。这是中国历史上第一份皇帝公开检讨自己政策的诏书。",
+    "description": "征和二年（前91年），年迈的汉武帝疑心有人以巫术诅咒自己，命宠臣江充彻查。江充借机陷害太子刘据，在太子宫中挖出木偶。刘据无法自辩，被迫起兵诛杀江充，最终兵败逃亡自杀身亡。晚年丧子之痛让武帝深受打击。征和四年（前89年），当桑弘羊等人建议在轮台屯田继续西征时，汉武帝断然拒绝并颁布《轮台罪己诏》，深刻反省自己多年征战导致「海内虚耗、户口减半」的过错，宣布「当今务在禁苛暴、止擅赋、力本农」。这份罪己诏使汉朝政策由扩张转为守成，为后来的「昭宣中兴」奠定了基础。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-taizong-conquer-east-turk",
+    "title": "唐太宗被尊为天可汗",
+    "titleEn": "Emperor Taizong acclaimed as Heavenly Khan",
+    "startYear": 630,
+    "endYear": 630,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "emperor-taizong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "外交"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Diplomacy"
+    ],
+    "summary": "贞观四年（630年），唐军在李靖率领下灭亡东突厥，俘获颉利可汗。西北各少数民族首领齐聚长安，共同尊奉唐太宗为「天可汗」。这是中国历史上第一次由中原皇帝同时兼任草原各族的最高领袖。",
+    "description": "贞观四年（630年），李靖率军灭亡东突厥后，唐太宗将颉利可汗带回长安却没有杀他，而是封为右卫大将军加以优待。这一宽厚政策极大地震慑和感召了周边各族。同年西北诸蕃首领齐聚长安，一致上尊号为「天可汗」，唐太宗从此成为中原王朝皇帝兼草原各族的最高共主。此后唐朝在西域设立安西都护府，疆域扩展到贝加尔湖以北。唐太宗以开放的胸襟和灵活的民族政策，创造了「胡越一家」的盛况。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-taizong-death",
+    "title": "唐太宗驾崩",
+    "titleEn": "Emperor Taizong passes away",
+    "startYear": 649,
+    "endYear": 649,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "emperor-taizong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "贞观二十三年（649年）五月，唐太宗因服食丹药中毒，病逝于终南山翠微宫含风殿，享年五十二岁。他在位二十三年开创了「贞观之治」，被后世视为帝王的楷模。太子李治即位，是为唐高宗。",
+    "description": "贞观二十三年（649年）五月二十六日，唐太宗在终南山翠微宫含风殿驾崩，享年五十二岁。太宗晚年为求长生开始服用方士炼制的丹药，最终因丹药中毒而亡。临终前他将太子李治托付给长孙无忌和褚遂良，叮嘱二人辅佐新君。唐太宗在位二十三年，虚心纳谏、任人唯贤、轻徭薄赋，开创了「贞观之治」——官吏清廉、社会安定、夜不闭户。他的治国理念被后世奉为经典，《贞观政要》成为历代帝王的必读教材。庙号太宗，葬于昭陵。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuyuanzhang-orphan",
+    "title": "朱元璋出家为僧",
+    "titleEn": "Zhu Yuanzhang becomes a Buddhist monk",
+    "startYear": 1344,
+    "endYear": 1344,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-yuanzhang"
+    ],
+    "tags": [
+      "人物",
+      "生平"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life"
+    ],
+    "summary": "至正四年（1344年），淮北发生大旱和瘟疫，朱元璋的父母和长兄在半个月内相继饿死。十七岁的朱元璋无钱安葬亲人，只得入皇觉寺为僧。后来寺中也断粮，他被迫外出游方乞食三年，走遍了淮西大地。",
+    "description": "至正四年（1344年），一场毁灭性的天灾降临淮北——先是持续大旱，接着蝗灾肆虐，最后瘟疫蔓延。朱元璋的父母朱五四、陈氏和长兄朱兴隆在不到半个月内相继病饿而死。家里穷得连一块埋葬亲人的土地都没有，幸亏邻居刘继祖给了他一小块地才草草下葬。十七岁的朱元璋走投无路进入皇觉寺当了一名小沙弥。但寺中很快也断粮了，他只得外出「游方」——实际上是沿途乞讨，在淮西大地流浪了三年。这段刻骨铭心的苦难经历深刻影响了他日后的治国理念。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuyuanzhang-join-rebels",
+    "title": "朱元璋投奔红巾军",
+    "titleEn": "Zhu Yuanzhang joins the Red Turban Rebellion",
+    "startYear": 1352,
+    "endYear": 1352,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-yuanzhang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "起义"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Revolt"
+    ],
+    "summary": "至正十二年（1352年），二十五岁的朱元璋收到儿时伙伴汤和的来信，邀请他投奔濠州红巾军郭子兴部。朱元璋投军后因作战勇猛、机智果断深得郭子兴赏识，被招为义女马氏的夫婿——这位马氏就是后来的大脚马皇后。",
+    "description": "至正十二年（1352年），天下大乱，各地红巾军蜂起。朱元璋收到儿时伙伴汤和从濠州（今安徽凤阳）寄来的信，邀请他去投奔红巾军郭子兴部。朱元璋起初犹豫不决，但有人要告发他私通叛军，他才下定决心前往。郭子兴见他相貌奇特、谈吐不凡，留为亲兵。朱元璋在战场上勇猛机智、屡立战功，很快被提拔为九夫长。郭子兴将自己的养女马氏许配给他——这位马氏就是后来深明大义的「大脚马皇后」。从此朱元璋有了自己的队伍和根基。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuyuanzhang-purge",
+    "title": "朱元璋大杀功臣",
+    "titleEn": "Zhu Yuanzhang purges meritorious officials",
+    "startYear": 1380,
+    "endYear": 1380,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-yuanzhang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "洪武十三年（1380年），朱元璋以「谋反」之罪诛杀丞相胡惟庸，并借此案大肆株连，前后诛杀三万余人，并从此废除丞相制度。此后又通过蓝玉案等多次清洗功臣集团，开国功臣几乎被杀殆尽。",
+    "description": "洪武十三年（1380年），朱元璋以擅权枉法、谋反不轨之罪将丞相胡惟庸处死。但这场清洗远未结束——朱元璋借此案不断扩大牵连范围，前后十年间株连杀戮达三万余人，连开国第一功臣李善长也因牵连被满门抄斩。洪武二十六年（1393年）又爆发蓝玉案，大将蓝玉被剥皮实草，又有一万五千余人被杀。经过数次大清洗，明朝开国功臣几乎被屠戮殆尽。朱元璋还趁此废除了延续千年的丞相制度，规定后世子孙永不得设丞相，将权力绝对集中于皇帝一人之手。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-kangxi-conquer-taiwan",
+    "title": "康熙统一台湾",
+    "titleEn": "Kangxi Emperor reunifies Taiwan",
+    "startYear": 1683,
+    "endYear": 1683,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "kangxi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "统一",
+      "军事"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Unification",
+      "Military"
+    ],
+    "summary": "康熙二十二年（1683年），康熙帝派施琅率水师攻克澎湖，郑克塽率台湾明郑政权投降。清朝正式将台湾纳入版图，设台湾府隶属于福建省。康熙在台湾设府置县、屯兵戍守，奠定了台湾与大陆统一的根基。",
+    "description": "康熙二十二年（1683年），康熙帝在平定三藩之后将目光投向了孤悬海外的台湾。他力排众议任命原郑成功部将施琅为福建水师提督。六月施琅率两万水师、二百余艘战船从铜山（今福建东山）出发，在澎湖海域与郑军主力展开决战。施琅利用风势火攻大破郑军，澎湖三十六岛尽降。七月郑克塽（郑成功之孙）率台湾军民归降清朝。康熙采纳施琅建议将台湾纳入版图设台湾府，下辖三县，派兵驻守。这一决定结束了明郑政权在台湾二十二年的割据。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-kangxi-russia-treaty",
+    "title": "康熙签订尼布楚条约",
+    "titleEn": "Kangxi Emperor signs Treaty of Nerchinsk with Russia",
+    "startYear": 1689,
+    "endYear": 1689,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "kangxi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "外交"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Diplomacy"
+    ],
+    "summary": "康熙二十八年（1689年），清朝与沙俄在尼布楚（今俄罗斯涅尔琴斯克）签订《尼布楚条约》。这是中国与欧洲国家签订的第一份平等条约，从法律上确定了黑龙江和乌苏里江流域属于中国领土。",
+    "description": "康熙二十八年（1689年），经过两次雅克萨之战击败沙俄侵略军后，康熙帝派出以索额图为代表的使团与沙俄在尼布楚谈判。谈判中清方据理力争，最终双方达成协议签订《尼布楚条约》。条约规定以格尔必齐河、额尔古纳河和外兴安岭为两国东部边界，从法律上确认了黑龙江和乌苏里江流域的广大地区是中国领土。这是中国与西方国家签订的第一份平等条约，体现了康熙帝在维护国家主权上的坚定立场和灵活策略。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-kangxi-death",
+    "title": "康熙帝驾崩与传位之谜",
+    "titleEn": "Kangxi Emperor dies and the succession mystery",
+    "startYear": 1722,
+    "endYear": 1722,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "kangxi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "康熙六十一年十一月十三日（1722年12月20日），康熙帝病逝于畅春园，享年六十九岁。他在位六十一年，是中国历史上在位时间最长的皇帝。关于传位遗诏的真实性——「传位于四子」还是「传位十四子」——成为清宫最大的历史谜案之一。",
+    "description": "康熙六十一年十一月十三日（1722年12月20日），六十九岁的康熙帝在畅春园清溪书屋病逝。康熙帝八岁即位、十四岁亲政，在位长达六十一年，是中国历史上在位时间最长的皇帝。他平三藩、收台湾、定漠北、抗沙俄，开创了「康乾盛世」的序幕。然而晚年的康熙面临最棘手的问题——储位之争。太子胤礽两立两废后，诸皇子各结党羽明争暗斗。康熙临终前隆科多宣布遗诏传位于皇四子胤禛（雍正）。但民间一直流传遗诏被篡改的说法——究竟是「传位于四子」还是「传位十四子」，成为至今未解的历史谜案。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qianlong-ten-campaigns",
+    "title": "乾隆十全武功",
+    "titleEn": "Qianlong Emperor's Ten Great Campaigns",
+    "startYear": 1792,
+    "endYear": 1792,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qianlong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Politics"
+    ],
+    "summary": "乾隆帝在位六十年间发动了十次重大军事行动——两次平定准噶尔、一次平定回部、两次平定大小金川、一次镇压台湾林爽文起义、一次出征缅甸、一次出征安南（越南）、两次抗击廓尔喀（尼泊尔）。乾隆晚年自诩「十全老人」，但频繁用兵也耗尽了国库。",
+    "description": "乾隆帝自诩「十全武功」，晚年自称「十全老人」。这十次战役分别是：两次平定准噶尔（1755年、1757年）、平定大小和卓叛乱统一回部（1759年）、两次平定大小金川土司叛乱（1747年—1776年，耗时最久伤亡最大）、镇压台湾林爽文起义（1788年）、出征缅甸（1765年—1769年）、出征安南（1788年—1789年）、两次击退廓尔喀入侵西藏（1790年—1792年）。十全武功巩固了清朝疆域，但也耗费了巨额军费——仅两次大小金川之战就用去七千余万两白银，几乎掏空了康雍乾三代积累的国库。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qianlong-siku-quanshu",
+    "title": "乾隆编纂四库全书",
+    "titleEn": "Qianlong Emperor compiles the Siku Quanshu",
+    "startYear": 1773,
+    "endYear": 1782,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qianlong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文化",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Culture",
+      "Writing"
+    ],
+    "summary": "乾隆三十八年（1773年），乾隆帝下令编纂《四库全书》，由纪晓岚等三百六十余位学者历时十年完成。全书收录三千四百六十一种图书共七万九千余卷，是中国历史上规模最大的丛书。但在编纂过程中乾隆也借机禁毁了大量「违碍」书籍。",
+    "description": "乾隆三十八年（1773年），乾隆帝下令开设四库全书馆，由纪晓岚（纪昀）任总纂官，陆锡熊、孙士毅为副总纂，集合了戴震、姚鼐、王念孙等三百六十余位一流学者。编纂工作历时十年，于乾隆四十七年（1782年）完成第一部，共抄写七部分藏于全国七座藏书阁。《四库全书》共收录图书三千四百六十一种、七万九千三百余卷，分经史子集四大类，是中国历史上规模最大的丛书。但编纂过程中乾隆借征集图书之名在全国范围内禁毁了大量他认为含有反清思想的书籍——据统计被禁毁的图书约有三千余种，与《四库全书》收录数量相当。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qianlong-heshen",
+    "title": "乾隆晚年宠信和珅",
+    "titleEn": "Qianlong Emperor favors Heshen in his late years",
+    "startYear": 1796,
+    "endYear": 1796,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qianlong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "乾隆晚年极度宠信和珅，使其权倾朝野。和珅利用乾隆的信任大肆贪污受贿、结党营私，其被抄家时家产折合白银约八亿至十一亿两，相当于清朝十五年的财政收入——「和珅跌倒，嘉庆吃饱」的民谚由此而来。",
+    "description": "乾隆晚年将朝政大权委托给和珅。和珅原本是乾隆身边一名侍卫，因机敏善辩深得乾隆欢心，不到十年便从三等侍卫升至军机大臣、文华殿大学士，封一等忠襄公。他权倾朝野二十余年，各地官员争相向他行贿。嘉庆四年（1799年）乾隆驾崩后仅十五天，嘉庆帝就下令逮捕和珅，抄没其家产。据统计和珅家产折合白银约八亿至十一亿两，相当于清朝十五年的全国财政收入。当时民间流传「和珅跌倒，嘉庆吃饱」的谚语。和珅的专权贪腐也是清朝由盛转衰的重要标志之一。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-qianlong-macartney",
+    "title": "乾隆接见马戛尔尼使团",
+    "titleEn": "Qianlong Emperor receives the Macartney Embassy",
+    "startYear": 1793,
+    "endYear": 1793,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "qianlong"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "外交"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Diplomacy"
+    ],
+    "summary": "乾隆五十八年（1793年），英国马戛尔尼使团抵达北京觐见乾隆帝，提出开放通商口岸、割让岛屿等要求。乾隆以「天朝物产丰盈，无所不有」为由断然拒绝。这次中英最高级别的直接接触以失败告终，被视为中国错失融入世界近代化进程的转折点。",
+    "description": "乾隆五十八年（1793年），英国国王乔治三世派遣以马戛尔尼勋爵为首的外交使团抵达中国。这是欧洲国家首次正式向中国派遣大使级使团。马戛尔尼带来了天体运行仪、地球仪、钟表等代表当时世界最先进科技的礼物。然而觐见时的礼仪之争——清朝要求行三跪九叩礼而英方只愿行单膝礼——从一开始就给会面蒙上了阴影。乾隆在承德避暑山庄接见使团后，以「天朝物产丰盈，无所不有，原不藉外夷货物以通有无」为由拒绝了英国的全部通商请求。半个世纪后，英国用坚船利炮打开了中国的大门。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhugeliang-longzhong",
+    "title": "诸葛亮隆中对",
+    "titleEn": "Zhuge Liang presents the Longzhong Plan",
+    "startYear": 207,
+    "endYear": 207,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhugeliang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "战略"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Strategy"
+    ],
+    "summary": "建安十二年（207年），刘备三顾茅庐，在隆中（今湖北襄阳）拜访年仅二十七岁的诸葛亮。诸葛亮提出了著名的《隆中对》——占据荆州益州、联吴抗曹、待天下有变则两路北伐的战略规划，为刘备集团指明了发展方向。",
+    "description": "建安十二年（207年），刘备屯兵新野时经徐庶推荐，三顾茅庐拜访了隐居隆中的诸葛亮。年仅二十七岁的诸葛亮在草庐中向刘备分析了天下大势：曹操拥百万之众、挟天子以令诸侯不可与争锋；孙权据有江东已历三世，可引为援而不可图。他建议刘备先取荆州为家、再取益州为基业，跨有荆益、安抚西南各族、联合孙权、内修政理，待天下有变则两路出兵北伐中原。这就是著名的《隆中对》。此后刘备集团的战略基本沿此路线展开，最终建立了蜀汉政权。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhugeliang-chibibi",
+    "title": "诸葛亮促成孙刘联盟与赤壁之战",
+    "titleEn": "Zhuge Liang forges Sun-Liu alliance at the Battle of Red Cliffs",
+    "startYear": 208,
+    "endYear": 208,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhugeliang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "外交",
+      "战争"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Diplomacy",
+      "War"
+    ],
+    "summary": "建安十三年（208年），曹操率大军南征，刘备在当阳大败退守夏口。危急关头诸葛亮出使江东说服孙权联刘抗曹，最终孙刘联军在赤壁以火攻大破曹军，奠定了三国鼎立的格局。",
+    "description": "建安十三年（208年），曹操统一北方后率二十余万大军南征，刘备在当阳长坂被曹军击溃退守夏口。危急存亡之际诸葛亮主动请缨出使江东。面对孙权「战与降」的犹豫，诸葛亮激将道「若能以吴越之众与中国抗衡，不如早与之绝；若不能当，何不按兵束甲北面而事之」，又指出曹军远来疲惫、北方人不习水战等弱点。孙权终于下定决心联刘抗曹，派周瑜率三万水军与刘备会合。十一月孙刘联军在赤壁以火攻大破曹军，曹操烧船北归。此战奠定了天下三分的格局。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhugeliang-northern-expeditions",
+    "title": "诸葛亮六出祁山北伐中原",
+    "titleEn": "Zhuge Liang's six northern expeditions from Qishan",
+    "startYear": 228,
+    "endYear": 228,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhugeliang"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "北伐"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Recovery"
+    ],
+    "summary": "蜀汉建兴六年（228年）起，诸葛亮先后六次北伐中原。第一次北伐因马谡失街亭而功败垂成——「挥泪斩马谡」即在此战。此后数次北伐或因粮尽退兵、或因司马懿坚守不出而未能取得决定性胜利。建兴十二年（234年）第五次北伐中诸葛亮病逝于五丈原。",
+    "description": "蜀汉建兴六年（228年），诸葛亮上《出师表》后开始第一次北伐。初期进展顺利——赵云出斜谷为疑兵牵制曹真主力，诸葛亮亲率大军出祁山，天水、南安、安定三郡叛魏响应。但马谡违背部署丢失战略要地街亭，导致蜀军全线被动只得退兵，第一次北伐功败垂成。此后数年诸葛亮又数次北伐，但均因粮运不继或魏军坚守不出而未能取得重大突破。建兴十二年（234年）在第五次北伐中，诸葛亮与司马懿在五丈原对峙百余日，最终积劳成疾于八月病逝军中，享年五十四岁。「出师未捷身先死，长使英雄泪满襟」正是杜甫对他的千古哀叹。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-guozhiyi-single-horse",
+    "title": "郭子仪单骑退回纥",
+    "titleEn": "Guo Ziyi repels Uyghur forces with a single horse",
+    "startYear": 765,
+    "endYear": 765,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "guo-zi-yi-697"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事",
+      "传奇"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military",
+      "Legend"
+    ],
+    "summary": "永泰元年（765年），吐蕃与回纥联军大举入侵，兵临长安。年近七旬的郭子仪仅率数十骑亲赴回纥军营，脱下甲胄以老友身份说服回纥退兵，回纥反与唐军联合大破吐蕃。这一传奇事迹被绘为《免胄图》流传后世。",
+    "description": "永泰元年（765年），唐朝叛将仆固怀恩引吐蕃、回纥联军三十万大举入侵，兵锋直指长安。此时郭子仪年已六十九岁且被朝廷猜忌赋闲在家。危难之际唐代宗重新起用他，但唐军兵力严重不足。郭子仪得知回纥与吐蕃已生嫌隙，便仅率数十骑来到回纥军营前，脱去甲胄、扔掉兵器，以老友身份走向回纥大营。回纥统帅药葛罗（仆固怀恩之婿）认出了郭子仪，惊讶不已。郭子仪晓以利害说「大唐与回纥向来友好，你们为何弃前功、结怨仇而助叛臣」，药葛罗羞愧下拜。回纥当场决定反戈一击，与唐军联合大破吐蕃于灵台，斩杀数万。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lijing-conquer-tuyuhun",
+    "title": "李靖平吐谷浑",
+    "titleEn": "Li Jing conquers Tuyuhun",
+    "startYear": 635,
+    "endYear": 635,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "li-jing-571"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "战争"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "War"
+    ],
+    "summary": "贞观九年（635年），六十五岁的老将李靖不顾年迈主动请缨出征吐谷浑。他率军穿越两千里荒漠，深入青海高原追击吐谷浑可汗伏允，最终彻底击溃吐谷浑，将其纳入唐朝版图。李靖一生征战，从无败绩。",
+    "description": "贞观九年（635年），盘踞青海的吐谷浑屡次侵扰唐朝边境。此时李靖已六十五岁且因足疾在家休养，但他听说朝廷要出兵后主动求见宰相房玄龄请缨出征。唐太宗大喜任命他为西海道行军大总管。李靖率侯君集、李道宗等将领分路进军，穿越两千余里荒漠戈壁，深入青海高原追击吐谷浑可汗伏允。唐军克服了高原缺氧、粮草断绝等极端困难，连战连捷，最终伏允在逃亡途中被部下所杀，吐谷浑灭亡。此役使唐朝势力深入青海，为后来与吐蕃的较量打下了基础。李靖一生南平萧铣、北灭东突厥、西定吐谷浑，从无败绩。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-direjie-birth",
+    "title": "狄仁杰明经及第初入仕途",
+    "titleEn": "Di Renjie passes the Mingjing examination and enters officialdom",
+    "startYear": 656,
+    "endYear": 656,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "di-ren-jie-630"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "仕途"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Career"
+    ],
+    "summary": "显庆元年（656年），狄仁杰以明经科及第进入仕途，初任汴州判佐。不久因被诬告而受河南道黜陟使阎立本审查。阎立本发现他是难得的人才，赞叹「仲尼称观过知仁，君可谓沧海遗珠矣」，不但为其洗清冤屈还举荐他升任并州都督府法曹。",
+    "description": "显庆元年（656年），狄仁杰以明经科及第，被任命为汴州判佐（司法助理）。不久被人诬告，恰好遇到工部尚书阎立本出任河南道黜陟使前来审查此案。阎立本审问后发现狄仁杰才华出众、品行端正，不但没有处罚他反而赞叹道「仲尼称观过知仁，君可谓沧海遗珠矣」——意思是孔子说过观察一个人的过失就能看出他的品德，你真是被埋没的人才啊。阎立本举荐狄仁杰升任并州都督府法曹，由此开启了狄仁杰辉煌的仕途生涯。阎立本正是那位画了《步辇图》的大画家。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-fangxuanling-fang-mou-du-duan",
+    "title": "房玄龄辅佐太宗成就房谋杜断",
+    "titleEn": "Fang Xuanling and Du Ruhui become the perfect strategic duo",
+    "startYear": 627,
+    "endYear": 627,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "fang-xuan-ling-579"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "贞观元年（627年），房玄龄出任中书令（宰相），与尚书右仆射杜如晦搭档。房玄龄善于谋划——每遇大事总能提出多种方案；杜如晦长于决断——能从诸多方案中选出最优之策。二人配合默契，世称「房谋杜断」，是贞观之治得以实现的关键人物。",
+    "description": "贞观元年（627年），李世民即位后任命房玄龄为中书令，杜如晦为尚书右仆射，二人同为宰相。房玄龄心思缜密、善于谋划，每当太宗与他商议国事他总能条分缕析提出多种应对方案。杜如晦则眼光锐利、长于决断，能在房玄龄提出的诸方案中迅速判断出最佳选择。二人配合天衣无缝——房玄龄出谋划策在前，杜如晦拍板定案在后。太宗曾感慨「玄龄多谋，如晦善断，二人同心协力，故天下大治」。房玄龄在相位长达二十年，主持制定《贞观律》、选拔贤才，临终前还上表劝谏太宗停止征伐高句丽。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhangjiuling-advise",
+    "title": "张九龄谏玄宗杀安禄山",
+    "titleEn": "Zhang Jiuling advises Emperor Xuanzong to execute An Lushan",
+    "startYear": 736,
+    "endYear": 736,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhang-jiu-ling-678"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "开元二十四年（736年），安禄山讨伐契丹时违令冒进导致全军覆没，按律当斩。宰相张九龄力主处死安禄山，上奏「禄山狼子野心，面有逆相，臣请因罪戮之，冀绝后患」。但唐玄宗不听，反而赦免了安禄山。二十年后安史之乱爆发，玄宗追悔莫及。",
+    "description": "开元二十四年（736年），安禄山任平卢讨击使时违抗军令擅自出击契丹导致大败，按军法应当处死。宰相张九龄在批阅奏章时仔细审阅了安禄山的履历，认定此人「狼子野心、面有逆相」，在奏章上批示「穰苴出军必诛庄贾，孙武教战亦斩宫嫔。守珪军令若行，禄山不宜免死」，力主将其斩首以绝后患。但唐玄宗被安禄山的巧言令色所迷惑，不仅赦免了他还让他戴罪立功。张九龄力谏不从，不久也被罢相。天宝十四载（755年）安史之乱爆发，玄宗仓皇逃往成都途中想起张九龄当年的先见之明，追悔莫及，派人到张九龄墓前祭奠。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuxi-white-deer",
+    "title": "朱熹重建白鹿洞书院",
+    "titleEn": "Zhu Xi rebuilds the White Deer Grotto Academy",
+    "startYear": 1179,
+    "endYear": 1179,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-xi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "教育",
+      "哲学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Education",
+      "Philosophy"
+    ],
+    "summary": "淳熙六年（1179年），朱熹任南康知军时重建了荒废已久的白鹿洞书院，亲自制定《白鹿洞书院揭示》作为办学宗旨。这一学规后来成为东亚各国书院的共同办学准则——「博学之、审问之、慎思之、明辨之、笃行之」影响了此后数百年的教育理念。",
+    "description": "淳熙六年（1179年），朱熹出任南康知军（治所在今江西星子）。他寻访到庐山五老峰下的白鹿洞书院遗址——这里曾是唐代李渤读书处，南唐时已建有学馆，但到南宋时早已荒废。朱熹痛心不已，下令重修书院，并亲自担任洞主（院长）讲学。他为书院制定了《白鹿洞书院揭示》，提出「父子有亲、君臣有义、夫妇有别、长幼有序、朋友有信」的五教之目，以及「博学之、审问之、慎思之、明辨之、笃行之」的为学之序。这一学规后来成为东亚各国书院的办学准则，对后世教育影响深远。白鹿洞书院也因此成为中国四大书院之首。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuxi-sishu-jizhu",
+    "title": "朱熹集注四书成为科举标准",
+    "titleEn": "Zhu Xi's commentaries on the Four Books become civil exam standard",
+    "startYear": 1190,
+    "endYear": 1190,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-xi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "哲学",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Philosophy",
+      "Writing"
+    ],
+    "summary": "绍熙元年（1190年），朱熹完成了《四书章句集注》——对《大学》《中庸》《论语》《孟子》的权威注解。这部著作后来被元、明、清三朝定为科举考试的标准教材，支配了中国思想界和教育界长达六百余年。",
+    "description": "绍熙元年（1190年），六十一岁的朱熹在漳州任上完成了毕生最重要的学术著作——《四书章句集注》。他首次将《大学》《中庸》从《礼记》中独立出来，与《论语》《孟子》合称「四书」，并为之做了逐字逐句的详尽注解。朱熹在注释中融入了「理气论」「心性论」「格物致知」等理学核心思想体系。这部著作后来被元仁宗定为科举考试的标准教材——此后六百余年间，明清两代的科举考试都以此为准，天下读书人无不研习朱子之学。朱熹也因此成为继孔子之后对中国教育影响最大的人物。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-caoxueqin-write-dream",
+    "title": "曹雪芹创作红楼梦",
+    "titleEn": "Cao Xueqin writes Dream of the Red Chamber",
+    "startYear": 1744,
+    "endYear": 1744,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "cao-xueqin"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "文学",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Literature",
+      "Writing"
+    ],
+    "summary": "约乾隆九年（1744年），曹雪芹在北京西郊黄叶村开始了《红楼梦》的创作。他以「字字看来皆是血，十年辛苦不寻常」的毅力批阅十载、增删五次，将家族的兴衰荣辱融入一部百科全书式的文学巨著中。",
+    "description": "约乾隆九年（1744年），曹雪芹隐居北京西郊黄叶村（今北京香山一带），开始了《红楼梦》的创作。此时他已从昔日的富贵公子沦为「举家食粥酒常赊」的贫民。他将曹家三代四人历任江宁织造近六十年的家族记忆与自身经历融入书中，以贾宝玉、林黛玉、薛宝钗的爱情悲剧为主线，描绘了贾、王、史、薛四大家族的兴衰。他自题「满纸荒唐言，一把辛酸泪。都云作者痴，谁解其中味。」他在贫病交加中批阅十载、增删五次，完成了前八十回。乾隆二十八年（1763年）因幼子夭折悲痛过度，曹雪芹在除夕之夜贫病而亡，年仅四十八岁。后四十回一般认为是高鹗续写。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-simaqian-palace",
+    "title": "司马迁遭宫刑著史记",
+    "titleEn": "Sima Qian suffers castration and writes the Records of the Grand Historian",
+    "startYear": -99,
+    "endYear": -99,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sima-qian"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "史学",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "History",
+      "Writing"
+    ],
+    "summary": "天汉二年（前99年），司马迁因替兵败投降匈奴的李陵辩护触怒汉武帝，被判死刑。因家贫无钱赎罪且《史记》尚未完成，他选择接受宫刑以换取活命继续著书。在巨大的屈辱中他以「究天人之际，通古今之变，成一家之言」的信念完成了中国第一部纪传体通史。",
+    "description": "天汉二年（前99年），汉武帝派李陵率五千步兵出征匈奴，李陵遭遇匈奴主力八万骑兵包围，力战后被俘投降。消息传回朝中群臣纷纷指责李陵，唯独太史令司马迁站出来为他辩护——他认为李陵以寡敌众杀敌过万已竭尽全力，投降可能只是权宜之计。汉武帝大怒认为司马迁是在诋毁主帅李广利（武帝宠妃李夫人之兄），将司马迁下狱判处死刑。按汉律死刑可用五十万钱赎罪或以宫刑代替。司马迁家贫无钱赎罪，而父亲临终嘱托他完成的《史记》尚未完成。在生死抉择面前他选择了最屈辱的宫刑。此后他在巨大的精神痛苦中以「文王拘而演周易，仲尼厄而作春秋」自勉，终于完成了五十二万六千五百字的《史记》。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-simaqian-complete-shiji",
+    "title": "司马迁完成史记",
+    "titleEn": "Sima Qian completes the Records of the Grand Historian",
+    "startYear": -91,
+    "endYear": -91,
+    "regionId": "han-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sima-qian"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "史学",
+      "著作"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "History",
+      "Writing"
+    ],
+    "summary": "征和二年（前91年），司马迁终于完成了父亲司马谈的遗愿——中国第一部纪传体通史《史记》。全书一百三十篇、五十二万余字，记载了从黄帝到汉武帝约三千年的历史，开创了以人物为中心的纪传体史书体例，被鲁迅誉为「史家之绝唱，无韵之离骚」。",
+    "description": "征和二年（前91年），在遭受宫刑后的第八年，司马迁终于完成了《史记》的全部撰写。这部巨著共一百三十篇——十二本纪记帝王、三十世家述诸侯、七十列传写人物、十表列年代、八书载制度，五十二万六千五百字，上起黄帝下至汉武帝太初年间，纵横三千年。司马迁在《报任安书》中自述其志向：「究天人之际，通古今之变，成一家之言。」他以非凡的勇气秉笔直书——将项羽列入本纪、把陈胜写入世家、为游侠刺客立传，展现了超越时代的史识。鲁迅先生评价《史记》为「史家之绝唱，无韵之离骚」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-libai-death",
+    "title": "李白醉捞水中月而逝",
+    "titleEn": "Li Bai dies trying to embrace the moon's reflection in the water",
+    "startYear": 762,
+    "endYear": 762,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "li-bai"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "宝应元年（762年），六十二岁的李白在当涂（今安徽马鞍山）病逝。民间传说他在采石矶醉后跳入江中捞月溺水而亡，这一浪漫传说虽然不实，却完美契合了这位「谪仙人」超凡脱俗的一生。",
+    "description": "宝应元年（762年），李白在当涂（今安徽马鞍山当涂县）投靠族叔当涂县令李阳冰，此时他已病重。临终前他将全部诗稿托付给李阳冰，李阳冰后来编成了《草堂集》十卷并为之作序。是年十一月李白病逝，享年六十二岁。关于他的死民间流传着一个美丽的传说——他在采石矶醉后看到江中月亮的倒影，伸手去捞时失足落水而亡。这个传说虽然并非史实，却成为中国文化中最浪漫的意象之一——这位一生爱月、写了三百多首月亮诗的诗人，最终追随月光而去了。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-dufu-death",
+    "title": "杜甫病逝湘江舟中",
+    "titleEn": "Du Fu dies on a boat on the Xiang River",
+    "startYear": 770,
+    "endYear": 770,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "du-fu"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "大历五年（770年）冬，五十九岁的杜甫在贫病交加中病逝于湘江（今湖南）的一条小船上。他一生颠沛流离，晚年穷困潦倒，却将所见所感都化作了不朽的诗篇。直到去世前他还在写诗——「战血流依旧，军声动至今」是他最后的诗句。",
+    "description": "大历五年（770年），杜甫乘船沿湘江南下欲往郴州投靠舅父，但江水暴涨受阻，只得折返。此时他已贫病交加——风痹病日益严重，右臂偏枯，左耳失聪。冬天在湘江的一条小船上，这位伟大的诗人在饥寒病痛中闭上了眼睛，享年五十九岁。他最后的诗作是《风疾舟中伏枕书怀》——「战血流依旧，军声动至今」，直到生命的最后一刻他仍在忧国忧民。杜甫死后家人无力安葬，灵柩暂厝于岳州（今岳阳）。直到四十三年后其孙杜嗣业才将灵柩迁回河南偃师祖茔安葬。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-baijuyi-pipaxing",
+    "title": "白居易贬江州作琵琶行",
+    "titleEn": "Bai Juyi exiled to Jiangzhou and writes The Song of the Pipa",
+    "startYear": 815,
+    "endYear": 815,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "bai-ju-yi-772"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Literature"
+    ],
+    "summary": "元和十年（815年），白居易因上书请求追查刺杀宰相武元衡的凶手，被政敌以「越职言事」为由贬为江州（今江西九江）司马。在江州他写下了千古名篇《琵琶行》——「同是天涯沦落人，相逢何必曾相识」道尽了人生的沧桑与共鸣。",
+    "description": "元和十年（815年），藩镇李师道派刺客潜入长安刺杀了力主削藩的宰相武元衡。白居易当时任太子左赞善大夫（太子属官），本无权过问朝政，但他激于义愤第一个上书请求缉拿凶手。政敌趁机攻击他「越职言事」，又诬告他母亲因看花坠井而死他却写了赏花和新井诗有违孝道。白居易因此被贬为江州司马。在江州的一个秋夜他到浔阳江头送别友人，偶然听到一位年老色衰的琵琶女弹奏诉说身世，同病相怜之下写下了《琵琶行》。「同是天涯沦落人，相逢何必曾相识」成为千古名句。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-liuzongyuan-liuzhou",
+    "title": "柳宗元贬谪柳州造福一方",
+    "titleEn": "Liu Zongyuan governs Liuzhou and benefits the people",
+    "startYear": 815,
+    "endYear": 815,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "liu-zong-yuan-773"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "治理"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Governance"
+    ],
+    "summary": "元和十年（815年），柳宗元从永州再贬到更偏远的柳州任刺史。他在柳州废除蓄奴陋习、兴办学堂、开凿水井、种植柑橘，以实际政绩造福百姓。四年后病逝于柳州任上，年仅四十七岁，柳州百姓为他建庙世代祭祀，尊称「柳柳州」。",
+    "description": "元和十年（815年），已在永州贬谪十年的柳宗元被召回长安，本以为可以重新起用，不料又被贬到更偏远的柳州（今广西柳州）任刺史。他没有消沉——在柳州四年间他废除当地以子女抵押借债逾期即为奴婢的陋习，规定以工钱抵债使近千名奴婢获得自由；他带头挖井解决百姓饮水问题；他兴办学堂教化边民；他在城郊种植柑橘二百株。元和十四年（819年）十一月，柳宗元病逝于柳州任所，年仅四十七岁。柳州百姓感念他的恩德，为他修建了柳侯祠世代祭祀，至今柳州人仍尊称他为「柳柳州」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-yanzhenqing-ji-zhi",
+    "title": "颜真卿作祭侄文稿",
+    "titleEn": "Yan Zhenqing writes Draft Eulogy for His Nephew",
+    "startYear": 758,
+    "endYear": 758,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "yan-zhen-qing-709"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "书法"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Calligraphy"
+    ],
+    "summary": "乾元元年（758年），颜真卿在悲愤中挥笔写下了《祭侄文稿》。他在安史之乱中派人寻找殉国的侄子颜季明遗骸，只找到一颗头颅。这篇涂改多处、墨色浓淡不一的草稿，以其真挚的情感和雄浑的笔力被后世尊为「天下第二行书」，仅次于王羲之的《兰亭序》。",
+    "description": "乾元元年（758年），颜真卿终于派人到河北寻找到在安史之乱中壮烈殉国的侄子颜季明的遗骸——却只有一颗头颅。颜季明是颜真卿兄长颜杲卿之子。安史之乱中颜杲卿任常山太守，与颜真卿呼应起兵抵抗，城破后颜杲卿被俘，安禄山当着他的面杀害了颜季明，颜杲卿也被凌迟处死。颜真卿面对侄子的头骨悲愤交加，以泪研墨挥笔写下《祭侄文稿》。这幅书法作品因是草稿有多处涂改，墨色浓淡干湿变化自然，但正因为毫无刻意雕饰，情感流露得淋漓尽致，被后世尊为「天下第二行书」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-yanzhenqing-death",
+    "title": "颜真卿慷慨就义",
+    "titleEn": "Yan Zhenqing dies a martyr's death",
+    "startYear": 785,
+    "endYear": 785,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "yan-zhen-qing-709"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "兴元元年（785年），淮西节度使李希烈叛乱，七十七岁的颜真卿奉命前往劝降。李希烈以活埋、火焚相威胁，颜真卿面不改色说「我年近八十，还怕死吗」。最终被李希烈缢杀。唐德宗闻讯辍朝五日，追赠司徒，谥号「文忠」。",
+    "description": "兴元元年（785年），淮西节度使李希烈起兵叛乱攻陷汝州。奸相卢杞因与颜真卿有隙，趁机建议派德高望重的颜真卿去劝降——实则是借刀杀人。七十七岁的颜真卿明知此行凶多吉少，仍毅然前往。李希烈软硬兼施——先是许以宰相之位，后又命人在院中挖坑威胁活埋，在庭前架柴威胁火焚。颜真卿面不改色说「我年近八十，死生已定，岂能受你胁迫！」最终李希烈下令将其缢杀。噩耗传回长安，唐德宗辍朝五日，追赠司徒，谥号「文忠」。颜真卿以忠烈之死为他的书法和人品画上了最浓墨重彩的一笔。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wudaozi-heavenly-kings",
+    "title": "吴道子画地狱变相图",
+    "titleEn": "Wu Daozi paints the Transformation Scenes of Hell",
+    "startYear": 735,
+    "endYear": 735,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wu-dao-zi-685"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "绘画"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Painting"
+    ],
+    "summary": "开元年间，吴道子在长安景公寺壁上画《地狱变相图》——画中阴森恐怖的地狱场景描绘了恶人死后遭受的各种酷刑。据说壁画完成后长安的屠夫渔夫们看了纷纷改行不敢再杀生。吴道子的画技已臻化境，后人尊他为「画圣」。",
+    "description": "开元年间，吴道子在长安景公寺的墙壁上创作了一幅惊世骇俗的《地狱变相图》。这幅画描绘了地狱中的各种酷刑场景——刀山、火海、油锅、锯解，恶人在地狱中受尽折磨。令人称奇的是画中并未画一个鬼怪，却让人看了不寒而栗。据说壁画完成后轰动长安，许多屠夫、渔夫看后吓得纷纷改行不再杀生。吴道子的画技达到了出神入化的境界——传说他画龙从不点睛，因为一点睛龙就会破壁飞去。他一生创作了三百余间寺观壁画，被后世尊为「画圣」，民间画工奉他为祖师。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": true,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.85,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sunsimiao-refuse-office",
+    "title": "孙思邈拒绝隋唐两朝征召",
+    "titleEn": "Sun Simiao refuses summons from both Sui and Tang courts",
+    "startYear": 618,
+    "endYear": 618,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sun-si-miao-541"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "医学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Medicine"
+    ],
+    "summary": "孙思邈一生淡泊名利，隋文帝和唐太宗、唐高宗多次征召他入朝为官，他都以年老多病为由婉拒。他选择隐居山林专心行医著书，践行了「大医精诚」的理念——他认为医生应当不问贫富贵贱、不论长幼美丑，一视同仁。",
+    "description": "孙思邈年少时体弱多病，为治病几乎倾尽家财，这使他立志学医。十八岁时他已精通医术，开始为乡邻治病。隋文帝杨坚听闻他的名声，征召他为国子博士，他称病不就。唐太宗李世民即位后也慕名征召，此时孙思邈已年过百岁，但太宗见到他时惊叹其「容色如少年」，仍欲授其官职，被他婉拒。唐高宗时再次征召，他推荐了徒弟代替自己。孙思邈选择终身在民间行医，他在《大医精诚》中写道「若有疾厄来求救者，不得问其贵贱贫富、长幼妍媸、怨亲善友、华夷愚智，普同一等，皆如至亲之想」，树立了中国传统医学的道德典范。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lishizhen-journey",
+    "title": "李时珍万里考察采集药物",
+    "titleEn": "Li Shizhen travels thousands of miles to research medicinal herbs",
+    "startYear": 1552,
+    "endYear": 1552,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "li-shizhen"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "医学",
+      "旅行"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Medicine",
+      "Travel"
+    ],
+    "summary": "嘉靖三十一年（1552年），三十五岁的李时珍辞去太医院职务，开始了长达二十七年的药物考察之旅。他走遍了湖北、湖南、江西、安徽、江苏、河南、河北等省份的名山大川，亲自采集和验证药材，访问了无数药农、樵夫和渔民，纠正了历代本草著作中的大量错误。",
+    "description": "嘉靖三十一年（1552年），李时珍在太医院任职仅一年后便辞职回乡，决心重修本草。他发现历代本草著作中错误极多——有的将一种药误认为两种，有的将不同药物混淆，有的药效记载错误甚至可能害人性命。此后他背起药篓走遍了大半个中国——登上武当山采药、深入岭南考察热带药材、远赴北方草原收集民间偏方。他每到一处就虚心请教当地药农、樵夫、渔民甚至猎人，亲自观察药物的生长形态、尝其药性、记录功效。在二十七年中他收集了超过一千八百种药物和一万余首药方，为《本草纲目》的编纂积累了第一手资料。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhenghe-first-voyage",
+    "title": "郑和第一次下西洋",
+    "titleEn": "Zheng He embarks on his first voyage to the Western Ocean",
+    "startYear": 1405,
+    "endYear": 1405,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zheng-he"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "航海"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Navigation"
+    ],
+    "summary": "永乐三年（1405年），三十五岁的郑和奉明成祖朱棣之命首次率领庞大的船队出使西洋。船队共有大小船只二百余艘、船员两万七千八百余人，其中最大的宝船长四十四丈、宽十八丈。首航到达占城、爪哇、苏门答腊、满剌加、锡兰、古里等地。",
+    "description": "永乐三年六月十五日（1405年7月11日），三十五岁的郑和率领一支史无前例的庞大舰队从南京龙江港起航。这支舰队有大小船只二百余艘，其中「宝船」六十余艘——最大的宝船长约一百二十五米、宽约五十米，九桅十二帆，排水量可达数千吨，比哥伦布发现美洲的旗舰大数倍。船员总计两万七千八百余人，包括水手、官兵、翻译、医生、工匠、道士等各色人等。首次航行历时两年，最远到达印度西海岸的古里（今卡利卡特）。郑和携带了大量丝绸、瓷器、金银器，沿途与各国开展和平贸易。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhenghe-africa",
+    "title": "郑和船队抵达东非",
+    "titleEn": "Zheng He's fleet reaches East Africa",
+    "startYear": 1417,
+    "endYear": 1417,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zheng-he"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "航海",
+      "外交"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Navigation",
+      "Diplomacy"
+    ],
+    "summary": "永乐十五年（1417年），郑和第五次下西洋时船队最远到达了东非海岸的木骨都束（今索马里摩加迪沙）、卜剌哇（今索马里布拉瓦）和麻林（今肯尼亚马林迪）。这是中国船队首次抵达非洲东海岸，比葡萄牙人达·伽马绕过好望角到达东非早了八十年。",
+    "description": "永乐十五年（1417年），郑和第五次下西洋的航程创下了此前中国航海史上的最远记录——船队横渡印度洋直抵东非海岸。他们访问了木骨都束（今索马里首都摩加迪沙）、卜剌哇（今索马里布拉瓦）和麻林（今肯尼亚马林迪）。当地盛产象牙、香料和珍奇异兽，麻林国还派遣使者随郑和船队回访中国，向明成祖进贡了一头长颈鹿——中国人误以为是传说中的神兽「麒麟」，轰动朝野。此时比葡萄牙航海家达·伽马绕过好望角抵达东非早了整整八十年。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wuzetian-enter-palace",
+    "title": "武则天入宫为太宗才人",
+    "titleEn": "Wu Zetian enters palace as Taizong's concubine",
+    "startYear": 637,
+    "endYear": 637,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wu-zetian"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "宫廷"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Court"
+    ],
+    "summary": "贞观十一年（637年），十四岁的武则天因美貌被唐太宗选入后宫，封为五品才人，赐号「武媚」。太宗有一匹烈马狮子骢无人能驯服，武媚娘说只要给她三样东西——铁鞭、铁锤、匕首——就能驯服它。太宗虽赞赏她的胆识，但也因此对她有所忌惮。",
+    "description": "贞观十一年（637年），十四岁的武则天因「美容止」被唐太宗李世民召入后宫，封为才人（五品嫔妃），赐号「武媚」。母亲杨氏为女儿入宫哭泣时，武则天却说「侍奉天子岂知非福，何必哭哭啼啼」。在太宗身边时发生了一件著名的事——太宗有一匹名叫狮子骢的烈马无人能驯。武则天说「我能驯服它，但需要三样东西：铁鞭、铁锤、匕首。先用铁鞭抽它，不服就用铁锤敲它的头，再不服就用匕首割断它的喉咙。」太宗称赞了她的勇气，但也因此对这个少女产生了戒心。武则天在太宗身边十二年间一直只是才人，未得晋升。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wuzetian-death",
+    "title": "武则天退位病逝",
+    "titleEn": "Wu Zetian abdicates and dies",
+    "startYear": 705,
+    "endYear": 705,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wu-zetian"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "神龙元年（705年），宰相张柬之等人发动「神龙政变」，逼迫八十二岁的武则天退位，传位于太子李显（唐中宗）。同年十一月武则天病逝于上阳宫。临终遗诏去帝号称「则天大圣皇后」，与高宗合葬乾陵。她在乾陵前立下无字碑——千秋功过，任后人评说。",
+    "description": "神龙元年正月二十二日（705年2月20日），宰相张柬之联合崔玄暐、桓彦范等人发动政变，率羽林军杀入皇宫诛杀了武则天宠臣张易之、张昌宗兄弟，随后包围武则天寝宫长生殿，逼迫她退位。八十二岁的武则天被迫传位于太子李显，恢复唐朝国号。十一月二十六日武则天病逝于洛阳上阳宫仙居殿。临终遗诏去帝号称「则天大圣皇后」，祔葬于高宗乾陵。乾陵前她留下一座无字碑——碑上不刻一字，据说她的意思是千秋功过任后人评说。这位中国历史上唯一的女皇帝，以这样一种方式为自己的传奇一生画上了句号。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-dufu-youth",
+    "title": "杜甫少年壮游齐赵",
+    "titleEn": "Du Fu travels through Qi and Zhao in his youth",
+    "startYear": 736,
+    "endYear": 736,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "du-fu"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "漫游"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Travel"
+    ],
+    "summary": "开元二十四年（736年），二十五岁的杜甫结束吴越漫游后赴洛阳参加进士考试落第，随后北游齐赵（今山东河北一带）。在齐赵他写下了「会当凌绝顶，一览众山小」的《望岳》，展现了青年杜甫的豪迈胸襟。",
+    "description": "开元二十四年（736年），二十五岁的杜甫赴洛阳参加进士考试却名落孙山。但年轻的杜甫并未沮丧，他随后开始了长达五年的齐赵漫游——放荡齐赵间、裘马颇清狂。在泰山脚下他仰望五岳之尊写下了「岱宗夫如何？齐鲁青未了。造化钟神秀，阴阳割昏晓。荡胸生曾云，决眦入归鸟。会当凌绝顶，一览众山小」的千古名篇。这一时期他还结识了苏源明等文友，在齐赵大地上纵酒放歌，是杜甫一生中最自由不羁的青年时代。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wangwei-anlushan",
+    "title": "王维陷贼被迫受伪职",
+    "titleEn": "Wang Wei captured by rebels and forced to serve",
+    "startYear": 756,
+    "endYear": 756,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-wei-701"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "战争"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "War"
+    ],
+    "summary": "天宝十五载（756年），安禄山叛军攻陷长安，王维来不及随玄宗西逃被俘。安禄山敬慕王维才名强迫他接受伪职。王维服药装哑不从，被关押在菩提寺中。在寺中他写下「万户伤心生野烟，百官何日再朝天」的悲愤诗句。",
+    "description": "天宝十五载（756年），安史叛军攻入长安，唐玄宗仓皇西逃入蜀。王维当时任给事中，来不及跟随御驾被叛军俘虏。安禄山久仰王维大名，将他押至洛阳强迫出任伪职。王维服药装哑、假装病重以求免，但最终仍被拘禁在菩提寺。在寺中他听到乐工雷海青因拒绝为叛军演奏而被杀的消息后悲愤交加，写下《菩提寺禁裴迪来相看说逆贼等凝碧池上作音乐供奉人等举声便一时泪下私成口号诵示裴迪》一诗：「万户伤心生野烟，百官何日再朝天。秋槐叶落空宫里，凝碧池头奏管弦。」战后唐肃宗追究伪职官员时，这首诗成为他忠于朝廷的明证，加上弟弟王缙以削职为代价力保，王维得以从轻发落。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wangwei-death",
+    "title": "王维病逝辋川",
+    "titleEn": "Wang Wei dies at Wangchuan",
+    "startYear": 761,
+    "endYear": 761,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-wei-701"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "上元二年（761年），六十一岁的王维在辋川别业病逝。临终前他写信与亲友诀别，劝弟弟王缙精勤修佛，搁笔而化。他一生诗画双绝，被后世尊为「诗佛」。",
+    "description": "上元二年（761年）七月，六十一岁的王维在终南山辋川别业中病逝。临终前他写信与各位亲友一一诀别，又劝弟弟王缙精勤修习佛法，随后搁笔而化。王维一生诗、画、音乐、书法无一不精，是唐代少有的全才艺术家。他的山水诗以「诗中有画」著称，他的水墨山水画开创了南宗画派，他被后世尊为「诗佛」——与诗仙李白、诗圣杜甫鼎足而三。王维死后葬于辋川，他深爱的辋川山水成为他永恒的归宿。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-menghaoran-death",
+    "title": "孟浩然食鲜疾发而卒",
+    "titleEn": "Meng Haoran dies from eating fresh seafood against doctor's orders",
+    "startYear": 740,
+    "endYear": 740,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "meng-hao-ran-689"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "开元二十八年（740年），王昌龄游襄阳拜访孟浩然。此时孟浩然背疽刚愈，医生严禁他吃鲜鱼。但老友重逢孟浩然高兴不已，大摆宴席纵情饮酒食鲜，结果背疽复发而亡，享年五十二岁。",
+    "description": "开元二十八年（740年），著名边塞诗人王昌龄游历到襄阳，特意拜访老友孟浩然。当时孟浩然背上刚刚治愈了一个大疮（背疽），医生千叮万嘱严禁他吃鲜鱼饮酒。然而老友久别重逢孟浩然欣喜若狂，不顾医嘱大摆宴席，纵情饮酒、食鲜鱼。结果背疽迅速复发，不久便与世长辞，享年五十二岁。这位终身不仕、酷爱自由的山水田园诗人，以这样一种豪放不羁的方式走完了自己的一生。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lishangyin-party-struggle",
+    "title": "李商隐卷入牛李党争",
+    "titleEn": "Li Shangyin entangled in the Niu-Li factional strife",
+    "startYear": 839,
+    "endYear": 839,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "li-shang-yin-813"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "开成四年（839年），李商隐娶了李党重要人物王茂元的女儿。这一婚姻使他被视为对牛党恩师令狐楚父子的背叛，从此陷入牛李党争的夹缝中。令狐楚之子令狐绹终身不原谅他，使李商隐仕途蹉跎一生。",
+    "description": "开成四年（839年），李商隐做出了一个改变一生的决定——娶泾原节度使王茂元的女儿为妻。王茂元属于李德裕一派（李党），而李商隐的恩师令狐楚是牛僧孺一派（牛党）的核心人物。令狐楚对李商隐有知遇之恩——不仅教他骈文还资助他科举。令狐楚之子令狐绹认为李商隐娶李党之女是对令狐家的背叛，从此终身不原谅他。此后李商隐在牛李党争的夹缝中左右为难——李党掌权时他被视为牛党旧人，牛党上台时又视他为李党女婿。他一生贫困潦倒、漂泊无依，但也正是这深重的痛苦催生了他那些迷离凄美的无题诗。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-lishangyin-death",
+    "title": "李商隐郁郁而终",
+    "titleEn": "Li Shangyin dies in dejection",
+    "startYear": 858,
+    "endYear": 858,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "li-shang-yin-813"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "大中十二年（858年），四十六岁的李商隐在郑州荥阳家中郁郁而终。他一生写了六百多首诗，其中以《锦瑟》最为著名——「此情可待成追忆，只是当时已惘然」被视为中国诗歌史上最美的叹息。",
+    "description": "大中十二年（858年），四十六岁的李商隐在郑州荥阳的家中病逝。他的妻子王氏已于七年前去世，李商隐鳏居多年。回顾一生——少年得令狐楚提携进士及第，却因婚姻卷入党争蹉跎终生；诗才绝世却只能做幕僚文书四处漂泊。他的绝笔之作《锦瑟》——「锦瑟无端五十弦，一弦一柱思华年。庄生晓梦迷蝴蝶，望帝春心托杜鹃。沧海月明珠有泪，蓝田日暖玉生烟。此情可待成追忆，只是当时已惘然。」以迷离的意象和深沉的情感成为中国诗歌史上最著名的谜题之一，千年来无数人试图解读却无人能确切说出其含义。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-dumu-yangzhou",
+    "title": "杜牧扬州风流十年",
+    "titleEn": "Du Mu spends a romantic decade in Yangzhou",
+    "startYear": 833,
+    "endYear": 833,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "du-mu-803"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "漫游"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Travel"
+    ],
+    "summary": "大和七年（833年），杜牧应淮南节度使牛僧孺之邀赴扬州任推官。在扬州的十年是他一生中最风流的岁月——「十年一觉扬州梦，赢得青楼薄幸名」正是这段生活的自画像。",
+    "description": "大和七年（833年），杜牧应牛僧孺之邀到扬州任淮南节度使推官。扬州是唐代最繁华的商业都市，歌楼酒肆林立。杜牧年少风流，公务之余常微服出没于青楼酒肆之间。牛僧孺暗中派兵士便装保护他，每天将他的行踪记录在案。当杜牧调离扬州时牛僧孺拿出厚厚一叠记录劝他收敛，杜牧惭愧不已。后来他在《遣怀》中写道「落魄江湖载酒行，楚腰纤细掌中轻。十年一觉扬州梦，赢得青楼薄幸名」——这首自嘲之作反而成为他最脍炙人口的诗篇之一。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-liuyuxi-return",
+    "title": "刘禹锡玄都观桃花诗案",
+    "titleEn": "Liu Yuxi writes satirical peach blossom poem at Xuandu Temple",
+    "startYear": 815,
+    "endYear": 815,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "liu-yu-xi-772"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "贬谪",
+      "文学"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Exile",
+      "Literature"
+    ],
+    "summary": "元和十年（815年），被贬朗州十年的刘禹锡被召回长安。他游玄都观时看到满园桃花，写下了「玄都观里桃千树，尽是刘郎去后栽」——讽刺朝中新贵都是他走后才上位的。执政者大怒再次将他贬谪。十四年后他再次回京重游玄都观，又写「种桃道士归何处？前度刘郎今又来」，至死不屈。",
+    "description": "元和十年（815年），被贬朗州十年的刘禹锡与好友柳宗元一同被召回长安。刘禹锡游长安玄都观时，看到满园桃花盛开——而这些桃花都是他离开长安后才栽种的。他触景生情写下《元和十年自朗州承召至京戏赠看花诸君子》：「紫陌红尘拂面来，无人不道看花回。玄都观里桃千树，尽是刘郎去后栽。」诗中「桃千树」暗指那些在他被贬后爬上高位的新贵们。执政者大怒，再次将他贬到更偏远的播州（后改连州）。十四年后的大和二年（828年），刘禹锡再次被召回长安，他重游玄都观——发现桃花已荡然无存，道士也不知去向。他又写了一首《再游玄都观》：「百亩庭中半是苔，桃花净尽菜花开。种桃道士归何处？前度刘郎今又来。」以不屈的姿态宣告自己的归来。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-wangchangling-death",
+    "title": "王昌龄被闾丘晓冤杀",
+    "titleEn": "Wang Changling killed unjustly by Lu Qiuxiao",
+    "startYear": 756,
+    "endYear": 756,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "wang-chang-ling-690"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "至德元载（756年），安史之乱中王昌龄弃官回乡途经亳州，被亳州刺史闾丘晓因嫉妒其诗才而杀害，年仅六十余岁。后来张镐以贻误军机之罪处死闾丘晓时，闾丘晓求饶说家有老母，张镐反问「王昌龄之亲，谁养之？」——闾丘晓无言以对。",
+    "description": "至德元载（756年），安史之乱爆发后天下大乱。王昌龄弃官离开龙标（今湖南黔阳）返回故乡，途经亳州时竟被亳州刺史闾丘晓杀害。据记载闾丘晓因嫉妒王昌龄的诗名而下此毒手。王昌龄一生写了大量边塞诗和宫怨诗，以七绝成就最高——「秦时明月汉时关」被推为唐人七绝压卷之作，后人称他「七绝圣手」「诗家天子」，却死于小人之手。后来宰相张镐率军平定安史之乱时闾丘晓违令迟援贻误军机，张镐下令将其杖杀。闾丘晓求饶说「家有老母」，张镐反问「王昌龄之亲，谁养之？」——闾丘晓无言以对。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-gaoshi-governor",
+    "title": "高适平永王之乱官至节度使",
+    "titleEn": "Gao Shi suppresses Prince Yong's rebellion and becomes military governor",
+    "startYear": 757,
+    "endYear": 757,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "gao-shi-700"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "军事"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Military"
+    ],
+    "summary": "至德二载（757年），永王李璘在江陵起兵，高适被唐肃宗任命为淮南节度使前往讨伐。他精准分析永王必败的原因，果然未及大战永王即兵败身亡。高适以军功迅速晋升，成为唐代诗人中官职最高者——官至散骑常侍、封渤海县侯。",
+    "description": "至德二载（757年），唐肃宗正在灵武组织平叛，永王李璘却在江陵擅自起兵意图割据。李白当时就在永王幕府中。肃宗任命高适为淮南节度使率军讨伐永王。高适向肃宗分析了永王必败的五大原因，精准预判了局势。果然唐军一到永王军队便溃散，永王兵败被杀。李白也因此被牵连流放夜郎。高适凭借此功和后续在安史之乱中的表现一路高升，最终官至左散骑常侍、封渤海县侯——他是唐代著名诗人中唯一封侯的人。《旧唐书》评价「有唐以来，诗人之达者，唯适而已」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-chenziang-death",
+    "title": "陈子昂被县令陷害冤死狱中",
+    "titleEn": "Chen Zi'ang framed by county magistrate and dies in prison",
+    "startYear": 702,
+    "endYear": 702,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "chen-zi-ang-661"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "长安二年（702年），辞官回乡的陈子昂被射洪县令段简罗织罪名逮捕入狱。陈子昂家财丰厚，段简意在勒索。最终年仅四十二岁的陈子昂冤死狱中。这位喊出「前不见古人，后不见来者」的初唐诗歌革新先驱，以悲剧收场。",
+    "description": "长安二年（702年），陈子昂因父亲去世辞官回乡守孝。射洪县令段简觊觎陈家的财产，罗织罪名将陈子昂逮捕入狱。陈子昂家人送去二十万钱赎人，段简贪得无厌嫌少继续勒索。陈子昂在狱中为自己占卜得凶卦，仰天长叹「天命不佑，吾其死矣」。年仅四十二岁的陈子昂冤死狱中。这位以「前不见古人，后不见来者。念天地之悠悠，独怆然而涕下」震撼千古的初唐诗歌革新先驱，就这样死于一个贪官之手。但他的诗歌开创了唐代诗风的先声，被韩愈赞为「国朝盛文章，子昂始高蹈」。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-cencan-death",
+    "title": "岑参客死成都",
+    "titleEn": "Cen Shen dies as a refugee in Chengdu",
+    "startYear": 770,
+    "endYear": 770,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "cen-can-715"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "大历五年（770年），五十六岁的岑参在成都客舍中病逝。他一生两度出塞，以奇丽雄浑的边塞诗著称。然而晚年因中原战乱滞留蜀中不得北归，最终客死异乡。他与高适并称「高岑」，是盛唐边塞诗派的双璧。",
+    "description": "大历五年（770年），五十六岁的岑参在成都一家客舍中病逝。他晚年出任嘉州（今四川乐山）刺史，故世称「岑嘉州」。但安史之乱后的中原动荡使他无法北归故乡河南。这位曾两度出塞、以「忽如一夜春风来，千树万树梨花开」写尽西域奇景的边塞诗人，最终客死于蜀中。岑参与高适齐名并称「高岑」，两人共同将盛唐边塞诗推向了巅峰——高适的诗悲壮深沉，岑参的诗奇丽瑰异。杜甫评价岑参「岑参兄弟皆好奇」，道出了他诗歌的核心特质。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-yaochong-locust",
+    "title": "姚崇灭蝗救民",
+    "titleEn": "Yao Chong organizes massive locust extermination",
+    "startYear": 716,
+    "endYear": 716,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "yao-chong-651"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "治理"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Governance"
+    ],
+    "summary": "开元四年（716年），山东发生严重蝗灾。当时民间迷信认为蝗虫是天灾不可扑杀，姚崇力排众议坚持组织人力大规模灭蝗。他引用《诗经》「秉彼蟊贼，以付炎火」证明古人就曾灭蝗，最终说服玄宗推行灭蝗令，挽救了无数灾民。",
+    "description": "开元四年（716年），山东（崤山以东）爆发了严重的蝗灾——蝗虫遮天蔽日，所过之处庄稼颗粒无收。但当时朝野上下普遍迷信认为蝗虫是上天降灾，扑杀会得罪上天。姚崇力排众议，引用《诗经》「秉彼蟊贼，以付炎火」证明古人早就有烧蝗的传统，又指出蝗虫有趋光性，可夜间设火堆诱杀。他带头组织百姓夜里在田间点起火堆，蝗虫趋光飞来被烧死。玄宗最终支持了姚崇的灭蝗令。当年仅汴州一地就埋了蝗虫十四万石。姚崇的务实精神拯救了无数百姓的生命，但也因此得罪了那些借天灾攻击他的保守派大臣。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-hezhizhang-retirement",
+    "title": "贺知章告老还乡",
+    "titleEn": "He Zhizhang retires and returns home",
+    "startYear": 744,
+    "endYear": 744,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "he-zhi-zhang-659"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "归隐"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Retirement"
+    ],
+    "summary": "天宝三载（744年），八十六岁的贺知章上书请求告老还乡度为道士。唐玄宗亲率太子和百官在长安东门外为他饯行，并作诗相赠。贺知章回到故乡越州（今浙江绍兴）后写下「少小离家老大回，乡音无改鬓毛衰」的千古名句。",
+    "description": "天宝三载（744年），八十六岁的贺知章因年老多病上书请求辞官回乡度为道士。唐玄宗对这个历经四朝的老臣十分敬重，亲自率领太子和文武百官在长安东门（长乐坡）为他饯行。玄宗还亲自作诗相赠并命百官赋诗应和。贺知章回到阔别五十余年的故乡越州永兴（今浙江杭州萧山）后，看到家乡的孩童笑问「客从何处来」，感慨万千写下了《回乡偶书》：「少小离家老大回，乡音无改鬓毛衰。儿童相见不相识，笑问客从何处来。」同一年，贺知章在故乡安然辞世。",
+    "importance": 4,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhangsunwuji-death",
+    "title": "长孙无忌被诬谋反流放自缢",
+    "titleEn": "Zhangsun Wuji framed for treason and forced to hang himself in exile",
+    "startYear": 659,
+    "endYear": 659,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhang-sun-wu-ji"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "显庆四年（659年），唐高宗在武则天怂恿下，授意许敬宗诬陷国舅长孙无忌谋反，将其流放黔州（今四川彭水）。不久又派人到流放地逼其自缢。这位凌烟阁二十四功臣之首、太宗最信任的托孤大臣，最终死于宫廷政争。",
+    "description": "显庆四年（659年），在武则天逐步掌控朝政的过程中，最大的障碍就是太宗留下的托孤大臣——国舅长孙无忌。武则天授意许敬宗诬告长孙无忌勾结监察御史李巢谋反。唐高宗起初不信，但在武则天和许敬宗的反复劝说下，连对质都未进行就下诏削去长孙无忌的官职和封邑，流放黔州。数月后许敬宗又派大理正袁公瑜到黔州逼长孙无忌自缢。这位位列凌烟阁二十四功臣之首、主持编修《唐律疏议》的贞观老臣，就这样死于宫廷政争。直到十五年后高宗才为他平反昭雪。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhuxi-purge",
+    "title": "朱熹被列为伪学逆党",
+    "titleEn": "Zhu Xi denounced as leader of false learning faction",
+    "startYear": 1196,
+    "endYear": 1196,
+    "regionId": "song-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zhu-xi"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "政治"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Politics"
+    ],
+    "summary": "庆元二年（1196年），韩侂胄当政时将朱熹的理学定为「伪学」，朱熹被列为「伪学逆党」之首。他的学说被禁止传播，门人故旧纷纷与他划清界限。朱熹在政治迫害中仍然坚持讲学著书，直至庆元六年（1200年）病逝。",
+    "description": "庆元二年（1196年），权臣韩侂胄为打击政敌赵汝愚，将矛头对准了与赵汝愚交好的朱熹。韩侂胄授意言官弹劾朱熹「伪学」，将程朱理学定为「伪学」加以禁止。朱熹被罢官并被列入五十九人的「伪学逆党籍」之首。科举考试中考生必须声明自己不是「伪学」之徒，许多门生故旧迫于压力与朱熹断绝往来。但七十一岁的朱熹毫不屈服，在建阳考亭继续讲学著书。庆元六年（1200年）三月初九朱熹病逝，享年七十一岁。他死时「伪学」之禁尚未解除，但仍有数千人不畏禁令前来送葬。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-zhenghe-early-life",
+    "title": "郑和被俘入宫成为太监",
+    "titleEn": "Zheng He captured and castrated to serve in the imperial palace",
+    "startYear": 1382,
+    "endYear": 1382,
+    "regionId": "ming-dynasty",
+    "placeName": "",
+    "personIds": [
+      "zheng-he"
+    ],
+    "tags": [
+      "人物",
+      "生平"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life"
+    ],
+    "summary": "洪武十五年（1382年），明军平定云南时俘虏了年仅十一岁的回族少年马和（后来的郑和），将他阉割后送入燕王府为宦官。马和在朱棣身边表现机智忠诚，靖难之役中立有战功，朱棣赐姓「郑」升为内官监太监。",
+    "description": "洪武十五年（1382年），明朝大将傅友德、蓝玉率军平定云南。在战乱中一个年仅十一岁的回族少年被明军俘虏——他本名马和，出身于云南昆阳一个信仰伊斯兰教的家庭，祖父和父亲都曾远赴麦加朝圣。按照当时对待战俘的惯例马和被阉割，随后被送入燕王府侍奉燕王朱棣。马和聪慧忠诚、体格魁梧，深得朱棣信任。建文元年（1399年）朱棣发动靖难之役，马和在郑村坝之战中立有战功。朱棣即位后于永乐二年（1404年）赐他姓「郑」，升任内官监太监。这个曾经被俘的少年后来率领世界史上最庞大的船队七下西洋。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-caoxueqin-death",
+    "title": "曹雪芹贫病而亡",
+    "titleEn": "Cao Xueqin dies in poverty and illness",
+    "startYear": 1763,
+    "endYear": 1763,
+    "regionId": "qing-dynasty",
+    "placeName": "",
+    "personIds": [
+      "cao-xueqin"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "乾隆二十八年除夕（1763年2月12日），曹雪芹因幼子夭折悲痛过度，在北京西郊贫病交加中离世，年仅四十八岁。他留下的《红楼梦》前八十回尚未完稿，却已是中国文学史上最伟大的小说。",
+    "description": "乾隆二十八年除夕（公历1763年2月12日），北京西郊黄叶村。曹雪芹的幼子因贫病不治而夭折，曹雪芹悲痛欲绝，本就虚弱的身体彻底垮掉。在这万家团圆的除夕之夜，这位曾经的江宁织造公子、如今的贫民，在「举家食粥酒常赊」的困顿中闭上了眼睛，年仅四十八岁。他留下了未完成的《红楼梦》前八十回手稿——「字字看来皆是血，十年辛苦不寻常」。朋友敦诚在挽诗中写道「孤儿渺漠魂应逐，新妇飘零目岂瞑」，令人读之泫然。他死后手稿散落民间被借阅传抄，数十年后高鹗续写了后四十回，《红楼梦》终以一百二十回完整面貌传世。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-sunsimiao-death",
+    "title": "孙思邈无疾而终",
+    "titleEn": "Sun Simiao passes away peacefully",
+    "startYear": 682,
+    "endYear": 682,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "sun-si-miao-541"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "永淳元年（682年），一百四十二岁的孙思邈无疾而终。临终前他嘱咐弟子薄葬、不设祭品。后人尊他为「药王」，各地修建药王庙世代供奉。他留下的《千金要方》和《千金翼方》各三十卷，是中国医学史上的不朽经典。",
+    "description": "永淳元年（682年），孙思邈在家中无疾而终，享年一百四十二岁。据记载他死后一个多月容貌不变，抬入棺材时身体轻如空衣。孙思邈临终前嘱咐弟子丧事从简——薄葬、不设祭品、不杀牲。他一生淡泊名利拒绝隋唐两朝帝王的多次征召，以「大医精诚」为行医准则——不问贵贱贫富一视同仁。他在百岁高龄时还完成了《千金翼方》三十卷作为《千金要方》的补充。他被后人尊为「药王」，全国各地建药王庙供奉，至今香火不断。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xuanzang-departure",
+    "title": "玄奘偷渡出关西行求法",
+    "titleEn": "Xuanzang secretly departs for India to seek Buddhist scriptures",
+    "startYear": 629,
+    "endYear": 629,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xuan-zang-602"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "旅行",
+      "佛教"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Travel",
+      "Buddhism"
+    ],
+    "summary": "贞观三年（629年），因国内佛经译本矛盾重重，二十七岁的玄奘决心西行求取梵文原典。但唐朝因边境未宁禁止百姓出境，玄奘不顾禁令混入灾民队伍偷渡出关。此后他独自穿越八百里莫贺延碛沙漠，九死一生开始了万里西行。",
+    "description": "贞观三年（629年），长安大觉寺的年轻僧人玄奘面对国内佛经翻译混乱、教义矛盾的困境，决心前往天竺求取梵文原典。但当时唐朝与西突厥关系紧张，朝廷严禁百姓私自出境。玄奘多次上书请求西行均被驳回。他不顾禁令，混入逃荒的灾民队伍中从长安出发。行至凉州时被官府发现，都督李大亮强令他返回长安，玄奘在慧威法师帮助下昼伏夜行偷渡出关。最艰险的是穿越八百里莫贺延碛沙漠——他在沙漠中不慎打翻水囊，四夜五日滴水未进几乎渴死，凭着老马识途才找到水源。",
+    "importance": 5,
+    "datePrecision": "year",
+    "isApproximate": false,
+    "relatedEventIds": [],
+    "sourceIds": [],
+    "dataStatus": "published",
+    "confidenceScore": 0.9,
+    "externalReferences": []
+  },
+  {
+    "id": "evt-xuanzang-death",
+    "title": "玄奘圆寂",
+    "titleEn": "Xuanzang passes away",
+    "startYear": 664,
+    "endYear": 664,
+    "regionId": "tang-dynasty",
+    "placeName": "",
+    "personIds": [
+      "xuan-zang-602"
+    ],
+    "tags": [
+      "人物",
+      "生平",
+      "逝世"
+    ],
+    "tagsEn": [
+      "Biography",
+      "Life",
+      "Death"
+    ],
+    "summary": "麟德元年（664年）二月初五，六十三岁的玄奘在长安玉华寺圆寂。唐高宗闻讯悲痛万分辍朝三日，长安五百里内百余万人为他送葬。玄奘一生翻译佛经七十五部一千三百三十五卷，是中国佛教史上最伟大的翻译家。",
+    "description": "麟德元年（664年）正月初一，六十三岁的玄奘在玉华寺开始翻译《大宝积经》，但译了几行就感到体力不支。他自知大限将至，对弟子们说「吾来玉华，本为《般若》，今经事既终，吾生涯亦尽」。二月初五夜半，玄奘安详圆寂。唐高宗闻讯悲痛万分，辍朝三日，连声哀叹「朕失国宝矣」。四月十四日玄奘灵柩安葬于白鹿原，长安五百里内送葬者达百余万人，三万人露宿墓旁守夜。玄奘一生翻译佛经七十五部一千三百三十五卷，占唐代译经总量的一半以上。他口述的《大唐西域记》十二卷更是研究中亚和印度古代历史地理的珍贵资料。",
     "importance": 5,
     "datePrecision": "year",
     "isApproximate": false,

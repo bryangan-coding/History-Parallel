@@ -95,7 +95,7 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     setCookie(newLocale);
   }, []);
 
-  const t = dictionaries[locale];
+  const rawDict = dictionaries[locale];
 
   // toScript: auto-convert between Simplified and Traditional
   const toScript = useCallback(
@@ -115,6 +115,24 @@ export function LocaleProvider({ children }: { children: React.ReactNode }) {
     },
     [locale]
   );
+
+  // Apply toScript to all dictionary string values so zh-TW UI text is Traditional Chinese
+  const t = useMemo(() => {
+    if (locale === 'en') return rawDict;
+    const convert = (val: unknown): unknown => {
+      if (typeof val === 'string') return toScript(val);
+      if (Array.isArray(val)) return val.map(convert);
+      if (val && typeof val === 'object') {
+        const result: Record<string, unknown> = {};
+        for (const [k, v] of Object.entries(val as Record<string, unknown>)) {
+          result[k] = convert(v);
+        }
+        return result;
+      }
+      return val;
+    };
+    return convert(rawDict) as Dictionary;
+  }, [rawDict, locale, toScript]);
 
   // Stable locale context value — only changes when locale changes
   const localeValue = useMemo(() => ({

@@ -191,7 +191,6 @@ export default function ParallelTimelineView({ groups, centerYear, range }: Prop
           scored={selectedEvent.event}
           regionName={selectedEvent.region}
           onClose={closePreview}
-          locale={locale}
           persons={selectedEvent.event.persons}
           region={undefined}
         />

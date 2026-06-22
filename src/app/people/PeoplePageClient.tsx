@@ -25,7 +25,7 @@ export default function PeoplePageClient({
   totalCount: number;
   eraStats: EraGroupStat[];
 }) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const [selectedEra, setSelectedEra] = useState<string>('all');
   const [people, setPeople] = useState<Person[]>([]);
   const [regions, setRegions] = useState<Region[]>([]);
@@ -39,7 +39,7 @@ export default function PeoplePageClient({
     fetch('/api/data/regions')
       .then((r) => r.json())
       .then((data) => setRegions(data.items || data))
-      .catch(() => setError(locale === 'en' ? 'Failed to load region data' : '地区数据加载失败'));
+      .catch(() => setError(locale === 'en' ? 'Failed to load region data' : toScript('地区数据加载失败')));
   }, [locale]);
 
   // Fetch people when era or page changes
@@ -80,12 +80,12 @@ export default function PeoplePageClient({
   const subtitle =
     locale === 'en'
       ? `${totalCount} figures across ${eraStats.length} eras`
-      : `${totalCount} 位人物，跨越 ${eraStats.length} 个时期`;
+      : toScript(`${totalCount} 位人物，跨越 ${eraStats.length} 个时期`);
 
   return (
     <div className="max-w-3xl mx-auto">
       <PageHeader
-        title={locale === 'en' ? 'Historical People' : '历史人物'}
+        title={locale === 'en' ? 'Historical People' : toScript('历史人物')}
         subtitle={subtitle}
         backTo="/"
         backLabel={t.nav.backToHome}
@@ -101,7 +101,7 @@ export default function PeoplePageClient({
               : 'bg-white text-stone-600 border-stone-200 hover:border-stone-400'
           }`}
         >
-          {locale === 'en' ? 'All' : '全部'} ({totalCount})
+          {locale === 'en' ? 'All' : toScript('全部')} ({totalCount})
         </button>
         {eraStats.map((era) => (
           <button
@@ -128,7 +128,7 @@ export default function PeoplePageClient({
       {/* Error state */}
       {error && (
         <EmptyState
-          title={locale === 'en' ? 'Failed to load' : '加载失败'}
+          title={locale === 'en' ? 'Failed to load' : toScript('加载失败')}
           description={error}
         />
       )}
@@ -155,7 +155,7 @@ export default function PeoplePageClient({
                 disabled={page <= 1}
                 className="text-xs px-3 py-1.5 rounded border border-stone-200 bg-white text-stone-600 hover:border-stone-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
               >
-                {locale === 'en' ? '← Previous' : '← 上一页'}
+                {locale === 'en' ? '← Previous' : toScript('← 上一页')}
               </button>
               <span className="text-xs text-stone-500">
                 {page} / {totalPages}
@@ -165,7 +165,7 @@ export default function PeoplePageClient({
                 disabled={page >= totalPages}
                 className="text-xs px-3 py-1.5 rounded border border-stone-200 bg-white text-stone-600 hover:border-stone-400 disabled:opacity-30 disabled:cursor-not-allowed transition-colors"
               >
-                {locale === 'en' ? 'Next →' : '下一页 →'}
+                {locale === 'en' ? 'Next →' : toScript('下一页 →')}
               </button>
             </div>
           )}

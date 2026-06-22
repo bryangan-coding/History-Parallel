@@ -4,7 +4,7 @@ import { useMemo, useState, useCallback, useEffect, useRef } from 'react';
 import type { Person, HistoricalEvent } from '@/lib/types';
 import { useLocale } from '@/i18n/LocaleProvider';
 import { personName, eventTitle, eventSummary } from '@/lib/types';
-import { Minus, Plus, X, Maximize2 } from 'lucide-react';
+import { Minus, Plus, X } from 'lucide-react';
 
 // ==================== Constants ====================
 
@@ -63,7 +63,7 @@ function EventCard({
   shiftLeft: number;
   onExpand: (card: MergedCard, person: Person) => void;
 }) {
-  const { locale } = useLocale();
+  const { locale, toScript } = useLocale();
   const count = card.events.length;
   const primary = card.events[0];
   const isBirth = primary.tags?.includes('出生');
@@ -71,7 +71,7 @@ function EventCard({
 
   return (
     <div
-      className="bg-white border border-stone-200 rounded-lg hover:border-stone-400 hover:shadow-md transition-all cursor-pointer group"
+      className="bg-white border border-stone-200 rounded-lg hover:border-stone-400 hover:shadow-md transition-all cursor-pointer"
       style={{
         borderLeftWidth: 3,
         borderLeftColor: color,
@@ -79,6 +79,7 @@ function EventCard({
         marginLeft: shiftLeft,
         marginRight: shiftLeft > 0 ? -shiftLeft : 0,
       }}
+      onClick={() => onExpand(card, person)}
     >
       <div className="px-3 py-2">
         <div className="flex items-start justify-between gap-1">
@@ -115,13 +116,6 @@ function EventCard({
               )}
             </div>
           </div>
-          <button
-            onClick={(e) => { e.stopPropagation(); onExpand(card, person); }}
-            className="flex-shrink-0 p-1 rounded-md opacity-0 group-hover:opacity-100 hover:bg-stone-100 text-stone-400 hover:text-stone-600 transition-all"
-            title="展开详情"
-          >
-            <Maximize2 size={12} />
-          </button>
         </div>
         {isReference && primary.summary && (
           <p className="text-[11px] text-stone-500 leading-relaxed mt-1.5 ml-[18px] line-clamp-2">
@@ -139,14 +133,17 @@ interface VerticalCompareTimelineProps {
   referencePerson: Person | null;
   comparisonPeople: Person[];
   allEvents: Map<string, HistoricalEvent[]>;
+  /** Fullscreen toggle button rendered inside the timeline area top-right */
+  fullscreenButton?: React.ReactNode;
 }
 
 export default function VerticalCompareTimeline({
   referencePerson,
   comparisonPeople,
   allEvents,
+  fullscreenButton,
 }: VerticalCompareTimelineProps) {
-  const { locale, t } = useLocale();
+  const { locale, t, toScript } = useLocale();
   const [zoomIndex, setZoomIndex] = useState(2);
   const [expandedCard, setExpandedCard] = useState<MergedCard | null>(null);
   const [expandedPerson, setExpandedPerson] = useState<Person | null>(null);
@@ -214,40 +211,35 @@ export default function VerticalCompareTimeline({
 
     for (const p of allPeople) {
       const merged = mergeEvents(allEvents.get(p.id) ?? []);
-      const isReference = p === referencePerson;
 
       // Estimate card height for overlap calculation
       const estCardHeight = 80; // approximate pixel height per card
 
-      // Layout with overlap avoidance (only for reference column)
+      // Layout with overlap avoidance: push cards down when they overlap
       const layout: LayoutCard[] = [];
       for (const card of merged) {
-        const y = yearToY(card.startYear);
-        const cardTop = y;
-        const cardBottom = cardTop + estCardHeight;
+        let y = yearToY(card.startYear);
 
-        let layer = 0;
-        let found = false;
-        const maxLayers = 6;
+        // Check against ALL previous cards, push down if overlapping
+        for (const prev of layout) {
+          const prevTop = prev.y;
+          const prevBottom = prevTop + estCardHeight;
 
-        while (!found && layer < maxLayers) {
-          let overlaps = false;
-          for (const prev of layout) {
-            if (prev.shiftLeft !== layer * 20) continue;
-            const prevBottom = prev.y + estCardHeight;
-            if (cardTop < prevBottom + CARD_MIN_GAP && cardBottom > prev.y - CARD_MIN_GAP) {
-              overlaps = true;
-              break;
-            }
+          // Recalculate current card position for each check (y may have been pushed down)
+          const curTop = y;
+          const curBottom = curTop + estCardHeight;
+
+          if (curTop < prevBottom + CARD_MIN_GAP && curBottom > prevTop - CARD_MIN_GAP) {
+            // Overlap: push this card down below previous
+            const newY = prevBottom + CARD_MIN_GAP;
+            y = Math.max(y, newY);
           }
-          if (!overlaps) found = true;
-          else layer++;
         }
 
         layout.push({
           ...card,
           y,
-          shiftLeft: isReference ? layer * 20 : 0,
+          shiftLeft: 0,
         });
       }
       map.set(p.id, layout);
@@ -342,7 +334,7 @@ export default function VerticalCompareTimeline({
 
   return (
     <div className="mt-4">
-      {/* Toolbar */}
+      {/* Toolbar: zoom controls (outside timeline area) */}
       <div className="flex items-center justify-between mb-3 px-1">
         <span className="text-xs text-stone-400">
           {allPeople.length} 人 · {fmtYear(minYear)} – {fmtYear(maxYear)}
@@ -355,26 +347,28 @@ export default function VerticalCompareTimeline({
       </div>
 
       {/* Timeline */}
-      <div className="border border-stone-200 rounded-xl bg-white shadow-sm overflow-hidden">
-        <div className="overflow-auto" style={{ maxHeight: 'calc(100vh - 220px)' }}>
-          <div ref={scrollContainerRef} className="overflow-auto" style={{ maxHeight: 'calc(100vh - 220px)' }}>
-            <div className="relative" style={{ height: totalHeight, minWidth: totalWidth }}>
+      <div className="border border-stone-200 rounded-xl bg-white shadow-sm overflow-hidden relative">
+        {/* ===== Fullscreen button — inside timeline area, top-right ===== */}
+        {fullscreenButton}
+
+        <div ref={scrollContainerRef} className="overflow-auto" style={{ maxHeight: 'calc(100vh - 220px)' }}>
+          <div className="relative" style={{ height: totalHeight, minWidth: totalWidth }}>
 
               {/* ===== Timeline axis ===== */}
               <div className="absolute top-0 bottom-0 z-0" style={{ left: AXIS_X, width: 1, backgroundColor: '#d6d3d1' }} />
 
-              {/* ===== Year labels (RIGHT of axis, ABOVE cards via z-index) ===== */}
+              {/* ===== Year labels (RIGHT of axis) with tick marks ON axis ===== */}
               {yearTicks.map(({ year, y }) => (
                 <div
                   key={year}
-                  className="absolute flex items-center z-30"
+                  className="absolute flex items-center z-10"
                   style={{ left: YEAR_LABEL_LEFT, top: y, transform: 'translateY(-50%)' }}
                 >
-                  {/* Small tick mark */}
+                  {/* Tick mark — centered exactly on the axis line */}
                   <div
                     className="absolute rounded-full"
                     style={{
-                      left: -4,
+                      left: AXIS_X - YEAR_LABEL_LEFT,
                       top: '50%',
                       transform: 'translate(-50%, -50%)',
                       width: year % 50 === 0 ? 6 : 4,
@@ -391,16 +385,13 @@ export default function VerticalCompareTimeline({
                 </div>
               ))}
 
-              {/* ===== LEFT: Reference Person ===== */}
-              {referencePerson && (() => {
-                const color = PERSON_COLORS[0];
-                const cards = personCardsMap.get(referencePerson.id) ?? [];
-                const displayed = showAll[referencePerson.id] ? cards : cards.slice(0, 30);
-
-                return (
-                  <div className="absolute top-0" style={{ left: 0, width: REF_CARD_RIGHT }}>
-                    {/* Column header */}
-                    <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100 mb-2 px-2 py-2">
+              {/* ===== Sticky header row — all column headers in one line, aligned with event cards ===== */}
+              <div className="sticky top-0 z-20 flex bg-white/95 backdrop-blur-sm border-b border-stone-100" style={{ marginBottom: 60 }}>
+                {/* Reference header */}
+                {referencePerson && (() => {
+                  const color = PERSON_COLORS[0];
+                  return (
+                    <div className="px-2 py-2 flex-shrink-0" style={{ width: REF_CARD_RIGHT }}>
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-1.5 min-w-0">
                           <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
@@ -409,7 +400,7 @@ export default function VerticalCompareTimeline({
                           </span>
                         </div>
                         <span className="text-[10px] text-orange-500 font-medium flex-shrink-0 ml-1">
-                          {locale === 'en' ? 'Ref' : '参照'}
+                          {locale === 'en' ? 'Ref' : toScript('参照')}
                         </span>
                       </div>
                       {referencePerson.birthYear != null && referencePerson.deathYear != null && (
@@ -418,7 +409,45 @@ export default function VerticalCompareTimeline({
                         </span>
                       )}
                     </div>
+                  );
+                })()}
 
+                {/* Spacer between reference and comparison columns */}
+                {referencePerson && comparisonPeople.length > 0 && (
+                  <div style={{ width: COMPARE_START_X - REF_CARD_RIGHT }} />
+                )}
+
+                {/* Comparison headers */}
+                {comparisonPeople.map((person, idx) => {
+                  const color = PERSON_COLORS[(idx + 1) % PERSON_COLORS.length];
+                  return (
+                    <div key={person.id} className="px-2 py-2 flex-shrink-0" style={{ width: CARD_WIDTH, marginRight: 20 }}>
+                      <div className="flex items-center justify-between">
+                        <div className="flex items-center gap-1.5 min-w-0">
+                          <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
+                          <span className="text-xs font-semibold text-stone-800 truncate">
+                            {personName(person, locale)}
+                          </span>
+                        </div>
+                      </div>
+                      {person.birthYear != null && person.deathYear != null && (
+                        <span className="text-[10px] font-mono text-stone-400">
+                          {fmtYear(person.birthYear)}–{fmtYear(person.deathYear)}
+                        </span>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* ===== LEFT: Reference Person event cards ===== */}
+              {referencePerson && (() => {
+                const color = PERSON_COLORS[0];
+                const cards = personCardsMap.get(referencePerson.id) ?? [];
+                const displayed = showAll[referencePerson.id] ? cards : cards.slice(0, 30);
+
+                return (
+                  <div className="absolute top-0" style={{ left: 0, width: REF_CARD_RIGHT, paddingTop: 60 }}>
                     {/* Lifespan bar */}
                     {referencePerson.birthYear != null && referencePerson.deathYear != null && (() => {
                       const barTop = yearToY(referencePerson.birthYear);
@@ -432,19 +461,51 @@ export default function VerticalCompareTimeline({
                     })()}
 
                     {/* Event cards */}
-                    {displayed.map((card, i) => (
-                      <div key={i} className="absolute z-10" style={{ top: card.y, left: 0, right: 0 }}>
-                        <EventCard
-                          card={card}
-                          person={referencePerson}
-                          color={color}
-                          isReference={true}
-                          shiftLeft={card.shiftLeft}
-                          onExpand={openExpand}
-                        />
-                        <div style={{ height: CARD_MIN_GAP }} />
-                      </div>
-                    ))}
+                    {displayed.map((card, i) => {
+                      const isDuration = card.endYear !== card.startYear;
+                      const durStartY = yearToY(card.startYear);
+                      const durEndY = yearToY(card.endYear);
+                      const durHeight = Math.max(durEndY - durStartY, 4);
+                      return (
+                        <div key={i} className="absolute z-10" style={{ top: card.y, left: 0, right: 0 }}>
+                          {/* Duration bar on axis (for events with time range) */}
+                          {isDuration && (
+                            <div
+                              className="absolute rounded-sm z-10"
+                              style={{
+                                left: AXIS_X - 2,
+                                top: durStartY - card.y,
+                                width: 4,
+                                height: durHeight,
+                                backgroundColor: color,
+                                opacity: 0.6,
+                              }}
+                            />
+                          )}
+                          {/* Axis dot — on the axis line */}
+                          <div
+                            className="absolute rounded-full"
+                            style={{
+                              left: AXIS_X,
+                              top: 21,
+                              transform: 'translate(-50%, -50%)',
+                              width: isDuration ? 0 : 8,
+                              height: isDuration ? 0 : 8,
+                              backgroundColor: color,
+                            }}
+                          />
+                          <EventCard
+                            card={card}
+                            person={referencePerson}
+                            color={color}
+                            isReference={true}
+                            shiftLeft={card.shiftLeft}
+                            onExpand={openExpand}
+                          />
+                          <div style={{ height: CARD_MIN_GAP }} />
+                        </div>
+                      );
+                    })}
 
                     {cards.length > 30 && !showAll[referencePerson.id] && (
                       <div className="absolute bottom-0 left-0 right-0 z-20 bg-white/90 border-t border-stone-100 py-2 text-center">
@@ -460,7 +521,7 @@ export default function VerticalCompareTimeline({
                 );
               })()}
 
-              {/* ===== RIGHT: Comparison People ===== */}
+              {/* ===== RIGHT: Comparison People event cards ===== */}
               {comparisonPeople.map((person, idx) => {
                 const color = PERSON_COLORS[(idx + 1) % PERSON_COLORS.length];
                 const cards = personCardsMap.get(person.id) ?? [];
@@ -468,24 +529,7 @@ export default function VerticalCompareTimeline({
                 const colLeft = COMPARE_START_X + idx * (CARD_WIDTH + 20);
 
                 return (
-                  <div key={person.id} className="absolute top-0" style={{ left: colLeft, width: CARD_WIDTH }}>
-                    {/* Column header */}
-                    <div className="sticky top-0 z-20 bg-white/95 backdrop-blur-sm border-b border-stone-100 mb-2 px-2 py-2">
-                      <div className="flex items-center justify-between">
-                        <div className="flex items-center gap-1.5 min-w-0">
-                          <div className="w-2 h-2 rounded-full flex-shrink-0" style={{ backgroundColor: color }} />
-                          <span className="text-xs font-semibold text-stone-800 truncate">
-                            {personName(person, locale)}
-                          </span>
-                        </div>
-                      </div>
-                      {person.birthYear != null && person.deathYear != null && (
-                        <span className="text-[10px] font-mono text-stone-400">
-                          {fmtYear(person.birthYear)}–{fmtYear(person.deathYear)}
-                        </span>
-                      )}
-                    </div>
-
+                  <div key={person.id} className="absolute top-0" style={{ left: colLeft, width: CARD_WIDTH, paddingTop: 60 }}>
                     {/* Lifespan bar */}
                     {person.birthYear != null && person.deathYear != null && (() => {
                       const barTop = yearToY(person.birthYear);
@@ -499,19 +543,52 @@ export default function VerticalCompareTimeline({
                     })()}
 
                     {/* Event cards */}
-                    {displayed.map((card, i) => (
-                      <div key={i} className="absolute z-10" style={{ top: card.y, left: 0, right: 0 }}>
-                        <EventCard
-                          card={card}
-                          person={person}
-                          color={color}
-                          isReference={false}
-                          shiftLeft={0}
-                          onExpand={openExpand}
-                        />
+                    {displayed.map((card, i) => {
+                      const isDuration = card.endYear !== card.startYear;
+                      const durStartY = yearToY(card.startYear);
+                      const durEndY = yearToY(card.endYear);
+                      const durHeight = Math.max(durEndY - durStartY, 4);
+                      const axisOffset = -(colLeft - AXIS_X);
+                      return (
+                        <div key={i} className="absolute z-10" style={{ top: card.y, left: 0, right: 0 }}>
+                          {/* Duration bar on axis (for events with time range) */}
+                          {isDuration && (
+                            <div
+                              className="absolute rounded-sm z-10"
+                              style={{
+                                left: axisOffset - 2,
+                                top: durStartY - card.y,
+                                width: 4,
+                                height: durHeight,
+                                backgroundColor: color,
+                                opacity: 0.6,
+                              }}
+                            />
+                          )}
+                          {/* Axis dot — on the axis line (only for point events) */}
+                          <div
+                            className="absolute rounded-full"
+                            style={{
+                              left: axisOffset,
+                              top: 21,
+                              transform: 'translate(-50%, -50%)',
+                              width: isDuration ? 0 : 8,
+                              height: isDuration ? 0 : 8,
+                              backgroundColor: color,
+                            }}
+                          />
+                          <EventCard
+                            card={card}
+                            person={person}
+                            color={color}
+                            isReference={false}
+                            shiftLeft={0}
+                            onExpand={openExpand}
+                          />
                         <div style={{ height: CARD_MIN_GAP }} />
                       </div>
-                    ))}
+                      );
+                    })}
 
                     {cards.length > 20 && !showAll[person.id] && (
                       <div className="absolute bottom-0 left-0 right-0 z-20 bg-white/90 border-b border-stone-100 py-2 text-center">
@@ -527,7 +604,6 @@ export default function VerticalCompareTimeline({
                 );
               })}
             </div>
-          </div>
         </div>
       </div>
 

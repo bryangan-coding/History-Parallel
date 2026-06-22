@@ -447,7 +447,7 @@ export default function EventMapView({
               href={`/events/${selectedEvent.id}`}
               className="inline-block mt-2 text-xs font-medium text-amber-600 hover:text-amber-800"
             >
-              {locale === 'en' ? 'View Details →' : '查看详情 →'}
+              {locale === 'en' ? 'View Details →' : toScript('查看详情 →')}
             </Link>
           </div>
         )}
